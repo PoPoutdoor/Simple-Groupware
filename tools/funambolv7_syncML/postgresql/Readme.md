@@ -1,4 +1,4 @@
-# Simple Groupware Funambol Synchronization (SyncML)
+## Simple Groupware Funambol Synchronization (SyncML)
 
 See:
 
