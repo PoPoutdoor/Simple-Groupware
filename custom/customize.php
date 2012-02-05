@@ -1,6 +1,4 @@
 <?php
-// GPL
-
 /**
  * This script helps you to customize a Simple Groupware installation and to keep your changes after running updates.
  *
