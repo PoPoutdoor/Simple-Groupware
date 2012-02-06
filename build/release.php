@@ -8,6 +8,7 @@
 // TODO remove index.htm?
 // TODO version without demo data
 // TODO tar exclude self, exclude build
+// TODO separate validate script
 
 $build_dir = time();
 exec("git clone git@github.com:simplegroupware/Simple-Groupware.git ".$build_dir, $output);
