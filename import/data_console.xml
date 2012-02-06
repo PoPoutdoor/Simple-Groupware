@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<assets>
+  <asset>
+	<name>Directory listing (Windows)</name>
+	<command>dir /a</command>
+	<console>sys</console>
+  </asset>
+  <asset>
+	<name>Directory listing (Linux)</name>
+	<command>ls -lisa</command>
+	<console>sys</console>
+  </asset>
+  <asset>
+	<name>Disk info (Linux)</name>
+	<command>df -h</command>
+	<console>sys</console>
+  </asset>
+  <asset>
+	<name>Disk info (Windows)</name>
+	<command>wmic logicaldisk get Caption, FileSystem, FreeSpace, Size, VolumeName</command>
+	<console>sys</console>
+  </asset>
+  <asset>
+	<name>Memory info (Linux)</name>
+	<command>free</command>
+	<console>sys</console>
+  </asset>
+  <asset>
+	<name>Memory info (Windows)</name>
+	<command>wmic os get CSName, FreePhysicalMemory, FreeSpaceInPagingFiles, TotalVisibleMemorySize, TotalVirtualMemorySize</command>
+	<console>sys</console>
+  </asset>
+  <asset>
+	<name>Process list (Linux)</name>
+	<command>ps aux</command>
+	<console>sys</console>
+  </asset>
+  <asset>
+	<name>Service list (Windows)</name>
+	<command>wmic service get Caption, ProcessId, StartMode, State</command>
+	<console>sys</console>
+  </asset>
+  <asset>
+	<name>Task list (Windows)</name>
+	<command>tasklist /V</command>
+	<console>sys</console>
+  </asset>
+  <asset>
+	<name>Process list (Windows)</name>
+	<command>wmic process get Caption, ExecutablePath, ProcessId, ThreadCount, WorkingSetSize</command>
+	<console>sys</console>
+  </asset>
+  <asset>
+	<name>show tables</name>
+	<command>show tables</command>
+	<console>sql</console>
+  </asset>
+  <asset>
+	<name>show processlist</name>
+	<command>show processlist</command>
+	<console>sql</console>
+  </asset>
+  <asset>
+	<name>show table status</name>
+	<command>show table status</command>
+	<console>sql</console>
+  </asset>
+  <asset>
+	<name>show variables</name>
+	<command>show variables</command>
+	<console>sql</console>
+  </asset>
+</assets>

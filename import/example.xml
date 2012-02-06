@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contacts>
+    <contact>
+        <title>Mr.</title>
+        <firstname>John</firstname>
+        <lastname>Döäüoe</lastname>
+        <company>DoeCorp</company>
+        <email>john@doecorp.com</email>
+		<contactid>jdoe3</contactid>
+    </contact>
+    <contact>
+        <title>Ms.</title>
+        <firstname>Mary</firstname>
+        <lastname>Doe</lastname>
+        <company>DoeCorp</company>
+        <email>mary@doecorp.com</email>
+		<contactid>mdoe</contactid>
+    </contact>
+    <contact>
+        <title>Mr</title>
+        <firstname>Foo</firstname>
+        <lastname>Bar</lastname>
+        <company>FooBar Inc.</company>
+        <email>foo@foobar.com</email>
+		<contactid>fbar</contactid>
+    </contact>
+    <contact2>
+        <title>Mr.</title>
+        <firstname>John</firstname>
+        <lastname>Doe</lastname>
+        <company>DoeCorp</company>
+        <phone>34 56 78 9</phone>
+        <email>john@doecorp.com</email>
+		<contactid>jdoe2</contactid>
+    </contact2>
+	<asset>
+		<lastname>Doe</lastname>
+		<firstname>John</firstname>
+		<contactid>jdoe</contactid>
+		<company>Doe Corp</company>
+		<position>CIO</position>
+		<email>john.doe@doecorp.com</email>
+		<rating>promising</rating>
+		<contactperson>foo_bar</contactperson>
+		<phone>+49 89 123456</phone>
+		<fax>+49 89 123455</fax>
+		<mobile>+49 171 123456</mobile>
+		<pager>+49 171 123455</pager>
+		<contactby>E-mail</contactby>
+		<department>IT</department>
+		<street>Nowhere 12</street>
+		<zipcode>12345</zipcode>
+		<city>Munich</city>
+		<state>Bavaria</state>
+		<country>Germany</country>
+		<title>Mr.</title>
+		<degree>PhD</degree>
+		<nickname>Jonny</nickname>
+		<birthday>01/02/1975</birthday>
+		<emailprivate>john.doe@doepriv.com</emailprivate>
+		<phoneprivate>+49 89 123451</phoneprivate>
+		<secretary>Eve Example</secretary>
+		<origin>Workshop</origin>
+		<category>Client</category>
+	</asset>
+</contacts>
