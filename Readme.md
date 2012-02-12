@@ -22,4 +22,5 @@ Other Links:
 - Support: http://www.simple-groupware.de/cms/Support
 - User Manual: http://www.simple-groupware.de/cms/UserManual
 - Complete Manual: http://www.simple-groupware.de/cms/Manual
+- Documentation: http://www.simple-groupware.de/cms/Documentation
 - Why Open Source? http://www.simple-groupware.de/cms/Why-Open-Source
