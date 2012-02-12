@@ -12,26 +12,31 @@
 // TODO rebuild master lang
 // TODO remove index.htm?
 // TODO version without demo data
-// TODO tar exclude self, exclude build
 
-new build();
+new build(true, false);
 
 class build {
 
 	const MB = 1048576;
 
-	public function __construct($build=true) {
+	public function __construct($archives=true, $manuals=true) {
+		$this->sysCheck();
+		
 		$dir = $this->git();
+		$version = $this->getVersion($dir, false);
+		
 		$this->checkJs($dir);
 		$this->checkPhp($dir);
 
-		$version = $this->getVersion($dir, false);
-		$file = $dir."/SimpleGroupware_{$version}.tar";
-
-		if ($build) {
+		if ($archives) {
+			$file = "SimpleGroupware_{$version}.tar";
 			$this->tar($dir, $file, 5*self::MB);
-			$this->gz($file, 3*self::MB);
+			$this->gzip($file, 3*self::MB);
 
+			$file = "SimpleGroupware_{$version}.zip";
+			$this->zip($dir, $file, 3*self::MB);
+		}
+		if ($manuals) {
 			$pdf = $dir."/SimpleGroupwareManual_{$version}.pdf";
 			$this->html2pdf("http://www.simple-groupware.de/cms/ManualPrint", $pdf);
 			
@@ -43,13 +48,26 @@ class build {
 		}
 	}
 
+	private function sysCheck() {
+		$tools = array("git --version", "js -v", "zca", "tar", "gzip", "zip", "perl -v");
+		foreach ($tools as $tool) {
+			$output = array();
+			$code = 0;
+			exec($tool." 2>&1", $output, $code);
+			if ($code===1 or $code===127) throw new Exception("Tool not found: ".$tool);
+		}
+	}
+
 	private function git() {
 		$dir = time();
 		if (is_dir($dir)) throw new Exception("Build directory already exists.");
+		mkdir($dir);
+		chdir($dir);
+		$dir = "SimpleGroupware";
 		
 		$output = array();
 		exec("git clone git@github.com:simplegroupware/Simple-Groupware.git ".$dir, $output);
-		if (!is_dir($dir)) throw new Exception("Git directory not found: ".print_r($output, true));
+		if (!is_dir("SimpleGroupware")) throw new Exception("Git directory not found: ".print_r($output, true));
 		return $dir;
 	}
 	
@@ -156,22 +174,34 @@ class build {
 		if (!is_dir($dir)) throw new Exception("Directory not found.");
 		if (file_exists($file)) @unlink($file);
 		if (file_exists($file)) throw new Exception("Tar archive already exists.");
-		chdir($dir);
+		
 		$output = array();
-		exec("tar --exclude .git -cf {$file} .", $output);
+		exec("tar --exclude .git --exclude build -cf ".$file." ".$dir, $output);
 		if (!file_exists($file) or filesize($file)<$minsize) {
 			throw new Exception("Error creating tar file: ".print_r($output, true));
 		}
 	}
 	
-	private function gz($file, $minsize=0) {
+	private function gzip($file, $minsize=0) {
 		$file_gz = $file.".gz";
 		if (file_exists($file_gz)) @unlink($file_gz);
 		if (file_exists($file_gz)) throw new Exception("Gzip archive already exists.");
 		$output = array();
-		exec("gzip -9 {$file}", $output);
+		exec("gzip -9 ".$file, $output);
 		if (!file_exists($file_gz) or filesize($file)<$minsize) {
 		  throw new Exception("Error creating gzip file: ".print_r($output, true));
+		}
+	}
+	
+	private function zip($dir, $file, $minsize=0) {
+		if (!is_dir($dir)) throw new Exception("Directory not found.");
+		if (file_exists($file)) @unlink($file);
+		if (file_exists($file)) throw new Exception("Zip archive already exists.");
+		
+		$output = array();
+		exec("zip -r -9 -q ".$file." ".$dir."/** -x */build* */.git*", $output);
+		if (!file_exists($file) or filesize($file)<$minsize) {
+			throw new Exception("Error creating zip file: ".print_r($output, true));
 		}
 	}
 }
