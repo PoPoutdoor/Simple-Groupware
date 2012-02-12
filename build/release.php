@@ -34,6 +34,10 @@ class build {
 			$this->tar($dir, $file, 5*self::MB);
 			$this->gzip($file, 3*self::MB);
 
+			$file = "SimpleGroupware_no_demo_data_{$version}.tar";
+			$this->tar($dir, $file, 5*self::MB, "import");
+			$this->gzip($file, 3*self::MB);
+
 			$file = "SimpleGroupware_{$version}.zip";
 			$this->zip($dir, $file, 3*self::MB);
 		}
@@ -75,11 +79,11 @@ class build {
 	private function html2pdf($url, $pdf) {
 		$ps = tempnam("/tmp", "ps").".ps";
 		$output = array();
-		exec("perl html2ps.pl -n -u -t -o ".$ps." ".$url."");
+		exec("perl html2ps.pl -n -u -t -o {$ps} {$url}");
 		if (filesize($ps)<1000000) throw new Exception("ps too small: ".$ps);
 
 		$output = array();
-		exec("gs -sDEVICE=pdfwrite -dNOPAUSE -dQUIET -dBATCH -sOutputFile=".$pdf." ".$ps, $output);
+		exec("gs -sDEVICE=pdfwrite -dNOPAUSE -dQUIET -dBATCH -sOutputFile={$pdf} {$ps}", $output);
 		if (!empty($output)) throw new Exception("gs error: ".print_r($output, true));
 		if (filesize($pdf)<100000) throw new Exception("pdf too small: ".$pdf);
 		unlink($ps);
@@ -118,7 +122,7 @@ class build {
 		if (!preg_match($patterns, $content)) return;
 		foreach (file($file) as $line) {
 			if (preg_match($patterns, $line)) {
-				throw new Exception("Anti-Pattern match in: ".$file."\n".$line);
+				throw new Exception("Anti-Pattern match in: {$file}\n{$line}");
 			}
 		}
 	}
@@ -170,13 +174,14 @@ class build {
 		return $match[1];
 	}
 	
-	private function tar($dir, $file, $minsize=0) {
+	private function tar($dir, $file, $minsize=0, $exclude="") {
 		if (!is_dir($dir)) throw new Exception("Directory not found.");
 		if (file_exists($file)) @unlink($file);
 		if (file_exists($file)) throw new Exception("Tar archive already exists.");
 		
 		$output = array();
-		exec("tar --exclude .git --exclude build -cf ".$file." ".$dir, $output);
+		if ($exclude!="") $exclude = "--exclude ".$exclude;
+		exec("tar --exclude .git --exclude build {$exclude} {$param} -cf {$file} {$dir}", $output);
 		if (!file_exists($file) or filesize($file)<$minsize) {
 			throw new Exception("Error creating tar file: ".print_r($output, true));
 		}
@@ -187,7 +192,7 @@ class build {
 		if (file_exists($file_gz)) @unlink($file_gz);
 		if (file_exists($file_gz)) throw new Exception("Gzip archive already exists.");
 		$output = array();
-		exec("gzip -9 ".$file, $output);
+		exec("gzip -9 {$file}", $output);
 		if (!file_exists($file_gz) or filesize($file)<$minsize) {
 		  throw new Exception("Error creating gzip file: ".print_r($output, true));
 		}
@@ -199,7 +204,7 @@ class build {
 		if (file_exists($file)) throw new Exception("Zip archive already exists.");
 		
 		$output = array();
-		exec("zip -r -9 -q ".$file." ".$dir."/** -x */build* */.git*", $output);
+		exec("zip -r -9 -q {$file} {$dir}/** -x */build* */.git*", $output);
 		if (!file_exists($file) or filesize($file)<$minsize) {
 			throw new Exception("Error creating zip file: ".print_r($output, true));
 		}
