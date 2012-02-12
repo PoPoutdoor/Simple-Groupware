@@ -10,7 +10,6 @@
 // TODO validate german translations
 // TODO test install mysql, postgres, sqlite
 // TODO rebuild master lang
-// TODO build manuals
 // TODO remove index.htm?
 // TODO version without demo data
 // TODO tar exclude self, exclude build
@@ -32,6 +31,15 @@ class build {
 		if ($build) {
 			$this->tar($dir, $file, 5*self::MB);
 			$this->gz($file, 3*self::MB);
+
+			$pdf = "SimpleGroupwareManual_".$version.".pdf";
+			$this->html2pdf("http://www.simple-groupware.de/cms/ManualPrint", $pdf);
+			
+			$pdf = "SimpleGroupwareManual_sgsML_".$version.".pdf";
+			$this->html2pdf("http://www.simple-groupware.de/cms/SgsMLReferencePrint", $pdf);
+
+			$pdf = "SimpleGroupwareUserManual_".$version.".pdf";
+			$this->html2pdf("http://www.simple-groupware.de/cms/UserManualPrint", $pdf);
 		}
 	}
 
@@ -43,6 +51,34 @@ class build {
 		exec("git clone git@github.com:simplegroupware/Simple-Groupware.git ".$dir, $output);
 		if (!is_dir($dir)) throw new Exception("Git directory not found: ".print_r($output, true));
 		return $dir;
+	}
+	
+	private function html2pdf($url, $pdf) {
+		$ps = tempnam("/tmp", "ps").".ps";
+		$output = array();
+		exec("j:/perl/bin/perl html2ps.pl -n -u -t -o ".$ps." ".$url."");
+		if (filesize($ps)<1000000) throw new Exception("ps too small: ".$ps);
+
+		$output = array();
+		exec("gs -sDEVICE=pdfwrite -dNOPAUSE -dQUIET -dBATCH -sOutputFile=".$pdf." ".$ps, $output);
+		if (!empty($output)) throw new Exception("gs error: ".print_r($output, true));
+		if (filesize($pdf)<100000) throw new Exception("pdf too small: ".$pdf);
+		unlink($ps);
+	}
+
+	private function checkJs($dir) {
+		$filter = "/window is not defined/";
+		$dir .= "/ext/js/";
+		if (!is_dir($dir)) throw new Exception("Directory not found: ".$dir);
+		foreach (scandir($dir) as $file) {
+			if (!strpos($file, ".js")) continue;
+			$output = array();
+			exec("js ".$dir.$file." 2>&1", $output);
+			foreach ($output as $line) {
+				if (preg_match($filter, $line)) continue;
+				throw new Exception($line);
+			}
+		}
 	}
 	
 	private function antiPatternPhp($file) {
@@ -92,26 +128,11 @@ class build {
 			}
 			if (!strpos($file, ".php")) continue;
 			$this->antiPatternPhp($dir.$file);
-		
+
 			$output = array();
 			exec("zca ".$dir.$file." 2>&1", $output);
 			array_shift($output);
 			array_shift($output);
-			foreach ($output as $line) {
-				if (preg_match($filter, $line)) continue;
-				throw new Exception($line);
-			}
-		}
-	}
-	
-	private function checkJs($dir) {
-		$filter = "/window is not defined/";
-		$dir .= "/ext/js/";
-		if (!is_dir($dir)) throw new Exception("Directory not found: ".$dir);
-		foreach (scandir($dir) as $file) {
-			if (!strpos($file, ".js")) continue;
-			$output = array();
-			exec("js ".$dir.$file." 2>&1", $output);
 			foreach ($output as $line) {
 				if (preg_match($filter, $line)) continue;
 				throw new Exception($line);
