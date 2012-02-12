@@ -2819,11 +2819,8 @@ Version 0.1 (Dec 13, 2004) (tb)
     * This release doesn't contain a rights management system
       Therefore anonymous users will have full administrative rights (e.g. create new users, groups)
       
-    * PHP-compatibility: When using PHP 4.3.10 or a higher 4.x.x version you need to patch ./setup.php, line 46:
-      replace: 
-      if ((int)str_replace(".","",substr(PHP_VERSION,0,5)) < (int)str_replace(".","",$phpversion)) setup_error(sprintf("{t}Setup needs php with at least version %s !{/t}",$phpversion)); 
-      with: 
-      // if ((int)str_replace(".","",substr(PHP_VERSION,0,5)) < (int)str_replace(".","",$phpversion)) setup_error(sprintf("{t}Setup needs php with at least version %s !{/t}",$phpversion)); 
+    * PHP-compatibility: When using PHP 4.3.10 or a higher 4.x.x version you need to patch ./setup.php, remove line 46:
+      if ((int)str_replace(".","",substr(PHP_VERSION,0,5)) < (int)str_replace(".","",$phpversion)) setup_error(sprintf("Setup needs php with at least version %s !",$phpversion)); 
 
     * MySQL-compatibility:
       Mysql 5.0.2-alpha will not work with Simple Groupware: The database crashes when launching the Simple Groupware Setup. (4.0.x and 4.1.x work without any problems)
