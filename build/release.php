@@ -74,8 +74,7 @@ class build {
 	private function html2pdf($url, $pdf) {
 		$ps = tempnam("/tmp", "ps").".ps";
 		$output = array();
-		// TODO change
-		exec("j:/perl/bin/perl html2ps.pl -n -u -t -o ".$ps." ".$url."");
+		exec("perl html2ps.pl -n -u -t -o ".$ps." ".$url."");
 		if (filesize($ps)<1000000) throw new Exception("ps too small: ".$ps);
 
 		$output = array();
