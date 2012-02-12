@@ -1,4 +1,6 @@
 <?php
+if (!defined("MAIN_SCRIPT")) exit;
+
 /**
  * This script helps you to customize a Simple Groupware installation and to keep your changes after running updates.
  *
