@@ -32,13 +32,13 @@ class build {
 			$this->tar($dir, $file, 5*self::MB);
 			$this->gz($file, 3*self::MB);
 
-			$pdf = "SimpleGroupwareManual_".$version.".pdf";
+			$pdf = $dir."/SimpleGroupwareManual_{$version}.pdf";
 			$this->html2pdf("http://www.simple-groupware.de/cms/ManualPrint", $pdf);
 			
-			$pdf = "SimpleGroupwareManual_sgsML_".$version.".pdf";
+			$pdf = $dir."/SimpleGroupwareManual_sgsML_{$version}.pdf";
 			$this->html2pdf("http://www.simple-groupware.de/cms/SgsMLReferencePrint", $pdf);
 
-			$pdf = "SimpleGroupwareUserManual_".$version.".pdf";
+			$pdf = $dir."/SimpleGroupwareUserManual_{$version}.pdf";
 			$this->html2pdf("http://www.simple-groupware.de/cms/UserManualPrint", $pdf);
 		}
 	}
@@ -56,6 +56,7 @@ class build {
 	private function html2pdf($url, $pdf) {
 		$ps = tempnam("/tmp", "ps").".ps";
 		$output = array();
+		// TODO change
 		exec("j:/perl/bin/perl html2ps.pl -n -u -t -o ".$ps." ".$url."");
 		if (filesize($ps)<1000000) throw new Exception("ps too small: ".$ps);
 
