@@ -1,4 +1,5 @@
-# Simple Groupware
+Simple Groupware
+================
 
 Simple Groupware & CMS is an open source enterprise groupware.
 It offers email, calendaring, contacts, tasks, document management, project management, synchronization with Outlook and cell phones, full-text search, extensions and many more.
