@@ -28,7 +28,7 @@ static function folder_info($path, $mfolder) {
 	$xml = new SimpleXMLElement(self::_fix_namespace($response, array("docs", "gd")));
   }
   catch (Exception $e) {
-	exit("{t}Error{/t} ".implode("\n", $e->getMessage())."\n".$response." ".$http_response_header[0]);	
+	exit(t("Error")." ".implode("\n", $e->getMessage())."\n".$response." ".$http_response_header[0]);	
   }
   $result = array();
   $result["quota"]["quota"] = (int)$xml->gd_quotaBytesTotal;
@@ -77,7 +77,7 @@ private static function _select_xml($path, $mfolder) {
 	  foreach ($xml->entry as $entry) $entries .= $entry->asXML();
 	  $url = (string)@array_shift($xml->xpath("/feed/link[@rel='next']/@href"));
 	} catch (Exception $e) {
-	  sys_warning("{t}Error{/t} [select_xml] ".$e->getMessage());
+	  sys_warning(t("Error")." [select_xml] ".$e->getMessage());
 	  return array();
 	}
 	$limit++;
@@ -151,7 +151,7 @@ static function delete($path,$where,$vars,$mfolder) {
   sys_cache_remove("gdocs_xml_".md5(serialize(sys_credentials($mfolder)).$path));
   
   if (!strpos($http_response_header[0], "200")) {
-	exit("{t}Error{/t} ".implode("\n", $http_response_header)."\n".$vars["id"]."\n".$response);
+	exit(t("Error")." ".implode("\n", $http_response_header)."\n".$vars["id"]."\n".$response);
   }
   return "";
 }
@@ -180,7 +180,7 @@ static function insert($path,$data,$mfolder) {
 	preg_match("/Location: (.+)/m", implode("\n", $http_response_header), $match);
 
 	if (!strpos($http_response_header[0], "200") or empty($match[1])) {
-	  return "{t}Error{/t} [insert] ".implode("\n", $http_response_header)."\n".$response;
+	  return t("Error")." [insert] ".implode("\n", $http_response_header)."\n".$response;
 	}
 	$header = "POST ".$match[1]." HTTP/1.0\r\n";
 	$header .= "Host: docs.google.com\r\n";
@@ -197,9 +197,9 @@ static function insert($path,$data,$mfolder) {
 	  while (!feof($fp)) $resp .= fread($fp, 8192);
 	  fclose($fp);
 	  fclose($fin);
-	  if (!sys_strbegins($resp, "HTTP/1.0 201")) return "{t}Error{/t} [insert2] ".$resp;
+	  if (!sys_strbegins($resp, "HTTP/1.0 201")) return t("Error")." [insert2] ".$resp;
 	} else {
-	  return "{t}Error{/t} [insert3] ".$errorString." ".$errorNumber;
+	  return t("Error")." [insert3] ".$errorString." ".$errorNumber;
 	}
 	sys_cache_remove("gdocs_xml_".md5(serialize(sys_credentials($mfolder)).$path));
   }
@@ -218,7 +218,7 @@ static function _move_file($file, $source, $target, $mfolder) {
   sys_cache_remove("gdocs_xml_".md5(serialize(sys_credentials($mfolder)).$source));
   
   if (!strpos($http_response_header[0], "200")) {
-	return "{t}Error{/t} [update] ".implode("\n", $http_response_header)."\n".$file."\n".$response;
+	return t("Error")." [update] ".implode("\n", $http_response_header)."\n".$file."\n".$response;
   }
   $content = "<?xml version='1.0' encoding='UTF-8'?>".
 	"<entry xmlns='http://www.w3.org/2005/Atom'>".
@@ -232,7 +232,7 @@ static function _move_file($file, $source, $target, $mfolder) {
   sys_cache_remove("gdocs_xml_".md5(serialize(sys_credentials($mfolder)).$target));
   
   if (!strpos($http_response_header[0], "201")) {
-	return "{t}Error{/t} [update2] ".implode("\n", $http_response_header)."\n".$file."\n".$response;
+	return t("Error")." [update2] ".implode("\n", $http_response_header)."\n".$file."\n".$response;
   }
   return "";
 }
@@ -266,7 +266,7 @@ static function update($path,$data,$where,$vars,$mfolder) {
 	preg_match("/Location: (.+)/m", implode("\n", $http_response_header), $match);
 
 	if (!strpos($http_response_header[0], "200") or empty($match[1])) {
-	  return "{t}Error{/t} [update] ".implode("\n", $http_response_header)."\n".$response;
+	  return t("Error")." [update] ".implode("\n", $http_response_header)."\n".$response;
 	}
 
 	$header = "PUT ".$match[1]." HTTP/1.0\r\n";
@@ -284,9 +284,9 @@ static function update($path,$data,$where,$vars,$mfolder) {
 	  while (!feof($fp)) $resp .= fread($fp, 8192);
 	  fclose($fp);
 	  fclose($fin);
-	  if (!sys_strbegins($resp, "HTTP/1.0 200")) return "{t}Error{/t} [update2] ".$resp;
+	  if (!sys_strbegins($resp, "HTTP/1.0 200")) return t("Error")." [update2] ".$resp;
 	} else {
-	  return "{t}Error{/t} [update3] ".$errorString." ".$errorNumber;
+	  return t("Error")." [update3] ".$errorString." ".$errorNumber;
 	}
 
   } else {
@@ -297,7 +297,7 @@ static function update($path,$data,$where,$vars,$mfolder) {
 	$response = file_get_contents($url, false, $context);
   
 	if (!strpos($http_response_header[0], "200")) {
-	  return "{t}Error{/t} [update4] ".$http_response_header."\n".$response;
+	  return t("Error")." [update4] ".$http_response_header."\n".$response;
 	}
   }
   sys_cache_remove("gdocs_xml_".md5(serialize(sys_credentials($mfolder)).$path));
@@ -319,7 +319,7 @@ static function create_folder($title,$parent,$mfolder) {
   if (strpos($http_response_header[0], "201")) {
 	return "ok";
   } else {
-	exit("{t}Error{/t} ".implode("\n", $http_response_header)." ".$parent);
+	exit(t("Error")." ".implode("\n", $http_response_header)." ".$parent);
   }
   return "";
 }
@@ -337,7 +337,7 @@ static function rename_folder($title,$path,$mfolder) {
 
   sys_cache_remove("gdocs_boxes_".md5(serialize(sys_credentials($mfolder))));
   if (!strpos($http_response_header[0], "200")) {
-	exit("{t}Error{/t} ".implode("\n", $http_response_header)." ".$path);
+	exit(t("Error")." ".implode("\n", $http_response_header)." ".$path);
   }
   return "ok";
 }
@@ -349,7 +349,7 @@ static function delete_folder($path,$mfolder) {
 
   sys_cache_remove("gdocs_boxes_".md5(serialize(sys_credentials($mfolder))));
   if (!strpos($http_response_header[0], "200")) {
-	exit("{t}Error{/t} ".implode("\n", $http_response_header)." ".$path);
+	exit(t("Error")." ".implode("\n", $http_response_header)." ".$path);
   }
   return "ok";
 }
