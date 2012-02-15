@@ -1,4 +1,7 @@
-// GPL
+/**
+ * @package Simple Groupware
+ * @license GPLv2
+ */
 
 {t}!_Copyright_Language_File{/t}
 Copyright (C) 2007-2008 Emmanuel BAC / Emmanuel BROST / Christophe THOMAS / Laurent BARDI

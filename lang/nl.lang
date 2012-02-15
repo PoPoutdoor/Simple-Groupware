@@ -1,4 +1,7 @@
-// GPL
+/**
+ * @package Simple Groupware
+ * @license GPLv2
+ */
 
 {t}!_Copyright_Language_File{/t}
 Copyright (C) 2006,2007 Dennis van Rijswijk, Henry van der Vegt

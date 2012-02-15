@@ -1,7 +1,10 @@
-// GPL
+/**
+ * @package Simple Groupware
+ * @license GPLv2
+ */
 
 {t}!_Copyright_Language_File{/t}
-Copyright (C) 2002-2011 Thomas Bley
+Copyright (C) 2002-2012 Thomas Bley
 
 {t}!_Language{/t}
 English (United Kingdom)

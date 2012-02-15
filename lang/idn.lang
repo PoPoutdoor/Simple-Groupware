@@ -1,4 +1,7 @@
-// GPL
+/**
+ * @package Simple Groupware
+ * @license GPLv2
+ */
 
 {t}!_Copyright_Language_File{/t}
 Copyright (C) 2009 Bagus Winar
