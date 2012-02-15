@@ -1,4 +1,4 @@
-/**
+ï»¿/**
  * @package Simple Groupware
  * @license GPLv2
  */
@@ -409,7 +409,7 @@ Kan het bestand %s niet lezen.
 Belangrijkheid
 
 ** Categories
-Kategorieën
+KategorieÃ«n
 
 ** Category
 Kategorie
@@ -490,7 +490,7 @@ Klant
 Sluiten
 
 ** Close session
-Sessie beëindigen
+Sessie beÃ«indigen
 
 ** closed
 gesloten
@@ -628,7 +628,7 @@ Doorgaan
 Copieermachine
 
 ** Copy
-Kopieëren
+KopieÃ«ren
 
 ** Cost center
 Kostenplaats
@@ -916,7 +916,7 @@ Duratie
 E-Mail
 
 ** E-mail private
-E-Mail (privé)
+E-Mail (privÃ©)
 
 ** E-mail program
 E-mail applicatie
@@ -1402,7 +1402,7 @@ Id
 
 
 ** Ideas
-Ideeën
+IdeeÃ«n
 
 ** If empty, the SMTP connection from the module users will be used.
 Indien leeg, dan zal de SMTP verbinding van de gebruikers module worden gebruikt.
@@ -2284,7 +2284,7 @@ Rechten
 Rechten toegevoegd voor: %s
 
 ** Personal
-Privé
+PrivÃ©
 
 ** Personal department
 Mijn werkgroepen
@@ -2302,7 +2302,7 @@ Telefoon
 Oproepen
 
 ** Phone private
-Telefoon (privé)
+Telefoon (privÃ©)
 
 ** Photo
 Foto
@@ -2425,7 +2425,7 @@ Processen
 Bezig met verwerken van %s ...
 
 ** Program is installed with language %s, please use a different url or run the setup again.
-Programma werd geïnstalleerd met de %s taal, graag een andere url gebruiken of nogmaals de installatie starten.
+Programma werd geÃ¯nstalleerd met de %s taal, graag een andere url gebruiken of nogmaals de installatie starten.
 
 ** Progress
 Voortgang
@@ -2449,7 +2449,7 @@ veel belovend
 
 
 ** Prospective client
-Potentiële cliënt
+PotentiÃ«le cliÃ«nt
 
 ** Public holiday
 
@@ -2962,7 +2962,7 @@ Status
 Statussen
 
 ** Strategies
-Strategieën
+StrategieÃ«n
 
 ** Street
 Straat
@@ -3241,7 +3241,7 @@ ongeconfirmeerd
 
 
 ** uninterested
-niet geïnteresseerd
+niet geÃ¯nteresseerd
 
 ** Unique
 

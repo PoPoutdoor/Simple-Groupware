@@ -1,4 +1,4 @@
-/**
+Ôªø/**
  * @package Simple Groupware
  * @license GPLv2
  */
@@ -13,25 +13,25 @@ Suomi / Finnish
 %s ei aktivoitu
 
 ** %s is not compiled / loaded into PHP.
-%s ei k‰‰nnety / ei ladattu PHP:hen
+%s ei k√§√§nnety / ei ladattu PHP:hen
 
 ** %s not in database
 %s ei tietokannassa
 
 ** %s rows affected
-Koske %s rivi‰
+Koske %s rivi√§
 
 ** %s secs
 %s Sek.
 
 ** %s started editing this asset at %s
-%s aloiti %s t‰m‰n tietuen k‰sittely
+%s aloiti %s t√§m√§n tietuen k√§sittely
 
 ** (for active directory username must be: username@domain)
-(Active Directory vaadi k‰ytt‰j‰nimen muodossa k‰ytt‰j‰@domain)
+(Active Directory vaadi k√§ytt√§j√§nimen muodossa k√§ytt√§j√§@domain)
 
 ** (un)Group
-Ryhmitt‰
+Ryhmitt√§
 
 ** first level support
 1. tason tuki
@@ -43,16 +43,16 @@ Ryhmitt‰
 3. tason tuki
 
 ** About
-Simple Groupwarest‰
+Simple Groupwarest√§
 
 ** accepted
-Hyv‰ksytty
+Hyv√§ksytty
 
 ** Access denied.
-K‰yttˆ ei mahdollista.
+K√§ytt√∂ ei mahdollista.
 
 ** Access to this file has been denied.
-T‰m‰n tiedoston k‰yttˆ estetty.
+T√§m√§n tiedoston k√§ytt√∂ estetty.
 
 ** Account
 Tili
@@ -73,34 +73,34 @@ Aktivoitu
 Aktiivi
 
 ** Ad
-N‰yt‰
+N√§yt√§
 
 ** Add
-Lis‰‰
+Lis√§√§
 
 ** Add to offline folders
-Lis‰t‰ Offline- kansioihiin
+Lis√§t√§ Offline- kansioihiin
 
 ** added line
-lis‰tty rivi
+lis√§tty rivi
 
 ** Address
 Osoite
 
 ** admin access
-Admink‰yttˆ
+Admink√§ytt√∂
 
 ** Admin access (groups)
-Admink‰yttˆ (Ryhm‰t)
+Admink√§ytt√∂ (Ryhm√§t)
 
 ** Admin access (users)
-Admink‰yttˆ (K‰ytt‰j‰t)
+Admink√§ytt√∂ (K√§ytt√§j√§t)
 
 ** Admin Password
 Admin Salasana
 
 ** Admin Username
-Admin K‰ytt‰j‰nimi
+Admin K√§ytt√§j√§nimi
 
 ** Administration
 Hallinta
@@ -109,16 +109,16 @@ Hallinta
 Laajenetut Taulukot
 
 ** Affected user
-kyseinen K‰ytt‰j‰
+kyseinen K√§ytt√§j√§
 
 ** Affiliate
 Partneri
 
 ** after
-J‰lkeen
+J√§lkeen
 
 ** Agent
-K‰sittelij‰
+K√§sittelij√§
 
 ** Ajax Error
 Ajax-virhe
@@ -127,25 +127,25 @@ Ajax-virhe
 Kaikki
 
 ** All day
-Koko p‰iv‰
+Koko p√§iv√§
 
 ** All events
 Kaikki Tapahtumat
 
 ** All finished tasks
-Kaikki valmiit teht‰v‰t
+Kaikki valmiit teht√§v√§t
 
 ** All pending tasks
-Kaikki keskener‰iset teht‰v‰t
+Kaikki keskener√§iset teht√§v√§t
 
 ** Allow disabled modules
 Salli deaktivoitut modulit
 
 ** Already running latest release.
-Uusin versio on jo k‰yttˆss‰
+Uusin versio on jo k√§ytt√∂ss√§
 
 ** Already voted.
-Olet jo ‰‰nestynyt.
+Olet jo √§√§nestynyt.
 
 ** Amount
 Summa
@@ -157,7 +157,7 @@ Ankkuri
 ja
 
 ** Anniversary
-Vuosip‰iv‰
+Vuosip√§iv√§
 
 ** another page
 toinen sivu
@@ -178,7 +178,7 @@ Tapaamiset
 Ohjelman nimi
 
 ** Apply rights to subfolders
-K‰ytt‰ oikeudet alikansiossa
+K√§ytt√§ oikeudet alikansiossa
 
 ** Apr
 Hu
@@ -205,10 +205,10 @@ Tietuet (Alikansioita)
 osoitettu
 
 ** at least 20 characters
-v‰hint‰‰n 20 merkki‰
+v√§hint√§√§n 20 merkki√§
 
 ** attach file
-tiedosto liitt‰minen
+tiedosto liitt√§minen
 
 ** Attachment
 Liitetiedosto
@@ -229,7 +229,7 @@ Elokuu
 Tunnistustapa
 
 ** Author
-Tekij‰
+Tekij√§
 
 ** Automatically hide the menu
 Piilota menu automaattisesti
@@ -238,7 +238,7 @@ Piilota menu automaattisesti
 Piilota kansiorakenne automaattisesti
 
 ** Average progress
-Keskim‰‰r‰inen edistys
+Keskim√§√§r√§inen edistys
 
 ** Avg length
 Keskim. pituus 
@@ -250,7 +250,7 @@ Takaisin
 Varmuuskopio
 
 ** Backup current folder
-Varmuuskopioi t‰m‰n kansion
+Varmuuskopioi t√§m√§n kansion
 
 ** Backups
 Varmuuskopiot
@@ -277,13 +277,13 @@ isompi
 Laskutusosoite
 
 ** Birthday
-Syntym‰p‰iv‰
+Syntym√§p√§iv√§
 
 ** Birthdays
-Syntym‰p‰iv‰t
+Syntym√§p√§iv√§t
 
 ** Blank
-Tyhj‰
+Tyhj√§
 
 ** blue
 sininen
@@ -337,16 +337,16 @@ Listaus
 Yritys
 
 ** C a n c e l
-H y l k ‰ ‰ 
+H y l k √§ √§ 
 
 ** C O N T I N U E
 J A T K A A
 
 ** Cache output
-Tallenna output v‰limuistiin
+Tallenna output v√§limuistiin
 
 ** Caches
-V‰limuisti
+V√§limuisti
 
 ** Calendar
 Kalenteri
@@ -358,7 +358,7 @@ Peruutettu
 Peruutettu
 
 ** Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.
-Proc_open ei voi k‰ynnist‰. Poista proc_open paikasta disable_functions php.ini tiedostossa ja deaktivoi safe_mode.
+Proc_open ei voi k√§ynnist√§. Poista proc_open paikasta disable_functions php.ini tiedostossa ja deaktivoi safe_mode.
 
 ** Cannot connect to database %s on %s.
 Yhteys tietokantaan %s osoiteesa %s ei onnistunut.
@@ -409,7 +409,7 @@ Changelog
 Chat
 
 ** Check DoS Attacks
-DoS- hyˆk‰yksien valvonta
+DoS- hy√∂k√§yksien valvonta
 
 ** checked
 Tarkistettu
@@ -430,13 +430,13 @@ Kaupunki
 Siivota
 
 ** Clean Cache
-Siivota v‰limuistin 
+Siivota v√§limuistin 
 
 ** Clear
 Poista kaikki!
 
 ** Clear Cache
-Tyhjent‰ v‰limuistin
+Tyhjent√§ v√§limuistin
 
 ** Clear Data
 Datan poisto
@@ -457,7 +457,7 @@ Lopeta istuntoa
 lopetettu
 
 ** Closed
-Loppuun k‰sitelty
+Loppuun k√§sitelty
 
 ** CMS
 CMS
@@ -466,19 +466,19 @@ CMS
 Kotisivun nimi (CMS)
 
 ** Collapse text
-pienen‰ teksti
+pienen√§ teksti
 
 ** Collapse tree
-pienen‰ hakemistopuu
+pienen√§ hakemistopuu
 
 ** Color
-V‰ri
+V√§ri
 
 ** Column name
 Saraken nimi
 
 ** Combination
-Yhdistelm‰
+Yhdistelm√§
 
 ** Comma
 Komma
@@ -508,7 +508,7 @@ Kilpailu
 Kilpailija
 
 ** Completed
-P‰‰tetty
+P√§√§tetty
 
 ** Component
 Komponentti
@@ -520,10 +520,10 @@ Pakkaa output
 vahvistettu
 
 ** connection failed
-Yhteys ep‰onnistui
+Yhteys ep√§onnistui
 
 ** Connection to database failed.
-Yhteys tietokantaan ep‰onnistui.
+Yhteys tietokantaan ep√§onnistui.
 
 ** Consultant
 Konsultti
@@ -538,25 +538,25 @@ Kontakti toiminta
 Yhteydenotto: 
 
 ** Contact groups
-Sidosryhm‰t
+Sidosryhm√§t
 
 ** Contact id
 Yhteys ID
 
 ** Contact person
-Yhteyshenkilˆ 
+Yhteyshenkil√∂ 
 
 ** Contact user by
-Ota yhteys k‰ytt‰j‰lle per 
+Ota yhteys k√§ytt√§j√§lle per 
 
 ** Contacts
 Kontaktit
 
 ** contains
-sis‰lt‰‰
+sis√§lt√§√§
 
 ** Content
-Sis‰ltˆ
+Sis√§lt√∂
 
 ** Continue
 Jatkaa
@@ -574,7 +574,7 @@ Kustannuspaikat
 Majoituskustannukset
 
 ** Could not determine database-version.
-ei voitu m‰‰ritt‰‰ tietokanta-version.
+ei voitu m√§√§ritt√§√§ tietokanta-version.
 
 ** Country
 Maakunta
@@ -583,7 +583,7 @@ Maakunta
 Luotu 
 
 ** Creating database failed.
-Tietokantaan luominen ep‰onnistui. 
+Tietokantaan luominen ep√§onnistui. 
 
 ** current path
 nykynen polku
@@ -598,13 +598,13 @@ Ansioluettelo
 Mukautettu Malli
 
 ** customizations
-r‰‰t‰lˆinnit 
+r√§√§t√§l√∂innit 
 
 ** Cut
 Leikkaa 
 
 ** daily
-p‰ivitt‰in
+p√§ivitt√§in
 
 ** Data
 Data
@@ -634,25 +634,25 @@ Tietokanta prosessit
 Tietokannan tila
 
 ** Database User
-Tietokannan k‰ytt‰j‰nimi
+Tietokannan k√§ytt√§j√§nimi
 
 ** Database variables
 Tietokannan muuttujat
 
 ** Date
-P‰iv‰ys
+P√§iv√§ys
 
 ** Day
-P‰iv‰
+P√§iv√§
 
 ** Day begin
-P‰iv‰n alku
+P√§iv√§n alku
 
 ** Day end
-P‰iv‰n loppu
+P√§iv√§n loppu
 
 ** days
-P‰ivi‰
+P√§ivi√§
 
 ** Db
 Db
@@ -664,7 +664,7 @@ db-kansio
 Deaktivoita
 
 ** Deadline
-M‰‰r‰aika
+M√§√§r√§aika
 
 ** Debug
 Debug
@@ -690,7 +690,7 @@ Vakioteema
 Oletusarvot tietuella
 
 ** definition for definition lists
-m‰‰ritelm‰n: m‰‰ritelm‰ luettelot
+m√§√§ritelm√§n: m√§√§ritelm√§ luettelot
 
 ** Degree
 tutkinto
@@ -708,7 +708,7 @@ poistettu
 poistettu rivi
 
 ** Demand
-Pyynntˆ
+Pyynnt√∂
 
 ** Demo
 Demo
@@ -753,13 +753,13 @@ Deaktivoi Basic authentication
 Deaktivoitut Modulit
 
 ** Display
-N‰yt‰
+N√§yt√§
 
 ** display filter
-N‰yttˆ suodatin
+N√§ytt√∂ suodatin
 
 ** displays
-N‰yt‰
+N√§yt√§
 
 ** Distributor
 Toimittaja 
@@ -783,7 +783,7 @@ Domain
 Ei osallistu
 
 ** Don't move old files to 'old/'
-Vanhat tiedostot ei siiret‰‰n kansioon 'old/'
+Vanhat tiedostot ei siiret√§√§n kansioon 'old/'
 
 ** Down
 Alas
@@ -795,10 +795,10 @@ Lataa
 Lataa laajenus lista
 
 ** Downloading update list
-Lataa p‰ivitys lista
+Lataa p√§ivitys lista
 
 ** Drag and drop files or URLs here.
-T‰h‰n voi pudottaa tiedostot.
+T√§h√§n voi pudottaa tiedostot.
 
 ** duplicate
 Kaksoiskappale
@@ -834,28 +834,28 @@ Editor
 Korostus
 
 ** Empty
-tyhj‰
+tyhj√§
 
 ** Empty folder
-Tyhj‰nt‰ kansio
+Tyhj√§nt√§ kansio
 
 ** en
 fin
 
 ** Enable anonymous access
-Salli nimetˆn k‰yttˆ
+Salli nimet√∂n k√§ytt√∂
 
 ** Enable anonymous CMS
-Salli nimetˆn CMS k‰yttˆ
+Salli nimet√∂n CMS k√§ytt√∂
 
 ** Enable automatic user creation
-Luo k‰ytt‰j‰ automaattisesti
+Luo k√§ytt√§j√§ automaattisesti
 
 ** Enable external mail client for 'mailto:' links
-Aktivoi ulkoinen E-Mail- ohjelma mailto:-likki‰ varten
+Aktivoi ulkoinen E-Mail- ohjelma mailto:-likki√§ varten
 
 ** Enable self registration
-Aktivoi itse rekisterˆinti
+Aktivoi itse rekister√∂inti
 
 ** Enable Sync4j / Funambol
 aktivoi Sync4j / Funambol.
@@ -876,16 +876,16 @@ sama
 Vika
 
 ** Error doing request to xmlhttp
-Vika xmlhttp-kyselyss‰
+Vika xmlhttp-kyselyss√§
 
 ** Error moving file
 Vika tiedoston siirrossa
 
 ** Error pasting asset
-Vika tietuen liitt‰misess‰
+Vika tietuen liitt√§misess√§
 
 ** Error: no credentials
-Vika: ei k‰ytt‰j‰tunnus
+Vika: ei k√§ytt√§j√§tunnus
 
 ** Events
 Tapahtumat
@@ -897,7 +897,7 @@ Tapahtumat
 Esimerkkikontaktit
 
 ** Example surveys can be found at:
-Esimerkkikyselyt lˆytyy:
+Esimerkkikyselyt l√∂ytyy:
 
 ** Example without mountpoint
 Esimerkki ilman liitospiste
@@ -909,7 +909,7 @@ Esimerkit
 Suorittaa
 
 ** Expenses
-P‰iv‰rahat
+P√§iv√§rahat
 
 ** Experimental
 Kokeellinen
@@ -939,10 +939,10 @@ Virhe kansion luomisessa: %s
 Tiedosto ei voitu tallenta kovalevylle.
 
 ** Failed to write into %s
-Kirjoitus ep‰onnistui osaksi %s
+Kirjoitus ep√§onnistui osaksi %s
 
 ** Family status
-Siviilis‰‰ty
+Siviilis√§√§ty
 
 ** FAQ
 FAQ
@@ -954,7 +954,7 @@ Suosikit
 Faksi
 
 ** Feature request
-Ominaisuuspyyntˆ
+Ominaisuuspyynt√∂
 
 ** Feb
 Hel
@@ -963,19 +963,19 @@ Hel
 Helmikuu
 
 ** Feed
-Syˆte
+Sy√∂te
 
 ** female
 Nainen
 
 ** Field
-Kentt‰
+Kentt√§
 
 ** Field contains value
-Kentt‰ sis‰lt‰‰ arvo
+Kentt√§ sis√§lt√§√§ arvo
 
 ** Field is equal to value
-Kentt‰ on sama arvo
+Kentt√§ on sama arvo
 
 ** File
 Tiedosto
@@ -990,10 +990,10 @@ tiedosto on liian suuri. Toista prosessi pienempi tiedosto.
 Tiedosto lukittu.
 
 ** file not found in database.
-Tiedostoa ei lˆytynyt tietokannasta.
+Tiedostoa ei l√∂ytynyt tietokannasta.
 
 ** file not found.
-Tiedostoa ei lˆydy.
+Tiedostoa ei l√∂ydy.
 
 ** File unlocked.
 Tiedosto auki.
@@ -1002,13 +1002,13 @@ Tiedosto auki.
 tiedosto on vain osittain ladattu.
 
 ** Filename must have the right extension. Valid extensions are %s
-Tiedoston tulee olla voimassa oleva tiedostop‰‰te (%s).
+Tiedoston tulee olla voimassa oleva tiedostop√§√§te (%s).
 
 ** Files
 Tiedostot
 
 ** Filesystem
-Tiedostoj‰rjestelm‰ 
+Tiedostoj√§rjestelm√§ 
 
 ** Filter
 Suodatin
@@ -1017,13 +1017,13 @@ Suodatin
 Etsi tietoa usesita kansioista
 
 ** Finish scheduled
-P‰‰ttymisaika
+P√§√§ttymisaika
 
 ** Finished
 Valmiit
 
 ** First in list
-Luettelossa ensimm‰isen‰
+Luettelossa ensimm√§isen√§
 
 ** First name
 Etunimi
@@ -1053,10 +1053,10 @@ Kansio muutettu.
 Kansion kuvaketta
 
 ** Folder not found.
-Kansio ei lˆydy.
+Kansio ei l√∂ydy.
 
 ** Folder refresh period
-Aikav‰li kansion p‰ivitksen
+Aikav√§li kansion p√§ivitksen
 
 ** Folder structure
 Kansiorakenne
@@ -1071,13 +1071,13 @@ Kansiorakenne siirretty roskakoriin.
 Kansion tyyppi
 
 ** Folder with ID %s
-Kansio miss‰ ID %s
+Kansio miss√§ ID %s
 
 ** Folders
 Kansiot
 
 ** for a new paragraph, use a blank line
-K‰ytt‰ tyhj‰ rivi uuden kappaleen.
+K√§ytt√§ tyhj√§ rivi uuden kappaleen.
 
 ** Force SSL
 pakota SSL
@@ -1086,7 +1086,7 @@ pakota SSL
 Foorumi
 
 ** Forward
-V‰lit‰
+V√§lit√§
 
 ** Fr
 Pe
@@ -1101,10 +1101,10 @@ Pe
 Perjantai
 
 ** From
-L‰hett‰j‰
+L√§hett√§j√§
 
 ** Full screen
-Koko n‰yttˆ
+Koko n√§ytt√∂
 
 ** Full texts
 Koko teksti
@@ -1113,7 +1113,7 @@ Koko teksti
 Kokonaisleveys
 
 ** Funambol only works with MySQL and PostgreSQL.
-Funambol toimii vain MySQL ja PostgreSQL :n yhteydess‰.
+Funambol toimii vain MySQL ja PostgreSQL :n yhteydess√§.
 
 ** Function does not exist: %s
 Toiminto %s ei ole olemassa.
@@ -1137,22 +1137,22 @@ Lahjat
 Anna palautetta
 
 ** GNU GPL Frequently Asked Questions
-Usein kysyttyj‰ kysymyksi‰ GNU GPL
+Usein kysyttyj√§ kysymyksi√§ GNU GPL
 
 ** greater than
 isompi kun
 
 ** green
-vihre‰
+vihre√§
 
 ** Group
-Ryhm‰
+Ryhm√§
 
 ** Groupname
-Ryhm‰n nimi
+Ryhm√§n nimi
 
 ** Groups
-Ryhm‰t
+Ryhm√§t
 
 ** hanging text
 roikkuva teksti
@@ -1182,7 +1182,7 @@ Helpdesk
 Historia
 
 ** Holiday
-Pyh‰p‰iv‰
+Pyh√§p√§iv√§
 
 ** Home
 Koti
@@ -1215,7 +1215,7 @@ HTML asiakirjat
 http://www.pmwiki.org/wiki/PmWikiFi/PmWikiFi
 
 ** I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2
-I Hyv‰syn GNU GENERAL PUBLIC LICENSE VERSION 2
+I Hyv√§syn GNU GENERAL PUBLIC LICENSE VERSION 2
 
 ** I n s t a l l
 A s e n ta
@@ -1227,25 +1227,25 @@ Ikoni
 ID
 
 ** Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
-ID ei saa olla tyhj‰, ja pit‰isi olla v‰hint‰‰n 3 ja enint‰‰n. 128 pieni‰ kirjaimia [a-z0-9_-@.].
+ID ei saa olla tyhj√§, ja pit√§isi olla v√§hint√§√§n 3 ja enint√§√§n. 128 pieni√§ kirjaimia [a-z0-9_-@.].
 
 ** Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].
-ID ei saa olla tyhj‰, ja pit‰isi olla v‰hint‰‰n 3 ja enint‰‰n. 128 merkki‰ ovat mukana [a-z0-9_-@.].
+ID ei saa olla tyhj√§, ja pit√§isi olla v√§hint√§√§n 3 ja enint√§√§n. 128 merkki√§ ovat mukana [a-z0-9_-@.].
 
 ** Ideas
 Ideat
 
 ** If empty, the SMTP connection from the module users will be used.
-Jos tyhj‰ SMTP yhteys k‰ytt‰j‰n moduulista k‰ytet‰‰n.
+Jos tyhj√§ SMTP yhteys k√§ytt√§j√§n moduulista k√§ytet√§√§n.
 
 ** if not autodetected with namingContexts
 jos ei tunnistetaan automaattisesti namingContexts kautta
 
 ** If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.
-Jos k‰ytt‰j‰tunnuksessa tai salasanassa on &quot;:&quot; merkki, korvaa &quot;==&quot; merkkille.
+Jos k√§ytt√§j√§tunnuksessa tai salasanassa on &quot;:&quot; merkki, korvaa &quot;==&quot; merkkille.
 
 ** If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.
-Jos k‰ytt‰j‰tunnuksessa tai salasanassa on &quot;@&quot; merkki, korvaa &quot;%%&quot; merkkille.
+Jos k√§ytt√§j√§tunnuksessa tai salasanassa on &quot;@&quot; merkki, korvaa &quot;%%&quot; merkkille.
 
 ** Im-/Export
 Tuo / Vie
@@ -1269,7 +1269,7 @@ Heti
 Tuo
 
 ** In progress
-K‰ynniss‰
+K√§ynniss√§
 
 ** in repair
 Huollossa
@@ -1281,10 +1281,10 @@ Varastossa
 Toimeton
 
 ** Include in RSS feed
-Sis‰llyt‰ RSS-syˆte
+Sis√§llyt√§ RSS-sy√∂te
 
 ** Include page
-sis‰lytt‰ sivua
+sis√§lytt√§ sivua
 
 ** indent text
 Tekstin sisennys
@@ -1308,13 +1308,13 @@ Toimiala
 Info
 
 ** Input field
-Syˆtˆ kentt‰
+Sy√∂t√∂ kentt√§
 
 ** Insert
 Luo
 
 ** inserted
-lis‰tty
+lis√§tty
 
 ** Install default folder structure
 Asenna oletuskansion rakenne
@@ -1329,10 +1329,10 @@ Asenna minimaalinen kansiorakenne
 asennettu
 
 ** insufficient folder rights
-Riitt‰m‰tˆn k‰yttˆoikeudet
+Riitt√§m√§t√∂n k√§ytt√∂oikeudet
 
 ** Internal recommendation
-Sis‰inen suositus
+Sis√§inen suositus
 
 ** Intro
 Johdanto
@@ -1371,16 +1371,16 @@ Kohde poistettu %s pvm. %s
 Kohde muutettu %s pvm. %s
 
 ** Item not found.
-Kohdetta ei lˆytynyt
+Kohdetta ei l√∂ytynyt
 
 ** Item successfully created.
 Kohde luotu.
 
 ** Item successfully updated.
-Kohde onnistuneesti p‰ivitetty.
+Kohde onnistuneesti p√§ivitetty.
 
 ** Item(s) not found or access denied.
-Kohde (kohteit‰) ei lˆydy tai p‰‰sy ev‰tty.
+Kohde (kohteit√§) ei l√∂ydy tai p√§√§sy ev√§tty.
 
 
 ** Jan
@@ -1393,19 +1393,19 @@ Tammikuu
 Toimenkuva
 
 ** Join lines
-Yhdist‰ rivit
+Yhdist√§ rivit
 
 ** Jul
 Hei
 
 ** July
-Hein‰kuu
+Hein√§kuu
 
 ** Jun
 Kes
 
 ** June
-Kes‰kuu
+Kes√§kuu
 
 ** Key
 Avain
@@ -1435,31 +1435,31 @@ Edellinen vierailu
 Sukunimi
 
 ** LDAP anonymous connection failed.
-anonyymi LDAP-yhteys palvelimeen ep‰onnistui.
+anonyymi LDAP-yhteys palvelimeen ep√§onnistui.
 
 ** LDAP attribute for group memberships
-LDAP-attribuutti Ryhm‰j‰senyydelle
+LDAP-attribuutti Ryhm√§j√§senyydelle
 
 ** LDAP attribute for rooms
 LDAP-Attribuutti tiloihin 
 
 ** LDAP attribute for usernames
-LDAP-attribuutti k‰ytt‰j‰tunnuksille
+LDAP-attribuutti k√§ytt√§j√§tunnuksille
 
 ** LDAP connection to host %s failed.
-LDAP-yhteyden palvelimeen %s ep‰onnistui.
+LDAP-yhteyden palvelimeen %s ep√§onnistui.
 
 ** LDAP without anonymous access
-Anonyymi LDAP-yhteys ei k‰ytet‰‰n
+Anonyymi LDAP-yhteys ei k√§ytet√§√§n
 
 ** LDAP: no base DN given
-LDAP: base DN ei m‰‰ritelty.
+LDAP: base DN ei m√§√§ritelty.
 
 ** LDAP: no UID given
 LDAP: ei annetaan UID 
 
 ** less promising
-v‰hemm‰n todenn‰kinen
+v√§hemm√§n todenn√§kinen
 
 ** lesser than
 pienempi kuin
@@ -1492,7 +1492,7 @@ Linkin teksti
 Linki ulkopuolisille sivustolle
 
 ** link to internal page
-Linki sis‰sille sivulle
+Linki sis√§sille sivulle
 
 ** Links
 Linkit
@@ -1522,7 +1522,7 @@ Lukita
 kirjautuminen osoitteesta %s von %s mit %s
 
 ** Login failed from %s.
-Kirjautuminen ep‰onnistui %s.
+Kirjautuminen ep√§onnistui %s.
 
 ** Login/-out
 Login/Logout
@@ -1579,19 +1579,19 @@ E-Mail ilmoitus
 E-Mail muistutus
 
 ** Main menu
-P‰‰valikko
+P√§√§valikko
 
 ** Maintenance mode
-Yl‰pitotila
+Yl√§pitotila
 
 ** male
 Mies
 
 ** Man-days
-Tyˆp‰iv‰t
+Ty√∂p√§iv√§t
 
 ** Man-days planned
-suunniteltut tyˆp‰iv‰t
+suunniteltut ty√∂p√§iv√§t
 
 ** Manager
 Toimitusjohtaja
@@ -1615,25 +1615,25 @@ naimisissa
 Maximoida
 
 ** Maximum number of assets per page
-Enimm‰ism‰‰r‰ tietuetta per sivu
+Enimm√§ism√§√§r√§ tietuetta per sivu
 
 ** maximum number of files exceeded.
-tiedostojen enimm‰ism‰‰r‰ ylittynyt.
+tiedostojen enimm√§ism√§√§r√§ ylittynyt.
 
 ** May
 Toukokuu
 
 ** Media
-Lehdistˆ
+Lehdist√∂
 
 ** Meeting
 Kokous
 
 ** Members
-J‰senet
+J√§senet
 
 ** Merge folders permanently
-Yhdist‰ kansioita pysyv‰sti
+Yhdist√§ kansioita pysyv√§sti
 
 ** Merged folders
 Yhdistettyt kansiot
@@ -1645,7 +1645,7 @@ Viesti
 Viestit
 
 ** Milestone
-Virstanpylv‰s
+Virstanpylv√§s
 
 ** min
 min
@@ -1654,7 +1654,7 @@ min
 Minimoida
 
 ** minimum = 15 secs, 0 = disabled
-Pienin = 15 sekuntia, 0 = pois k‰ytˆst‰ 
+Pienin = 15 sekuntia, 0 = pois k√§yt√∂st√§ 
 
 ** Miscellaneous
 Sekalainen
@@ -1663,7 +1663,7 @@ Sekalainen
 Temp kansio puuttuu.
 
 ** missing field
-Puuttuva kentt‰
+Puuttuva kentt√§
 
 ** missing right: %s
 Puuttuvat oikeudet: %s
@@ -1672,7 +1672,7 @@ Puuttuvat oikeudet: %s
 Ma
 
 ** Mobile
-K‰nnykk‰
+K√§nnykk√§
 
 ** Model
 Malli
@@ -1681,16 +1681,16 @@ Malli
 Muutettu
 
 ** Modified by
-Muutettu k‰ytt‰j‰lt‰ 
+Muutettu k√§ytt√§j√§lt√§ 
 
 ** Modifying database failed.
-muutos tietokantaan ep‰onnistui.
+muutos tietokantaan ep√§onnistui.
 
 ** Module
 Moduuli
 
 ** Module disabled.
-Moduuli pois k‰ytˆst‰.
+Moduuli pois k√§yt√∂st√§.
 
 ** Modules
 Moduulit
@@ -1702,7 +1702,7 @@ Ma
 Maanantai
 
 ** monospace
-kiinte‰ merkkin leveys
+kiinte√§ merkkin leveys
 
 ** Month
 Kuukausi
@@ -1714,16 +1714,16 @@ Kuukausittain
 Kuukautta
 
 ** More information about the GNU GPL
-Lis‰tietoa GNU GPL :st‰
+Lis√§tietoa GNU GPL :st√§
 
 ** Mountpoint
-Liitt‰mispiste
+Liitt√§mispiste
 
 ** Move
-Siir‰
+Siir√§
 
 ** Multiple
-Useit‰
+Useit√§
 
 ** Multiple choice
 Monivalinta
@@ -1732,16 +1732,16 @@ Monivalinta
 Oma aikataulu
 
 ** My tasks
-Omat teht‰v‰t
+Omat teht√§v√§t
 
 ** Name
 Nimi
 
 ** Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
-Nimi ei voi olla tyhj‰, ja pit‰isi olla v‰hint‰‰n 3 ja enint‰‰n. 128 pieni‰ kirjaimia [a-z0-9_-@.].
+Nimi ei voi olla tyhj√§, ja pit√§isi olla v√§hint√§√§n 3 ja enint√§√§n. 128 pieni√§ kirjaimia [a-z0-9_-@.].
 
 ** Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].
-Nimi ei voi olla tyhj‰, ja pit‰isi olla v‰hint‰‰n 3 kirjainta [a-zA-Z0-9-_.].
+Nimi ei voi olla tyhj√§, ja pit√§isi olla v√§hint√§√§n 3 kirjainta [a-zA-Z0-9-_.].
 
 ** need feedback
 Palaute tarvitaan
@@ -1765,7 +1765,7 @@ Uutiset
 Lempinimi
 
 ** Nightwork
-Yˆtyˆ
+Y√∂ty√∂
 
 ** no
 ei
@@ -1786,25 +1786,25 @@ Ei rivinvaihdot
 Ei tulosta
 
 ** No sender specified.
-L‰hett‰j‰ puuttuu. 
+L√§hett√§j√§ puuttuu. 
 
 ** no username submitted
-K‰ytt‰j‰tunnus puuttu.
+K√§ytt√§j√§tunnus puuttu.
 
 ** Non unique
 Ei yksinselitteinen
 
 ** none
-ei mit‰‰n
+ei mit√§√§n
 
 ** normal
 normaali
 
 ** Not allowed. Please log in as super administrator.
-Ei sallitu. Kirjaudu sis‰‰n Administraatorina.
+Ei sallitu. Kirjaudu sis√§√§n Administraatorina.
 
 ** not contains
-ei sis‰ll‰
+ei sis√§ll√§
 
 ** not equal
 ei sama
@@ -1813,13 +1813,13 @@ ei sama
 Huomautus
 
 ** Notebook
-L‰pp‰ri
+L√§pp√§ri
 
 ** Notes
 Muistiinpanoja
 
 ** Notificaiton sent to: %s
-Ilmoitus l‰hetetty osoitteeseen:%s
+Ilmoitus l√§hetetty osoitteeseen:%s
 
 ** Notification
 Ilmoitus
@@ -1834,10 +1834,10 @@ Mar
 Marraskuu
 
 ** Null
-Tyhj‰
+Tyhj√§
 
 ** Number of employees
-Henkilˆstˆn m‰‰r‰
+Henkil√∂st√∂n m√§√§r√§
 
 ** numbered
 Luettelo
@@ -1882,13 +1882,13 @@ yksi /
 online
 
 ** Open
-Keskener‰iset
+Keskener√§iset
 
 ** Operating system
-K‰yttˆj‰rjestelm‰
+K√§ytt√∂j√§rjestelm√§
 
 ** Operation not allowed. (Data loss protection)
-Toiminto ei ole sallittu. (Suojaus tietojen menetyksest‰)
+Toiminto ei ole sallittu. (Suojaus tietojen menetyksest√§)
 
 ** Optimize Tables
 Optimoi taulukot
@@ -1912,13 +1912,13 @@ Tilauksen koko
 Yritys
 
 ** Organizer
-Vastuuhenkilˆ
+Vastuuhenkil√∂
 
 ** Origin
-Alkuper‰
+Alkuper√§
 
 ** Original message
-Alkuper‰inen viesti
+Alkuper√§inen viesti
 
 ** Other
 Muut
@@ -1933,13 +1933,13 @@ Hahmottelu (Piirros)
 output
 
 ** Output empty: %s
-Output tyhj‰: %s
+Output tyhj√§: %s
 
 ** overlap
-P‰‰llekk‰isyys
+P√§√§llekk√§isyys
 
 ** Overtime
-Ylityˆ
+Ylity√∂
 
 ** Owner
 Omistaja
@@ -1948,7 +1948,7 @@ Omistaja
 Omistaja alkaen
 
 ** Package from local file system (.tar.gz)
-Paketti paikallisest‰ tiedostoj‰rjestelm‰st‰ (. tar.gz)
+Paketti paikallisest√§ tiedostoj√§rjestelm√§st√§ (. tar.gz)
 
 ** Package information
 Package information
@@ -1966,7 +1966,7 @@ Sivu viimeksi muutettu:
 Sivun nimi (URL)
 
 ** Page not found
-Sivua ei lˆydy
+Sivua ei l√∂ydy
 
 ** Page title
 Sivun otsikko
@@ -1984,7 +1984,7 @@ parametrit
 Parametrit
 
 ** Parent folder
-Yl‰kansio
+Yl√§kansio
 
 ** Parsing
 Analysoida
@@ -1996,19 +1996,19 @@ Osallistujat
 Osallistujat (ulkoinen)
 
 ** Participants (internal)
-Osallistujat (sis‰inen)
+Osallistujat (sis√§inen)
 
 ** Password
 Salasana
 
 ** Password expired. (password of %s has expired)
-DSalasana vanhentunut (K‰ytt‰j‰ %s)
+DSalasana vanhentunut (K√§ytt√§j√§ %s)
 
 ** Password expires
 salasana vanhenee: 
 
 ** Password must be not null, min 5 characters.
-Salasana ei saa olla tyhj‰ ( min. 5 merkki‰ )
+Salasana ei saa olla tyhj√§ ( min. 5 merkki√§ )
 
 ** password not confirmed.
 Salasana ei ole vahvistettu.
@@ -2017,7 +2017,7 @@ Salasana ei ole vahvistettu.
 Salasanat
 
 ** Paste
-Liitt‰
+Liitt√§
 
 ** Path
 Polku
@@ -2029,7 +2029,7 @@ Tauko
 Oikeudet
 
 ** Permissions added for: %s
-Oikeudet lis‰t‰‰n: %s
+Oikeudet lis√§t√§√§n: %s
 
 ** Personal
 Yksityinen
@@ -2041,7 +2041,7 @@ Yksityinen alue
 Yksityiset kansiot
 
 ** Personal projects
-Henkilˆkohtaiset hankkeet
+Henkil√∂kohtaiset hankkeet
 
 ** Phone
 Puhelin
@@ -2062,10 +2062,10 @@ Valokuvat
 Suunniteltu
 
 ** Please activate cookies.
-Aktivoi ev‰steet.
+Aktivoi ev√§steet.
 
 ** Please choose a different URL, not 127.0.0.1 or localhost. (important for synchronization, replication)
-Valitse eri URL ei 127.0.0.1 tai localhost. (T‰rke‰‰ synkronointia ja replikointia varten)
+Valitse eri URL ei 127.0.0.1 tai localhost. (T√§rke√§√§ synkronointia ja replikointia varten)
 
 ** Please choose Apache as Web-Server.
 Valitse Apache WWW-palvelimeksi.
@@ -2086,10 +2086,10 @@ Anna kirjoitusoikeudet kohteesseen %s
 Anna kirjoitusoikeudet kohteesseen %s ja %s
 
 ** Please hit reload.
-Paina p‰ivitysnappi.
+Paina p√§ivitysnappi.
 
 ** Please input a valid e-mail adress.
-Anna voimassa oleva s‰hkˆpostiosoite.
+Anna voimassa oleva s√§hk√∂postiosoite.
 
 ** Please install 'tsearch2' for the PostgreSQL database.
 Asenna "tsearch2" PostgreSQL-Tietokanta ohjelman varten.
@@ -2098,10 +2098,10 @@ Asenna "tsearch2" PostgreSQL-Tietokanta ohjelman varten.
 Asenna PHP-Laajennos %s.
 
 ** Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !
-Muokkaa php.ini tiedoston tai lis‰t‰. htaccess-tiedostoa muuttamalla asetusta "%s " "%s" (nykyinen arvo on '%s')!
+Muokkaa php.ini tiedoston tai lis√§t√§. htaccess-tiedostoa muuttamalla asetusta "%s " "%s" (nykyinen arvo on '%s')!
 
 ** Please read the following license agreement. Use the scroll bar to view the rest of this agreement.
-Lue lisenssisopimus. K‰yt‰ vierityspalkkia n‰hd‰ksesi loput t‰st‰ sopimuksesta.
+Lue lisenssisopimus. K√§yt√§ vierityspalkkia n√§hd√§ksesi loput t√§st√§ sopimuksesta.
 
 ** Please select a location.
 Valitse sijainti.
@@ -2110,7 +2110,7 @@ Valitse sijainti.
 Valitse osallistuja. 
 
 ** Please upload again.
-L‰het‰ uudelleen.
+L√§het√§ uudelleen.
 
 ** Please wait ...
 Odota hetki ...
@@ -2167,10 +2167,10 @@ Ongelma
 Prosessit
 
 ** Processing %s ...
-K‰sittelen %s ...
+K√§sittelen %s ...
 
 ** Program is installed with language %s, please use a different url or run the setup again.
-Ohjelma on asennettu kielell‰ %s, k‰yt‰ eri url- tai suorita asennus uudelleen. 
+Ohjelma on asennettu kielell√§ %s, k√§yt√§ eri url- tai suorita asennus uudelleen. 
 
 ** Progress
 Edistminen
@@ -2182,7 +2182,7 @@ Projekti
 Hanken tiedostot
 
 ** Project tasks
-Hanken teht‰v‰t
+Hanken teht√§v√§t
 
 ** Projects
 Hankkeet
@@ -2206,22 +2206,22 @@ Kysymys
 Jono
 
 ** Quick add
-Pikalis‰ys
+Pikalis√§ys
 
 ** Quota
-Kiintiˆ
+Kiinti√∂
 
 ** Quota (remaining)
-kiintiˆ (j‰ljell‰)
+kiinti√∂ (j√§ljell√§)
 
 ** Quota [MB]
-Kiintiˆ [MB]
+Kiinti√∂ [MB]
 
 ** Quota limitation exceeded: %s
-Kiintiˆ ylittyy: %s
+Kiinti√∂ ylittyy: %s
 
 ** R e g i s t e r
-R e k i s t e r ˆ i d y
+R e k i s t e r √∂ i d y
 
 ** Rating
 Arvostelu
@@ -2233,10 +2233,10 @@ Luettu
 Lukuoikeus
 
 ** Read access (groups)
-Lukuoikeus (Ryhm‰t)
+Lukuoikeus (Ryhm√§t)
 
 ** Read access (users)
-Lukuoikeus (K‰ytt‰j‰t)
+Lukuoikeus (K√§ytt√§j√§t)
 
 ** ready for repair
 Valmis korjattavaksi
@@ -2248,7 +2248,7 @@ Romutettava
 Real URL muoto CMS:een
 
 ** Really apply rights to subfolders ?
-K‰ytet‰‰nkˆ oikeuksia alikansioihin ?
+K√§ytet√§√§nk√∂ oikeuksia alikansioihin ?
 
 ** Really apply the changes ?
 Tallennetaanko muutokset ?
@@ -2266,7 +2266,7 @@ Poistetaanko KAIKKI alikansioita ?
 Poistetaanko tietuetta ?
 
 ** Really empty the folder ?
-Tyhjenet‰‰nko kansion ?
+Tyhjenet√§√§nko kansion ?
 
 ** Really overwrite existing dataset(s) ?
 Korvataanko nykyset tietuet ?
@@ -2296,19 +2296,19 @@ punainen
 Uudelleenohjataan kotikansioon
 
 ** Refresh
-P‰ivit‰
+P√§ivit√§
 
 ** Refresh every x seconds
-P‰ivit‰ joka x sekunti 
+P√§ivit√§ joka x sekunti 
 
 ** Regular
-S‰‰nnˆllinen
+S√§√§nn√∂llinen
 
 ** rejected
-Hyl‰tty
+Hyl√§tty
 
 ** Relative formats
-Suhteellisi‰ formaatteja 
+Suhteellisi√§ formaatteja 
 
 ** Relaunch Setup
 Aloita asennus uudelleen
@@ -2320,16 +2320,16 @@ Relevanssi
 Muistutus
 
 ** Rename folder
-Nime‰ kansio uudelleen
+Nime√§ kansio uudelleen
 
 ** Repeat count
-Toistojen m‰‰r‰
+Toistojen m√§√§r√§
 
 ** Repeat exclusions
 Toistojen poikkeukset
 
 ** Repeat interval
-Toistojen v‰li 
+Toistojen v√§li 
 
 ** Repeat until
 Toista, kunnes 
@@ -2341,16 +2341,16 @@ Vastaa
 Vastaa kaikille
 
 ** Require admin access to set mountpoints
-Edellytt‰ ADMIN oikeuksia liitospisteiden asentamiseen
+Edellytt√§ ADMIN oikeuksia liitospisteiden asentamiseen
 
 ** Reseller
-J‰lleenmyyj‰
+J√§lleenmyyj√§
 
 ** reserved
 varattu
 
 ** Reset view
-Palauta n‰kym‰
+Palauta n√§kym√§
 
 ** Resource
 Resurssi
@@ -2365,7 +2365,7 @@ Vastuussa
 Vastuussa (ulkoinen)
 
 ** Responsible (internal)
-Vastuussa (sis‰inen)
+Vastuussa (sis√§inen)
 
 ** Restore complete
 Palautaminen valmis
@@ -2380,7 +2380,7 @@ Palauta vain puuttuvat
 Palauta vain uudet
 
 ** Restore to origin
-Palauta alkuper‰nen
+Palauta alkuper√§nen
 
 ** Return receipt
 Lukuilmoitus
@@ -2401,7 +2401,7 @@ Chatin nimi
 Huone No:
 
 ** Rooms
-Huoneit‰
+Huoneit√§
 
 ** Rows
 Rivit
@@ -2422,7 +2422,7 @@ T a l l e n n a   j a   t a k a i s i n
 La
 
 ** Sales promotion
-Myynnin edist‰minen
+Myynnin edist√§minen
 
 ** Sat
 La
@@ -2440,7 +2440,7 @@ Malli
 Malli tiedot
 
 ** Schemafile not found. (%s)
-Malli Tiedostoa ei lˆydy (%s)
+Malli Tiedostoa ei l√∂ydy (%s)
 
 ** scrapped
 romutettu
@@ -2458,19 +2458,19 @@ Sivuliiken varajohtaja
 Sihteeri
 
 ** Self registration
-Itse rekisterˆinti
+Itse rekister√∂inti
 
 ** Self registration needs confirmation by an administrator.
-Itse rekisterˆinti vaatii vahvistuksen yll‰pit‰j‰lt‰.
+Itse rekister√∂inti vaatii vahvistuksen yll√§pit√§j√§lt√§.
 
 ** Sent reminders
-L‰hetetyt muistutukset
+L√§hetetyt muistutukset
 
 ** Sep
 Syy
 
 ** Separate fields
-Erotaa kent‰t
+Erotaa kent√§t
 
 ** Separate values
 Erotaa arvot
@@ -2497,7 +2497,7 @@ Palvelin-IP
 Palveluntarjoaja 
 
 ** Session name in cookie
-Istunnon nimi ev‰steess‰
+Istunnon nimi ev√§steess√§
 
 ** Session timeout
 Istunnon aikakatkaisu
@@ -2512,13 +2512,13 @@ Asennus
 Asennukseen tarvitaan PHP tietokanta laajennus! (%s)
 
 ** Setup needs php with at least version %s !
-Asennus vaatii v‰hint‰‰n PHP %s !
+Asennus vaatii v√§hint√§√§n PHP %s !
 
 ** Setup needs php-extension with name %s !
-Asennukseen tarvitaan PHP laajennus nimell‰ %s !
+Asennukseen tarvitaan PHP laajennus nimell√§ %s !
 
 ** Setup needs Simple Groupware with at least version %s !
-Asennus vaatii v‰hint‰‰n 'Simple Groupware' %s !
+Asennus vaatii v√§hint√§√§n 'Simple Groupware' %s !
 
 ** Setup: setup-data written to %s.
 Asennus: setup data kirjoitetaan %s .
@@ -2533,22 +2533,22 @@ Share
 Lyhyt Linkit
 
 ** Show
-N‰yt‰
+N√§yt√§
 
 ** Show archive
-N‰yt‰ arkisto
+N√§yt√§ arkisto
 
 ** Show details
-N‰yt‰ yksityskohdat
+N√§yt√§ yksityskohdat
 
 ** Show folder description in content area
-N‰yt‰ kansiokuvaus sis‰ltˆaluella
+N√§yt√§ kansiokuvaus sis√§lt√∂aluella
 
 ** Show password
-N‰yt‰ salasana
+N√§yt√§ salasana
 
 ** Show quoted text
-N‰yt‰ lainattu teksti
+N√§yt√§ lainattu teksti
 
 ** Similar
 Samankaltaisia
@@ -2581,7 +2581,7 @@ Pieni teksti
 Pienempi
 
 ** SMTP not configured for %s
-SMTP ole m‰‰ritetty %s 
+SMTP ole m√§√§ritetty %s 
 
 ** Smtp-error %s: %s
 Smtp virhe %s: %s
@@ -2599,10 +2599,10 @@ Ratkaisun tyyppi
 jotain teksti
 
 ** Source
-L‰hdekoodi
+L√§hdekoodi
 
 ** Source code
-L‰hdekoodi
+L√§hdekoodi
 
 ** Specification
 Spesifikaatio
@@ -2617,10 +2617,10 @@ SQL virhe.
 SQL virhe: %s
 
 ** Start scheduled
-Aloitusp‰iv‰
+Aloitusp√§iv√§
 
 ** Start synchronization
-K‰ynnist‰ synkronointi
+K√§ynnist√§ synkronointi
 
 ** Started
 Aloitettu
@@ -2632,7 +2632,7 @@ alkaa
 Valtio
 
 ** Static cache
-Staattinen v‰limuisti
+Staattinen v√§limuisti
 
 ** Statistics
 Tilastot
@@ -2674,7 +2674,7 @@ Aihe
 Aiheet
 
 ** Submit a patch
-L‰het‰ ohjelman korjaus
+L√§het√§ ohjelman korjaus
 
 ** subscript
 Alaindeksi
@@ -2695,7 +2695,7 @@ Suunnuntai
 Pomo
 
 ** superscript
-Yl‰indeksi
+Yl√§indeksi
 
 ** Supplier
 Toimittaja
@@ -2707,7 +2707,7 @@ Toimittajat
 Tuki
 
 ** Support request
-Tukipyyntˆ
+Tukipyynt√∂
 
 ** Surveys
 Kyselyt
@@ -2716,22 +2716,22 @@ Kyselyt
 Siiretty
 
 ** Switch maintenance mode
-Vaihtaa yll‰pitotila
+Vaihtaa yll√§pitotila
 
 ** Sync attachments
 Synkronoi liitetiedostoja
 
 ** Sync4j remote delete items
-Sync4j poistaa kohteita et‰n‰
+Sync4j poistaa kohteita et√§n√§
 
 ** Syntax
 Syntaksi
 
 ** System
-J‰rjestelm‰
+J√§rjestelm√§
 
 ** System command executed: %s
-J‰rjestelm‰n komennon: %s suoritettu
+J√§rjestelm√§n komennon: %s suoritettu
 
 ** Table
 Taulukko
@@ -2746,19 +2746,19 @@ Taulukon tila
 Taulukot
 
 ** Take over
-K‰ytt‰
+K√§ytt√§
 
 ** Take selection
-K‰ytt‰ valinta
+K√§ytt√§ valinta
 
 ** Task with ID %s
-Teht‰v‰ No: %s
+Teht√§v√§ No: %s
 
 ** Tasks
-Teht‰v‰t
+Teht√§v√§t
 
 ** Tasks with responsible %s
-%s:n teht‰v‰t
+%s:n teht√§v√§t
 
 ** Template
 Malli
@@ -2767,7 +2767,7 @@ Malli
 Mallit
 
 ** term
-K‰site
+K√§site
 
 ** Text area
 Teksti alue
@@ -2776,13 +2776,13 @@ Teksti alue
 Teksti asiakirja
 
 ** Text formatting rules
-Tekstin muotoilun s‰‰nnˆt
+Tekstin muotoilun s√§√§nn√∂t
 
 ** Th
 To
 
 ** Thanks for voting!
-Kiitos ‰‰nestyksest‰!
+Kiitos √§√§nestyksest√§!
 
 ** The folder cannot be copied.
 Kansiota ei voitu kopioida.
@@ -2791,7 +2791,7 @@ Kansiota ei voitu kopioida.
 Kansiota ei voitu poista.
 
 ** The folder cannot be moved.
-Kansiota ei voitu siirt‰‰.
+Kansiota ei voitu siirt√§√§.
 
 ** The new password is
 Usi salasana
@@ -2803,7 +2803,7 @@ URL ei ole olemassa.
 Layout
 
 ** this file extension is not allowed
-T‰m‰ tiedostop‰‰te on kielletty
+T√§m√§ tiedostop√§√§te on kielletty
 
 ** Thu
 To
@@ -2818,10 +2818,10 @@ Aika
 Palkkalaskema
 
 ** Time sheets
-Ajank‰yttˆlomakkeet
+Ajank√§ytt√∂lomakkeet
 
 ** Time zone
-Aikavyˆhyke
+Aikavy√∂hyke
 
 ** timeout
 Aikaylitys
@@ -2836,28 +2836,28 @@ Vast.
 tarkistattava
 
 ** To continue installing Simple Groupware you must check the box under the license
-Voit jatkaa Simple Groupwaren asennusta kun rastitat lisenssin alle olevan kent‰n
+Voit jatkaa Simple Groupwaren asennusta kun rastitat lisenssin alle olevan kent√§n
 
 ** Today
-T‰n‰‰n
+T√§n√§√§n
 
 ** Too many wrong logins. Please wait 15 minutes.
-Liian monta v‰‰r‰‰ kirjautumisia. Odota 15 minuuttia.
+Liian monta v√§√§r√§√§ kirjautumisia. Odota 15 minuuttia.
 
 ** Total
-Yhteens‰
+Yhteens√§
 
 ** Trace
-J‰ljet
+J√§ljet
 
 ** Trade fair
 Messut
 
 ** translations
-K‰‰nnˆkset
+K√§√§nn√∂kset
 
 ** Translations of the GNU GPL
-GNU GPL :n K‰‰nnˆkset
+GNU GPL :n K√§√§nn√∂kset
 
 ** Transportation costs
 Matkakulut
@@ -2866,13 +2866,13 @@ Matkakulut
 Roskakori
 
 ** Trash folder not found.
-Roskakori kansio ei lˆytynyt.
+Roskakori kansio ei l√∂ytynyt.
 
 ** Tree
-Puun‰kym‰
+Puun√§kym√§
 
 ** Trigger failed
-Trigger ep‰onnistui.
+Trigger ep√§onnistui.
 
 ** Tu
 Ti
@@ -2890,7 +2890,7 @@ Tyyppi
 D e i n s t a l l
 
 ** unable to find %s
-%s ei lˆydy
+%s ei l√∂ydy
 
 ** Unable to write to %s
 Ei voitu kirjoittaa %s
@@ -2905,7 +2905,7 @@ Vahvistamaton
 Alleviivaus
 
 ** Uninstall does not delete any data in the database.
-Uninstall ei poista mit‰‰n tietoja tietokannasta.
+Uninstall ei poista mit√§√§n tietoja tietokannasta.
 
 ** uninterested
 ei kiinnostunut
@@ -2914,19 +2914,19 @@ ei kiinnostunut
 Avata
 
 ** Up
-Ylˆs
+Yl√∂s
 
 ** Update
-P‰ivit‰
+P√§ivit√§
 
 ** Update Simple Groupware
-p‰ivit‰ Simple Groupware
+p√§ivit√§ Simple Groupware
 
 ** Updated
-P‰ivitetty
+P√§ivitetty
 
 ** Updating schema %s from %s.
-P‰ivit‰ schema %s kohteesta %s.
+P√§ivit√§ schema %s kohteesta %s.
 
 ** Upload failed
 Lataus ei onnistunut
@@ -2944,46 +2944,46 @@ kiireellinnen
 URL
 
 ** Usage
-K‰yttˆ
+K√§ytt√∂
 
 ** USD
 EUR
 
 ** Use Debian binaries (Warning: not latest versions)
-K‰yt‰ Debian bin‰‰rit (Varoitus: ei viimeisimm‰t versiot) 
+K√§yt√§ Debian bin√§√§rit (Varoitus: ei viimeisimm√§t versiot) 
 
 ** Use LDAP Groups
-k‰yt‰ LDAP Ryhm‰t
+k√§yt√§ LDAP Ryhm√§t
 
 ** Use syslog() function for logging events
-K‰yt‰ syslog() funktiota tapahtumien kirjaamiseen
+K√§yt√§ syslog() funktiota tapahtumien kirjaamiseen
 
 ** Use the mail() function for sending mails (insecure)
-K‰yt‰ mail() funktio s‰hkˆpostiviestej‰n l‰hett‰miseen (ei turvallinen)
+K√§yt√§ mail() funktio s√§hk√∂postiviestej√§n l√§hett√§miseen (ei turvallinen)
 
 ** User
-K‰ytt‰j‰
+K√§ytt√§j√§
 
 ** User not found.
-K‰ytt‰j‰ ei lˆytynyt.
+K√§ytt√§j√§ ei l√∂ytynyt.
 
 ** Username
-K‰ytt‰j‰tunnus
+K√§ytt√§j√§tunnus
 
 ** Username must be different from the super administrator.
-K‰ytt‰j‰nimi ei voi olla sama kuin super ADMIN.
+K√§ytt√§j√§nimi ei voi olla sama kuin super ADMIN.
 
 ** Users
-K‰ytt‰j‰t
+K√§ytt√§j√§t
 
 ** V o t e !
-ƒ ‰ n e s t ‰ !
+√Ñ √§ n e s t √§ !
 
 ** Vacation
 Loma
 
 ** validation failed
-Tarkistus ep‰onnistui 
+Tarkistus ep√§onnistui 
 
 ** Value
 Arvo
@@ -2995,22 +2995,22 @@ Muuttuja
 Muuttuja on jo tietokannassa. (%s)
 
 ** Variable must be of type date (mm/dd/yyyy).
-Muuttuja t‰ytyy olla muodossa: dd.mm.yyyy
+Muuttuja t√§ytyy olla muodossa: dd.mm.yyyy
 
 ** Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).
-Muuttuja t‰ytyy olla muodossa: dd.mm.yyyy HH:mm
+Muuttuja t√§ytyy olla muodossa: dd.mm.yyyy HH:mm
 
 ** Variable must be of type float.
 Anna kelvollinen liukuluku.
 
 ** Variable must be of type int and greater than 0.
-Muuttuja t‰ytyy olla kokonaisluku ja yli 0.
+Muuttuja t√§ytyy olla kokonaisluku ja yli 0.
 
 ** Variable must be of type int.
-Muuttuja t‰ytyy olla kokonaisluku.
+Muuttuja t√§ytyy olla kokonaisluku.
 
 ** Variable must be of type time (hh:mm am/pm).
-Muuttuja t‰ytyy olla muodossa: HH:mm
+Muuttuja t√§ytyy olla muodossa: HH:mm
 
 ** Variables
 Muuttujat
@@ -3025,16 +3025,16 @@ Tarkistettu
 vertikal
 
 ** very promising
-eritt‰in lupaava
+eritt√§in lupaava
 
 ** View
-N‰yt‰
+N√§yt√§
 
 ** View access (groups)
-P‰‰sy katseluun (Ryhm‰t)
+P√§√§sy katseluun (Ryhm√§t)
 
 ** View access (users)
-P‰‰sy katseluun (K‰ytt‰j‰t)
+P√§√§sy katseluun (K√§ytt√§j√§t)
 
 ** Virus scanner
 Virus skanneri
@@ -3043,10 +3043,10 @@ Virus skanneri
 Puheposti laatikko
 
 ** Vote
-ƒ‰nest‰
+√Ñ√§nest√§
 
 ** Voted by
-ƒ‰nestetty: 
+√Ñ√§nestetty: 
 
 ** Waiting
 Odottaa
@@ -3112,25 +3112,25 @@ toimii minulla
 Seminaari
 
 ** Workspace
-Tyˆtila
+Ty√∂tila
 
 ** write access
 Kirjoitusoikeus
 
 ** Write access (groups)
-Kirjoitusoikeus (Ryhm‰t)
+Kirjoitusoikeus (Ryhm√§t)
 
 ** Write access (users)
-Kirjoitusoikeus (K‰ytt‰j‰t)
+Kirjoitusoikeus (K√§ytt√§j√§t)
 
 ** Wrong database-version (%s). Please use at least %s !
-V‰‰r‰ tietokanta versio (%s). K‰yt‰ v‰hint‰‰n %s !
+V√§√§r√§ tietokanta versio (%s). K√§yt√§ v√§hint√§√§n %s !
 
 ** wrong directory
-v‰‰r‰ kansio
+v√§√§r√§ kansio
 
 ** wrong password
-v‰‰r‰ salasana
+v√§√§r√§ salasana
 
 ** Year
 Vuosi
@@ -3142,13 +3142,13 @@ vuosittain
 keltainen
 
 ** yes
-kyll‰
+kyll√§
 
 ** You are not allowed to view this folder.
-Sinulla ei ole oikeutta katsoa t‰t‰ kansiota.
+Sinulla ei ole oikeutta katsoa t√§t√§ kansiota.
 
 ** You can go offline now.
-Voit menn‰ offline nyt
+Voit menn√§ offline nyt
 
 ** Your message was read on %s.
 Viestisi on luettu %s.
@@ -3169,7 +3169,7 @@ Tilaa
 Peruuta
 
 ** Complete
-K‰sittele loppuun
+K√§sittele loppuun
 
 ** Confirm
 Vahvista
@@ -3184,10 +3184,10 @@ Toimitus
 Kansio luotu
 
 ** Group created.
-Ryhm‰ luotu
+Ryhm√§ luotu
 
 ** Group deactivated.
-Ryhm‰ deaktivoitu
+Ryhm√§ deaktivoitu
 
 ** Hide
 Piilota
@@ -3217,13 +3217,13 @@ Toistoja
 Referenssi
 
 ** Running mail reminder for %s
-L‰het‰ s‰hkˆposti muistutus %s 
+L√§het√§ s√§hk√∂posti muistutus %s 
 
 ** Send now
-L‰het‰ nyt
+L√§het√§ nyt
 
 ** Sent
-L‰hetetty
+L√§hetetty
 
 ** Status reset to: %s
 Tila palautettu: %s
@@ -3232,10 +3232,10 @@ Tila palautettu: %s
 Alasivut
 
 ** use mirror from
-K‰ytt‰ mirrot palvelin 
+K√§ytt√§ mirrot palvelin 
 
 ** Value '%s' needs a group membership: %s
-Arvo %s vaatii ryhm‰n j‰senyyden: %s 
+Arvo %s vaatii ryhm√§n j√§senyyden: %s 
 
 ** Gantt
 Gantt kaavio

@@ -1,4 +1,4 @@
-/**
+ï»¿/**
  * @package Simple Groupware
  * @license GPLv2
  */
@@ -22,7 +22,7 @@ Deutsch / German
 %s existiert nicht in der Datenbank
 
 ** %s rows affected
-%s Datensätze betroffen
+%s DatensÃ¤tze betroffen
 
 ** %s secs
 %s Sek.
@@ -31,13 +31,13 @@ Deutsch / German
 %s begann um %s diesen Datensatz zu bearbeiten
 
 ** (for active directory username must be: username@domain)
-(für Active Directory sollte der Benutzername benutzer@domäne lauten)
+(fÃ¼r Active Directory sollte der Benutzername benutzer@domÃ¤ne lauten)
 
 ** (un)Group
 Gruppieren
 
 ** About
-Über Simple Groupware
+Ãœber Simple Groupware
 
 ** Absence
 Abwesenheit
@@ -76,16 +76,16 @@ Aktiv
 Anzeige
 
 ** Add
-Hinzufügen
+HinzufÃ¼gen
 
 ** Add a special rule
-Eine spezielle Regel hinzufügen
+Eine spezielle Regel hinzufÃ¼gen
 
 ** Add to offline folders
-Zu den Offline-Ordnern hinzufügen
+Zu den Offline-Ordnern hinzufÃ¼gen
 
 ** added line
-hinzugefügte Zeile
+hinzugefÃ¼gte Zeile
 
 ** Address
 Adresse
@@ -130,7 +130,7 @@ Ajax-Fehler
 Alle
 
 ** All day
-Ganztägig
+GanztÃ¤gig
 
 ** All events
 Alle Ereignisse
@@ -202,25 +202,25 @@ April
 Archiv
 
 ** Archive deleted files
-Gelöschte Dateien archivieren
+GelÃ¶schte Dateien archivieren
 
 ** Asset
 Datensatz
 
 ** Asset marked as read-only.
-Datensatz als schreibgeschützt markiert.
+Datensatz als schreibgeschÃ¼tzt markiert.
 
 ** Assets
-Datensätze
+DatensÃ¤tze
 
 ** Assets (children)
-Datensätze (Unterordner)
+DatensÃ¤tze (Unterordner)
 
 ** Assets can be imported into multiple folders by adding the "Folder" column.
-Datensätze können in mehrere Verzeichnisse importiert werden, indem die Spalte Verzeichnis hinzugefügt wird.
+DatensÃ¤tze kÃ¶nnen in mehrere Verzeichnisse importiert werden, indem die Spalte Verzeichnis hinzugefÃ¼gt wird.
 
 ** Assets can be overwritten by adding the "Id" column.
-Datensätze können überschrieben werden, indem die Spalte ID hinzugefügt wird.
+DatensÃ¤tze kÃ¶nnen Ã¼berschrieben werden, indem die Spalte ID hinzugefÃ¼gt wird.
 
 ** assigned
 zugewiesen
@@ -229,13 +229,13 @@ zugewiesen
 mind. 20 Zeichen
 
 ** attach file
-Datei anhängen
+Datei anhÃ¤ngen
 
 ** Attachment
 Anhang
 
 ** Attachments
-Anhänge
+AnhÃ¤nge
 
 ** Attend
 Teilnehmen
@@ -253,7 +253,7 @@ Art der Authentifizierung
 Autor
 
 ** Automatically hide the menu
-Das Menü automatisch ausblenden
+Das MenÃ¼ automatisch ausblenden
 
 ** Automatically hide the tree
 Den Baum automatisch ausblenden
@@ -265,10 +265,10 @@ Durchschnitt
 Durchschnittlicher Fortschritt
 
 ** Avg length
-Durchschn. Länge
+Durchschn. LÃ¤nge
 
 ** Back
-Zurück
+ZurÃ¼ck
 
 ** Backup
 Sicherungskopie
@@ -292,13 +292,13 @@ Vor
 Start
 
 ** big
-groß
+groÃŸ
 
 ** big text
-Großer Text
+GroÃŸer Text
 
 ** bigger
-größer
+grÃ¶ÃŸer
 
 ** Billing address
 Rechnungsadresse
@@ -352,10 +352,10 @@ Marke
 Marken
 
 ** Browser Compatibility
-Browser-Kompatibilität
+Browser-KompatibilitÃ¤t
 
 ** Browser not supported
-Der Browser wird nicht unterstützt
+Der Browser wird nicht unterstÃ¼tzt
 
 ** Budget
 Budget
@@ -400,13 +400,13 @@ Proc_open kann nicht aufgerufen werden. Bitte entfernen Sie proc_open aus disabl
 Die Verbindung zur Datenbank %s auf %s ist fehlgeschlagen.
 
 ** Cannot create preview for %s
-Die Vorschau für %s kann nicht erstellt werden
+Die Vorschau fÃ¼r %s kann nicht erstellt werden
 
 ** Cannot read the file %s.
 Die Datei kann nicht gelesen werden %s.
 
 ** Cardinality
-Kardinalität
+KardinalitÃ¤t
 
 ** Categories
 Kategorien
@@ -421,25 +421,25 @@ Kopie
 Zentriert
 
 ** CEO
-Geschäftsführer
+GeschÃ¤ftsfÃ¼hrer
 
 ** Change request
-Änderungsantrag
+Ã„nderungsantrag
 
 ** Change settings
-Einstellungen ändern
+Einstellungen Ã¤ndern
 
 ** Change Setup settings
-Setup-Einstellungen ändern
+Setup-Einstellungen Ã¤ndern
 
 ** Change summary
-Zusammenfassung der Änderung
+Zusammenfassung der Ã„nderung
 
 ** Changed
-Geändert
+GeÃ¤ndert
 
 ** changed line
-veränderte Zeile
+verÃ¤nderte Zeile
 
 ** Changelog
 Changelog
@@ -448,16 +448,16 @@ Changelog
 Chat
 
 ** Check DoS Attacks
-DoS-Angriffe überwachen
+DoS-Angriffe Ã¼berwachen
 
 ** checked
-Überprüft
+ÃœberprÃ¼ft
 
 ** Checked
-Überprüft
+ÃœberprÃ¼ft
 
 ** Choices
-Auswahlmöglichkeiten
+AuswahlmÃ¶glichkeiten
 
 ** CIO
 Technologieleiter
@@ -466,10 +466,10 @@ Technologieleiter
 Stadt
 
 ** Clean
-Aufräumen
+AufrÃ¤umen
 
 ** Clean Cache
-Zwischenspeicher aufräumen
+Zwischenspeicher aufrÃ¤umen
 
 ** Clear
 Leeren
@@ -478,7 +478,7 @@ Leeren
 Zwischenspeicher leeren
 
 ** Clear Data
-Daten löschen
+Daten lÃ¶schen
 
 ** Clear grouping
 Gruppierung aufheben
@@ -550,7 +550,7 @@ Wettbewerb
 Konkurrent
 
 ** Complete
-Abschließen
+AbschlieÃŸen
 
 ** completed
 abgeschlossen
@@ -565,10 +565,10 @@ Komponente
 Ausgabe komprimieren
 
 ** Confirm
-Bestätigen
+BestÃ¤tigen
 
 ** confirmed
-bestätigt
+bestÃ¤tigt
 
 ** Connection error: %s [%s]
 Verbindungsfehler: %s [%s]
@@ -589,10 +589,10 @@ Berater
 Kontakt
 
 ** Contact activities
-Kontakt-Aktivitäten
+Kontakt-AktivitÃ¤ten
 
 ** Contact activity
-Kontakt-Aktivität
+Kontakt-AktivitÃ¤t
 
 ** Contact by
 Kontakt per
@@ -613,7 +613,7 @@ Benutzer kontaktieren mit
 Kontakte
 
 ** contains
-enthält
+enthÃ¤lt
 
 ** Content
 Inhalt
@@ -622,7 +622,7 @@ Inhalt
 Weiter
 
 ** Contracts
-Verträge
+VertrÃ¤ge
 
 ** Copier
 Kopierer
@@ -634,7 +634,7 @@ Kopieren
 Kostenstelle
 
 ** Costs of accommodation
-Übernachtungskosten
+Ãœbernachtungskosten
 
 ** Could not determine database-version.
 Die Datenbank-Version konnte nicht ermittelt werden.
@@ -667,7 +667,7 @@ Lebenslauf
 Angepasstes Schema
 
 ** Customization rules\nfor modules based on sgsML
-Anpassungsregeln\nfür sgsML-Module
+Anpassungsregeln\nfÃ¼r sgsML-Module
 
 ** customizations
 Anpassungen
@@ -679,7 +679,7 @@ Anpassen
 Ausschneiden
 
 ** daily
-täglich
+tÃ¤glich
 
 ** Data
 Daten
@@ -688,7 +688,7 @@ Daten
 Freie Daten
 
 ** Data length
-Datenlänge
+DatenlÃ¤nge
 
 ** Database
 Datenbank
@@ -700,10 +700,10 @@ Name des Datenbankservers
 Name der Datenbank
 
 ** Database Password
-Passwort für die Datenbank
+Passwort fÃ¼r die Datenbank
 
 ** Database size
-Datenbankgröße
+DatenbankgrÃ¶ÃŸe
 
 ** Database status
 Datenbankstatus
@@ -712,7 +712,7 @@ Datenbankstatus
 Datenbanktyp
 
 ** Database User
-Benutzername für die Datenbank
+Benutzername fÃ¼r die Datenbank
 
 ** Database variables
 Datenbankvariablen
@@ -763,25 +763,25 @@ Vorgabe-Funktion
 Vorgegebenes Layout
 
 ** Default values for assets
-Vorgegebene Werte für Datensätze
+Vorgegebene Werte fÃ¼r DatensÃ¤tze
 
 ** definition for definition lists
-Definition für Definitionslisten
+Definition fÃ¼r Definitionslisten
 
 ** Degree
 Akadem. Grad
 
 ** Delete
-Löschen
+LÃ¶schen
 
 ** Delete incl subfolders
-Löschen mit Unterverz.
+LÃ¶schen mit Unterverz.
 
 ** deleted
-gelöscht
+gelÃ¶scht
 
 ** deleted line
-gelöschte Zeile
+gelÃ¶schte Zeile
 
 ** Delivery
 Auslieferung
@@ -793,7 +793,7 @@ Anforderung
 Demo
 
 ** Demonstration folder
-Vorführverzeichnis
+VorfÃ¼hrverzeichnis
 
 ** Department
 Abteilung
@@ -802,7 +802,7 @@ Abteilung
 Abteilungen
 
 ** Dependancies
-Abhängigkeiten
+AbhÃ¤ngigkeiten
 
 ** Description
 Beschreibung
@@ -823,10 +823,10 @@ Desktop-Rechner
 Details
 
 ** Device type
-Gerätetyp
+GerÃ¤tetyp
 
 ** Device types
-Gerätetypen
+GerÃ¤tetypen
 
 ** Diagram
 Diagramm
@@ -844,7 +844,7 @@ deaktivieren
 Basic Authentication deaktivieren
 
 ** Disable cut-copy-paste
-Deaktiviere ausschneiden-kopieren-einfügen
+Deaktiviere ausschneiden-kopieren-einfÃ¼gen
 
 ** Disabled
 Deaktiviert
@@ -880,7 +880,7 @@ Dokumentation
 Dokumentations-Index
 
 ** Domain
-Domäne
+DomÃ¤ne
 
 ** Don't attend
 Nicht teilnehmen
@@ -889,7 +889,7 @@ Nicht teilnehmen
 Alte Dateien nicht nach old/ verschieben
 
 ** Down
-Abwärts
+AbwÃ¤rts
 
 ** Download
 Herunterladen
@@ -961,7 +961,7 @@ Anonymen Zugriff auf das CMS erlauben
 Benutzer automatisch anlegen
 
 ** Enable external mail client for 'mailto:' links
-Externes E-Mail-Programm für mailto:-Links aktivieren
+Externes E-Mail-Programm fÃ¼r mailto:-Links aktivieren
 
 ** Enable self registration
 Selbstanmeldung aktivieren
@@ -991,7 +991,7 @@ Fehler bei xmlhttp-Anfrage
 Fehler bei verschieben einer Datei
 
 ** Error pasting asset
-Fehler beim Einfügen des Datensatzes
+Fehler beim EinfÃ¼gen des Datensatzes
 
 ** Error: no credentials
 Fehler: keine Zugangsdaten
@@ -1006,16 +1006,16 @@ Beispiel
 Beispielkontakte
 
 ** Example surveys can be found at:
-Beispielumfragen sind verfügbar unter:
+Beispielumfragen sind verfÃ¼gbar unter:
 
 ** Example without mountpoint
-Beispiel ohne Einhängepunkt
+Beispiel ohne EinhÃ¤ngepunkt
 
 ** Examples
 Beispiele
 
 ** Execute
-Ausführen
+AusfÃ¼hren
 
 ** Expenses
 Spesen
@@ -1069,7 +1069,7 @@ Fax
 Fax privat
 
 ** Feature request
-Eine Funktionalität beantragen
+Eine FunktionalitÃ¤t beantragen
 
 ** Feb
 Feb
@@ -1087,7 +1087,7 @@ weiblich
 Feld
 
 ** Field contains value
-Feld enthält den Wert
+Feld enthÃ¤lt den Wert
 
 ** Field customization
 Feldanpassung
@@ -1102,10 +1102,10 @@ Felder
 Datei
 
 ** file is too big. Please change upload_max_filesize, post_max_size in your php.ini
-Die Datei ist zu groß. Bitte ändern Sie die Werte von upload_max_filesize, post_max_size in der php.ini
+Die Datei ist zu groÃŸ. Bitte Ã¤ndern Sie die Werte von upload_max_filesize, post_max_size in der php.ini
 
 ** file is too big. Please upload a smaller one.
-Die Datei ist zu groß. Bitte wiederholen Sie den Vorgang mit einer kleineren Datei.
+Die Datei ist zu groÃŸ. Bitte wiederholen Sie den Vorgang mit einer kleineren Datei.
 
 ** file not found in database.
 Die Datei wurde nicht in der Datenbank gefunden.
@@ -1117,7 +1117,7 @@ Die Datei wurde nicht gefunden.
 Die Datei wurde nur teilweise hochgeladen.
 
 ** Filename must have the right extension. Valid extensions are %s
-Die Datei muss eine gültige Datei-Erweiterung haben (%s).
+Die Datei muss eine gÃ¼ltige Datei-Erweiterung haben (%s).
 
 ** Files
 Dateien
@@ -1129,7 +1129,7 @@ Dateisystem
 Filter
 
 ** Find assets in multiple folders
-Datensätze in mehreren Verzeichnissen finden
+DatensÃ¤tze in mehreren Verzeichnissen finden
 
 ** Finish scheduled
 Abschlusstermin
@@ -1168,7 +1168,7 @@ Verzeichnis existiert bereits.
 Verzeichnis angelegt.
 
 ** Folder has changed.
-Verzeichnis wurde verändert.
+Verzeichnis wurde verÃ¤ndert.
 
 ** Folder icon
 Verzeichnis-Symbol
@@ -1177,7 +1177,7 @@ Verzeichnis-Symbol
 Verzeichnis nicht gefunden.
 
 ** Folder refresh period
-Zeitspanne für Verzeichnis-Aktualisierung
+Zeitspanne fÃ¼r Verzeichnis-Aktualisierung
 
 ** Folder structure
 Verzeichnisstruktur
@@ -1198,7 +1198,7 @@ Verzeichnis mit der ID %s
 Verzeichnisse
 
 ** for a new paragraph, use a blank line
-für neuen Absatz eine leere Zeile verwenden
+fÃ¼r neuen Absatz eine leere Zeile verwenden
 
 ** Force SSL
 SSL erzwingen
@@ -1270,13 +1270,13 @@ Geschenke
 Feedback abgeben
 
 ** GNU GPL Frequently Asked Questions
-Häufig gestellte Fragen zur GNU GPL
+HÃ¤ufig gestellte Fragen zur GNU GPL
 
 ** greater than
-größer als
+grÃ¶ÃŸer als
 
 ** green
-grün
+grÃ¼n
 
 ** Group
 Gruppe
@@ -1294,22 +1294,22 @@ Gruppenname
 Gruppen
 
 ** hanging text
-hängender Text
+hÃ¤ngender Text
 
 ** Hardware
-Geräte
+GerÃ¤te
 
 ** Headers
 Nachrichtenkopf
 
 ** heading
-Überschrift
+Ãœberschrift
 
 ** headings
-Überschriften
+Ãœberschriften
 
 ** Height
-Höhe
+HÃ¶he
 
 ** Help
 Hilfe
@@ -1408,10 +1408,10 @@ Ideen
 Falls leer wird die SMTP-Verbindung vom Benutzermodul verwendet.
 
 ** If file system permissions are ok, please check the configurations of %s if present.
-Falls Dateisystemrechte ok, bitte Konfigurationen von %s prüfen, falls vorhanden.
+Falls Dateisystemrechte ok, bitte Konfigurationen von %s prÃ¼fen, falls vorhanden.
 
 ** if not autodetected with namingContexts
-falls nicht automatisch über namingContexts erkannt
+falls nicht automatisch Ã¼ber namingContexts erkannt
 
 ** If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.
 Falls Benutzername oder Passwort das Zeichen &quot;:&quot; enthalten, bitte mit &quot;==&quot; ersetzen.
@@ -1435,7 +1435,7 @@ Bilder
 Imap-Fehler: %s
 
 ** immediate
-unverzüglich
+unverzÃ¼glich
 
 ** Import
 Import
@@ -1459,13 +1459,13 @@ In RSS-Feed aufnehmen
 Seite einbinden
 
 ** indent text
-Text einrücken
+Text einrÃ¼cken
 
 ** Index
 Index
 
 ** Index length
-Indexlänger
+IndexlÃ¤nger
 
 ** Index type
 Indextyp
@@ -1486,19 +1486,19 @@ Vererbung auf Unterverzeichnisse ohne vorgegebene Werte
 Eingabefeld
 
 ** Input field height
-Höhe des Eingabefeldes
+HÃ¶he des Eingabefeldes
 
 ** Insert
 Erstelle
 
 ** inserted
-eingefügt
+eingefÃ¼gt
 
 ** Install default folder structure
 Standard-Verzeichnisstruktur installieren
 
 ** Install demo folders
-Vorführverzeichnisse installieren
+VorfÃ¼hrverzeichnisse installieren
 
 ** Install minimal folder structure
 Minimale Verzeichnisstruktur installieren
@@ -1516,19 +1516,19 @@ interne Empfehlung
 Intranet
 
 ** Intro
-Einführung
+EinfÃ¼hrung
 
 ** invalid
-ungültig
+ungÃ¼ltig
 
 ** Invalid file extensions
-Ungültige Datei-Erweiterungen
+UngÃ¼ltige Datei-Erweiterungen
 
 ** Invalid schema mode '%s'
-Ungültiger Schema-Modus %s
+UngÃ¼ltiger Schema-Modus %s
 
 ** Invalid security token
-Ungültiges Sicherheitsmerkmal
+UngÃ¼ltiges Sicherheitsmerkmal
 
 ** Inventory
 Inventar
@@ -1549,10 +1549,10 @@ kursiv
 Element erstellt von %s am %s
 
 ** Item deleted by %s at %s
-Element gelöscht von %s am %s
+Element gelÃ¶scht von %s am %s
 
 ** Item edited (%s) by %s at %s
-Element verändert (%s) von %s am %s
+Element verÃ¤ndert (%s) von %s am %s
 
 ** Item not found.
 Element nicht gefunden.
@@ -1573,7 +1573,7 @@ Jan
 Januar
 
 ** Job description
-Tätigkeitsbeschreibung
+TÃ¤tigkeitsbeschreibung
 
 ** Join lines
 Zeilen verbinden
@@ -1591,16 +1591,16 @@ Jun
 Juni
 
 ** Key
-Schlüssel
+SchlÃ¼ssel
 
 ** Key customer
-Schlüsselkunde
+SchlÃ¼sselkunde
 
 ** Key name
-Schlüsselname
+SchlÃ¼sselname
 
 ** Keywords
-Stichwörter
+StichwÃ¶rter
 
 ** Knowledge base
 Wissensdatenbank
@@ -1621,13 +1621,13 @@ Nachname
 Die anonyme LDAP-Verbindung zum Server ist fehlgeschlagen.
 
 ** LDAP attribute for group memberships
-LDAP-Attribut für Gruppenmitgliedschaften
+LDAP-Attribut fÃ¼r Gruppenmitgliedschaften
 
 ** LDAP attribute for rooms
-LDAP-Attribut für Räume
+LDAP-Attribut fÃ¼r RÃ¤ume
 
 ** LDAP attribute for usernames
-LDAP-Attribut für Benutzernamen
+LDAP-Attribut fÃ¼r Benutzernamen
 
 ** LDAP connection to host %s failed.
 Die LDAP-Verbindung zum Server %s ist fehlgeschlagen.
@@ -1753,10 +1753,10 @@ d.m.y G:i:s
 violett
 
 ** mail footer
-E-Mail Fußzeile
+E-Mail FuÃŸzeile
 
 ** Mail identities
-E-Mail Identitäten
+E-Mail IdentitÃ¤ten
 
 ** mail notification
 E-Mail Benachrichtigung
@@ -1765,7 +1765,7 @@ E-Mail Benachrichtigung
 E-Mail Erinnerung
 
 ** Main menu
-Hauptmenü
+HauptmenÃ¼
 
 ** Main page
 Hauptseite
@@ -1774,7 +1774,7 @@ Hauptseite
 Wartungsmodus
 
 ** male
-männlich
+mÃ¤nnlich
 
 ** Man-days
 Manntage
@@ -1792,10 +1792,10 @@ Manager
 Hersteller
 
 ** Mar
-Mär
+MÃ¤r
 
 ** March
-März
+MÃ¤rz
 
 ** Marketing event
 Marketingveranstaltung
@@ -1807,13 +1807,13 @@ verheiratet
 Maximieren
 
 ** Maximum file size
-Maximale Dateigröße
+Maximale DateigrÃ¶ÃŸe
 
 ** Maximum number of assets per page
-Maximale Anzahl an Datensätzen pro Seite
+Maximale Anzahl an DatensÃ¤tzen pro Seite
 
 ** maximum number of files exceeded.
-Die maximale Anzahl der Dateien wurde überschritten.
+Die maximale Anzahl der Dateien wurde Ã¼berschritten.
 
 ** May
 Mai
@@ -1858,7 +1858,7 @@ Minimum = 15 Sek., 0 = deaktiviert
 Diverses
 
 ** missing a temporary folder.
-Der temporäre Ordner fehlt.
+Der temporÃ¤re Ordner fehlt.
 
 ** missing field
 fehlendes Feld
@@ -1876,13 +1876,13 @@ Handy
 Typ
 
 ** Modified
-Geändert
+GeÃ¤ndert
 
 ** Modified by
-Geändert von
+GeÃ¤ndert von
 
 ** Modifying database failed.
-Die Änderung der Datenbank ist fehlgeschlagen.
+Die Ã„nderung der Datenbank ist fehlgeschlagen.
 
 ** Module
 Modul
@@ -1912,10 +1912,10 @@ monatlich
 Monate
 
 ** More information about the GNU GPL
-Mehr Informationen über die GNU GPL
+Mehr Informationen Ã¼ber die GNU GPL
 
 ** Mountpoint
-Einhängepunkt
+EinhÃ¤ngepunkt
 
 ** Move
 Verschieben
@@ -1945,7 +1945,7 @@ Der Name darf nicht leer sein und sollte mind. 3 und max. 128 Kleinbuchstaben en
 Der Name darf nicht leer sein und sollte mind. 3 Buchstaben enthalten [a-zA-Z0-9-_.].
 
 ** need feedback
-Rückmeldung benötigt
+RÃ¼ckmeldung benÃ¶tigt
 
 ** Network
 Netzwerk
@@ -1963,7 +1963,7 @@ Neues Verzeichnis
 Nachrichten
 
 ** Next recurrences
-Nächste Wiederholungen
+NÃ¤chste Wiederholungen
 
 ** Nickname
 Spitzname
@@ -1975,16 +1975,16 @@ Nachtarbeit
 nein
 
 ** No dataset selected.
-Kein Datensatz ausgewählt.
+Kein Datensatz ausgewÃ¤hlt.
 
 ** No entries found.
-Keine Einträge gefunden.
+Keine EintrÃ¤ge gefunden.
 
 ** No file was uploaded
 Es wurde keine Datei hochgeladen.
 
 ** No line breaks
-Keine Zeilenumbrüche
+Keine ZeilenumbrÃ¼che
 
 ** no result
 kein Ergebnis
@@ -2014,10 +2014,10 @@ keine/r
 normal
 
 ** Not allowed. Please log in as super administrator.
-Nicht zulässig. Bitte als Super-Administrator anmelden.
+Nicht zulÃ¤ssig. Bitte als Super-Administrator anmelden.
 
 ** not contains
-enthält nicht
+enthÃ¤lt nicht
 
 ** not equal
 ungleich
@@ -2065,7 +2065,7 @@ Null
 Anzahl Mitarbeiter
 
 ** numbered
-Aufzählung
+AufzÃ¤hlung
 
 ** Objectives
 Zielsetzungen
@@ -2113,7 +2113,7 @@ eine(r) von
 online
 
 ** Only for this folder
-Nur für dieses Verzeichnis
+Nur fÃ¼r dieses Verzeichnis
 
 ** Only in
 Nur in
@@ -2140,7 +2140,7 @@ Optionen
 oder
 
 ** or higher
-oder höher
+oder hÃ¶her
 
 ** orange
 orange
@@ -2158,16 +2158,16 @@ Betreuer
 Ursprung
 
 ** Original message
-Ursprüngliche Nachricht
+UrsprÃ¼ngliche Nachricht
 
 ** Other
 andere
 
 ** out of office
-außer Haus
+auÃŸer Haus
 
 ** Outline image
-Überblick (Skizze)
+Ãœberblick (Skizze)
 
 ** Output
 Ausgabe
@@ -2176,13 +2176,13 @@ Ausgabe
 Ausgabe leer: %s
 
 ** overlap
-Überschneidung
+Ãœberschneidung
 
 ** Overtime
-Überstunden
+Ãœberstunden
 
 ** Overtime compensation per hour
-Überstundenausgleich pro Stunde
+Ãœberstundenausgleich pro Stunde
 
 ** Owner
 Besitzer
@@ -2200,7 +2200,7 @@ Gepackt
 Seite
 
 ** Page last modified on
-Seite zuletzt geändert am
+Seite zuletzt geÃ¤ndert am
 
 ** Page name (URL)
 Seitenname (URL)
@@ -2212,7 +2212,7 @@ Seite nicht gefunden
 Seitentitel
 
 ** Pager
-Funkrufempfänger
+FunkrufempfÃ¤nger
 
 ** Paid
 Bezahlt
@@ -2221,16 +2221,16 @@ Bezahlt
 Bezahlter Urlaub
 
 ** Paragraphs
-Absätze
+AbsÃ¤tze
 
 ** parameters
 Parameter
 
 ** Parameters
-Kenngrößen
+KenngrÃ¶ÃŸen
 
 ** Parent folder
-Übergeordnetes Verzeichnis
+Ãœbergeordnetes Verzeichnis
 
 ** Parsing
 Analysiere
@@ -2260,13 +2260,13 @@ Passwort endet am
 Das Passwort darf nicht leer sein und muss mind. 5 Buchstaben enthalten.
 
 ** password not confirmed.
-Das Passwort wurde nicht bestätigt.
+Das Passwort wurde nicht bestÃ¤tigt.
 
 ** Passwords
-Passwörter
+PasswÃ¶rter
 
 ** Paste
-Einfügen
+EinfÃ¼gen
 
 ** Path
 Pfad
@@ -2281,19 +2281,19 @@ Gehaltsabrechnung
 Rechte
 
 ** Permissions added for: %s
-Rechte hinzugefügt für: %s
+Rechte hinzugefÃ¼gt fÃ¼r: %s
 
 ** Personal
 Privat
 
 ** Personal department
-Persönliche Abteilung
+PersÃ¶nliche Abteilung
 
 ** Personal folders
-Persönliche Ordner
+PersÃ¶nliche Ordner
 
 ** Personal projects
-Persönliche Projekte
+PersÃ¶nliche Projekte
 
 ** Phone
 Telefon
@@ -2317,13 +2317,13 @@ Geplant
 Bitte aktivieren Sie Cookies.
 
 ** Please choose Apache as Web-Server.
-Bitte wählen Sie Apache als Webserver.
+Bitte wÃ¤hlen Sie Apache als Webserver.
 
 ** Please enable Javascript in your browser.
 Bitte aktivieren Sie Javascript in Ihrem Browser.
 
 ** Please enter a valid url.
-Bitte geben Sie eine gültige URL ein.
+Bitte geben Sie eine gÃ¼ltige URL ein.
 
 ** Please give read access to %s
 Bitte geben Sie Leserechte auf %s
@@ -2335,28 +2335,28 @@ Bitte geben Sie Schreibrechte auf %s
 Bitte geben Sie Schreibrechte auf %s und %s
 
 ** Please hit reload.
-Bitte Drücken Sie auf Aktualisieren.
+Bitte DrÃ¼cken Sie auf Aktualisieren.
 
 ** Please input a valid e-mail adress.
-Bitte geben Sie eine gültige E-Mail Addresse ein.
+Bitte geben Sie eine gÃ¼ltige E-Mail Addresse ein.
 
 ** Please install 'tsearch2' for the PostgreSQL database.
-Bitte installieren Sie tsearch2 für die PostgreSQL-Datenbank.
+Bitte installieren Sie tsearch2 fÃ¼r die PostgreSQL-Datenbank.
 
 ** Please install the php-extension with name '%s'.
 Bitte installieren Sie die PHP-Erweiterung %s.
 
 ** Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !
-Bitte verändern Sie Ihre php.ini oder erstellen Sie eine .htaccess-Datei, die %s auf %s verändert (der aktuelle Wert ist %s) !
+Bitte verÃ¤ndern Sie Ihre php.ini oder erstellen Sie eine .htaccess-Datei, die %s auf %s verÃ¤ndert (der aktuelle Wert ist %s) !
 
 ** Please read the following license agreement. Use the scroll bar to view the rest of this agreement.
 Lesen Sie bitte die folgende Lizenzvereinbarung. Verwenden Sie die Bildlaufleiste, um den Rest dieser Vereinbarung anzusehen.
 
 ** Please select a location.
-Wählen Sie bitte einen Ort.
+WÃ¤hlen Sie bitte einen Ort.
 
 ** Please select a participant.
-Wählen Sie bitte einen Teilnehmer.
+WÃ¤hlen Sie bitte einen Teilnehmer.
 
 ** Please upload again.
 Bitte wiederholen Sie den Vorgang.
@@ -2401,7 +2401,7 @@ Vorschau
 Preis
 
 ** Primary key
-Primärschlüssel
+PrimÃ¤rschlÃ¼ssel
 
 ** Print
 Drucken
@@ -2413,7 +2413,7 @@ Alles drucken
 Drucker
 
 ** Priority
-Priorität
+PrioritÃ¤t
 
 ** Problem
 Problem
@@ -2464,7 +2464,7 @@ Frage
 Warteschlange
 
 ** Quick add
-Schnell hinzufügen
+Schnell hinzufÃ¼gen
 
 ** Quota
 Kontingent
@@ -2476,7 +2476,7 @@ Kontingent
 Kontingent [MB]
 
 ** Quota limitation exceeded: %s
-Höchstkontingent überschritten
+HÃ¶chstkontingent Ã¼berschritten
 
 ** R e g i s t e r
 R e g i s t r i e r e n
@@ -2509,34 +2509,34 @@ reparaturbereit
 schrottreif
 
 ** Real URL format in the CMS
-Real-URL-Format für das CMS
+Real-URL-Format fÃ¼r das CMS
 
 ** Really apply rights to subfolders ?
 Sollen die Rechte auf die Unterverzeichnisse angewendet werden ?
 
 ** Really apply the changes ?
-Sollen die Änderungen wirklich angewendet werden ?
+Sollen die Ã„nderungen wirklich angewendet werden ?
 
 ** Really delete ?
-Wirklich löschen ?
+Wirklich lÃ¶schen ?
 
 ** REALLY delete ALL datasets ?
-Sollen ALLE Datensätze gelöscht werden ?
+Sollen ALLE DatensÃ¤tze gelÃ¶scht werden ?
 
 ** Really delete ALL subfolders ?
-Sollen ALLE Unterordner gelöscht weredn ?
+Sollen ALLE Unterordner gelÃ¶scht weredn ?
 
 ** Really delete the dataset(s) ?
-Sollen diese Datensätze gelöscht werden ?
+Sollen diese DatensÃ¤tze gelÃ¶scht werden ?
 
 ** Really empty the folder ?
-Soll der Inhalt des Verzeichnisses gelöscht werden ?
+Soll der Inhalt des Verzeichnisses gelÃ¶scht werden ?
 
 ** Really overwrite existing dataset(s) ?
-Sollen die bestehenden Datensätze überschrieben werden ?
+Sollen die bestehenden DatensÃ¤tze Ã¼berschrieben werden ?
 
 ** Really run setup again ?
-Setup wirklich erneut ausführen ?
+Setup wirklich erneut ausfÃ¼hren ?
 
 ** Really uninstall the module ?
 Modul wirklich deinstallieren?
@@ -2545,10 +2545,10 @@ Modul wirklich deinstallieren?
 Suchindex erneuern
 
 ** Recent changes
-Letzte Änderungen
+Letzte Ã„nderungen
 
 ** Recipients
-Empfänger
+EmpfÃ¤nger
 
 ** Recommendation of affiliate
 externe Empfehlung
@@ -2575,7 +2575,7 @@ Aktualisieren
 Alle x Sekunden aktualisieren
 
 ** Regular
-Regulär
+RegulÃ¤r
 
 ** Reject
 Ablehnen
@@ -2620,22 +2620,22 @@ Antworten
 Allen antworten
 
 ** Require admin access to set mountpoints
-Adminzugriff zum Setzen von Einhängepunkten verlangen
+Adminzugriff zum Setzen von EinhÃ¤ngepunkten verlangen
 
 ** Required
-Benötigt
+BenÃ¶tigt
 
 ** Required fields
-Benötigte Felder
+BenÃ¶tigte Felder
 
 ** Reseller
-Wiederverkäufer
+WiederverkÃ¤ufer
 
 ** reserved
 reserviert
 
 ** Reset view
-Ansicht zurücksetzen
+Ansicht zurÃ¼cksetzen
 
 ** Resource
 Resource
@@ -2668,10 +2668,10 @@ Nur neue wiederherstellen
 Im Ursprung wiederherstellen
 
 ** Return receipt
-Lesebestätigung
+LesebestÃ¤tigung
 
 ** right-aligned
-rechtsbündig
+rechtsbÃ¼ndig
 
 ** Rights
 Rechte
@@ -2686,13 +2686,13 @@ Raumname
 Raumnummer
 
 ** Rooms
-Räume
+RÃ¤ume
 
 ** Rows
 Reihen
 
 ** Run Setup again
-Setup erneut ausführen
+Setup erneut ausfÃ¼hren
 
 ** S a v e
 S p e i c h e r n
@@ -2701,7 +2701,7 @@ S p e i c h e r n
 S p e i c h e r n  u n d  b e a r b e i t e n
 
 ** S a v e  a n d  g o  b a c k
-S p e i c h e r n  u n d  z u r ü c k
+S p e i c h e r n  u n d  z u r Ã¼ c k
 
 ** Sa
 Sa
@@ -2713,7 +2713,7 @@ Gehalt
 Gehalt pro
 
 ** Sales promotion
-Verkaufsförderung
+VerkaufsfÃ¶rderung
 
 ** Sat
 Sa
@@ -2755,13 +2755,13 @@ Stellvertret. Filialleiter
 Sekunden
 
 ** Secretary
-Sekretärin
+SekretÃ¤rin
 
 ** Self registration
 Selbstanmeldung
 
 ** Self registration needs confirmation by an administrator.
-Selbstanmeldung benötigt Bestätigung durch einen Administrator.
+Selbstanmeldung benÃ¶tigt BestÃ¤tigung durch einen Administrator.
 
 ** Send now
 Jetzt senden
@@ -2797,7 +2797,7 @@ Seriennummer
 Server
 
 ** Server does not support sorting
-Der Server unterstützt keine Sortierung
+Der Server unterstÃ¼tzt keine Sortierung
 
 ** Server-IP
 Server-IP
@@ -2809,7 +2809,7 @@ Dienstleister
 Sitzungsname im Cookie
 
 ** Session timeout
-Sitzungs-Zeitüberschreitung
+Sitzungs-ZeitÃ¼berschreitung
 
 ** Sessions
 Sitzungen
@@ -2821,16 +2821,16 @@ Sitzungen
 Setup
 
 ** Setup needs a database-php-extension ! (%s)
-Die Installation benötigt eine PHP-Datenbankerweiterung ! (%s)
+Die Installation benÃ¶tigt eine PHP-Datenbankerweiterung ! (%s)
 
 ** Setup needs php with at least version %s !
-Die Installation benötigt mindestens PHP %s !
+Die Installation benÃ¶tigt mindestens PHP %s !
 
 ** Setup needs php-extension with name %s !
-Das Setup benötigt die PHP-Erweiterung %s !
+Das Setup benÃ¶tigt die PHP-Erweiterung %s !
 
 ** Setup needs Simple Groupware with at least version %s !
-Die Installation benötigt mindestens Simple Groupware %s !
+Die Installation benÃ¶tigt mindestens Simple Groupware %s !
 
 ** Setup: setup-data written to %s.
 Setup: Die Setup-Daten wurden nach %s geschrieben.
@@ -2869,7 +2869,7 @@ Passwort anzeigen
 Zitierten Text anzeigen
 
 ** Similar
-Ähnlich
+Ã„hnlich
 
 ** Simple tables
 Einfache Tabellen
@@ -2881,10 +2881,10 @@ allein stehend
 Einfache Auswahl
 
 ** Size
-Größe
+GrÃ¶ÃŸe
 
 ** Size (children)
-Größe (Unterordner)
+GrÃ¶ÃŸe (Unterordner)
 
 ** Slow
 Langsam
@@ -2899,7 +2899,7 @@ Kleiner Text
 kleiner
 
 ** SMTP not configured for %s
-SMTP nicht für %s konfiguriert
+SMTP nicht fÃ¼r %s konfiguriert
 
 ** Smtp-error %s: %s
 Smtp-Fehler %s: %s
@@ -2908,10 +2908,10 @@ Smtp-Fehler %s: %s
 Software
 
 ** Solution
-Lösung
+LÃ¶sung
 
 ** Solution type
-Lösungstyp
+LÃ¶sungstyp
 
 ** some text
 irgendein Text
@@ -2959,13 +2959,13 @@ Statistiken
 Status
 
 ** Statuses
-Zustände
+ZustÃ¤nde
 
 ** Strategies
 Strategien
 
 ** Street
-Straße
+StraÃŸe
 
 ** Structure
 Struktur
@@ -3043,7 +3043,7 @@ verschoben
 Wartungsmodus wechseln
 
 ** Sync4j remote delete items
-Sync4j Vom Gerät aus Einträge löschen
+Sync4j Vom GerÃ¤t aus EintrÃ¤ge lÃ¶schen
 
 ** Syntax
 Syntax
@@ -3052,7 +3052,7 @@ Syntax
 System
 
 ** System command executed: %s
-Systembefehl ausgeführt: %s
+Systembefehl ausgefÃ¼hrt: %s
 
 ** Tab
 Tab
@@ -3061,7 +3061,7 @@ Tab
 Tabelle
 
 ** Table sizes
-Tabellengrößen
+TabellengrÃ¶ÃŸen
 
 ** Table status
 Tabellenzustand
@@ -3070,10 +3070,10 @@ Tabellenzustand
 Tabellen
 
 ** Take over
-Übernehmen
+Ãœbernehmen
 
 ** Take selection
-Auswahl übernehmen
+Auswahl Ã¼bernehmen
 
 ** Task
 Aufgabe
@@ -3112,13 +3112,13 @@ Textformatierungsregeln
 Do
 
 ** Thanks for voting!
-Vielen Dank für das Abstimmen!
+Vielen Dank fÃ¼r das Abstimmen!
 
 ** The folder cannot be copied.
 Der Ordner konnte nicht kopiert werden.
 
 ** The folder cannot be deleted.
-Der Ordner konnte nicht gelöscht werden.
+Der Ordner konnte nicht gelÃ¶scht werden.
 
 ** The folder cannot be moved.
 Der Ordner konnte nicht verschoben werden.
@@ -3157,7 +3157,7 @@ Stundenzettel
 Zeitzone
 
 ** timeout
-Zeitüberschreitung
+ZeitÃ¼berschreitung
 
 ** Title
 Titel
@@ -3166,10 +3166,10 @@ Titel
 An
 
 ** to be checked
-zu überprüfen
+zu Ã¼berprÃ¼fen
 
 ** To continue installing Simple Groupware you must check the box under the license
-Um mit der Installation von Simple Groupware fortzufahren müssen Sie den Kasten unter der Lizenz abhaken
+Um mit der Installation von Simple Groupware fortzufahren mÃ¼ssen Sie den Kasten unter der Lizenz abhaken
 
 ** Today
 Heute
@@ -3187,10 +3187,10 @@ Spur
 Messe
 
 ** translations
-Übersetzungen
+Ãœbersetzungen
 
 ** Translations of the GNU GPL
-Übersetzungen der GNU GPL
+Ãœbersetzungen der GNU GPL
 
 ** Transportation costs
 Fahrtkosten
@@ -3229,16 +3229,16 @@ D e i n s t a l l i e r e n
 Fehler beim schreiben in %s
 
 ** unconfirmed
-unbestätigt
+unbestÃ¤tigt
 
 ** Unconfirmed
-Unbestätigt
+UnbestÃ¤tigt
 
 ** underline
 unterstreichen
 
 ** Uninstall does not delete any data in the database.
-Beim Deinstallieren werden keine Daten in der Datenbank gelöscht.
+Beim Deinstallieren werden keine Daten in der Datenbank gelÃ¶scht.
 
 ** uninterested
 nicht interessiert
@@ -3253,7 +3253,7 @@ Eindeutig mit Papierkorb
 Entsperren
 
 ** Up
-Aufwärts
+AufwÃ¤rts
 
 ** Update
 Aktualisiere
@@ -3289,10 +3289,10 @@ Verwendung
 EUR
 
 ** Use APC for session storage
-APC für das Speichern der Sitzung benutzen
+APC fÃ¼r das Speichern der Sitzung benutzen
 
 ** Use Debian binaries (Warning: not latest versions)
-Debian Binär-Pakete verwenden (Warnung: Versionen nicht aktuell)
+Debian BinÃ¤r-Pakete verwenden (Warnung: Versionen nicht aktuell)
 
 ** Use LDAP Groups
 LDAP-Gruppen benutzen
@@ -3322,7 +3322,7 @@ Der Benutzername darf nicht identisch mit dem Super-Administrator sein.
 Benutzer
 
 ** V a l i d a t e
-Ü b e r p r ü f e n
+Ãœ b e r p r Ã¼ f e n
 
 ** V o t e !
 A b s t i m m e n !
@@ -3334,16 +3334,16 @@ Urlaub
 Urlaubstage pro Jahr
 
 ** Validating %s ...
-Überprüfe %s ...
+ÃœberprÃ¼fe %s ...
 
 ** validation failed
-Überprüfung fehlgeschlagen
+ÃœberprÃ¼fung fehlgeschlagen
 
 ** Value
 Wert
 
 ** Value '%s' needs a group membership: %s
-Der Wert %s benötigt eine Gruppenmitgliedschaft: %s
+Der Wert %s benÃ¶tigt eine Gruppenmitgliedschaft: %s
 
 ** Variable
 Variable
@@ -3358,13 +3358,13 @@ Der Wert sollte folgendes Schema haben: dd.mm.yyyy
 Der Wert sollte folgendes Schema haben: dd.mm.yyyy HH:mm
 
 ** Variable must be of type float.
-Bitte geben Sie eine gültige Gleitkommazahl an.
+Bitte geben Sie eine gÃ¼ltige Gleitkommazahl an.
 
 ** Variable must be of type int and greater than 0.
-Der Wert muss numerisch und größer als 0 sein.
+Der Wert muss numerisch und grÃ¶ÃŸer als 0 sein.
 
 ** Variable must be of type int.
-Bitte geben Sie einen gültigen ganzzahligen Wert an.
+Bitte geben Sie einen gÃ¼ltigen ganzzahligen Wert an.
 
 ** Variable must be of type time (hh:mm am/pm).
 Der Wert sollte folgendes Schema haben: HH:mm
@@ -3373,10 +3373,10 @@ Der Wert sollte folgendes Schema haben: HH:mm
 Variablen
 
 ** Verbal recommendation
-mündliche Empfehlung
+mÃ¼ndliche Empfehlung
 
 ** verified
-überprüft
+Ã¼berprÃ¼ft
 
 ** vertical
 vertikal
@@ -3439,7 +3439,7 @@ Wochenbeginn
 Wochenende
 
 ** weekly
-wöchentlich
+wÃ¶chentlich
 
 ** weeks
 Wochen
@@ -3448,7 +3448,7 @@ Wochen
 Willkommen bei Simple Groupware!
 
 ** white
-weiß
+weiÃŸ
 
 ** widowed
 verwitwet
@@ -3508,7 +3508,7 @@ falsches Passwort
 Jahr
 
 ** yearly
-jährlich
+jÃ¤hrlich
 
 ** years
 Jahre
@@ -3520,7 +3520,7 @@ gelb
 ja
 
 ** You are not allowed to view this folder.
-Sie haben keine Berechtigung für dieses Verzeichnis.
+Sie haben keine Berechtigung fÃ¼r dieses Verzeichnis.
 
 ** Your message was read on %s.
 Ihre Nachricht wurde gelesen am %s.

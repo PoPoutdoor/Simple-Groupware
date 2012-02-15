@@ -1,4 +1,4 @@
-/**
+Ôªø/**
  * @package Simple Groupware
  * @license GPLv2
  */
@@ -7,19 +7,19 @@
 Copyright (C) 2011 Pedro Silva
 
 ** !_Language
-Portugal / PortuguÍs
+Portugal / Portugu√™s
 
 ** %s is not activated
-%s n„o est· ativado
+%s n√£o est√° ativado
 
 ** %s is not compiled / loaded into PHP.
-%s n„o est· compilado / carregado no PHP.
+%s n√£o est√° compilado / carregado no PHP.
 
 ** %s M memory usage
-%s M memÛria usada
+%s M mem√≥ria usada
 
 ** %s not in database
-%s n„o est· na base de dados
+%s n√£o est√° na base de dados
 
 ** %s rows affected
 %s linhas afectadas
@@ -28,7 +28,7 @@ Portugal / PortuguÍs
 %s segs
 
 ** %s started editing this asset at %s
-%s comeÁou a editar este objecto ‡s %s
+%s come√ßou a editar este objecto √†s %s
 
 ** (for active directory username must be: username@domain)
 (para Active Directory o nome de utilizador deve ser : utilizador@dominio)
@@ -40,7 +40,7 @@ Portugal / PortuguÍs
 Sobre
 
 ** Absence
-AusÍncia
+Aus√™ncia
 
 ** accepted
 aceite
@@ -73,7 +73,7 @@ ativo
 Ativo
 
 ** Ad
-An˙ncio
+An√∫ncio
 
 ** Add
 Adicionar
@@ -88,7 +88,7 @@ Adicionar a Pastas Offline
 linha adicionada
 
 ** Address
-EndereÁo
+Endere√ßo
 
 ** admin access
 acesso administrador
@@ -106,10 +106,10 @@ Password Administrador
 Nome Utilizador Administrador
 
 ** Administration
-AdministraÁ„o
+Administra√ß√£o
 
 ** Advanced tables
-Tabelas avanÁadas
+Tabelas avan√ßadas
 
 ** Affected user
 Utilizador afetado
@@ -145,28 +145,28 @@ Todas as tarefas pendentes
 Permitir valores costumizados
 
 ** Allow disabled modules
-Permitir mÛdulos desabilitados
+Permitir m√≥dulos desabilitados
 
 ** Already running latest release.
-A correr a ˙ltima vers„o disponÌvel.
+A correr a √∫ltima vers√£o dispon√≠vel.
 
 ** Already voted.
-J· votou.
+J√° votou.
 
 ** Amount
 Quantia
 
 ** Anchor
-¬ncora
+√Çncora
 
 ** and
 e
 
 ** Anniversary
-Anivers·rio
+Anivers√°rio
 
 ** another page
-outra p·gina
+outra p√°gina
 
 ** answered
 respondida
@@ -178,10 +178,10 @@ Respostas
 Baseado em Apache (.htaccess, Basic, Digest, etc.)
 
 ** Application title
-TÌtulo da aplicaÁ„o
+T√≠tulo da aplica√ß√£o
 
 ** Apply rights to subfolders
-Aplicar permissıes nas subpastas
+Aplicar permiss√µes nas subpastas
 
 ** Appointment
 Compromisso
@@ -217,7 +217,7 @@ Objectos
 Objectos (filhos)
 
 ** Assets can be imported into multiple folders by adding the "Folder" column.
-Objectos podem ser importados para v·rias pastas adicionando a coluna `Pasta`.
+Objectos podem ser importados para v√°rias pastas adicionando a coluna `Pasta`.
 
 ** Assets can be overwritten by adding the "Id" column.
 Objectos podem ser sobrescritos adicionando a coluna `Id`.
@@ -247,40 +247,40 @@ Ago
 Agosto
 
 ** Authentication Mode
-Modo de autenticaÁ„o
+Modo de autentica√ß√£o
 
 ** Author
 Autor
 
 ** Automatically hide the menu
-Esconder o menu autom·ticamente
+Esconder o menu autom√°ticamente
 
 ** Automatically hide the tree
-Esconder a ·rvore automaticamente
+Esconder a √°rvore automaticamente
 
 ** Average
-MÈdia
+M√©dia
 
 ** Average progress
-Progresso mÈdio
+Progresso m√©dio
 
 ** Avg length
-Tamanho mÈdio
+Tamanho m√©dio
 
 ** Back
 Retroceder
 
 ** Backup
-CÛpia de seguranÁa
+C√≥pia de seguran√ßa
 
 ** Backup current folder
-Fazer cÛpia de seguranÁa da pasta actual
+Fazer c√≥pia de seguran√ßa da pasta actual
 
 ** Backups
-CÛpias de seguranÁa
+C√≥pias de seguran√ßa
 
 ** Basic editing
-EdiÁ„o b·sica
+Edi√ß√£o b√°sica
 
 ** before
 antes
@@ -289,7 +289,7 @@ antes
 Antes
 
 ** Begin
-ComeÁo
+Come√ßo
 
 ** big
 grande
@@ -301,7 +301,7 @@ texto grande
 maior
 
 ** Billing address
-Morada de cobranÁa
+Morada de cobran√ßa
 
 ** Birthday
 Data de nascimento
@@ -319,7 +319,7 @@ azul
 negrito
 
 ** bold italic
-negrito it·lico
+negrito it√°lico
 
 ** Book
 Livro
@@ -331,7 +331,7 @@ registado
 Registado
 
 ** Booking number
-N˙mero de reserva
+N√∫mero de reserva
 
 ** Bookings
 Reservas
@@ -355,10 +355,10 @@ Marcas
 Compatibilidade do browser
 
 ** Browser not supported
-Browser n„o suportado
+Browser n√£o suportado
 
 ** Budget
-OrÁamento
+Or√ßamento
 
 ** Bug
 Bug
@@ -367,7 +367,7 @@ Bug
 bulleted
 
 ** Business
-NegÛcio
+Neg√≥cio
 
 ** C a n c e l
 C a n c e l a r
@@ -382,7 +382,7 @@ Cache output
 Caches
 
 ** Calendar
-Calend·rio
+Calend√°rio
 
 ** Cancel
 Cancelar
@@ -394,16 +394,16 @@ cancelado
 Cancelado
 
 ** Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.
-N„o foi possivel chamar `proc_open`. Por favor remova o `proc_open` de `disable_functions` no php.ini and desligue o `safe_mode`.
+N√£o foi possivel chamar `proc_open`. Por favor remova o `proc_open` de `disable_functions` no php.ini and desligue o `safe_mode`.
 
 ** Cannot connect to database %s on %s.
-N„o foi possivel ligar ‡ base de dados %s em %s.
+N√£o foi possivel ligar √† base de dados %s em %s.
 
 ** Cannot create preview for %s
-N„o foi possivel criar uma prÈ-visualizaÁ„o para %s
+N√£o foi possivel criar uma pr√©-visualiza√ß√£o para %s
 
 ** Cannot read the file %s.
-N„o foi possivel ler o ficheiro %s.
+N√£o foi possivel ler o ficheiro %s.
 
 ** Cardinality
 Cardinalidade
@@ -427,13 +427,13 @@ CEO
 Alterar pedido
 
 ** Change settings
-Alterar configuraÁıes
+Alterar configura√ß√µes
 
 ** Change Setup settings
-Alterar configuraÁıes da instalaÁ„o
+Alterar configura√ß√µes da instala√ß√£o
 
 ** Change summary
-Alterar sum·rio
+Alterar sum√°rio
 
 ** Changed
 Alterado
@@ -490,7 +490,7 @@ Cliente
 Fechar
 
 ** Close session
-Fechar sess„o
+Fechar sess√£o
 
 ** closed
 fechado
@@ -502,13 +502,13 @@ Fechado
 CMS
 
 ** CMS homepage title
-Tutulo da p·gina de entrada CMS
+Tutulo da p√°gina de entrada CMS
 
 ** Collapse text
 Recolher texto
 
 ** Collapse tree
-Recolher ·rvore
+Recolher √°rvore
 
 ** Color
 Cor
@@ -520,7 +520,7 @@ Coluna
 Nome da coluna
 
 ** Combination
-CombinaÁ„o
+Combina√ß√£o
 
 ** Comma
 Virgula
@@ -532,7 +532,7 @@ Valores separados por virgulas
 Comando
 
 ** Comment
-Coment·rio
+Coment√°rio
 
 ** Comment files
 Ficheiros comentados
@@ -544,7 +544,7 @@ Empresas
 Empresa
 
 ** Competition
-CompetiÁ„o
+Competi√ß√£o
 
 ** Competitor
 Competidor
@@ -553,16 +553,16 @@ Competidor
 Completo
 
 ** completed
-concluÌdo
+conclu√≠do
 
 ** Completed
-ConcluÌdo
+Conclu√≠do
 
 ** Component
 Componente
 
 ** Compress output
-Comprimir a saÌda
+Comprimir a sa√≠da
 
 ** Confirm
 Confirmar
@@ -571,10 +571,10 @@ Confirmar
 confirmado
 
 ** Connection error: %s [%s]
-Erro de coneÁ„o: %s [%s]
+Erro de cone√ß√£o: %s [%s]
 
 ** Connection to database failed.
-LigaÁ„o ‡ base de dados falhou.
+Liga√ß√£o √† base de dados falhou.
 
 ** Console
 Consola
@@ -613,10 +613,10 @@ Contactar o utilizador por
 Contactos
 
 ** contains
-contÈm
+cont√©m
 
 ** Content
-Conte˙do
+Conte√∫do
 
 ** Continue
 Continuar
@@ -637,10 +637,10 @@ Centro de custo
 Custos de alojamento
 
 ** Could not determine database-version.
-N„o foi possÌvel determinar a vers„o da base de dados.
+N√£o foi poss√≠vel determinar a vers√£o da base de dados.
 
 ** Country
-PaÌs
+Pa√≠s
 
 ** Create new
 Criar novo
@@ -652,7 +652,7 @@ Criar novo
 Criado
 
 ** Creating database failed.
-CriaÁ„o da base de dados falhou.
+Cria√ß√£o da base de dados falhou.
 
 ** current path
 caminho actual
@@ -667,10 +667,10 @@ Curriculum vitae
 Schema costumizado
 
 ** Customization rules\nfor modules based on sgsML
-Regras de costumizaÁ„o\npara mÛdulos
+Regras de costumiza√ß√£o\npara m√≥dulos
 
 ** customizations
-costumizaÁıes
+costumiza√ß√µes
 
 ** Customize
 Costumizar
@@ -715,7 +715,7 @@ Tipo de base de dados
 Utilizador da base de dados
 
 ** Database variables
-Vari·veis da base de dados
+Vari√°veis da base de dados
 
 ** Date
 Data
@@ -724,7 +724,7 @@ Data
 Dia
 
 ** Day begin
-Dia comeÁa
+Dia come√ßa
 
 ** Day end
 Dia acaba
@@ -751,22 +751,22 @@ Dez
 Dezembro
 
 ** Declining balance
-BalanÁo de declÌnio
+Balan√ßo de decl√≠nio
 
 ** Default
-Padr„o
+Padr√£o
 
 ** Default function
-FunÁ„o padr„o
+Fun√ß√£o padr√£o
 
 ** Default theme
-Tema padr„o
+Tema padr√£o
 
 ** Default values for assets
-Valores padr„o para os objectos
+Valores padr√£o para os objectos
 
 ** definition for definition lists
-definiÁ„o para listas de definiÁ„o
+defini√ß√£o para listas de defini√ß√£o
 
 ** Degree
 Grau
@@ -793,7 +793,7 @@ Demanda
 Demo
 
 ** Demonstration folder
-Pasta de demonstraÁ„o
+Pasta de demonstra√ß√£o
 
 ** Department
 Departamento
@@ -802,22 +802,22 @@ Departamento
 Departamentos
 
 ** Dependancies
-DependÍncias
+Depend√™ncias
 
 ** Description
-DescriÁ„o
+Descri√ß√£o
 
 ** Description hint
-Sugest„o da descriÁ„o
+Sugest√£o da descri√ß√£o
 
 ** Description title
-TÌtulo da descriÁ„o
+T√≠tulo da descri√ß√£o
 
 ** Description value
-Valor da descriÁ„o
+Valor da descri√ß√£o
 
 ** Desktop computer
-Computador de secret·ria
+Computador de secret√°ria
 
 ** Details
 Detalhes
@@ -832,16 +832,16 @@ Tipos de dispositivos
 Diagrama
 
 ** directory does not exist.
-directoria n„o existe.
+directoria n√£o existe.
 
 ** Directory is outside the allowed directory. (%s is outside %s)
-A directoria È fora da directoria autorizada. (%s È fora de %s)
+A directoria √© fora da directoria autorizada. (%s √© fora de %s)
 
 ** disable
 desligar
 
 ** Disable basic authentication
-Desligar autenticaÁ„o b·sica
+Desligar autentica√ß√£o b√°sica
 
 ** Disable cut-copy-paste
 Desligar cortar-copiar-colar
@@ -850,19 +850,19 @@ Desligar cortar-copiar-colar
 Desabilitado
 
 ** Disabled modules
-MÛdulos desabilitados
+M√≥dulos desabilitados
 
 ** Display
 Visualizar
 
 ** display filter
-filtros da visualizaÁ„o
+filtros da visualiza√ß√£o
 
 ** Displayname
-Nome da visualizaÁ„o
+Nome da visualiza√ß√£o
 
 ** displays
-visualizaÁıes
+visualiza√ß√µes
 
 ** Distributor
 Distribuidor
@@ -874,19 +874,19 @@ Distribuidores
 divorciado(a)
 
 ** Documentation
-DocumentaÁ„o
+Documenta√ß√£o
 
 ** Documentation index
-Õndice da documentaÁ„o
+√çndice da documenta√ß√£o
 
 ** Domain
-DomÌnio
+Dom√≠nio
 
 ** Don't attend
-N„o assistir
+N√£o assistir
 
 ** Don't move old files to 'old/'
-N„o mova ficheiros antigos para `old/`
+N√£o mova ficheiros antigos para `old/`
 
 ** Down
 Baixo
@@ -898,10 +898,10 @@ Descarregar
 Descarregar o ficheiro de exemplo
 
 ** Downloading extension list
-A descarregar a lista de extensıes
+A descarregar a lista de extens√µes
 
 ** Downloading update list
-A descarregar lista de actualizaÁıes
+A descarregar lista de actualiza√ß√µes
 
 ** Drag and drop files or URLs here.
 Arraste e largue ficheiros ou URLs aqui.
@@ -910,7 +910,7 @@ Arraste e largue ficheiros ou URLs aqui.
 duplicado
 
 ** Duration
-DuraÁ„o
+Dura√ß√£o
 
 ** E-mail
 E-mail
@@ -931,16 +931,16 @@ Editar
 Editar como novo
 
 ** Edit rights
-Permissıes de ediÁ„o
+Permiss√µes de edi√ß√£o
 
 ** Editable if hidden in all views
-Edit·vel se escondido em todas as vistas
+Edit√°vel se escondido em todas as vistas
 
 ** Editor
 Editor
 
 ** Emphasis
- nfase
+√änfase
 
 ** Empty
 Vazio
@@ -952,16 +952,16 @@ Esvaziar pasta
 ptPT
 
 ** Enable anonymous access
-Ligar acesso anÛnimo
+Ligar acesso an√≥nimo
 
 ** Enable anonymous CMS
-Ligar CMS anÛnimo
+Ligar CMS an√≥nimo
 
 ** Enable automatic user creation
-Ligar criaÁ„o de utilizadores autom·tica
+Ligar cria√ß√£o de utilizadores autom√°tica
 
 ** Enable external mail client for 'mailto:' links
-Ligar cliente de email externo para ligaÁıes `mailto:`
+Ligar cliente de email externo para liga√ß√µes `mailto:`
 
 ** Enable self registration
 Ligar auto-registro
@@ -1006,7 +1006,7 @@ Exemplo
 Contactos de Exemplo
 
 ** Example surveys can be found at:
-Exemplo de votaÁıes podem ser encontradas em:
+Exemplo de vota√ß√µes podem ser encontradas em:
 
 ** Example without mountpoint
 Exemplos sem mountpoint
@@ -1027,13 +1027,13 @@ Experimental
 Expira
 
 ** Expiry
-Expira ‡s
+Expira √†s
 
 ** Extended
 Extendido
 
 ** Extensions
-Extensıes
+Extens√µes
 
 ** Extracting files
 A extrair os ficheiros
@@ -1087,13 +1087,13 @@ feminino
 Campo
 
 ** Field contains value
-Campo contÈm valor
+Campo cont√©m valor
 
 ** Field customization
-CostumizaÁ„o do campo
+Costumiza√ß√£o do campo
 
 ** Field is equal to value
-Campo È igual ao valor
+Campo √© igual ao valor
 
 ** Fields
 Campos
@@ -1102,22 +1102,22 @@ Campos
 Ficheiro
 
 ** file is too big. Please change upload_max_filesize, post_max_size in your php.ini
-ficheiro È demasiado grande. Por favor altere upload_max_filesize, post_max_size no seu php.ini
+ficheiro √© demasiado grande. Por favor altere upload_max_filesize, post_max_size no seu php.ini
 
 ** file is too big. Please upload a smaller one.
-ficheiro È demasiado grande. Por favor carregue um mais pequeno.
+ficheiro √© demasiado grande. Por favor carregue um mais pequeno.
 
 ** file not found in database.
-ficheiro n„o encontrado na base de dados.
+ficheiro n√£o encontrado na base de dados.
 
 ** file not found.
-ficheiro n„o encontrado.
+ficheiro n√£o encontrado.
 
 ** file was uploaded partially.
 ficheiro foi carregado parcialmente.
 
 ** Filename must have the right extension. Valid extensions are %s
-O nome do ficheiro tem de ter a extens„o correcta. As extensıes v·lidas s„o %s
+O nome do ficheiro tem de ter a extens√£o correcta. As extens√µes v√°lidas s√£o %s
 
 ** Files
 Ficheiros
@@ -1129,7 +1129,7 @@ Sistema de ficheiros
 Filtro
 
 ** Find assets in multiple folders
-Procurar objectos em m˙ltiplas pastas
+Procurar objectos em m√∫ltiplas pastas
 
 ** Finish scheduled
 Fim programado
@@ -1141,13 +1141,13 @@ Terminado
 Primeiro na lista
 
 ** first level support
-primeiro nÌvel de suporte
+primeiro n√≠vel de suporte
 
 ** First name
 Primeiro nome
 
 ** Fix paging bar to page bottom
-Fixar a barra de paginaÁ„o no fundo da p·gina
+Fixar a barra de pagina√ß√£o no fundo da p√°gina
 
 ** fixed
 corrigido
@@ -1156,13 +1156,13 @@ corrigido
 Bandeiras
 
 ** Flash plugin not installed.
-Plugin Flash n„o est· instalado.
+Plugin Flash n√£o est√° instalado.
 
 ** Folder
 Pasta
 
 ** Folder already exists.
-A pasta j· existe.
+A pasta j√° existe.
 
 ** Folder created.
 Pasta criada.
@@ -1171,13 +1171,13 @@ Pasta criada.
 A pasta foi alterada.
 
 ** Folder icon
-Õcone da pasta
+√çcone da pasta
 
 ** Folder not found.
-A pasta n„o foi encontrada.
+A pasta n√£o foi encontrada.
 
 ** Folder refresh period
-PerÌodo da atualizaÁ„o da pasta
+Per√≠odo da atualiza√ß√£o da pasta
 
 ** Folder structure
 Estrutura da pasta
@@ -1198,13 +1198,13 @@ Pasta com o ID %s
 Pastas
 
 ** for a new paragraph, use a blank line
-para um novo par·grafo, use uma linha em branco
+para um novo par√°grafo, use uma linha em branco
 
 ** Force SSL
-ForÁar SSL
+For√ßar SSL
 
 ** Form
-Formul·rio
+Formul√°rio
 
 ** Forum
 Forum
@@ -1231,7 +1231,7 @@ Sexta-feira
 De
 
 ** Full screen
-Ecr„ inteiro
+Ecr√£ inteiro
 
 ** Full texts
 Textos completos
@@ -1246,10 +1246,10 @@ Largura completa
 Index com texto completo
 
 ** Funambol only works with MySQL and PostgreSQL.
-O Funambol sÛ funciona com MySQL e PostgreSQL.
+O Funambol s√≥ funciona com MySQL e PostgreSQL.
 
 ** Function does not exist: %s
-A funÁ„o n„o existe: %s
+A fun√ß√£o n√£o existe: %s
 
 ** g:i a
 H:i
@@ -1300,13 +1300,13 @@ texto suspenso
 Hardware
 
 ** Headers
-CabeÁalhos
+Cabe√ßalhos
 
 ** heading
-tÌtulo
+t√≠tulo
 
 ** headings
-tÌtulos
+t√≠tulos
 
 ** Height
 Altura
@@ -1333,7 +1333,7 @@ esconder em todas as vistas
 esconder nesta vista
 
 ** History
-HistÛrico
+Hist√≥rico
 
 ** Holiday
 Feriado
@@ -1345,10 +1345,10 @@ Inicio
 ID da pasta Inicial
 
 ** Home page in the CMS
-P·gina inicial no CMS
+P√°gina inicial no CMS
 
 ** Homepage
-P·gina na Internet
+P√°gina na Internet
 
 ** horizontal line
 linha horizontal
@@ -1390,28 +1390,28 @@ I m p o r t a r
 I n s t a l a r
 
 ** Icon
-Õcone
+√çcone
 
 ** Id
 Id
 
 ** Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
-Id n„o pode ser null, min˙sculas, min 3 carateres, m·x 128 contendo [a-z0-9_-@.].
+Id n√£o pode ser null, min√∫sculas, min 3 carateres, m√°x 128 contendo [a-z0-9_-@.].
 
 ** Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].
-Id n„o pode ser null, min 3 carateres, m·x 128 contendo [a-z0-9_-@.].
+Id n√£o pode ser null, min 3 carateres, m√°x 128 contendo [a-z0-9_-@.].
 
 ** Ideas
 Ideias
 
 ** If empty, the SMTP connection from the module users will be used.
-Se vazio, ser· usada a coneÁ„o SMTP do mÛdulo de utilizadores.
+Se vazio, ser√° usada a cone√ß√£o SMTP do m√≥dulo de utilizadores.
 
 ** If file system permissions are ok, please check the configurations of %s if present.
-Se as permissıes do sistema de ficheiros estiverem OK, por favor verifique as configuraÁıes de %s se existir.
+Se as permiss√µes do sistema de ficheiros estiverem OK, por favor verifique as configura√ß√µes de %s se existir.
 
 ** if not autodetected with namingContexts
-Se n„o for auto detetado com namingContexts
+Se n√£o for auto detetado com namingContexts
 
 ** If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.
 Se o utilizador e password conter os carateres &quot;:&quot;, por favor substitua-o por &quot;==&quot;.
@@ -1420,7 +1420,7 @@ Se o utilizador e password conter os carateres &quot;:&quot;, por favor substitu
 Se o utilizador e password conter os carateres &quot;@&quot; por favor substitua-o por &quot;%%&quot;.
 
 ** Illness
-DoenÁa
+Doen√ßa
 
 ** Im-/Export
 Im-/Exportar
@@ -1444,7 +1444,7 @@ Importar
 Em progresso
 
 ** in repair
-em reparaÁ„o
+em repara√ß√£o
 
 ** in stock
 em stock
@@ -1456,31 +1456,31 @@ Inactivo
 Incluir em RSS feed
 
 ** Include page
-Incluir p·gina
+Incluir p√°gina
 
 ** indent text
 indentar texto
 
 ** Index
-Õndice
+√çndice
 
 ** Index length
-Tamanho do Ìndice
+Tamanho do √≠ndice
 
 ** Index type
-Tipo de Ìndice
+Tipo de √≠ndice
 
 ** Indexes
-Õndices
+√çndices
 
 ** Industry
-Ind˙stria
+Ind√∫stria
 
 ** Info
 Info
 
 ** inheritance to subfolders without default values
-heranÁa para as subpastas sem os valores padr„o
+heran√ßa para as subpastas sem os valores padr√£o
 
 ** Input field
 Campo de entrada
@@ -1495,22 +1495,22 @@ Inserir
 inserido
 
 ** Install default folder structure
-Instalar a estructura de pastas padr„o
+Instalar a estructura de pastas padr√£o
 
 ** Install demo folders
 Instalar pastas demo
 
 ** Install minimal folder structure
-Instalar a estructura de pastas mÌnima
+Instalar a estructura de pastas m√≠nima
 
 ** installed
 instalado
 
 ** insufficient folder rights
-Permissıes de pasta insuficientes
+Permiss√µes de pasta insuficientes
 
 ** Internal recommendation
-RecomendaÁ„o interna
+Recomenda√ß√£o interna
 
 ** Intranet
 Intranet
@@ -1519,22 +1519,22 @@ Intranet
 Intro
 
 ** invalid
-Inv·lido
+Inv√°lido
 
 ** Invalid file extensions
-Extensıes de ficheiros inv·lidas
+Extens√µes de ficheiros inv√°lidas
 
 ** Invalid schema mode '%s'
-Schema mode inv·lido `%s`
+Schema mode inv√°lido `%s`
 
 ** Invalid security token
-Token de seguranÁa inv·lido
+Token de seguran√ßa inv√°lido
 
 ** Inventory
-Invent·rio
+Invent√°rio
 
 ** Inventory number
-N˙mero de invent·rio
+N√∫mero de invent√°rio
 
 ** Investor
 Investidor
@@ -1543,7 +1543,7 @@ Investidor
 Fatura
 
 ** italic
-it·lico
+it√°lico
 
 ** Item created by %s at %s
 Item criado por %s em %s
@@ -1555,7 +1555,7 @@ Item apagado por %s em %s
 Item editado (%s) por %s em %s
 
 ** Item not found.
-Item n„o encontrado.
+Item n√£o encontrado.
 
 ** Item successfully created.
 Item criado com sucesso.
@@ -1564,7 +1564,7 @@ Item criado com sucesso.
 Item actualizado com sucesso.
 
 ** Item(s) not found or access denied.
-Item(s) n„o encontrados ou acesso recusado.
+Item(s) n√£o encontrados ou acesso recusado.
 
 ** Jan
 Jan
@@ -1573,7 +1573,7 @@ Jan
 Janeiro
 
 ** Job description
-DescriÁ„o do Trabalho
+Descri√ß√£o do Trabalho
 
 ** Join lines
 Juntar linhas
@@ -1612,13 +1612,13 @@ L o g i n
 l, j F, Y
 
 ** Last access
-⁄ltimo acesso
+√öltimo acesso
 
 ** Last name
-⁄ltimo nome
+√öltimo nome
 
 ** LDAP anonymous connection failed.
-Conex„o LDAP anÛnima falhou.
+Conex√£o LDAP an√≥nima falhou.
 
 ** LDAP attribute for group memberships
 Atributo LDAP para membros de grupos
@@ -1630,10 +1630,10 @@ Atributo LDAP para salas
 Atributo LDAP para nomes de utilizadores
 
 ** LDAP connection to host %s failed.
-Conex„o LDAP para o host %s falhou.
+Conex√£o LDAP para o host %s falhou.
 
 ** LDAP without anonymous access
-LDAP sem acesso anÛnimo
+LDAP sem acesso an√≥nimo
 
 ** LDAP: no base DN given
 LDAP: no base DN given
@@ -1642,7 +1642,7 @@ LDAP: no base DN given
 LDAP: no UID given
 
 ** Leave of absence
-LicenÁa de ausÍncia
+Licen√ßa de aus√™ncia
 
 ** less promising
 menos promissor
@@ -1654,10 +1654,10 @@ menor que
 Letra
 
 ** Level
-NÌvel
+N√≠vel
 
 ** License
-LicenÁa
+Licen√ßa
 
 ** line
 linha
@@ -1675,10 +1675,10 @@ Link restrito
 texto do link
 
 ** link to external page
-link para p·gina externa
+link para p√°gina externa
 
 ** link to internal page
-link para p·gina interna
+link para p√°gina interna
 
 ** Links
 Links
@@ -1690,10 +1690,10 @@ Listas
 Carregar imagens externas
 
 ** Location
-LocalizaÁ„o
+Localiza√ß√£o
 
 ** Locations
-LocalizaÁıes
+Localiza√ß√µes
 
 ** Lock
 Bloqueio
@@ -1753,13 +1753,13 @@ d/m/y H:i:s
 magenta
 
 ** mail footer
-RodapÈ da mensagem
+Rodap√© da mensagem
 
 ** Mail identities
 Identidades de Mail
 
 ** mail notification
-Mensagem de notificaÁ„o
+Mensagem de notifica√ß√£o
 
 ** mail reminder
 mensagem de lembrete
@@ -1768,10 +1768,10 @@ mensagem de lembrete
 Menu principal
 
 ** Main page
-P·gina principal
+P√°gina principal
 
 ** Maintenance mode
-Modo de manutenÁ„o
+Modo de manuten√ß√£o
 
 ** male
 masculino
@@ -1795,7 +1795,7 @@ Fabricante
 Mar
 
 ** March
-MarÁo
+Mar√ßo
 
 ** Marketing event
 Evento de Marketing
@@ -1807,28 +1807,28 @@ casado(a)
 Maximizar
 
 ** Maximum file size
-Tamanho m·ximo do ficheiro
+Tamanho m√°ximo do ficheiro
 
 ** Maximum number of assets per page
-N˙mero m·ximo de objectos por p·gina
+N√∫mero m√°ximo de objectos por p√°gina
 
 ** maximum number of files exceeded.
-n˙mero m·ximo de ficheiros excedido.
+n√∫mero m√°ximo de ficheiros excedido.
 
 ** May
 Maio
 
 ** Media
-MÌdia
+M√≠dia
 
 ** Meeting
-Reuni„o
+Reuni√£o
 
 ** Members
 Membros
 
 ** Memory limit
-Limite de memÛria
+Limite de mem√≥ria
 
 ** Merge folders permanently
 Fundir pastas permanentemente.
@@ -1852,13 +1852,13 @@ min
 Minimizar
 
 ** minimum = 15 secs, 0 = disabled
-mÌnimo
+m√≠nimo
 
 ** Miscellaneous
 Diverso
 
 ** missing a temporary folder.
-falta uma pasta tempor·ria.
+falta uma pasta tempor√°ria.
 
 ** missing field
 falta um campo
@@ -1870,7 +1870,7 @@ missing right: %s
 Se
 
 ** Mobile
-MÛvel
+M√≥vel
 
 ** Model
 Modelo
@@ -1882,16 +1882,16 @@ Modificado
 Modificado por
 
 ** Modifying database failed.
-ModificaÁ„o da base de dados falhou.
+Modifica√ß√£o da base de dados falhou.
 
 ** Module
-MÛdulo
+M√≥dulo
 
 ** Module disabled.
-MÛdulo desligado.
+M√≥dulo desligado.
 
 ** Modules
-MÛdulos
+M√≥dulos
 
 ** Mon
 Seg
@@ -1903,7 +1903,7 @@ Segunda-feira
 monospace
 
 ** Month
-MÍs
+M√™s
 
 ** monthly
 mensal
@@ -1912,7 +1912,7 @@ mensal
 meses
 
 ** More information about the GNU GPL
-Mais informaÁ„o sobre o GNU GPL
+Mais informa√ß√£o sobre o GNU GPL
 
 ** Mountpoint
 Mountpoint
@@ -1924,10 +1924,10 @@ Mover
 
 
 ** Multiple
-M˙ltiplo
+M√∫ltiplo
 
 ** Multiple choice
-Escolha m˙ltipla
+Escolha m√∫ltipla
 
 ** My appointments
 Os meus apontamentos
@@ -1939,10 +1939,10 @@ As minhas tarefas
 Nome
 
 ** Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
-Nome n„o pode ser null, min˙sculas, min 3 carateres, max 128 contendo [a-z0-9_-@.].
+Nome n√£o pode ser null, min√∫sculas, min 3 carateres, max 128 contendo [a-z0-9_-@.].
 
 ** Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].
-Nome n„o pode ser null, min 3 carateres, contendo [a-zA-Z0-9-_.].
+Nome n√£o pode ser null, min 3 carateres, contendo [a-zA-Z0-9-_.].
 
 ** need feedback
 precisa de feedback
@@ -1960,10 +1960,10 @@ Novo
 Nova pasta
 
 ** News
-NotÌcias
+Not√≠cias
 
 ** Next recurrences
-PrÛximas ocorrÍncias
+Pr√≥ximas ocorr√™ncias
 
 ** Nickname
 Alcunha
@@ -1972,13 +1972,13 @@ Alcunha
 Trabalho Nocturno
 
 ** no
-n„o
+n√£o
 
 ** No dataset selected.
 Nenhum dataset selecionado.
 
 ** No entries found.
-N„o foram encontradas entradas.
+N√£o foram encontradas entradas.
 
 ** No file was uploaded
 Nenhum ficheiro carregado.
@@ -1990,22 +1990,22 @@ Sem quebras de linhas
 nenhum resultado
 
 ** No search index
-Nennum Ìndice de busca
+Nennum √≠ndice de busca
 
 ** No sender specified.
-N„o foi especificado o remetente.
+N√£o foi especificado o remetente.
 
 ** no username submitted
-o nome de utilizador n„o foi submetido.
+o nome de utilizador n√£o foi submetido.
 
 ** No username/password.
 
 
 ** No wrap
-N„o envolver
+N√£o envolver
 
 ** Non unique
-N„o È ˙nico
+N√£o √© √∫nico
 
 ** none
 nenhum
@@ -2014,19 +2014,19 @@ nenhum
 normal
 
 ** Not allowed. Please log in as super administrator.
-N„o È permitido. Por favor faÁa login como administrador.
+N√£o √© permitido. Por favor fa√ßa login como administrador.
 
 ** not contains
-n„o contÈm
+n√£o cont√©m
 
 ** not equal
-n„o È igual
+n√£o √© igual
 
 ** Not in
-N„o est· em
+N√£o est√° em
 
 ** Not in database
-N„o est· na base de dados
+N√£o est√° na base de dados
 
 ** not installed
 
@@ -2041,16 +2041,16 @@ Notebook
 Notas
 
 ** Notificaiton sent to: %s
-NotificaÁ„o enviada pata: %s
+Notifica√ß√£o enviada pata: %s
 
 ** Notification
-NotificaÁ„o
+Notifica√ß√£o
 
 ** Notification summary
-Sum·rio da notificaÁ„o
+Sum√°rio da notifica√ß√£o
 
 ** Notifications
-NotificaÁıes
+Notifica√ß√µes
 
 ** Nov
 Nov
@@ -2062,10 +2062,10 @@ Novembro
 Null
 
 ** Number of employees
-N˙mero de empregados
+N√∫mero de empregados
 
 ** numbered
-n˙merados
+n√∫merados
 
 ** Objectives
 Objetivos
@@ -2086,13 +2086,13 @@ oferta
 Oferta
 
 ** Office
-EscritÛrio
+Escrit√≥rio
 
 ** Office program
-Programa de escritÛrio
+Programa de escrit√≥rio
 
 ** Offices
-EscritÛrios
+Escrit√≥rios
 
 ** offline
 offline
@@ -2113,7 +2113,7 @@ um de
 online
 
 ** Only for this folder
-SÛ para esta pasta
+S√≥ para esta pasta
 
 ** Only in
 Apenas em
@@ -2128,13 +2128,13 @@ Abrir
 Sistema Operativo
 
 ** Operation not allowed. (Data loss protection)
-OperaÁ„o n„o permitida. (ProteÁ„o perda de dados)
+Opera√ß√£o n√£o permitida. (Prote√ß√£o perda de dados)
 
 ** Optimize Tables
 Optimizar tabelas
 
 ** Options
-OpÁıes
+Op√ß√µes
 
 ** or
 ou
@@ -2149,7 +2149,7 @@ laranja
 Tamanho da ordem
 
 ** Organisation
-OrganizaÁ„o
+Organiza√ß√£o
 
 ** Organizer
 Organizador
@@ -2164,31 +2164,31 @@ Mensagem original
 Outro
 
 ** out of office
-Fora do escritÛrio
+Fora do escrit√≥rio
 
 ** Outline image
 Imagem de contorno
 
 ** Output
-SaÌda
+Sa√≠da
 
 ** Output empty: %s
-SaÌda vazia : %s
+Sa√≠da vazia : %s
 
 ** overlap
-SobreposiÁ„o
+Sobreposi√ß√£o
 
 ** Overtime
 Horas extras
 
 ** Overtime compensation per hour
-CompensaÁ„o hor·ria por horas extras
+Compensa√ß√£o hor√°ria por horas extras
 
 ** Owner
-Propriet·rio
+Propriet√°rio
 
 ** Owner since
-Propriet·rio desde
+Propriet√°rio desde
 
 ** Package from local file system (.tar.gz)
 Pacote do sistema de ficheiros local (.tar.gz)
@@ -2197,19 +2197,19 @@ Pacote do sistema de ficheiros local (.tar.gz)
 Embalado
 
 ** Page
-P·gina
+P√°gina
 
 ** Page last modified on
-⁄ltima modificaÁ„o da p·gina em
+√öltima modifica√ß√£o da p√°gina em
 
 ** Page name (URL)
-Nome da p·gina (URL)
+Nome da p√°gina (URL)
 
 ** Page not found
-P·gina n„o encontrada
+P√°gina n√£o encontrada
 
 ** Page title
-TÌtulo da p·gina
+T√≠tulo da p√°gina
 
 ** Pager
 Pager
@@ -2218,22 +2218,22 @@ Pager
 Pago
 
 ** Paid holidays
-FÈrias pagas
+F√©rias pagas
 
 ** Paragraphs
-Par·grafos
+Par√°grafos
 
 ** parameters
-par‚metros
+par√¢metros
 
 ** Parameters
-Par‚metros
+Par√¢metros
 
 ** Parent folder
 Pasta parente
 
 ** Parsing
-An·lise
+An√°lise
 
 ** Part time
 Part time
@@ -2257,10 +2257,10 @@ Password expirou. (password de %s expirou)
 Password expira
 
 ** Password must be not null, min 5 characters.
-Password n„o pode ser null, min 5 carateres.
+Password n√£o pode ser null, min 5 carateres.
 
 ** password not confirmed.
-password n„o confirmada
+password n√£o confirmada
 
 ** Passwords
 Passwords
@@ -2278,10 +2278,10 @@ Pausa
 Folha de pagamentos
 
 ** Permissions
-Permissıes
+Permiss√µes
 
 ** Permissions added for: %s
-Permiss„o adicionada para: %s
+Permiss√£o adicionada para: %s
 
 ** Personal
 Pessoal
@@ -2299,7 +2299,7 @@ Projectos pessoais
 Telefone
 
 ** Phone calls
-Chamadas telefÛnicas
+Chamadas telef√≥nicas
 
 ** Phone private
 Telefone privado
@@ -2323,37 +2323,37 @@ Por favor escolha o Apache como servidor Web.
 Por favor active o Javascript no seu browser.
 
 ** Please enter a valid url.
-Por favor introduza um url v·lido.
+Por favor introduza um url v√°lido.
 
 ** Please give read access to %s
-Por favor dÍ acesso de leitura a %s
+Por favor d√™ acesso de leitura a %s
 
 ** Please give write access to %s
-Por favor dÍ acesso de escrita a %s
+Por favor d√™ acesso de escrita a %s
 
 ** Please give write access to %s and %s
-Por favor dÍ acesso de escrita a %s e %s
+Por favor d√™ acesso de escrita a %s e %s
 
 ** Please hit reload.
-Por favor recarregue a p·gina.
+Por favor recarregue a p√°gina.
 
 ** Please input a valid e-mail adress.
-Por favor introduza um endereÁo de e-mail v·lido.
+Por favor introduza um endere√ßo de e-mail v√°lido.
 
 ** Please install 'tsearch2' for the PostgreSQL database.
 Por favor instale o `tsearch2` para a base de dados PostgreSQL.
 
 ** Please install the php-extension with name '%s'.
-Por favor instale a extens„o php com o nome %s.
+Por favor instale a extens√£o php com o nome %s.
 
 ** Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !
-Por favor modifique o seu php.ini ou adicione um ficheiro .htaccess alterando o par‚metro `%s` para `%s` (o valor actual È `%s`) !
+Por favor modifique o seu php.ini ou adicione um ficheiro .htaccess alterando o par√¢metro `%s` para `%s` (o valor actual √© `%s`) !
 
 ** Please read the following license agreement. Use the scroll bar to view the rest of this agreement.
-Por favor leia o seguinte acordo de licenÁa. Use a barra lateral para ver o resto do acordo.
+Por favor leia o seguinte acordo de licen√ßa. Use a barra lateral para ver o resto do acordo.
 
 ** Please select a location.
-Por favor selecione uma localizaÁ„o.
+Por favor selecione uma localiza√ß√£o.
 
 ** Please select a participant.
 Por favor selecione um participante.
@@ -2374,34 +2374,34 @@ Porta
 Portal
 
 ** Position
-PosiÁ„o
+Posi√ß√£o
 
 ** Positions
-PosiÁıes
+Posi√ß√µes
 
 ** Post
 Posto
 
 ** Practical training
-Treino pr·tico
+Treino pr√°tico
 
 ** Preformatted block
-Bloco prÈ-formatado
+Bloco pr√©-formatado
 
 ** Prepend new field as
 Preceder novo campo como
 
 ** Prevent formatting
-Prevenir formataÁ„o
+Prevenir formata√ß√£o
 
 ** Preview
-PrÈ-visualizaÁ„o
+Pr√©-visualiza√ß√£o
 
 ** Price
-PreÁo
+Pre√ßo
 
 ** Primary key
-Chave prim·ria
+Chave prim√°ria
 
 ** Print
 Imprimir
@@ -2425,7 +2425,7 @@ Processos
 A processar %s...
 
 ** Program is installed with language %s, please use a different url or run the setup again.
-Programa est· instalado com a linguagem %s, por favor use um url diferente ou corra a instalaÁ„o novamente.
+Programa est√° instalado com a linguagem %s, por favor use um url diferente ou corra a instala√ß√£o novamente.
 
 ** Progress
 Progresso
@@ -2452,13 +2452,13 @@ Propriedades
 Perspectiva de cliente
 
 ** Public holiday
-Feriado p˙blico
+Feriado p√∫blico
 
 ** Purchased
 Comprado
 
 ** Question
-Quest„o
+Quest√£o
 
 ** Queue
 Fila
@@ -2482,7 +2482,7 @@ Limite de quota excedido: %s
 R e g i s t o
 
 ** Rating
-ClassificaÁ„o
+Classifica√ß√£o
 
 ** Read
 Ler
@@ -2512,10 +2512,10 @@ pronto para deitar fora
 Formato real do URL no CMS
 
 ** Really apply rights to subfolders ?
-Tem a certeza que quer aplicar as permissıes ‡s subpastas ?
+Tem a certeza que quer aplicar as permiss√µes √†s subpastas ?
 
 ** Really apply the changes ?
-Tem a certeza que quer aplicar as alteraÁıes ?
+Tem a certeza que quer aplicar as altera√ß√µes ?
 
 ** Really delete ?
 Tem a certeza que quer apagar ?
@@ -2536,28 +2536,28 @@ Tem a certeza que quer esvaziar a pasta ?
 Tem a certeza que quer sobrescrever o(s) dataset(s) que existe(m) ?
 
 ** Really run setup again ?
-Tem a certeza que quer correr a instalaÁ„o novamente ?
+Tem a certeza que quer correr a instala√ß√£o novamente ?
 
 ** Really uninstall the module ?
-Tem a certeza que quer desinstalar o mÛdulo ?
+Tem a certeza que quer desinstalar o m√≥dulo ?
 
 ** Rebuild search index
 Reconstruir o index de busca
 
 ** Recent changes
-AlteraÁıes recentes
+Altera√ß√µes recentes
 
 ** Recipients
-Destinat·rios
+Destinat√°rios
 
 ** Recommendation of affiliate
-RecomendaÁ„o do afiliado
+Recomenda√ß√£o do afiliado
 
 ** Recurrence
-OcorrÍncia periÛdica
+Ocorr√™ncia peri√≥dica
 
 ** Recurrences
-OcorrÍncias periÛdicas
+Ocorr√™ncias peri√≥dicas
 
 ** red
 vermelho
@@ -2566,7 +2566,7 @@ vermelho
 Redirecionar para a directoria inicial
 
 ** Reference
-ReferÍncia
+Refer√™ncia
 
 ** Refresh
 Recarregar
@@ -2587,10 +2587,10 @@ Rejeitada
 Formatos relativos
 
 ** Relaunch Setup
-RelanÁar a instalaÁ„o
+Relan√ßar a instala√ß√£o
 
 ** Relevance
-Relev‚ncia
+Relev√¢ncia
 
 ** Reminder
 Lembrete
@@ -2605,13 +2605,13 @@ Renomear pasta
 Repetir contagem
 
 ** Repeat exclusions
-Repetir exclusıes
+Repetir exclus√µes
 
 ** Repeat interval
 Repetir intervalo
 
 ** Repeat until
-Repetir atÈ
+Repetir at√©
 
 ** Reply
 Responder
@@ -2620,7 +2620,7 @@ Responder
 Responder a todos
 
 ** Require admin access to set mountpoints
-… necess·rio acesso de administrador para configurar mountpoints
+√â necess√°rio acesso de administrador para configurar mountpoints
 
 ** Required
 Exigido
@@ -2644,13 +2644,13 @@ Recurso
 Recursos
 
 ** Responsible
-Respons·vel
+Respons√°vel
 
 ** Responsible (external)
-Respons·vel (externo)
+Respons√°vel (externo)
 
 ** Responsible (internal)
-Respons·vel (interno)
+Respons√°vel (interno)
 
 ** Restore complete
 Restauro completo
@@ -2668,13 +2668,13 @@ Restaurar apenas os mais recentes
 Restaurar para a origem
 
 ** Return receipt
-Aviso de recepÁ„o
+Aviso de recep√ß√£o
 
 ** right-aligned
-alinhar ‡ direita
+alinhar √† direita
 
 ** Rights
-Permissıes
+Permiss√µes
 
 ** Risks
 Riscos
@@ -2683,7 +2683,7 @@ Riscos
 Nome da sala
 
 ** Room number
-N˙mero da sala
+N√∫mero da sala
 
 ** Rooms
 Salas
@@ -2692,7 +2692,7 @@ Salas
 Linhas
 
 ** Run Setup again
-Executar a instalaÁ„o novamente
+Executar a instala√ß√£o novamente
 
 ** S a v e
 G u a r d a r
@@ -2701,25 +2701,25 @@ G u a r d a r
 G u a r d a r  e  E d i t a r
 
 ** S a v e  a n d  g o  b a c k
-G u a r d a r  e  i r  p a r a  t r · s
+G u a r d a r  e  i r  p a r a  t r √° s
 
 ** Sa
-S·
+S√°
 
 ** Salary
-Sal·rio
+Sal√°rio
 
 ** Salary per
-Sal·rio por
+Sal√°rio por
 
 ** Sales promotion
-PromoÁ„o de Vendas
+Promo√ß√£o de Vendas
 
 ** Sat
-S·b
+S√°b
 
 ** Saturday
-S·bado
+S√°bado
 
 ** Scheduling
 Agendamento
@@ -2731,7 +2731,7 @@ Schema
 Dados da Schema
 
 ** Schemafile not found. (%s)
-Ficheiro schema n„o encontrado. (%s)
+Ficheiro schema n√£o encontrado. (%s)
 
 ** School
 Escola
@@ -2746,7 +2746,7 @@ Procurar
 Procurar por ID
 
 ** second level support
-segundo nÌvel de suporte
+segundo n√≠vel de suporte
 
 ** Second manager
 Segundo gestor
@@ -2755,13 +2755,13 @@ Segundo gestor
 segundos
 
 ** Secretary
-Secret·ria(o)
+Secret√°ria(o)
 
 ** Self registration
 Auto registo
 
 ** Self registration needs confirmation by an administrator.
-Auto registo precisa da confirmaÁ„o do administrador
+Auto registo precisa da confirma√ß√£o do administrador
 
 ** Send now
 Enviar agora
@@ -2791,13 +2791,13 @@ Separadores
 Setembro
 
 ** Serial number
-N˙mero sÈrie
+N√∫mero s√©rie
 
 ** Server
 Servidor
 
 ** Server does not support sorting
-O servidor n„o suporta ordenaÁ„o
+O servidor n√£o suporta ordena√ß√£o
 
 ** Server-IP
 IP-Servidor
@@ -2806,34 +2806,34 @@ IP-Servidor
 Service provider
 
 ** Session name in cookie
-Nome da sess„o no cookie
+Nome da sess√£o no cookie
 
 ** Session timeout
-Tempo limite da sess„o
+Tempo limite da sess√£o
 
 ** Sessions
-Sessıes
+Sess√µes
 
 ** Settings
 
 
 ** Setup
-InstalaÁ„o
+Instala√ß√£o
 
 ** Setup needs a database-php-extension ! (%s)
-A instalaÁ„o precisa uma extens„o de base de dados para o php !
+A instala√ß√£o precisa uma extens√£o de base de dados para o php !
 
 ** Setup needs php with at least version %s !
-A instalaÁ„o precisa do php com a vers„o, pelo menos, %s !
+A instala√ß√£o precisa do php com a vers√£o, pelo menos, %s !
 
 ** Setup needs php-extension with name %s !
-A instalaÁ„o precisa da extens„o php com o nome %s !
+A instala√ß√£o precisa da extens√£o php com o nome %s !
 
 ** Setup needs Simple Groupware with at least version %s !
-A instalaÁ„o precisa do Simple Groupware com a vers„o, pelo menos, %s !
+A instala√ß√£o precisa do Simple Groupware com a vers√£o, pelo menos, %s !
 
 ** Setup: setup-data written to %s.
-InstalaÁ„o: dados da instalaÁ„o escritos em %s.
+Instala√ß√£o: dados da instala√ß√£o escritos em %s.
 
 ** Shapes
 Formas
@@ -2845,7 +2845,7 @@ Partilha
 Partilhado
 
 ** Short links
-LigaÁıes curtas
+Liga√ß√µes curtas
 
 ** Show
 Mostrar
@@ -2860,7 +2860,7 @@ Mostrar arquivo
 Mostrar detalhes
 
 ** Show folder description in content area
-Mostrar a descriÁ„o da pasta na ·rea de conte˙do
+Mostrar a descri√ß√£o da pasta na √°rea de conte√∫do
 
 ** Show password
 Mostrar a password
@@ -2878,7 +2878,7 @@ Tabelas simples
 solteiro(a)
 
 ** Single choice
-Escolha ˙nica
+Escolha √∫nica
 
 ** Size
 Tamanho
@@ -2899,7 +2899,7 @@ texto pequeno
 menor
 
 ** SMTP not configured for %s
-SMTP n„o configurado para %s
+SMTP n√£o configurado para %s
 
 ** Smtp-error %s: %s
 Erro-Smtp %s: %s
@@ -2908,10 +2908,10 @@ Erro-Smtp %s: %s
 Software
 
 ** Solution
-SoluÁ„o
+Solu√ß√£o
 
 ** Solution type
-Tipo de soluÁ„o
+Tipo de solu√ß√£o
 
 ** some text
 algum texto
@@ -2920,16 +2920,16 @@ algum texto
 fonte
 
 ** Source code
-CÛdigo fonte
+C√≥digo fonte
 
 ** Special leave
-LicenÁa especial
+Licen√ßa especial
 
 ** Specification
-EspecificaÁ„o
+Especifica√ß√£o
 
 ** Spreadsheet
-Folha de c·lculo
+Folha de c√°lculo
 
 ** SQL failed.
 SQL falhou.
@@ -2944,16 +2944,16 @@ Inicio agendado
 Inicio
 
 ** starts with
-comeÁa com
+come√ßa com
 
 ** State
 Estado
 
 ** Static cache
-Cache est·tica
+Cache est√°tica
 
 ** Statistics
-EstatÌsticas
+Estat√≠sticas
 
 ** Status
 Estado
@@ -2962,7 +2962,7 @@ Estado
 Estados
 
 ** Strategies
-EstratÈgias
+Estrat√©gias
 
 ** Street
 Rua
@@ -2980,7 +2980,7 @@ Do
 Subpastas
 
 ** subheading
-subtÌtulos
+subt√≠tulos
 
 ** Subitem
 Subitem
@@ -2995,19 +2995,19 @@ Assuntos
 Submeter um patch
 
 ** Subpages
-Subp·gnas
+Subp√°gnas
 
 ** subscript
 subscrito
 
 ** Subsistence costs
-Custos de subsistÍncia
+Custos de subsist√™ncia
 
 ** Sum
 Soma
 
 ** Summary
-Sum·rio
+Sum√°rio
 
 ** Sun
 Dom
@@ -3034,13 +3034,13 @@ Suporte
 Pedido de suporte
 
 ** Surveys
-VotaÁıes
+Vota√ß√µes
 
 ** Suspended
 Suspendido
 
 ** Switch maintenance mode
-Entrar em modo de manutenÁ„o
+Entrar em modo de manuten√ß√£o
 
 ** Sync4j remote delete items
 Sync4j apagar itens remotos
@@ -3073,7 +3073,7 @@ Tabelas
 Assumir o controle
 
 ** Take selection
-Assumir a seleÁ„o
+Assumir a sele√ß√£o
 
 ** Task
 Tarefa
@@ -3085,7 +3085,7 @@ Tarefa com o ID %s
 Tarefas
 
 ** Tasks with responsible %s
-Tarefas com o respons·vel %s
+Tarefas com o respons√°vel %s
 
 ** Template
 Modelo
@@ -3094,19 +3094,19 @@ Modelo
 Modelos
 
 ** Temporary work
-Trabalho tempor·rio
+Trabalho tempor√°rio
 
 ** term
 prazo
 
 ** Text area
-¡rea de texto
+√Årea de texto
 
 ** Text Document
 Documento de texto
 
 ** Text formatting rules
-Regras de formataÁ„o do texto
+Regras de formata√ß√£o do texto
 
 ** Th
 Qu
@@ -3115,28 +3115,28 @@ Qu
 Obrigado pelo voto!
 
 ** The folder cannot be copied.
-A pasta n„o pode ser copiada.
+A pasta n√£o pode ser copiada.
 
 ** The folder cannot be deleted.
-A pasta n„o pode ser apagada.
+A pasta n√£o pode ser apagada.
 
 ** The folder cannot be moved.
-A pasta n„o pode ser movida.
+A pasta n√£o pode ser movida.
 
 ** The new password is
-A nova password È
+A nova password √©
 
 ** The url doesn't exist.
-O url n„o existe.
+O url n√£o existe.
 
 ** Theme
 Tema
 
 ** third level support
-Terceiro nÌvel de suporte
+Terceiro n√≠vel de suporte
 
 ** this file extension is not allowed
-esta extens„o de ficheiro n„o È permitida
+esta extens√£o de ficheiro n√£o √© permitida
 
 ** Thu
 Qui
@@ -3154,13 +3154,13 @@ Tempo limite
 Folhas de tempo
 
 ** Time zone
-Fuso hor·rio
+Fuso hor√°rio
 
 ** timeout
 timeout
 
 ** Title
-TÌtulo
+T√≠tulo
 
 ** To
 Para
@@ -3169,7 +3169,7 @@ Para
 a ser verificado
 
 ** To continue installing Simple Groupware you must check the box under the license
-Para continuar a instalar o Simple Groupware tem de pÙr uma cruz na caixa abaixo da licenÁa
+Para continuar a instalar o Simple Groupware tem de p√¥r uma cruz na caixa abaixo da licen√ßa
 
 ** Today
 Hoje
@@ -3181,16 +3181,16 @@ Demasiados logins errados. Por favor espere 15 minutos.
 Total
 
 ** Trace
-TraÁar
+Tra√ßar
 
 ** Trade fair
 Feira comercial
 
 ** translations
-traduÁıes
+tradu√ß√µes
 
 ** Translations of the GNU GPL
-TraduÁıes do GNU GPL
+Tradu√ß√µes do GNU GPL
 
 ** Transportation costs
 Custos de transporte
@@ -3199,10 +3199,10 @@ Custos de transporte
 Lixo
 
 ** Trash folder not found.
-Pasta Lixo n„o encontrada.
+Pasta Lixo n√£o encontrada.
 
 ** Tree
-¡rvore
+√Årvore
 
 ** Trigger failed
 Gatilho falhou
@@ -3214,7 +3214,7 @@ Te
 Ter
 
 ** Tuesday
-TerÁa-feira
+Ter√ßa-feira
 
 ** Type
 Tipo
@@ -3229,25 +3229,25 @@ Incapaz de encontrar %s
 Incapaz de escrever para %s
 
 ** unconfirmed
-n„o confirmado
+n√£o confirmado
 
 ** Unconfirmed
-N„o confirmado
+N√£o confirmado
 
 ** underline
 sublinhado
 
 ** Uninstall does not delete any data in the database.
-DesinstalaÁ„o n„o apaga qualquer dado da base de dados.
+Desinstala√ß√£o n√£o apaga qualquer dado da base de dados.
 
 ** uninterested
-n„o interessado
+n√£o interessado
 
 ** Unique
-⁄nico
+√önico
 
 ** Unique with trash
-⁄nico com lixo
+√önico com lixo
 
 ** Unlock
 Desbloquear
@@ -3256,7 +3256,7 @@ Desbloquear
 Cima
 
 ** Update
-ActualizaÁ„o
+Actualiza√ß√£o
 
 ** Update Simple Groupware
 Actualizar Simple Groupware
@@ -3292,7 +3292,7 @@ EUR
 
 
 ** Use Debian binaries (Warning: not latest versions)
-Utilizar bin·rios Debian (Aviso: n„o s„o as ˙ltimas versıes)
+Utilizar bin√°rios Debian (Aviso: n√£o s√£o as √∫ltimas vers√µes)
 
 ** Use LDAP Groups
 Utilizar Grupos LDAP
@@ -3301,16 +3301,16 @@ Utilizar Grupos LDAP
 usar mirror a partir de
 
 ** Use syslog() function for logging events
-Usar a funÁ„o syslog() para registo de eventos
+Usar a fun√ß√£o syslog() para registo de eventos
 
 ** Use the mail() function for sending mails (insecure)
-Usar a funÁ„o mail() para envio de emails (inseguro)
+Usar a fun√ß√£o mail() para envio de emails (inseguro)
 
 ** User
 Utilizador
 
 ** User not found.
-Utilizador n„o encontrado.
+Utilizador n√£o encontrado.
 
 ** Username
 Nome de utilizador
@@ -3328,16 +3328,16 @@ V a l i d a r
 V o t a r !
 
 ** Vacation
-FÈrias
+F√©rias
 
 ** Vacation days per year
-Dias de fÈrias por ano
+Dias de f√©rias por ano
 
 ** Validating %s ...
 A validar %s ...
 
 ** validation failed
-validaÁ„o falhou
+valida√ß√£o falhou
 
 ** Value
 Valor
@@ -3346,34 +3346,34 @@ Valor
 O valor `%s` precisa de ser membro de um grupo
 
 ** Variable
-Vari·vel
+Vari√°vel
 
 ** Variable already exists in table. (%s)
-A vari·vel j· existe na tabela. (%s)
+A vari√°vel j√° existe na tabela. (%s)
 
 ** Variable must be of type date (mm/dd/yyyy).
-A vari·vel tem de ser do tipo data (mm/dd/yyyy).
+A vari√°vel tem de ser do tipo data (mm/dd/yyyy).
 
 ** Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).
-A vari·vel tem de ser do tipo datetime (mm/dd/yyyy hh:mm am/pm).
+A vari√°vel tem de ser do tipo datetime (mm/dd/yyyy hh:mm am/pm).
 
 ** Variable must be of type float.
-A vari·vel tem de ser do tipo float.
+A vari√°vel tem de ser do tipo float.
 
 ** Variable must be of type int and greater than 0.
-A vari·vel tem de ser do tipo int e maior que 0.
+A vari√°vel tem de ser do tipo int e maior que 0.
 
 ** Variable must be of type int.
-A vari·vel tem de ser do tipo int.
+A vari√°vel tem de ser do tipo int.
 
 ** Variable must be of type time (hh:mm am/pm).
-A vari·vel tem de ser do tipo time (hh:mm am/pm).
+A vari√°vel tem de ser do tipo time (hh:mm am/pm).
 
 ** Variables
-Vari·veis
+Vari√°veis
 
 ** Verbal recommendation
-RecomendaÁ„o verbal
+Recomenda√ß√£o verbal
 
 ** verified
 verificado
@@ -3421,7 +3421,7 @@ Qu
 Web
 
 ** Web page
-P·gina web
+P√°gina web
 
 ** Wed
 Qua
@@ -3433,7 +3433,7 @@ Quarta-feira
 Semana
 
 ** Week start
-Õnicio da semana
+√çnicio da semana
 
 ** Weekend
 Fim-de-semana
@@ -3451,7 +3451,7 @@ Bem vindo ao Simple Groupware!
 branco
 
 ** widowed
-vi˙vo(a)
+vi√∫vo(a)
 
 ** Width
 Largura
@@ -3463,7 +3463,7 @@ Wiki
 Estilos de Wiki
 
 ** won't fix
-n„o vai corrigir
+n√£o vai corrigir
 
 ** word
 palavra
@@ -3484,7 +3484,7 @@ funciona para mim
 Oficina
 
 ** Workspace
-EspaÁo de Trabalho
+Espa√ßo de Trabalho
 
 ** write access
 acesso de escrita
@@ -3496,7 +3496,7 @@ Acesso de escrita (grupos)
 Acesso de escrita (utilizadores)
 
 ** Wrong database-version (%s). Please use at least %s !
-A vers„o da base de dados È errada (%s). Por favor utilize pelo menos a vers„o %s !
+A vers√£o da base de dados √© errada (%s). Por favor utilize pelo menos a vers√£o %s !
 
 ** wrong directory
 directoria errada
@@ -3520,16 +3520,16 @@ amarelo
 sim
 
 ** You are not allowed to view this folder.
-N„o tem permiss„o para visualizar esta pasta.
+N√£o tem permiss√£o para visualizar esta pasta.
 
 ** Your message was read on %s.
 A sua mensagem foi lida a %s.
 
 ** Your session has timed out.
-A sua sess„o esgotou o tempo limite.
+A sua sess√£o esgotou o tempo limite.
 
 ** Zipcode
-CÛdigo Postal
+C√≥digo Postal
 
 ** {0} - {1} of {2}
 {0} - {1} of {2}

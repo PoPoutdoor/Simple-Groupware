@@ -1,4 +1,4 @@
-/**
+Ôªø/**
  * @package Simple Groupware
  * @license GPLv2
  */
@@ -10,16 +10,16 @@ Copyright (C) 2008 Mario Moleri, (C) 2009 Stefano Ratti, (C) 2011 Federico Giamp
 Italiano / Italian
 
 ** %s is not activated
-%s non Ë attivo
+%s non √® attivo
 
 ** %s is not compiled / loaded into PHP.
-%s non Ë compilato / caricato in PHP.
+%s non √® compilato / caricato in PHP.
 
 ** %s M memory usage
 
 
 ** %s not in database
-%s non Ë nel database
+%s non √® nel database
 
 ** %s rows affected
 %s righe cambiate
@@ -148,10 +148,10 @@ Abilita i valori personalizzati
 Abilita i moduli disabilitati
 
 ** Already running latest release.
-Ultima release gi‡ in esecuzione.
+Ultima release gi√† in esecuzione.
 
 ** Already voted.
-Gi‡ votato.
+Gi√† votato.
 
 ** Amount
 Ammontare
@@ -217,7 +217,7 @@ Assets
 Assets (figli)
 
 ** Assets can be imported into multiple folders by adding the "Folder" column.
-Gli assets possono essere importati in pi˘ cartelle aggiungendo la colonna `Cartella`.
+Gli assets possono essere importati in pi√π cartelle aggiungendo la colonna `Cartella`.
 
 ** Assets can be overwritten by adding the "Id" column.
 Gli assets possono essere sovrascritti aggiungendo la colonna `Id`.
@@ -247,13 +247,13 @@ Ago
 Agosto
 
 ** Authentication Mode
-Modalit‡ di autenticazione
+Modalit√† di autenticazione
 
 ** Author
 Autore
 
 ** Automatically hide the menu
-Nascondi automaticamente il men˘
+Nascondi automaticamente il men√π
 
 ** Automatically hide the tree
 Nascondi automaticamente l`albero delle cartelle
@@ -352,7 +352,7 @@ Marca
 Marche
 
 ** Browser Compatibility
-Compatibilit‡ del Browser
+Compatibilit√† del Browser
 
 ** Browser not supported
 Browser non supportato
@@ -406,7 +406,7 @@ Impossibile creare lantemprima per %s
 Impossibile leggere il file %s.
 
 ** Cardinality
-Cardinalit‡
+Cardinalit√†
 
 ** Categories
 Categorie
@@ -463,7 +463,7 @@ Scelte
 CIO
 
 ** City
-Citt‡
+Citt√†
 
 ** Clean
 Pulisci
@@ -538,10 +538,10 @@ Commento
 Files di commento
 
 ** Companies
-Societ‡
+Societ√†
 
 ** Company
-Societ‡
+Societ√†
 
 ** Competition
 Competizione
@@ -589,10 +589,10 @@ COnsulente
 Contatto
 
 ** Contact activities
-Attivit‡ contatto
+Attivit√† contatto
 
 ** Contact activity
-Attivit‡ contatto
+Attivit√† contatto
 
 ** Contact by
 Contattato da
@@ -835,7 +835,7 @@ Diagramma
 cartella inesistente.
 
 ** Directory is outside the allowed directory. (%s is outside %s)
-La cartella Ë al di fuori di quella consentita. (%s Ë fuori da %s).
+La cartella √® al di fuori di quella consentita. (%s √® fuori da %s).
 
 ** disable
 
@@ -889,7 +889,7 @@ Dominio
 Non spostare i vecchi file in `old/`
 
 ** Down
-Gi˘
+Gi√π
 
 ** Download
 Scarica
@@ -901,7 +901,7 @@ Scarica i file d`esempio
 Sto scaricando la lista delle estensioni
 
 ** Downloading update list
-StÚ scaricando la lista degli aggiornamenti
+St√≤ scaricando la lista degli aggiornamenti
 
 ** Drag and drop files or URLs here.
 Trascina qui i file o gli URL
@@ -1093,7 +1093,7 @@ Il campo contiene il valore
 Personalizzazione del campo
 
 ** Field is equal to value
-Il campo Ë uguale al valore
+Il campo √® uguale al valore
 
 ** Fields
 Campi
@@ -1105,7 +1105,7 @@ File
 file troppo grande. Per favore cambiare upload_max_filesize, post_max_size in php.ini
 
 ** file is too big. Please upload a smaller one.
-file troppo grande. Per favore carica un file pi˘ piccolo.
+file troppo grande. Per favore carica un file pi√π piccolo.
 
 ** file not found in database.
 file non trovato nel database.
@@ -1114,7 +1114,7 @@ file non trovato nel database.
 file non trovato
 
 ** file was uploaded partially.
-il file Ë stato caricato parzialmente.
+il file √® stato caricato parzialmente.
 
 ** Filename must have the right extension. Valid extensions are %s
 Il nome del file deve contenere una corretta estensione. Le estensioni valide sono %s
@@ -1129,7 +1129,7 @@ Filesystem
 Filtro
 
 ** Find assets in multiple folders
-Cerca assets in pi˘ cartelle
+Cerca assets in pi√π cartelle
 
 ** Finish scheduled
 Fine schedulata
@@ -1156,19 +1156,19 @@ fisso
 Flags
 
 ** Flash plugin not installed.
-Il plugin Flash non Ë installato.
+Il plugin Flash non √® installato.
 
 ** Folder
 Cartella
 
 ** Folder already exists.
-La cartelle esiste gi‡.
+La cartelle esiste gi√†.
 
 ** Folder created.
 Cartella creata.
 
 ** Folder has changed.
-La cartella Ë stata modificata.
+La cartella √® stata modificata.
 
 ** Folder icon
 Icona della cartella
@@ -1273,7 +1273,7 @@ Fornisci Feedback
 GNU GPL Frequently Asked Questions
 
 ** greater than
-pi˘ grande di
+pi√π grande di
 
 ** green
 verde
@@ -1405,7 +1405,7 @@ ID non puo essere nullo, min 3 caratteri, max 128 contenenti [a-z0-9_-@.].
 Idee
 
 ** If empty, the SMTP connection from the module users will be used.
-se vuoto, sar‡ usata la connessione SMTP del modulo.
+se vuoto, sar√† usata la connessione SMTP del modulo.
 
 ** If file system permissions are ok, please check the configurations of %s if present.
 Se i permessi del filesystem sono corretti, controlla, se presente, la configurazione di %s.
@@ -1480,7 +1480,7 @@ Azienda
 Info
 
 ** inheritance to subfolders without default values
-eredit‡ alle sotto-cartelle senza i valori di default
+eredit√† alle sotto-cartelle senza i valori di default
 
 ** Input field
 Campo di immissione
@@ -1639,7 +1639,7 @@ LDAP senza accesso anonimo
 LDAP: nessun DN
 
 ** LDAP: no UID given
-LDAP: non Ë stato fornito un UID
+LDAP: non √® stato fornito un UID
 
 ** Leave of absence
 
@@ -1729,7 +1729,7 @@ Lookup
 basso
 
 ** lowest
-il pi˘ basso
+il pi√π basso
 
 ** M j
 M j
@@ -1753,10 +1753,10 @@ d/m/y G:i:s a
 magenta
 
 ** mail footer
-piË di pagina nella mail
+pi√® di pagina nella mail
 
 ** Mail identities
-Identit‡ mail
+Identit√† mail
 
 ** mail notification
 mail di notifica
@@ -1765,13 +1765,13 @@ mail di notifica
 promemoria mail
 
 ** Main menu
-Men˘ principale
+Men√π principale
 
 ** Main page
 Pagina principale
 
 ** Maintenance mode
-Modalit‡ manutenzione
+Modalit√† manutenzione
 
 ** male
 maschio
@@ -1912,7 +1912,7 @@ mensile
 mesi
 
 ** More information about the GNU GPL
-Pi˘ informazioni su GNU GPL
+Pi√π informazioni su GNU GPL
 
 ** Mountpoint
 Mountpoint
@@ -1939,10 +1939,10 @@ I miei compiti
 Nome
 
 ** Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
-Il nome non puÚ essere vuoto; deve essere minuscolo, min 3 caratteri, max 128 contenenti [a-z0-9_-@.].
+Il nome non pu√≤ essere vuoto; deve essere minuscolo, min 3 caratteri, max 128 contenenti [a-z0-9_-@.].
 
 ** Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].
-Il nome non puÚ essere vuoto, min 3 caratteri contenenti [a-zA-Z0-9-_.].
+Il nome non pu√≤ essere vuoto, min 3 caratteri contenenti [a-zA-Z0-9-_.].
 
 ** need feedback
 feedback necessario
@@ -1981,7 +1981,7 @@ Nessun dataset selezionato.
 Nessun elemento trovato.
 
 ** No file was uploaded
-Nessun file Ë stato caricato
+Nessun file √® stato caricato
 
 ** No line breaks
 Senza interruzione di linea
@@ -2251,7 +2251,7 @@ Partecipanti (interni)
 Password
 
 ** Password expired. (password of %s has expired)
-Password scaduta. (la password di %s Ë scaduta)
+Password scaduta. (la password di %s √® scaduta)
 
 ** Password expires
 Le password scadono
@@ -2347,7 +2347,7 @@ E` necessario installare tsearch2 per il database PostgreSQL.
 E` necessario installare l`estensione PHP con il nome `%s`.
 
 ** Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !
-E` necessario modificare php.ini o aggiungere un .htaccess file cambiando il settaggi %s a %s (il valore corrente Ë %s)!
+E` necessario modificare php.ini o aggiungere un .htaccess file cambiando il settaggi %s a %s (il valore corrente √® %s)!
 
 ** Please read the following license agreement. Use the scroll bar to view the rest of this agreement.
 Leggere il contratto di licenza. Usare la scroll bar per visualizzare il resto del contratto.
@@ -2413,7 +2413,7 @@ Stampa tutto
 Stampante
 
 ** Priority
-Priorit‡
+Priorit√†
 
 ** Problem
 Problema
@@ -2425,7 +2425,7 @@ Processi
 Elaborazione in corso di %s ...
 
 ** Program is installed with language %s, please use a different url or run the setup again.
-Il programma Ë installato con il linguaggio %s, per favore usare un URL differente o rilanciare il setup.
+Il programma √® installato con il linguaggio %s, per favore usare un URL differente o rilanciare il setup.
 
 ** Progress
 Avanzamento
@@ -2446,7 +2446,7 @@ Progetti
 promettente
 
 ** Properties
-Propriet‡
+Propriet√†
 
 ** Prospective client
 Possibile cliente
@@ -2896,7 +2896,7 @@ piccolo
 testo piccolo
 
 ** smaller
-pi˘ piccolo
+pi√π piccolo
 
 ** SMTP not configured for %s
 SMTP non configurato per %s
@@ -3040,7 +3040,7 @@ Sondaggi
 Sospeso
 
 ** Switch maintenance mode
-Commuta in modalit‡ manutenzione
+Commuta in modalit√† manutenzione
 
 ** Sync4j remote delete items
 Cancella voci remote Sync4j
@@ -3115,16 +3115,16 @@ Gi
 Grazie per il voto
 
 ** The folder cannot be copied.
-La cartella non puÚ essere copiata
+La cartella non pu√≤ essere copiata
 
 ** The folder cannot be deleted.
-La cartella non puÚ essere cancellata.
+La cartella non pu√≤ essere cancellata.
 
 ** The folder cannot be moved.
-La cartella non puÚ essere spostata.
+La cartella non pu√≤ essere spostata.
 
 ** The new password is
-La nuova password Ë
+La nuova password √®
 
 ** The url doesn't exist.
 L`URL non esiste.
@@ -3136,7 +3136,7 @@ Tema
 supporto di terzo livello
 
 ** this file extension is not allowed
-questa estensione di file non Ë abilitata
+questa estensione di file non √® abilitata
 
 ** Thu
 Gio
@@ -3349,7 +3349,7 @@ Il valore `%s` richiede l`appartenenza al gruppo: %s
 Variabile
 
 ** Variable already exists in table. (%s)
-La variabile esiste gi‡ nella tabella. (%s)
+La variabile esiste gi√† nella tabella. (%s)
 
 ** Variable must be of type date (mm/dd/yyyy).
 La variabile deve essere di tipo data (dd/mm/yyyy).
@@ -3397,7 +3397,7 @@ Accesso alla vista (utenti)
 Virus scanner
 
 ** Visibility
-Visibilit‡
+Visibilit√†
 
 ** Voice mail
 Voice mail
@@ -3523,7 +3523,7 @@ si
 Non sei abilitato a visualizzare questa cartella.
 
 ** Your message was read on %s.
-Il messaggio Ë stato letto su %s.
+Il messaggio √® stato letto su %s.
 
 ** Your session has timed out.
 Timeout di sessione

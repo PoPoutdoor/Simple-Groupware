@@ -1,4 +1,7 @@
-ï»¿// GPL
+ï»¿/**
+ * @package Simple Groupware
+ * @license GPLv2
+ */
 
 ** !_Copyright_Language_File
 Copyright (C) 2012 Kayo Katsuragi
@@ -7,211 +10,211 @@ Copyright (C) 2012 Kayo Katsuragi
 Japanese / Japan
 
 ** %s is not activated
-%s‚·‚Å‚É“®ì’†‚Å‚·
+%sã™ã§ã«å‹•ä½œä¸­ã§ã™
 
 ** %s is not compiled / loaded into PHP.
-%s‚ÍPHP‚ÉƒRƒ“ƒpƒCƒ‹/“Ç‚İ‚İ‚³‚ê‚Ä‚¢‚Ü‚¹‚ñ
+%sã¯PHPã«ã‚³ãƒ³ãƒ‘ã‚¤ãƒ«/èª­ã¿è¾¼ã¿ã•ã‚Œã¦ã„ã¾ã›ã‚“
 
 ** %s M memory usage
-%s M‚Ìƒƒ‚ƒŠ‚ğg—p
+%s Mã®ãƒ¡ãƒ¢ãƒªã‚’ä½¿ç”¨
 
 ** %s not in database
-%s‚Íƒf[ƒ^ƒx[ƒX’†‚É‚ ‚è‚Ü‚¹‚ñ
+%sã¯ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ä¸­ã«ã‚ã‚Šã¾ã›ã‚“
 
 ** %s rows affected
-%ss‚ª•ÏX‚³‚ê‚Ü‚µ‚½
+%sè¡ŒãŒå¤‰æ›´ã•ã‚Œã¾ã—ãŸ
 
 ** %s secs
-%s•b
+%sç§’
 
 ** %s started editing this asset at %s
-%s‚ª‚±‚Ì€–Ú‚Ì•ÒW‚ğn‚ß‚Ü‚µ‚½ %s
+%sãŒã“ã®é …ç›®ã®ç·¨é›†ã‚’å§‹ã‚ã¾ã—ãŸ %s
 
 ** (for active directory username must be: username@domain)
 (for active directory username must be: username@domain)
 
 ** (un)Group
-(æÁ)ƒOƒ‹[ƒv‰»
+(å–æ¶ˆ)ã‚°ãƒ«ãƒ¼ãƒ—åŒ–
 
 ** About
-‚±‚ê‚É‚Â‚¢‚Ä
+ã“ã‚Œã«ã¤ã„ã¦
 
 ** Absence
-•sİ
+ä¸åœ¨
 
 ** accepted
-³”F
+æ‰¿èª
 
 ** Access denied.
-ƒAƒNƒZƒX—v‹‚ª‹p‰º‚³‚ê‚Ü‚µ‚½B
+ã‚¢ã‚¯ã‚»ã‚¹è¦æ±‚ãŒå´ä¸‹ã•ã‚Œã¾ã—ãŸã€‚
 
 ** Access to this file has been denied.
-‚±‚Ìƒtƒ@ƒCƒ‹‚Ö‚ÌƒAƒNƒZƒX‚Í‹p‰º‚³‚ê‚Ü‚µ‚½B
+ã“ã®ãƒ•ã‚¡ã‚¤ãƒ«ã¸ã®ã‚¢ã‚¯ã‚»ã‚¹ã¯å´ä¸‹ã•ã‚Œã¾ã—ãŸã€‚
 
 ** Account
-ƒAƒJƒEƒ“ƒg
+ã‚¢ã‚«ã‚¦ãƒ³ãƒˆ
 
 ** account of %s has expired
-%s‚ÌƒAƒJƒEƒ“ƒg‚ÍŠúŒÀØ‚ê‚Å‚·B
+%sã®ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã¯æœŸé™åˆ‡ã‚Œã§ã™ã€‚
 
 ** Accounting
-ƒAƒJƒEƒ“ƒgŠÇ—
+ã‚¢ã‚«ã‚¦ãƒ³ãƒˆç®¡ç†
 
 ** Activate
-g—p
+ä½¿ç”¨
 
 ** Activated
-g—p’†
+ä½¿ç”¨ä¸­
 
 ** active
-g—p’†
+ä½¿ç”¨ä¸­
 
 ** Active
-“®ì’†
+å‹•ä½œä¸­
 
 ** Ad
-L
+åºƒå‘Š
 
 ** Add
-’Ç‰Á
+è¿½åŠ 
 
 ** Add a special rule
-“Á—á‚ğ’Ç‰Á
+ç‰¹ä¾‹ã‚’è¿½åŠ 
 
 ** Add to offline folders
-ƒIƒtƒ‰ƒCƒ“ƒtƒHƒ‹ƒ_‚É’Ç‰Á
+ã‚ªãƒ•ãƒ©ã‚¤ãƒ³ãƒ•ã‚©ãƒ«ãƒ€ã«è¿½åŠ 
 
 ** added line
-’Ç‰Á‚³‚ê‚½s
+è¿½åŠ ã•ã‚ŒãŸè¡Œ
 
 ** Address
-ƒAƒhƒŒƒX
+ã‚¢ãƒ‰ãƒ¬ã‚¹
 
 ** admin access
-ŠÇ—ƒAƒNƒZƒX
+ç®¡ç†ã‚¢ã‚¯ã‚»ã‚¹
 
 ** Admin access (groups)
-ŠÇ—ƒAƒNƒZƒXiƒOƒ‹[ƒvj
+ç®¡ç†ã‚¢ã‚¯ã‚»ã‚¹ï¼ˆã‚°ãƒ«ãƒ¼ãƒ—ï¼‰
 
 ** Admin access (users)
-ŠÇ—ƒAƒNƒZƒXiƒƒ“ƒo[j
+ç®¡ç†ã‚¢ã‚¯ã‚»ã‚¹ï¼ˆãƒ¡ãƒ³ãƒãƒ¼ï¼‰
 
 ** Admin Password
-ŠÇ—ÒƒpƒXƒ[ƒh
+ç®¡ç†è€…ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰
 
 ** Admin Username
-ŠÇ—ƒ†[ƒU[–¼
+ç®¡ç†ãƒ¦ãƒ¼ã‚¶ãƒ¼å
 
 ** Administration
-ŠÇ—
+ç®¡ç†
 
 ** Advanced tables
-ƒe[ƒuƒ‹i‚“xj
+ãƒ†ãƒ¼ãƒ–ãƒ«ï¼ˆé«˜åº¦ï¼‰
 
 ** Affected user
-‘€ì‚³‚ê‚½ƒ†[ƒU[
+æ“ä½œã•ã‚ŒãŸãƒ¦ãƒ¼ã‚¶ãƒ¼
 
 ** Affiliate
-ƒAƒtƒBƒŠƒGƒCƒg
+ã‚¢ãƒ•ã‚£ãƒªã‚¨ã‚¤ãƒˆ
 
 ** after
-ˆÈŒã
+ä»¥å¾Œ
 
 ** Agent
-‘ã—l
+ä»£ç†äºº
 
 ** Ajax Error
-AjaxƒGƒ‰[
+Ajaxã‚¨ãƒ©ãƒ¼
 
 ** All
-‚·‚×‚Ä
+ã™ã¹ã¦
 
 ** All day
-I“ú
+çµ‚æ—¥
 
 ** All events
-‚·‚×‚Ä‚ÌƒCƒxƒ“ƒg
+ã™ã¹ã¦ã®ã‚¤ãƒ™ãƒ³ãƒˆ
 
 ** All finished tasks
-I—¹ƒ^ƒXƒN
+çµ‚äº†ã‚¿ã‚¹ã‚¯
 
 ** All pending tasks
-•Û—¯ƒ^ƒXƒN
+ä¿ç•™ã‚¿ã‚¹ã‚¯
 
 ** Allow custom values
-ƒJƒXƒ^ƒ€’l‚ğ‹–‰Â‚·‚é
+ã‚«ã‚¹ã‚¿ãƒ å€¤ã‚’è¨±å¯ã™ã‚‹
 
 ** Allow disabled modules
-–³Œø‚É‚³‚ê‚½ƒ‚ƒWƒ…[ƒ‹‚ğ”F‚ß‚é
+ç„¡åŠ¹ã«ã•ã‚ŒãŸãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã‚’èªã‚ã‚‹
 
 ** Already running latest release.
-‚·‚Å‚ÉÅVƒo[ƒWƒ‡ƒ“‚ª‰Ò“­‚µ‚Ä‚¢‚Ü‚·
+ã™ã§ã«æœ€æ–°ãƒãƒ¼ã‚¸ãƒ§ãƒ³ãŒç¨¼åƒã—ã¦ã„ã¾ã™
 
 ** Already voted.
-“Š•[Ï‚İ‚Å‚·
+æŠ•ç¥¨æ¸ˆã¿ã§ã™
 
 ** Amount
-”—Ê
+æ•°é‡
 
 ** Anchor
-ƒAƒ“ƒJ[
+ã‚¢ãƒ³ã‚«ãƒ¼
 
 ** and
 
 
 ** Anniversary
-‹L”O“ú
+è¨˜å¿µæ—¥
 
 ** another page
-•Ê‚Ìƒy[ƒW
+åˆ¥ã®ãƒšãƒ¼ã‚¸
 
 ** answered
-‰ñ“šÏ
+å›ç­”æ¸ˆ
 
 ** Answers
-‰ñ“šˆê——
+å›ç­”ä¸€è¦§
 
 ** Apache based (.htaccess, Basic, Digest, etc.)
-Apacheƒx[ƒX(.htaccess, Basic, Digest, “™.)
+Apacheãƒ™ãƒ¼ã‚¹(.htaccess, Basic, Digest, ç­‰.)
 
 ** Application title
-ƒAƒvƒŠƒP[ƒVƒ‡ƒ“ƒ^ƒCƒgƒ‹
+ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã‚¿ã‚¤ãƒˆãƒ«
 
 ** Apply rights to subfolders
-ƒTƒuƒtƒHƒ‹ƒ_‚É“K—p‚·‚é
+ã‚µãƒ–ãƒ•ã‚©ãƒ«ãƒ€ã«é©ç”¨ã™ã‚‹
 
 ** Appointment
-—\–ñ
+äºˆç´„
 
 ** Appointments
-—\–ñˆê——
+äºˆç´„ä¸€è¦§
 
 ** Apprenticeship
 
 
 ** Apr
-4Œ
+4æœˆ
 
 ** April
-‚SŒ
+ï¼”æœˆ
 
 ** Archive
-ƒA[ƒJƒCƒu
+ã‚¢ãƒ¼ã‚«ã‚¤ãƒ–
 
 ** Archive deleted files
-íœƒtƒ@ƒCƒ‹‚ğƒA[ƒJƒCƒu‚ÉˆÚ‚·
+å‰Šé™¤ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ã‚¢ãƒ¼ã‚«ã‚¤ãƒ–ã«ç§»ã™
 
 ** Asset
-‘Y
+è³‡ç”£
 
 ** Asset marked as read-only.
-‘Y‚Í“Ç‚İæ‚èê—p‚Å‚·B
+è³‡ç”£ã¯èª­ã¿å–ã‚Šå°‚ç”¨ã§ã™ã€‚
 
 ** Assets
-‘Yˆê——
+è³‡ç”£ä¸€è¦§
 
 ** Assets (children)
-‘Yˆê——iq€–Új
+è³‡ç”£ä¸€è¦§ï¼ˆå­é …ç›®ï¼‰
 
 ** Assets can be imported into multiple folders by adding the "Folder" column.
 
@@ -220,260 +223,260 @@ Apacheƒx[ƒX(.htaccess, Basic, Digest, “™.)
 
 
 ** assigned
-Š„‚è“–‚ÄÏ‚İ
+å‰²ã‚Šå½“ã¦æ¸ˆã¿
 
 ** at least 20 characters
-Å’á20•¶š
+æœ€ä½20æ–‡å­—
 
 ** attach file
-“Y•tƒtƒ@ƒCƒ‹
+æ·»ä»˜ãƒ•ã‚¡ã‚¤ãƒ«
 
 ** Attachment
-“Y•t
+æ·»ä»˜
 
 ** Attachments
-“Y•tˆê——
+æ·»ä»˜ä¸€è¦§
 
 ** Attend
-oÈ
+å‡ºå¸­
 
 ** Aug
-8Œ
+8æœˆ
 
 ** August
-‚WŒ
+ï¼˜æœˆ
 
 ** Authentication Mode
-”FØƒ‚[ƒh
+èªè¨¼ãƒ¢ãƒ¼ãƒ‰
 
 ** Author
-·•MÒ
+åŸ·ç­†è€…
 
 ** Automatically hide the menu
-©“®“I‚Éƒƒjƒ…[‚ğ‰B‚·
+è‡ªå‹•çš„ã«ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã‚’éš ã™
 
 ** Automatically hide the tree
-©“®“I‚ÉƒcƒŠ[‚ğ‰B‚·
+è‡ªå‹•çš„ã«ãƒ„ãƒªãƒ¼ã‚’éš ã™
 
 ** Average
-•½‹Ï
+å¹³å‡
 
 ** Average progress
-i’»•½‹Ï
+é€²æ—å¹³å‡
 
 ** Avg length
-•½‹Ï’·‚³
+å¹³å‡é•·ã•
 
 ** Back
-–ß‚é
+æˆ»ã‚‹
 
 ** Backup
-ƒoƒbƒNƒAƒbƒv
+ãƒãƒƒã‚¯ã‚¢ãƒƒãƒ—
 
 ** Backup current folder
-Œ»İ‚ÌƒtƒHƒ‹ƒ_‚ÌƒoƒbƒNƒAƒbƒv
+ç¾åœ¨ã®ãƒ•ã‚©ãƒ«ãƒ€ã®ãƒãƒƒã‚¯ã‚¢ãƒƒãƒ—
 
 ** Backups
-ƒoƒbƒNƒAƒbƒvˆê——
+ãƒãƒƒã‚¯ã‚¢ãƒƒãƒ—ä¸€è¦§
 
 ** Basic editing
-Šî–{•ÒW‹@”\
+åŸºæœ¬ç·¨é›†æ©Ÿèƒ½
 
 ** before
-ˆÈ‘O
+ä»¥å‰
 
 ** Before
-ˆÈ‘O
+ä»¥å‰
 
 ** Begin
-ŠJn
+é–‹å§‹
 
 ** big
-‘å
+å¤§
 
 ** big text
-‘å‚«‚È•¶š
+å¤§ããªæ–‡å­—
 
 ** bigger
-‘å‚«‚ß
+å¤§ãã‚
 
 ** Billing address
-¿‹‘‘—•tæ
+è«‹æ±‚æ›¸é€ä»˜å…ˆ
 
 ** Birthday
-’a¶“ú
+èª•ç”Ÿæ—¥
 
 ** Birthdays
-’a¶“ú
+èª•ç”Ÿæ—¥
 
 ** Blank
-‹ó”’
+ç©ºç™½
 
 ** blue
-Â
+é’
 
 ** bold
-‘¾š
+å¤ªå­—
 
 ** bold italic
-‘¾šÎ‘Ì
+å¤ªå­—æ–œä½“
 
 ** Book
-—\–ñ
+äºˆç´„
 
 ** booked
-Q‰Á—\–ñÏ
+å‚åŠ äºˆç´„æ¸ˆ
 
 ** Booked
-Q‰Á—\–ñÒ
+å‚åŠ äºˆç´„è€…
 
 ** Booking number
-Q‰Áƒƒ“ƒo[
+å‚åŠ ãƒ¡ãƒ³ãƒãƒ¼
 
 ** Bookings
-Q‰Á—\–ñ
+å‚åŠ äºˆç´„
 
 ** Bookmark
-‚¨‹C‚É“ü‚è
+ãŠæ°—ã«å…¥ã‚Š
 
 ** Bookmarks
-‚¨‹C‚É“ü‚è
+ãŠæ°—ã«å…¥ã‚Š
 
 ** borrowed
-Ø“ü
+å€Ÿå…¥
 
 ** Brand
-¤•W
+å•†æ¨™
 
 ** Brands
-¤•W
+å•†æ¨™
 
 ** Browser Compatibility
-ƒuƒ‰ƒEƒUŒİŠ·«
+ãƒ–ãƒ©ã‚¦ã‚¶äº’æ›æ€§
 
 ** Browser not supported
-ƒTƒ|[ƒgŠO‚Ìƒuƒ‰ƒEƒU‚Å‚·
+ã‚µãƒãƒ¼ãƒˆå¤–ã®ãƒ–ãƒ©ã‚¦ã‚¶ã§ã™
 
 ** Budget
-—\Z
+äºˆç®—
 
 ** Bug
-ƒoƒO
+ãƒã‚°
 
 ** bulleted
 
 
 ** Business
-––±
+äº‹å‹™
 
 ** C a n c e l
-ƒLƒƒƒ“ƒZƒ‹
+ã‚­ãƒ£ãƒ³ã‚»ãƒ«
 
 ** C O N T I N U E
-Ÿ‚Ö
+æ¬¡ã¸
 
 ** Cache output
-ƒLƒƒƒbƒVƒ…o—Í
+ã‚­ãƒ£ãƒƒã‚·ãƒ¥å‡ºåŠ›
 
 ** Caches
-ƒLƒƒƒbƒVƒ…
+ã‚­ãƒ£ãƒƒã‚·ãƒ¥
 
 ** Calendar
-ƒJƒŒƒ“ƒ_[
+ã‚«ãƒ¬ãƒ³ãƒ€ãƒ¼
 
 ** Cancel
-ƒLƒƒƒ“ƒZƒ‹
+ã‚­ãƒ£ãƒ³ã‚»ãƒ«
 
 ** canceled
-æÁ
+å–æ¶ˆ
 
 ** Canceled
-æÁ
+å–æ¶ˆ
 
 ** Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.
 Cannot call proc_open. Please remove proc_open from disable_functions in php.ini and disable safe_mode.
 
 ** Cannot connect to database %s on %s.
-ƒf[ƒ^ƒx[ƒX‚ÉÚ‘±‚Å‚«‚Ü‚¹‚ñ%sB
+ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ã«æ¥ç¶šã§ãã¾ã›ã‚“%sã€‚
 
 ** Cannot create preview for %s
-ƒvƒŒƒrƒ…[‚ğì¬‚Å‚«‚Ü‚¹‚ñ %s
+ãƒ—ãƒ¬ãƒ“ãƒ¥ãƒ¼ã‚’ä½œæˆã§ãã¾ã›ã‚“ %s
 
 ** Cannot read the file %s.
-ƒtƒ@ƒCƒ‹“Ç‚İæ‚è•s”\%sB
+ãƒ•ã‚¡ã‚¤ãƒ«èª­ã¿å–ã‚Šä¸èƒ½%sã€‚
 
 ** Cardinality
-”Z“x
+æ¿ƒåº¦
 
 ** Categories
-ƒJƒeƒSƒŠˆê——
+ã‚«ãƒ†ã‚´ãƒªä¸€è¦§
 
 ** Category
-ƒJƒeƒSƒŠ
+ã‚«ãƒ†ã‚´ãƒª
 
 ** Cc
 Cc
 
 ** centered
-’†‘µ‚¦
+ä¸­æƒãˆ
 
 ** CEO
 CEO
 
 ** Change request
-XV—v‹
+æ›´æ–°è¦æ±‚
 
 ** Change settings
-İ’è•ÏX
+è¨­å®šå¤‰æ›´
 
 ** Change Setup settings
-ƒCƒ“ƒXƒg[ƒ‹İ’è‚Ì•ÏX
+ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«è¨­å®šã®å¤‰æ›´
 
 ** Change summary
-XV“E—v
+æ›´æ–°æ‘˜è¦
 
 ** Changed
-XV‚³‚ê‚½‚à‚Ì
+æ›´æ–°ã•ã‚ŒãŸã‚‚ã®
 
 ** changed line
-•ÏXÏ‚İs
+å¤‰æ›´æ¸ˆã¿è¡Œ
 
 ** Changelog
-XV—š—ğ
+æ›´æ–°å±¥æ­´
 
 ** Chat
-ƒ`ƒƒƒbƒg
+ãƒãƒ£ãƒƒãƒˆ
 
 ** Check DoS Attacks
-DoSUŒ‚ŒŸo
+DoSæ”»æ’ƒæ¤œå‡º
 
 ** checked
-ƒ`ƒFƒbƒNÏ‚İ
+ãƒã‚§ãƒƒã‚¯æ¸ˆã¿
 
 ** Checked
-ƒ`ƒFƒbƒNÏ‚İ
+ãƒã‚§ãƒƒã‚¯æ¸ˆã¿
 
 
 ** Choices
-‘I‘ğˆ
+é¸æŠè‚¢
 
 ** CIO
 CIO
 
 ** City
-s
+å¸‚
 
 ** Clean
-´‘|
+æ¸…æƒ
 
 ** Clean Cache
-ƒLƒƒƒbƒVƒ…‚ÌƒNƒŠƒA
+ã‚­ãƒ£ãƒƒã‚·ãƒ¥ã®ã‚¯ãƒªã‚¢
 
 ** Clear
-ƒNƒŠƒA
+ã‚¯ãƒªã‚¢
 
 ** Clear Cache
-ƒLƒƒƒbƒVƒ…‚ÌƒNƒŠƒA
+ã‚­ãƒ£ãƒƒã‚·ãƒ¥ã®ã‚¯ãƒªã‚¢
 
 ** Clear Data
 
@@ -482,19 +485,19 @@ CIO
 
 
 ** Client
-ŒÚ‹q
+é¡§å®¢
 
 ** Close
-•Â‚¶‚é
+é–‰ã˜ã‚‹
 
 ** Close session
-ƒZƒbƒVƒ‡ƒ“‚ğ•Â‚¶‚é
+ã‚»ãƒƒã‚·ãƒ§ãƒ³ã‚’é–‰ã˜ã‚‹
 
 ** closed
-’÷‚ßØ‚ç‚ê‚Ä‚¢‚Ü‚·
+ç· ã‚åˆ‡ã‚‰ã‚Œã¦ã„ã¾ã™
 
 ** Closed
-Š®—¹Ï
+å®Œäº†æ¸ˆ
 
 ** CMS
 CMS
@@ -506,157 +509,157 @@ CMS
 
 
 ** Collapse tree
-ƒcƒŠ[Ü‚è‚½‚½‚İ•\¦
+ãƒ„ãƒªãƒ¼æŠ˜ã‚ŠãŸãŸã¿è¡¨ç¤º
 
 ** Color
-F
+è‰²
 
 ** Column
-—ñ
+åˆ—
 
 ** Column name
-—ñ–¼
+åˆ—å
 
 ** Combination
 
 
 ** Comma
-ƒJƒ“ƒ}
+ã‚«ãƒ³ãƒ
 
 ** Comma separated values
-ƒJƒ“ƒ}‹æØ‚è•¶š—ñ
+ã‚«ãƒ³ãƒåŒºåˆ‡ã‚Šæ–‡å­—åˆ—
 
 ** Command
-–½—ß
+å‘½ä»¤
 
 ** Comment
-ƒRƒƒ“ƒg
+ã‚³ãƒ¡ãƒ³ãƒˆ
 
 ** Comment files
-ƒRƒƒ“ƒgƒtƒ@ƒCƒ‹
+ã‚³ãƒ¡ãƒ³ãƒˆãƒ•ã‚¡ã‚¤ãƒ«
 
 ** Companies
-‰ïĞ
+ä¼šç¤¾
 
 ** Company
-‰ïĞ
+ä¼šç¤¾
 
 ** Competition
-ƒRƒ“ƒy
+ã‚³ãƒ³ãƒš
 
 ** Competitor
-‹£‡‘¼Ğ
+ç«¶åˆä»–ç¤¾
 
 ** Complete
-Š®—¹
+å®Œäº†
 
 ** completed
-Š®—¹‚µ‚½
+å®Œäº†ã—ãŸ
 
 ** Completed
-Š®¬
+å®Œæˆ
 
 ** Component
-ƒRƒ“ƒ|[ƒlƒ“ƒg
+ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆ
 
 ** Compress output
-ˆ³ko—Í
+åœ§ç¸®å‡ºåŠ›
 
 ** Confirm
-³”F
+æ‰¿èª
 
 ** confirmed
-³”FÏ
+æ‰¿èªæ¸ˆ
 
 ** Connection error: %s [%s]
 
 
 ** Connection to database failed.
-ƒf[ƒ^ƒx[ƒXÚ‘±‚É¸”s
+ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹æ¥ç¶šã«å¤±æ•—
 
 ** Console
-ƒRƒ“ƒ\[ƒ‹
+ã‚³ãƒ³ã‚½ãƒ¼ãƒ«
 
 ** Console scripts
 
 
 ** Consultant
-ƒRƒ“ƒTƒ‹ƒ^ƒ“ƒg
+ã‚³ãƒ³ã‚µãƒ«ã‚¿ãƒ³ãƒˆ
 
 ** Contact
-˜A—æ
+é€£çµ¡å…ˆ
 
 ** Contact activities
-˜A—æ‚ÌŠˆ“®ˆê——
+é€£çµ¡å…ˆã®æ´»å‹•ä¸€è¦§
 
 ** Contact activity
-˜A—æ‚ÌŠˆ“®
+é€£çµ¡å…ˆã®æ´»å‹•
 
 ** Contact by
-ó•tÒ
+å—ä»˜è€…
 
 ** Contact groups
-˜A—æƒOƒ‹[ƒv
+é€£çµ¡å…ˆã‚°ãƒ«ãƒ¼ãƒ—
 
 ** Contact id
-˜A—æid
+é€£çµ¡å…ˆid
 
 ** Contact person
-˜A—æ’S“–Ò
+é€£çµ¡å…ˆæ‹…å½“è€…
 
 ** Contact user by
-–â‚¢‡‚í‚¹ƒ†[ƒU[
+å•ã„åˆã‚ã›ãƒ¦ãƒ¼ã‚¶ãƒ¼
 
 ** Contacts
-˜A—æ
+é€£çµ¡å…ˆ
 
 ** contains
-ŠÜ‚Ş
+å«ã‚€
 
 ** Content
-“à—e
+å†…å®¹
 
 ** Continue
-i‚Ş
+é€²ã‚€
 
 ** Contracts
-Œ_–ñ
+å¥‘ç´„
 
 ** Copier
-ƒRƒs[
+ã‚³ãƒ”ãƒ¼
 
 ** Copy
-ƒRƒs[
+ã‚³ãƒ”ãƒ¼
 
 ** Cost center
-ƒRƒXƒgƒZƒ“ƒ^[
+ã‚³ã‚¹ãƒˆã‚»ãƒ³ã‚¿ãƒ¼
 
 ** Costs of accommodation
-û—eƒRƒXƒg
+åå®¹ã‚³ã‚¹ãƒˆ
 
 ** Could not determine database-version.
-–¢’m‚Ìƒf[ƒ^ƒx[ƒXƒo[ƒWƒ‡ƒ“‚Å‚·B
+æœªçŸ¥ã®ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã§ã™ã€‚
 
 ** Country
-‘
+å›½
 
 ** Create new
-V‹Kì¬
+æ–°è¦ä½œæˆ
 
 ** Created
-ì¬“ú
+ä½œæˆæ—¥
 
 ** Creating database failed.
-ƒf[ƒ^ƒx[ƒX¶¬‚É¸”s
+ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ç”Ÿæˆã«å¤±æ•—
 
 ** current path
-Œ»İ‚ÌƒpƒX
+ç¾åœ¨ã®ãƒ‘ã‚¹
 
 ** current time
-Œ»İŠÔ
+ç¾åœ¨æ™‚é–“
 
 ** Curriculum vitae
-—š—ğ‘
+å±¥æ­´æ›¸
 
 ** Custom schema
 
@@ -665,142 +668,142 @@ CMS
 
 
 ** customizations
-ƒJƒXƒ^ƒ}ƒCƒYì‹Æ
+ã‚«ã‚¹ã‚¿ãƒã‚¤ã‚ºä½œæ¥­
 
 ** Customize
-ƒJƒXƒ^ƒ}ƒCƒY
+ã‚«ã‚¹ã‚¿ãƒã‚¤ã‚º
 
 ** Cut
-Ø‚èæ‚é
+åˆ‡ã‚Šå–ã‚‹
 
 ** daily
-“ú•Ê
+æ—¥åˆ¥
 
 ** Data
-ƒf[ƒ^
+ãƒ‡ãƒ¼ã‚¿
 
 ** Data free
-c‚èƒf[ƒ^
+æ®‹ã‚Šãƒ‡ãƒ¼ã‚¿
 
 ** Data length
-ƒf[ƒ^’·
+ãƒ‡ãƒ¼ã‚¿é•·
 
 ** Database
-ƒf[ƒ^ƒx[ƒX
+ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹
 
 ** Database Hostname / IP
-ƒf[ƒ^ƒx[ƒX‚ÌƒzƒXƒg–¼/IP
+ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ã®ãƒ›ã‚¹ãƒˆå/IP
 
 ** Database Name
-ƒf[ƒ^ƒx[ƒX–¼Ì
+ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹åç§°
 
 ** Database Password
-ƒf[ƒ^ƒx[ƒXƒpƒXƒ[ƒh
+ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰
 
 ** Database size
 
 
 ** Database status
-ƒf[ƒ^ƒx[ƒXó‘Ô
+ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹çŠ¶æ…‹
 
 ** Database type
 
 
 ** Database User
-ƒf[ƒ^ƒx[ƒXƒ†[ƒU[
+ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ãƒ¦ãƒ¼ã‚¶ãƒ¼
 
 ** Database variables
-ƒf[ƒ^ƒx[ƒX•Ï”
+ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹å¤‰æ•°
 
 ** Date
-“ú•t
+æ—¥ä»˜
 
 ** Day
-“ú
+æ—¥
 
 ** Day begin
-n‹Æ
+å§‹æ¥­
 
 ** Day end
-I‹Æ
+çµ‚æ¥­
 
 ** days
-“úŠÔ
+æ—¥é–“
 
 ** Deactivate
 
 
 ** Deadline
-ŠúŒÀ
+æœŸé™
 
 ** Debug
-ƒfƒoƒbƒO
+ãƒ‡ãƒãƒƒã‚°
 
 ** Debug-dir
-ƒfƒoƒbƒOƒfƒBƒŒƒNƒgƒŠ
+ãƒ‡ãƒãƒƒã‚°ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª
 
 ** Dec
-12Œ
+12æœˆ
 
 ** December
-12Œ
+12æœˆ
 
 ** Declining balance
 
 
 ** Default
-ƒfƒtƒHƒ‹ƒg
+ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆ
 
 ** Default function
 
 
 ** Default theme
-•W€ƒe[ƒ}
+æ¨™æº–ãƒ†ãƒ¼ãƒ
 
 ** Default values for assets
-€–Ú‚Ì‰Šú’l
+é …ç›®ã®åˆæœŸå€¤
 
 ** definition for definition lists
 
 
 ** Degree
-’ö“x
+ç¨‹åº¦
 
 ** Delete
-íœ
+å‰Šé™¤
 
 ** Delete incl subfolders
-ƒTƒuƒtƒHƒ‹ƒ_‚àíœ‚·‚é
+ã‚µãƒ–ãƒ•ã‚©ãƒ«ãƒ€ã‚‚å‰Šé™¤ã™ã‚‹
 
 ** deleted
-íœÏ‚İ
+å‰Šé™¤æ¸ˆã¿
 
 ** deleted line
-íœÏ‚İs
+å‰Šé™¤æ¸ˆã¿è¡Œ
 
 ** Delivery
-”zM
+é…ä¿¡
 
 ** Demand
-—v‹
+è¦æ±‚
 
 ** Demo
-ƒfƒ‚
+ãƒ‡ãƒ¢
 
 ** Demonstration folder
 
 
 ** Department
-•”–å
+éƒ¨é–€
 
 ** Departments
-•”–åˆê——
+éƒ¨é–€ä¸€è¦§
 
 ** Dependancies
-ˆË‘¶ŠÖŒW
+ä¾å­˜é–¢ä¿‚
 
 ** Description
-Ú×
+è©³ç´°
 
 ** Description hint
 
@@ -812,82 +815,82 @@ CMS
 
 
 ** Desktop computer
-ƒfƒXƒNƒgƒbƒvPC
+ãƒ‡ã‚¹ã‚¯ãƒˆãƒƒãƒ—PC
 
 ** Details
-Ú×
+è©³ç´°
 
 ** Device type
-ƒfƒoƒCƒXŒ`®
+ãƒ‡ãƒã‚¤ã‚¹å½¢å¼
 
 ** Device types
-ƒfƒoƒCƒXŒ`®ˆê——
+ãƒ‡ãƒã‚¤ã‚¹å½¢å¼ä¸€è¦§
 
 ** Diagram
 
 
 ** directory does not exist.
-ƒfƒBƒŒƒNƒgƒŠ‚ª‘¶İ‚µ‚Ü‚¹‚ñ
+ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªãŒå­˜åœ¨ã—ã¾ã›ã‚“
 
 ** Directory is outside the allowed directory. (%s is outside %s)
-ƒfƒBƒŒƒNƒgƒŠ‚Í‹–‰Â”ÍˆÍ‚ÌŠO‚É‚ ‚è‚Ü‚·i%s is outside %sj
+ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã¯è¨±å¯ç¯„å›²ã®å¤–ã«ã‚ã‚Šã¾ã™ï¼ˆ%s is outside %sï¼‰
 
 ** disable
 
 
 ** Disable basic authentication
-Basic”FØ‚ğ–³Œø‚É‚·‚é
+Basicèªè¨¼ã‚’ç„¡åŠ¹ã«ã™ã‚‹
 
 ** Disable cut-copy-paste
-Ø‚èæ‚èAƒRƒs[“\‚è•t‚¯‚ğ–³Œø‚É‚·‚é
+åˆ‡ã‚Šå–ã‚Šã€ã‚³ãƒ”ãƒ¼è²¼ã‚Šä»˜ã‘ã‚’ç„¡åŠ¹ã«ã™ã‚‹
 
 ** Disabled
-–³Œø
+ç„¡åŠ¹
 
 ** Disabled modules
-–³Œøƒ‚ƒWƒ…[ƒ‹
+ç„¡åŠ¹ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«
 
 ** Display
-•\¦
+è¡¨ç¤º
 
 ** display filter
-•\¦ƒtƒBƒ‹ƒ^[
+è¡¨ç¤ºãƒ•ã‚£ãƒ«ã‚¿ãƒ¼
 
 ** Displayname
 
 
 ** displays
-‰æ–Ê
+ç”»é¢
 
 ** Distributor
-‘ã—“Xˆê——
+ä»£ç†åº—ä¸€è¦§
 
 ** Distributors
-‘ã—“Xˆê——
+ä»£ç†åº—ä¸€è¦§
 
 ** divorced
-—£¥
+é›¢å©š
 
 ** Documentation
-à–¾‘
+èª¬æ˜æ›¸
 
 ** Documentation index
-à–¾‘ õˆø
+èª¬æ˜æ›¸ ç´¢å¼•
 
 ** Domain
-ƒhƒƒCƒ“
+ãƒ‰ãƒ¡ã‚¤ãƒ³
 
 ** Don't attend
-Œ‡È
+æ¬ å¸­
 
 ** Don't move old files to 'old/'
 
 
 ** Down
-‰º
+ä¸‹
 
 ** Download
-ƒ_ƒEƒ“ƒ[ƒh
+ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰
 
 ** Download example file
 
@@ -896,132 +899,132 @@ Basic”FØ‚ğ–³Œø‚É‚·‚é
 
 
 ** Downloading update list
-XVƒŠƒXƒg‚ğƒ_ƒEƒ“ƒ[ƒh’†
+æ›´æ–°ãƒªã‚¹ãƒˆã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ä¸­
 
 ** Drag and drop files or URLs here.
 
 
 ** duplicate
-•¡»
+è¤‡è£½
 
 ** Duration
-ŠúŠÔ
+æœŸé–“
 
 ** E-mail
 E-mail
 
 ** E-mail private
-E-mail ŒÂl—p
+E-mail å€‹äººç”¨
 
 ** E-mail program
-E-mailƒ\ƒtƒgƒEƒGƒA
+E-mailã‚½ãƒ•ãƒˆã‚¦ã‚¨ã‚¢
 
 ** e.g.
-—áF
+ä¾‹ï¼š
 
 ** Edit
-•ÒW
+ç·¨é›†
 
 ** Edit as new
-V‹K‚Æ‚µ‚Ä•ÒW
+æ–°è¦ã¨ã—ã¦ç·¨é›†
 
 ** Edit rights
-•ÒWŒ ŒÀ
+ç·¨é›†æ¨©é™
 
 ** Editable if hidden in all views
 
 
 ** Editor
-•ÒWÒ
+ç·¨é›†è€…
 
 ** Emphasis
-‹­’²
+å¼·èª¿
 
 ** Empty
-‹ó”’
+ç©ºç™½
 
 ** Empty folder
-‹óƒtƒHƒ‹ƒ_
+ç©ºãƒ•ã‚©ãƒ«ãƒ€
 
 ** en
 
 
 ** Enable anonymous access
-“½–¼ƒAƒNƒZƒX‚ğ‹–‰Â‚·‚é
+åŒ¿åã‚¢ã‚¯ã‚»ã‚¹ã‚’è¨±å¯ã™ã‚‹
 
 ** Enable anonymous CMS
-“½–¼‚É‚æ‚éCMS—˜—p
+åŒ¿åã«ã‚ˆã‚‹CMSåˆ©ç”¨
 
 ** Enable automatic user creation
-©“®ƒ†[ƒU[¶¬‚ğ‹–‰Â‚·‚é
+è‡ªå‹•ãƒ¦ãƒ¼ã‚¶ãƒ¼ç”Ÿæˆã‚’è¨±å¯ã™ã‚‹
 
 ** Enable external mail client for 'mailto:' links
-ŠO•”ƒ[ƒ‹ƒAƒvƒŠ‚Åmailto: ƒŠƒ“ƒN‚ğˆµ‚¤
+å¤–éƒ¨ãƒ¡ãƒ¼ãƒ«ã‚¢ãƒ—ãƒªã§mailto: ãƒªãƒ³ã‚¯ã‚’æ‰±ã†
 
 ** Enable self registration
 
 
 ** Enable Sync4j / Funambol
-Sync4j / Funambol ‚ğg—p‚·‚é
+Sync4j / Funambol ã‚’ä½¿ç”¨ã™ã‚‹
 
 ** Enable WebDAV
-WebDAV‚ğg—p‚·‚é
+WebDAVã‚’ä½¿ç”¨ã™ã‚‹
 
 ** Enable WebDAV file locking scripts
 
 
 ** End
-I—¹
+çµ‚äº†
 
 ** engaged
 
 
 ** equal
-ˆê’v
+ä¸€è‡´
 
 ** Error
-ƒGƒ‰[
+ã‚¨ãƒ©ãƒ¼
 
 ** Error doing request to xmlhttp
-xmlhttp‚Å‚Ì—v‹’†‚ÉƒGƒ‰[
+xmlhttpã§ã®è¦æ±‚ä¸­ã«ã‚¨ãƒ©ãƒ¼
 
 ** Error moving file
-ƒtƒ@ƒCƒ‹ˆÚ“®’†‚ÌƒGƒ‰[
+ãƒ•ã‚¡ã‚¤ãƒ«ç§»å‹•ä¸­ã®ã‚¨ãƒ©ãƒ¼
 
 ** Error pasting asset
 
 ** Error: no credentials
-ƒGƒ‰[FŒ ŒÀ‚ªØ–¾‚³‚ê‚Ä‚¢‚Ü‚¹‚ñ
+ã‚¨ãƒ©ãƒ¼ï¼šæ¨©é™ãŒè¨¼æ˜ã•ã‚Œã¦ã„ã¾ã›ã‚“
 
 ** Events
-ƒCƒxƒ“ƒg
+ã‚¤ãƒ™ãƒ³ãƒˆ
 
 ** Example
-—á
+ä¾‹
 
 ** Example contacts
-˜A—æƒTƒ“ƒvƒ‹
+é€£çµ¡å…ˆã‚µãƒ³ãƒ—ãƒ«
 
 ** Example surveys can be found at:
 
 
 ** Example without mountpoint
-mountpoint‚ğg‚í‚È‚¢—á
+mountpointã‚’ä½¿ã‚ãªã„ä¾‹
 
 ** Examples
-—á
+ä¾‹
 
 ** Execute
-Às
+å®Ÿè¡Œ
 
 ** Expenses
-xo
+æ”¯å‡º
 
 ** Experimental
-ÀŒ±“I
+å®Ÿé¨“çš„
 
 ** Expires
-ŠúŒÀ
+æœŸé™
 
 ** Expiry
 
@@ -1033,7 +1036,7 @@ mountpoint‚ğg‚í‚È‚¢—á
 
 
 ** Extracting files
-“WŠJƒtƒ@ƒCƒ‹
+å±•é–‹ãƒ•ã‚¡ã‚¤ãƒ«
 
 ** F j
 F j
@@ -1042,22 +1045,22 @@ F j
 F j, Y
 
 ** Failed to create directory: %s
-ƒfƒBƒŒƒNƒgƒŠ‚ğì¬‚Å‚«‚Ü‚¹‚ñ‚Å‚µ‚½F%s
+ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’ä½œæˆã§ãã¾ã›ã‚“ã§ã—ãŸï¼š%s
 
 ** Failed to write file to disk.
-ƒfƒBƒXƒN‚Ö‚Ìƒtƒ@ƒCƒ‹‘‚«‚İ‚ª‚Å‚«‚Ü‚¹‚ñ‚Å‚µ‚½B
+ãƒ‡ã‚£ã‚¹ã‚¯ã¸ã®ãƒ•ã‚¡ã‚¤ãƒ«æ›¸ãè¾¼ã¿ãŒã§ãã¾ã›ã‚“ã§ã—ãŸã€‚
 
 ** Failed to write into %s
-%‘‚«‚ß‚Ü‚¹‚ñ‚Å‚µ‚½: %s
+%æ›¸ãè¾¼ã‚ã¾ã›ã‚“ã§ã—ãŸ: %s
 
 ** Family status
-‰Æ‘°
+å®¶æ—
 
 ** FAQ
-‚æ‚­‚ ‚é¿–â
+ã‚ˆãã‚ã‚‹è³ªå•
 
 ** Favorites
-‚¨‹C‚É“ü‚è
+ãŠæ°—ã«å…¥ã‚Š
 
 ** Fax
 
@@ -1072,16 +1075,16 @@ F j, Y
 
 
 ** February
-2Œ
+2æœˆ
 
 ** Feed
-ƒtƒB[ƒh
+ãƒ•ã‚£ãƒ¼ãƒ‰
 
 ** female
-—«
+å¥³æ€§
 
 ** Field
-ƒtƒB[ƒ‹ƒh
+ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰
 
 ** Field contains value
 
@@ -1093,231 +1096,231 @@ F j, Y
 
 
 ** Fields
-ƒtƒB[ƒ‹ƒhˆê——
+ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ä¸€è¦§
 
 ** File
-ƒtƒ@ƒCƒ‹
+ãƒ•ã‚¡ã‚¤ãƒ«
 
 ** file is too big. Please change upload_max_filesize, post_max_size in your php.ini
-ƒtƒ@ƒCƒ‹‚ª‘å‚«‚·‚¬‚Ü‚·Bphp.iniƒtƒ@ƒCƒ‹‚ğC³‚µ‚Ä upload_max_filesize, post_max_size ‚ğ•ÏX‚µ‚Ä‚­‚¾‚³‚¢B
+ãƒ•ã‚¡ã‚¤ãƒ«ãŒå¤§ãã™ãã¾ã™ã€‚php.iniãƒ•ã‚¡ã‚¤ãƒ«ã‚’ä¿®æ­£ã—ã¦ upload_max_filesize, post_max_size ã‚’å¤‰æ›´ã—ã¦ãã ã•ã„ã€‚
 
 ** file is too big. Please upload a smaller one.
-ƒtƒ@ƒCƒ‹‚ª‘å‚«‚·‚¬‚Ü‚·B¬‚³‚¢ƒtƒ@ƒCƒ‹‚É‚µ‚Ä‚­‚¾‚³‚¢BB
+ãƒ•ã‚¡ã‚¤ãƒ«ãŒå¤§ãã™ãã¾ã™ã€‚å°ã•ã„ãƒ•ã‚¡ã‚¤ãƒ«ã«ã—ã¦ãã ã•ã„ã€‚ã€‚
 
 ** File locked.
-ƒtƒ@ƒCƒ‹‚ÍƒƒbƒN‚³‚ê‚Ä‚¢‚Ü‚·B
+ãƒ•ã‚¡ã‚¤ãƒ«ã¯ãƒ­ãƒƒã‚¯ã•ã‚Œã¦ã„ã¾ã™B
 
 ** file not found in database.
-ƒf[ƒ^ƒx[ƒX“à‚Éƒtƒ@ƒCƒ‹‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ
+ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹å†…ã«ãƒ•ã‚¡ã‚¤ãƒ«ãŒè¦‹ã¤ã‹ã‚Šã¾ã›ã‚“
 
 ** file not found.
-ƒtƒ@ƒCƒ‹‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ
+ãƒ•ã‚¡ã‚¤ãƒ«ãŒè¦‹ã¤ã‹ã‚Šã¾ã›ã‚“
 
 ** File unlocked.
-ƒtƒ@ƒCƒ‹‚ÌƒƒbƒN‚ª‰ğœ‚³‚ê‚Ü‚µ‚½
+ãƒ•ã‚¡ã‚¤ãƒ«ã®ãƒ­ãƒƒã‚¯ãŒè§£é™¤ã•ã‚Œã¾ã—ãŸ
 
 ** file was uploaded partially.
-ƒtƒ@ƒCƒ‹‚ª•”•ª“I‚ÉƒAƒbƒvƒ[ƒh‚³‚ê‚Ü‚µ‚½B
+ãƒ•ã‚¡ã‚¤ãƒ«ãŒéƒ¨åˆ†çš„ã«ã‚¢ãƒƒãƒ—ãƒ­ãƒ¼ãƒ‰ã•ã‚Œã¾ã—ãŸã€‚
 
 ** Filename must have the right extension. Valid extensions are %s
-ƒtƒ@ƒCƒ‹–¼‚É‚Í³‚µ‚¢Šg’£q‚ª•K—v‚Å‚·B•K—v‚ÈŠg’£qF%sB
+ãƒ•ã‚¡ã‚¤ãƒ«åã«ã¯æ­£ã—ã„æ‹¡å¼µå­ãŒå¿…è¦ã§ã™ã€‚å¿…è¦ãªæ‹¡å¼µå­ï¼š%sã€‚
 
 ** Files
-ƒtƒ@ƒCƒ‹
+ãƒ•ã‚¡ã‚¤ãƒ«
 
 ** Filesystem
-ƒtƒ@ƒCƒ‹ƒVƒXƒeƒ€
+ãƒ•ã‚¡ã‚¤ãƒ«ã‚·ã‚¹ãƒ†ãƒ 
 
 ** Filter
-ƒtƒBƒ‹ƒ^[
+ãƒ•ã‚£ãƒ«ã‚¿ãƒ¼
 
 
 ** Find assets in multiple folders
-•¡”ƒtƒHƒ‹ƒ_‚©‚çŒŸõ‚·‚é
+è¤‡æ•°ãƒ•ã‚©ãƒ«ãƒ€ã‹ã‚‰æ¤œç´¢ã™ã‚‹
 
 ** Finish scheduled
-ƒXƒPƒWƒ…[ƒ‹Š®‹
+ã‚¹ã‚±ã‚¸ãƒ¥ãƒ¼ãƒ«å®Œé‚
 
 ** Finished
-Š®—¹
+å®Œäº†
 
 ** First in list
-ˆê—ñ–Ú
+ä¸€åˆ—ç›®
 
 ** first level support
 
 
 ** First name
-–¼
+å
 
 ** Fix paging bar to page bottom
 
 
 ** fixed
-ŒÅ’è
+å›ºå®š
 
 ** Flags
-ƒtƒ‰ƒO
+ãƒ•ãƒ©ã‚°
 
 ** Flash plugin not installed.
 
 
 ** Folder
-ƒtƒHƒ‹ƒ_[
+ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼
 
 ** Folder already exists.
-ƒtƒHƒ‹ƒ_[‚Í‚·‚Å‚É‘¶İ‚µ‚Ü‚·B
+ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼ã¯ã™ã§ã«å­˜åœ¨ã—ã¾ã™ã€‚
 
 ** Folder created.
-ƒtƒHƒ‹ƒ_[‚ğ¶¬‚µ‚Ü‚µ‚½B
+ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼ã‚’ç”Ÿæˆã—ã¾ã—ãŸã€‚
 
 ** Folder has changed.
-ƒtƒHƒ‹ƒ_[‚ğ•ÏX‚µ‚Ü‚µ‚½B
+ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼ã‚’å¤‰æ›´ã—ã¾ã—ãŸã€‚
 
 ** Folder icon
-ƒtƒHƒ‹ƒ_‚ÌƒAƒCƒRƒ“
+ãƒ•ã‚©ãƒ«ãƒ€ã®ã‚¢ã‚¤ã‚³ãƒ³
 
 ** Folder not found.
-ƒtƒHƒ‹ƒ_[‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñB
+ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼ãŒè¦‹ã¤ã‹ã‚Šã¾ã›ã‚“ã€‚
 
 ** Folder refresh period
-ƒtƒHƒ‹ƒ_[‚ÌXVŠúŒÀ
+ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼ã®æ›´æ–°æœŸé™
 
 ** Folder structure
-ƒtƒHƒ‹ƒ_[\‘¢
+ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼æ§‹é€ 
 
 ** Folder structure created.
-ƒtƒHƒ‹ƒ_[\‘¢‚ª¶¬‚³‚ê‚Ü‚µ‚½B
+ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼æ§‹é€ ãŒç”Ÿæˆã•ã‚Œã¾ã—ãŸã€‚
 
 ** Folder structure moved to trash.
-ƒtƒHƒ‹ƒ_\‘¢‚ªƒSƒ~” ‚ÉˆÚ“®‚³‚ê‚Ü‚µ‚½B
+ãƒ•ã‚©ãƒ«ãƒ€æ§‹é€ ãŒã‚´ãƒŸç®±ã«ç§»å‹•ã•ã‚Œã¾ã—ãŸã€‚
 
 ** Folder Type
-ƒtƒHƒ‹ƒ_[ƒ^ƒCƒv
+ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼ã‚¿ã‚¤ãƒ—
 
 ** Folder with ID %s
 
 
 ** Folders
-ƒtƒHƒ‹ƒ_
+ãƒ•ã‚©ãƒ«ãƒ€
 
 ** for a new paragraph, use a blank line
-V‚µ‚¢ƒpƒ‰ƒOƒ‰ƒt‚ğì‚é‚É‚Í‹ós‚ğ“ü‚ê‚Ä‰º‚³‚¢B
+æ–°ã—ã„ãƒ‘ãƒ©ã‚°ãƒ©ãƒ•ã‚’ä½œã‚‹ã«ã¯ç©ºè¡Œã‚’å…¥ã‚Œã¦ä¸‹ã•ã„ã€‚
 
 ** Force SSL
-‹­§‚ÅSSL‚ğg—p‚·‚é
+å¼·åˆ¶ã§SSLã‚’ä½¿ç”¨ã™ã‚‹
 
 ** Form
-ƒtƒH[ƒ€
+ãƒ•ã‚©ãƒ¼ãƒ 
 
 ** Forum
-ƒtƒH[ƒ‰ƒ€
+ãƒ•ã‚©ãƒ¼ãƒ©ãƒ 
 
 ** Forward
-‘O•û
+å‰æ–¹
 
 ** Fr
-‹à
+é‡‘
 
 ** Free/busy
-‹ó/ƒrƒW[
+ç©º/ãƒ“ã‚¸ãƒ¼
 
 ** Freelance
-©—R‹Æ
+è‡ªç”±æ¥­
 
 ** Fri
-‹à
+é‡‘
 
 ** Friday
-‹à—j“ú
+é‡‘æ›œæ—¥
 
 ** From
 
 
 ** Full screen
-‘S‰æ–Ê
+å…¨ç”»é¢
 
 ** Full texts
-‘S•¶
+å…¨æ–‡
 
 ** Full time
-ƒtƒ‹ƒ^ƒCƒ€
+ãƒ•ãƒ«ã‚¿ã‚¤ãƒ 
 
 ** Full width
 
 ** Fulltext index
 
 ** Funambol only works with MySQL and PostgreSQL.
-Funambol‚ÍMySQL‚©PostgreSQL‚Å‚µ‚©g‚¦‚Ü‚¹‚ñB
+Funambolã¯MySQLã‹PostgreSQLã§ã—ã‹ä½¿ãˆã¾ã›ã‚“ã€‚
 
 ** Function does not exist: %s
-%sƒtƒ@ƒ“ƒNƒVƒ‡ƒ“‚ª‚ ‚è‚Ü‚¹‚ñ
+%sãƒ•ã‚¡ãƒ³ã‚¯ã‚·ãƒ§ãƒ³ãŒã‚ã‚Šã¾ã›ã‚“
 
 ** g:i a
 g:i a
 
 ** Gender
-«•Ê
+æ€§åˆ¥
 
 ** General
-ˆê”Ê
+ä¸€èˆ¬
 
 ** Generate
-¶¬
+ç”Ÿæˆ
 
 ** Gifts
-ƒMƒtƒg
+ã‚®ãƒ•ãƒˆ
 
 ** Give Feedback
-ƒtƒB[ƒhƒoƒbƒN‚ğ‘—‚é
+ãƒ•ã‚£ãƒ¼ãƒ‰ãƒãƒƒã‚¯ã‚’é€ã‚‹
 
 ** GNU GPL Frequently Asked Questions
-GNU GPL‚Ì‚æ‚­‚ ‚é¿–â
+GNU GPLã®ã‚ˆãã‚ã‚‹è³ªå•
 
 ** greater than
-‚æ‚è‘å‚«‚¢
+ã‚ˆã‚Šå¤§ãã„
 
 ** green
-—Î
+ç·‘
 
 ** Group
-Œ ŒÀƒOƒ‹[ƒv
+æ¨©é™ã‚°ãƒ«ãƒ¼ãƒ—
 
 ** Group created.
-Œ ŒÀƒOƒ‹[ƒv‚ğì¬‚µ‚Ü‚µ‚½
+æ¨©é™ã‚°ãƒ«ãƒ¼ãƒ—ã‚’ä½œæˆã—ã¾ã—ãŸ
 
 ** Group deactivated.
-Œ ŒÀƒOƒ‹[ƒv‚ğ–³Œø‚É‚µ‚Ü‚µ‚½
+æ¨©é™ã‚°ãƒ«ãƒ¼ãƒ—ã‚’ç„¡åŠ¹ã«ã—ã¾ã—ãŸ
 
 ** Groupname
-Œ ŒÀƒOƒ‹[ƒv–¼
+æ¨©é™ã‚°ãƒ«ãƒ¼ãƒ—å
 
 ** Groups
-Œ ŒÀƒOƒ‹[ƒvˆê——
+æ¨©é™ã‚°ãƒ«ãƒ¼ãƒ—ä¸€è¦§
 
 ** hanging text
-ƒnƒ“ƒMƒ“ƒO•¶š
+ãƒãƒ³ã‚®ãƒ³ã‚°æ–‡å­—
 
 ** Hardware
-ƒn[ƒhƒEƒFƒA
+ãƒãƒ¼ãƒ‰ã‚¦ã‚§ã‚¢
 
 ** Headers
-ƒwƒbƒ_ˆê——
+ãƒ˜ãƒƒãƒ€ä¸€è¦§
 
 ** heading
-Œ©o‚µ
+è¦‹å‡ºã—
 
 ** headings
-Œ©o‚µ
+è¦‹å‡ºã—
 
 ** Height
-‚‚³
+é«˜ã•
 
 ** Help
-ƒwƒ‹ƒv
+ãƒ˜ãƒ«ãƒ—
 
 ** Helpdesk
-ƒwƒ‹ƒvƒfƒXƒN
+ãƒ˜ãƒ«ãƒ—ãƒ‡ã‚¹ã‚¯
 
 ** Hidden in
 
@@ -1338,34 +1341,34 @@ GNU GPL‚Ì‚æ‚­‚ ‚é¿–â
 
 
 ** Holiday
-‹x“ú
+ä¼‘æ—¥
 
 ** Home
-ƒz[ƒ€
+ãƒ›ãƒ¼ãƒ 
 
 ** Home folder id
-ƒtƒH[ƒ€ƒtƒHƒ‹ƒ_ID
+ãƒ•ã‚©ãƒ¼ãƒ ãƒ•ã‚©ãƒ«ãƒ€ID
 
 ** Home page in the CMS
-CMS“à•”‚Å‚Ìƒz[ƒ€ƒy[ƒW
+CMSå†…éƒ¨ã§ã®ãƒ›ãƒ¼ãƒ ãƒšãƒ¼ã‚¸
 
 ** Homepage
-ƒz[ƒ€ƒy[ƒW
+ãƒ›ãƒ¼ãƒ ãƒšãƒ¼ã‚¸
 
 ** horizontal line
-…•½ü
+æ°´å¹³ç·š
 
 ** Host
-ƒzƒXƒg
+ãƒ›ã‚¹ãƒˆ
 
 ** Hosts
-ƒzƒXƒgˆê——
+ãƒ›ã‚¹ãƒˆä¸€è¦§
 
 ** Hour
-
+æ™‚
 
 ** hours
-ŠÔ
+æ™‚é–“
 
 ** Hours per week
 
@@ -1374,7 +1377,7 @@ CMS“à•”‚Å‚Ìƒz[ƒ€ƒy[ƒW
 
 
 ** HTML documents
-HTMLƒhƒLƒ…ƒƒ“ƒgˆê——
+HTMLãƒ‰ã‚­ãƒ¥ãƒ¡ãƒ³ãƒˆä¸€è¦§
 
 ** http://www.pmwiki.org/PmWiki/
 http://www.pmwiki.org/PmWiki/
@@ -1383,28 +1386,28 @@ http://www.pmwiki.org/PmWiki/
 
 
 ** I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2
-GNU‚ÌGPLƒ‰ƒCƒZƒ“ƒX‘æ2”Å‚ğó‚¯“ü‚ê‚Ü‚·
+GNUã®GPLãƒ©ã‚¤ã‚»ãƒ³ã‚¹ç¬¬2ç‰ˆã‚’å—ã‘å…¥ã‚Œã¾ã™
 
 ** I m p o r t
-ƒCƒ“ƒ|[ƒg
+ã‚¤ãƒ³ãƒãƒ¼ãƒˆ
 
 ** I n s t a l l
-ƒCƒ“ƒXƒg[ƒ‹
+ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
 
 ** Icon
-ƒAƒCƒRƒ“
+ã‚¢ã‚¤ã‚³ãƒ³
 
 ** Id
 ID
 
 ** Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
-ID‚Ìnull‚Í”F‚ß‚ç‚ê‚Ü‚¹‚ñB¬•¶š‚Ì‚İ3•¶š‚æ‚è128š‚Ü‚Åw’èo—ˆ‚Ü‚·B[a-z0-9_-@.]
+IDã®nullã¯èªã‚ã‚‰ã‚Œã¾ã›ã‚“ã€‚å°æ–‡å­—ã®ã¿3æ–‡å­—ã‚ˆã‚Š128å­—ã¾ã§æŒ‡å®šå‡ºæ¥ã¾ã™ã€‚[a-z0-9_-@.]
 
 ** Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].
-ID‚Ìnull‚Í”F‚ß‚ç‚ê‚Ü‚¹‚ñB[a-z0-9_-@.i]128š‚Ü‚Åw’è‚Å‚«‚Ü‚·B
+IDã®nullã¯èªã‚ã‚‰ã‚Œã¾ã›ã‚“ã€‚[a-z0-9_-@.i]128å­—ã¾ã§æŒ‡å®šã§ãã¾ã™ã€‚
 
 ** Ideas
-ƒAƒCƒfƒAˆê——
+ã‚¢ã‚¤ãƒ‡ã‚¢ä¸€è¦§
 
 ** If empty, the SMTP connection from the module users will be used.
 If empty, the SMTP connection from the module users will be used.
@@ -1416,220 +1419,220 @@ If empty, the SMTP connection from the module users will be used.
 if not autodetected with namingContexts
 
 ** If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.
-ƒ†[ƒU[–¼‚Ü‚½‚ÍƒpƒXƒ[ƒh‚ÉƒNƒH[ƒg‹L†f‚ª“ü‚Á‚Ä‚¢‚éê‡‚Í &quot;%%&quot;‚É’uŠ·‚µ‚Ä‚­‚¾‚³‚¢B
+ãƒ¦ãƒ¼ã‚¶ãƒ¼åã¾ãŸã¯ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã«ã‚¯ã‚©ãƒ¼ãƒˆè¨˜å·â€™ãŒå…¥ã£ã¦ã„ã‚‹å ´åˆã¯ &quot;%%&quot;ã«ç½®æ›ã—ã¦ãã ã•ã„ã€‚
 
 ** If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.
-ƒ†[ƒU[–¼‚Ü‚½‚ÍƒpƒXƒ[ƒh‚É'—'‚ª“ü‚Á‚Ä‚¢‚éê‡‚Í %% ‚É’uŠ·‚µ‚Ä‚­‚¾‚³‚¢B
+ãƒ¦ãƒ¼ã‚¶ãƒ¼åã¾ãŸã¯ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã«'ï¼ 'ãŒå…¥ã£ã¦ã„ã‚‹å ´åˆã¯ %% ã«ç½®æ›ã—ã¦ãã ã•ã„ã€‚
 
 ** Illness
 
 
 ** Im-/Export
-ƒCƒ“ƒ|[ƒg/ƒGƒNƒXƒ|[ƒg
+ã‚¤ãƒ³ãƒãƒ¼ãƒˆ/ã‚¨ã‚¯ã‚¹ãƒãƒ¼ãƒˆ
 
 ** Image
-‰æ‘œ
+ç”»åƒ
 
 ** Images
-‰æ‘œˆê——
+ç”»åƒä¸€è¦§
 
 ** Imap-error: %s
-ImapƒGƒ‰[F%s
+Imapã‚¨ãƒ©ãƒ¼ï¼š%s
 
 ** immediate
-‘¦
+å³æ™‚
 
 ** Import
-ƒCƒ“ƒ|[ƒg
+ã‚¤ãƒ³ãƒãƒ¼ãƒˆ
 
 ** In progress
-is’†
+é€²è¡Œä¸­
 
 ** in repair
-C•œ’†
+ä¿®å¾©ä¸­
 
 ** in stock
-İŒÉ‚ ‚è
+åœ¨åº«ã‚ã‚Š
 
 ** Inactive
-‹x~
+ä¼‘æ­¢
 
 ** Include in RSS feed
-RSS‚ÉŠÜ‚ß‚é
+RSSã«å«ã‚ã‚‹
 
 ** Include page
-ƒy[ƒW‚ğŠÜ‚ß‚é
+ãƒšãƒ¼ã‚¸ã‚’å«ã‚ã‚‹
 
 ** indent text
-•¶š‚ğƒCƒ“ƒfƒ“ƒg‚·‚é
+æ–‡å­—ã‚’ã‚¤ãƒ³ãƒ‡ãƒ³ãƒˆã™ã‚‹
 
 ** Index
-ƒCƒ“ƒfƒbƒNƒX
+ã‚¤ãƒ³ãƒ‡ãƒƒã‚¯ã‚¹
 
 ** Index length
-ƒCƒ“ƒfƒbƒNƒX’·
+ã‚¤ãƒ³ãƒ‡ãƒƒã‚¯ã‚¹é•·
 
 ** Index type
-ƒCƒ“ƒfƒbƒNƒXŒ^
+ã‚¤ãƒ³ãƒ‡ãƒƒã‚¯ã‚¹å‹
 
 ** Indexes
-ƒCƒ“ƒfƒbƒNƒXˆê——
+ã‚¤ãƒ³ãƒ‡ãƒƒã‚¯ã‚¹ä¸€è¦§
 
 ** Industry
-Hê
+å·¥å ´
 
 ** Info
-î•ñ
+æƒ…å ±
 
 ** inheritance to subfolders without default values
 
 
 ** Input field
-“ü—ÍƒtƒB[ƒ‹ƒh
+å…¥åŠ›ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰
 
 ** Input field height
-“ü—ÍƒtƒB[ƒ‹ƒh‚‚³
+å…¥åŠ›ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰é«˜ã•
 
 ** Insert
-‘}“ü
+æŒ¿å…¥
 
 ** inserted
-‘}“üÏ‚İ
+æŒ¿å…¥æ¸ˆã¿
 
 ** Install default folder structure
-ƒCƒ“ƒXƒg[ƒ‹‚ğ•W€ƒtƒHƒ‹ƒ_\¬‚Ås‚¤
+ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã‚’æ¨™æº–ãƒ•ã‚©ãƒ«ãƒ€æ§‹æˆã§è¡Œã†
 
 ** Install demo folders
-ƒCƒ“ƒXƒg[ƒ‹‚Éƒfƒ‚ƒtƒHƒ‹ƒ_‚ğŠÜ‚ß‚é
+ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã«ãƒ‡ãƒ¢ãƒ•ã‚©ãƒ«ãƒ€ã‚’å«ã‚ã‚‹
 
 ** Install minimal folder structure
-ƒCƒ“ƒXƒg[ƒ‹‚ğÅ¬ƒtƒHƒ‹ƒ_\¬‚Ås‚¤
+ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã‚’æœ€å°ãƒ•ã‚©ãƒ«ãƒ€æ§‹æˆã§è¡Œã†
 
 ** installed
-ƒCƒ“ƒXƒg[ƒ‹Ï‚İ
+ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«æ¸ˆã¿
 
 ** insufficient folder rights
-ƒtƒHƒ‹ƒ_Œ ŒÀ‚ª•s‘«‚µ‚Ä‚¢‚Ü‚·
+ãƒ•ã‚©ãƒ«ãƒ€æ¨©é™ãŒä¸è¶³ã—ã¦ã„ã¾ã™
 
 ** Internal recommendation
-“à•”‚Ì‚¨‚·‚·‚ß
+å†…éƒ¨ã®ãŠã™ã™ã‚
 
 ** Intranet
-ƒCƒ“ƒgƒ‰ƒlƒbƒg
+ã‚¤ãƒ³ãƒˆãƒ©ãƒãƒƒãƒˆ
 
 ** Intro
-Ğ‰î
+ç´¹ä»‹
 
 ** invalid
-–³Œø
+ç„¡åŠ¹
 
 ** Invalid file extensions
-Šg’£q‚ª³‚µ‚­‚ ‚è‚Ü‚¹‚ñ
+æ‹¡å¼µå­ãŒæ­£ã—ãã‚ã‚Šã¾ã›ã‚“
 
 ** Invalid schema mode '%s'
-ƒXƒL[ƒ}‚Ìƒ‚[ƒh'%s'‚Í³‚µ‚­‚ ‚è‚Ü‚¹‚ñ
+ã‚¹ã‚­ãƒ¼ãƒã®ãƒ¢ãƒ¼ãƒ‰'%s'ã¯æ­£ã—ãã‚ã‚Šã¾ã›ã‚“
 
 ** Invalid security token
-ƒZƒLƒ…ƒŠƒeƒB‚ÌŒ ŒÀƒg[ƒNƒ“‚ª‡‚¢‚Ü‚¹‚ñ
+ã‚»ã‚­ãƒ¥ãƒªãƒ†ã‚£ã®æ¨©é™ãƒˆãƒ¼ã‚¯ãƒ³ãŒåˆã„ã¾ã›ã‚“
 
 ** Inventory
-ƒCƒ“ƒxƒ“ƒgƒŠ
+ã‚¤ãƒ³ãƒ™ãƒ³ãƒˆãƒª
 
 ** Inventory number
-ƒfƒBƒŒƒNƒgƒŠ”
+ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªæ•°
 
 ** Investor
-“Š‘Ò
+æŠ•è³‡è€…
 
 ** Invoice
-¿‹‘
+è«‹æ±‚æ›¸
 
 ** italic
-Î‘Ì
+æ–œä½“
 
 ** Item created by %s at %s
-€–Ú‚ª%s‚É‚æ‚è%s‚Éì¬‚³‚ê‚Ü‚µ‚½
+é …ç›®ãŒ%sã«ã‚ˆã‚Š%sã«ä½œæˆã•ã‚Œã¾ã—ãŸ
 
 ** Item deleted by %s at %s
-€–Ú‚ª%s‚É‚æ‚è%s‚Éíœ‚³‚ê‚Ü‚µ‚½
+é …ç›®ãŒ%sã«ã‚ˆã‚Š%sã«å‰Šé™¤ã•ã‚Œã¾ã—ãŸ
 
 ** Item edited (%s) by %s at %s
 
 
 ** Item not found.
-€–Ú‚ÍŒ©‚Â‚©‚è‚Ü‚¹‚ñ‚Å‚µ‚½B
+é …ç›®ã¯è¦‹ã¤ã‹ã‚Šã¾ã›ã‚“ã§ã—ãŸã€‚
 
 ** Item successfully created.
-€–Ú‚ª³í‚É¶¬‚³‚ê‚Ü‚µ‚½B
+é …ç›®ãŒæ­£å¸¸ã«ç”Ÿæˆã•ã‚Œã¾ã—ãŸã€‚
 
 ** Item successfully updated.
-€–Ú‚ª³í‚ÉXV‚³‚ê‚Ü‚µ‚½B
+é …ç›®ãŒæ­£å¸¸ã«æ›´æ–°ã•ã‚Œã¾ã—ãŸã€‚
 
 ** Item(s) not found or access denied.
-€–Ú‚ÍŒ©‚Â‚©‚ç‚È‚©‚Á‚½‚©ƒAƒNƒZƒX‚ª‹‘”Û‚³‚ê‚Ü‚µ‚½
+é …ç›®ã¯è¦‹ã¤ã‹ã‚‰ãªã‹ã£ãŸã‹ã‚¢ã‚¯ã‚»ã‚¹ãŒæ‹’å¦ã•ã‚Œã¾ã—ãŸ
 
 ** Jan
 
 
 ** January
-1Œ
+1æœˆ
 
 ** Job description
-ƒWƒ‡ƒu“à—e
+ã‚¸ãƒ§ãƒ–å†…å®¹
 
 ** Join lines
-s‚ÌŒ‹‡
+è¡Œã®çµåˆ
 
 ** Jul
 
 
 ** July
-7Œ
+7æœˆ
 
 ** Jun
 
 
 ** June
-6Œ
+6æœˆ
 
 ** Key
-ƒL[
+ã‚­ãƒ¼
 
 ** Key customer
-å—v‹qƒL[
+ä¸»è¦å®¢ã‚­ãƒ¼
 
 ** Key name
-ƒL[–¼Ì
+ã‚­ãƒ¼åç§°
 
 ** Keywords
-ƒL[ƒ[ƒh
+ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰
 
 ** Knowledge base
-ƒiƒŒƒbƒWƒx[ƒX
+ãƒŠãƒ¬ãƒƒã‚¸ãƒ™ãƒ¼ã‚¹
 
 ** L o g i n
-ƒƒOƒCƒ“
+ãƒ­ã‚°ã‚¤ãƒ³
 
 ** l, F j, Y
 l, F j, Y
 
 ** Last access
-ÅIƒAƒNƒZƒX
+æœ€çµ‚ã‚¢ã‚¯ã‚»ã‚¹æ™‚
 
 ** Last name
-©
+å§“
 
 ** LDAP anonymous connection failed.
-LDAP‚É‚æ‚é“½–¼Ú‘±‚Í¸”s‚µ‚Ü‚µ‚½B
+LDAPã«ã‚ˆã‚‹åŒ¿åæ¥ç¶šã¯å¤±æ•—ã—ã¾ã—ãŸã€‚
 
 ** LDAP attribute for group memberships
-ƒOƒ‹[ƒv‚ÌLDAP‘®«
+ã‚°ãƒ«ãƒ¼ãƒ—ã®LDAPå±æ€§
 
 ** LDAP attribute for rooms
-ƒ‹[ƒ€‚ÌLDAP‘®«
+ãƒ«ãƒ¼ãƒ ã®LDAPå±æ€§
 
 ** LDAP attribute for usernames
-ƒ†[ƒU[–¼‚ÌLDAP‘®«
+ãƒ¦ãƒ¼ã‚¶ãƒ¼åã®LDAPå±æ€§
 
 ** LDAP connection to host %s failed.
 LDAP connection to host %s failed.
@@ -1647,91 +1650,91 @@ LDAP: no base DN given
 
 
 ** less promising
-‰Âs«
+å¯è¡Œæ€§
 
 ** lesser than
-ˆÈ‰º
+ä»¥ä¸‹
 
 ** Letter
-•¶š
+æ–‡å­—
 
 ** Level
-ƒŒƒxƒ‹
+ãƒ¬ãƒ™ãƒ«
 
 ** License
-ƒ‰ƒCƒZƒ“ƒX
+ãƒ©ã‚¤ã‚»ãƒ³ã‚¹
 
 ** line
 
 
 ** Line break
-‰üs
+æ”¹è¡Œ
 
 ** Link
-ƒŠƒ“ƒN
+ãƒªãƒ³ã‚¯
 
 ** Link restricted
-ƒŠƒ“ƒN§ŒÀ
+ãƒªãƒ³ã‚¯åˆ¶é™
 
 ** link text
-ƒŠƒ“ƒN•¶š
+ãƒªãƒ³ã‚¯æ–‡å­—
 
 ** link to external page
-ŠO•”ƒy[ƒW‚Ö‚ÌƒŠƒ“ƒN
+å¤–éƒ¨ãƒšãƒ¼ã‚¸ã¸ã®ãƒªãƒ³ã‚¯
 
 ** link to internal page
-“à•”ƒy[ƒW‚Ö‚ÌƒŠƒ“ƒN
+å†…éƒ¨ãƒšãƒ¼ã‚¸ã¸ã®ãƒªãƒ³ã‚¯
 
 ** Links
-ƒŠƒ“ƒN
+ãƒªãƒ³ã‚¯
 
 ** Lists
-—ñˆê——
+åˆ—ä¸€è¦§
 
 ** Load external images
-ŠO•”ƒCƒ[ƒW‚Ì•\¦
+å¤–éƒ¨ã‚¤ãƒ¡ãƒ¼ã‚¸ã®è¡¨ç¤º
 
 ** Location
-êŠ
+å ´æ‰€
 
 ** Locations
-êŠˆê——
+å ´æ‰€ä¸€è¦§
 
 ** Lock
-ƒƒbƒN
+ãƒ­ãƒƒã‚¯
 
 ** Locked by
-ƒƒbƒN‚µ‚Ä‚¢‚é
+ãƒ­ãƒƒã‚¯ã—ã¦ã„ã‚‹
 
 ** Locking
-ƒƒbƒN’†
+ãƒ­ãƒƒã‚¯ä¸­
 
 ** login %s from %s with %s
-%s‚ª%s‚æ‚è%s‚ÅƒƒOƒCƒ“
+%sãŒ%sã‚ˆã‚Š%sã§ãƒ­ã‚°ã‚¤ãƒ³
 
 ** Login failed from %s.
-%s‚©‚ç‚ÌƒƒOƒCƒ“‚ª¸”sB
+%sã‹ã‚‰ã®ãƒ­ã‚°ã‚¤ãƒ³ãŒå¤±æ•—ã€‚
 
 ** Login/-out
-ƒƒOƒCƒ“/ƒƒOƒAƒEƒg
+ãƒ­ã‚°ã‚¤ãƒ³/ãƒ­ã‚°ã‚¢ã‚¦ãƒˆ
 
 ** Logins
-ƒƒOƒCƒ“
+ãƒ­ã‚°ã‚¤ãƒ³
 
 ** Logout
 
 
 ** logout %s
-ƒƒOƒAƒEƒg:%s
+ãƒ­ã‚°ã‚¢ã‚¦ãƒˆ:%s
 
 ** Lookup
-ŒŸõ
+æ¤œç´¢
 
 ** low
-’á
+ä½
 
 ** lowest
-Å’á
+æœ€ä½
 
 ** M j
 }M j
@@ -1752,59 +1755,59 @@ m/d/Y g:i a
 m/d/y g:i:s a
 
 ** magenta
-ƒ}ƒ[ƒ“ƒ^
+ãƒã‚¼ãƒ³ã‚¿
 
 ** mail footer
-ƒ[ƒ‹ƒtƒbƒ^[“à—e“à—e
+ãƒ¡ãƒ¼ãƒ«ãƒ•ãƒƒã‚¿ãƒ¼å†…å®¹å†…å®¹
 
 ** Mail identities
-ƒ[ƒ‹˜A—æˆê——
+ãƒ¡ãƒ¼ãƒ«é€£çµ¡å…ˆä¸€è¦§
 
 
 ** mail notification
-ƒ[ƒ‹’Ê’m
+ãƒ¡ãƒ¼ãƒ«é€šçŸ¥
 
 ** mail reminder
-ƒ[ƒ‹ƒŠƒ}ƒCƒ“ƒ_[
+ãƒ¡ãƒ¼ãƒ«ãƒªãƒã‚¤ãƒ³ãƒ€ãƒ¼
 
 ** Main menu
-ƒƒCƒ“ƒƒjƒ…[
+ãƒ¡ã‚¤ãƒ³ãƒ¡ãƒ‹ãƒ¥ãƒ¼
 
 ** Main page
 
 
 ** Maintenance mode
-ƒƒ“ƒeƒiƒ“ƒXƒ‚[ƒh
+ãƒ¡ãƒ³ãƒ†ãƒŠãƒ³ã‚¹ãƒ¢ãƒ¼ãƒ‰
 
 ** male
-’j
+ç”·
 
 ** Man-days
-l“ú
+äººæ—¥
 
 ** Man-days planned
-—\’èì‹Æl“ú
+äºˆå®šä½œæ¥­äººæ—¥
 
 ** Manager
-ŠÇ—Ò
+ç®¡ç†è€…
 
 ** Manufacturer
-»‘¢Ò
+è£½é€ è€…
 
 ** Mar
 
 
 ** March
-3Œ
+3æœˆ
 
 ** Marketing event
-ƒ}[ƒPƒeƒBƒ“ƒO‚ÌƒCƒxƒ“ƒg
+ãƒãƒ¼ã‚±ãƒ†ã‚£ãƒ³ã‚°ã®ã‚¤ãƒ™ãƒ³ãƒˆ
 
 ** married
-Šù¥
+æ—¢å©š
 
 ** Maximize
-Å‘å‰»
+æœ€å¤§åŒ–
 
 ** Maximum file size
 
@@ -1813,172 +1816,172 @@ m/d/y g:i:s a
 
 
 ** maximum number of files exceeded.
-ƒtƒ@ƒCƒ‹Å‘å”—Ê‚ğ’´‰ß‚µ‚Ä‚¢‚Ü‚·
+ãƒ•ã‚¡ã‚¤ãƒ«æœ€å¤§æ•°é‡ã‚’è¶…éã—ã¦ã„ã¾ã™
 
 ** May
-5Œ
+5æœˆ
 
 ** Media
-”}‘Ì
+åª’ä½“
 
 ** Meeting
-‰ï‡
+ä¼šåˆ
 
 ** Members
-ƒƒ“ƒo[
+ãƒ¡ãƒ³ãƒãƒ¼
 
 ** Memory limit
 
 
 ** Merge folders permanently
-ƒtƒHƒ‹ƒ_[‚ğ‰i‹v“I‚ÉŒ‹‡‚·‚é
+ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼ã‚’æ°¸ä¹…çš„ã«çµåˆã™ã‚‹
 
 ** Merged folders
-Œ‹‡‚³‚ê‚½ƒtƒHƒ‹ƒ_
+çµåˆã•ã‚ŒãŸãƒ•ã‚©ãƒ«ãƒ€
 
 ** Message
-ƒƒbƒZ[ƒW
+ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸
 
 ** Messages
-ƒƒbƒZ[ƒWˆê——
+ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ä¸€è¦§
 
 ** Milestone
-ƒ}ƒCƒ‹ƒXƒg[ƒ“
+ãƒã‚¤ãƒ«ã‚¹ãƒˆãƒ¼ãƒ³
 
 ** min
-Å¬
+æœ€å°
 
 ** Minimize
-Å¬‰»
+æœ€å°åŒ–
 
 ** minimum = 15 secs, 0 = disabled
-minimum = 15•b, 0 = ‹Ö~
+minimum = 15ç§’, 0 = ç¦æ­¢
 
 ** Miscellaneous
-‚»‚Ì‘¼
+ãã®ä»–
 
 ** missing a temporary folder.
-ƒeƒ“ƒ|ƒ‰ƒŠƒtƒHƒ‹ƒ_‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ
+ãƒ†ãƒ³ãƒãƒ©ãƒªãƒ•ã‚©ãƒ«ãƒ€ãŒè¦‹ã¤ã‹ã‚Šã¾ã›ã‚“
 
 ** missing field
-•s‘«‚µ‚Ä‚¢‚éƒtƒB[ƒ‹ƒh
+ä¸è¶³ã—ã¦ã„ã‚‹ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰
 
 ** missing right: %s
-Œ ŒÀ‚ª•s‘«‚µ‚Ä‚¢‚Ü‚·F%s
+æ¨©é™ãŒä¸è¶³ã—ã¦ã„ã¾ã™ï¼š%s
 
 ** Mo
-Œ
+æœˆ
 
 ** Mobile
-Œg‘Ñ
+æºå¸¯
 
 ** Model
-ƒ‚ƒfƒ‹
+ãƒ¢ãƒ‡ãƒ«
 
 ** Modified
-‰ü’ù
+æ”¹è¨‚
 
 ** Modified by
-‰ü’ùÒ
+æ”¹è¨‚è€…
 
 ** Modifying database failed.
-ƒf[ƒ^ƒx[ƒX‚Ì•ÏX‚É¸”sB
+ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ã®å¤‰æ›´ã«å¤±æ•—ã€‚
 
 ** Module
-ƒ‚ƒWƒ…[ƒ‹
+ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«
 
 ** Module disabled.
-g—p‹x~ƒ‚ƒWƒ…[ƒ‹
+ä½¿ç”¨ä¼‘æ­¢ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«
 
 ** Modules
-ƒ‚ƒWƒ…[ƒ‹ˆê——
+ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ä¸€è¦§
 
 ** Mon
-Œ
+æœˆ
 
 ** Monday
-Œ—j“ú
+æœˆæ›œæ—¥
 
 ** monospace
-“™•š‘Ì
+ç­‰å¹…å­—ä½“
 
 ** Month
-Œ
+æœˆ
 
 ** monthly
-Œ’PˆÊ
+æœˆå˜ä½
 
 ** months
-Œ
+æœˆ
 
 ** More information about the GNU GPL
-GNU GPL‚É‚Â‚¢‚Ä‚Ì‚³‚ç‚È‚éî•ñ
+GNU GPLã«ã¤ã„ã¦ã®ã•ã‚‰ãªã‚‹æƒ…å ±
 
 ** Mountpoint
 Mountpoint
 
 ** Move
-ˆÚ“®
+ç§»å‹•
 
 ** Move to subfolder 'Archive'
-ƒTƒuƒtƒHƒ‹ƒ_‚ğ'ƒA[ƒJƒCƒu'‚ÉˆÚ“®‚·‚é
+ã‚µãƒ–ãƒ•ã‚©ãƒ«ãƒ€ã‚’'ã‚¢ãƒ¼ã‚«ã‚¤ãƒ–'ã«ç§»å‹•ã™ã‚‹
 
 ** Multiple
-•¡”
+è¤‡æ•°
 
 ** Multiple choice
-•¡”‘I‘ğ
+è¤‡æ•°é¸æŠ
 
 ** My appointments
-„‚Ì—\’è
+ç§ã®äºˆå®š
 
 ** My tasks
-„‚Ìƒ^ƒXƒN
+ç§ã®ã‚¿ã‚¹ã‚¯
 
 ** Name
 
 
 ** Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
-©–¼‚Í‹ó”’‚É‚Í‚Å‚«‚Ü‚¹‚ñB¬•¶š‚Å3•¶š-128šˆÈ“à‚É‚µ‚Ä‚­‚¾‚³‚¢B [a-z0-9_-@.]
+å§“åã¯ç©ºç™½ã«ã¯ã§ãã¾ã›ã‚“ã€‚å°æ–‡å­—ã§3æ–‡å­—-128å­—ä»¥å†…ã«ã—ã¦ãã ã•ã„ã€‚ [a-z0-9_-@.]
 
 ** Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].
-©–¼‚Í‹ó”’‚É‚Í‚Å‚«‚Ü‚¹‚ñB¬•¶š‚Å3•¶šˆÈãw’è‚µ‚Ä‚­‚¾‚³‚¢B [a-zA-Z0-9-_.]¬
+å§“åã¯ç©ºç™½ã«ã¯ã§ãã¾ã›ã‚“ã€‚å°æ–‡å­—ã§3æ–‡å­—ä»¥ä¸ŠæŒ‡å®šã—ã¦ãã ã•ã„ã€‚ [a-zA-Z0-9-_.]ï½¬
 
 ** need feedback
-ƒtƒB[ƒhƒoƒbƒN‚ª•K—v
+ãƒ•ã‚£ãƒ¼ãƒ‰ãƒãƒƒã‚¯ãŒå¿…è¦
 
 ** Network
-ƒlƒbƒgƒ[ƒN
+ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯
 
 ** Never expires
-–³ŠúŒÀ
+ç„¡æœŸé™
 
 ** New
-V‹K
+æ–°è¦
 
 ** New folder
-V‚µ‚¢ƒtƒHƒ‹ƒ_
+æ–°ã—ã„ãƒ•ã‚©ãƒ«ãƒ€
 
 ** News
-V’…î•ñ
+æ–°ç€æƒ…å ±
 
 ** Next recurrences
 
 
 ** Nickname
-ƒjƒbƒNƒl[ƒ€
+ãƒ‹ãƒƒã‚¯ãƒãƒ¼ãƒ 
 
 ** Nightwork
-–éŠÔì‹Æ
+å¤œé–“ä½œæ¥­
 
 ** no
-‚¢‚¢‚¦
+ã„ã„ãˆ
 
 ** No dataset selected.
-ƒf[ƒ^ƒZƒbƒg‚ª‘I‘ğ‚³‚ê‚Ä‚¢‚Ü‚¹‚ñ
+ãƒ‡ãƒ¼ã‚¿ã‚»ãƒƒãƒˆãŒé¸æŠã•ã‚Œã¦ã„ã¾ã›ã‚“
 
 ** No entries found.
-‹L–‚Í‚ ‚è‚Ü‚¹‚ñB
+è¨˜äº‹ã¯ã‚ã‚Šã¾ã›ã‚“ã€‚
 
 ** No file was uploaded
 
@@ -1987,37 +1990,37 @@ Mountpoint
 
 
 ** no result
-ŠY“–‚È‚µ
+è©²å½“ãªã—
 
 ** No search index
 
 
 ** No sender specified.
-‘—MÒ‚ª–¢w’è‚Å‚·
+é€ä¿¡è€…ãŒæœªæŒ‡å®šã§ã™
 
 ** no username submitted
-ƒ†[ƒU[–¼‚ª“ü—Í‚³‚ê‚Ä‚¢‚Ü‚¹‚ñ
+ãƒ¦ãƒ¼ã‚¶ãƒ¼åãŒå…¥åŠ›ã•ã‚Œã¦ã„ã¾ã›ã‚“
 
 ** No wrap
-‰üs‚È‚µ
+æ”¹è¡Œãªã—
 
 ** Non unique
-d•¡‰Â
+é‡è¤‡å¯
 
 ** none
-–³
+ç„¡
 
 ** normal
-³í
+æ­£å¸¸
 
 ** Not allowed. Please log in as super administrator.
-ƒƒOƒCƒ“‚Í”F‚ß‚ç‚ê‚Ä‚¢‚Ü‚¹‚ñBƒX[ƒp[ƒAƒhƒ~ƒjƒXƒgƒŒ[ƒ^Œ è°€ÅƒƒOƒCƒ“‚µ‚Ä‚­‚¾‚³‚¢B
+ãƒ­ã‚°ã‚¤ãƒ³ã¯èªã‚ã‚‰ã‚Œã¦ã„ã¾ã›ã‚“ã€‚ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¢ãƒ‰ãƒŸãƒ‹ã‚¹ãƒˆãƒ¬ãƒ¼ã‚¿æ¨©éš¹Â€ï¾…ãƒ­ã‚°ã‚¤ãƒ³ã—ã¦ãã ã•ã„ã€‚
 
 ** not contains
-ŠÜ‚Ü‚È‚¢
+å«ã¾ãªã„
 
 ** not equal
-•s“™
+ä¸ç­‰
 
 ** Not in
 
@@ -2026,50 +2029,50 @@ Mountpoint
 
 
 ** not installed
-–¢ƒCƒ“ƒXƒg[ƒ‹
+æœªã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
 
 ** Note
-ƒƒ‚
+ãƒ¡ãƒ¢
 
 ** Notebook
-ƒƒ‚’ 
+ãƒ¡ãƒ¢å¸³
 
 ** Notes
-ƒƒ‚ˆê——
+ãƒ¡ãƒ¢ä¸€è¦§
 
 ** Notificaiton sent to: %s
-’Ê’m‚ª‘—‚ç‚ê‚Ü‚µ‚½:%s
+é€šçŸ¥ãŒé€ã‚‰ã‚Œã¾ã—ãŸ:%s
 
 ** Notification
-’Ê’m
+é€šçŸ¥
 
 ** Notification summary
-‚¨’m‚ç‚¹“E—v
+ãŠçŸ¥ã‚‰ã›æ‘˜è¦
 
 ** Notifications
-’Ê’m
+é€šçŸ¥
 
 ** Nov
 
 
 ** November
-11Œ
+11æœˆ
 
 ** Null
 
 ** Number of employees
-ŒÙ—pl”
+é›‡ç”¨äººæ•°
 
 ** numbered
 
 ** Objectives
-–Ú•W
+ç›®æ¨™
 
 ** Oct
 
 
 ** October
-10Œ
+10æœˆ
 
 ** of {0}
 
@@ -2081,22 +2084,22 @@ Mountpoint
 
 
 ** Office
-ƒIƒtƒBƒX
+ã‚ªãƒ•ã‚£ã‚¹
 
 ** Office program
-ƒIƒtƒBƒXƒvƒƒOƒ‰ƒ€
+ã‚ªãƒ•ã‚£ã‚¹ãƒ—ãƒ­ã‚°ãƒ©ãƒ 
 
 ** Offices
-ƒIƒtƒBƒXˆê——
+ã‚ªãƒ•ã‚£ã‚¹ä¸€è¦§
 
 ** offline
-ƒIƒtƒ‰ƒCƒ“
+ã‚ªãƒ•ãƒ©ã‚¤ãƒ³
 
 ** Offline folders
-ƒIƒtƒ‰ƒCƒ“ƒtƒHƒ‹ƒ_
+ã‚ªãƒ•ãƒ©ã‚¤ãƒ³ãƒ•ã‚©ãƒ«ãƒ€
 
 ** Offline sync
-ƒIƒtƒ‰ƒCƒ““¯Šú
+ã‚ªãƒ•ãƒ©ã‚¤ãƒ³åŒæœŸ
 
 ** Ok
 
@@ -2105,7 +2108,7 @@ Mountpoint
 
 
 ** online
-ƒIƒ“ƒ‰ƒCƒ“
+ã‚ªãƒ³ãƒ©ã‚¤ãƒ³
 
 ** Only for this folder
 
@@ -2114,225 +2117,225 @@ Mountpoint
 
 
 ** open
-ŠJ‚­
+é–‹ã
 
 ** Open
-is’†
+é€²è¡Œä¸­
 
 ** Operating system
-ƒIƒyƒŒ[ƒeƒBƒ“ƒOƒVƒXƒeƒ€
+ã‚ªãƒšãƒ¬ãƒ¼ãƒ†ã‚£ãƒ³ã‚°ã‚·ã‚¹ãƒ†ãƒ 
 
 ** Operation not allowed. (Data loss protection)
-‘€ì‹Ö~Biƒf[ƒ^ƒƒX–hŒìj
+æ“ä½œç¦æ­¢ã€‚ï¼ˆãƒ‡ãƒ¼ã‚¿ãƒ­ã‚¹é˜²è­·ï¼‰
 
 ** Optimize Tables
-DB•\‚ÌÅ“K‰»
+DBè¡¨ã®æœ€é©åŒ–
 
 ** Options
-ƒIƒvƒVƒ‡ƒ“ˆê——
+ã‚ªãƒ—ã‚·ãƒ§ãƒ³ä¸€è¦§
 
 ** or
 
 
 ** or higher
-ˆÈã
+ä»¥ä¸Š
 
 ** orange
-ò
+æ©™
 
 ** Order size
 
 
 ** Organisation
-‘gD
+çµ„ç¹”
 
 ** Organizer
 
 ** Origin
-‹NŒ¹
+èµ·æº
 
 ** Original message
 
 
 ** Other
-‚»‚Ì‘¼
+ãã®ä»–
 
 ** out of office
-ŠOo’†
+å¤–å‡ºä¸­
 
 ** Outline image
-ƒAƒEƒgƒ‰ƒCƒ“‰æ‘œ
+ã‚¢ã‚¦ãƒˆãƒ©ã‚¤ãƒ³ç”»åƒ
 
 ** Output
-o—Í
+å‡ºåŠ›
 
 ** Output empty: %s
 
 
 ** overlap
-ƒI[ƒo[ƒ‰ƒbƒv
+ã‚ªãƒ¼ãƒãƒ¼ãƒ©ãƒƒãƒ—
 
 ** Overtime
-c‹Æ
+æ®‹æ¥­
 
 ** Overtime compensation per hour
-c‹Æè“–
+æ®‹æ¥­æ‰‹å½“
 
 ** Owner
-ƒI[ƒi[
+ã‚ªãƒ¼ãƒŠãƒ¼
 
 ** Owner since
-ƒI[ƒi[—ğ
+ã‚ªãƒ¼ãƒŠãƒ¼æ­´
 
 ** Package from local file system (.tar.gz)
-ƒ[ƒJƒ‹‚Ìˆ³kƒtƒ@ƒCƒ‹i.tar.gzj
+ãƒ­ãƒ¼ã‚«ãƒ«ã®åœ§ç¸®ãƒ•ã‚¡ã‚¤ãƒ«ï¼ˆ.tar.gzï¼‰
 
 ** Packed
-ˆ³k
+åœ§ç¸®
 
 ** Page
-ƒy[ƒW
+ãƒšãƒ¼ã‚¸
 
 ** Page last modified on
-ÅIXV“ú
+æœ€çµ‚æ›´æ–°æ—¥æ™‚
 
 ** Page name (URL)
-ƒy[ƒW–¼iURLj
+ãƒšãƒ¼ã‚¸åï¼ˆURLï¼‰
 
 ** Page not found
-ƒy[ƒW‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ‚Å‚µ‚½
+ãƒšãƒ¼ã‚¸ãŒè¦‹ã¤ã‹ã‚Šã¾ã›ã‚“ã§ã—ãŸ
 
 ** Page title
-ƒy[ƒWƒ^ƒCƒgƒ‹
+ãƒšãƒ¼ã‚¸ã‚¿ã‚¤ãƒˆãƒ«
 
 ** Pager
-ƒ|ƒPƒxƒ‹
+ãƒã‚±ãƒ™ãƒ«
 
 ** Paid
-x•¥‚¢Ï‚İ
+æ”¯æ‰•ã„æ¸ˆã¿
 
 ** Paid holidays
-—L‹‹‹x‰É
+æœ‰çµ¦ä¼‘æš‡
 
 ** Paragraphs
-’i—
+æ®µè½
 
 ** parameters
-ƒpƒ‰ƒ[ƒ^
+ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿
 
 ** Parameters
-ƒpƒ‰ƒ[ƒ^ˆê——
+ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ä¸€è¦§
 
 ** Parent folder
-eƒtƒHƒ‹ƒ_
+è¦ªãƒ•ã‚©ãƒ«ãƒ€
 
 ** Parsing
-‰ğÍ
+è§£æ
 
 ** Part time
-ƒp[ƒg‹Î–±
+ãƒ‘ãƒ¼ãƒˆå‹¤å‹™
 
 ** Participants
-Q‰ÁÒ
+å‚åŠ è€…
 
 ** Participants (external)
-Q‰ÁÒiŠO•”j
+å‚åŠ è€…ï¼ˆå¤–éƒ¨ï¼‰
 
 ** Participants (internal)
-Q‰ÁÒi“à•”j
+å‚åŠ è€…ï¼ˆå†…éƒ¨ï¼‰
 
 ** Password
-ƒpƒXƒ[ƒh
+ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰
 
 ** Password expired. (password of %s has expired)
-ƒpƒXƒ[ƒh‚ªŠúŒÀØ‚ê‚Å‚·i%s‚ÌƒpƒXƒ[ƒh‚ªŠúŒÀØ‚êj
+ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ãŒæœŸé™åˆ‡ã‚Œã§ã™ï¼ˆ%sã®ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ãŒæœŸé™åˆ‡ã‚Œï¼‰
 
 ** Password expires
-ƒpƒXƒ[ƒh‚ªŠúŒÀ
+ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ãŒæœŸé™
 
 ** Password must be not null, min 5 characters.
-ƒpƒXƒ[ƒh‚Í‹ó”’‚Éo—ˆ‚Ü‚¹‚ñCÅ­5•¶šˆÈãg—p‚µ‚Ä‚­‚¾‚³‚¢B
+ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã¯ç©ºç™½ã«å‡ºæ¥ã¾ã›ã‚“ï¼Œæœ€å°‘5æ–‡å­—ä»¥ä¸Šä½¿ç”¨ã—ã¦ãã ã•ã„ã€‚
 
 ** password not confirmed.
-ƒpƒXƒ[ƒh‚ªˆê’v‚µ‚Ü‚¹‚ñ‚Å‚µ‚½
+ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ãŒä¸€è‡´ã—ã¾ã›ã‚“ã§ã—ãŸ
 
 ** Passwords
-ƒpƒXƒ[ƒh
+ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰
 
 ** Paste
-“\‚è•t‚¯
+è²¼ã‚Šä»˜ã‘
 
 ** Path
-ƒpƒX
+ãƒ‘ã‚¹
 
 ** Pause
-ˆê’â~
+ä¸€æ™‚åœæ­¢
 
 ** Payroll
 
 
 ** Permissions
-Œ ŒÀ
+æ¨©é™
 
 ** Permissions added for: %s
-%s‚ÉŒ ŒÀ‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½
+%sã«æ¨©é™ãŒä¸ãˆã‚‰ã‚Œã¾ã—ãŸ
 
 ** Personal
-ŒÂlİ’è
+å€‹äººè¨­å®š
 
 ** Personal department
-ƒ†[ƒU[ŠÇ—•”
+ãƒ¦ãƒ¼ã‚¶ãƒ¼ç®¡ç†éƒ¨
 
 ** Personal folders
-ŒÂlƒtƒHƒ‹ƒ_
+å€‹äººãƒ•ã‚©ãƒ«ãƒ€
 
 ** Personal projects
-ŒÂlƒvƒƒWƒFƒNƒg
+å€‹äººãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆ
 
 ** Phone
-“d˜b
+é›»è©±
 
 ** Phone calls
-“d˜b”Ô†
+é›»è©±ç•ªå·
 
 ** Phone private
-„—p“d˜b”Ô†
+ç§ç”¨é›»è©±ç•ªå·
 
 ** Photo
-Ê^
+å†™çœŸ
 
 ** Photo gallery
-Ê^ƒMƒƒƒ‰ƒŠ[
+å†™çœŸã‚®ãƒ£ãƒ©ãƒªãƒ¼
 
 ** Planned
-Œv‰æ’†
+è¨ˆç”»ä¸­
 
 ** Please activate cookies.
-ƒuƒ‰ƒEƒU‚Ìcookie‚ğg—p‰Â‚É‚µ‚Ä‚­‚¾‚³‚¢B
+ãƒ–ãƒ©ã‚¦ã‚¶ã®cookieã‚’ä½¿ç”¨å¯ã«ã—ã¦ãã ã•ã„ã€‚
 
 ** Please choose Apache as Web-Server.
 Please choose Apache as Web-Server.
 
 ** Please enable Javascript in your browser.
-ƒuƒ‰ƒEƒU‚ÌJavascript‚ğg—p‰Â‚É‚µ‚Ä‚­‚¾‚³‚¢B
+ãƒ–ãƒ©ã‚¦ã‚¶ã®Javascriptã‚’ä½¿ç”¨å¯ã«ã—ã¦ãã ã•ã„ã€‚
 
 ** Please enter a valid url.
-³‚µ‚¢URL‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B
+æ­£ã—ã„URLã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚
 
 ** Please give read access to %s
-•K—v‚Å‚·F%s“Ç‚İæ‚èŒ ŒÀ
+å¿…è¦ã§ã™ï¼š%sèª­ã¿å–ã‚Šæ¨©é™
 
 ** Please give write access to %s
-•K—v‚Å‚·F%s‘‚«‚İŒ ŒÀ
+å¿…è¦ã§ã™ï¼š%sæ›¸ãè¾¼ã¿æ¨©é™
 
 ** Please give write access to %s and %s
-•K—v‚Å‚·F%s‚Ì%s‚Ö‚Ì‘‚«‚İŒ ŒÀ
+å¿…è¦ã§ã™ï¼š%sã®%sã¸ã®æ›¸ãè¾¼ã¿æ¨©é™
 
 ** Please hit reload.
-Ä“Ç‚İ‚İ‚µ‚Ä‚­‚¾‚³‚¢
+å†èª­ã¿è¾¼ã¿ã—ã¦ãã ã•ã„
 
 ** Please input a valid e-mail adress.
-—LŒø‚Èe-mailƒAƒhƒŒƒX‚ğ“ü‚ê‚Ä‰º‚³‚¢B
+æœ‰åŠ¹ãªe-mailã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’å…¥ã‚Œã¦ä¸‹ã•ã„ã€‚
 
 ** Please install 'tsearch2' for the PostgreSQL database.
 Please install tsearch2 for the PostgreSQL database.
@@ -2347,31 +2350,31 @@ Please modify your php.ini or add an .htaccess file changing the setting %s to %
 Please read the following license agreement. Use the scroll bar to view the rest of this agreement.
 
 ** Please select a location.
-êŠ‚ğ‘I‘ğ‚µ‚Ä‚­‚¾‚³‚¢
+å ´æ‰€ã‚’é¸æŠã—ã¦ãã ã•ã„
 
 ** Please select a participant.
-Q‰ÁÒ‚ğ‘I‘ğ‚µ‚Ä‚­‚¾‚³‚¢B
+å‚åŠ è€…ã‚’é¸æŠã—ã¦ãã ã•ã„ã€‚
 
 ** Please upload again.
-‚à‚¤ˆê“xƒAƒbƒvƒ[ƒh‚µ‚Ä‚­‚¾‚³‚¢B
+ã‚‚ã†ä¸€åº¦ã‚¢ãƒƒãƒ—ãƒ­ãƒ¼ãƒ‰ã—ã¦ãã ã•ã„ã€‚
 
 ** Please wait ...
-‚¨‘Ò‚¿‚­‚¾‚³‚¢...
+ãŠå¾…ã¡ãã ã•ã„...
 
 ** Pop3-error: %s
-Pop3ƒGƒ‰[F%s
+Pop3ã‚¨ãƒ©ãƒ¼ï¼š%s
 
 ** Port
-ƒ|[ƒg
+ãƒãƒ¼ãƒˆ
 
 ** Portal
-ƒ|[ƒ^ƒ‹
+ãƒãƒ¼ã‚¿ãƒ«
 
 ** Position
-–ğE
+å½¹è·
 
 ** Positions
-–ğEˆê——
+å½¹è·ä¸€è¦§
 
 ** Post
 
@@ -2380,358 +2383,358 @@ Pop3ƒGƒ‰[F%s
 
 
 ** Preformatted block
-®Œ`Ï‚İ•¶
+æ•´å½¢æ¸ˆã¿æ–‡
 
 ** Prepend new field as
 
 
 ** Prevent formatting
-®Œ`‹Ö~
+æ•´å½¢ç¦æ­¢
 
 ** Preview
-ƒvƒŒƒrƒ…[
+ãƒ—ãƒ¬ãƒ“ãƒ¥ãƒ¼
 
 ** Price
-‰¿Ši
+ä¾¡æ ¼
 
 ** Primary key
-åƒL[
+ä¸»ã‚­ãƒ¼
 
 ** Print
-ˆóü
+å°åˆ·
 
 ** Print all
-‘S•”ˆóü
+å…¨éƒ¨å°åˆ·
 
 ** Printer
-ƒvƒŠƒ“ƒ^[
+ãƒ—ãƒªãƒ³ã‚¿ãƒ¼
 
 ** Priority
-—Dæ“x
+å„ªå…ˆåº¦
 
 ** Problem
-–â‘è
+å•é¡Œ
 
 ** Processes
-ˆ—’†
+å‡¦ç†ä¸­
 
 ** Processing %s ...
-%s‚ğˆ—’†...
+%sã‚’å‡¦ç†ä¸­...
 
 ** Program is installed with language %s, please use a different url or run the setup again.
-ƒvƒƒOƒ‰ƒ€—p‚Í%sŒ¾Œê‚ÅƒCƒ“ƒXƒg[ƒ‹‚³‚ê‚Ä‚¢‚Ü‚·Burl‚ğ•ÏX‚µ‚ÄÄ“xƒCƒ“ƒXƒg[ƒ‹‚µ‚Ä‚­‚¾‚³‚¢B
+ãƒ—ãƒ­ã‚°ãƒ©ãƒ ç”¨ã¯%sè¨€èªã§ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã•ã‚Œã¦ã„ã¾ã™ã€‚urlã‚’å¤‰æ›´ã—ã¦å†åº¦ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã—ã¦ãã ã•ã„ã€‚
 
 ** Progress
-i’»
+é€²æ—
 
 ** Project
-ƒvƒƒWƒFƒNƒg
+ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆ
 
 ** Project files
-ƒvƒƒWƒFƒNƒgƒtƒ@ƒCƒ‹
+ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆãƒ•ã‚¡ã‚¤ãƒ«
 
 ** Project tasks
-ƒ^ƒXƒN
+ã‚¿ã‚¹ã‚¯
 
 ** Projects
-ƒvƒƒWƒFƒNƒgˆê——
+ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆä¸€è¦§
 
 ** promising
-—\–ñ
+äºˆç´„
 
 ** Properties
-‘®«
+å±æ€§
 
 ** Prospective client
-öİŒÚ‹q
+æ½œåœ¨é¡§å®¢
 
 ** Public holiday
-Œö‹¤‚Ì‹x“ú
+å…¬å…±ã®ä¼‘æ—¥
 
 ** Purchased
-w“üÏ‚İ
+è³¼å…¥æ¸ˆã¿
 
 ** Question
-–â‘è
+å•é¡Œ
 
 ** Queue
-ƒLƒ…[
+ã‚­ãƒ¥ãƒ¼
 
 ** Quick add
 
 
 ** Quota
-ãŒÀ
+ä¸Šé™
 
 ** Quota (remaining)
-ãŒÀic‚èj
+ä¸Šé™ï¼ˆæ®‹ã‚Šï¼‰
 
 ** Quota [MB]
-ãŒÀ[MB]
+ä¸Šé™[MB]
 
 ** Quota limitation exceeded: %s
-%s: —e—Ê’´‰ß‚Å‚·
+%s: å®¹é‡è¶…éã§ã™
 
 ** R e g i s t e r
-“o˜^
+ç™»éŒ²
 
 ** Rating
-•]‰¿
+è©•ä¾¡
 
 ** Read
-“Ç‚İæ‚è
+èª­ã¿å–ã‚Š
 
 ** read access
-“Ç‚İæ‚èŒ ŒÀ
+èª­ã¿å–ã‚Šæ¨©é™
 
 ** Read access (groups)
-“Ç‚İæ‚èŒ ŒÀiƒOƒ‹[ƒvj
+èª­ã¿å–ã‚Šæ¨©é™ï¼ˆã‚°ãƒ«ãƒ¼ãƒ—ï¼‰
 
 ** Read access (users)
-“Ç‚İæ‚èŒ ŒÀiƒ†[ƒU[j
+èª­ã¿å–ã‚Šæ¨©é™ï¼ˆãƒ¦ãƒ¼ã‚¶ãƒ¼ï¼‰
 
 ** Read only in
 
 
 ** ready for repair
-C•œ‚Ì€”õ‚ªo—ˆ‚Ü‚µ‚½
+ä¿®å¾©ã®æº–å‚™ãŒå‡ºæ¥ã¾ã—ãŸ
 
 ** ready for scrap
-Ø‚èæ‚è‚Ì€”õ‚ªo—ˆ‚Ü‚µ‚½
+åˆ‡ã‚Šå–ã‚Šã®æº–å‚™ãŒå‡ºæ¥ã¾ã—ãŸ
 
 ** Real URL format in the CMS
-CMS‚ÌURL‘®
+CMSã®URLæ›¸å¼
 
 ** Really apply rights to subfolders ?
-Šm”F-ƒfƒBƒŒƒNƒgƒŠ‚É‚±‚ÌŒ ŒÀ‚ğ•t—^‚µ‚Ü‚·‚©H
+ç¢ºèª-ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã«ã“ã®æ¨©é™ã‚’ä»˜ä¸ã—ã¾ã™ã‹ï¼Ÿ
 
 ** Really apply the changes ?
-Šm”F-•ÏX‚ğ”½‰f‚µ‚Ü‚·‚©H
+ç¢ºèª-å¤‰æ›´ã‚’åæ˜ ã—ã¾ã™ã‹ï¼Ÿ
 
 ** Really delete ?
-Šm”F-íœ‚µ‚Ü‚·‚©HH
+ç¢ºèª-å‰Šé™¤ã—ã¾ã™ã‹ï¼Ÿï¼Ÿ
 
 ** REALLY delete ALL datasets ?
-Šm”F-‚·‚×‚Ä‚Ìƒf[ƒ^ƒZƒbƒg‚ğíœ‚µ‚Ü‚·‚©H
+ç¢ºèª-ã™ã¹ã¦ã®ãƒ‡ãƒ¼ã‚¿ã‚»ãƒƒãƒˆã‚’å‰Šé™¤ã—ã¾ã™ã‹ï¼Ÿ
 
 ** Really delete ALL subfolders ?
-Šm”F-–{“–‚ÉƒTƒuƒtƒHƒ‹ƒ_‚ğ‘S•”íœ‚µ‚Ü‚·‚©HH
+ç¢ºèª-æœ¬å½“ã«ã‚µãƒ–ãƒ•ã‚©ãƒ«ãƒ€ã‚’å…¨éƒ¨å‰Šé™¤ã—ã¾ã™ã‹ï¼Ÿï¼Ÿ
 
 ** Really delete the dataset(s) ?
-Šm”F-ƒf[ƒ^ƒZƒbƒg‚ğíœ‚µ‚Ü‚·‚©H
+ç¢ºèª-ãƒ‡ãƒ¼ã‚¿ã‚»ãƒƒãƒˆã‚’å‰Šé™¤ã—ã¾ã™ã‹ï¼Ÿ
 
 ** Really empty the folder ?
-Šm”F-ƒtƒHƒ‹ƒ_‚ğ‹ó‚É‚µ‚Ü‚·‚©HH
+ç¢ºèª-ãƒ•ã‚©ãƒ«ãƒ€ã‚’ç©ºã«ã—ã¾ã™ã‹ï¼Ÿï¼Ÿ
 
 ** Really overwrite existing dataset(s) ?
-Šm”F-ƒf[ƒ^ƒZƒbƒg‚ğã‘‚«‚µ‚Ü‚·‚©H
+ç¢ºèª-ãƒ‡ãƒ¼ã‚¿ã‚»ãƒƒãƒˆã‚’ä¸Šæ›¸ãã—ã¾ã™ã‹ï¼Ÿ
 
 ** Really run setup again ?
-Šm”F-ÄƒCƒ“ƒXƒg[ƒ‹‚µ‚Ü‚·‚©H
+ç¢ºèª-å†ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã—ã¾ã™ã‹ï¼Ÿ
 
 ** Really uninstall the module ?
-Šm”F-‚±‚Ìƒ‚ƒWƒ…[ƒ‹‚ğƒAƒ“ƒCƒ“ƒXƒg[ƒ‹‚µ‚Ü‚·‚©H
+ç¢ºèª-ã“ã®ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã‚’ã‚¢ãƒ³ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã—ã¾ã™ã‹ï¼Ÿ
 
 ** Rebuild search index
-ŒŸõƒCƒ“ƒfƒbƒNƒX‚ÌÄ¶¬
+æ¤œç´¢ã‚¤ãƒ³ãƒ‡ãƒƒã‚¯ã‚¹ã®å†ç”Ÿæˆ
 
 ** Recent changes
-Å‹ß‚ÌXV
+æœ€è¿‘ã®æ›´æ–°
 
 ** Recipients
-óæl
+å—å–äºº
 
 ** Recommendation of affiliate
 
 
 ** Recurrence
-ŒJ‚è•Ô‚µ
+ç¹°ã‚Šè¿”ã—
 
 ** Recurrences
-ŒJ‚è•Ô‚µˆê——
+ç¹°ã‚Šè¿”ã—ä¸€è¦§
 
 ** red
-Ô
+èµ¤
 
 ** Redirect to home directory
-ƒz[ƒ€ƒfƒBƒŒƒNƒgƒŠ‚É“ü‚é
+ãƒ›ãƒ¼ãƒ ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã«å…¥ã‚‹
 
 ** Reference
-QÆ
+å‚ç…§
 
 ** Refresh
-XV
+æ›´æ–°
 
 ** Refresh every x seconds
-%s•b‚²‚Æ‚ÉXV
+%sç§’ã”ã¨ã«æ›´æ–°
 
 ** Regular
-’èŠú
+å®šæœŸ
 
 ** Reject
-‹p‰º
+å´ä¸‹
 
 ** rejected
-‹p‰º
+å´ä¸‹
 
 ** Relative formats
 
 
 ** Relaunch Setup
-ÄƒCƒ“ƒXƒg[ƒ‹
+å†ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
 
 ** Relevance
 
 ** Reminder
-ƒŠƒ}ƒCƒ“ƒ_[
+ãƒªãƒã‚¤ãƒ³ãƒ€ãƒ¼
 
 ** rename
-–¼‘O‚Ì•ÏX
+åå‰ã®å¤‰æ›´
 
 ** Rename folder
-ƒtƒHƒ‹ƒ_‰ü–¼
+ãƒ•ã‚©ãƒ«ãƒ€æ”¹å
 
 ** Repeat count
-ŒJ‚è•Ô‚µ‰ñ”
+ç¹°ã‚Šè¿”ã—å›æ•°
 
 ** Repeat exclusions
-ŒJ‚è•Ô‚µ‚Ì—áŠO
+ç¹°ã‚Šè¿”ã—ã®ä¾‹å¤–
 
 ** Repeat interval
-ŒJ‚è•Ô‚µŠÔŠu
+ç¹°ã‚Šè¿”ã—é–“éš”
 
 ** Repeat until
-ŒJ‚è•Ô‚µŠúŒÀ
+ç¹°ã‚Šè¿”ã—æœŸé™
 
 ** Reply
-•ÔM
+è¿”ä¿¡
 
 ** Reply all
-‘S•”‚É•ÔM‚·‚é
+å…¨éƒ¨ã«è¿”ä¿¡ã™ã‚‹
 
 ** Require admin access to set mountpoints
-mountpoints‚É‚ÍadminŒ ŒÀ‚ğ—v‚·‚é
+mountpointsã«ã¯adminæ¨©é™ã‚’è¦ã™ã‚‹
 
 ** Required
-•K—v
+å¿…è¦
 
 ** Required fields
 
 
 ** Reseller
-‘ã—“X
+ä»£ç†åº—
 
 ** reserved
-—\–ñÏ‚İ
+äºˆç´„æ¸ˆã¿
 
 ** Reset view
 
 
 ** Resource
-ƒŠƒ\[ƒX
+ãƒªã‚½ãƒ¼ã‚¹
 
 ** Resources
-ƒŠƒ\[ƒXˆê——
+ãƒªã‚½ãƒ¼ã‚¹ä¸€è¦§
 
 ** Responsible
-Ó”C
+è²¬ä»»
 
 ** Responsible (external)
-Ó”CiŠO•”j
+è²¬ä»»ï¼ˆå¤–éƒ¨ï¼‰
 
 ** Responsible (internal)
-Ó”Ci“à•”j
+è²¬ä»»ï¼ˆå†…éƒ¨ï¼‰
 
 ** Restore complete
-Š®‘S‚ÉƒŠƒXƒgƒA‚·‚é
+å®Œå…¨ã«ãƒªã‚¹ãƒˆã‚¢ã™ã‚‹
 
 ** Restore here
-‚±‚±‚ÉƒŠƒXƒgƒA‚·‚é
+ã“ã“ã«ãƒªã‚¹ãƒˆã‚¢ã™ã‚‹
 
 ** Restore only missing
-¸‚í‚ê‚½•¨‚¾‚¯ƒŠƒXƒgƒA
+å¤±ã‚ã‚ŒãŸç‰©ã ã‘ãƒªã‚¹ãƒˆã‚¢
 
 ** Restore only newer
-V‚µ‚¢•¨‚Ì‚İƒŠƒXƒgƒA
+æ–°ã—ã„ç‰©ã®ã¿ãƒªã‚¹ãƒˆã‚¢
 
 ** Restore to origin
-‰Šúó‘Ô‚É–ß‚·
+åˆæœŸçŠ¶æ…‹ã«æˆ»ã™
 
 ** Return receipt
 
 
 ** right-aligned
-‰EŠñ‚¹
+å³å¯„ã›
 
 ** Rights
-Œ ŒÀ
+æ¨©é™
 
 ** Risks
 
 
 ** Room name
-•”‰®–¼Ì
+éƒ¨å±‹åç§°
 
 ** Room number
-•”‰®”Ô†
+éƒ¨å±‹ç•ªå·
 
 ** Rooms
-•”‰®ˆê——
+éƒ¨å±‹ä¸€è¦§
 
 ** Rows
-s
+è¡Œ
 
 ** Run Setup again
-ÄƒCƒ“ƒXƒg[ƒ‹
+å†ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
 
 ** S a v e
-•Û‘¶
+ä¿å­˜
 
 ** S a v e  a n d  E d i t
-•Û‘¶‚µ‚Ä•ÒW
+ä¿å­˜ã—ã¦ç·¨é›†
 
 ** S a v e  a n d  g o  b a c k
-•Û‘¶‚µ‚Ä–ß‚é
+ä¿å­˜ã—ã¦æˆ»ã‚‹
 
 ** Sa
-“y
+åœŸ
 
 ** Salary
-Œ‹‹
+æœˆçµ¦
 
 ** Salary per
-Œ‚ ‚½‚è‹‹—^
+æœˆã‚ãŸã‚Šçµ¦ä¸
 
 ** Sales promotion
-é“`
+å®£ä¼
 
 ** Sat
-“y
+åœŸ
 
 ** Saturday
-“y—j“ú
+åœŸæ›œæ—¥
 
 ** Scheduling
-ƒXƒPƒWƒ…[ƒŠƒ“ƒO
+ã‚¹ã‚±ã‚¸ãƒ¥ãƒ¼ãƒªãƒ³ã‚°
 
 ** Schema
-ƒXƒL[ƒ}
+ã‚¹ã‚­ãƒ¼ãƒ
 
 ** Schema data
-ƒXƒL[ƒ}ƒf[ƒ^
+ã‚¹ã‚­ãƒ¼ãƒãƒ‡ãƒ¼ã‚¿
 
 ** Schemafile not found. (%s)
-ƒXƒL[ƒ}‚Ìƒtƒ@ƒCƒ‹‚ª‚ ‚è‚Ü‚¹‚ñB(%s)
+ã‚¹ã‚­ãƒ¼ãƒã®ãƒ•ã‚¡ã‚¤ãƒ«ãŒã‚ã‚Šã¾ã›ã‚“ã€‚(%s)
 
 
 ** School
-ŠwZ
+å­¦æ ¡
 
 ** scrapped
-Ø‚è”²‚«
+åˆ‡ã‚ŠæŠœã
 
 ** Search
-ŒŸõ
+æ¤œç´¢
 
 ** Search by ID
 
@@ -2740,28 +2743,28 @@ mountpoints‚É‚ÍadminŒ ŒÀ‚ğ—v‚·‚é
 
 
 ** Second manager
-•›ŠÇ—Ò
+å‰¯ç®¡ç†è€…
 
 ** seconds
-•b
+ç§’
 
 ** Secretary
-”é‘
+ç§˜æ›¸
 
 ** Self registration
-ƒ†[ƒU[‚É‚æ‚é“o˜^
+ãƒ¦ãƒ¼ã‚¶ãƒ¼ã«ã‚ˆã‚‹ç™»éŒ²
 
 ** Self registration needs confirmation by an administrator.
-ƒ†[ƒU[‚É‚æ‚é“o˜^‚É‚ÍŠÇ—Ò‚Ì³”F‚ª•K—v‚Å‚·
+ãƒ¦ãƒ¼ã‚¶ãƒ¼ã«ã‚ˆã‚‹ç™»éŒ²ã«ã¯ç®¡ç†è€…ã®æ‰¿èªãŒå¿…è¦ã§ã™
 
 ** Send now
-¡‚·‚®‘—M
+ä»Šã™ãé€ä¿¡
 
 ** Sent
-‘—MÏ‚İ
+é€ä¿¡æ¸ˆã¿
 
 ** Sent reminders
-‘—MÏ‚İƒŠƒ}ƒCƒ“ƒ_[
+é€ä¿¡æ¸ˆã¿ãƒªãƒã‚¤ãƒ³ãƒ€ãƒ¼
 
 ** Sep
 
@@ -2779,281 +2782,281 @@ mountpoints‚É‚ÍadminŒ ŒÀ‚ğ—v‚·‚é
 
 
 ** September
-9Œ
+9æœˆ
 
 ** Serial number
-’Ê‚µ”Ô†
+é€šã—ç•ªå·
 
 ** Server
-ƒT[ƒo[
+ã‚µãƒ¼ãƒãƒ¼
 
 ** Server does not support sorting
 
 
 ** Server-IP
-ƒT[ƒo[‚ÌIP
+ã‚µãƒ¼ãƒãƒ¼ã®IP
 
 ** Service provider
-ƒT[ƒrƒXƒvƒƒoƒCƒ_[
+ã‚µãƒ¼ãƒ“ã‚¹ãƒ—ãƒ­ãƒã‚¤ãƒ€ãƒ¼
 
 ** Session name in cookie
-cookie’†‚ÌƒZƒbƒVƒ‡ƒ“–¼Ì
+cookieä¸­ã®ã‚»ãƒƒã‚·ãƒ§ãƒ³åç§°
 
 ** Session timeout
-ƒZƒbƒVƒ‡ƒ“ŠÔ‚ğ‰ß‚¬‚Ü‚µ‚½B
+ã‚»ãƒƒã‚·ãƒ§ãƒ³æ™‚é–“ã‚’éãã¾ã—ãŸã€‚
 
 ** Sessions
-ƒZƒbƒVƒ‡ƒ“
+ã‚»ãƒƒã‚·ãƒ§ãƒ³
 
 ** Setup
-ƒCƒ“ƒXƒg[ƒ‹
+ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
 
 ** Setup needs a database-php-extension ! (%s)
-ƒCƒ“ƒXƒg[ƒ‹ƒvƒƒOƒ‰ƒ€‚É•K—v‚Èdatabase-php-extension ! (%s)
+ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã«å¿…è¦ãªdatabase-php-extension ! (%s)
 
 ** Setup needs php with at least version %s !
-ƒCƒ“ƒXƒg[ƒ‹‚É•K—v‚ÈphpÅ’áƒo[ƒWƒ‡ƒ“%s!
+ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã«å¿…è¦ãªphpæœ€ä½ãƒãƒ¼ã‚¸ãƒ§ãƒ³%s!
 
 ** Setup needs php-extension with name %s !
-ƒCƒ“ƒXƒg[ƒ‹‚É•K—v‚È%s php-extension
+ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã«å¿…è¦ãª%s php-extension
 
 ** Setup needs Simple Groupware with at least version %s !
 
 
 ** Setup: setup-data written to %s.
-ƒCƒ“ƒXƒg[ƒ‹FƒCƒ“ƒXƒg[ƒ‹ƒf[ƒ^‘‚«‚İ%sB
+ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ï¼šã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ãƒ‡ãƒ¼ã‚¿æ›¸ãè¾¼ã¿%sã€‚
 
 ** Shapes
-}Œ`
+å›³å½¢
 
 ** Share
-‹¤—L
+å…±æœ‰
 
 ** Shared
-‹¤—LÏ
+å…±æœ‰æ¸ˆ
 
 ** Short links
 
 
 ** Show
-•\¦
+è¡¨ç¤º
 
 ** Show all rules
 
 
 ** Show archive
-ƒA[ƒJƒCƒu‚ğ•\¦
+ã‚¢ãƒ¼ã‚«ã‚¤ãƒ–ã‚’è¡¨ç¤º
 
 ** Show details
-Ú×‚ğ•\¦
+è©³ç´°ã‚’è¡¨ç¤º
 
 ** Show folder description in content area
 
 
 ** Show password
-ƒpƒXƒ[ƒh‚ğ•\¦
+ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã‚’è¡¨ç¤º
 
 ** Show quoted text
-ˆø—p•¶‚ğ•\¦
+å¼•ç”¨æ–‡ã‚’è¡¨ç¤º
 
 ** Similar
-—Ş—
+é¡ä¼¼
 
 ** Simple tables
-ƒVƒ“ƒvƒ‹‚È•\
+ã‚·ãƒ³ãƒ—ãƒ«ãªè¡¨
 
 ** single
-“Æg
+ç‹¬èº«
 
 ** Single choice
-1‘ğ
+1æŠ
 
 ** Size
-ƒTƒCƒY
+ã‚µã‚¤ã‚º
 
 ** Size (children)
-ƒTƒCƒYiq€–Új
+ã‚µã‚¤ã‚ºï¼ˆå­é …ç›®ï¼‰
 
 ** Slow
-’x
+é…
 
 ** small
-¬
+å°
 
 ** small text
-¬‚³‚¢š
+å°ã•ã„å­—
 
 ** smaller
-¬‚³‚­
+å°ã•ã
 
 ** SMTP not configured for %s
-%sSMTP‚ªİ’è‚³‚ê‚Ä‚¢‚Ü‚¹‚ñ
+%sSMTPãŒè¨­å®šã•ã‚Œã¦ã„ã¾ã›ã‚“
 
 ** Smtp-error %s: %s
-SmtpƒGƒ‰[%sF%s
+Smtpã‚¨ãƒ©ãƒ¼%sï¼š%s
 
 ** Software
-ƒ\ƒtƒgƒEƒFƒA
+ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢
 
 ** Solution
-‰ğ™rô
+è§£å†³ç­–
 
 ** Solution type
 
 
 ** some text
-‰½‚©ƒeƒLƒXƒg‚ğ
+ä½•ã‹ãƒ†ã‚­ã‚¹ãƒˆã‚’
 
 ** Source
-ƒ\[ƒX
+ã‚½ãƒ¼ã‚¹
 
 ** Source code
-ƒ\[ƒXƒR[ƒh
+ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰
 
 ** Special leave
 
 
 ** Specification
-d—l
+ä»•æ§˜
 
 ** Spreadsheet
-•\ŒvZ
+è¡¨è¨ˆç®—
 
 ** SQL failed.
-SQL¸”s
+SQLå¤±æ•—
 
 ** SQL FAILED: %s
-SQL¸”sF%s
+SQLå¤±æ•—ï¼š%s
 
 ** Start scheduled
 
 ** Start synchronization
 
 ** Started
-is’†
+é€²è¡Œä¸­
 
 ** starts with
-“¯‚ÉŠJn
+åŒæ™‚ã«é–‹å§‹
 
 ** State
-“s“¹•{Œ§
+éƒ½é“åºœçœŒ
 
 ** Statistics
-“Œv
+çµ±è¨ˆ
 
 ** Status
-ó‘Ô
+çŠ¶æ…‹
 
 ** Statuses
-ó‘Ô
+çŠ¶æ…‹
 
 ** Strategies
-í—ª
+æˆ¦ç•¥
 
 ** Street
-”Ô’n
+ç•ªåœ°
 
 ** Structure
-\‘¢
+æ§‹é€ 
 
 ** Su
-“ú
+æ—¥
 
 ** Subfolders
-ƒTƒuƒtƒHƒ‹ƒ_[
+ã‚µãƒ–ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼
 
 ** subheading
-•›‘è
+å‰¯é¡Œ
 
 ** Subitem
-q€–Ú
+å­é …ç›®
 
 ** Subject
-‘è–¼
+é¡Œå
 
 ** Subjects
-‘è–¼ˆê——
+é¡Œåä¸€è¦§
 
 ** Submit a patch
-ƒpƒbƒ`‚ğ“Še‚·‚é
+ãƒ‘ãƒƒãƒã‚’æŠ•ç¨¿ã™ã‚‹
 
 ** Subpages
 
 
 ** subscript
-‰º•t‚«•¶š
+ä¸‹ä»˜ãæ–‡å­—
 
 ** Subsistence costs
 
 
 ** Sum
-Œv
+è¨ˆ
 
 ** Summary
-ŠT—v
+æ¦‚è¦
 
 ** Sun
-“ú
+æ—¥
 
 ** Sunday
-“ú—j“ú
+æ—¥æ›œæ—¥
 
 ** Superior
-ãi
+ä¸Šå¸
 
 ** superscript
-ã•t•¶š
+ä¸Šä»˜æ–‡å­—
 
 ** Supplier
-ƒTƒvƒ‰ƒCƒ„[
+ã‚µãƒ—ãƒ©ã‚¤ãƒ¤ãƒ¼
 
 ** Suppliers
-ƒTƒvƒ‰ƒCƒ„[
+ã‚µãƒ—ãƒ©ã‚¤ãƒ¤ãƒ¼
 
 ** Support
-ƒTƒ|[ƒg
+ã‚µãƒãƒ¼ãƒˆ
 
 ** Support request
-ƒTƒ|[ƒgˆË—Š
+ã‚µãƒãƒ¼ãƒˆä¾é ¼
 
 ** Surveys
-’²¸
+èª¿æŸ»
 
 ** Suspended
-’â~
+åœæ­¢
 
 ** Switch maintenance mode
-ƒƒ“ƒeƒiƒ“ƒXƒ‚[ƒh‚ÉØ‚è‘Ö‚¦‚é
+ãƒ¡ãƒ³ãƒ†ãƒŠãƒ³ã‚¹ãƒ¢ãƒ¼ãƒ‰ã«åˆ‡ã‚Šæ›¿ãˆã‚‹
 
 ** Sync attachments
-“Y•t‚ğ“¯Šú‚·‚é
+æ·»ä»˜ã‚’åŒæœŸã™ã‚‹
 
 ** Sync4j remote delete items
-Sync4j ‚ÉƒŠƒ‚[ƒg‚ÌƒAƒCƒeƒ€‚ğíœ‚³‚¹‚é
+Sync4j ã«ãƒªãƒ¢ãƒ¼ãƒˆã®ã‚¢ã‚¤ãƒ†ãƒ ã‚’å‰Šé™¤ã•ã›ã‚‹
 
 ** Syntax
-‘®
+æ›¸å¼
 
 ** System
-ƒVƒXƒeƒ€
+ã‚·ã‚¹ãƒ†ãƒ 
 
 ** System command executed: %s
 
 
 ** Tab
-ƒ^ƒu
+ã‚¿ãƒ–
 
 ** Table
-ƒf[ƒ^•\
+ãƒ‡ãƒ¼ã‚¿è¡¨
 
 ** Table sizes
-•\‚ÌƒTƒCƒY
+è¡¨ã®ã‚µã‚¤ã‚º
 
 ** Table status
-•\‚Ìó‘Ô
+è¡¨ã®çŠ¶æ…‹
 
 ** Tables
-ƒf[ƒ^•\
+ãƒ‡ãƒ¼ã‚¿è¡¨
 
 ** Take over
 
@@ -3062,61 +3065,61 @@ Sync4j ‚ÉƒŠƒ‚[ƒg‚ÌƒAƒCƒeƒ€‚ğíœ‚³‚¹‚é
 
 
 ** Task
-ƒ^ƒXƒN
+ã‚¿ã‚¹ã‚¯
 
 ** Task with ID %s
-ID %s ‚Ìƒ^ƒXƒN
+ID %s ã®ã‚¿ã‚¹ã‚¯
 
 ** Tasks
-ƒ^ƒXƒN
+ã‚¿ã‚¹ã‚¯
 
 ** Tasks with responsible %s
 
 
 ** Template
-ƒeƒ“ƒvƒŒ[ƒg
+ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆ
 
 ** Templates
-ƒeƒ“ƒvƒŒ[ƒgˆê——
+ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆä¸€è¦§
 
 ** Temporary work
 
 
 ** term
-ŠúŒÀ
+æœŸé™
 
 ** Text area
 
 
 ** Text Document
-ƒeƒLƒXƒg•¶‘
+ãƒ†ã‚­ã‚¹ãƒˆæ–‡æ›¸
 
 ** Text formatting rules
-‘®ƒwƒ‹ƒv
+æ›¸å¼ãƒ˜ãƒ«ãƒ—
 
 ** Th
-–Ø
+æœ¨
 
 ** Thanks for voting!
-“Š•[‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚µ‚½
+æŠ•ç¥¨ã‚ã‚ŠãŒã¨ã†ã”ã–ã„ã¾ã—ãŸ
 
 ** The folder cannot be copied.
-‚±‚ÌƒtƒHƒ‹ƒ_‚ÍƒRƒs[‚Å‚«‚Ü‚¹‚ñB
+ã“ã®ãƒ•ã‚©ãƒ«ãƒ€ã¯ã‚³ãƒ”ãƒ¼ã§ãã¾ã›ã‚“ã€‚
 
 ** The folder cannot be deleted.
-‚±‚ÌƒtƒHƒ‹ƒ_‚Ííœ‚Å‚«‚Ü‚¹‚ñB
+ã“ã®ãƒ•ã‚©ãƒ«ãƒ€ã¯å‰Šé™¤ã§ãã¾ã›ã‚“ã€‚
 
 ** The folder cannot be moved.
-‚±‚ÌƒtƒHƒ‹ƒ_‚ÍˆÚ“®‚Å‚«‚Ü‚¹‚ñB
+ã“ã®ãƒ•ã‚©ãƒ«ãƒ€ã¯ç§»å‹•ã§ãã¾ã›ã‚“ã€‚
 
 ** The new password is
-V‚µ‚¢ƒpƒXƒ[ƒhF
+æ–°ã—ã„ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ï¼š
 
 ** The url doesn't exist.
-url‚ª‘¶İ‚µ‚Ü‚¹‚ñ
+urlãŒå­˜åœ¨ã—ã¾ã›ã‚“
 
 ** Theme
-ƒe[ƒ}
+ãƒ†ãƒ¼ãƒ
 
 ** third level support
 
@@ -3125,68 +3128,68 @@ url‚ª‘¶İ‚µ‚Ü‚¹‚ñ
 
 
 ** Thu
-–Ø
+æœ¨
 
 ** Thursday
-–Ø—j
+æœ¨æ›œ
 
 ** Time and expenses
-ŠÔ‚ ‚½‚èxo
+æ™‚é–“ã‚ãŸã‚Šæ”¯å‡º
 
 ** Time limit
-ŠúŒÀ
+æœŸé™
 
 ** Time sheets
-•\
+æ™‚åˆ»è¡¨
 
 ** Time zone
-ƒ^ƒCƒ€ƒ][ƒ“
+ã‚¿ã‚¤ãƒ ã‚¾ãƒ¼ãƒ³
 
 ** timeout
-ŠÔØ‚ê
+æ™‚é–“åˆ‡ã‚Œ
 
 ** Title
-ƒ^ƒCƒgƒ‹
+ã‚¿ã‚¤ãƒˆãƒ«
 
 ** To
 
 
 ** to be checked
-ƒ`ƒFƒbƒN‘Ò‚¿
+ãƒã‚§ãƒƒã‚¯å¾…ã¡
 
 ** To continue installing Simple Groupware you must check the box under the license
-Simple Groupware‚ğƒCƒ“ƒXƒg[ƒ‹‚·‚éê‡‚ÍAƒ‰ƒCƒZƒ“ƒX‚Ì‰º‚É‚ ‚éƒ`ƒFƒbƒNƒ{ƒbƒNƒX‚ğƒNƒŠƒbƒN‚µ‚Ä‚­‚¾‚³‚¢B
+Simple Groupwareã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã™ã‚‹å ´åˆã¯ã€ãƒ©ã‚¤ã‚»ãƒ³ã‚¹ã®ä¸‹ã«ã‚ã‚‹ãƒã‚§ãƒƒã‚¯ãƒœãƒƒã‚¯ã‚¹ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ãã ã•ã„ã€‚
 
 ** Today
-¡“ú
+ä»Šæ—¥
 
 ** Too many wrong logins. Please wait 15 minutes.
-ƒƒOƒCƒ“¸”s‰ñ”‚ª’´‰ß‚µ‚Ü‚µ‚½B15•b‚¨‘Ò‚¿‚­‚¾‚³‚¢B
+ãƒ­ã‚°ã‚¤ãƒ³å¤±æ•—å›æ•°ãŒè¶…éã—ã¾ã—ãŸã€‚15ç§’ãŠå¾…ã¡ãã ã•ã„ã€‚
 
 ** Total
-‡Œv
+åˆè¨ˆ
 
 ** Trace
-ƒgƒŒ[ƒX
+ãƒˆãƒ¬ãƒ¼ã‚¹
 
 
 ** Trade fair
 
 
 ** translations
-–|–ó
+ç¿»è¨³
 
 ** Translations of the GNU GPL
-GNU GPL‚Ì–|–ó•¶
+GNU GPLã®ç¿»è¨³æ–‡
 
 ** Transportation costs
-—A‘—”ï
+è¼¸é€è²»
 
 ** Trash
-ƒSƒ~” 
+ã‚´ãƒŸç®±
 
 ** Trash folder not found.
-ƒSƒ~” ƒtƒHƒ‹ƒ_‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ
+ã‚´ãƒŸç®±ãƒ•ã‚©ãƒ«ãƒ€ãŒè¦‹ã¤ã‹ã‚Šã¾ã›ã‚“
 
 ** Tree
 
@@ -3196,81 +3199,81 @@ GNU GPL‚Ì–|–ó•¶
 
 
 ** Tue
-‰Î
+ç«
 
 ** Tuesday
-‰Î—j“ú
+ç«æ›œæ—¥
 
 ** Type
 
 ** U n i n s t a l l
-ƒAƒ“ƒCƒ“ƒXƒg[ƒ‹
+ã‚¢ãƒ³ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
 
 ** unable to find %s
-%s‚ÍŒ©‚Â‚©‚è‚Ü‚¹‚ñ‚Å‚µ‚½
+%sã¯è¦‹ã¤ã‹ã‚Šã¾ã›ã‚“ã§ã—ãŸ
 
 ** Unable to write to %s
-%s‚É‘‚«‚ß‚Ü‚¹‚ñ‚Å‚µ‚½
+%sã«æ›¸ãè¾¼ã‚ã¾ã›ã‚“ã§ã—ãŸ
 
 ** unconfirmed
-³”F‘Ò‚¿
+æ‰¿èªå¾…ã¡
 
 ** Unconfirmed
-–¢”FØ
+æœªèªè¨¼
 
 ** underline
-ƒAƒ“ƒ_[ƒ‰ƒCƒ“
+ã‚¢ãƒ³ãƒ€ãƒ¼ãƒ©ã‚¤ãƒ³
 
 ** Uninstall does not delete any data in the database.
-ƒAƒ“ƒCƒ“ƒXƒg[ƒ‹‚Íƒf[ƒ^ƒx[ƒX“à‚Ì€–Ú‚ğˆêØíœ‚µ‚Ü‚¹‚ñ
+ã‚¢ãƒ³ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã¯ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹å†…ã®é …ç›®ã‚’ä¸€åˆ‡å‰Šé™¤ã—ã¾ã›ã‚“
 
 ** uninterested
-ŠÖS‚È‚µ
+é–¢å¿ƒãªã—
 
 ** Unique
-ˆêˆÓ
+ä¸€æ„
 
 ** Unique with trash
 
 
 ** Unlock
-ƒƒbƒN‰ğœ
+ãƒ­ãƒƒã‚¯è§£é™¤
 
 ** Up
-ã
+ä¸Š
 
 ** Update
-XV
+æ›´æ–°
 
 ** Update Simple Groupware
-Simple Groupware‚ÌƒAƒbƒvƒf[ƒg
+Simple Groupwareã®ã‚¢ãƒƒãƒ—ãƒ‡ãƒ¼ãƒˆ
 
 ** Updated
-XV
+æ›´æ–°
 
 ** Updating schema %s from %s.
-ƒXƒL[ƒ}‚ğ%s‚©‚ç%s‚ÉXV
+ã‚¹ã‚­ãƒ¼ãƒã‚’%sã‹ã‚‰%sã«æ›´æ–°
 
 ** Upload failed
-ƒAƒbƒvƒ[ƒh‚É¸”s
+ã‚¢ãƒƒãƒ—ãƒ­ãƒ¼ãƒ‰ã«å¤±æ•—
 
 ** Uploaded files
-ƒAƒbƒvƒ[ƒh‚³‚ê‚½ƒtƒ@ƒCƒ‹
+ã‚¢ãƒƒãƒ—ãƒ­ãƒ¼ãƒ‰ã•ã‚ŒãŸãƒ•ã‚¡ã‚¤ãƒ«
 
 ** Uploading
-ƒAƒbƒvƒ[ƒh’†
+ã‚¢ãƒƒãƒ—ãƒ­ãƒ¼ãƒ‰ä¸­
 
 ** urgent
-Š‹}
+è‡³æ€¥
 
 ** URL
 URL
 
 ** Usage
-g‚¢•û
+ä½¿ã„æ–¹
 
 ** USD
-•Äƒhƒ‹
+ç±³ãƒ‰ãƒ«
 
 ** Use APC for session storage
 
@@ -3279,7 +3282,7 @@ URL
 Use Debian binaries (Warning: not latest versions)
 
 ** Use LDAP Groups
-LDAP ƒOƒ‹[ƒv‚ğg—p‚·‚é 
+LDAP ã‚°ãƒ«ãƒ¼ãƒ—ã‚’ä½¿ç”¨ã™ã‚‹ 
 
 ** use mirror from
 
@@ -3290,84 +3293,84 @@ LDAP ƒOƒ‹[ƒv‚ğg—p‚·‚é
 ** Use the mail() function for sending mails (insecure)
 
 ** User
-ƒ†[ƒU[
+ãƒ¦ãƒ¼ã‚¶ãƒ¼
 
 ** User not found.
-ƒ†[ƒU[‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ
+ãƒ¦ãƒ¼ã‚¶ãƒ¼ãŒè¦‹ã¤ã‹ã‚Šã¾ã›ã‚“
 
 ** Username
-ƒ†[ƒU[–¼
+ãƒ¦ãƒ¼ã‚¶ãƒ¼å
 
 ** Username must be different from the super administrator.
-ƒ†[ƒU[–¼‚ªƒX[ƒp[ƒAƒhƒ~ƒjƒXƒgƒŒ[ƒ^[‚Ìg‚Á‚Ä‚¢‚é‚à‚Ì‚Æd•¡‚µ‚Ä‚¢‚Ü‚·B
+ãƒ¦ãƒ¼ã‚¶ãƒ¼åãŒã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¢ãƒ‰ãƒŸãƒ‹ã‚¹ãƒˆãƒ¬ãƒ¼ã‚¿ãƒ¼ã®ä½¿ã£ã¦ã„ã‚‹ã‚‚ã®ã¨é‡è¤‡ã—ã¦ã„ã¾ã™ã€‚
 
 ** Users
-ƒ†[ƒU[ˆê——
+ãƒ¦ãƒ¼ã‚¶ãƒ¼ä¸€è¦§
 
 ** V a l i d a t e
-ŒŸØ
+æ¤œè¨¼
 
 ** V o t e !
-“Š•[
+æŠ•ç¥¨
 
 ** Vacation
-‹x‰É
+ä¼‘æš‡
 
 ** Vacation days per year
-”NŠÔ‹x‰É“ú”
+å¹´é–“ä¼‘æš‡æ—¥æ•°
 
 ** Validating %s ...
-%s‚ğŒŸØ’†
+%sã‚’æ¤œè¨¼ä¸­
 
 ** validation failed
-ŒŸØ•s‡Ši
+æ¤œè¨¼ä¸åˆæ ¼
 
 ** Value
-’l
+å€¤
 
 ** Value '%s' needs a group membership: %s
 
 
 ** Variable
-•Ï”
+å¤‰æ•°
 
 ** Variable already exists in table. (%s)
-“ü—Í’l‚Í‚·‚Å‚Éƒe[ƒuƒ‹‚É‚ ‚è‚Ü‚·(%s)
+å…¥åŠ›å€¤ã¯ã™ã§ã«ãƒ†ãƒ¼ãƒ–ãƒ«ã«ã‚ã‚Šã¾ã™(%s)
 
 ** Variable must be of type date (mm/dd/yyyy).
-•Ï”‚Í“ú•tŒ^‚É‚µ‚Ä‚­‚¾‚³‚¢B(mm/dd/yyyy)
+å¤‰æ•°ã¯æ—¥ä»˜å‹ã«ã—ã¦ãã ã•ã„ã€‚(mm/dd/yyyy)
 
 ** Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).
-“ü—Í’l‚Í“ú•tŒ^‚É‚µ‚Ä‚­‚¾‚³‚¢B(mm/dd/yyyy hh:mm am/pm)
+å…¥åŠ›å€¤ã¯æ—¥ä»˜æ™‚åˆ»å‹ã«ã—ã¦ãã ã•ã„ã€‚(mm/dd/yyyy hh:mm am/pm)
 
 ** Variable must be of type float.
-“ü—Í’l‚Í•‚“®¬”“_Œ^‚É‚µ‚Ä‚­‚¾‚³‚¢B
+å…¥åŠ›å€¤ã¯æµ®å‹•å°æ•°ç‚¹å‹ã«ã—ã¦ãã ã•ã„ã€‚
 
 ** Variable must be of type int and greater than 0.
-“ü—Í’l‚Í0ˆÈã‚Ì®”‚É‚µ‚Ä‚­‚¾‚³‚¢B
+å…¥åŠ›å€¤ã¯0ä»¥ä¸Šã®æ•´æ•°ã«ã—ã¦ãã ã•ã„ã€‚
 
 ** Variable must be of type int.
-“ü—Í’l‚Í®”‚É‚µ‚Ä‚­‚¾‚³‚¢B
+å…¥åŠ›å€¤ã¯æ•´æ•°ã«ã—ã¦ãã ã•ã„ã€‚
 
 ** Variable must be of type time (hh:mm am/pm).
-“ü—Í’l‚ÍŒ^‚É‚µ‚Ä‚­‚¾‚³‚¢B (hh:mm am/pm)
+å…¥åŠ›å€¤ã¯æ™‚åˆ»å‹ã«ã—ã¦ãã ã•ã„ã€‚ (hh:mm am/pm)
 
 ** Variables
-•Ï”
+å¤‰æ•°
 
 ** Verbal recommendation
 
 ** verified
-ŒŸØÏ
+æ¤œè¨¼æ¸ˆ
 
 ** vertical
-‚’¼
+å‚ç›´
 
 ** very promising
 
 
 ** View
-ƒrƒ…[
+ãƒ“ãƒ¥ãƒ¼
 
 ** View access (groups)
 
@@ -3376,28 +3379,28 @@ LDAP ƒOƒ‹[ƒv‚ğg—p‚·‚é
 
 
 ** Virus scanner
-ƒEƒCƒ‹ƒXƒXƒLƒƒƒi[
+ã‚¦ã‚¤ãƒ«ã‚¹ã‚¹ã‚­ãƒ£ãƒŠãƒ¼
 
 ** Visibility
-Œ©‚¦‚é”ÍˆÍ
+è¦‹ãˆã‚‹ç¯„å›²
 
 ** Voice mail
-—¯ç“d
+ç•™å®ˆé›»
 
 ** Vote
-“Š•[
+æŠ•ç¥¨
 
 ** Voted by
-“Š•[‚µ‚½l
+æŠ•ç¥¨ã—ãŸäºº
 
 ** Waiting
-‘Ò‚¿
+å¾…ã¡
 
 ** Warning
-Œx
+è­¦å‘Š
 
 ** We
-…
+æ°´
 
 ** Web
 Web
@@ -3406,116 +3409,116 @@ Web
 
 
 ** Wed
-…
+æ°´
 
 ** Wednesday
-…—j
+æ°´æ›œ
 
 ** Week
-T
+é€±
 
 ** Week start
-T‚Ìn‚Ü‚è
+é€±ã®å§‹ã¾ã‚Š
 
 ** Weekend
-T––
+é€±æœ«
 
 ** weekly
-–ˆT
+æ¯é€±
 
 ** weeks
-T
+é€±
 
 ** Welcome to Simple Groupware!
 
 
 ** white
-”’
+ç™½
 
 ** widowed
-€•Ê
+æ­»åˆ¥
 
 ** Width
-L‚³
+åºƒã•
 
 ** Wiki
 Wiki
 
 ** WikiStyles
-Wiki‘®
+Wikiæ›¸å¼
 
 ** won't fix
-C•œ‚Å‚«‚Ü‚¹‚ñ
+ä¿®å¾©ã§ãã¾ã›ã‚“
 
 ** word
 
 
 ** Workflow
-ƒ[ƒNƒtƒ[
+ãƒ¯ãƒ¼ã‚¯ãƒ•ãƒ­ãƒ¼
 
 ** Working student
-‹Î˜JŠw¶
+å‹¤åŠ´å­¦ç”Ÿ
 
 ** works as expected
 
 
 ** works for me
-©•ª‚Åì‹Æ‚·‚é
+è‡ªåˆ†ã§ä½œæ¥­ã™ã‚‹
 
 ** Workshop
-ƒ[ƒNƒVƒ‡ƒbƒv
+ãƒ¯ãƒ¼ã‚¯ã‚·ãƒ§ãƒƒãƒ—
 
 ** Workspace
-ƒ[ƒNƒXƒy[ƒX
+ãƒ¯ãƒ¼ã‚¯ã‚¹ãƒšãƒ¼ã‚¹
 
 ** write access
-‘‚«‚İŒ ŒÀ
+æ›¸ãè¾¼ã¿æ¨©é™
 
 ** Write access (groups)
-‘‚«‚İŒ ŒÀ(ƒOƒ‹[ƒv)
+æ›¸ãè¾¼ã¿æ¨©é™(ã‚°ãƒ«ãƒ¼ãƒ—)
 
 
 ** Write access (users)
-‘‚«‚İŒ ŒÀ(ƒ†[ƒU[)
+æ›¸ãè¾¼ã¿æ¨©é™(ãƒ¦ãƒ¼ã‚¶ãƒ¼)
 
 ** Wrong database-version (%s). Please use at least %s !
-ƒGƒ‰[Fƒf[ƒ^ƒx[ƒXƒo[ƒWƒ‡ƒ“‚ª‡‚¢‚Ü‚¹‚ñi%sjBƒo[ƒWƒ‡ƒ“ %s ˆÈã‚ğg—p‚µ‚Ä‚­‚¾‚³‚¢I
+ã‚¨ãƒ©ãƒ¼ï¼šãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ãƒãƒ¼ã‚¸ãƒ§ãƒ³ãŒåˆã„ã¾ã›ã‚“ï¼ˆ%sï¼‰ã€‚ãƒãƒ¼ã‚¸ãƒ§ãƒ³ %s ä»¥ä¸Šã‚’ä½¿ç”¨ã—ã¦ãã ã•ã„ï¼
 
 ** wrong directory
-ƒGƒ‰[ƒfƒBƒŒƒNƒgƒŠ
+ã‚¨ãƒ©ãƒ¼ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª
 
 ** wrong password
-ƒpƒXƒ[ƒh‚ªŠÔˆá‚Á‚Ä‚¢‚Ü‚·
+ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ãŒé–“é•ã£ã¦ã„ã¾ã™
 
 ** Year
-”N
+å¹´
 
 ** yearly
-”NŠÔ
+å¹´é–“
 
 ** years
-”N
+å¹´
 
 ** yellow
-‰©
+é»„
 
 ** yes
-‚Í‚¢
+ã¯ã„
 
 ** You are not allowed to view this folder.
-‚±‚ÌƒtƒHƒ‹ƒ_‚ğ‰{——‚·‚é‹–‰Â‚ª‚ ‚è‚Ü‚¹‚ñB
+ã“ã®ãƒ•ã‚©ãƒ«ãƒ€ã‚’é–²è¦§ã™ã‚‹è¨±å¯ãŒã‚ã‚Šã¾ã›ã‚“ã€‚
 
 ** You can go offline now.
-ƒIƒtƒ‰ƒCƒ“‚É‚µ‚Ä‚à‘åä•v‚Å‚·B
+ã‚ªãƒ•ãƒ©ã‚¤ãƒ³ã«ã—ã¦ã‚‚å¤§ä¸ˆå¤«ã§ã™ã€‚
 
 ** Your message was read on %s.
-‚ ‚È‚½‚ÌƒƒbƒZ[ƒW‚Í%s‚É“Ç‚Ü‚ê‚Ü‚µ‚½
+ã‚ãªãŸã®ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã¯%sã«èª­ã¾ã‚Œã¾ã—ãŸ
 
 ** Your session has timed out.
-–³‘€ìŠÔ‚ğ‰ß‚¬‚Ü‚µ‚½BÄƒƒOƒCƒ“‚µ‚Ä‚­‚¾‚³‚¢B
+ç„¡æ“ä½œæ™‚é–“ã‚’éãã¾ã—ãŸã€‚å†ãƒ­ã‚°ã‚¤ãƒ³ã—ã¦ãã ã•ã„ã€‚
 
 ** Zipcode
-—X•Ö”Ô†
+éƒµä¾¿ç•ªå·
 
 ** {0} - {1} of {2}
 

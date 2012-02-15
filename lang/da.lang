@@ -1,4 +1,4 @@
-/**
+ï»¿/**
  * @package Simple Groupware
  * @license GPLv2
  */
@@ -22,7 +22,7 @@ Er ikke aktiveret: %s
 %s ikke i database
 
 ** %s rows affected
-%s rækker ændret
+%s rÃ¦kker Ã¦ndret
 
 ** %s secs
 %s sekunder
@@ -31,7 +31,7 @@ Er ikke aktiveret: %s
 %s begyndtet redigering af dette aktiv ved %s
 
 ** (for active directory username must be: username@domain)
-(for active directory skal brugernavnet være: brugernavn@domæne)
+(for active directory skal brugernavnet vÃ¦re: brugernavn@domÃ¦ne)
 
 ** (un)Group
 (af)grupper
@@ -46,16 +46,16 @@ Om
 godkendt
 
 ** Access denied.
-Adgang nægtet.
+Adgang nÃ¦gtet.
 
 ** Access to this file has been denied.
-Nægtet adgang til denne fil.
+NÃ¦gtet adgang til denne fil.
 
 ** Account
 Konto
 
 ** account of %s has expired
-%s konto er udløbet
+%s konto er udlÃ¸bet
 
 ** Accounting
 Regnskab
@@ -76,16 +76,16 @@ Aktiv
 Reklame
 
 ** Add
-Tilføj
+TilfÃ¸j
 
 ** Add a special rule
 
 
 ** Add to offline folders
-Tilføj til offline mapper
+TilfÃ¸j til offline mapper
 
 ** added line
-tilføjet linje
+tilfÃ¸jet linje
 
 ** Address
 Adresse
@@ -112,7 +112,7 @@ Administration
 Avancerede tabeller
 
 ** Affected user
-Påvirkede brugere
+PÃ¥virkede brugere
 
 ** Affiliate
 Tilknyttede
@@ -148,13 +148,13 @@ Alle begivenheder
 
 
 ** Already running latest release.
-Køre allerede seneste udgave.
+KÃ¸re allerede seneste udgave.
 
 ** Already voted.
 
 
 ** Amount
-Mængde
+MÃ¦ngde
 
 ** Anchor
 Link
@@ -163,7 +163,7 @@ Link
 og
 
 ** Anniversary
-Fødselsdag
+FÃ¸dselsdag
 
 ** another page
 en anden side
@@ -181,7 +181,7 @@ Apache baseret (.htaccess, Basic, Digest, osv.)
 Applications titel
 
 ** Apply rights to subfolders
-Tilføj rettigheder til undermapper
+TilfÃ¸j rettigheder til undermapper
 
 ** Appointment
 
@@ -208,7 +208,7 @@ Arkiver slettede filer
 
 
 ** Asset marked as read-only.
-Aktiv markeret som læs-kun.
+Aktiv markeret som lÃ¦s-kun.
 
 ** Assets
 Aktiver
@@ -229,13 +229,13 @@ tilknyttet
 
 
 ** attach file
-vedhæft fil
+vedhÃ¦ft fil
 
 ** Attachment
-Vedhæftet
+VedhÃ¦ftet
 
 ** Attachments
-Vedhæftede
+VedhÃ¦ftede
 
 ** Attend
 
@@ -265,7 +265,7 @@ forfatter
 
 
 ** Avg length
-Gennemsnitlig længde
+Gennemsnitlig lÃ¦ngde
 
 ** Back
 Tilbage
@@ -274,7 +274,7 @@ Tilbage
 Backup
 
 ** Backup current folder
-Backup nuværende mappe
+Backup nuvÃ¦rende mappe
 
 ** Backups
 Backups
@@ -283,7 +283,7 @@ Backups
 Basal redigering
 
 ** before
-før
+fÃ¸r
 
 ** Before
 
@@ -298,22 +298,22 @@ stor
 stor tekst
 
 ** bigger
-større
+stÃ¸rre
 
 ** Billing address
 Fakturerings addresse
 
 ** Birthday
-Fødselsdag
+FÃ¸dselsdag
 
 ** Birthdays
-Fødselsdage
+FÃ¸dselsdage
 
 ** Blank
 Tomt
 
 ** blue
-blå
+blÃ¥
 
 ** bold
 fed
@@ -340,22 +340,22 @@ Bookinger
 
 
 ** Bookmarks
-Bogmærker
+BogmÃ¦rker
 
 ** borrowed
-lånt
+lÃ¥nt
 
 ** Brand
-Mærke
+MÃ¦rke
 
 ** Brands
-Mærker
+MÃ¦rker
 
 ** Browser Compatibility
 Browser kompitibillitet
 
 ** Browser not supported
-Browser ikke understøttet
+Browser ikke understÃ¸ttet
 
 ** Budget
 Budget
@@ -373,7 +373,7 @@ Forretning
 
 
 ** C O N T I N U E
-F O R S Æ T
+F O R S Ã† T
 
 ** Cache output
 Cache output
@@ -397,13 +397,13 @@ Annulleret
 Kan ikke kalde proc_open. Fjern venligst proc_open fra disable_functions i php.ini og deaktiver safe_mode.
 
 ** Cannot connect to database %s on %s.
-Kan ikke forbinde til database %s på %s.
+Kan ikke forbinde til database %s pÃ¥ %s.
 
 ** Cannot create preview for %s
 Kan ikke oprette forvisning af %s
 
 ** Cannot read the file %s.
-Kan ikke læse filen %s.
+Kan ikke lÃ¦se filen %s.
 
 ** Cardinality
 Antal
@@ -421,19 +421,19 @@ Cc
 centreret
 
 ** CEO
-Administrerende direktør
+Administrerende direktÃ¸r
 
 ** Change request
-Skift forespørgelse
+Skift forespÃ¸rgelse
 
 ** Change settings
 Skift indstillinger
 
 ** Change Setup settings
-Skift opsætningsindstillinger
+Skift opsÃ¦tningsindstillinger
 
 ** Change summary
-Ændre sammendrag
+Ã†ndre sammendrag
 
 ** Changed
 
@@ -466,16 +466,16 @@ IT leder
 By
 
 ** Clean
-Rengør
+RengÃ¸r
 
 ** Clean Cache
-Rengør cache
+RengÃ¸r cache
 
 ** Clear
-Tøm
+TÃ¸m
 
 ** Clear Cache
-Tøm cache
+TÃ¸m cache
 
 ** Clear Data
 
@@ -508,7 +508,7 @@ Lukket
 
 
 ** Collapse tree
-Sammenfold træ
+Sammenfold trÃ¦
 
 ** Color
 Farve
@@ -556,7 +556,7 @@ Modstander
 
 
 ** Completed
-Fuldført
+FuldfÃ¸rt
 
 ** Component
 Komponent
@@ -568,7 +568,7 @@ Komprimer output
 
 
 ** confirmed
-bekræftet
+bekrÃ¦ftet
 
 ** Connection error: %s [%s]
 
@@ -619,7 +619,7 @@ indeholder
 Indhold
 
 ** Continue
-Forsæt
+ForsÃ¦t
 
 ** Contracts
 
@@ -655,7 +655,7 @@ Oprettet
 Oprettelse af database mislykkes.
 
 ** current path
-nuværende sti
+nuvÃ¦rende sti
 
 ** current time
 
@@ -688,13 +688,13 @@ Data
 Data ledig
 
 ** Data length
-Data længde
+Data lÃ¦ngde
 
 ** Database
 Database
 
 ** Database Hostname / IP
-Database domæne / IP
+Database domÃ¦ne / IP
 
 ** Database Name
 Database navn
@@ -802,7 +802,7 @@ Afdeling
 Afdelinger
 
 ** Dependancies
-Afhængigheder
+AfhÃ¦ngigheder
 
 ** Description
 Beskrivelse
@@ -865,10 +865,10 @@ Visnings filter
 visninger
 
 ** Distributor
-Distrubutør
+DistrubutÃ¸r
 
 ** Distributors
-Distrubtører
+DistrubtÃ¸rer
 
 ** divorced
 skilt
@@ -880,7 +880,7 @@ Dokumentation
 Dokumentationsindeks
 
 ** Domain
-Domæne
+DomÃ¦ne
 
 ** Don't attend
 
@@ -937,10 +937,10 @@ Rediger rettigheder
 
 
 ** Editor
-Redaktør
+RedaktÃ¸r
 
 ** Emphasis
-Fremhævning
+FremhÃ¦vning
 
 ** Empty
 Tom
@@ -985,13 +985,13 @@ lig med
 Fejl
 
 ** Error doing request to xmlhttp
-Fejl under forspørgelse til xmlHTTP
+Fejl under forspÃ¸rgelse til xmlHTTP
 
 ** Error moving file
 Fejl under flytning af fil
 
 ** Error pasting asset
-Fejl under indsættelse af punkt
+Fejl under indsÃ¦ttelse af punkt
 
 ** Error: no credentials
 Fejl: ingen godkendelse
@@ -1015,19 +1015,19 @@ Eksempel uden tilknytning
 Eksempler
 
 ** Execute
-Udfør
+UdfÃ¸r
 
 ** Expenses
 Udgifter
 
 ** Experimental
-Forsøg
+ForsÃ¸g
 
 ** Expires
-Udløber
+UdlÃ¸ber
 
 ** Expiry
-Udløber
+UdlÃ¸ber
 
 ** Extended
 
@@ -1069,7 +1069,7 @@ Fax
 
 
 ** Feature request
-Funktions ønske
+Funktions Ã¸nske
 
 ** Feb
 
@@ -1132,13 +1132,13 @@ Filter
 Find punkter i flere mapper
 
 ** Finish scheduled
-Færdig planlagt
+FÃ¦rdig planlagt
 
 ** Finished
-Færdig
+FÃ¦rdig
 
 ** First in list
-Først på liste
+FÃ¸rst pÃ¥ liste
 
 ** first level support
 
@@ -1255,7 +1255,7 @@ Funktionen %s eksistere ikke
 G:i
 
 ** Gender
-Køn
+KÃ¸n
 
 ** General
 Generalt
@@ -1270,13 +1270,13 @@ Gaver
 Giv tilbagemelding
 
 ** GNU GPL Frequently Asked Questions
-GNU GPL Ofte stillede spørgsmål
+GNU GPL Ofte stillede spÃ¸rgsmÃ¥l
 
 ** greater than
-størrer end
+stÃ¸rrer end
 
 ** green
-grøn
+grÃ¸n
 
 ** Group
 Gruppe
@@ -1294,7 +1294,7 @@ Gruppenavn
 Grupper
 
 ** hanging text
-hængende tekst
+hÃ¦ngende tekst
 
 ** Hardware
 Hardware
@@ -1309,10 +1309,10 @@ overskrift
 overskrifter
 
 ** Height
-Højde
+HÃ¸jde
 
 ** Help
-Hjælp
+HjÃ¦lp
 
 ** Helpdesk
 Info
@@ -1354,10 +1354,10 @@ Hjemmeside
 horisontal linie
 
 ** Host
-Domæne
+DomÃ¦ne
 
 ** Hosts
-Domæner
+DomÃ¦ner
 
 ** Hour
 
@@ -1396,13 +1396,13 @@ I n s t a l l e r
 Id
 
 ** Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
-Id skal være null, små bogstaver, min. 3 tegn, maks. 128 tegn indeholdende [a-z0-9_-@.].
+Id skal vÃ¦re null, smÃ¥ bogstaver, min. 3 tegn, maks. 128 tegn indeholdende [a-z0-9_-@.].
 
 ** Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].
-Id skal ikke være null, min. 3 tegn, maks. 128 tegn indeholdende [a-z0-9_@.].
+Id skal ikke vÃ¦re null, min. 3 tegn, maks. 128 tegn indeholdende [a-z0-9_@.].
 
 ** Ideas
-Ideèr
+IdeÃ¨r
 
 ** If empty, the SMTP connection from the module users will be used.
 Hvis tom vil SMTP konfigurationen fra brugermodulet benyttes
@@ -1411,7 +1411,7 @@ Hvis tom vil SMTP konfigurationen fra brugermodulet benyttes
 
 
 ** if not autodetected with namingContexts
-hvis ikke autodetekteret ved navnesammenhæng
+hvis ikke autodetekteret ved navnesammenhÃ¦ng
 
 ** If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.
 
@@ -1435,19 +1435,19 @@ Billeder
 IMAP-fejl: %s
 
 ** immediate
-Øjeblikkeligt
+Ã˜jeblikkeligt
 
 ** Import
 Importer
 
 ** In progress
-Under udførsel
+Under udfÃ¸rsel
 
 ** in repair
 under reperation
 
 ** in stock
-på lager
+pÃ¥ lager
 
 ** Inactive
 Inaktiv
@@ -1465,7 +1465,7 @@ indryk tekst
 Indeks
 
 ** Index length
-Indeks længde
+Indeks lÃ¦ngde
 
 ** Index type
 Indeks type
@@ -1489,7 +1489,7 @@ Info
 
 
 ** Insert
-Indsæt
+IndsÃ¦t
 
 ** inserted
 indsat
@@ -1507,7 +1507,7 @@ indsat
 
 
 ** insufficient folder rights
-ikke tilstrækkelige mappe rettigheder
+ikke tilstrÃ¦kkelige mappe rettigheder
 
 ** Internal recommendation
 Intern anbefaling
@@ -1591,16 +1591,16 @@ Juli
 Juni
 
 ** Key
-Nøgle
+NÃ¸gle
 
 ** Key customer
 VIP kunde
 
 ** Key name
-Nøgle navn
+NÃ¸gle navn
 
 ** Keywords
-Nøgleord
+NÃ¸gleord
 
 ** Knowledge base
 Vidensdatabase
@@ -1630,7 +1630,7 @@ LDAP egenskaber for rum
 LDAP egenskaber for brugernavne
 
 ** LDAP connection to host %s failed.
-LDAP forbindelse til domæne %s mislykkes.
+LDAP forbindelse til domÃ¦ne %s mislykkes.
 
 ** LDAP without anonymous access
 LDAP uden anonym adgang
@@ -1669,7 +1669,7 @@ Linieskift
 Link
 
 ** Link restricted
-Link begrænset
+Link begrÃ¦nset
 
 ** link text
 link tekst
@@ -1696,13 +1696,13 @@ Lokation
 Lokationer
 
 ** Lock
-Lås
+LÃ¥s
 
 ** Locked by
-Låst af
+LÃ¥st af
 
 ** Locking
-Låser
+LÃ¥ser
 
 ** login %s from %s with %s
 login %s fra %s med %s
@@ -1723,7 +1723,7 @@ Logins
 logud %s
 
 ** Lookup
-Slå op
+SlÃ¥ op
 
 ** low
 lav
@@ -1762,7 +1762,7 @@ Mail identiteter
 Mail information
 
 ** mail reminder
-Mail påmindelse
+Mail pÃ¥mindelse
 
 ** Main menu
 Hovedmenu
@@ -1822,7 +1822,7 @@ Maj
 Medie
 
 ** Meeting
-Møde
+MÃ¸de
 
 ** Members
 Medlemmer
@@ -1876,13 +1876,13 @@ Mobil
 Model
 
 ** Modified
-Ændret
+Ã†ndret
 
 ** Modified by
-Ændret af
+Ã†ndret af
 
 ** Modifying database failed.
-Ændring af database mislykket.
+Ã†ndring af database mislykket.
 
 ** Module
 Modul
@@ -1903,19 +1903,19 @@ Mandag
 
 
 ** Month
-Måned
+MÃ¥ned
 
 ** monthly
-Månedlig
+MÃ¥nedlig
 
 ** months
-Måneder
+MÃ¥neder
 
 ** More information about the GNU GPL
 Mere information om GNU GPL
 
 ** Mountpoint
-Vedhæftet
+VedhÃ¦ftet
 
 ** Move
 Flyt
@@ -1939,19 +1939,19 @@ Mine opgaver
 Navn
 
 ** Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
-Navn må ikke være tomt, kun små bogstaver. Min. 3 tegn, maks. 128 indeholdende [a-z0-9_-@.].
+Navn mÃ¥ ikke vÃ¦re tomt, kun smÃ¥ bogstaver. Min. 3 tegn, maks. 128 indeholdende [a-z0-9_-@.].
 
 ** Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].
-Navn må ikke være null, min. 3 tegn, indeholdende [a-zA-Z0-9-_.].
+Navn mÃ¥ ikke vÃ¦re null, min. 3 tegn, indeholdende [a-zA-Z0-9-_.].
 
 ** need feedback
 mangler feeback
 
 ** Network
-Netværk
+NetvÃ¦rk
 
 ** Never expires
-Udløber aldrig
+UdlÃ¸ber aldrig
 
 ** New
 Ny
@@ -2041,7 +2041,7 @@ Notesbog
 Noter
 
 ** Notificaiton sent to: %s
-Påmindelse sendt til: %s
+PÃ¥mindelse sendt til: %s
 
 ** Notification
 Besked
@@ -2068,7 +2068,7 @@ Antal ansatte
 nummereret
 
 ** Objectives
-Mål
+MÃ¥l
 
 ** Oct
 
@@ -2122,7 +2122,7 @@ online
 
 
 ** Open
-Åben
+Ã…ben
 
 ** Operating system
 Operativ system
@@ -2140,13 +2140,13 @@ Indstillinger
 eller
 
 ** or higher
-eller højere
+eller hÃ¸jere
 
 ** orange
 orange
 
 ** Order size
-Ordre størrelse
+Ordre stÃ¸rrelse
 
 ** Organisation
 Organisiation
@@ -2233,7 +2233,7 @@ Parametere
 
 
 ** Parsing
-Læser
+LÃ¦ser
 
 ** Part time
 
@@ -2251,22 +2251,22 @@ Deltagere (internt)
 Password
 
 ** Password expired. (password of %s has expired)
-Password udløbet. (%s password er udløbet)
+Password udlÃ¸bet. (%s password er udlÃ¸bet)
 
 ** Password expires
-Password udløber
+Password udlÃ¸ber
 
 ** Password must be not null, min 5 characters.
-Password må ikke være tomt, og minumum 5 tegn.
+Password mÃ¥ ikke vÃ¦re tomt, og minumum 5 tegn.
 
 ** password not confirmed.
-password ikke bekræftet.
+password ikke bekrÃ¦ftet.
 
 ** Passwords
 Passwords
 
 ** Paste
-Indsæt
+IndsÃ¦t
 
 ** Path
 Sti
@@ -2281,7 +2281,7 @@ Sti
 Tilladelser
 
 ** Permissions added for: %s
-Tilladelser tilføjet for: %s
+Tilladelser tilfÃ¸jet for: %s
 
 ** Personal
 Personlig
@@ -2317,7 +2317,7 @@ Planlagt
 Aktiver venligst cookies.
 
 ** Please choose Apache as Web-Server.
-Vælg venligst Apache som Web-server.
+VÃ¦lg venligst Apache som Web-server.
 
 ** Please enable Javascript in your browser.
 
@@ -2326,7 +2326,7 @@ Vælg venligst Apache som Web-server.
 Venligst skriv en gyldig url.
 
 ** Please give read access to %s
-Giv venligst læse adgang til %s
+Giv venligst lÃ¦se adgang til %s
 
 ** Please give write access to %s
 Giv venligst skrive adgange til %s
@@ -2347,16 +2347,16 @@ Installer venlist tsearch2 for PostgreSQl databasen.
 
 
 ** Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !
-Modificer venligst din php.ini eller tilføj en .htaccess fil som ændre indstillingen %s til %s (nuværende værdi er %s) !
+Modificer venligst din php.ini eller tilfÃ¸j en .htaccess fil som Ã¦ndre indstillingen %s til %s (nuvÃ¦rende vÃ¦rdi er %s) !
 
 ** Please read the following license agreement. Use the scroll bar to view the rest of this agreement.
-Læs venligst følgende licens aftale. Brug scroll baren for at læse resten af aftalen.
+LÃ¦s venligst fÃ¸lgende licens aftale. Brug scroll baren for at lÃ¦se resten af aftalen.
 
 ** Please select a location.
 
 
 ** Please select a participant.
-Venligst vælg en deltager
+Venligst vÃ¦lg en deltager
 
 ** Please upload again.
 Upload igen.
@@ -2425,7 +2425,7 @@ Processer
 Beregner %s ...
 
 ** Program is installed with language %s, please use a different url or run the setup again.
-Programmet er isntalleret med sproget %s, benytt venligst en anden url, eller kør installationen igen.
+Programmet er isntalleret med sproget %s, benytt venligst en anden url, eller kÃ¸r installationen igen.
 
 ** Progress
 Fremskridt
@@ -2455,13 +2455,13 @@ Lovende client
 
 
 ** Purchased
-Købt
+KÃ¸bt
 
 ** Question
-Spørgsmål
+SpÃ¸rgsmÃ¥l
 
 ** Queue
-Kø
+KÃ¸
 
 ** Quick add
 
@@ -2476,7 +2476,7 @@ Kvote (tilbage)
 Kvote [MB]
 
 ** Quota limitation exceeded: %s
-Kvote begrænsning overskrider: %s
+Kvote begrÃ¦nsning overskrider: %s
 
 ** R e g i s t e r
 
@@ -2485,16 +2485,16 @@ Kvote begrænsning overskrider: %s
 Karakter
 
 ** Read
-Læs
+LÃ¦s
 
 ** read access
-læse adgang
+lÃ¦se adgang
 
 ** Read access (groups)
-Læse adgang (grupper)
+LÃ¦se adgang (grupper)
 
 ** Read access (users)
-Læse adgang (brugere)
+LÃ¦se adgang (brugere)
 
 ** Read only in
 
@@ -2512,7 +2512,7 @@ klar til stripning
 Real URL format i CMSet
 
 ** Really apply rights to subfolders ?
-Ønsker du at tilføje rettigheder til undermapper?
+Ã˜nsker du at tilfÃ¸je rettigheder til undermapper?
 
 ** Really apply the changes ?
 
@@ -2521,28 +2521,28 @@ Real URL format i CMSet
 Slet?
 
 ** REALLY delete ALL datasets ?
-Ønsker du at slette alle datasæt?
+Ã˜nsker du at slette alle datasÃ¦t?
 
 ** Really delete ALL subfolders ?
 Slet alle undermapper?
 
 ** Really delete the dataset(s) ?
-Slet datasæt?
+Slet datasÃ¦t?
 
 ** Really empty the folder ?
-Tøm mappen?
+TÃ¸m mappen?
 
 ** Really overwrite existing dataset(s) ?
-Overskriv eksiterende datasæt?
+Overskriv eksiterende datasÃ¦t?
 
 ** Really run setup again ?
-Kør opsætning igen?
+KÃ¸r opsÃ¦tning igen?
 
 ** Really uninstall the module ?
 
 
 ** Rebuild search index
-Genopbyg søge indeks
+Genopbyg sÃ¸ge indeks
 
 ** Recent changes
 
@@ -2593,16 +2593,16 @@ Genstart installation
 Relevans
 
 ** Reminder
-Påmindelse
+PÃ¥mindelse
 
 ** rename
 
 
 ** Rename folder
-Omdøb mappe
+OmdÃ¸b mappe
 
 ** Repeat count
-Gentagelse tæller
+Gentagelse tÃ¦ller
 
 ** Repeat exclusions
 Gentag udelukkelser
@@ -2620,7 +2620,7 @@ Svar
 Svar alle
 
 ** Require admin access to set mountpoints
-Kræver admin rettigheder at sætte vedhæftningspunkt
+KrÃ¦ver admin rettigheder at sÃ¦tte vedhÃ¦ftningspunkt
 
 ** Required
 
@@ -2629,7 +2629,7 @@ Kræver admin rettigheder at sætte vedhæftningspunkt
 
 
 ** Reseller
-Vidresælger
+VidresÃ¦lger
 
 ** reserved
 reseveret
@@ -2653,7 +2653,7 @@ Ansvarlige (ekstern)
 Ansvarlige (internt)
 
 ** Restore complete
-Gendannelse fuldført
+Gendannelse fuldfÃ¸rt
 
 ** Restore here
 Gendan her
@@ -2671,7 +2671,7 @@ Gendan til oprindelig
 Returner modtager
 
 ** right-aligned
-højre-justeret
+hÃ¸jre-justeret
 
 ** Rights
 Rettigheder
@@ -2689,10 +2689,10 @@ Rum nummer
 Rum
 
 ** Rows
-Rækker
+RÃ¦kker
 
 ** Run Setup again
-Kør opsætning igen
+KÃ¸r opsÃ¦tning igen
 
 ** S a v e
 G e m
@@ -2704,7 +2704,7 @@ G e m
 
 
 ** Sa
-Lø
+LÃ¸
 
 ** Salary
 
@@ -2716,10 +2716,10 @@ Lø
 Salgs fremende
 
 ** Sat
-Lør
+LÃ¸r
 
 ** Saturday
-Lørdag
+LÃ¸rdag
 
 ** Scheduling
 Planlagt
@@ -2740,7 +2740,7 @@ Skemafil ikke fundet. (%s)
 skrabbet
 
 ** Search
-Søg
+SÃ¸g
 
 ** Search by ID
 
@@ -2749,13 +2749,13 @@ Søg
 
 
 ** Second manager
-Underdirektør
+UnderdirektÃ¸r
 
 ** seconds
 
 
 ** Secretary
-Sekretær
+SekretÃ¦r
 
 ** Self registration
 Selv registrering
@@ -2797,7 +2797,7 @@ Serie nummer
 Server
 
 ** Server does not support sorting
-Server understøtter ikke sortering
+Server understÃ¸tter ikke sortering
 
 ** Server-IP
 Server-IP
@@ -2809,7 +2809,7 @@ Service giver
 Sessionsnavn i cookie
 
 ** Session timeout
-Session udløbstid
+Session udlÃ¸bstid
 
 ** Sessions
 Sessions
@@ -2818,22 +2818,22 @@ Sessions
 
 
 ** Setup
-Opsætning
+OpsÃ¦tning
 
 ** Setup needs a database-php-extension ! (%s)
-Opsætning kræver en database-php-udvidelse! (%s)
+OpsÃ¦tning krÃ¦ver en database-php-udvidelse! (%s)
 
 ** Setup needs php with at least version %s !
-Opsætning kræver minimum en php version %s!
+OpsÃ¦tning krÃ¦ver minimum en php version %s!
 
 ** Setup needs php-extension with name %s !
-Opsætning kræver php-udvidelsen %s !
+OpsÃ¦tning krÃ¦ver php-udvidelsen %s !
 
 ** Setup needs Simple Groupware with at least version %s !
 
 
 ** Setup: setup-data written to %s.
-Opsætning: Opsætnings-data skrevet til %s.
+OpsÃ¦tning: OpsÃ¦tnings-data skrevet til %s.
 
 ** Shapes
 Former
@@ -2866,7 +2866,7 @@ Vis arkiv
 
 
 ** Show quoted text
-Vis anført tekst
+Vis anfÃ¸rt tekst
 
 ** Similar
 
@@ -2881,10 +2881,10 @@ en
 
 
 ** Size
-Størrelse
+StÃ¸rrelse
 
 ** Size (children)
-Størelse (underpunkter)
+StÃ¸relse (underpunkter)
 
 ** Slow
 Langsom
@@ -2908,10 +2908,10 @@ SMTP-fejl %s: %s
 Software
 
 ** Solution
-Løsning
+LÃ¸sning
 
 ** Solution type
-Løsnings type
+LÃ¸snings type
 
 ** some text
 
@@ -2971,7 +2971,7 @@ Gade
 Struktur
 
 ** Su
-Sø
+SÃ¸
 
 ** Subfolder
 
@@ -2998,7 +2998,7 @@ Send en patch
 
 
 ** subscript
-sænket skrift
+sÃ¦nket skrift
 
 ** Subsistence costs
 Mimimum omkostninger
@@ -3007,31 +3007,31 @@ Mimimum omkostninger
 
 
 ** Summary
-Resumé
+ResumÃ©
 
 ** Sun
-Søn
+SÃ¸n
 
 ** Sunday
-Søndag
+SÃ¸ndag
 
 ** Superior
 Overlegn
 
 ** superscript
-hævet skrift
+hÃ¦vet skrift
 
 ** Supplier
-Leverandør
+LeverandÃ¸r
 
 ** Suppliers
-Levenrandører
+LevenrandÃ¸rer
 
 ** Support
 Support
 
 ** Support request
-Support ønsker
+Support Ã¸nsker
 
 ** Surveys
 
@@ -3061,10 +3061,10 @@ System
 Tabel
 
 ** Table sizes
-Tabel størrelse
+Tabel stÃ¸rrelse
 
 ** Table status
-Tabel størrelse
+Tabel stÃ¸rrelse
 
 ** Tables
 Tabeller
@@ -3166,10 +3166,10 @@ Titel
 Til
 
 ** to be checked
-skal undersøges
+skal undersÃ¸ges
 
 ** To continue installing Simple Groupware you must check the box under the license
-For at forsætte installationen af Simple Groupware skal du afkrydes boksen under licensen
+For at forsÃ¦tte installationen af Simple Groupware skal du afkrydes boksen under licensen
 
 ** Today
 Idag
@@ -3187,10 +3187,10 @@ Spor
 Forhandle fair
 
 ** translations
-oversættelser
+oversÃ¦ttelser
 
 ** Translations of the GNU GPL
-Oversættelse af GNU GPL
+OversÃ¦ttelse af GNU GPL
 
 ** Transportation costs
 Tansport omkostninger
@@ -3202,7 +3202,7 @@ Papirkurv
 Papirkurv-mappe ikke fundet.
 
 ** Tree
-Træ
+TrÃ¦
 
 ** Trigger failed
 Trigger mislykket
@@ -3250,7 +3250,7 @@ uinteresseret
 
 
 ** Unlock
-Lås op
+LÃ¥s op
 
 ** Up
 Op
@@ -3277,7 +3277,7 @@ Uploaded filer
 
 
 ** urgent
-påkrævende
+pÃ¥krÃ¦vende
 
 ** URL
 URL
@@ -3316,7 +3316,7 @@ Bruger
 Brugernavn
 
 ** Username must be different from the super administrator.
-Brugernavn skal være forskellige for super administrator.
+Brugernavn skal vÃ¦re forskellige for super administrator.
 
 ** Users
 Brugere
@@ -3340,7 +3340,7 @@ Ferie
 validering mislykkes
 
 ** Value
-Værdi
+VÃ¦rdi
 
 ** Value '%s' needs a group membership: %s
 
@@ -3352,22 +3352,22 @@ Vairabler
 Variabel eksistere allerede i tabel. (%s)
 
 ** Variable must be of type date (mm/dd/yyyy).
-Variablen skal være af type dato (dd/mm/yyyy).
+Variablen skal vÃ¦re af type dato (dd/mm/yyyy).
 
 ** Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).
-Variablen skal være af typen dato-tid (dd/mm/yyyy HH:mm).
+Variablen skal vÃ¦re af typen dato-tid (dd/mm/yyyy HH:mm).
 
 ** Variable must be of type float.
-Variablen skal være af type decimal.
+Variablen skal vÃ¦re af type decimal.
 
 ** Variable must be of type int and greater than 0.
-Variablen skal være af type heltal og størrer end 0.
+Variablen skal vÃ¦re af type heltal og stÃ¸rrer end 0.
 
 ** Variable must be of type int.
-Variablen skal være af type heltal.
+Variablen skal vÃ¦re af type heltal.
 
 ** Variable must be of type time (hh:mm am/pm).
-Variablen skal være af typen tid (HH:mm).
+Variablen skal vÃ¦re af typen tid (HH:mm).
 
 ** Variables
 Variabler
@@ -3376,7 +3376,7 @@ Variabler
 Verbal anbefaling
 
 ** verified
-bekræftet
+bekrÃ¦ftet
 
 ** vertical
 vertikal
@@ -3484,7 +3484,7 @@ virker for mig
 Workshop
 
 ** Workspace
-Arbejdsområde
+ArbejdsomrÃ¥de
 
 ** write access
 skrive adgang
@@ -3505,10 +3505,10 @@ forkert mappe
 forkert password
 
 ** Year
-År
+Ã…r
 
 ** yearly
-årlig
+Ã¥rlig
 
 ** years
 
@@ -3523,10 +3523,10 @@ ja
 Du har ikke tilladelser til at vise denne mappe.
 
 ** Your message was read on %s.
-Din besked var læst den %s.
+Din besked var lÃ¦st den %s.
 
 ** Your session has timed out.
-Din session er udløbet
+Din session er udlÃ¸bet
 
 ** Zipcode
 Postnr.

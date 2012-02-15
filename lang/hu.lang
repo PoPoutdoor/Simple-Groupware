@@ -1,4 +1,4 @@
-/**
+ï»¿/**
  * @package Simple Groupware
  * @license GPLv2
  */
@@ -10,16 +10,16 @@ Copyright (C) 2007 Sandor Dibuz
 magyar / Hungarian
 
 ** %s is not activated
-%s nincs aktiválva
+%s nincs aktivÃ¡lva
 
 ** %s is not compiled / loaded into PHP.
-%s nincs befordítva/betöltve a PHP-be.
+%s nincs befordÃ­tva/betÃ¶ltve a PHP-be.
 
 ** %s M memory usage
 
 
 ** %s not in database
-%s nincs az adatbázisban.
+%s nincs az adatbÃ¡zisban.
 
 ** %s rows affected
 
@@ -34,10 +34,10 @@ magyar / Hungarian
 
 
 ** (un)Group
-Csoportosítás
+CsoportosÃ­tÃ¡s
 
 ** About
-A programról
+A programrÃ³l
 
 ** Absence
 
@@ -46,10 +46,10 @@ A programról
 
 
 ** Access denied.
-Hozzáférés megtagadva.
+HozzÃ¡fÃ©rÃ©s megtagadva.
 
 ** Access to this file has been denied.
-Fájlhozzáférés megtagadva.
+FÃ¡jlhozzÃ¡fÃ©rÃ©s megtagadva.
 
 ** Account
 
@@ -64,19 +64,19 @@ Fájlhozzáférés megtagadva.
 
 
 ** Activated
-Aktiválva
+AktivÃ¡lva
 
 ** active
 
 
 ** Active
-Aktív
+AktÃ­v
 
 ** Ad
 
 
 ** Add
-Hozzáadás
+HozzÃ¡adÃ¡s
 
 ** Add a special rule
 
@@ -85,28 +85,28 @@ Hozzáadás
 
 
 ** added line
-hozzáadott sorok
+hozzÃ¡adott sorok
 
 ** Address
-Cím
+CÃ­m
 
 ** admin access
 
 
 ** Admin access (groups)
-Admin hozzáférés (csoportok)
+Admin hozzÃ¡fÃ©rÃ©s (csoportok)
 
 ** Admin access (users)
-Admin hozzáférés (felhasználók)
+Admin hozzÃ¡fÃ©rÃ©s (felhasznÃ¡lÃ³k)
 
 ** Admin Password
-Admin jelszó
+Admin jelszÃ³
 
 ** Admin Username
-Admin felhasználónév
+Admin felhasznÃ¡lÃ³nÃ©v
 
 ** Administration
-Adminisztráció
+AdminisztrÃ¡ciÃ³
 
 ** Advanced tables
 
@@ -127,13 +127,13 @@ Adminisztráció
 
 
 ** All
-Összes
+Ã–sszes
 
 ** All day
-Összes nap
+Ã–sszes nap
 
 ** All events
-Összes esemény
+Ã–sszes esemÃ©ny
 
 ** All finished tasks
 
@@ -160,10 +160,10 @@ Adminisztráció
 
 
 ** and
-és
+Ã©s
 
 ** Anniversary
-Évforduló
+Ã‰vfordulÃ³
 
 ** another page
 
@@ -178,7 +178,7 @@ Adminisztráció
 Apache szerver (.htaccess, Basic, Digest, stb.)
 
 ** Application title
-Alkalmazás neve
+AlkalmazÃ¡s neve
 
 ** Apply rights to subfolders
 
@@ -196,7 +196,7 @@ Alkalmazás neve
 
 
 ** April
-április
+Ã¡prilis
 
 ** Archive
 
@@ -223,7 +223,7 @@ Alkalmazás neve
 
 
 ** assigned
-hozzárendelve
+hozzÃ¡rendelve
 
 ** at least 20 characters
 
@@ -232,10 +232,10 @@ hozzárendelve
 
 
 ** Attachment
-Melléklet
+MellÃ©klet
 
 ** Attachments
-Mellékletek
+MellÃ©kletek
 
 ** Attend
 
@@ -247,7 +247,7 @@ Mellékletek
 augusztus
 
 ** Authentication Mode
-Autentikáció módja
+AutentikÃ¡ciÃ³ mÃ³dja
 
 ** Author
 
@@ -265,19 +265,19 @@ Autentikáció módja
 
 
 ** Avg length
-Átlaghossz
+Ãtlaghossz
 
 ** Back
 Vissza
 
 ** Backup
-Biztonsági másolat
+BiztonsÃ¡gi mÃ¡solat
 
 ** Backup current folder
-Biztonsági másolat a kiválasztott mappáról
+BiztonsÃ¡gi mÃ¡solat a kivÃ¡lasztott mappÃ¡rÃ³l
 
 ** Backups
-Biztonsági mentések
+BiztonsÃ¡gi mentÃ©sek
 
 ** Basic editing
 
@@ -301,19 +301,19 @@ Kezdet
 
 
 ** Billing address
-Számlázási cím
+SzÃ¡mlÃ¡zÃ¡si cÃ­m
 
 ** Birthday
-Születésnap
+SzÃ¼letÃ©snap
 
 ** Birthdays
 
 
 ** Blank
-Üres
+Ãœres
 
 ** blue
-kék
+kÃ©k
 
 ** bold
 
@@ -340,10 +340,10 @@ kék
 
 
 ** Bookmarks
-Könyvjelzõk
+KÃ¶nyvjelzÃµk
 
 ** borrowed
-kölcsönzött
+kÃ¶lcsÃ¶nzÃ¶tt
 
 ** Brand
 
@@ -352,13 +352,13 @@ kölcsönzött
 
 
 ** Browser Compatibility
-Böngészõ kompatibilitás
+BÃ¶ngÃ©szÃµ kompatibilitÃ¡s
 
 ** Browser not supported
-Nem támogatott böngészõ
+Nem tÃ¡mogatott bÃ¶ngÃ©szÃµ
 
 ** Budget
-Költségvetés
+KÃ¶ltsÃ©gvetÃ©s
 
 ** Bug
 
@@ -367,31 +367,31 @@ Költségvetés
 
 
 ** Business
-Üzleti
+Ãœzleti
 
 ** C a n c e l
 
 
 ** C O N T I N U E
-F O L Y T A T Á S
+F O L Y T A T Ã S
 
 ** Cache output
-Gyorsítótár használata kimenõ adatforgalomnál
+GyorsÃ­tÃ³tÃ¡r hasznÃ¡lata kimenÃµ adatforgalomnÃ¡l
 
 ** Caches
-Gyorsítótárak
+GyorsÃ­tÃ³tÃ¡rak
 
 ** Calendar
-Határidõnapló
+HatÃ¡ridÃµnaplÃ³
 
 ** Cancel
 
 
 ** canceled
-törölve
+tÃ¶rÃ¶lve
 
 ** Canceled
-Törölve
+TÃ¶rÃ¶lve
 
 ** Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.
 
@@ -409,10 +409,10 @@ Törölve
 
 
 ** Categories
-Kategóriák
+KategÃ³riÃ¡k
 
 ** Category
-Kategória
+KategÃ³ria
 
 ** Cc
 
@@ -427,10 +427,10 @@ Kategória
 
 
 ** Change settings
-Beállítások megváltoztatása
+BeÃ¡llÃ­tÃ¡sok megvÃ¡ltoztatÃ¡sa
 
 ** Change Setup settings
-Beállítások megváltoztatása
+BeÃ¡llÃ­tÃ¡sok megvÃ¡ltoztatÃ¡sa
 
 ** Change summary
 
@@ -439,22 +439,22 @@ Beállítások megváltoztatása
 
 
 ** changed line
-megváltoztatott sorok
+megvÃ¡ltoztatott sorok
 
 ** Changelog
-Változtatások naplója
+VÃ¡ltoztatÃ¡sok naplÃ³ja
 
 ** Chat
 
 
 ** Check DoS Attacks
-DoS támadás esetén késleltetés
+DoS tÃ¡madÃ¡s esetÃ©n kÃ©sleltetÃ©s
 
 ** checked
-ellenõrizve
+ellenÃµrizve
 
 ** Checked
-Ellenõrizve
+EllenÃµrizve
 
 ** Choices
 
@@ -463,7 +463,7 @@ Ellenõrizve
 
 
 ** City
-Helység
+HelysÃ©g
 
 ** Clean
 
@@ -484,19 +484,19 @@ Helység
 
 
 ** Client
-Ügyfél
+ÃœgyfÃ©l
 
 ** Close
-Bezár
+BezÃ¡r
 
 ** Close session
-Munkafolyamat bezárása
+Munkafolyamat bezÃ¡rÃ¡sa
 
 ** closed
 
 
 ** Closed
-Bezárva
+BezÃ¡rva
 
 ** CMS
 
@@ -508,10 +508,10 @@ Bezárva
 
 
 ** Collapse tree
-Mappák bezárása
+MappÃ¡k bezÃ¡rÃ¡sa
 
 ** Color
-Szín
+SzÃ­n
 
 ** Column
 
@@ -532,16 +532,16 @@ Oszlop neve
 Parancs
 
 ** Comment
-Megjegyzés
+MegjegyzÃ©s
 
 ** Comment files
-Megjegyzés fájlok
+MegjegyzÃ©s fÃ¡jlok
 
 ** Companies
-Cégek
+CÃ©gek
 
 ** Company
-Cég
+CÃ©g
 
 ** Competition
 Verseny
@@ -556,25 +556,25 @@ Konkurrens
 
 
 ** Completed
-Elvégzett
+ElvÃ©gzett
 
 ** Component
 Komponens
 
 ** Compress output
-Tömörítés a kimenõ adatforgalomnál
+TÃ¶mÃ¶rÃ­tÃ©s a kimenÃµ adatforgalomnÃ¡l
 
 ** Confirm
 
 
 ** confirmed
-nyugtázva
+nyugtÃ¡zva
 
 ** Connection error: %s [%s]
 
 
 ** Connection to database failed.
-Nem sikerült az adatbázishoz kapcsolódni.
+Nem sikerÃ¼lt az adatbÃ¡zishoz kapcsolÃ³dni.
 
 ** Console
 
@@ -583,7 +583,7 @@ Nem sikerült az adatbázishoz kapcsolódni.
 
 
 ** Consultant
-Tanácsadó
+TanÃ¡csadÃ³
 
 ** Contact
 Kapcsolat
@@ -595,16 +595,16 @@ Kapcsolat
 
 
 ** Contact by
-Elérhetõség
+ElÃ©rhetÃµsÃ©g
 
 ** Contact groups
 
 
 ** Contact id
-Kapcsolat azonosító
+Kapcsolat azonosÃ­tÃ³
 
 ** Contact person
-Kapcsolattartó
+KapcsolattartÃ³
 
 ** Contact user by
 
@@ -619,7 +619,7 @@ tartalmaz
 Tartalom
 
 ** Continue
-Folytatás
+FolytatÃ¡s
 
 ** Contracts
 
@@ -628,7 +628,7 @@ Folytatás
 
 
 ** Copy
-Másolás
+MÃ¡solÃ¡s
 
 ** Cost center
 
@@ -637,10 +637,10 @@ Másolás
 
 
 ** Could not determine database-version.
-Az adatbázis verziójának meghatározása nem sikerült.
+Az adatbÃ¡zis verziÃ³jÃ¡nak meghatÃ¡rozÃ¡sa nem sikerÃ¼lt.
 
 ** Country
-Ország
+OrszÃ¡g
 
 ** Create new
 
@@ -649,10 +649,10 @@ Ország
 
 
 ** Created
-Létrehozva
+LÃ©trehozva
 
 ** Creating database failed.
-Az adatbázis létrehozása nem sikerült.
+Az adatbÃ¡zis lÃ©trehozÃ¡sa nem sikerÃ¼lt.
 
 ** current path
 
@@ -661,7 +661,7 @@ Az adatbázis létrehozása nem sikerült.
 
 
 ** Curriculum vitae
-Önéletrajz
+Ã–nÃ©letrajz
 
 ** Custom schema
 
@@ -676,7 +676,7 @@ Az adatbázis létrehozása nem sikerült.
 
 
 ** Cut
-Kivágás
+KivÃ¡gÃ¡s
 
 ** daily
 napi
@@ -691,34 +691,34 @@ Adatok
 Adathossz
 
 ** Database
-Adatbázis
+AdatbÃ¡zis
 
 ** Database Hostname / IP
-Adatbázis hosztnév vagy IP
+AdatbÃ¡zis hosztnÃ©v vagy IP
 
 ** Database Name
-Adatbázis név
+AdatbÃ¡zis nÃ©v
 
 ** Database Password
-Adatbázis jelszó
+AdatbÃ¡zis jelszÃ³
 
 ** Database size
 
 
 ** Database status
-Adatbázis státusz
+AdatbÃ¡zis stÃ¡tusz
 
 ** Database type
 
 
 ** Database User
-Adatbázis felhasználónév
+AdatbÃ¡zis felhasznÃ¡lÃ³nÃ©v
 
 ** Database variables
-Adatbázis változók
+AdatbÃ¡zis vÃ¡ltozÃ³k
 
 ** Date
-Dátum
+DÃ¡tum
 
 ** Day
 Nap
@@ -727,7 +727,7 @@ Nap
 Nappal kezdete
 
 ** Day end
-Nappal vége
+Nappal vÃ©ge
 
 ** days
 napok
@@ -736,7 +736,7 @@ napok
 
 
 ** Deadline
-Határidõ
+HatÃ¡ridÃµ
 
 ** Debug
 
@@ -751,16 +751,16 @@ Határidõ
 december
 
 ** Declining balance
-Értékcsökkenés
+Ã‰rtÃ©kcsÃ¶kkenÃ©s
 
 ** Default
-Alapértelmezett
+AlapÃ©rtelmezett
 
 ** Default function
 
 
 ** Default theme
-Alapértelmezett téma
+AlapÃ©rtelmezett tÃ©ma
 
 ** Default values for assets
 
@@ -772,22 +772,22 @@ Alapértelmezett téma
 Fokozat
 
 ** Delete
-Törlés
+TÃ¶rlÃ©s
 
 ** Delete incl subfolders
-Törlés az almappákkal együtt
+TÃ¶rlÃ©s az almappÃ¡kkal egyÃ¼tt
 
 ** deleted
 
 
 ** deleted line
-törölt sor
+tÃ¶rÃ¶lt sor
 
 ** Delivery
 
 
 ** Demand
-Kívánság
+KÃ­vÃ¡nsÃ¡g
 
 ** Demo
 
@@ -796,16 +796,16 @@ Kívánság
 
 
 ** Department
-Osztály
+OsztÃ¡ly
 
 ** Departments
-Osztályok
+OsztÃ¡lyok
 
 ** Dependancies
-Függõségek
+FÃ¼ggÃµsÃ©gek
 
 ** Description
-Leírás
+LeÃ­rÃ¡s
 
 ** Description hint
 
@@ -820,19 +820,19 @@ Leírás
 
 
 ** Details
-Részletek
+RÃ©szletek
 
 ** Device type
-Eszköz típus
+EszkÃ¶z tÃ­pus
 
 ** Device types
-Eszköz típusok
+EszkÃ¶z tÃ­pusok
 
 ** Diagram
 
 
 ** directory does not exist.
-a könyvtár nem létezik.
+a kÃ¶nyvtÃ¡r nem lÃ©tezik.
 
 ** Directory is outside the allowed directory. (%s is outside %s)
 
@@ -853,10 +853,10 @@ a könyvtár nem létezik.
 
 
 ** Display
-Listázás
+ListÃ¡zÃ¡s
 
 ** display filter
-megjelenítési szûrõ
+megjelenÃ­tÃ©si szÃ»rÃµ
 
 ** Displayname
 
@@ -865,22 +865,22 @@ megjelenítési szûrõ
 
 
 ** Distributor
-Disztribútor
+DisztribÃºtor
 
 ** Distributors
-Disztribútorok
+DisztribÃºtorok
 
 ** divorced
-elvált
+elvÃ¡lt
 
 ** Documentation
-Dokumentáció
+DokumentÃ¡ciÃ³
 
 ** Documentation index
 
 
 ** Domain
-Domén
+DomÃ©n
 
 ** Don't attend
 
@@ -910,7 +910,7 @@ Le
 
 
 ** Duration
-Idõtartam
+IdÃµtartam
 
 ** E-mail
 Email
@@ -925,13 +925,13 @@ Otthoni email
 
 
 ** Edit
-Szerkesztés
+SzerkesztÃ©s
 
 ** Edit as new
-Szerkesztés újként
+SzerkesztÃ©s ÃºjkÃ©nt
 
 ** Edit rights
-Szerkesztési jogok
+SzerkesztÃ©si jogok
 
 ** Editable if hidden in all views
 
@@ -943,22 +943,22 @@ Szerkesztési jogok
 
 
 ** Empty
-Üres
+Ãœres
 
 ** Empty folder
-Kuka(?) kiürítése
+Kuka(?) kiÃ¼rÃ­tÃ©se
 
 ** en
 hu
 
 ** Enable anonymous access
-Anonim bejelentkezés engedélyezése
+Anonim bejelentkezÃ©s engedÃ©lyezÃ©se
 
 ** Enable anonymous CMS
 
 
 ** Enable automatic user creation
-Automatikus felhasználó-létrehozás engedélyezése
+Automatikus felhasznÃ¡lÃ³-lÃ©trehozÃ¡s engedÃ©lyezÃ©se
 
 ** Enable external mail client for 'mailto:' links
 
@@ -973,13 +973,13 @@ Automatikus felhasználó-létrehozás engedélyezése
 
 
 ** End
-Vége
+VÃ©ge
 
 ** engaged
 
 
 ** equal
-egyenlõ
+egyenlÃµ
 
 ** Error
 Hiba
@@ -988,7 +988,7 @@ Hiba
 
 
 ** Error moving file
-Fájlmozgatási hiba
+FÃ¡jlmozgatÃ¡si hiba
 
 ** Error pasting asset
 
@@ -997,7 +997,7 @@ Fájlmozgatási hiba
 
 
 ** Events
-Események
+EsemÃ©nyek
 
 ** Example
 
@@ -1021,13 +1021,13 @@ Események
 
 
 ** Experimental
-Kísérleti
+KÃ­sÃ©rleti
 
 ** Expires
-Érvényessg lejár
+Ã‰rvÃ©nyessg lejÃ¡r
 
 ** Expiry
-Lejárat
+LejÃ¡rat
 
 ** Extended
 
@@ -1045,7 +1045,7 @@ F j
 Y F j
 
 ** Failed to create directory: %s
-A %s könyvtár létrehozása nem sikerült.
+A %s kÃ¶nyvtÃ¡r lÃ©trehozÃ¡sa nem sikerÃ¼lt.
 
 ** Failed to write file to disk.
 
@@ -1054,7 +1054,7 @@ A %s könyvtár létrehozása nem sikerült.
 
 
 ** Family status
-Családi állapot
+CsalÃ¡di Ã¡llapot
 
 ** FAQ
 GYIK (FAQ)
@@ -1075,16 +1075,16 @@ Kedvencek
 
 
 ** February
-február
+februÃ¡r
 
 ** Feed
 
 
 ** female
-nõ
+nÃµ
 
 ** Field
-Mezõ
+MezÃµ
 
 ** Field contains value
 
@@ -1099,52 +1099,52 @@ Mezõ
 
 
 ** File
-Fájl
+FÃ¡jl
 
 ** file is too big. Please change upload_max_filesize, post_max_size in your php.ini
 
 
 ** file is too big. Please upload a smaller one.
-a fájl túl nagy. Próbálj kisebbet feltölteni.
+a fÃ¡jl tÃºl nagy. PrÃ³bÃ¡lj kisebbet feltÃ¶lteni.
 
 ** file not found in database.
-a fájl nem található az adatbázisban.
+a fÃ¡jl nem talÃ¡lhatÃ³ az adatbÃ¡zisban.
 
 ** file not found.
-a fájl nem található.
+a fÃ¡jl nem talÃ¡lhatÃ³.
 
 ** file was uploaded partially.
-a fájlfeltöltés csak részlegesen sikerült.
+a fÃ¡jlfeltÃ¶ltÃ©s csak rÃ©szlegesen sikerÃ¼lt.
 
 ** Filename must have the right extension. Valid extensions are %s
-A fájlnév a megfelelõ kiterjesztéssel kell rendelkezzen. Érvényes kiterjesztések: %s
+A fÃ¡jlnÃ©v a megfelelÃµ kiterjesztÃ©ssel kell rendelkezzen. Ã‰rvÃ©nyes kiterjesztÃ©sek: %s
 
 ** Files
-Fájlok
+FÃ¡jlok
 
 ** Filesystem
-Fájlrendszer
+FÃ¡jlrendszer
 
 ** Filter
-Szûrõ
+SzÃ»rÃµ
 
 ** Find assets in multiple folders
 
 
 ** Finish scheduled
-Ütemezés vége
+ÃœtemezÃ©s vÃ©ge
 
 ** Finished
 Befejezett
 
 ** First in list
-A lista elejére
+A lista elejÃ©re
 
 ** first level support
 
 
 ** First name
-Keresztnév
+KeresztnÃ©v
 
 ** Fix paging bar to page bottom
 
@@ -1189,31 +1189,31 @@ Mappa
 
 
 ** Folder Type
-Mappa típus
+Mappa tÃ­pus
 
 ** Folder with ID %s
 
 
 ** Folders
-Mappák
+MappÃ¡k
 
 ** for a new paragraph, use a blank line
 
 
 ** Force SSL
-SSL átirányítás
+SSL Ã¡tirÃ¡nyÃ­tÃ¡s
 
 ** Form
 
 
 ** Forum
-Fórum
+FÃ³rum
 
 ** Forward
 
 
 ** Fr
-Pé
+PÃ©
 
 ** Free/busy
 Szabad/foglalt
@@ -1222,13 +1222,13 @@ Szabad/foglalt
 
 
 ** Fri
-Pén
+PÃ©n
 
 ** Friday
 
 
 ** From
-Kitõl
+KitÃµl
 
 ** Full screen
 
@@ -1240,7 +1240,7 @@ Kitõl
 
 
 ** Full width
-Teljes szélesség
+Teljes szÃ©lessÃ©g
 
 ** Fulltext index
 
@@ -1249,7 +1249,7 @@ Teljes szélesség
 
 
 ** Function does not exist: %s
-Nemlétezõ funkció: %s
+NemlÃ©tezÃµ funkciÃ³: %s
 
 ** g:i a
 H:i
@@ -1258,16 +1258,16 @@ H:i
 Neme
 
 ** General
-Általános
+ÃltalÃ¡nos
 
 ** Generate
-Generálás
+GenerÃ¡lÃ¡s
 
 ** Gifts
-Ajándék
+AjÃ¡ndÃ©k
 
 ** Give Feedback
-Visszajelzés
+VisszajelzÃ©s
 
 ** GNU GPL Frequently Asked Questions
 GNU GPL GYIK (FAQ)
@@ -1276,7 +1276,7 @@ GNU GPL GYIK (FAQ)
 nagyobb mint
 
 ** green
-zöld
+zÃ¶ld
 
 ** Group
 
@@ -1288,7 +1288,7 @@ zöld
 
 
 ** Groupname
-Csoportnév
+CsoportnÃ©v
 
 ** Groups
 Csoportok
@@ -1300,7 +1300,7 @@ Csoportok
 
 
 ** Headers
-Fejlécek
+FejlÃ©cek
 
 ** heading
 
@@ -1312,7 +1312,7 @@ Fejlécek
 
 
 ** Help
-Segítség
+SegÃ­tsÃ©g
 
 ** Helpdesk
 
@@ -1333,10 +1333,10 @@ Segítség
 
 
 ** History
-Történet
+TÃ¶rtÃ©net
 
 ** Holiday
-Ünnep
+Ãœnnep
 
 ** Home
 
@@ -1363,7 +1363,7 @@ Hosztok
 
 
 ** hours
-óra
+Ã³ra
 
 ** Hours per week
 
@@ -1381,19 +1381,19 @@ HTML dokumentumok
 
 
 ** I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2
-A fenti GNU GPL v2 dokumentumban írottakat elfogadom.
+A fenti GNU GPL v2 dokumentumban Ã­rottakat elfogadom.
 
 ** I m p o r t
 
 
 ** I n s t a l l
-T e l e p í t é s
+T e l e p Ã­ t Ã© s
 
 ** Icon
 
 
 ** Id
-Azonosító
+AzonosÃ­tÃ³
 
 ** Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
 
@@ -1402,10 +1402,10 @@ Azonosító
 
 
 ** Ideas
-Ötletek
+Ã–tletek
 
 ** If empty, the SMTP connection from the module users will be used.
-SMTP hoszt a kimenõ levelek fogadására. Ha üres, a felhasználói modulban definiált SMTP kapcsolatot használja a pgm.
+SMTP hoszt a kimenÃµ levelek fogadÃ¡sÃ¡ra. Ha Ã¼res, a felhasznÃ¡lÃ³i modulban definiÃ¡lt SMTP kapcsolatot hasznÃ¡lja a pgm.
 
 ** If file system permissions are ok, please check the configurations of %s if present.
 
@@ -1426,7 +1426,7 @@ SMTP hoszt a kimenõ levelek fogadására. Ha üres, a felhasználói modulban definiá
 Import/Export
 
 ** Image
-Kép
+KÃ©p
 
 ** Images
 
@@ -1444,13 +1444,13 @@ azonnal
 Folyamatban
 
 ** in repair
-javításon
+javÃ­tÃ¡son
 
 ** in stock
-raktáron
+raktÃ¡ron
 
 ** Inactive
-Inaktív
+InaktÃ­v
 
 ** Include in RSS feed
 
@@ -1468,16 +1468,16 @@ Inaktív
 Index hossz
 
 ** Index type
-Index típus
+Index tÃ­pus
 
 ** Indexes
 
 
 ** Industry
-Tevékenység
+TevÃ©kenysÃ©g
 
 ** Info
-Információ
+InformÃ¡ciÃ³
 
 ** inheritance to subfolders without default values
 
@@ -1489,7 +1489,7 @@ Információ
 
 
 ** Insert
-Beszúrás
+BeszÃºrÃ¡s
 
 ** inserted
 
@@ -1531,13 +1531,13 @@ Beszúrás
 
 
 ** Inventory
-Leltár
+LeltÃ¡r
 
 ** Inventory number
-Leltárszám
+LeltÃ¡rszÃ¡m
 
 ** Investor
-Beruházó
+BeruhÃ¡zÃ³
 
 ** Invoice
 
@@ -1558,10 +1558,10 @@ Beruházó
 
 
 ** Item successfully created.
-Sikeresen létrehozva.
+Sikeresen lÃ©trehozva.
 
 ** Item successfully updated.
-Sikeresen frissítve.
+Sikeresen frissÃ­tve.
 
 ** Item(s) not found or access denied.
 
@@ -1570,10 +1570,10 @@ Sikeresen frissítve.
 
 
 ** January
-január
+januÃ¡r
 
 ** Job description
-Munkaköri leírás
+MunkakÃ¶ri leÃ­rÃ¡s
 
 ** Join lines
 
@@ -1582,19 +1582,19 @@ Munkaköri leírás
 
 
 ** July
-július
+jÃºlius
 
 ** Jun
 
 
 ** June
-június
+jÃºnius
 
 ** Key
 
 
 ** Key customer
-Kulcsfontosságú ügyfél
+KulcsfontossÃ¡gÃº Ã¼gyfÃ©l
 
 ** Key name
 
@@ -1603,7 +1603,7 @@ Kulcsfontosságú ügyfél
 
 
 ** Knowledge base
-Tudástár
+TudÃ¡stÃ¡r
 
 ** L o g i n
 
@@ -1612,13 +1612,13 @@ Tudástár
 l, Y F j
 
 ** Last access
-Utolsó bejelentkezés
+UtolsÃ³ bejelentkezÃ©s
 
 ** Last name
-Családnév
+CsalÃ¡dnÃ©v
 
 ** LDAP anonymous connection failed.
-Az LDAP anonim kapcsolat létrehozása nem sikerült.
+Az LDAP anonim kapcsolat lÃ©trehozÃ¡sa nem sikerÃ¼lt.
 
 ** LDAP attribute for group memberships
 
@@ -1630,10 +1630,10 @@ Az LDAP anonim kapcsolat létrehozása nem sikerült.
 
 
 ** LDAP connection to host %s failed.
-Az LDAP kapcsolat létrehozása nem sikerült ehhez a hoszthoz: %s
+Az LDAP kapcsolat lÃ©trehozÃ¡sa nem sikerÃ¼lt ehhez a hoszthoz: %s
 
 ** LDAP without anonymous access
-LDAP anonim elérés nélkül
+LDAP anonim elÃ©rÃ©s nÃ©lkÃ¼l
 
 ** LDAP: no base DN given
 
@@ -1645,7 +1645,7 @@ LDAP anonim elérés nélkül
 
 
 ** less promising
-kevésbé ígéretes
+kevÃ©sbÃ© Ã­gÃ©retes
 
 ** lesser than
 kevesebb mint
@@ -1693,7 +1693,7 @@ Licensz
 Hely
 
 ** Locations
-Helyszínek
+HelyszÃ­nek
 
 ** Lock
 
@@ -1711,16 +1711,16 @@ Helyszínek
 
 
 ** Login/-out
-Kijelentkezés
+KijelentkezÃ©s
 
 ** Logins
-Bejelentkezések
+BejelentkezÃ©sek
 
 ** Logout
 
 
 ** logout %s
-kijelentkezés %s
+kijelentkezÃ©s %s
 
 ** Lookup
 
@@ -1750,13 +1750,13 @@ Y/m/d H:i
 y/m/d H:i:s
 
 ** magenta
-bíbor
+bÃ­bor
 
 ** mail footer
-email lábjegyzet
+email lÃ¡bjegyzet
 
 ** Mail identities
-Email azonosítók
+Email azonosÃ­tÃ³k
 
 ** mail notification
 
@@ -1765,16 +1765,16 @@ Email azonosítók
 
 
 ** Main menu
-Fõmenü
+FÃµmenÃ¼
 
 ** Main page
 
 
 ** Maintenance mode
-Karbantartás
+KarbantartÃ¡s
 
 ** male
-férfi
+fÃ©rfi
 
 ** Man-days
 
@@ -1789,22 +1789,22 @@ férfi
 
 
 ** Manufacturer
-Gyártó
+GyÃ¡rtÃ³
 
 ** Mar
 
 
 ** March
-március
+mÃ¡rcius
 
 ** Marketing event
 
 
 ** married
-házas
+hÃ¡zas
 
 ** Maximize
-Maximalizálás
+MaximalizÃ¡lÃ¡s
 
 ** Maximum file size
 
@@ -1816,10 +1816,10 @@ Maximalizálás
 
 
 ** May
-május
+mÃ¡jus
 
 ** Media
-sajtó
+sajtÃ³
 
 ** Meeting
 
@@ -1837,7 +1837,7 @@ Tagok
 
 
 ** Message
-Üzenet
+Ãœzenet
 
 ** Messages
 
@@ -1849,7 +1849,7 @@ Tagok
 
 
 ** Minimize
-Minimalizálás
+MinimalizÃ¡lÃ¡s
 
 ** minimum = 15 secs, 0 = disabled
 
@@ -1861,13 +1861,13 @@ Vegyes
 
 
 ** missing field
-hiányzó mezõ
+hiÃ¡nyzÃ³ mezÃµ
 
 ** missing right: %s
 
 
 ** Mo
-Hé
+HÃ©
 
 ** Mobile
 Mobil
@@ -1876,13 +1876,13 @@ Mobil
 
 
 ** Modified
-Módosítva
+MÃ³dosÃ­tva
 
 ** Modified by
 
 
 ** Modifying database failed.
-Sikertelen adatbázis módosítás.
+Sikertelen adatbÃ¡zis mÃ³dosÃ­tÃ¡s.
 
 ** Module
 Modul
@@ -1894,7 +1894,7 @@ Modul
 Modulok
 
 ** Mon
-Hét
+HÃ©t
 
 ** Monday
 
@@ -1903,22 +1903,22 @@ Hét
 
 
 ** Month
-Hónap
+HÃ³nap
 
 ** monthly
 havi
 
 ** months
-hónapok
+hÃ³napok
 
 ** More information about the GNU GPL
-További információk a GNU GPL-rõl
+TovÃ¡bbi informÃ¡ciÃ³k a GNU GPL-rÃµl
 
 ** Mountpoint
 
 
 ** Move
-Áthelyezés
+ÃthelyezÃ©s
 
 ** Move to subfolder 'Archive'
 
@@ -1936,10 +1936,10 @@ További információk a GNU GPL-rõl
 
 
 ** Name
-Név
+NÃ©v
 
 ** Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
-A név hossza min. 3, max. 128 karakter [a-z0-9_-@.] legyen és nagybetûket nem tartalmazhat.
+A nÃ©v hossza min. 3, max. 128 karakter [a-z0-9_-@.] legyen Ã©s nagybetÃ»ket nem tartalmazhat.
 
 ** Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].
 
@@ -1951,22 +1951,22 @@ A név hossza min. 3, max. 128 karakter [a-z0-9_-@.] legyen és nagybetûket nem ta
 
 
 ** Never expires
-Érvényesség nem jár le
+Ã‰rvÃ©nyessÃ©g nem jÃ¡r le
 
 ** New
-Új
+Ãšj
 
 ** New folder
-Új mappa
+Ãšj mappa
 
 ** News
-Hírek
+HÃ­rek
 
 ** Next recurrences
 
 
 ** Nickname
-Becenév
+BecenÃ©v
 
 ** Nightwork
 
@@ -1978,7 +1978,7 @@ nem
 
 
 ** No entries found.
-Nincs kilistázható bejegyzés.
+Nincs kilistÃ¡zhatÃ³ bejegyzÃ©s.
 
 ** No file was uploaded
 
@@ -1993,10 +1993,10 @@ Nincs kilistázható bejegyzés.
 
 
 ** No sender specified.
-Nincs feladó megjelölve.
+Nincs feladÃ³ megjelÃ¶lve.
 
 ** no username submitted
-nincs felhasználónév megadva
+nincs felhasznÃ¡lÃ³nÃ©v megadva
 
 ** No username/password.
 
@@ -2011,16 +2011,16 @@ Nem egyedi
 nincs
 
 ** normal
-normál
+normÃ¡l
 
 ** Not allowed. Please log in as super administrator.
-Nem megengedett. Jelentkezz be adminisztrátorként.
+Nem megengedett. Jelentkezz be adminisztrÃ¡torkÃ©nt.
 
 ** not contains
 nem tartalmaz
 
 ** not equal
-nem egyenlõ
+nem egyenlÃµ
 
 ** Not in
 
@@ -2038,13 +2038,13 @@ nem egyenlõ
 
 
 ** Notes
-Megjegyzések
+MegjegyzÃ©sek
 
 ** Notificaiton sent to: %s
 
 
 ** Notification
-Közlemény
+KÃ¶zlemÃ©ny
 
 ** Notification summary
 
@@ -2062,7 +2062,7 @@ november
 Nulla
 
 ** Number of employees
-Alkalmazottak száma
+Alkalmazottak szÃ¡ma
 
 ** numbered
 
@@ -2074,7 +2074,7 @@ Alkalmazottak száma
 
 
 ** October
-október
+oktÃ³ber
 
 ** of {0}
 
@@ -2092,7 +2092,7 @@ Iroda
 
 
 ** Offices
-Irodák
+IrodÃ¡k
 
 ** offline
 
@@ -2122,7 +2122,7 @@ Irodák
 
 
 ** Open
-Megnyitás
+MegnyitÃ¡s
 
 ** Operating system
 
@@ -2134,7 +2134,7 @@ Megnyitás
 
 
 ** Options
-Opciók
+OpciÃ³k
 
 ** or
 
@@ -2146,25 +2146,25 @@ vagy magasabb
 narancs
 
 ** Order size
-Rendelés mérete
+RendelÃ©s mÃ©rete
 
 ** Organisation
 Szervezet
 
 ** Organizer
-Szervezõ
+SzervezÃµ
 
 ** Origin
 Eredet
 
 ** Original message
-Eredeti üzenet
+Eredeti Ã¼zenet
 
 ** Other
-Egyéb
+EgyÃ©b
 
 ** out of office
-házon kívül
+hÃ¡zon kÃ­vÃ¼l
 
 ** Outline image
 
@@ -2188,7 +2188,7 @@ házon kívül
 Tulajdonos
 
 ** Owner since
-Mióta tulajdonos
+MiÃ³ta tulajdonos
 
 ** Package from local file system (.tar.gz)
 
@@ -2224,10 +2224,10 @@ Mióta tulajdonos
 
 
 ** parameters
-paraméterek
+paramÃ©terek
 
 ** Parameters
-Paraméterek
+ParamÃ©terek
 
 ** Parent folder
 
@@ -2239,28 +2239,28 @@ Paraméterek
 
 
 ** Participants
-Résztvevõk
+RÃ©sztvevÃµk
 
 ** Participants (external)
-Résztvevõk (külsõ)
+RÃ©sztvevÃµk (kÃ¼lsÃµ)
 
 ** Participants (internal)
-Résztvevõk (belsõ)
+RÃ©sztvevÃµk (belsÃµ)
 
 ** Password
-Jelszó
+JelszÃ³
 
 ** Password expired. (password of %s has expired)
-A jelszó érvényesége lejárt. (%s)
+A jelszÃ³ Ã©rvÃ©nyesÃ©ge lejÃ¡rt. (%s)
 
 ** Password expires
-A jelszó érvényessége lejár
+A jelszÃ³ Ã©rvÃ©nyessÃ©ge lejÃ¡r
 
 ** Password must be not null, min 5 characters.
-A jelszó legalább 5 karakter hosszúságú legyen.
+A jelszÃ³ legalÃ¡bb 5 karakter hosszÃºsÃ¡gÃº legyen.
 
 ** password not confirmed.
-a két jelszó nem azonos.
+a kÃ©t jelszÃ³ nem azonos.
 
 ** Passwords
 Jelszavak
@@ -2269,7 +2269,7 @@ Jelszavak
 
 
 ** Path
-Útvonal
+Ãštvonal
 
 ** Pause
 
@@ -2278,19 +2278,19 @@ Jelszavak
 
 
 ** Permissions
-Jogosultságok
+JogosultsÃ¡gok
 
 ** Permissions added for: %s
 
 
 ** Personal
-személyes
+szemÃ©lyes
 
 ** Personal department
 
 
 ** Personal folders
-Személyes mappák
+SzemÃ©lyes mappÃ¡k
 
 ** Personal projects
 
@@ -2299,22 +2299,22 @@ Személyes mappák
 Telefon
 
 ** Phone calls
-Telefonhívás
+TelefonhÃ­vÃ¡s
 
 ** Phone private
 Otthoni telefon
 
 ** Photo
-Fotó
+FotÃ³
 
 ** Photo gallery
-Fotógaléria
+FotÃ³galÃ©ria
 
 ** Planned
 Tervezett
 
 ** Please activate cookies.
-Engedélyezd a sütik (cookies) használatát!
+EngedÃ©lyezd a sÃ¼tik (cookies) hasznÃ¡latÃ¡t!
 
 ** Please choose Apache as Web-Server.
 
@@ -2323,22 +2323,22 @@ Engedélyezd a sütik (cookies) használatát!
 
 
 ** Please enter a valid url.
-Érvényes URL-t adjál meg!
+Ã‰rvÃ©nyes URL-t adjÃ¡l meg!
 
 ** Please give read access to %s
 
 
 ** Please give write access to %s
-%s írása nincs engedélyezve
+%s Ã­rÃ¡sa nincs engedÃ©lyezve
 
 ** Please give write access to %s and %s
-%s és %s írása nincs engedélyezve
+%s Ã©s %s Ã­rÃ¡sa nincs engedÃ©lyezve
 
 ** Please hit reload.
 
 
 ** Please input a valid e-mail adress.
-Adjál meg egy érvényes email címet!
+AdjÃ¡l meg egy Ã©rvÃ©nyes email cÃ­met!
 
 ** Please install 'tsearch2' for the PostgreSQL database.
 
@@ -2350,7 +2350,7 @@ Adjál meg egy érvényes email címet!
 
 
 ** Please read the following license agreement. Use the scroll bar to view the rest of this agreement.
-Olvasd el a következõ dokumentum teljes szövegét! (Használd a görgetõsávot.)
+Olvasd el a kÃ¶vetkezÃµ dokumentum teljes szÃ¶vegÃ©t! (HasznÃ¡ld a gÃ¶rgetÃµsÃ¡vot.)
 
 ** Please select a location.
 
@@ -2359,10 +2359,10 @@ Olvasd el a következõ dokumentum teljes szövegét! (Használd a görgetõsávot.)
 
 
 ** Please upload again.
-Töltsed fel újra!
+TÃ¶ltsed fel Ãºjra!
 
 ** Please wait ...
-Várjál ...
+VÃ¡rjÃ¡l ...
 
 ** Pop3-error: %s
 POP3 hiba: %s
@@ -2371,16 +2371,16 @@ POP3 hiba: %s
 
 
 ** Portal
-Hírportál
+HÃ­rportÃ¡l
 
 ** Position
-Beosztás
+BeosztÃ¡s
 
 ** Positions
-Beosztások
+BeosztÃ¡sok
 
 ** Post
-Levél
+LevÃ©l
 
 ** Practical training
 
@@ -2395,16 +2395,16 @@ Levél
 
 
 ** Preview
-Elõnézet
+ElÃµnÃ©zet
 
 ** Price
-Ár (érték)
+Ãr (Ã©rtÃ©k)
 
 ** Primary key
 
 
 ** Print
-Nyomtatás
+NyomtatÃ¡s
 
 ** Print all
 
@@ -2413,16 +2413,16 @@ Nyomtatás
 
 
 ** Priority
-Prioritás
+PrioritÃ¡s
 
 ** Problem
-Probléma
+ProblÃ©ma
 
 ** Processes
 
 
 ** Processing %s ...
-Feldolgozás alatt: %s ...
+FeldolgozÃ¡s alatt: %s ...
 
 ** Program is installed with language %s, please use a different url or run the setup again.
 
@@ -2443,22 +2443,22 @@ Projekt
 Projektek
 
 ** promising
-ígéretes
+Ã­gÃ©retes
 
 ** Properties
 
 
 ** Prospective client
-Lehetséges ügyfél
+LehetsÃ©ges Ã¼gyfÃ©l
 
 ** Public holiday
 
 
 ** Purchased
-Beszerzés idõpontja
+BeszerzÃ©s idÃµpontja
 
 ** Question
-Kérdés
+KÃ©rdÃ©s
 
 ** Queue
 
@@ -2467,34 +2467,34 @@ Kérdés
 
 
 ** Quota
-Kvóta
+KvÃ³ta
 
 ** Quota (remaining)
-Kvóta (maradék)
+KvÃ³ta (maradÃ©k)
 
 ** Quota [MB]
-Kvóta [MB]
+KvÃ³ta [MB]
 
 ** Quota limitation exceeded: %s
-Kvóta határ túllépve: %s
+KvÃ³ta hatÃ¡r tÃºllÃ©pve: %s
 
 ** R e g i s t e r
 
 
 ** Rating
-Minõsítés
+MinÃµsÃ­tÃ©s
 
 ** Read
 
 
 ** read access
-olvasási jog
+olvasÃ¡si jog
 
 ** Read access (groups)
-Olvasás (csoportok)
+OlvasÃ¡s (csoportok)
 
 ** Read access (users)
-Olvasás (felhasználók)
+OlvasÃ¡s (felhasznÃ¡lÃ³k)
 
 ** Read only in
 
@@ -2503,10 +2503,10 @@ Olvasás (felhasználók)
 
 
 ** ready for repair
-javításra
+javÃ­tÃ¡sra
 
 ** ready for scrap
-selejtezésre
+selejtezÃ©sre
 
 ** Real URL format in the CMS
 
@@ -2518,25 +2518,25 @@ selejtezésre
 
 
 ** Really delete ?
-Valóban törölni akarod?
+ValÃ³ban tÃ¶rÃ¶lni akarod?
 
 ** REALLY delete ALL datasets ?
-Valóban törölni akarod az ÖSSZES adatot?!
+ValÃ³ban tÃ¶rÃ¶lni akarod az Ã–SSZES adatot?!
 
 ** Really delete ALL subfolders ?
-Valóban törölni akarod az ÖSSZES almappát?
+ValÃ³ban tÃ¶rÃ¶lni akarod az Ã–SSZES almappÃ¡t?
 
 ** Really delete the dataset(s) ?
-Valóban töröljem az adatbázisból?
+ValÃ³ban tÃ¶rÃ¶ljem az adatbÃ¡zisbÃ³l?
 
 ** Really empty the folder ?
-Tényleg MINDENT törölni akarsz a mappából?
+TÃ©nyleg MINDENT tÃ¶rÃ¶lni akarsz a mappÃ¡bÃ³l?
 
 ** Really overwrite existing dataset(s) ?
-Valóban felül akarod írni a rögzített adatokat?
+ValÃ³ban felÃ¼l akarod Ã­rni a rÃ¶gzÃ­tett adatokat?
 
 ** Really run setup again ?
-Tényleg újra akarod telepíteni?
+TÃ©nyleg Ãºjra akarod telepÃ­teni?
 
 ** Really uninstall the module ?
 
@@ -2554,7 +2554,7 @@ Tényleg újra akarod telepíteni?
 
 
 ** Recurrence
-Ismétlõdés
+IsmÃ©tlÃµdÃ©s
 
 ** Recurrences
 
@@ -2587,7 +2587,7 @@ piros
 
 
 ** Relaunch Setup
-Telepítés/beállítások újraindítása
+TelepÃ­tÃ©s/beÃ¡llÃ­tÃ¡sok ÃºjraindÃ­tÃ¡sa
 
 ** Relevance
 
@@ -2599,13 +2599,13 @@ Telepítés/beállítások újraindítása
 
 
 ** Rename folder
-Mappa átnevezése
+Mappa Ã¡tnevezÃ©se
 
 ** Repeat count
-Hányszor
+HÃ¡nyszor
 
 ** Repeat exclusions
-Kivéve
+KivÃ©ve
 
 ** Repeat interval
 Intervallum
@@ -2614,10 +2614,10 @@ Intervallum
 Meddig
 
 ** Reply
-Válasz
+VÃ¡lasz
 
 ** Reply all
-Válasz mindenkinek
+VÃ¡lasz mindenkinek
 
 ** Require admin access to set mountpoints
 
@@ -2629,7 +2629,7 @@ Válasz mindenkinek
 
 
 ** Reseller
-Viszonteladó
+ViszonteladÃ³
 
 ** reserved
 fenntartott
@@ -2638,19 +2638,19 @@ fenntartott
 
 
 ** Resource
-Forrás
+ForrÃ¡s
 
 ** Resources
-Források
+ForrÃ¡sok
 
 ** Responsible
-Felelõs
+FelelÃµs
 
 ** Responsible (external)
-Felelõs (külsõ)
+FelelÃµs (kÃ¼lsÃµ)
 
 ** Responsible (internal)
-Felelõs (belsõ)
+FelelÃµs (belsÃµ)
 
 ** Restore complete
 
@@ -2680,22 +2680,22 @@ Jogok
 
 
 ** Room name
-Helyiség neve
+HelyisÃ©g neve
 
 ** Room number
-Szobaszám
+SzobaszÃ¡m
 
 ** Rooms
-Helyiségek
+HelyisÃ©gek
 
 ** Rows
 Sorok
 
 ** Run Setup again
-Újratelepítés
+ÃšjratelepÃ­tÃ©s
 
 ** S a v e
-M e n t é s
+M e n t Ã© s
 
 ** S a v e  a n d  E d i t
 
@@ -2722,16 +2722,16 @@ Szo
 
 
 ** Scheduling
-Ütemezés
+ÃœtemezÃ©s
 
 ** Schema
-Séma
+SÃ©ma
 
 ** Schema data
-Séma adatok
+SÃ©ma adatok
 
 ** Schemafile not found. (%s)
-A sémafájl nem található. (%s)
+A sÃ©mafÃ¡jl nem talÃ¡lhatÃ³. (%s)
 
 ** School
 
@@ -2740,7 +2740,7 @@ A sémafájl nem található. (%s)
 kiselejtezve
 
 ** Search
-Keresés
+KeresÃ©s
 
 ** Search by ID
 
@@ -2755,7 +2755,7 @@ Keresés
 
 
 ** Secretary
-Titkár
+TitkÃ¡r
 
 ** Self registration
 
@@ -2791,7 +2791,7 @@ Titkár
 szeptember
 
 ** Serial number
-Gyári szám
+GyÃ¡ri szÃ¡m
 
 ** Server
 Szerver
@@ -2803,13 +2803,13 @@ Szerver
 Szerver IP
 
 ** Service provider
-szolgáltató
+szolgÃ¡ltatÃ³
 
 ** Session name in cookie
 
 
 ** Session timeout
-Munkafolyamat idõtúllépés
+Munkafolyamat idÃµtÃºllÃ©pÃ©s
 
 ** Sessions
 Munkafolyamatok
@@ -2818,7 +2818,7 @@ Munkafolyamatok
 
 
 ** Setup
-Beállítások
+BeÃ¡llÃ­tÃ¡sok
 
 ** Setup needs a database-php-extension ! (%s)
 
@@ -2833,7 +2833,7 @@ Beállítások
 
 
 ** Setup: setup-data written to %s.
-Beállítási adatok elmentve: %s
+BeÃ¡llÃ­tÃ¡si adatok elmentve: %s
 
 ** Shapes
 
@@ -2866,7 +2866,7 @@ Megmutat
 
 
 ** Show quoted text
-Idézett szöveg megjelenítése
+IdÃ©zett szÃ¶veg megjelenÃ­tÃ©se
 
 ** Similar
 
@@ -2881,13 +2881,13 @@ Idézett szöveg megjelenítése
 
 
 ** Size
-Méret
+MÃ©ret
 
 ** Size (children)
 
 
 ** Slow
-Lassulás
+LassulÃ¡s
 
 ** small
 
@@ -2926,7 +2926,7 @@ SMTP hiba %s: %s
 
 
 ** Specification
-Specifikáció
+SpecifikÃ¡ciÃ³
 
 ** Spreadsheet
 
@@ -2938,13 +2938,13 @@ Specifikáció
 
 
 ** Start scheduled
-Ütemezés kezdete
+ÃœtemezÃ©s kezdete
 
 ** Started
 Elkezdve
 
 ** starts with
-ezzel kezdõdik
+ezzel kezdÃµdik
 
 ** State
 Megye
@@ -2953,13 +2953,13 @@ Megye
 
 
 ** Statistics
-Statisztikák
+StatisztikÃ¡k
 
 ** Status
-Állapot
+Ãllapot
 
 ** Statuses
-Állapotok
+Ãllapotok
 
 ** Strategies
 
@@ -2968,7 +2968,7 @@ Statisztikák
 Utca
 
 ** Structure
-Struktúra
+StruktÃºra
 
 ** Su
 Va
@@ -2986,13 +2986,13 @@ Va
 
 
 ** Subject
-Tárgy
+TÃ¡rgy
 
 ** Subjects
 
 
 ** Submit a patch
-Hibajavítás beküldése
+HibajavÃ­tÃ¡s bekÃ¼ldÃ©se
 
 ** Subpages
 
@@ -3022,13 +3022,13 @@ Felettes
 
 
 ** Supplier
-Szállító
+SzÃ¡llÃ­tÃ³
 
 ** Suppliers
-Szállítók
+SzÃ¡llÃ­tÃ³k
 
 ** Support
-Támogatás
+TÃ¡mogatÃ¡s
 
 ** Support request
 
@@ -3037,13 +3037,13 @@ Támogatás
 
 
 ** Suspended
-Felfüggesztve
+FelfÃ¼ggesztve
 
 ** Switch maintenance mode
-Karbantartási üzemmód
+KarbantartÃ¡si Ã¼zemmÃ³d
 
 ** Sync4j remote delete items
-Sync4j távtörlés engedélyezése
+Sync4j tÃ¡vtÃ¶rlÃ©s engedÃ©lyezÃ©se
 
 ** Syntax
 
@@ -3103,7 +3103,7 @@ Feladatok
 
 
 ** Text Document
-Szöveges dokumentum
+SzÃ¶veges dokumentum
 
 ** Text formatting rules
 
@@ -3130,22 +3130,22 @@ Cs
 Nincs ilyen URL.
 
 ** Theme
-Téma
+TÃ©ma
 
 ** third level support
 
 
 ** this file extension is not allowed
-ez a fájlkiterjesztés nem megengedett
+ez a fÃ¡jlkiterjesztÃ©s nem megengedett
 
 ** Thu
-Csü
+CsÃ¼
 
 ** Thursday
 
 
 ** Time and expenses
-Idõ és költségek
+IdÃµ Ã©s kÃ¶ltsÃ©gek
 
 ** Time limit
 
@@ -3160,16 +3160,16 @@ Idõ és költségek
 
 
 ** Title
-Cím
+CÃ­m
 
 ** To
 Kinek
 
 ** to be checked
-ellenõrizendõ
+ellenÃµrizendÃµ
 
 ** To continue installing Simple Groupware you must check the box under the license
-A Simple Groupware telepítésének folytatásához jelöld be a licensz szövege alatt olvasható nyilatkozatot!
+A Simple Groupware telepÃ­tÃ©sÃ©nek folytatÃ¡sÃ¡hoz jelÃ¶ld be a licensz szÃ¶vege alatt olvashatÃ³ nyilatkozatot!
 
 ** Today
 Ma
@@ -3178,10 +3178,10 @@ Ma
 
 
 ** Total
-Összesen
+Ã–sszesen
 
 ** Trace
-Nyomkövetés
+NyomkÃ¶vetÃ©s
 
 ** Trade fair
 
@@ -3190,7 +3190,7 @@ Nyomkövetés
 
 
 ** Translations of the GNU GPL
-A GNU GPL dokumentum fordításai
+A GNU GPL dokumentum fordÃ­tÃ¡sai
 
 ** Transportation costs
 
@@ -3202,7 +3202,7 @@ Kuka
 
 
 ** Tree
-Könyvtárszerkezet
+KÃ¶nyvtÃ¡rszerkezet
 
 ** Trigger failed
 
@@ -3217,19 +3217,19 @@ Ked
 
 
 ** Type
-Típus
+TÃ­pus
 
 ** U n i n s t a l l
 
 
 ** unable to find %s
-%s nem található
+%s nem talÃ¡lhatÃ³
 
 ** Unable to write to %s
 
 
 ** unconfirmed
-nem nyugtázott
+nem nyugtÃ¡zott
 
 ** Unconfirmed
 
@@ -3241,7 +3241,7 @@ nem nyugtázott
 
 
 ** uninterested
-érdektelen
+Ã©rdektelen
 
 ** Unique
 
@@ -3256,28 +3256,28 @@ nem nyugtázott
 Fel
 
 ** Update
-Frissítés
+FrissÃ­tÃ©s
 
 ** Update Simple Groupware
 
 
 ** Updated
-Frissítve
+FrissÃ­tve
 
 ** Updating schema %s from %s.
 
 
 ** Upload failed
-A feltöltés nem sikerült
+A feltÃ¶ltÃ©s nem sikerÃ¼lt
 
 ** Uploaded files
-Feltöltött fájlok
+FeltÃ¶ltÃ¶tt fÃ¡jlok
 
 ** Uploading
 
 
 ** urgent
-sürgõs
+sÃ¼rgÃµs
 
 ** URL
 
@@ -3307,19 +3307,19 @@ sürgõs
 
 
 ** User
-Felhasználó
+FelhasznÃ¡lÃ³
 
 ** User not found.
 
 
 ** Username
-Felhasználónév
+FelhasznÃ¡lÃ³nÃ©v
 
 ** Username must be different from the super administrator.
 
 
 ** Users
-Felhasználók
+FelhasznÃ¡lÃ³k
 
 ** V a l i d a t e
 
@@ -3328,7 +3328,7 @@ Felhasználók
 
 
 ** Vacation
-Vakáció
+VakÃ¡ciÃ³
 
 ** Vacation days per year
 
@@ -3340,13 +3340,13 @@ Vakáció
 
 
 ** Value
-Érték
+Ã‰rtÃ©k
 
 ** Value '%s' needs a group membership: %s
 
 
 ** Variable
-Változó
+VÃ¡ltozÃ³
 
 ** Variable already exists in table. (%s)
 
@@ -3370,10 +3370,10 @@ Változó
 
 
 ** Variables
-Változók
+VÃ¡ltozÃ³k
 
 ** Verbal recommendation
-Szóbeli ajánlás
+SzÃ³beli ajÃ¡nlÃ¡s
 
 ** verified
 
@@ -3382,7 +3382,7 @@ Szóbeli ajánlás
 
 
 ** very promising
-nagyon ígéretes
+nagyon Ã­gÃ©retes
 
 ** View
 
@@ -3394,7 +3394,7 @@ nagyon ígéretes
 
 
 ** Virus scanner
-Víruskeresõ
+VÃ­ruskeresÃµ
 
 ** Visibility
 
@@ -3409,7 +3409,7 @@ Víruskeresõ
 
 
 ** Waiting
-Várakozó
+VÃ¡rakozÃ³
 
 ** Warning
 
@@ -3430,10 +3430,10 @@ Sze
 
 
 ** Week
-Hét
+HÃ©t
 
 ** Week start
-Hét kezdete
+HÃ©t kezdete
 
 ** Weekend
 
@@ -3448,10 +3448,10 @@ heti
 
 
 ** white
-fehér
+fehÃ©r
 
 ** widowed
-özvegy
+Ã¶zvegy
 
 ** Width
 
@@ -3484,52 +3484,52 @@ fehér
 
 
 ** Workspace
-Munkaterület
+MunkaterÃ¼let
 
 ** write access
-írásjog
+Ã­rÃ¡sjog
 
 ** Write access (groups)
-Írás (csoportok)
+ÃrÃ¡s (csoportok)
 
 ** Write access (users)
-Írás (felhasználók)
+ÃrÃ¡s (felhasznÃ¡lÃ³k)
 
 ** Wrong database-version (%s). Please use at least %s !
 
 
 ** wrong directory
-hibás könyvtár
+hibÃ¡s kÃ¶nyvtÃ¡r
 
 ** wrong password
-hibás jelszó
+hibÃ¡s jelszÃ³
 
 ** Year
-Év
+Ã‰v
 
 ** yearly
-évi
+Ã©vi
 
 ** years
 
 
 ** yellow
-sárga
+sÃ¡rga
 
 ** yes
 igen
 
 ** You are not allowed to view this folder.
-A mappa megtekintése nem engedélyezett.
+A mappa megtekintÃ©se nem engedÃ©lyezett.
 
 ** Your message was read on %s.
 
 
 ** Your session has timed out.
-A munkafolyamat ideje lejárt.
+A munkafolyamat ideje lejÃ¡rt.
 
 ** Zipcode
-Irányítószám
+IrÃ¡nyÃ­tÃ³szÃ¡m
 
 ** {0} - {1} of {2}
 
