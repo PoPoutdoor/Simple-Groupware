@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<table modulename="RSS" default_view="display" orderby="order" order="asc" limit="20" sql_handler="rss" disable_folder_operations="true" disable_rights="true">
+  <view name="display" displayname="{t}Display{/t}">
+  </view>
+  <view name="details" displayname="{t}Details{/t}" tfield_1="title" showinsingleview="true">
+  </view>
+  
+  <field name="link" simple_type="text" hidden="true">
+  </field>
+  <field name="title" displayname="{t}Title{/t}" simple_type="text">
+	<linktext value="@ext/norefer.php?url=@link@"/>
+  </field>
+  <field name="content" displayname="{t}Summary{/t}" simple_type="htmlarea" width="60%">
+    <notin views="display" />
+  </field>
+  <field name="order" simple_type="int" hidden="true">
+  </field>
+</table>

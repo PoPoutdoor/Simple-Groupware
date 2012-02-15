@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<table modulename="{t}Portal{/t}" default_view="display" orderby="bookmarkname" order="asc" limit="20" enable_new="true" enable_edit="true" enable_delete="true" enable_empty="true">
+  <view name="display" displayname="{t}Display{/t}" template="portal" cols="3" groupby="category">
+  </view>
+
+  <field name="bookmarkname" displayname="{t}Name{/t}" simple_type="text" required="true">
+  </field>
+  <field name="url" displayname="{t}URL{/t}" simple_type="text" required="true">
+    <validate function="url"/>
+	<store function="urldecode"/>
+	<description value="alert('
+{t}Folder{/t}:\n
+index.php?folder=&lt;number-or-path&gt;&amp;view=&lt;view&gt;\n
+\n
+{t}Example without mountpoint{/t}:\n
+\n
+RSS:\n
+index.php?folder=rss:/&lt;URL&gt;\n
+\n
+{t}Example{/t}: {t}Calendar{/t}\n
+view=display&amp;markdate=week&amp;\n
+today=last monday\n
+\n
+{t}Find assets in multiple folders{/t}:\n
+find[]=assets|simple_&lt;module&gt;||&lt;field&gt;~&lt;value&gt;\n
+\n
+{t}Example{/t}:\n
+treetype=categories&amp;\n
+find[]=assets|simple_calendar||participants~&#166;johndoe&#166;&amp;\n
+find[]=assets|simple_calendar||folder=12301
+');"/>
+  </field>
+  <field name="refresh" displayname="{t}Refresh every x seconds{/t}" simple_type="int" simple_default="300">
+	<description value="alert('{t}minimum = 15 secs, 0 = disabled{/t}');"/>
+  </field>
+  <field name="height" displayname="{t}Height{/t}" simple_type="int" simple_default="210">
+  </field>
+  <field name="fullwidth" displayname="{t}Full width{/t}" simple_type="checkbox" simple_default="1">
+  </field>
+  <field name="notification"/>
+
+  <field name="category" displayname="{t}Category{/t}" simple_type="select" simple_size="1">
+	<data function="dbselect|simple_categories|categoryname,categoryname|cattype='portal'|categoryname asc|10"/>
+  </field>
+</table>

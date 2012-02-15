@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<table modulename="{t}Status{/t}" default_sql="show status" template="display" default_view="display" limit="20" orderby="Variable_name" order="asc">
+  <view name="display" displayname="{t}Display{/t}">
+  </view>
+  <field name="Variable_name" displayname="{t}Variable{/t}" simple_type="text" nowrap="true">
+  </field>
+  <field name="Value" displayname="{t}Value{/t}" simple_type="text">
+  </field>
+</table>

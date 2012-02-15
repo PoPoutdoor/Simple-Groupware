@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<assets>
+  <asset>
+	<bookmarkname>1) {t}News{/t}</bookmarkname>
+	<url>index.php?folder=^departments_@departmentname@/!news&amp;view=display</url>
+  </asset>
+  <asset>
+	<bookmarkname>2) {t}E-mail{/t}</bookmarkname>
+	<url>index.php?folder=^departments_@departmentname@/!emails&amp;view=display</url>
+  </asset>
+  <asset>
+	<bookmarkname>3) {t}Calendar{/t}</bookmarkname>
+	<url>index.php?folder=^departments_@departmentname@/!calendar&amp;view=display&amp;markdate=week&amp;today=last monday</url>
+  </asset>
+  <asset>
+	<bookmarkname>4) {t}Tasks{/t}</bookmarkname>
+	<url>index.php?folder=^departments_@departmentname@/!tasks&amp;view=display</url>
+  </asset>
+  <asset>
+	<bookmarkname>5) {t}Files{/t}</bookmarkname>
+	<url>index.php?folder=^departments_@departmentname@/!files&amp;view=display&amp;orderby=lastmodified&amp;order=desc</url>
+  </asset>
+  <asset>
+	<bookmarkname>6) {t}Bookmarks{/t}</bookmarkname>
+	<url>index.php?folder=^departments_@departmentname@/!bookmarks&amp;view=display</url>
+  </asset>
+</assets>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<table modulename="{t}Photo gallery{/t}" default_view="display" orderby="id" order="desc" limit="20" enable_new="true" enable_edit="true" enable_delete="true" enable_empty="true">
+  <view name="display" template="free" displayname="{t}Display{/t}" image_width="250" image_height="200" cols="3" row_height="270px" show_preview="true">
+  </view>
+  <field name="filename" displayname="{t}Title{/t}" simple_type="text" height="16px" required="true">
+  </field>
+  <field name="filedata" displayname="{t}Photo{/t}" simple_type="files" simple_file_size="10M" simple_size="10" required="true">
+  </field>
+  <field name="description" displayname="{t}Description{/t}" simple_type="textarea">
+  </field>
+</table>

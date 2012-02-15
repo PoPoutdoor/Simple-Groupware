@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<table modulename="{t}Backups{/t}" limit="20" default_view="display" orderby="created" order="desc" sql_handler="backups" enable_purge="true" enable_purgeall="true" enable_new_only="true">
+  <view name="display" displayname="{t}Display{/t}" groupby="category">
+  </view>
+  <singlebutton views="display" name="restore_here" displayname="{t}Restore here{/t}" onclick="locate('index.php?action_sys=restore_here&amp;file=@id@');"/>
+  <singlebutton views="display" name="restore" displayname="{t}Restore to origin{/t}" onclick="if (confirm('{t}Really overwrite existing dataset(s) ?{/t}')) locate('index.php?action_sys=restore&amp;file=@id@');"/>
+  <singlebutton views="display" name="restore_newer" displayname="{t}Restore only newer{/t}" onclick="if (confirm('{t}Really overwrite existing dataset(s) ?{/t}')) locate('index.php?action_sys=restore_newer&amp;file=@id@');"/>
+  <singlebutton views="display" name="restore_missing" displayname="{t}Restore only missing{/t}" onclick="locate('index.php?action_sys=restore_missing&amp;file=@id@');" />
+  
+  <field name="id" displayname="{t}Id{/t}" simple_type="id" hidden="true">
+  </field>
+  <field name="category" displayname="{t}Category{/t}" simple_type="text">
+	<onlyin views="display"/>
+  </field>
+  <field name="filename" displayname="{t}Title{/t}" simple_type="text" required="true">
+    <link value="download.php?field=id&amp;subitem=0&amp;dispo=noinline&amp;item=@id@" icon="download.gif"/>
+  </field>
+  <field name="filedata" displayname="{t}File{/t}" simple_type="files" simple_size="1" required="true" hidden="true" editable="true">
+    <validate function="fileupload|tar"/>
+  </field>
+  <field name="created" displayname="{t}Created{/t}" simple_type="text">
+    <filter views="all" function="shortdateformat" />
+	<onlyin views="display"/>
+  </field>
+  <field name="filesize" displayname="{t}Size{/t}" simple_type="text">
+    <filter views="all" function="filesize" />
+	<onlyin views="display"/>
+  </field>
+</table>

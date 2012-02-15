@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<table modulename="{t}Chat{/t}" default_view="display" orderby="roomname" order="asc" limit="20" enable_new="true" enable_delete="true" enable_empty="true" enable_edit="true" trigger_delete="deletechat" enable_asset_rights="full">
+  <view name="display" displayname="{t}Display{/t}">
+  </view>
+  <view name="chat" displayname="{t}Chat{/t}" template="details">
+  </view>
+
+  <field name="roomname" displayname="{t}Room name{/t}" simple_type="text" is_unique="true" required="true">
+    <linktext views="display" value="index.php?view=chat&amp;item[]=@id@"/>
+    <readonlyin views="edit"/>
+  </field>
+  <field name="description" displayname="{t}Description{/t}" simple_type="textarea">
+    <notin views="chat"/>
+  </field>
+  <field name="messages" displayname="{t}Messages{/t}" simple_type="chatarea">
+    <onlyin views="chat"/>
+    <filter views="chat" function="blank"/>
+  </field>
+</table>

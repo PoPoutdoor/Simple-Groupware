@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<table modulename="{t}Offices{/t}" default_view="display" orderby="officename" order="asc" limit="20" enable_new="true" enable_edit="true" enable_delete="true" enable_empty="true">
+  <view name="display" displayname="{t}Display{/t}">
+  </view>
+  <view name="details" displayname="{t}Details{/t}">
+  </view>
+
+  <field name="officename" displayname="{t}Office{/t}" simple_type="text" is_unique="true" required="true">
+    <readonlyin views="edit"/>
+    <linktext views="display" value="#index.php?view=details&amp;iframe=1&amp;item[]=@id@"/>
+  </field>
+  <field name="manager" displayname="{t}Manager{/t}" simple_type="select" simple_size="1">
+    <data function="dbselect|simple_sys_users|username,concat(lastname;' ';firstname)||lastname asc|10"/>
+	<link value="index.php?find=asset|simple_sys_users||username=@manager@&amp;view=details"/>
+  </field>
+  <field name="ceo" displayname="{t}CEO{/t}" simple_type="select" simple_size="1">
+    <data function="dbselect|simple_sys_users|username,concat(lastname;' ';firstname)||lastname asc|10"/>
+	<link value="index.php?find=asset|simple_sys_users||username=@ceo@&amp;view=details"/>
+  </field>
+  <field name="cio" displayname="{t}CIO{/t}" simple_type="select" simple_size="1">
+    <data function="dbselect|simple_sys_users|username,concat(lastname;' ';firstname)||lastname asc|10"/>
+	<link value="index.php?find=asset|simple_sys_users||username=@cio@&amp;view=details"/>
+  </field>
+  <field name="street" displayname="{t}Street{/t}" simple_type="text">
+    <link value="@ext/norefer.php?url=http://maps.google.com/maps?q=@zipcode@ @city@ @street@ @country@"/>
+	<notin views="display" />
+  </field>
+  <field name="zipcode" displayname="{t}Zipcode{/t}" simple_type="text">
+	<notin views="display" />
+  </field>
+  <field name="city" displayname="{t}City{/t}" simple_type="text">
+  </field>
+  <field name="state" displayname="{t}State{/t}" simple_type="text">
+	<notin views="display" />
+  </field>
+  <field name="country" displayname="{t}Country{/t}" simple_type="text">
+	<notin views="display" />
+  </field>
+  <field name="description" displayname="{t}Description{/t}" simple_type="textarea">
+	<notin views="display" />
+  </field>
+</table>

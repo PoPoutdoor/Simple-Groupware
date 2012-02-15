@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<table modulename="{t}Schema{/t}" sql_handler="schema" template="details" default_view="display" limit="20" orderby="id" order="asc">
+  <view name="display" displayname="{t}Display{/t}">
+  </view>
+  <field name="filename" displayname="{t}Name{/t}" simple_type="text">
+  </field>
+  <field name="filemtime" displayname="{t}Modified{/t}" simple_type="datetime">
+    <filter views="all" function="shortdateformat" />
+  </field>
+  <field name="filecontent" displayname="{t}Content{/t}" simple_type="htmlarea">
+  	<filter views="all" function="highlight_string" />
+  </field>
+</table>

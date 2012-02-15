@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<table modulename="{t}Structure{/t}" default_sql="show full columns from @table@" template="display" default_view="display" limit="20" orderby="Field" order="asc">
+  <view name="display" displayname="{t}Display{/t}">
+  </view>
+  <field name="Field" displayname="{t}Field{/t}" simple_type="text">
+  </field>
+  <field name="Type" displayname="{t}Type{/t}" simple_type="text">
+  </field>
+  <field name="Null" displayname="{t}Null{/t}" simple_type="text">
+  </field>
+  <field name="Key" displayname="{t}Key{/t}" simple_type="text">
+  </field>
+  <field name="Default" displayname="{t}Default{/t}" simple_type="text">
+  </field>
+  <field name="Extra">
+  </field>
+  <field name="Privileges">
+  </field>
+</table>

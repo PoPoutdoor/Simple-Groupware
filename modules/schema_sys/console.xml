@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<table modulename="{t}Console{/t}" default_view="display" orderby="name" order="asc" limit="20" enable_new="true" enable_edit="true" enable_purge="true" enable_purgeall="true">
+  <view name="display" displayname="{t}Display{/t}" groupby="console">
+  </view>
+  <viewbutton name="sql" displayname="SQL console" onclick="nWin('console.php?console=sql');" icon="sql.gif"/>
+  <viewbutton name="php" displayname="PHP console" onclick="nWin('console.php?console=php');" icon="php.gif"/>
+  <viewbutton name="sys" displayname="SYS console" onclick="nWin('console.php?console=sys');" icon="sys.gif"/>
+  
+  <field name="name" displayname="{t}Name{/t}" simple_type="text" is_unique="true" required="true">
+    <INDEX/>
+    <linktext views="all" value="#console.php?console=@console@&amp;name=@name@&amp;tlimit=@tlimit@&amp;mlimit=@mlimit@&amp;token=@token@"/>
+  </field>
+  <field name="command" displayname="{t}Command{/t}" simple_type="textarea" required="true">
+	<filter views="all" function="truncate|100"/>
+    <linktext views="all" value="#console.php?console=@console@&amp;name=@name@&amp;tlimit=@tlimit@&amp;mlimit=@mlimit@&amp;token=@token@"/>
+  </field>
+  <field name="console" displayname="Console" simple_type="select" simple_size="1" required="true">
+	<data reverse="true" values="sql_##_SQL|php_##_PHP|sys_##_SYS"/>
+	<linktext views="all" value="#console.php?console=@console@&amp;iframe=1"/>
+  </field>
+  <field name="tlimit" displayname="{t}Time limit{/t} ({t}seconds{/t})" simple_type="text">
+	<validate function="integer"/>
+  </field>
+  <field name="mlimit" displayname="{t}Memory limit{/t} (MB)" simple_type="text">
+	<validate function="integer"/>
+  </field>
+</table>

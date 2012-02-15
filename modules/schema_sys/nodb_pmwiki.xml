@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<table modulename="PmWiki" load_css="ext/cms/styles.css" load_library="lib/pmwiki/pmwiki.php" default_view="display" orderby="pagename" order="asc" limit="1" sql_handler="pmwiki" disable_folder_operations="true" disable_rights="true">
+  <view name="display" displayname="{t}Display{/t}" limit="20">
+  </view>
+  <view name="details" displayname="{t}Details{/t}" show_preview="true">
+  </view>
+  <view name="history" displayname="{t}History{/t}" visibility="button" template="details" accesskey="i" icon="history.png"></view>  
+  
+  <field name="pagename" displayname="{t}Page name (URL){/t}" simple_type="text" is_unique="true" required="true">
+    <linktext views="display" value="index.php?view=details&amp;item[]=@id@"/>
+  </field>
+  <field name="title" displayname="{t}Page title{/t}" simple_type="text" required="true">
+  </field>
+  <field name="data" displayname="{t}Content{/t}" simple_type="pmwikiarea">
+    <notin views="display"/>
+  </field>
+  <field name="author" displayname="{t}Author{/t}" simple_type="text" simple_default_function="getusername">
+  </field>
+</table>

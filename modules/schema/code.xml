@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<table modulename="{t}Source code{/t}" default_view="display" orderby="codename" order="asc" limit="20" enable_new="true" enable_edit="true" enable_delete="true" enable_empty="true" quick_add="codename,data">
+  <view name="display" displayname="{t}Display{/t}">
+  </view>
+  <view name="details" displayname="{t}Details{/t}" show_preview="true" template_mode="flat">
+  </view>
+  
+  <field name="codename" displayname="{t}Name{/t}" simple_type="text" is_unique="true" required="true">
+    <linktext views="display" value="index.php?view=details&amp;item[]=@id@"/>
+  </field>
+  <field name="data" displayname="{t}Data{/t}" simple_type="codearea">
+    <filter views="display" function="truncate|500"/>
+  </field>
+  <field name="description" displayname="{t}Description{/t}" simple_type="textarea">
+    <notin views="display"/>
+  </field>
+</table>

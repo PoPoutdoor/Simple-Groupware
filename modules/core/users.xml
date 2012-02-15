@@ -1,0 +1,54 @@
+﻿<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<folder name="@username@" type="portal" anchor="home_@username@" rread_users="@username@" rwrite_users="@username@" radmin_users="" data="modules/core/users_portal.xml">
+  <!-- example for imap mountpoint including the user's current password:
+    mountpoint="imap:%username%:%password%@localhost/INBOX/"
+  -->
+  <folder name="{t}E-mail{/t}" type="emails" anchor="emails_@username@">
+  </folder>
+  <folder name="{t}Calendar{/t}" type="calendar" anchor="calendar_@username@" rexception_users="freebusy:read:anonymous">
+    <folder name="{t}Locations{/t}" type="locations">
+    </folder>
+  </folder>
+  <folder name="{t}Tasks{/t}" type="tasks" anchor="tasks_@username@">
+    <folder name="{t}Statuses{/t}" type="statuses">
+    </folder>
+  </folder>
+  <folder name="{t}Contact activities{/t}" type="contactactivities">
+  </folder>
+  <folder name="{t}Contacts{/t}" type="contacts" anchor="contacts_@username@">
+    <folder name="{t}Companies{/t}" type="companies">
+    </folder>
+  </folder>
+  <folder name="{t}Passwords{/t}" type="passwords">
+  </folder>
+  <folder name="{t}Bookmarks{/t}" type="bookmarks" anchor="bookmarks_@username@">
+  </folder>
+  <folder name="{t}Notes{/t}" type="notes" anchor="notes_@username@">
+  </folder>
+  <folder name="{t}Files{/t}" type="files">
+    <folder name="{t}Import{/t}" mountpoint="fs:../simple_store/home/@username@/">
+    </folder>
+  </folder>
+  <folder name="{t}Photo gallery{/t}" type="gallery">
+  </folder>
+  <folder name="{t}Spreadsheet{/t}" type="spreadsheets">
+  </folder>
+  <folder name="GraphViz" type="graphviz">
+  </folder>
+  <folder name="{t}HTML documents{/t}" type="htmldocs">
+  </folder>
+  <folder name="{t}Wiki{/t}" type="cms">
+  </folder>
+  <folder name="{t}Categories{/t}" type="categories">
+  </folder>
+  <folder name="{t}Templates{/t}" type="templates">
+  </folder>
+  <folder name="{t}Offline folders{/t}" type="offline" anchor="offline_@username@">
+  </folder>
+</folder>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<table modulename="{t}Tables{/t}" default_view="display" orderby="Name" order="asc" limit="20" default_sql="show table status">
+  <view name="display" displayname="{t}Display{/t}">
+  </view>
+  <field name="Name" displayname="{t}Name{/t}" simple_type="text">
+  </field>
+  <field name="Rows" displayname="{t}Rows{/t}" simple_type="text" sum="true">
+  </field>
+  <field name="Create_time" displayname="{t}Created{/t}" simple_type="text">
+  </field>
+  <field name="Update_time" displayname="{t}Updated{/t}" simple_type="text">
+  </field>
+  <field name="Check_time" displayname="{t}Checked{/t}" simple_type="text">
+  </field>
+</table>

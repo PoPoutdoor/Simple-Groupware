@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<table modulename="{t}Bookmarks{/t}" default_view="display" orderby="sort" order="asc" limit="20" sql_handler="bookmarks" disable_folder_operations="true" disable_rights="true">
+  <view name="display" displayname="{t}Display{/t}" groupby="category">
+  </view>
+  <field name="sort" simple_type="int" hidden="true">
+  </field>
+  <field name="bookmarkname" displayname="{t}Name{/t}" simple_type="text" width="35%">
+	<linktext value="@ext/norefer.php?url=@url@"/>
+  </field>
+  <field name="url" displayname="{t}URL{/t}" simple_type="text" width="25%">
+	<linktext value="@ext/norefer.php?url=@url@"/>
+  </field>
+  <field name="description" displayname="{t}Description{/t}" simple_type="textarea" width="40%">
+	<filter views="all" function="truncate|100"/>
+  </field>
+  <field name="category" displayname="{t}Category{/t}" simple_type="text">
+  </field>
+</table>

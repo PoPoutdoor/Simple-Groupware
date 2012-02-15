@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<table modulename="{t}Mail identities{/t}" default_view="display" orderby="users" order="asc" limit="20" enable_new="true" enable_edit="true" enable_delete="true" enable_empty="true" disable_quick_add="true">
+  <view name="display" displayname="{t}Display{/t}">
+  </view>
+  <view name="details" displayname="{t}Details{/t}">
+  </view>
+  
+  <field name="identityid" displayname="{t}Id{/t}" simple_type="text" required="true" is_unique="true">
+    <validate function="regexp|/^[a-z0-9-_@\.]{3,128}$/|{t}Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}"/>
+    <linktext views="display" value="#index.php?view=details&amp;iframe=1&amp;item[]=@id@"/>
+  </field>
+  <field name="email" displayname="{t}E-mail{/t}" simple_type="text" is_unique="true" required="true">
+    <validate function="email"/>
+    <link value="@ext/norefer.php?url=@email@" icon="link_mail.gif"/>
+  </field>
+  <field name="users" displayname="{t}Users{/t}" simple_type="select" required="true">
+    <data title="{t}Lookup{/t}" function="dbselect|simple_sys_users|username,concat(lastname;' ';firstname)||lastname asc|10"/>
+	<data title="{t}Default{/t}" function="other_users"/>
+	<link value="index.php?find=asset|simple_sys_users||username=@users@&amp;view=details"/>
+  </field>
+  <field name="name" displayname="{t}Name{/t}" simple_type="text">
+  </field>
+  <field name="smtp" displayname="SMTP" simple_type="text" no_search_index="true" disable_ccp="true">
+    <onlyin views="new|edit|edit_as_new" />
+	<restore views="edit_as_new" function="empty_str"/>
+	<description title="{t}Help{/t}" value="
+alert('
+{t}If empty, the SMTP connection from the module users will be used.{/t}\n\n
+{t}Usage{/t}: username:password[:port[:tls]]@hostname\n
+{t}If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.{/t}\n
+{t}If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.{/t}\n
+');"/>
+  </field>
+  <!-- TODO implement, translate
+  <field name="signature" displayname="Signature" simple_type="textarea">
+    <notin views="display" />
+  </field>
+  -->
+  <field name="description" displayname="{t}Description{/t}" simple_type="textarea">
+    <notin views="display" />
+  </field>
+</table>

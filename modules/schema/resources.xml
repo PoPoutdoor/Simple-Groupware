@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<table modulename="{t}Resources{/t}" default_view="display" orderby="resourcename" order="asc" limit="20" enable_new="true" enable_edit="true" enable_delete="true" enable_empty="true" disable_quick_add="true">
+  <view name="display" displayname="{t}Display{/t}">
+  </view>
+  <view name="details" displayname="{t}Details{/t}">
+  </view>
+  
+  <field name="resourcename" displayname="{t}Resource{/t}" simple_type="text" is_unique="true" required="true">
+    <linktext views="display" value="#index.php?view=details&amp;iframe=1&amp;item[]=@id@"/>
+    <readonlyin views="edit"/>
+  </field>
+  <field name="devicetype" displayname="{t}Device type{/t}" simple_type="select" simple_size="1" required="true">
+    <data function="dbselect|simple_devicetypes|devicetypename,devicetypename||devicetypename asc|10"/>
+	<link value="index.php?find=asset|simple_devicetypes||devicetypename=@devicetype@&amp;view=display"/>
+  </field>
+  <field name="brand" displayname="{t}Brand{/t}" simple_type="select" simple_size="1" required="true">
+    <data function="dbselect|simple_brands|brandname,brandname||brandname asc|10"/>
+	<link value="index.php?find=asset|simple_brands||brandname=@brand@&amp;view=display"/>
+  </field>
+  <field name="model" displayname="{t}Model{/t}" simple_type="text" required="true">
+  </field>
+  <field name="distributor" displayname="{t}Distributor{/t}" simple_type="select" simple_size="1">
+    <data function="dbselect|simple_distributors|distributorname,distributorname||distributorname asc|10"/>
+	<link value="index.php?find=asset|simple_distributors||distributorname=@distributor@&amp;view=display"/>
+  </field>
+  <field name="description" displayname="{t}Description{/t}" simple_type="textarea">
+	<notin views="display" />
+  </field>
+</table>

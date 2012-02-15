@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<table modulename="{t}Modules{/t}" limit="20" default_view="display" orderby="name" order="asc" sql_handler="modules">
+  <view name="display" displayname="{t}Display{/t}">
+  </view>
+  <view name="details" displayname="{t}Details{/t}" showinsingleview="true" tfield_1="filename">
+  </view>
+  
+  <field name="id" displayname="{t}Id{/t}" simple_type="id" hidden="true">
+  </field>
+  <field name="name" displayname="{t}Name{/t}" simple_type="textarea">
+    <linktext views="display" value="#index.php?view=details&amp;iframe=1&amp;item[]=@id@"/>
+  </field>
+  <field name="modulename" displayname="{t}Module{/t}" simple_type="text">
+  </field>
+  <field name="filename" displayname="{t}File{/t}" simple_type="text">
+  </field>
+  <field name="filemtime" displayname="{t}Modified{/t}" simple_type="datetime">
+    <onlyin views="details" />
+    <filter views="all" function="shortdateformat" />
+  </field>
+  <field name="filectime" displayname="{t}Created{/t}" simple_type="datetime">
+    <onlyin views="details" />
+    <filter views="all" function="shortdateformat" />
+  </field>
+  <field name="filecontent" displayname="{t}Content{/t}" simple_type="htmlarea">
+    <onlyin views="details" />
+    <filter views="all" function="lib_modules::get_filecontent" />
+  </field>
+</table>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<table modulename="LDAP" limit="20" default_view="display" orderby="lastname" order="asc" sql_handler="ldap" disable_folder_operations="true" disable_rights="true">
+  <view name="display" displayname="{t}Display{/t}">
+  </view>
+  <field name="id" displayname="{t}Id{/t}" simple_type="id">
+    <notin views="display" />
+  </field>
+  <field name="lastname" displayname="{t}Last name{/t}" simple_type="text">
+  </field>
+  <field name="firstname" displayname="{t}First name{/t}" simple_type="text">
+  </field>
+  <field name="contactid" displayname="{t}Contact id{/t}" simple_type="text">
+  </field>
+  <field name="email" displayname="{t}E-mail{/t}" simple_type="text">
+    <link value="@ext/norefer.php?url=@email@" icon="link_mail.gif"/>
+  </field>
+  <field name="phone" displayname="{t}Phone{/t}" simple_type="text">
+    <link value="sip:@phone@" icon="phone.gif"/>
+  </field>
+  <field name="street" displayname="{t}Street{/t}" simple_type="text">
+  </field>
+</table>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<table modulename="{t}Example contacts{/t}" default_view="display" orderby="lastname" order="asc" limit="20" sql_handler="vcard" disable_folder_operations="true" disable_rights="true">
+  <view name="display" displayname="{t}Display{/t}">
+  </view>
+  <field name="title" displayname="{t}Title{/t}" simple_type="text">
+  </field>
+  <field name="lastname" displayname="{t}Last name{/t}" simple_type="text">
+  </field>
+  <field name="firstname" displayname="{t}First name{/t}" simple_type="text">
+  </field>
+  <field name="contactid" displayname="{t}Contact id{/t}" simple_type="text">
+  </field>
+  <field name="company" displayname="{t}Company{/t}" simple_type="text">
+  </field>
+  <field name="email" displayname="{t}E-mail{/t}" simple_type="text">
+    <link value="@ext/norefer.php?url=@email@" icon="link_mail.gif"/>
+  </field>
+  <field name="phone" displayname="{t}Phone{/t}" simple_type="text" nowrap="true">
+    <link value="sip:@phone@" icon="phone.gif"/>
+  </field>
+  <field name="birthday" displayname="{t}Birthday{/t}" simple_type="date" nowrap="true">
+    <filter views="all" function="dateformat||{t}m/d/Y{/t}"/>
+  </field>
+</table>

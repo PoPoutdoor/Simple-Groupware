@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<table modulename="{t}Statistics{/t}" default_view="details" orderby="username" sql_handler="stats" order="asc" limit="5" enable_purgeall="true" disable_history="true" enable_calendar="created" no_search_index="true">
+  <view name="details" displayname="{t}Details{/t}" nosinglebuttons="true" nosqlfolder="true">
+  </view>
+  
+  <field name="title" simple_type="text" nodb="true">
+	<hiddenin views="details"/>
+  </field>
+  <field name="image" displayname="{t}Image{/t}" simple_type="htmlarea" nodb="true">
+  </field>
+  <field name="username" simple_type="text" notinall="true">
+    <INDEX/>
+  </field>
+  <field name="loghour" simple_type="text" db_size="2" notinall="true">
+    <INDEX/>
+  </field>
+  <field name="logday" simple_type="text" db_size="2" notinall="true">
+    <INDEX/>
+  </field>
+  <field name="logweekpart" simple_type="text" db_size="2" notinall="true">
+    <INDEX/>
+  </field>
+  <field name="logweek" simple_type="text" db_size="2" notinall="true">
+    <INDEX/>
+  </field>
+  <field name="action" simple_type="text" db_size="20" notinall="true">
+    <INDEX/>
+  </field>
+  <field name="uri" simple_type="text" notinall="true"/>
+  <field name="weight" simple_type="int" notinall="true"/>
+</table>

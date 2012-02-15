@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<table modulename="{t}Indexes{/t}" default_sql="show index from @table@" template="display" default_view="display" limit="20" orderby="Table" order="asc">
+  <view name="display" displayname="{t}Display{/t}">
+  </view>
+  <field name="Table" displayname="{t}Table{/t}">
+  </field>
+  <field name="Non_unique" displayname="{t}Non unique{/t}">
+  </field>
+  <field name="Key_name" displayname="{t}Key name{/t}" simple_type="text">
+  </field>
+  <field name="Seq_in_index">
+  </field>
+  <field name="Column_name" displayname="{t}Column name{/t}" simple_type="text">
+  </field>
+  <field name="Collation">
+  </field>
+  <field name="Cardinality" displayname="{t}Cardinality{/t}" simple_type="text" sum="true">
+  </field>
+  <field name="Sub_part">
+  </field>
+  <field name="Packed" displayname="{t}Packed{/t}" simple_type="text">
+  </field>
+  <field name="Null">
+  </field>
+  <field name="Index_type" displayname="{t}Index type{/t}" simple_type="text">
+  </field>
+  <field name="Comment">
+  </field>
+</table>

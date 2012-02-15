@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<table modulename="{t}Companies{/t}" default_view="display" orderby="companyname" order="asc" limit="20" enable_new="true" enable_edit="true" enable_delete="true" enable_empty="true">
+  <view name="display" displayname="{t}Display{/t}" groupby="category">
+  </view>
+  <view name="details" displayname="{t}Details{/t}">
+  </view>
+  <singlebutton views="display|details" name="contacts" displayname="{t}Contacts{/t}" onclick="locate('index.php?view=display&amp;find=assets|simple_contacts||company=@companyname@');" icon="../modules/contacts.png" />
+
+  <field name="companyname" displayname="{t}Company{/t}" simple_type="text" is_unique="true" required="true">
+    <linktext views="display" value="#index.php?view=details&amp;iframe=1&amp;item[]=@id@"/>
+  </field>
+  <field name="numberofemps" displayname="{t}Number of employees{/t}" simple_type="text">
+  </field>
+  <field name="industry" displayname="{t}Industry{/t}" simple_type="text">
+  </field>
+  <field name="street" displayname="{t}Street{/t}" simple_type="text">
+    <link value="@ext/norefer.php?url=http://maps.google.com/maps?q=@zipcode@ @city@ @street@ @country@"/>
+  </field>
+  <field name="zipcode" displayname="{t}Zipcode{/t}" simple_type="text">
+    <notin views="display"/>
+  </field>
+  <field name="city" displayname="{t}City{/t}" simple_type="text">
+  </field>
+  <field name="state" displayname="{t}State{/t}" simple_type="text">
+	<notin views="display" />
+  </field>
+  <field name="country" displayname="{t}Country{/t}" simple_type="text">
+	<notin views="display" />
+  </field>
+  <field name="homepage" displayname="{t}Homepage{/t}" simple_type="text">
+    <validate function="url"/>
+	<notin views="display" />
+    <link value="@ext/norefer.php?url=@homepage@"/>
+  </field>
+  <field name="phone" displayname="{t}Phone{/t}" simple_type="text">
+    <link value="sip:@phone@" icon="phone.gif"/>
+  </field>
+  <field name="description" displayname="{t}Description{/t}" simple_type="textarea">
+	<notin views="display" />
+  </field>
+  <field name="category" displayname="{t}Category{/t}" simple_type="select" simple_size="1">
+	<data function="dbselect|simple_categories|categoryname,categoryname|cattype='companies'|categoryname asc|10"/>
+  </field>
+</table>

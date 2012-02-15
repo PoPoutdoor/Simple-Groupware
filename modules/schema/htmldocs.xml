@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<table modulename="{t}HTML documents{/t}" default_view="display" orderby="htmldocname" order="asc" limit="20" enable_new="true" enable_edit="true" enable_delete="true" enable_empty="true" quick_add="htmldocname,data">
+  <view name="display" displayname="{t}Display{/t}">
+  </view>
+  <view name="details" displayname="{t}Details{/t}" show_preview="true" template_mode="flat">
+  </view>
+  
+  <field name="htmldocname" displayname="{t}Name{/t}" simple_type="text" is_unique="true" required="true">
+    <linktext views="display" value="index.php?view=details&amp;item[]=@id@"/>
+  </field>
+  <field name="data" displayname="{t}Data{/t}" simple_type="htmlarea" input_height="260">
+ 	<store function="html_tidy"/>
+	<filter views="display" function="html2text"/>
+<!--
+	<filter views="display" function="html_simplify"/>
+-->
+  </field>
+  <field name="description" displayname="{t}Description{/t}" simple_type="textarea">
+    <notin views="display"/>
+  </field>
+  <field name="image" displayname="{t}Image{/t}" simple_type="files" simple_file_size="5M" simple_size="10">
+    <validate function="fileupload|jpg,jpeg,gif,png"/>
+	<notin views="display" />
+  </field>
+  <field name="attachment" displayname="{t}Attachment{/t}" simple_type="files" simple_file_size="10M" simple_size="10">
+	<notin views="display"/>
+  </field>
+</table>

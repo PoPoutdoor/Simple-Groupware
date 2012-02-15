@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<table modulename="{t}Offline reading{/t}" default_view="display" orderby="bookmarkname" order="asc" limit="20" enable_new="true" enable_edit="true" enable_delete="true" enable_empty="true">
+  <view name="display" displayname="{t}Display{/t}">
+  </view>
+  <viewbutton name="offline" views="display" displayname="{t}Offline reading{/t}" onclick="locate('offline.php');" icon="offline.png" />
+  
+  <field name="bookmarkname" displayname="{t}Name{/t}" simple_type="text" required="true">
+	<linktext value="#ext/norefer.php?url=@url@"/>
+  </field>
+  <field name="url" displayname="{t}URL{/t}" simple_type="text" required="true" width="50%">
+    <validate function="url"/>
+	<store function="urldecode"/>
+	<linktext value="#ext/norefer.php?url=@url@"/>
+	<description value="alert('
+{t}Folder{/t}:\n
+index.php?folder=&lt;number-or-path&gt;&amp;view=&lt;view&gt;\n
+\n
+{t}Example{/t}: {t}Calendar{/t}\n
+view=display&amp;markdate=week&amp;\n
+today=last monday');"/>
+  </field>
+</table>

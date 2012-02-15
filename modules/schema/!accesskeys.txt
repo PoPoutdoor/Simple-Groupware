@@ -1,0 +1,45 @@
+/**
+ * @package Simple Groupware
+ * @link http://www.simple-groupware.de
+ * @author Thomas Bley
+ * @copyright Copyright (C) 2002-2012 by Thomas Bley
+ * @license GPLv2
+ */
+
+Firefox 			  Alt+Shift+[key]
+Opera				  Shift-Esc+[key] (no numbers)
+Safari 				  Ctrl+[key]
+Chrome 			  	  Alt+[key], Alt+Shift+[key] ('e' and 'f')
+Internet Explorer 	  Alt-x-Enter
+
+x		cut				asset_helper_views
+c		copy			asset_helper_views
+v		paste			asset_helper_views
+e		edit			asset_helper_views
+i		history			asset_helper_views
+r		edit_as_new		asset_helper_views
+n		new				asset_helper_views
+d		delete			asset_helper_views
+y		empty			asset_helper_views
+k		quick add		asset_helper_views
+<		all				asset_helper_views
+
+-		prev page					asset_helper_views
++		next page					asset_helper_views
+q		first page					asset_helper_views
+w		last page					asset_helper_views
+
+a		select all					asset_helper_selitem
+s		save (edit/new)				asset_edit
+b		save + go back (edit/new)	asset_edit
+f		find/search					asset_helper_tree,asset_helper_paths
+l		login/out					menu.js
+t		show/hide tree  			asset_helper_tree
+h		home						menu.js
+
+1-9		views						asset_helper_views
+
+o		options pane				asset_helper_tree
+m		mountpoint pane				asset_helper_tree
+p		preview						asset_helper_form_fields
+0		edit rights					menu.js

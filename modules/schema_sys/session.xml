@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<table modulename="{t}Sessions{/t}" default_view="display" orderby="username" order="asc" limit="20" enable_purge="true" enable_purgeall="true" disable_history="true" no_search_index="true">
+  <view name="display" displayname="{t}Display{/t}" nosqlfolder="true">
+  </view>
+  <field name="id" displayname="{t}Id{/t}" db_size="40" simple_type="text">
+    <notin views="display"/>
+  </field>
+  <field name="data" simple_type="textarea" notinall="true"/>
+  <field name="username" displayname="{t}Username{/t}" simple_type="text"/>
+  <field name="expiry" displayname="{t}Expiry{/t}" simple_type="int">
+    <filter views="all" function="shortdatetimeformat"/>
+  </field>
+</table>

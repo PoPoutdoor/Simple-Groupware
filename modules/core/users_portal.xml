@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<assets>
+  <asset>
+	<bookmarkname>1) {t}E-mail{/t}</bookmarkname>
+	<url>index.php?folder=^home_@username@/!emails&amp;view=display&amp;limit=50</url>
+	<height>260</height>
+  </asset>
+  <asset>
+	<bookmarkname>2) {t}My appointments{/t}</bookmarkname>
+	<url>index.php?folder=^calendar_@username@&amp;view=display&amp;markdate=week&amp;today=last monday<!--
+		-->&amp;find[]=assets|simple_calendar||participants~¦@username@¦</url>
+  </asset>
+  <asset>
+	<bookmarkname>3) {t}My tasks{/t}</bookmarkname>
+	<url>index.php?folder=^tasks_@username@&amp;view=display&amp;find[]=assets|simple_tasks||responsibles~¦@username@¦</url>
+  </asset>
+  <asset>
+	<bookmarkname>4) {t}Bookmarks{/t}</bookmarkname>
+	<url>index.php?folder=^bookmarks_@username@&amp;view=display</url>
+  </asset>
+  <asset>
+	<bookmarkname>5) {t}Notes{/t}</bookmarkname>
+	<url>index.php?folder=^notes_@username@&amp;view=display</url>
+  </asset>
+  <asset>
+	<bookmarkname>6) {t}Files{/t}</bookmarkname>
+	<url>index.php?folder=^home_@username@/!files&amp;view=display&amp;orderby=lastmodified&amp;order=desc</url>
+  </asset>
+</assets>

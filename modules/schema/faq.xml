@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<table modulename="{t}FAQ{/t}" default_view="display" orderby="title" order="asc" limit="20" enable_new="true" enable_edit="true" enable_delete="true" enable_empty="true" quick_add="title,summary,details">
+  <view name="display" displayname="{t}Display{/t}">
+  </view>
+  <view name="details" displayname="{t}Details{/t}" template_mode="small">
+  </view>
+  
+  <field name="title" displayname="{t}Title{/t}" simple_type="text" required="true">
+    <linktext views="display" value="#index.php?view=details&amp;iframe=1&amp;item[]=@id@"/>
+  </field>
+  <field name="summary" displayname="{t}Summary{/t}" simple_type="wikiarea">
+  </field>
+  <field name="details" displayname="{t}Details{/t}" simple_type="wikiarea">
+    <notin views="display"/>
+  </field>
+  <field name="attachment" displayname="{t}Attachment{/t}" simple_type="files" simple_file_size="10M" simple_size="10">
+    <notin views="display"/>
+  </field>
+  <field name="fcomment" displayname="{t}Comment{/t}" simple_type="wikiarea">
+    <notin views="display"/>
+  </field>
+</table>

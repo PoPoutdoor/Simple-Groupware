@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<table modulename="{t}Chat{/t}" default_view="display">
+  <view name="display" displayname="{t}Display{/t}" />
+  <field name="room" simple_type="text">
+    <KEY/>
+  </field>
+  <field name="message" simple_type="textarea">
+  </field>
+</table>

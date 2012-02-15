@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<table modulename="{t}Locations{/t}" default_view="display" orderby="locationname" order="asc" limit="20" enable_new="true" enable_edit="true" enable_delete="true" enable_empty="true">
+  <view name="display" displayname="{t}Display{/t}">
+  </view>
+  <view name="details" displayname="{t}Details{/t}">
+  </view>
+  
+  <singlebutton views="all" name="calendar" displayname="{t}Calendar{/t}" onclick="locate('index.php?find=assets|simple_calendar||location=@locationname@&amp;view=display&amp;markdate=week&amp;begin=today');" icon="../modules/calendar.png" />
+
+  <field name="locationname" displayname="{t}Location{/t}" simple_type="text" is_unique="true" required="true">
+    <readonlyin views="edit"/>
+    <linktext views="display" value="#index.php?view=details&amp;iframe=1&amp;item[]=@id@"/>
+  </field>
+  <field name="roomnumber" displayname="{t}Room number{/t}" simple_type="text">
+  </field>
+  <field name="phone" displayname="{t}Phone{/t}" simple_type="text">
+    <link value="sip:@phone@" icon="phone.gif"/>
+  </field>
+  <field name="street" displayname="{t}Street{/t}" simple_type="text">
+    <link value="@ext/norefer.php?url=http://maps.google.com/maps?q=@zipcode@ @city@ @street@ @country@"/>
+  </field>
+  <field name="zipcode" displayname="{t}Zipcode{/t}" simple_type="text">
+  </field>
+  <field name="city" displayname="{t}City{/t}" simple_type="text">
+  </field>
+  <field name="state" displayname="{t}State{/t}" simple_type="text">
+	<notin views="display" />
+  </field>
+  <field name="country" displayname="{t}Country{/t}" simple_type="text">
+  </field>
+  <field name="description" displayname="{t}Description{/t}" simple_type="textarea">
+	<notin views="display" />
+  </field>
+</table>

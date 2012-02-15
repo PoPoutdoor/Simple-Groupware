@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<table modulename="{t}Surveys{/t}" default_view="display" orderby="question" order="asc" limit="20" enable_new="true" enable_edit="true" enable_delete="true" enable_empty="true">
+  <view name="display" displayname="{t}Vote{/t}">
+  </view>
+  <view name="answers" displayname="{t}Answers{/t}" template="display" showonly="question|answers">
+  </view>
+  <view name="details" displayname="{t}Details{/t}">
+  </view>
+
+  <field name="question" displayname="{t}Question{/t}" simple_type="text" required="true">
+  </field>
+  <field name="qtype" displayname="{t}Type{/t}" simple_type="select" simple_size="1" required="true">
+    <data title="{t}Default{/t}" values="text_##_{t}Input field{/t}|textarea_##_{t}Text area{/t}|radio_##_{t}Single choice{/t}|checkbox_##_{t}Multiple choice{/t}"/>
+	<hiddenin views="display"/>
+  </field>
+  <field name="choices" displayname="{t}Choices{/t}" simple_type="text" no_checks="true" sum="true">
+    <filter views="display" function="lib_surveys::choices"/>
+	<description value="alert('{t}Comma separated values{/t}');"/>
+  </field>
+  <field name="description" displayname="{t}Description{/t}" simple_type="textarea">
+  </field>
+  <field name="answers" displayname="{t}Answers{/t}" simple_type="textarea" disable_ccp="true">
+	<onlyin views="details|answers"/>
+	<filter views="all" function="lib_surveys::answers"/>
+  </field>
+  <field name="votedby" displayname="{t}Voted by{/t}" simple_type="textarea" disable_ccp="true">
+	<onlyin views="details"/>
+	<filter views="all" function="lib_surveys::votedby"/>
+  </field>
+</table>

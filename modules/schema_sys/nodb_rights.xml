@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  @package Simple Groupware
+  @link http://www.simple-groupware.de
+  @author Thomas Bley
+  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @license GPLv2
+-->
+<table modulename="{t}Rights{/t}" default_sql="select * from simple_sys_tree where id=@folder@" template="details" default_view="display" orderby="folder" order="asc">
+  <view name="display" displayname="{t}Display{/t}">
+  </view>
+  <field name="id" displayname="{t}Id{/t}" simple_type="id">
+  </field>
+  <field name="ftitle" displayname="{t}Title{/t}" simple_type="text">
+  </field>
+  <field name="icon" displayname="{t}Folder icon{/t}" simple_type="select" simple_size="1">
+  </field>
+  <field name="fdescription" displayname="{t}Description{/t}" simple_type="textarea">
+  </field>
+  <field name="fquota" displayname="{t}Quota [MB]{/t}" simple_type="int">
+  </field>
+  <field name="default_values" displayname="{t}Default values for assets{/t}" simple_type="textarea">
+  </field>
+  <field name="rread_users" displayname="{t}Read access (users){/t}" simple_type="select">
+    <link value="index.php?find=asset|simple_sys_users||username=@rread_users@&amp;view=details"/>
+  </field>
+  <field name="rread_groups" displayname="{t}Read access (groups){/t}" simple_type="select">
+    <link value="index.php?find=asset|simple_sys_groups||groupname=@rread_groups@&amp;view=display"/>
+  </field>
+  <field name="rwrite_users" displayname="{t}Write access (users){/t}" simple_type="select">
+    <link value="index.php?find=asset|simple_sys_users||username=@rwrite_users@&amp;view=details"/>
+  </field>
+  <field name="rwrite_groups" displayname="{t}Write access (groups){/t}" simple_type="select">
+    <link value="index.php?find=asset|simple_sys_groups||groupname=@rwrite_groups@&amp;view=display"/>
+  </field>
+  <field name="radmin_users" displayname="{t}Admin access (users){/t}" simple_type="select">
+    <link value="index.php?find=asset|simple_sys_users||username=@radmin_users@&amp;view=details"/>
+  </field>
+  <field name="radmin_groups" displayname="{t}Admin access (groups){/t}" simple_type="select">
+    <link value="index.php?find=asset|simple_sys_groups||groupname=@radmin_groups@&amp;view=display"/>
+  </field>
+  <field name="rexception_users" displayname="{t}View access (users){/t}" simple_type="text">
+  </field>
+  <field name="rexception_groups" displayname="{t}View access (groups){/t}" simple_type="text">
+  </field>
+  <field name="notification" displayname="{t}Notification{/t}" simple_type="textarea">
+  </field>
+  <field name="history" displayname="{t}History{/t}" simple_type="textarea"></field>
+</table>
