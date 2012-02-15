@@ -1,8 +1,8 @@
 Simple Groupware Contributions
-===============================
+==============================
 
 Translations
-=============
+============
 
 German / English
 ----------------
@@ -112,7 +112,7 @@ Kayo Katsuragi (kayo § kei.no-ip.com)
 
 
 Libraries
-==========
+=========
 
 Smarty (2.6.26, 08/14/09)
 -------------------------
@@ -304,7 +304,7 @@ Homepage: http://php-java-bridge.sourceforge.net/
 Services_JSON (1.0.0, 08/14/09)
 -------------------------------
 Authors: Michal Migurski (mike-json § teczno.com),
-		 Matt Knapp (mdknapp § gmail.com),
+         Matt Knapp (mdknapp § gmail.com),
          Brett Stimmerman (brettstimmerman § gmail.com)
 Copyright 2005 Michal Migurski
 License: BSD License
