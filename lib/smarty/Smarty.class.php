@@ -1707,9 +1707,8 @@ class Smarty
             fclose($fd);
 
 	        // tb
-			if (DEBUG and function_exists("sys_remove_trans")) $contents = sys_remove_trans($contents);
-			
 			$contents = preg_replace("|<!--.*?/\*.*?\*/.*?-->|msi","",$contents);
+			if (function_exists("trans")) $contents = trans($contents);
 			$matches = "";
 			preg_match_all("|{include file=\"(.*?)\"(.*?)}|im",$contents,$matches,PREG_SET_ORDER);
 			foreach ($matches as $match) {
@@ -1760,7 +1759,8 @@ class Smarty
             $_crc32 = substr($_crc32, 0, 2) . $_compile_dir_sep .
                       substr($_crc32, 0, 3) . $_compile_dir_sep . $_crc32;
 // tb
-            $_return .= '%%'.$this->_version.'%%' . $_crc32 . '%%' . $_filename;
+			$lang = defined("LANG") ? LANG : "en";
+            $_return .= '%%'.$this->_version.'%%' . $_crc32 . '%%' . $lang . '%%' . $_filename;
         }
 
         return $_return;
