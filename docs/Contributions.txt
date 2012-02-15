@@ -304,8 +304,7 @@ Homepage: http://php-java-bridge.sourceforge.net/
 Services_JSON (1.0.0, 08/14/09)
 -------------------------------
 Authors: Michal Migurski (mike-json § teczno.com),
-         Matt Knapp (mdknapp § gmail.com),
-         Brett Stimmerman (brettstimmerman § gmail.com)
+         Matt Knapp (mdknapp § gmail.com), Brett Stimmerman (brettstimmerman § gmail.com)
 Copyright 2005 Michal Migurski
 License: BSD License
 License Url: http://www.opensource.org/licenses/bsd-license.php
