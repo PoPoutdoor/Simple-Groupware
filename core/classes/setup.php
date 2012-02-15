@@ -1,0 +1,121 @@
+<?php
+// GPL
+
+class setup {
+
+static $config_old = "";
+
+static $errors = array();
+
+static function build_customizing($file) {
+  if (!file_exists($file)) return;
+  self::out("Building customizations:");
+  self::out("Execute ".$file);
+  require($file);
+}
+
+static function customize_replace($file,$code_remove,$code_new) {
+  echo $file.":<br/>Replace:<br/>".nl2br(modify::htmlquote($code_remove))."<br/><br/>with:<br/>".nl2br(modify::htmlquote($code_new))."<br/><br/>\n";
+  $data = file_get_contents("../bin/".$file);
+  if (strpos($data,$code_remove)===false) {
+	throw new Exception("code not found in: ".$file." Code: ".$code_remove);
+  }
+  $data = str_replace($code_remove,$code_new,$data);
+  file_put_contents("../bin/".$file,$data);
+}
+
+static function out($str="",$nl=true,$exit=false) {
+  echo $str;
+  if ($nl) echo "<br>\n";
+  if ($exit) exit;
+  flush();
+  @ob_flush();
+}
+
+static function out_exit($str) {
+  self::out($str,false,true);
+}
+
+static function get_config_old($key, $full=false, $default="") {
+  $config_old = self::$config_old;
+  if (($pos = strpos($config_old,"define('".$key."',"))) {
+	$pos = $pos+strlen($key)+10;
+	$end = strpos($config_old,"\n",$pos)-$pos-2;
+	$result = substr($config_old,$pos,$end);
+	if (!$full) $result = trim($result,"'\"");
+	if ($key=="INVALID_EXTENSIONS") $result = str_replace(",url,", ",", $result);
+	return $result;
+  }
+  return $default;
+}
+
+private static function _get_lang_strings($language) {
+  $lang_file = "lang/".basename($language).".lang";
+  $data = @file_get_contents($lang_file);
+  $data .= @file_get_contents("../".$lang_file);
+  $data .= @file_get_contents(SIMPLE_EXT.$lang_file);
+  
+  $unicode = false;
+  $lang_strings = array();
+  if ($data!="") {
+    $data = explode("{t"."}",$data);
+    if (ord($data[0])==239) $unicode = true; // BOM
+    foreach ($data as $elem) {
+      if ($elem!="") {
+  	    $elem = explode("{/t"."}",$elem);
+	    $elem[0] = trim($elem[0]);
+	    if (isset($elem[1])) $elem[1] = trim($elem[1]);
+	    if (!empty($elem[1])) {
+	      if (!$unicode) $elem[1] = utf8_encode($elem[1]);
+	      $lang_strings[$elem[0]] = htmlspecialchars($elem[1],ENT_QUOTES,"UTF-8");
+  } } } }
+  return $lang_strings;
+}
+
+static function dirs_create_htaccess($dirname) {
+  if (!file_exists($dirname.".htaccess")) {
+    if (!@file_put_contents($dirname.".htaccess", "Order deny,allow\nDeny from all\n", LOCK_EX)) {
+	  setup::error(t("Please give write access to %s",$dirname),25);
+    }
+  }
+  dirs_create_index_htm($dirname);
+}
+
+static function dirs_create_dir($dirname) {
+  if (!is_dir($dirname)) sys_mkdir($dirname);
+  dirs_create_index_htm($dirname."/");
+}
+
+static function error($msg,$id=0) {
+  self::$errors[] = array($msg,$id);
+}
+
+static function display_errors($exit) {
+  $err = "";
+  $msg = "";
+  foreach (self::$errors as $message) {
+    $msg .= str_replace("\n","<br>",modify::htmlquote($message[0]))."<br>";
+	$err .= $message[1]."_";
+  }
+  $output = '
+    <br>
+    <center>
+	<img src="http://www.simple-groupware.de/cms/logos.php?v='.CORE_VERSION.'&d='.PHP_VERSION.'_'.PHP_OS.'&e='.$err.'" start="width:1px; height:1px;">
+    <div style="border-bottom: 1px solid black; letter-spacing: 2px; font-size: 18px; font-weight: bold;">Simple Groupware Setup</div>
+	<br>'.t("Error").':<br>
+	<error>'.$msg.'</error>
+	<br><br>
+	<a href="index.php">'.t("Relaunch Setup").'</a><br><br>
+	<hr>
+	<a href="http://www.simple-groupware.de/cms/Main/Installation" target="_blank">Installation manual</a> / 
+	<a href="http://www.simple-groupware.de/cms/Main/Update" target="_blank">Update manual</a><hr>
+	<a href="http://www.simple-groupware.de/cms/Main/Documentation" target="_blank">Documentation</a> / 
+	<a href="http://www.simple-groupware.de/cms/Main/FAQ" target="_blank">FAQ</a><hr>
+	<br>
+	</center>
+  ';
+  if ($exit) exit();
+  phpinfo();
+}
+
+}
