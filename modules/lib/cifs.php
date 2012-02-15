@@ -34,7 +34,7 @@ static function count($path,$where,$vars,$mfolder) {
     }
   } catch (Exception $e) {
     if (DEBUG_JAVA) $msg = java_cast($e, "string"); else $msg = $e->getMessage();
-    sys_warning("{t}Access denied.{/t} [count] ".$msg." ".$path);
+    sys_warning(t("Access denied.")." [count] ".$msg." ".$path);
   }
   return $count;
 }
@@ -49,7 +49,7 @@ static function select($path,$fields,$where,$order,$limit,$vars,$mfolder) {
     }
   } catch (Exception $e) {
     if (DEBUG_JAVA) $msg = java_cast($e, "string"); else $msg = $e->getMessage();
-    sys_warning("{t}Access denied.{/t} [select] ".$msg." ".$path);
+    sys_warning(t("Access denied.")." [select] ".$msg." ".$path);
   }
   if ($fields==array("*")) $fields = array("id", "folder");
   $rows = array();
@@ -96,7 +96,7 @@ static function select($path,$fields,$where,$order,$limit,$vars,$mfolder) {
 		$meta = self::_get_meta($row["id"],$mfolder,$ntlm);
 	  } catch (Exception $e) {
 	    if (DEBUG_JAVA) $msg = java_cast($e, "string"); else $msg = $e->getMessage();
-	    sys_warning("{t}Access denied.{/t} [get_meta] ".$msg." ".$path);
+	    sys_warning(t("Access denied.")." [get_meta] ".$msg." ".$path);
 	  }
 	  foreach ($meta as $mkey=>$mval) $rows[$key][$mkey] = $mval;
 	}
@@ -110,10 +110,10 @@ static function rename_folder($title,$path,$mfolder) {
 	$source = new Java("jcifs.smb.SmbFile","smb://".$path,$ntlm);
 	$dest = new Java("jcifs.smb.SmbFile","smb://".dirname($path)."/".$title."/",$ntlm);
 	$source->renameTo($dest);
-	if (!$dest->isDirectory()) exit("{t}Access denied.{/t}");
+	if (!$dest->isDirectory()) exit(t("Access denied."));
   } catch (Exception $e) {
 	if (DEBUG_JAVA) $msg = java_cast($e, "string"); else $msg = $e->getMessage();
-	exit("{t}Access denied.{/t} [rename_folder] ".$msg." ".$path);
+	exit(t("Access denied.")." [rename_folder] ".$msg." ".$path);
   }
   return "ok";
 }
@@ -123,10 +123,10 @@ static function create_folder($title,$parent,$mfolder) {
 	$ntlm = self::_get_ntlm($mfolder);
 	$w = new Java("jcifs.smb.SmbFile","smb://".$parent.$title."/",$ntlm);
 	$w->mkdir();
-	if (!$w->isDirectory()) exit("{t}Access denied.{/t}");
+	if (!$w->isDirectory()) exit(t("Access denied."));
   } catch (Exception $e) {
 	if (DEBUG_JAVA) $msg = java_cast($e, "string"); else $msg = $e->getMessage();
-	exit("{t}Access denied.{/t} [create_folder] ".$msg." ".$parent);
+	exit(t("Access denied.")." [create_folder] ".$msg." ".$parent);
   }
   return "ok";
 }
@@ -136,10 +136,10 @@ static function delete_folder($path,$mfolder) {
 	$ntlm = self::_get_ntlm($mfolder);
 	$w = new Java("jcifs.smb.SmbFile","smb://".$path,$ntlm);
 	$w->delete();
-	if ($w->isDirectory()) exit("{t}Access denied.{/t}");
+	if ($w->isDirectory()) exit(t("Access denied."));
   } catch (Exception $e) {
 	if (DEBUG_JAVA) $msg = java_cast($e, "string"); else $msg = $e->getMessage();
-	exit("{t}Access denied.{/t} [delete_folder] ".$msg." ".$path);
+	exit(t("Access denied.")." [delete_folder] ".$msg." ".$path);
   }
   return "ok";
 }
@@ -150,12 +150,12 @@ static function delete($path,$where,$vars,$mfolder) {
 	$ntlm = self::_get_ntlm($mfolder);
 	$w = new Java("jcifs.smb.SmbFile","smb://".$vars["id"],$ntlm);
 	$w->delete();
-	if ($w->exists()) exit("{t}Access denied.{/t}");
+	if ($w->exists()) exit(t("Access denied."));
 	$w = new Java("jcifs.smb.SmbFile","smb://".$vars["id"].".meta",$ntlm);
 	if ($w->exists()) $w->delete();
   } catch (Exception $e) {
 	if (DEBUG_JAVA) $msg = java_cast($e, "string"); else $msg = $e->getMessage();
-	exit("{t}Access denied.{/t} [delete] ".$msg." ".$vars["id"]);
+	exit(t("Access denied.")." [delete] ".$msg." ".$vars["id"]);
   }
   return "";
 }
@@ -181,7 +181,7 @@ static function update($path,$data,$where,$vars,$mfolder) {
 	self::_set_meta($data,$target,$mfolder,$ntlm);
   } catch (Exception $e) {
 	if (DEBUG_JAVA) $msg = java_cast($e, "string"); else $msg = $e->getMessage();
-	return "{t}Access denied.{/t} [update] ".$msg." ".$source." ".$target;
+	return t("Access denied.")." [update] ".$msg." ".$source." ".$target;
   }
   return "";
 }
@@ -198,7 +198,7 @@ static function insert($path,$data,$mfolder) {
       self::_set_meta($data,$target,$mfolder,$ntlm);
 	} catch (Exception $e) {
 	  if (DEBUG_JAVA) $msg = java_cast($e, "string"); else $msg = $e->getMessage();
-	  return "{t}Access denied.{/t} [insert] ".$msg." ".$target;
+	  return t("Access denied.")." [insert] ".$msg." ".$target;
 	}
   }
   return "";
@@ -241,7 +241,7 @@ private static function _get_dirs($path, $left, $level, $parent, $recursive, &$t
 	  }
 	} catch (Exception $e) {
 	  if (DEBUG_JAVA) $msg = java_cast($e, "string"); else $msg = $e->getMessage();
-	  sys_warning("{t}Access denied.{/t} [get_dirs] ".$msg." " .$path);
+	  sys_warning(t("Access denied.")." [get_dirs] ".$msg." " .$path);
 	}
   } else {
     $right = $right+2;
