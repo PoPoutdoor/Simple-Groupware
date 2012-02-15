@@ -7,6 +7,9 @@ Version 0.750 (February , 2012) (tb)
 	  (thanks to Kayo Katsuragi)
 
 	* added folder_from_path() and folders_from_path() to the SOAP server
+	
+	* changed language file format
+	  ({t}some_text{/t} => ** some_text)
 
 	* removed WebDAV locking with vbs/sh files
 
