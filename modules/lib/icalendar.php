@@ -56,7 +56,7 @@ private static function _parse($file) {
 
   $rows = array();
   if (!$handle = fopen($file, "rb")) {
-    sys_warning(sprintf("{t}Cannot read the file %s.{/t}",$file));
+    sys_warning(t("Cannot read the file %s.",$file));
 	return array();
   }
   $i = 0;

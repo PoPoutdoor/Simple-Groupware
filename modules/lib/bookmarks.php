@@ -52,7 +52,7 @@ private static function _get_data($file) {
     return array();
   }
   if (!($data = @file_get_contents($file))) {
-    sys_warning("{t}The url doesn't exist.{/t} (".$file.")");
+    sys_warning(t("The url doesn't exist.")." (".$file.")");
   	return array();
   }
   preg_match_all("!(?:<h3.*?>(.*?)</h3>|<dd>(.*?)\n|<a href=\"(.*?)\".*?(?:add_date=\"(.*?)\".*?>|>)(.*?)</a>)!msi",$data,$matches);

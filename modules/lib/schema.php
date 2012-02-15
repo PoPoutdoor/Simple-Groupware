@@ -22,7 +22,7 @@ static function select($path,$fields,$where,$order,$limit,$vars,$mfolder) {
 	  $type = "sys_nodb_".$vars["handler"];
 	} else {
 	  $row = db_select_first("simple_sys_tree",array("ftype","folders"),"id=@id@","",array("id"=>$path));
-	  if (empty($row["ftype"])) throw new Exception("{t}Folder not found.{/t}");
+	  if (empty($row["ftype"])) throw new Exception(t("Folder not found."));
 	  $type = $row["ftype"];
 	}
 	$filename = sys_find_module($type);

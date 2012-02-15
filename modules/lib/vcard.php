@@ -76,7 +76,7 @@ private static function _parse($file) {
     return array();
   }
   if (!($data = @file_get_contents($file))) {
-    sys_warning("{t}The url doesn't exist.{/t} (".$file.")");
+    sys_warning(t("The url doesn't exist.")." (".$file.")");
   	return array();
   }
   if (!class_exists("Contact_Vcard_Parse",false)) require("lib/vcard/Contact_Vcard_Parse.php");

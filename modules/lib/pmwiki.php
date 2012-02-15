@@ -18,7 +18,7 @@ static function count($path,$where,$vars,$mfolder) {
 	  $count++;
 	}
   } else {
-    sys_warning("{t}Access denied.{/t}");
+    sys_warning(t("Access denied."));
   }
   return $count;
 }
@@ -62,7 +62,7 @@ static function select($path,$fields,$where,$order,$limit,$vars,$mfolder) {
 	    if (strpos($mkey,":")) {
 		  $mkey_arr = explode(":",$mkey);
 		  if ($mkey_arr[0]=="author") {
-	    	$meta["history"] .= "\n".t("Item edited (%s) by %s at %s","{t}Content{/t}",$mval,sys_tdate("m/d/y g:i:s a",$mkey_arr[1]))."\n\n";
+	    	$meta["history"] .= "\n".t("Item edited (%s) by %s at %s",t("Content"),$mval,sys_tdate("m/d/y g:i:s a",$mkey_arr[1]))."\n\n";
 		  }
 		  if ($mkey_arr[0]=="diff") $meta["history"] .= $mval."\n";
 		  if ($mkey_arr[0]=="csum") $meta["history"] .= "Change summary: ".$mval."\n";

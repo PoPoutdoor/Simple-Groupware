@@ -15,7 +15,7 @@ static function insert($path,$data,$mfolder,$sendtofrom=true,$use_mail_function=
   @set_time_limit(300); // 5min.
   $from = "";
   $creds = sys_credentials($mfolder);
-  if ($creds["server"]=="" and !$use_mail_function) return "{t}Error: no credentials{/t}";
+  if ($creds["server"]=="" and !$use_mail_function) return t("Error: no credentials");
   if ($creds["options"]!="") {
     foreach (explode("|",$creds["options"]) as $option) {
 	  if (strpos($option,"@")) $from = $option; else $data["name"] = $option;

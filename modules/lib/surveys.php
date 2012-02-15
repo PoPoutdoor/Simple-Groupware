@@ -35,7 +35,7 @@ static function ajax_store_vote($folder, $votes) {
 	$votedby = json_decode($row["votedby"], true);
 	
 	$id = self::_get_voter_id();
-	if (isset($votedby[$id])) exit("{t}Already voted.{/t} (".$qid.")");
+	if (isset($votedby[$id])) exit(t("Already voted.")." (".$qid.")");
 
 	foreach ($vote_elems as $vote_elem) {
 	  if ($vote_elem=="") continue;
@@ -69,7 +69,7 @@ static function choices($var, $args, $data) {
   static $has_choices = false;
 
   if (empty($data["qtype"]["data"][0])) {
-    if (!$has_choices) return "{t}Thanks for voting!{/t}";
+    if (!$has_choices) return t("Thanks for voting!");
     return <<<EOT
 	  <input class="surveys submit bold" type="button" value="{t}V o t e !{/t}" style="margin:0px;" onclick="
 		ajax('lib_surveys::ajax_store_vote', [tfolder, form_values('.surveys')], locate_folder);"/>

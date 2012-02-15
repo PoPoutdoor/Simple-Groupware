@@ -110,20 +110,20 @@ private static function _connect($mfolder) {
     $basedn = $creds["options"];
     if (!$creds["port"]) $creds["port"] = 389;
     if ($creds["ssl"] and !extension_loaded("openssl")) {
-      sys_warning(sprintf("[0] {t}%s is not compiled / loaded into PHP.{/t}","OpenSSL"));
+      sys_warning(t("%s is not compiled / loaded into PHP.","OpenSSL"));
       return false;
     }
     if (!function_exists("ldap_connect")) {
-	  sys_warning(sprintf("{t}%s is not compiled / loaded into PHP.{/t}","LDAP"));
+	  sys_warning(t("%s is not compiled / loaded into PHP.","LDAP"));
 	  return false;
     }
-    if (!$ds=ldap_connect($creds["server"])) sys_die(sprintf("{t}LDAP connection to host %s failed.{/t}",$creds["server"]));
+    if (!$ds=ldap_connect($creds["server"])) sys_die(t("LDAP connection to host %s failed.",$creds["server"]));
     ldap_set_option($ds, LDAP_OPT_PROTOCOL_VERSION, 3) ;
 	ldap_set_option($ds, LDAP_OPT_REFERRALS, 0);
 	
     if (!@ldap_bind($ds, $creds["username"], $creds["password"])) {
       if (!@ldap_bind($ds)) {
-	    sys_warning("{t}LDAP anonymous connection failed.{/t}");
+	    sys_warning(t("LDAP anonymous connection failed."));
 	    return false;
 	  }
 	  if ($basedn=="") {
@@ -138,7 +138,7 @@ private static function _connect($mfolder) {
   	  if (ldap_count_entries($ds,$res)==1) {
     	$dn = ldap_get_dn($ds, ldap_first_entry($ds,$res));
     	if (@ldap_bind($ds, $dn, $creds["password"])) {
-		  sys_warning(sprintf("{t}Login failed from %s.{/t} (ldap) (%s)\n{t}(for active directory username must be: username@domain){/t}",_login_get_remoteaddr(),ldap_error($ds)));
+		  sys_warning(sprintf(t("Login failed from %s.")." (ldap) (%s)\n".t("(for active directory username must be: username@domain)"),_login_get_remoteaddr(),ldap_error($ds)));
 		  return false;
 	} } }
 	$cache[$mfolder] = $ds;
