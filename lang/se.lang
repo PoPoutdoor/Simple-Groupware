@@ -402,8 +402,8 @@ Kan inte ansluta till databas %s på %s
 ** Cannot create preview for %s
 Kan inte skapa förhandsvisning för %s
 
-** Cannot read the file %s.
-Kan inte läsa filen %s
+** Cannot read the file %s. %s
+Kan inte läsa filen %s. %s
 
 ** Cardinality
 Huvudsakliga

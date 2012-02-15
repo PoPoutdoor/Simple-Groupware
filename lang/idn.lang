@@ -402,8 +402,8 @@ Tidak dapat terhubung ke database %s pada %s.
 ** Cannot create preview for %s
 Tidak dapat membuat pratinjau/preview untuk %s
 
-** Cannot read the file %s.
-Tidak dapat membaca file %s.
+** Cannot read the file %s. %s
+Tidak dapat membaca file %s. %s
 
 ** Cardinality
 Kardinalitas

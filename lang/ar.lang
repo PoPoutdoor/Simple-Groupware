@@ -402,8 +402,8 @@ Bookings
 ** Cannot create preview for %s
 غير قادر على إنشاء معاينة لـ%s
 
-** Cannot read the file %s.
-غير قادر على قراءة الملف %s.
+** Cannot read the file %s. %s
+غير قادر على قراءة الملف %s. %s
 
 ** Cardinality
 Cardinality

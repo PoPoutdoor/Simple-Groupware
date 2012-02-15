@@ -402,8 +402,8 @@ Kan geen verbinding leggen met de databse %s op %s.
 ** Cannot create preview for %s
 Kan geen voorbeeld genereren van %s
 
-** Cannot read the file %s.
-Kan het bestand %s niet lezen.
+** Cannot read the file %s. %s
+Kan het bestand %s niet lezen. %s
 
 ** Cardinality
 Belangrijkheid

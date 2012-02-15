@@ -366,8 +366,8 @@ Yhteys tietokantaan %s osoiteesa %s ei onnistunut.
 ** Cannot create preview for %s
 Esikatselu %s muodossa ei onnistunut
 
-** Cannot read the file %s.
-Tiedosto %s ei saa luettu.
+** Cannot read the file %s. %s
+Tiedosto %s ei saa luettu. %s
 
 ** Cardinality
 Kardinaliteetti

@@ -402,8 +402,8 @@ Cannot call proc_open. Please remove proc_open from disable_functions in php.ini
 ** Cannot create preview for %s
 不能建立%s的预览
 
-** Cannot read the file %s.
-不能读取文件%s。
+** Cannot read the file %s. %s
+不能读取文件%s。 %s
 
 ** Cardinality
 表间关系

@@ -402,8 +402,8 @@ Não foi possivel ligar à base de dados %s em %s.
 ** Cannot create preview for %s
 Não foi possivel criar uma pré-visualização para %s
 
-** Cannot read the file %s.
-Não foi possivel ler o ficheiro %s.
+** Cannot read the file %s. %s
+Não foi possivel ler o ficheiro %s. %s
 
 ** Cardinality
 Cardinalidade

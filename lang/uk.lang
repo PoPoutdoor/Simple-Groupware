@@ -402,8 +402,8 @@ bulleted
 ** Cannot create preview for %s
 Неможливо утворити передперегляд для %s
 
-** Cannot read the file %s.
-Неможливо прочитати файл %s.
+** Cannot read the file %s. %s
+Неможливо прочитати файл %s. %s
 
 ** Cardinality
 Множина

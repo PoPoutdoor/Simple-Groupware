@@ -402,8 +402,8 @@ Caches
 ** Cannot create preview for %s
 Δεν μπορώ να δημιουργήσω την προεπισκόπηση για %s
 
-** Cannot read the file %s.
-Δεν μπορώ να διαβάσω το αρχείο %s.
+** Cannot read the file %s. %s
+Δεν μπορώ να διαβάσω το αρχείο %s. %s
 
 ** Cardinality
 ΑριθμόςΣτοιχείων

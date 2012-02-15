@@ -402,8 +402,8 @@ Nie można połączyć z bazą %s na serwerze %.
 ** Cannot create preview for %s
 Nie można stworzyć podglądu dla %s
 
-** Cannot read the file %s.
-Nie można odczytać pliku %s.
+** Cannot read the file %s. %s
+Nie można odczytać pliku %s. %s
 
 ** Cardinality
 Liczność

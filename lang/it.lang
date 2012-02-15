@@ -402,8 +402,8 @@ Impossibile connettersi al database %s su %s.
 ** Cannot create preview for %s
 Impossibile creare lantemprima per %s
 
-** Cannot read the file %s.
-Impossibile leggere il file %s.
+** Cannot read the file %s. %s
+Impossibile leggere il file %s. %s
 
 ** Cardinality
 Cardinalità

@@ -402,8 +402,8 @@ Nemôžem sa napojiť na databázu %s na %s.
 ** Cannot create preview for %s
 Nemôžem vytvoriť náhľad pre %s
 
-** Cannot read the file %s.
-Nemôžem prečítať súbor (%s).
+** Cannot read the file %s. %s
+Nemôžem prečítať súbor (%s). %s
 
 ** Cardinality
 Mohutnosť

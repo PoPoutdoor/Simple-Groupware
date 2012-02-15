@@ -402,8 +402,8 @@ Cannot call proc_open. Please remove proc_open from disable_functions in php.ini
 ** Cannot create preview for %s
 プレビューを作成できません %s
 
-** Cannot read the file %s.
-ファイル読み取り不能%s。
+** Cannot read the file %s. %s
+ファイル読み取り不能%s。 %s
 
 ** Cardinality
 濃度

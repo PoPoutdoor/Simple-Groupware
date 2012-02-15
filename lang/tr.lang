@@ -402,8 +402,8 @@ Cannot connect to database %s on %s.
 ** Cannot create preview for %s
 %s için önizleme oluşturulamıyor.
 
-** Cannot read the file %s.
-%s  dosyası okunamıyor.
+** Cannot read the file %s. %s
+%s  dosyası okunamıyor. %s
 
 ** Cardinality
 Önem derecesi

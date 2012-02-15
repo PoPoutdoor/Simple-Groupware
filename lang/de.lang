@@ -402,8 +402,8 @@ Die Verbindung zur Datenbank %s auf %s ist fehlgeschlagen.
 ** Cannot create preview for %s
 Die Vorschau für %s kann nicht erstellt werden
 
-** Cannot read the file %s.
-Die Datei kann nicht gelesen werden %s.
+** Cannot read the file %s. %s
+Die Datei kann nicht gelesen werden %s. %s
 
 ** Cardinality
 Kardinalität

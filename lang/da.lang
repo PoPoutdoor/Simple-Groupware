@@ -402,8 +402,8 @@ Kan ikke forbinde til database %s på %s.
 ** Cannot create preview for %s
 Kan ikke oprette forvisning af %s
 
-** Cannot read the file %s.
-Kan ikke læse filen %s.
+** Cannot read the file %s. %s
+Kan ikke læse filen %s. %s
 
 ** Cardinality
 Antal

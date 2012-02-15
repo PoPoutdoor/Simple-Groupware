@@ -402,8 +402,8 @@ Copyright (C) 2007 Vityusha V. Vinokurov
 ** Cannot create preview for %s
 Невозможно создать предпросмотр для %s
 
-** Cannot read the file %s.
-Невозможно прочитать файл  %s.
+** Cannot read the file %s. %s
+Невозможно прочитать файл %s. %s
 
 ** Cardinality
 Множество

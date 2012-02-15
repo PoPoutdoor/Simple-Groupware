@@ -402,8 +402,8 @@ Ne mogu se spojiti na databazu %s na %s.
 ** Cannot create preview for %s
 Ne mogu kreirati pogled za %s
 
-** Cannot read the file %s.
-Ne mogu pročitati datoteku (%s).
+** Cannot read the file %s. %s
+Ne mogu pročitati datoteku (%s). %s
 
 ** Cardinality
 Obilježja
