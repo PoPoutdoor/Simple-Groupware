@@ -7,9 +7,8 @@
  * @license GPLv2
  */
 
-// TODO validate german translations
 // TODO test install mysql, postgres, sqlite
-// TODO rebuild master lang
+// TODO rebuild google master lang
 // TODO remove index.htm?
 // TODO version without demo data
 // TODO add phpdoc
@@ -21,6 +20,9 @@ class build {
 	const MB = 1048576;
 
 	public function __construct($archives=true, $manuals=true) {
+		$this->translationMaster();
+		$this->validateTranslation("de");
+	
 		$this->sysCheck();
 		
 		$dir = $this->git();
@@ -52,7 +54,42 @@ class build {
 			$this->html2pdf("http://www.simple-groupware.de/cms/UserManualPrint", $pdf);
 		}
 	}
+	
+	private function validateTranslation($lang) {
+		$data = file_get_contents("../lang/".$lang.".lang");
+		foreach (file("../lang/master.lang") as $line) {
+			if (strpos($line, "** ")!==0) continue;
+			if (strpos($data, $line)===false) throw new Exception("Translation not found {$lang}: {$line}");
+		}
+	}
 
+	private function translationMaster() {
+		$master_lang = array();
+		$queue = array("../");
+		while (count($queue)>0) {
+			$src = array_shift($queue);
+			foreach (scandir($src) as $file) {
+				if ($file[0]==".") continue;
+				if (is_dir($src.$file)) {
+					if (in_array($file, array("lang", "tools", "lib", "build"))) continue;
+					$queue[] = $src.$file."/";
+					continue;
+				}
+				$data = file_get_contents($src.$file);
+				$regexp = "!t\(\"([^\"]+)!i";
+				if (strpos($src, "../templates/")===0) $regexp = "!\{t\}([^\{]+)!i";
+				$matches = array();
+				if (preg_match_all($regexp,$data,$matches,PREG_SET_ORDER)) {
+					foreach ($matches as $match) $master_lang[] = "** ".$match[1];
+				}
+			}
+		}
+		sort($master_lang);
+		// TODO add gpl notice
+		file_put_contents("../lang/master.lang", implode("\n\n\n", $master_lang));
+	}
+	
+	
 	private function sysCheck() {
 		$tools = array("git --version", "js -v", "zca", "tar", "gzip", "zip", "perl -v");
 		foreach ($tools as $tool) {
