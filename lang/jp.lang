@@ -1,3521 +1,3521 @@
 ï»¿// GPL
 
-{t}!_Copyright_Language_File{/t}
+** !_Copyright_Language_File
 Copyright (C) 2012 Kayo Katsuragi
 
-{t}!_Language{/t}
+** !_Language
 Japanese / Japan
 
-{t}%s is not activated{/t}
+** %s is not activated
 %s‚·‚Å‚É“®ì’†‚Å‚·
 
-{t}%s is not compiled / loaded into PHP.{/t}
+** %s is not compiled / loaded into PHP.
 %s‚ÍPHP‚ÉƒRƒ“ƒpƒCƒ‹/“Ç‚İ‚İ‚³‚ê‚Ä‚¢‚Ü‚¹‚ñ
 
-{t}%s M memory usage{/t}
+** %s M memory usage
 %s M‚Ìƒƒ‚ƒŠ‚ğg—p
 
-{t}%s not in database{/t}
+** %s not in database
 %s‚Íƒf[ƒ^ƒx[ƒX’†‚É‚ ‚è‚Ü‚¹‚ñ
 
-{t}%s rows affected{/t}
+** %s rows affected
 %ss‚ª•ÏX‚³‚ê‚Ü‚µ‚½
 
-{t}%s secs{/t}
+** %s secs
 %s•b
 
-{t}%s started editing this asset at %s{/t}
+** %s started editing this asset at %s
 %s‚ª‚±‚Ì€–Ú‚Ì•ÒW‚ğn‚ß‚Ü‚µ‚½ %s
 
-{t}(for active directory username must be: username@domain){/t}
+** (for active directory username must be: username@domain)
 (for active directory username must be: username@domain)
 
-{t}(un)Group{/t}
+** (un)Group
 (æÁ)ƒOƒ‹[ƒv‰»
 
-{t}About{/t}
+** About
 ‚±‚ê‚É‚Â‚¢‚Ä
 
-{t}Absence{/t}
+** Absence
 •sİ
 
-{t}accepted{/t}
+** accepted
 ³”F
 
-{t}Access denied.{/t}
+** Access denied.
 ƒAƒNƒZƒX—v‹‚ª‹p‰º‚³‚ê‚Ü‚µ‚½B
 
-{t}Access to this file has been denied.{/t}
+** Access to this file has been denied.
 ‚±‚Ìƒtƒ@ƒCƒ‹‚Ö‚ÌƒAƒNƒZƒX‚Í‹p‰º‚³‚ê‚Ü‚µ‚½B
 
-{t}Account{/t}
+** Account
 ƒAƒJƒEƒ“ƒg
 
-{t}account of %s has expired{/t}
+** account of %s has expired
 %s‚ÌƒAƒJƒEƒ“ƒg‚ÍŠúŒÀØ‚ê‚Å‚·B
 
-{t}Accounting{/t}
+** Accounting
 ƒAƒJƒEƒ“ƒgŠÇ—
 
-{t}Activate{/t}
+** Activate
 g—p
 
-{t}Activated{/t}
+** Activated
 g—p’†
 
-{t}active{/t}
+** active
 g—p’†
 
-{t}Active{/t}
+** Active
 “®ì’†
 
-{t}Ad{/t}
+** Ad
 L
 
-{t}Add{/t}
+** Add
 ’Ç‰Á
 
-{t}Add a special rule{/t}
+** Add a special rule
 “Á—á‚ğ’Ç‰Á
 
-{t}Add to offline folders{/t}
+** Add to offline folders
 ƒIƒtƒ‰ƒCƒ“ƒtƒHƒ‹ƒ_‚É’Ç‰Á
 
-{t}added line{/t}
+** added line
 ’Ç‰Á‚³‚ê‚½s
 
-{t}Address{/t}
+** Address
 ƒAƒhƒŒƒX
 
-{t}admin access{/t}
+** admin access
 ŠÇ—ƒAƒNƒZƒX
 
-{t}Admin access (groups){/t}
+** Admin access (groups)
 ŠÇ—ƒAƒNƒZƒXiƒOƒ‹[ƒvj
 
-{t}Admin access (users){/t}
+** Admin access (users)
 ŠÇ—ƒAƒNƒZƒXiƒƒ“ƒo[j
 
-{t}Admin Password{/t}
+** Admin Password
 ŠÇ—ÒƒpƒXƒ[ƒh
 
-{t}Admin Username{/t}
+** Admin Username
 ŠÇ—ƒ†[ƒU[–¼
 
-{t}Administration{/t}
+** Administration
 ŠÇ—
 
-{t}Advanced tables{/t}
+** Advanced tables
 ƒe[ƒuƒ‹i‚“xj
 
-{t}Affected user{/t}
+** Affected user
 ‘€ì‚³‚ê‚½ƒ†[ƒU[
 
-{t}Affiliate{/t}
+** Affiliate
 ƒAƒtƒBƒŠƒGƒCƒg
 
-{t}after{/t}
+** after
 ˆÈŒã
 
-{t}Agent{/t}
+** Agent
 ‘ã—l
 
-{t}Ajax Error{/t}
+** Ajax Error
 AjaxƒGƒ‰[
 
-{t}All{/t}
+** All
 ‚·‚×‚Ä
 
-{t}All day{/t}
+** All day
 I“ú
 
-{t}All events{/t}
+** All events
 ‚·‚×‚Ä‚ÌƒCƒxƒ“ƒg
 
-{t}All finished tasks{/t}
+** All finished tasks
 I—¹ƒ^ƒXƒN
 
-{t}All pending tasks{/t}
+** All pending tasks
 •Û—¯ƒ^ƒXƒN
 
-{t}Allow custom values{/t}
+** Allow custom values
 ƒJƒXƒ^ƒ€’l‚ğ‹–‰Â‚·‚é
 
-{t}Allow disabled modules{/t}
+** Allow disabled modules
 –³Œø‚É‚³‚ê‚½ƒ‚ƒWƒ…[ƒ‹‚ğ”F‚ß‚é
 
-{t}Already running latest release.{/t}
+** Already running latest release.
 ‚·‚Å‚ÉÅVƒo[ƒWƒ‡ƒ“‚ª‰Ò“­‚µ‚Ä‚¢‚Ü‚·
 
-{t}Already voted.{/t}
+** Already voted.
 “Š•[Ï‚İ‚Å‚·
 
-{t}Amount{/t}
+** Amount
 ”—Ê
 
-{t}Anchor{/t}
+** Anchor
 ƒAƒ“ƒJ[
 
-{t}and{/t}
+** and
 
 
-{t}Anniversary{/t}
+** Anniversary
 ‹L”O“ú
 
-{t}another page{/t}
+** another page
 •Ê‚Ìƒy[ƒW
 
-{t}answered{/t}
+** answered
 ‰ñ“šÏ
 
-{t}Answers{/t}
+** Answers
 ‰ñ“šˆê——
 
-{t}Apache based (.htaccess, Basic, Digest, etc.){/t}
+** Apache based (.htaccess, Basic, Digest, etc.)
 Apacheƒx[ƒX(.htaccess, Basic, Digest, “™.)
 
-{t}Application title{/t}
+** Application title
 ƒAƒvƒŠƒP[ƒVƒ‡ƒ“ƒ^ƒCƒgƒ‹
 
-{t}Apply rights to subfolders{/t}
+** Apply rights to subfolders
 ƒTƒuƒtƒHƒ‹ƒ_‚É“K—p‚·‚é
 
-{t}Appointment{/t}
+** Appointment
 —\–ñ
 
-{t}Appointments{/t}
+** Appointments
 —\–ñˆê——
 
-{t}Apprenticeship{/t}
+** Apprenticeship
 
 
-{t}Apr{/t}
+** Apr
 4Œ
 
-{t}April{/t}
+** April
 ‚SŒ
 
-{t}Archive{/t}
+** Archive
 ƒA[ƒJƒCƒu
 
-{t}Archive deleted files{/t}
+** Archive deleted files
 íœƒtƒ@ƒCƒ‹‚ğƒA[ƒJƒCƒu‚ÉˆÚ‚·
 
-{t}Asset{/t}
+** Asset
 ‘Y
 
-{t}Asset marked as read-only.{/t}
+** Asset marked as read-only.
 ‘Y‚Í“Ç‚İæ‚èê—p‚Å‚·B
 
-{t}Assets{/t}
+** Assets
 ‘Yˆê——
 
-{t}Assets (children){/t}
+** Assets (children)
 ‘Yˆê——iq€–Új
 
-{t}Assets can be imported into multiple folders by adding the "Folder" column.{/t}
+** Assets can be imported into multiple folders by adding the "Folder" column.
 
 
-{t}Assets can be overwritten by adding the "Id" column.{/t}
+** Assets can be overwritten by adding the "Id" column.
 
 
-{t}assigned{/t}
+** assigned
 Š„‚è“–‚ÄÏ‚İ
 
-{t}at least 20 characters{/t}
+** at least 20 characters
 Å’á20•¶š
 
-{t}attach file{/t}
+** attach file
 “Y•tƒtƒ@ƒCƒ‹
 
-{t}Attachment{/t}
+** Attachment
 “Y•t
 
-{t}Attachments{/t}
+** Attachments
 “Y•tˆê——
 
-{t}Attend{/t}
+** Attend
 oÈ
 
-{t}Aug{/t}
+** Aug
 8Œ
 
-{t}August{/t}
+** August
 ‚WŒ
 
-{t}Authentication Mode{/t}
+** Authentication Mode
 ”FØƒ‚[ƒh
 
-{t}Author{/t}
+** Author
 ·•MÒ
 
-{t}Automatically hide the menu{/t}
+** Automatically hide the menu
 ©“®“I‚Éƒƒjƒ…[‚ğ‰B‚·
 
-{t}Automatically hide the tree{/t}
+** Automatically hide the tree
 ©“®“I‚ÉƒcƒŠ[‚ğ‰B‚·
 
-{t}Average{/t}
+** Average
 •½‹Ï
 
-{t}Average progress{/t}
+** Average progress
 i’»•½‹Ï
 
-{t}Avg length{/t}
+** Avg length
 •½‹Ï’·‚³
 
-{t}Back{/t}
+** Back
 –ß‚é
 
-{t}Backup{/t}
+** Backup
 ƒoƒbƒNƒAƒbƒv
 
-{t}Backup current folder{/t}
+** Backup current folder
 Œ»İ‚ÌƒtƒHƒ‹ƒ_‚ÌƒoƒbƒNƒAƒbƒv
 
-{t}Backups{/t}
+** Backups
 ƒoƒbƒNƒAƒbƒvˆê——
 
-{t}Basic editing{/t}
+** Basic editing
 Šî–{•ÒW‹@”\
 
-{t}before{/t}
+** before
 ˆÈ‘O
 
-{t}Before{/t}
+** Before
 ˆÈ‘O
 
-{t}Begin{/t}
+** Begin
 ŠJn
 
-{t}big{/t}
+** big
 ‘å
 
-{t}big text{/t}
+** big text
 ‘å‚«‚È•¶š
 
-{t}bigger{/t}
+** bigger
 ‘å‚«‚ß
 
-{t}Billing address{/t}
+** Billing address
 ¿‹‘‘—•tæ
 
-{t}Birthday{/t}
+** Birthday
 ’a¶“ú
 
-{t}Birthdays{/t}
+** Birthdays
 ’a¶“ú
 
-{t}Blank{/t}
+** Blank
 ‹ó”’
 
-{t}blue{/t}
+** blue
 Â
 
-{t}bold{/t}
+** bold
 ‘¾š
 
-{t}bold italic{/t}
+** bold italic
 ‘¾šÎ‘Ì
 
-{t}Book{/t}
+** Book
 —\–ñ
 
-{t}booked{/t}
+** booked
 Q‰Á—\–ñÏ
 
-{t}Booked{/t}
+** Booked
 Q‰Á—\–ñÒ
 
-{t}Booking number{/t}
+** Booking number
 Q‰Áƒƒ“ƒo[
 
-{t}Bookings{/t}
+** Bookings
 Q‰Á—\–ñ
 
-{t}Bookmark{/t}
+** Bookmark
 ‚¨‹C‚É“ü‚è
 
-{t}Bookmarks{/t}
+** Bookmarks
 ‚¨‹C‚É“ü‚è
 
-{t}borrowed{/t}
+** borrowed
 Ø“ü
 
-{t}Brand{/t}
+** Brand
 ¤•W
 
-{t}Brands{/t}
+** Brands
 ¤•W
 
-{t}Browser Compatibility{/t}
+** Browser Compatibility
 ƒuƒ‰ƒEƒUŒİŠ·«
 
-{t}Browser not supported{/t}
+** Browser not supported
 ƒTƒ|[ƒgŠO‚Ìƒuƒ‰ƒEƒU‚Å‚·
 
-{t}Budget{/t}
+** Budget
 —\Z
 
-{t}Bug{/t}
+** Bug
 ƒoƒO
 
-{t}bulleted{/t}
+** bulleted
 
 
-{t}Business{/t}
+** Business
 ––±
 
-{t}C a n c e l{/t}
+** C a n c e l
 ƒLƒƒƒ“ƒZƒ‹
 
-{t}C O N T I N U E{/t}
+** C O N T I N U E
 Ÿ‚Ö
 
-{t}Cache output{/t}
+** Cache output
 ƒLƒƒƒbƒVƒ…o—Í
 
-{t}Caches{/t}
+** Caches
 ƒLƒƒƒbƒVƒ…
 
-{t}Calendar{/t}
+** Calendar
 ƒJƒŒƒ“ƒ_[
 
-{t}Cancel{/t}
+** Cancel
 ƒLƒƒƒ“ƒZƒ‹
 
-{t}canceled{/t}
+** canceled
 æÁ
 
-{t}Canceled{/t}
+** Canceled
 æÁ
 
-{t}Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.{/t}
+** Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.
 Cannot call proc_open. Please remove proc_open from disable_functions in php.ini and disable safe_mode.
 
-{t}Cannot connect to database %s on %s.{/t}
+** Cannot connect to database %s on %s.
 ƒf[ƒ^ƒx[ƒX‚ÉÚ‘±‚Å‚«‚Ü‚¹‚ñ%sB
 
-{t}Cannot create preview for %s{/t}
+** Cannot create preview for %s
 ƒvƒŒƒrƒ…[‚ğì¬‚Å‚«‚Ü‚¹‚ñ %s
 
-{t}Cannot read the file %s.{/t}
+** Cannot read the file %s.
 ƒtƒ@ƒCƒ‹“Ç‚İæ‚è•s”\%sB
 
-{t}Cardinality{/t}
+** Cardinality
 ”Z“x
 
-{t}Categories{/t}
+** Categories
 ƒJƒeƒSƒŠˆê——
 
-{t}Category{/t}
+** Category
 ƒJƒeƒSƒŠ
 
-{t}Cc{/t}
+** Cc
 Cc
 
-{t}centered{/t}
+** centered
 ’†‘µ‚¦
 
-{t}CEO{/t}
+** CEO
 CEO
 
-{t}Change request{/t}
+** Change request
 XV—v‹
 
-{t}Change settings{/t}
+** Change settings
 İ’è•ÏX
 
-{t}Change Setup settings{/t}
+** Change Setup settings
 ƒCƒ“ƒXƒg[ƒ‹İ’è‚Ì•ÏX
 
-{t}Change summary{/t}
+** Change summary
 XV“E—v
 
-{t}Changed{/t}
+** Changed
 XV‚³‚ê‚½‚à‚Ì
 
-{t}changed line{/t}
+** changed line
 •ÏXÏ‚İs
 
-{t}Changelog{/t}
+** Changelog
 XV—š—ğ
 
-{t}Chat{/t}
+** Chat
 ƒ`ƒƒƒbƒg
 
-{t}Check DoS Attacks{/t}
+** Check DoS Attacks
 DoSUŒ‚ŒŸo
 
-{t}checked{/t}
+** checked
 ƒ`ƒFƒbƒNÏ‚İ
 
-{t}Checked{/t}
+** Checked
 ƒ`ƒFƒbƒNÏ‚İ
 
 
-{t}Choices{/t}
+** Choices
 ‘I‘ğˆ
 
-{t}CIO{/t}
+** CIO
 CIO
 
-{t}City{/t}
+** City
 s
 
-{t}Clean{/t}
+** Clean
 ´‘|
 
-{t}Clean Cache{/t}
+** Clean Cache
 ƒLƒƒƒbƒVƒ…‚ÌƒNƒŠƒA
 
-{t}Clear{/t}
+** Clear
 ƒNƒŠƒA
 
-{t}Clear Cache{/t}
+** Clear Cache
 ƒLƒƒƒbƒVƒ…‚ÌƒNƒŠƒA
 
-{t}Clear Data{/t}
+** Clear Data
 
 
-{t}Clear grouping{/t}
+** Clear grouping
 
 
-{t}Client{/t}
+** Client
 ŒÚ‹q
 
-{t}Close{/t}
+** Close
 •Â‚¶‚é
 
-{t}Close session{/t}
+** Close session
 ƒZƒbƒVƒ‡ƒ“‚ğ•Â‚¶‚é
 
-{t}closed{/t}
+** closed
 ’÷‚ßØ‚ç‚ê‚Ä‚¢‚Ü‚·
 
-{t}Closed{/t}
+** Closed
 Š®—¹Ï
 
-{t}CMS{/t}
+** CMS
 CMS
 
-{t}CMS homepage title{/t}
+** CMS homepage title
 
 
-{t}Collapse text{/t}
+** Collapse text
 
 
-{t}Collapse tree{/t}
+** Collapse tree
 ƒcƒŠ[Ü‚è‚½‚½‚İ•\¦
 
-{t}Color{/t}
+** Color
 F
 
-{t}Column{/t}
+** Column
 —ñ
 
-{t}Column name{/t}
+** Column name
 —ñ–¼
 
-{t}Combination{/t}
+** Combination
 
 
-{t}Comma{/t}
+** Comma
 ƒJƒ“ƒ}
 
-{t}Comma separated values{/t}
+** Comma separated values
 ƒJƒ“ƒ}‹æØ‚è•¶š—ñ
 
-{t}Command{/t}
+** Command
 –½—ß
 
-{t}Comment{/t}
+** Comment
 ƒRƒƒ“ƒg
 
-{t}Comment files{/t}
+** Comment files
 ƒRƒƒ“ƒgƒtƒ@ƒCƒ‹
 
-{t}Companies{/t}
+** Companies
 ‰ïĞ
 
-{t}Company{/t}
+** Company
 ‰ïĞ
 
-{t}Competition{/t}
+** Competition
 ƒRƒ“ƒy
 
-{t}Competitor{/t}
+** Competitor
 ‹£‡‘¼Ğ
 
-{t}Complete{/t}
+** Complete
 Š®—¹
 
-{t}completed{/t}
+** completed
 Š®—¹‚µ‚½
 
-{t}Completed{/t}
+** Completed
 Š®¬
 
-{t}Component{/t}
+** Component
 ƒRƒ“ƒ|[ƒlƒ“ƒg
 
-{t}Compress output{/t}
+** Compress output
 ˆ³ko—Í
 
-{t}Confirm{/t}
+** Confirm
 ³”F
 
-{t}confirmed{/t}
+** confirmed
 ³”FÏ
 
-{t}Connection error: %s [%s]{/t}
+** Connection error: %s [%s]
 
 
-{t}Connection to database failed.{/t}
+** Connection to database failed.
 ƒf[ƒ^ƒx[ƒXÚ‘±‚É¸”s
 
-{t}Console{/t}
+** Console
 ƒRƒ“ƒ\[ƒ‹
 
-{t}Console scripts{/t}
+** Console scripts
 
 
-{t}Consultant{/t}
+** Consultant
 ƒRƒ“ƒTƒ‹ƒ^ƒ“ƒg
 
-{t}Contact{/t}
+** Contact
 ˜A—æ
 
-{t}Contact activities{/t}
+** Contact activities
 ˜A—æ‚ÌŠˆ“®ˆê——
 
-{t}Contact activity{/t}
+** Contact activity
 ˜A—æ‚ÌŠˆ“®
 
-{t}Contact by{/t}
+** Contact by
 ó•tÒ
 
-{t}Contact groups{/t}
+** Contact groups
 ˜A—æƒOƒ‹[ƒv
 
-{t}Contact id{/t}
+** Contact id
 ˜A—æid
 
-{t}Contact person{/t}
+** Contact person
 ˜A—æ’S“–Ò
 
-{t}Contact user by{/t}
+** Contact user by
 –â‚¢‡‚í‚¹ƒ†[ƒU[
 
-{t}Contacts{/t}
+** Contacts
 ˜A—æ
 
-{t}contains{/t}
+** contains
 ŠÜ‚Ş
 
-{t}Content{/t}
+** Content
 “à—e
 
-{t}Continue{/t}
+** Continue
 i‚Ş
 
-{t}Contracts{/t}
+** Contracts
 Œ_–ñ
 
-{t}Copier{/t}
+** Copier
 ƒRƒs[
 
-{t}Copy{/t}
+** Copy
 ƒRƒs[
 
-{t}Cost center{/t}
+** Cost center
 ƒRƒXƒgƒZƒ“ƒ^[
 
-{t}Costs of accommodation{/t}
+** Costs of accommodation
 û—eƒRƒXƒg
 
-{t}Could not determine database-version.{/t}
+** Could not determine database-version.
 –¢’m‚Ìƒf[ƒ^ƒx[ƒXƒo[ƒWƒ‡ƒ“‚Å‚·B
 
-{t}Country{/t}
+** Country
 ‘
 
-{t}Create new{/t}
+** Create new
 V‹Kì¬
 
-{t}Created{/t}
+** Created
 ì¬“ú
 
-{t}Creating database failed.{/t}
+** Creating database failed.
 ƒf[ƒ^ƒx[ƒX¶¬‚É¸”s
 
-{t}current path{/t}
+** current path
 Œ»İ‚ÌƒpƒX
 
-{t}current time{/t}
+** current time
 Œ»İŠÔ
 
-{t}Curriculum vitae{/t}
+** Curriculum vitae
 —š—ğ‘
 
-{t}Custom schema{/t}
+** Custom schema
 
 
-{t}Customization rules\nfor modules based on sgsML{/t}
+** Customization rules\nfor modules based on sgsML
 
 
-{t}customizations{/t}
+** customizations
 ƒJƒXƒ^ƒ}ƒCƒYì‹Æ
 
-{t}Customize{/t}
+** Customize
 ƒJƒXƒ^ƒ}ƒCƒY
 
-{t}Cut{/t}
+** Cut
 Ø‚èæ‚é
 
-{t}daily{/t}
+** daily
 “ú•Ê
 
-{t}Data{/t}
+** Data
 ƒf[ƒ^
 
-{t}Data free{/t}
+** Data free
 c‚èƒf[ƒ^
 
-{t}Data length{/t}
+** Data length
 ƒf[ƒ^’·
 
-{t}Database{/t}
+** Database
 ƒf[ƒ^ƒx[ƒX
 
-{t}Database Hostname / IP{/t}
+** Database Hostname / IP
 ƒf[ƒ^ƒx[ƒX‚ÌƒzƒXƒg–¼/IP
 
-{t}Database Name{/t}
+** Database Name
 ƒf[ƒ^ƒx[ƒX–¼Ì
 
-{t}Database Password{/t}
+** Database Password
 ƒf[ƒ^ƒx[ƒXƒpƒXƒ[ƒh
 
-{t}Database size{/t}
+** Database size
 
 
-{t}Database status{/t}
+** Database status
 ƒf[ƒ^ƒx[ƒXó‘Ô
 
-{t}Database type{/t}
+** Database type
 
 
-{t}Database User{/t}
+** Database User
 ƒf[ƒ^ƒx[ƒXƒ†[ƒU[
 
-{t}Database variables{/t}
+** Database variables
 ƒf[ƒ^ƒx[ƒX•Ï”
 
-{t}Date{/t}
+** Date
 “ú•t
 
-{t}Day{/t}
+** Day
 “ú
 
-{t}Day begin{/t}
+** Day begin
 n‹Æ
 
-{t}Day end{/t}
+** Day end
 I‹Æ
 
-{t}days{/t}
+** days
 “úŠÔ
 
-{t}Deactivate{/t}
+** Deactivate
 
 
-{t}Deadline{/t}
+** Deadline
 ŠúŒÀ
 
-{t}Debug{/t}
+** Debug
 ƒfƒoƒbƒO
 
-{t}Debug-dir{/t}
+** Debug-dir
 ƒfƒoƒbƒOƒfƒBƒŒƒNƒgƒŠ
 
-{t}Dec{/t}
+** Dec
 12Œ
 
-{t}December{/t}
+** December
 12Œ
 
-{t}Declining balance{/t}
+** Declining balance
 
 
-{t}Default{/t}
+** Default
 ƒfƒtƒHƒ‹ƒg
 
-{t}Default function{/t}
+** Default function
 
 
-{t}Default theme{/t}
+** Default theme
 •W€ƒe[ƒ}
 
-{t}Default values for assets{/t}
+** Default values for assets
 €–Ú‚Ì‰Šú’l
 
-{t}definition for definition lists{/t}
+** definition for definition lists
 
 
-{t}Degree{/t}
+** Degree
 ’ö“x
 
-{t}Delete{/t}
+** Delete
 íœ
 
-{t}Delete incl subfolders{/t}
+** Delete incl subfolders
 ƒTƒuƒtƒHƒ‹ƒ_‚àíœ‚·‚é
 
-{t}deleted{/t}
+** deleted
 íœÏ‚İ
 
-{t}deleted line{/t}
+** deleted line
 íœÏ‚İs
 
-{t}Delivery{/t}
+** Delivery
 ”zM
 
-{t}Demand{/t}
+** Demand
 —v‹
 
-{t}Demo{/t}
+** Demo
 ƒfƒ‚
 
-{t}Demonstration folder{/t}
+** Demonstration folder
 
 
-{t}Department{/t}
+** Department
 •”–å
 
-{t}Departments{/t}
+** Departments
 •”–åˆê——
 
-{t}Dependancies{/t}
+** Dependancies
 ˆË‘¶ŠÖŒW
 
-{t}Description{/t}
+** Description
 Ú×
 
-{t}Description hint{/t}
+** Description hint
 
 
-{t}Description title{/t}
+** Description title
 
 
-{t}Description value{/t}
+** Description value
 
 
-{t}Desktop computer{/t}
+** Desktop computer
 ƒfƒXƒNƒgƒbƒvPC
 
-{t}Details{/t}
+** Details
 Ú×
 
-{t}Device type{/t}
+** Device type
 ƒfƒoƒCƒXŒ`®
 
-{t}Device types{/t}
+** Device types
 ƒfƒoƒCƒXŒ`®ˆê——
 
-{t}Diagram{/t}
+** Diagram
 
 
-{t}directory does not exist.{/t}
+** directory does not exist.
 ƒfƒBƒŒƒNƒgƒŠ‚ª‘¶İ‚µ‚Ü‚¹‚ñ
 
-{t}Directory is outside the allowed directory. (%s is outside %s){/t}
+** Directory is outside the allowed directory. (%s is outside %s)
 ƒfƒBƒŒƒNƒgƒŠ‚Í‹–‰Â”ÍˆÍ‚ÌŠO‚É‚ ‚è‚Ü‚·i%s is outside %sj
 
-{t}disable{/t}
+** disable
 
 
-{t}Disable basic authentication{/t}
+** Disable basic authentication
 Basic”FØ‚ğ–³Œø‚É‚·‚é
 
-{t}Disable cut-copy-paste{/t}
+** Disable cut-copy-paste
 Ø‚èæ‚èAƒRƒs[“\‚è•t‚¯‚ğ–³Œø‚É‚·‚é
 
-{t}Disabled{/t}
+** Disabled
 –³Œø
 
-{t}Disabled modules{/t}
+** Disabled modules
 –³Œøƒ‚ƒWƒ…[ƒ‹
 
-{t}Display{/t}
+** Display
 •\¦
 
-{t}display filter{/t}
+** display filter
 •\¦ƒtƒBƒ‹ƒ^[
 
-{t}Displayname{/t}
+** Displayname
 
 
-{t}displays{/t}
+** displays
 ‰æ–Ê
 
-{t}Distributor{/t}
+** Distributor
 ‘ã—“Xˆê——
 
-{t}Distributors{/t}
+** Distributors
 ‘ã—“Xˆê——
 
-{t}divorced{/t}
+** divorced
 —£¥
 
-{t}Documentation{/t}
+** Documentation
 à–¾‘
 
-{t}Documentation index{/t}
+** Documentation index
 à–¾‘ õˆø
 
-{t}Domain{/t}
+** Domain
 ƒhƒƒCƒ“
 
-{t}Don't attend{/t}
+** Don't attend
 Œ‡È
 
-{t}Don't move old files to 'old/'{/t}
+** Don't move old files to 'old/'
 
 
-{t}Down{/t}
+** Down
 ‰º
 
-{t}Download{/t}
+** Download
 ƒ_ƒEƒ“ƒ[ƒh
 
-{t}Download example file{/t}
+** Download example file
 
 
-{t}Downloading extension list{/t}
+** Downloading extension list
 
 
-{t}Downloading update list{/t}
+** Downloading update list
 XVƒŠƒXƒg‚ğƒ_ƒEƒ“ƒ[ƒh’†
 
-{t}Drag and drop files or URLs here.{/t}
+** Drag and drop files or URLs here.
 
 
-{t}duplicate{/t}
+** duplicate
 •¡»
 
-{t}Duration{/t}
+** Duration
 ŠúŠÔ
 
-{t}E-mail{/t}
+** E-mail
 E-mail
 
-{t}E-mail private{/t}
+** E-mail private
 E-mail ŒÂl—p
 
-{t}E-mail program{/t}
+** E-mail program
 E-mailƒ\ƒtƒgƒEƒGƒA
 
-{t}e.g.{/t}
+** e.g.
 —áF
 
-{t}Edit{/t}
+** Edit
 •ÒW
 
-{t}Edit as new{/t}
+** Edit as new
 V‹K‚Æ‚µ‚Ä•ÒW
 
-{t}Edit rights{/t}
+** Edit rights
 •ÒWŒ ŒÀ
 
-{t}Editable if hidden in all views{/t}
+** Editable if hidden in all views
 
 
-{t}Editor{/t}
+** Editor
 •ÒWÒ
 
-{t}Emphasis{/t}
+** Emphasis
 ‹­’²
 
-{t}Empty{/t}
+** Empty
 ‹ó”’
 
-{t}Empty folder{/t}
+** Empty folder
 ‹óƒtƒHƒ‹ƒ_
 
-{t}en{/t}
+** en
 
 
-{t}Enable anonymous access{/t}
+** Enable anonymous access
 “½–¼ƒAƒNƒZƒX‚ğ‹–‰Â‚·‚é
 
-{t}Enable anonymous CMS{/t}
+** Enable anonymous CMS
 “½–¼‚É‚æ‚éCMS—˜—p
 
-{t}Enable automatic user creation{/t}
+** Enable automatic user creation
 ©“®ƒ†[ƒU[¶¬‚ğ‹–‰Â‚·‚é
 
-{t}Enable external mail client for 'mailto:' links{/t}
+** Enable external mail client for 'mailto:' links
 ŠO•”ƒ[ƒ‹ƒAƒvƒŠ‚Åmailto: ƒŠƒ“ƒN‚ğˆµ‚¤
 
-{t}Enable self registration{/t}
+** Enable self registration
 
 
-{t}Enable Sync4j / Funambol{/t}
+** Enable Sync4j / Funambol
 Sync4j / Funambol ‚ğg—p‚·‚é
 
-{t}Enable WebDAV{/t}
+** Enable WebDAV
 WebDAV‚ğg—p‚·‚é
 
-{t}Enable WebDAV file locking scripts{/t}
+** Enable WebDAV file locking scripts
 
 
-{t}End{/t}
+** End
 I—¹
 
-{t}engaged{/t}
+** engaged
 
 
-{t}equal{/t}
+** equal
 ˆê’v
 
-{t}Error{/t}
+** Error
 ƒGƒ‰[
 
-{t}Error doing request to xmlhttp{/t}
+** Error doing request to xmlhttp
 xmlhttp‚Å‚Ì—v‹’†‚ÉƒGƒ‰[
 
-{t}Error moving file{/t}
+** Error moving file
 ƒtƒ@ƒCƒ‹ˆÚ“®’†‚ÌƒGƒ‰[
 
-{t}Error pasting asset{/t}
+** Error pasting asset
 
-{t}Error: no credentials{/t}
+** Error: no credentials
 ƒGƒ‰[FŒ ŒÀ‚ªØ–¾‚³‚ê‚Ä‚¢‚Ü‚¹‚ñ
 
-{t}Events{/t}
+** Events
 ƒCƒxƒ“ƒg
 
-{t}Example{/t}
+** Example
 —á
 
-{t}Example contacts{/t}
+** Example contacts
 ˜A—æƒTƒ“ƒvƒ‹
 
-{t}Example surveys can be found at:{/t}
+** Example surveys can be found at:
 
 
-{t}Example without mountpoint{/t}
+** Example without mountpoint
 mountpoint‚ğg‚í‚È‚¢—á
 
-{t}Examples{/t}
+** Examples
 —á
 
-{t}Execute{/t}
+** Execute
 Às
 
-{t}Expenses{/t}
+** Expenses
 xo
 
-{t}Experimental{/t}
+** Experimental
 ÀŒ±“I
 
-{t}Expires{/t}
+** Expires
 ŠúŒÀ
 
-{t}Expiry{/t}
+** Expiry
 
 
-{t}Extended{/t}
+** Extended
 
 
-{t}Extensions{/t}
+** Extensions
 
 
-{t}Extracting files{/t}
+** Extracting files
 “WŠJƒtƒ@ƒCƒ‹
 
-{t}F j{/t}
+** F j
 F j
 
-{t}F j, Y{/t}
+** F j, Y
 F j, Y
 
-{t}Failed to create directory: %s{/t}
+** Failed to create directory: %s
 ƒfƒBƒŒƒNƒgƒŠ‚ğì¬‚Å‚«‚Ü‚¹‚ñ‚Å‚µ‚½F%s
 
-{t}Failed to write file to disk.{/t}
+** Failed to write file to disk.
 ƒfƒBƒXƒN‚Ö‚Ìƒtƒ@ƒCƒ‹‘‚«‚İ‚ª‚Å‚«‚Ü‚¹‚ñ‚Å‚µ‚½B
 
-{t}Failed to write into %s{/t}
+** Failed to write into %s
 %‘‚«‚ß‚Ü‚¹‚ñ‚Å‚µ‚½: %s
 
-{t}Family status{/t}
+** Family status
 ‰Æ‘°
 
-{t}FAQ{/t}
+** FAQ
 ‚æ‚­‚ ‚é¿–â
 
-{t}Favorites{/t}
+** Favorites
 ‚¨‹C‚É“ü‚è
 
-{t}Fax{/t}
+** Fax
 
 
-{t}Fax private{/t}
+** Fax private
 
 
-{t}Feature request{/t}
+** Feature request
 
 
-{t}Feb{/t}
+** Feb
 
 
-{t}February{/t}
+** February
 2Œ
 
-{t}Feed{/t}
+** Feed
 ƒtƒB[ƒh
 
-{t}female{/t}
+** female
 —«
 
-{t}Field{/t}
+** Field
 ƒtƒB[ƒ‹ƒh
 
-{t}Field contains value{/t}
+** Field contains value
 
 
-{t}Field customization{/t}
+** Field customization
 
 
-{t}Field is equal to value{/t}
+** Field is equal to value
 
 
-{t}Fields{/t}
+** Fields
 ƒtƒB[ƒ‹ƒhˆê——
 
-{t}File{/t}
+** File
 ƒtƒ@ƒCƒ‹
 
-{t}file is too big. Please change upload_max_filesize, post_max_size in your php.ini{/t}
+** file is too big. Please change upload_max_filesize, post_max_size in your php.ini
 ƒtƒ@ƒCƒ‹‚ª‘å‚«‚·‚¬‚Ü‚·Bphp.iniƒtƒ@ƒCƒ‹‚ğC³‚µ‚Ä upload_max_filesize, post_max_size ‚ğ•ÏX‚µ‚Ä‚­‚¾‚³‚¢B
 
-{t}file is too big. Please upload a smaller one.{/t}
+** file is too big. Please upload a smaller one.
 ƒtƒ@ƒCƒ‹‚ª‘å‚«‚·‚¬‚Ü‚·B¬‚³‚¢ƒtƒ@ƒCƒ‹‚É‚µ‚Ä‚­‚¾‚³‚¢BB
 
-{t}File locked.{/t}
+** File locked.
 ƒtƒ@ƒCƒ‹‚ÍƒƒbƒN‚³‚ê‚Ä‚¢‚Ü‚·B
 
-{t}file not found in database.{/t}
+** file not found in database.
 ƒf[ƒ^ƒx[ƒX“à‚Éƒtƒ@ƒCƒ‹‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ
 
-{t}file not found.{/t}
+** file not found.
 ƒtƒ@ƒCƒ‹‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ
 
-{t}File unlocked.{/t}
+** File unlocked.
 ƒtƒ@ƒCƒ‹‚ÌƒƒbƒN‚ª‰ğœ‚³‚ê‚Ü‚µ‚½
 
-{t}file was uploaded partially.{/t}
+** file was uploaded partially.
 ƒtƒ@ƒCƒ‹‚ª•”•ª“I‚ÉƒAƒbƒvƒ[ƒh‚³‚ê‚Ü‚µ‚½B
 
-{t}Filename must have the right extension. Valid extensions are %s{/t}
+** Filename must have the right extension. Valid extensions are %s
 ƒtƒ@ƒCƒ‹–¼‚É‚Í³‚µ‚¢Šg’£q‚ª•K—v‚Å‚·B•K—v‚ÈŠg’£qF%sB
 
-{t}Files{/t}
+** Files
 ƒtƒ@ƒCƒ‹
 
-{t}Filesystem{/t}
+** Filesystem
 ƒtƒ@ƒCƒ‹ƒVƒXƒeƒ€
 
-{t}Filter{/t}
+** Filter
 ƒtƒBƒ‹ƒ^[
 
 
-{t}Find assets in multiple folders{/t}
+** Find assets in multiple folders
 •¡”ƒtƒHƒ‹ƒ_‚©‚çŒŸõ‚·‚é
 
-{t}Finish scheduled{/t}
+** Finish scheduled
 ƒXƒPƒWƒ…[ƒ‹Š®‹
 
-{t}Finished{/t}
+** Finished
 Š®—¹
 
-{t}First in list{/t}
+** First in list
 ˆê—ñ–Ú
 
-{t}first level support{/t}
+** first level support
 
 
-{t}First name{/t}
+** First name
 –¼
 
-{t}Fix paging bar to page bottom{/t}
+** Fix paging bar to page bottom
 
 
-{t}fixed{/t}
+** fixed
 ŒÅ’è
 
-{t}Flags{/t}
+** Flags
 ƒtƒ‰ƒO
 
-{t}Flash plugin not installed.{/t}
+** Flash plugin not installed.
 
 
-{t}Folder{/t}
+** Folder
 ƒtƒHƒ‹ƒ_[
 
-{t}Folder already exists.{/t}
+** Folder already exists.
 ƒtƒHƒ‹ƒ_[‚Í‚·‚Å‚É‘¶İ‚µ‚Ü‚·B
 
-{t}Folder created.{/t}
+** Folder created.
 ƒtƒHƒ‹ƒ_[‚ğ¶¬‚µ‚Ü‚µ‚½B
 
-{t}Folder has changed.{/t}
+** Folder has changed.
 ƒtƒHƒ‹ƒ_[‚ğ•ÏX‚µ‚Ü‚µ‚½B
 
-{t}Folder icon{/t}
+** Folder icon
 ƒtƒHƒ‹ƒ_‚ÌƒAƒCƒRƒ“
 
-{t}Folder not found.{/t}
+** Folder not found.
 ƒtƒHƒ‹ƒ_[‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñB
 
-{t}Folder refresh period{/t}
+** Folder refresh period
 ƒtƒHƒ‹ƒ_[‚ÌXVŠúŒÀ
 
-{t}Folder structure{/t}
+** Folder structure
 ƒtƒHƒ‹ƒ_[\‘¢
 
-{t}Folder structure created.{/t}
+** Folder structure created.
 ƒtƒHƒ‹ƒ_[\‘¢‚ª¶¬‚³‚ê‚Ü‚µ‚½B
 
-{t}Folder structure moved to trash.{/t}
+** Folder structure moved to trash.
 ƒtƒHƒ‹ƒ_\‘¢‚ªƒSƒ~” ‚ÉˆÚ“®‚³‚ê‚Ü‚µ‚½B
 
-{t}Folder Type{/t}
+** Folder Type
 ƒtƒHƒ‹ƒ_[ƒ^ƒCƒv
 
-{t}Folder with ID %s{/t}
+** Folder with ID %s
 
 
-{t}Folders{/t}
+** Folders
 ƒtƒHƒ‹ƒ_
 
-{t}for a new paragraph, use a blank line{/t}
+** for a new paragraph, use a blank line
 V‚µ‚¢ƒpƒ‰ƒOƒ‰ƒt‚ğì‚é‚É‚Í‹ós‚ğ“ü‚ê‚Ä‰º‚³‚¢B
 
-{t}Force SSL{/t}
+** Force SSL
 ‹­§‚ÅSSL‚ğg—p‚·‚é
 
-{t}Form{/t}
+** Form
 ƒtƒH[ƒ€
 
-{t}Forum{/t}
+** Forum
 ƒtƒH[ƒ‰ƒ€
 
-{t}Forward{/t}
+** Forward
 ‘O•û
 
-{t}Fr{/t}
+** Fr
 ‹à
 
-{t}Free/busy{/t}
+** Free/busy
 ‹ó/ƒrƒW[
 
-{t}Freelance{/t}
+** Freelance
 ©—R‹Æ
 
-{t}Fri{/t}
+** Fri
 ‹à
 
-{t}Friday{/t}
+** Friday
 ‹à—j“ú
 
-{t}From{/t}
+** From
 
 
-{t}Full screen{/t}
+** Full screen
 ‘S‰æ–Ê
 
-{t}Full texts{/t}
+** Full texts
 ‘S•¶
 
-{t}Full time{/t}
+** Full time
 ƒtƒ‹ƒ^ƒCƒ€
 
-{t}Full width{/t}
+** Full width
 
-{t}Fulltext index{/t}
+** Fulltext index
 
-{t}Funambol only works with MySQL and PostgreSQL.{/t}
+** Funambol only works with MySQL and PostgreSQL.
 Funambol‚ÍMySQL‚©PostgreSQL‚Å‚µ‚©g‚¦‚Ü‚¹‚ñB
 
-{t}Function does not exist: %s{/t}
+** Function does not exist: %s
 %sƒtƒ@ƒ“ƒNƒVƒ‡ƒ“‚ª‚ ‚è‚Ü‚¹‚ñ
 
-{t}g:i a{/t}
+** g:i a
 g:i a
 
-{t}Gender{/t}
+** Gender
 «•Ê
 
-{t}General{/t}
+** General
 ˆê”Ê
 
-{t}Generate{/t}
+** Generate
 ¶¬
 
-{t}Gifts{/t}
+** Gifts
 ƒMƒtƒg
 
-{t}Give Feedback{/t}
+** Give Feedback
 ƒtƒB[ƒhƒoƒbƒN‚ğ‘—‚é
 
-{t}GNU GPL Frequently Asked Questions{/t}
+** GNU GPL Frequently Asked Questions
 GNU GPL‚Ì‚æ‚­‚ ‚é¿–â
 
-{t}greater than{/t}
+** greater than
 ‚æ‚è‘å‚«‚¢
 
-{t}green{/t}
+** green
 —Î
 
-{t}Group{/t}
+** Group
 Œ ŒÀƒOƒ‹[ƒv
 
-{t}Group created.{/t}
+** Group created.
 Œ ŒÀƒOƒ‹[ƒv‚ğì¬‚µ‚Ü‚µ‚½
 
-{t}Group deactivated.{/t}
+** Group deactivated.
 Œ ŒÀƒOƒ‹[ƒv‚ğ–³Œø‚É‚µ‚Ü‚µ‚½
 
-{t}Groupname{/t}
+** Groupname
 Œ ŒÀƒOƒ‹[ƒv–¼
 
-{t}Groups{/t}
+** Groups
 Œ ŒÀƒOƒ‹[ƒvˆê——
 
-{t}hanging text{/t}
+** hanging text
 ƒnƒ“ƒMƒ“ƒO•¶š
 
-{t}Hardware{/t}
+** Hardware
 ƒn[ƒhƒEƒFƒA
 
-{t}Headers{/t}
+** Headers
 ƒwƒbƒ_ˆê——
 
-{t}heading{/t}
+** heading
 Œ©o‚µ
 
-{t}headings{/t}
+** headings
 Œ©o‚µ
 
-{t}Height{/t}
+** Height
 ‚‚³
 
-{t}Help{/t}
+** Help
 ƒwƒ‹ƒv
 
-{t}Helpdesk{/t}
+** Helpdesk
 ƒwƒ‹ƒvƒfƒXƒN
 
-{t}Hidden in{/t}
+** Hidden in
 
 
-{t}Hidden in all views{/t}
+** Hidden in all views
 
 
-{t}Hide{/t}
+** Hide
 
 
-{t}hide in all views{/t}
+** hide in all views
 
 
-{t}hide in this view{/t}
+** hide in this view
 
 
-{t}History{/t}
+** History
 
 
-{t}Holiday{/t}
+** Holiday
 ‹x“ú
 
-{t}Home{/t}
+** Home
 ƒz[ƒ€
 
-{t}Home folder id{/t}
+** Home folder id
 ƒtƒH[ƒ€ƒtƒHƒ‹ƒ_ID
 
-{t}Home page in the CMS{/t}
+** Home page in the CMS
 CMS“à•”‚Å‚Ìƒz[ƒ€ƒy[ƒW
 
-{t}Homepage{/t}
+** Homepage
 ƒz[ƒ€ƒy[ƒW
 
-{t}horizontal line{/t}
+** horizontal line
 …•½ü
 
-{t}Host{/t}
+** Host
 ƒzƒXƒg
 
-{t}Hosts{/t}
+** Hosts
 ƒzƒXƒgˆê——
 
-{t}Hour{/t}
+** Hour
 
 
-{t}hours{/t}
+** hours
 ŠÔ
 
-{t}Hours per week{/t}
+** Hours per week
 
 
-{t}HTML document{/t}
+** HTML document
 
 
-{t}HTML documents{/t}
+** HTML documents
 HTMLƒhƒLƒ…ƒƒ“ƒgˆê——
 
-{t}http://www.pmwiki.org/PmWiki/{/t}
+** http://www.pmwiki.org/PmWiki/
 http://www.pmwiki.org/PmWiki/
 
-{t}Human resources{/t}
+** Human resources
 
 
-{t}I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2{/t}
+** I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2
 GNU‚ÌGPLƒ‰ƒCƒZƒ“ƒX‘æ2”Å‚ğó‚¯“ü‚ê‚Ü‚·
 
-{t}I m p o r t{/t}
+** I m p o r t
 ƒCƒ“ƒ|[ƒg
 
-{t}I n s t a l l{/t}
+** I n s t a l l
 ƒCƒ“ƒXƒg[ƒ‹
 
-{t}Icon{/t}
+** Icon
 ƒAƒCƒRƒ“
 
-{t}Id{/t}
+** Id
 ID
 
-{t}Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
 ID‚Ìnull‚Í”F‚ß‚ç‚ê‚Ü‚¹‚ñB¬•¶š‚Ì‚İ3•¶š‚æ‚è128š‚Ü‚Åw’èo—ˆ‚Ü‚·B[a-z0-9_-@.]
 
-{t}Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].
 ID‚Ìnull‚Í”F‚ß‚ç‚ê‚Ü‚¹‚ñB[a-z0-9_-@.i]128š‚Ü‚Åw’è‚Å‚«‚Ü‚·B
 
-{t}Ideas{/t}
+** Ideas
 ƒAƒCƒfƒAˆê——
 
-{t}If empty, the SMTP connection from the module users will be used.{/t}
+** If empty, the SMTP connection from the module users will be used.
 If empty, the SMTP connection from the module users will be used.
 
-{t}If file system permissions are ok, please check the configurations of %s if present.{/t}
+** If file system permissions are ok, please check the configurations of %s if present.
 
 
-{t}if not autodetected with namingContexts{/t}
+** if not autodetected with namingContexts
 if not autodetected with namingContexts
 
-{t}If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.{/t}
+** If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.
 ƒ†[ƒU[–¼‚Ü‚½‚ÍƒpƒXƒ[ƒh‚ÉƒNƒH[ƒg‹L†f‚ª“ü‚Á‚Ä‚¢‚éê‡‚Í &quot;%%&quot;‚É’uŠ·‚µ‚Ä‚­‚¾‚³‚¢B
 
-{t}If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.{/t}
+** If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.
 ƒ†[ƒU[–¼‚Ü‚½‚ÍƒpƒXƒ[ƒh‚É'—'‚ª“ü‚Á‚Ä‚¢‚éê‡‚Í %% ‚É’uŠ·‚µ‚Ä‚­‚¾‚³‚¢B
 
-{t}Illness{/t}
+** Illness
 
 
-{t}Im-/Export{/t}
+** Im-/Export
 ƒCƒ“ƒ|[ƒg/ƒGƒNƒXƒ|[ƒg
 
-{t}Image{/t}
+** Image
 ‰æ‘œ
 
-{t}Images{/t}
+** Images
 ‰æ‘œˆê——
 
-{t}Imap-error: %s{/t}
+** Imap-error: %s
 ImapƒGƒ‰[F%s
 
-{t}immediate{/t}
+** immediate
 ‘¦
 
-{t}Import{/t}
+** Import
 ƒCƒ“ƒ|[ƒg
 
-{t}In progress{/t}
+** In progress
 is’†
 
-{t}in repair{/t}
+** in repair
 C•œ’†
 
-{t}in stock{/t}
+** in stock
 İŒÉ‚ ‚è
 
-{t}Inactive{/t}
+** Inactive
 ‹x~
 
-{t}Include in RSS feed{/t}
+** Include in RSS feed
 RSS‚ÉŠÜ‚ß‚é
 
-{t}Include page{/t}
+** Include page
 ƒy[ƒW‚ğŠÜ‚ß‚é
 
-{t}indent text{/t}
+** indent text
 •¶š‚ğƒCƒ“ƒfƒ“ƒg‚·‚é
 
-{t}Index{/t}
+** Index
 ƒCƒ“ƒfƒbƒNƒX
 
-{t}Index length{/t}
+** Index length
 ƒCƒ“ƒfƒbƒNƒX’·
 
-{t}Index type{/t}
+** Index type
 ƒCƒ“ƒfƒbƒNƒXŒ^
 
-{t}Indexes{/t}
+** Indexes
 ƒCƒ“ƒfƒbƒNƒXˆê——
 
-{t}Industry{/t}
+** Industry
 Hê
 
-{t}Info{/t}
+** Info
 î•ñ
 
-{t}inheritance to subfolders without default values{/t}
+** inheritance to subfolders without default values
 
 
-{t}Input field{/t}
+** Input field
 “ü—ÍƒtƒB[ƒ‹ƒh
 
-{t}Input field height{/t}
+** Input field height
 “ü—ÍƒtƒB[ƒ‹ƒh‚‚³
 
-{t}Insert{/t}
+** Insert
 ‘}“ü
 
-{t}inserted{/t}
+** inserted
 ‘}“üÏ‚İ
 
-{t}Install default folder structure{/t}
+** Install default folder structure
 ƒCƒ“ƒXƒg[ƒ‹‚ğ•W€ƒtƒHƒ‹ƒ_\¬‚Ås‚¤
 
-{t}Install demo folders{/t}
+** Install demo folders
 ƒCƒ“ƒXƒg[ƒ‹‚Éƒfƒ‚ƒtƒHƒ‹ƒ_‚ğŠÜ‚ß‚é
 
-{t}Install minimal folder structure{/t}
+** Install minimal folder structure
 ƒCƒ“ƒXƒg[ƒ‹‚ğÅ¬ƒtƒHƒ‹ƒ_\¬‚Ås‚¤
 
-{t}installed{/t}
+** installed
 ƒCƒ“ƒXƒg[ƒ‹Ï‚İ
 
-{t}insufficient folder rights{/t}
+** insufficient folder rights
 ƒtƒHƒ‹ƒ_Œ ŒÀ‚ª•s‘«‚µ‚Ä‚¢‚Ü‚·
 
-{t}Internal recommendation{/t}
+** Internal recommendation
 “à•”‚Ì‚¨‚·‚·‚ß
 
-{t}Intranet{/t}
+** Intranet
 ƒCƒ“ƒgƒ‰ƒlƒbƒg
 
-{t}Intro{/t}
+** Intro
 Ğ‰î
 
-{t}invalid{/t}
+** invalid
 –³Œø
 
-{t}Invalid file extensions{/t}
+** Invalid file extensions
 Šg’£q‚ª³‚µ‚­‚ ‚è‚Ü‚¹‚ñ
 
-{t}Invalid schema mode '%s'{/t}
+** Invalid schema mode '%s'
 ƒXƒL[ƒ}‚Ìƒ‚[ƒh'%s'‚Í³‚µ‚­‚ ‚è‚Ü‚¹‚ñ
 
-{t}Invalid security token{/t}
+** Invalid security token
 ƒZƒLƒ…ƒŠƒeƒB‚ÌŒ ŒÀƒg[ƒNƒ“‚ª‡‚¢‚Ü‚¹‚ñ
 
-{t}Inventory{/t}
+** Inventory
 ƒCƒ“ƒxƒ“ƒgƒŠ
 
-{t}Inventory number{/t}
+** Inventory number
 ƒfƒBƒŒƒNƒgƒŠ”
 
-{t}Investor{/t}
+** Investor
 “Š‘Ò
 
-{t}Invoice{/t}
+** Invoice
 ¿‹‘
 
-{t}italic{/t}
+** italic
 Î‘Ì
 
-{t}Item created by %s at %s{/t}
+** Item created by %s at %s
 €–Ú‚ª%s‚É‚æ‚è%s‚Éì¬‚³‚ê‚Ü‚µ‚½
 
-{t}Item deleted by %s at %s{/t}
+** Item deleted by %s at %s
 €–Ú‚ª%s‚É‚æ‚è%s‚Éíœ‚³‚ê‚Ü‚µ‚½
 
-{t}Item edited (%s) by %s at %s{/t}
+** Item edited (%s) by %s at %s
 
 
-{t}Item not found.{/t}
+** Item not found.
 €–Ú‚ÍŒ©‚Â‚©‚è‚Ü‚¹‚ñ‚Å‚µ‚½B
 
-{t}Item successfully created.{/t}
+** Item successfully created.
 €–Ú‚ª³í‚É¶¬‚³‚ê‚Ü‚µ‚½B
 
-{t}Item successfully updated.{/t}
+** Item successfully updated.
 €–Ú‚ª³í‚ÉXV‚³‚ê‚Ü‚µ‚½B
 
-{t}Item(s) not found or access denied.{/t}
+** Item(s) not found or access denied.
 €–Ú‚ÍŒ©‚Â‚©‚ç‚È‚©‚Á‚½‚©ƒAƒNƒZƒX‚ª‹‘”Û‚³‚ê‚Ü‚µ‚½
 
-{t}Jan{/t}
+** Jan
 
 
-{t}January{/t}
+** January
 1Œ
 
-{t}Job description{/t}
+** Job description
 ƒWƒ‡ƒu“à—e
 
-{t}Join lines{/t}
+** Join lines
 s‚ÌŒ‹‡
 
-{t}Jul{/t}
+** Jul
 
 
-{t}July{/t}
+** July
 7Œ
 
-{t}Jun{/t}
+** Jun
 
 
-{t}June{/t}
+** June
 6Œ
 
-{t}Key{/t}
+** Key
 ƒL[
 
-{t}Key customer{/t}
+** Key customer
 å—v‹qƒL[
 
-{t}Key name{/t}
+** Key name
 ƒL[–¼Ì
 
-{t}Keywords{/t}
+** Keywords
 ƒL[ƒ[ƒh
 
-{t}Knowledge base{/t}
+** Knowledge base
 ƒiƒŒƒbƒWƒx[ƒX
 
-{t}L o g i n{/t}
+** L o g i n
 ƒƒOƒCƒ“
 
-{t}l, F j, Y{/t}
+** l, F j, Y
 l, F j, Y
 
-{t}Last access{/t}
+** Last access
 ÅIƒAƒNƒZƒX
 
-{t}Last name{/t}
+** Last name
 ©
 
-{t}LDAP anonymous connection failed.{/t}
+** LDAP anonymous connection failed.
 LDAP‚É‚æ‚é“½–¼Ú‘±‚Í¸”s‚µ‚Ü‚µ‚½B
 
-{t}LDAP attribute for group memberships{/t}
+** LDAP attribute for group memberships
 ƒOƒ‹[ƒv‚ÌLDAP‘®«
 
-{t}LDAP attribute for rooms{/t}
+** LDAP attribute for rooms
 ƒ‹[ƒ€‚ÌLDAP‘®«
 
-{t}LDAP attribute for usernames{/t}
+** LDAP attribute for usernames
 ƒ†[ƒU[–¼‚ÌLDAP‘®«
 
-{t}LDAP connection to host %s failed.{/t}
+** LDAP connection to host %s failed.
 LDAP connection to host %s failed.
 
-{t}LDAP without anonymous access{/t}
+** LDAP without anonymous access
 LDAP without anonymous access
 
-{t}LDAP: no base DN given{/t}
+** LDAP: no base DN given
 LDAP: no base DN given
 
-{t}LDAP: no UID given{/t}
+** LDAP: no UID given
 
 
-{t}Leave of absence{/t}
+** Leave of absence
 
 
-{t}less promising{/t}
+** less promising
 ‰Âs«
 
-{t}lesser than{/t}
+** lesser than
 ˆÈ‰º
 
-{t}Letter{/t}
+** Letter
 •¶š
 
-{t}Level{/t}
+** Level
 ƒŒƒxƒ‹
 
-{t}License{/t}
+** License
 ƒ‰ƒCƒZƒ“ƒX
 
-{t}line{/t}
+** line
 
 
-{t}Line break{/t}
+** Line break
 ‰üs
 
-{t}Link{/t}
+** Link
 ƒŠƒ“ƒN
 
-{t}Link restricted{/t}
+** Link restricted
 ƒŠƒ“ƒN§ŒÀ
 
-{t}link text{/t}
+** link text
 ƒŠƒ“ƒN•¶š
 
-{t}link to external page{/t}
+** link to external page
 ŠO•”ƒy[ƒW‚Ö‚ÌƒŠƒ“ƒN
 
-{t}link to internal page{/t}
+** link to internal page
 “à•”ƒy[ƒW‚Ö‚ÌƒŠƒ“ƒN
 
-{t}Links{/t}
+** Links
 ƒŠƒ“ƒN
 
-{t}Lists{/t}
+** Lists
 —ñˆê——
 
-{t}Load external images{/t}
+** Load external images
 ŠO•”ƒCƒ[ƒW‚Ì•\¦
 
-{t}Location{/t}
+** Location
 êŠ
 
-{t}Locations{/t}
+** Locations
 êŠˆê——
 
-{t}Lock{/t}
+** Lock
 ƒƒbƒN
 
-{t}Locked by{/t}
+** Locked by
 ƒƒbƒN‚µ‚Ä‚¢‚é
 
-{t}Locking{/t}
+** Locking
 ƒƒbƒN’†
 
-{t}login %s from %s with %s{/t}
+** login %s from %s with %s
 %s‚ª%s‚æ‚è%s‚ÅƒƒOƒCƒ“
 
-{t}Login failed from %s.{/t}
+** Login failed from %s.
 %s‚©‚ç‚ÌƒƒOƒCƒ“‚ª¸”sB
 
-{t}Login/-out{/t}
+** Login/-out
 ƒƒOƒCƒ“/ƒƒOƒAƒEƒg
 
-{t}Logins{/t}
+** Logins
 ƒƒOƒCƒ“
 
-{t}Logout{/t}
+** Logout
 
 
-{t}logout %s{/t}
+** logout %s
 ƒƒOƒAƒEƒg:%s
 
-{t}Lookup{/t}
+** Lookup
 ŒŸõ
 
-{t}low{/t}
+** low
 ’á
 
-{t}lowest{/t}
+** lowest
 Å’á
 
-{t}M j{/t}
+** M j
 }M j
 
-{t}M j, g:i a{/t}
+** M j, g:i a
 M j, g:i a
 
-{t}M j, Y{/t}
+** M j, Y
 M j, Y
 
-{t}m/d/Y{/t}
+** m/d/Y
 m/d/Y
 
-{t}m/d/Y g:i a{/t}
+** m/d/Y g:i a
 m/d/Y g:i a
 
-{t}m/d/y g:i:s a{/t}
+** m/d/y g:i:s a
 m/d/y g:i:s a
 
-{t}magenta{/t}
+** magenta
 ƒ}ƒ[ƒ“ƒ^
 
-{t}mail footer{/t}
+** mail footer
 ƒ[ƒ‹ƒtƒbƒ^[“à—e“à—e
 
-{t}Mail identities{/t}
+** Mail identities
 ƒ[ƒ‹˜A—æˆê——
 
 
-{t}mail notification{/t}
+** mail notification
 ƒ[ƒ‹’Ê’m
 
-{t}mail reminder{/t}
+** mail reminder
 ƒ[ƒ‹ƒŠƒ}ƒCƒ“ƒ_[
 
-{t}Main menu{/t}
+** Main menu
 ƒƒCƒ“ƒƒjƒ…[
 
-{t}Main page{/t}
+** Main page
 
 
-{t}Maintenance mode{/t}
+** Maintenance mode
 ƒƒ“ƒeƒiƒ“ƒXƒ‚[ƒh
 
-{t}male{/t}
+** male
 ’j
 
-{t}Man-days{/t}
+** Man-days
 l“ú
 
-{t}Man-days planned{/t}
+** Man-days planned
 —\’èì‹Æl“ú
 
-{t}Manager{/t}
+** Manager
 ŠÇ—Ò
 
-{t}Manufacturer{/t}
+** Manufacturer
 »‘¢Ò
 
-{t}Mar{/t}
+** Mar
 
 
-{t}March{/t}
+** March
 3Œ
 
-{t}Marketing event{/t}
+** Marketing event
 ƒ}[ƒPƒeƒBƒ“ƒO‚ÌƒCƒxƒ“ƒg
 
-{t}married{/t}
+** married
 Šù¥
 
-{t}Maximize{/t}
+** Maximize
 Å‘å‰»
 
-{t}Maximum file size{/t}
+** Maximum file size
 
 
-{t}Maximum number of assets per page{/t}
+** Maximum number of assets per page
 
 
-{t}maximum number of files exceeded.{/t}
+** maximum number of files exceeded.
 ƒtƒ@ƒCƒ‹Å‘å”—Ê‚ğ’´‰ß‚µ‚Ä‚¢‚Ü‚·
 
-{t}May{/t}
+** May
 5Œ
 
-{t}Media{/t}
+** Media
 ”}‘Ì
 
-{t}Meeting{/t}
+** Meeting
 ‰ï‡
 
-{t}Members{/t}
+** Members
 ƒƒ“ƒo[
 
-{t}Memory limit{/t}
+** Memory limit
 
 
-{t}Merge folders permanently{/t}
+** Merge folders permanently
 ƒtƒHƒ‹ƒ_[‚ğ‰i‹v“I‚ÉŒ‹‡‚·‚é
 
-{t}Merged folders{/t}
+** Merged folders
 Œ‹‡‚³‚ê‚½ƒtƒHƒ‹ƒ_
 
-{t}Message{/t}
+** Message
 ƒƒbƒZ[ƒW
 
-{t}Messages{/t}
+** Messages
 ƒƒbƒZ[ƒWˆê——
 
-{t}Milestone{/t}
+** Milestone
 ƒ}ƒCƒ‹ƒXƒg[ƒ“
 
-{t}min{/t}
+** min
 Å¬
 
-{t}Minimize{/t}
+** Minimize
 Å¬‰»
 
-{t}minimum = 15 secs, 0 = disabled{/t}
+** minimum = 15 secs, 0 = disabled
 minimum = 15•b, 0 = ‹Ö~
 
-{t}Miscellaneous{/t}
+** Miscellaneous
 ‚»‚Ì‘¼
 
-{t}missing a temporary folder.{/t}
+** missing a temporary folder.
 ƒeƒ“ƒ|ƒ‰ƒŠƒtƒHƒ‹ƒ_‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ
 
-{t}missing field{/t}
+** missing field
 •s‘«‚µ‚Ä‚¢‚éƒtƒB[ƒ‹ƒh
 
-{t}missing right: %s{/t}
+** missing right: %s
 Œ ŒÀ‚ª•s‘«‚µ‚Ä‚¢‚Ü‚·F%s
 
-{t}Mo{/t}
+** Mo
 Œ
 
-{t}Mobile{/t}
+** Mobile
 Œg‘Ñ
 
-{t}Model{/t}
+** Model
 ƒ‚ƒfƒ‹
 
-{t}Modified{/t}
+** Modified
 ‰ü’ù
 
-{t}Modified by{/t}
+** Modified by
 ‰ü’ùÒ
 
-{t}Modifying database failed.{/t}
+** Modifying database failed.
 ƒf[ƒ^ƒx[ƒX‚Ì•ÏX‚É¸”sB
 
-{t}Module{/t}
+** Module
 ƒ‚ƒWƒ…[ƒ‹
 
-{t}Module disabled.{/t}
+** Module disabled.
 g—p‹x~ƒ‚ƒWƒ…[ƒ‹
 
-{t}Modules{/t}
+** Modules
 ƒ‚ƒWƒ…[ƒ‹ˆê——
 
-{t}Mon{/t}
+** Mon
 Œ
 
-{t}Monday{/t}
+** Monday
 Œ—j“ú
 
-{t}monospace{/t}
+** monospace
 “™•š‘Ì
 
-{t}Month{/t}
+** Month
 Œ
 
-{t}monthly{/t}
+** monthly
 Œ’PˆÊ
 
-{t}months{/t}
+** months
 Œ
 
-{t}More information about the GNU GPL{/t}
+** More information about the GNU GPL
 GNU GPL‚É‚Â‚¢‚Ä‚Ì‚³‚ç‚È‚éî•ñ
 
-{t}Mountpoint{/t}
+** Mountpoint
 Mountpoint
 
-{t}Move{/t}
+** Move
 ˆÚ“®
 
-{t}Move to subfolder 'Archive'{/t}
+** Move to subfolder 'Archive'
 ƒTƒuƒtƒHƒ‹ƒ_‚ğ'ƒA[ƒJƒCƒu'‚ÉˆÚ“®‚·‚é
 
-{t}Multiple{/t}
+** Multiple
 •¡”
 
-{t}Multiple choice{/t}
+** Multiple choice
 •¡”‘I‘ğ
 
-{t}My appointments{/t}
+** My appointments
 „‚Ì—\’è
 
-{t}My tasks{/t}
+** My tasks
 „‚Ìƒ^ƒXƒN
 
-{t}Name{/t}
+** Name
 
 
-{t}Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
 ©–¼‚Í‹ó”’‚É‚Í‚Å‚«‚Ü‚¹‚ñB¬•¶š‚Å3•¶š-128šˆÈ“à‚É‚µ‚Ä‚­‚¾‚³‚¢B [a-z0-9_-@.]
 
-{t}Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].{/t}
+** Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].
 ©–¼‚Í‹ó”’‚É‚Í‚Å‚«‚Ü‚¹‚ñB¬•¶š‚Å3•¶šˆÈãw’è‚µ‚Ä‚­‚¾‚³‚¢B [a-zA-Z0-9-_.]¬
 
-{t}need feedback{/t}
+** need feedback
 ƒtƒB[ƒhƒoƒbƒN‚ª•K—v
 
-{t}Network{/t}
+** Network
 ƒlƒbƒgƒ[ƒN
 
-{t}Never expires{/t}
+** Never expires
 –³ŠúŒÀ
 
-{t}New{/t}
+** New
 V‹K
 
-{t}New folder{/t}
+** New folder
 V‚µ‚¢ƒtƒHƒ‹ƒ_
 
-{t}News{/t}
+** News
 V’…î•ñ
 
-{t}Next recurrences{/t}
+** Next recurrences
 
 
-{t}Nickname{/t}
+** Nickname
 ƒjƒbƒNƒl[ƒ€
 
-{t}Nightwork{/t}
+** Nightwork
 –éŠÔì‹Æ
 
-{t}no{/t}
+** no
 ‚¢‚¢‚¦
 
-{t}No dataset selected.{/t}
+** No dataset selected.
 ƒf[ƒ^ƒZƒbƒg‚ª‘I‘ğ‚³‚ê‚Ä‚¢‚Ü‚¹‚ñ
 
-{t}No entries found.{/t}
+** No entries found.
 ‹L–‚Í‚ ‚è‚Ü‚¹‚ñB
 
-{t}No file was uploaded{/t}
+** No file was uploaded
 
 
-{t}No line breaks{/t}
+** No line breaks
 
 
-{t}no result{/t}
+** no result
 ŠY“–‚È‚µ
 
-{t}No search index{/t}
+** No search index
 
 
-{t}No sender specified.{/t}
+** No sender specified.
 ‘—MÒ‚ª–¢w’è‚Å‚·
 
-{t}no username submitted{/t}
+** no username submitted
 ƒ†[ƒU[–¼‚ª“ü—Í‚³‚ê‚Ä‚¢‚Ü‚¹‚ñ
 
-{t}No wrap{/t}
+** No wrap
 ‰üs‚È‚µ
 
-{t}Non unique{/t}
+** Non unique
 d•¡‰Â
 
-{t}none{/t}
+** none
 –³
 
-{t}normal{/t}
+** normal
 ³í
 
-{t}Not allowed. Please log in as super administrator.{/t}
+** Not allowed. Please log in as super administrator.
 ƒƒOƒCƒ“‚Í”F‚ß‚ç‚ê‚Ä‚¢‚Ü‚¹‚ñBƒX[ƒp[ƒAƒhƒ~ƒjƒXƒgƒŒ[ƒ^Œ è°€ÅƒƒOƒCƒ“‚µ‚Ä‚­‚¾‚³‚¢B
 
-{t}not contains{/t}
+** not contains
 ŠÜ‚Ü‚È‚¢
 
-{t}not equal{/t}
+** not equal
 •s“™
 
-{t}Not in{/t}
+** Not in
 
 
-{t}Not in database{/t}
+** Not in database
 
 
-{t}not installed{/t}
+** not installed
 –¢ƒCƒ“ƒXƒg[ƒ‹
 
-{t}Note{/t}
+** Note
 ƒƒ‚
 
-{t}Notebook{/t}
+** Notebook
 ƒƒ‚’ 
 
-{t}Notes{/t}
+** Notes
 ƒƒ‚ˆê——
 
-{t}Notificaiton sent to: %s{/t}
+** Notificaiton sent to: %s
 ’Ê’m‚ª‘—‚ç‚ê‚Ü‚µ‚½:%s
 
-{t}Notification{/t}
+** Notification
 ’Ê’m
 
-{t}Notification summary{/t}
+** Notification summary
 ‚¨’m‚ç‚¹“E—v
 
-{t}Notifications{/t}
+** Notifications
 ’Ê’m
 
-{t}Nov{/t}
+** Nov
 
 
-{t}November{/t}
+** November
 11Œ
 
-{t}Null{/t}
+** Null
 
-{t}Number of employees{/t}
+** Number of employees
 ŒÙ—pl”
 
-{t}numbered{/t}
+** numbered
 
-{t}Objectives{/t}
+** Objectives
 –Ú•W
 
-{t}Oct{/t}
+** Oct
 
 
-{t}October{/t}
+** October
 10Œ
 
-{t}of {0}{/t}
+** of {0}
 
 
-{t}offer{/t}
+** offer
 
 
-{t}Offer{/t}
+** Offer
 
 
-{t}Office{/t}
+** Office
 ƒIƒtƒBƒX
 
-{t}Office program{/t}
+** Office program
 ƒIƒtƒBƒXƒvƒƒOƒ‰ƒ€
 
-{t}Offices{/t}
+** Offices
 ƒIƒtƒBƒXˆê——
 
-{t}offline{/t}
+** offline
 ƒIƒtƒ‰ƒCƒ“
 
-{t}Offline folders{/t}
+** Offline folders
 ƒIƒtƒ‰ƒCƒ“ƒtƒHƒ‹ƒ_
 
-{t}Offline sync{/t}
+** Offline sync
 ƒIƒtƒ‰ƒCƒ““¯Šú
 
-{t}Ok{/t}
+** Ok
 
 
-{t}one of{/t}
+** one of
 
 
-{t}online{/t}
+** online
 ƒIƒ“ƒ‰ƒCƒ“
 
-{t}Only for this folder{/t}
+** Only for this folder
 
 
-{t}Only in{/t}
+** Only in
 
 
-{t}open{/t}
+** open
 ŠJ‚­
 
-{t}Open{/t}
+** Open
 is’†
 
-{t}Operating system{/t}
+** Operating system
 ƒIƒyƒŒ[ƒeƒBƒ“ƒOƒVƒXƒeƒ€
 
-{t}Operation not allowed. (Data loss protection){/t}
+** Operation not allowed. (Data loss protection)
 ‘€ì‹Ö~Biƒf[ƒ^ƒƒX–hŒìj
 
-{t}Optimize Tables{/t}
+** Optimize Tables
 DB•\‚ÌÅ“K‰»
 
-{t}Options{/t}
+** Options
 ƒIƒvƒVƒ‡ƒ“ˆê——
 
-{t}or{/t}
+** or
 
 
-{t}or higher{/t}
+** or higher
 ˆÈã
 
-{t}orange{/t}
+** orange
 ò
 
-{t}Order size{/t}
+** Order size
 
 
-{t}Organisation{/t}
+** Organisation
 ‘gD
 
-{t}Organizer{/t}
+** Organizer
 
-{t}Origin{/t}
+** Origin
 ‹NŒ¹
 
-{t}Original message{/t}
+** Original message
 
 
-{t}Other{/t}
+** Other
 ‚»‚Ì‘¼
 
-{t}out of office{/t}
+** out of office
 ŠOo’†
 
-{t}Outline image{/t}
+** Outline image
 ƒAƒEƒgƒ‰ƒCƒ“‰æ‘œ
 
-{t}Output{/t}
+** Output
 o—Í
 
-{t}Output empty: %s{/t}
+** Output empty: %s
 
 
-{t}overlap{/t}
+** overlap
 ƒI[ƒo[ƒ‰ƒbƒv
 
-{t}Overtime{/t}
+** Overtime
 c‹Æ
 
-{t}Overtime compensation per hour{/t}
+** Overtime compensation per hour
 c‹Æè“–
 
-{t}Owner{/t}
+** Owner
 ƒI[ƒi[
 
-{t}Owner since{/t}
+** Owner since
 ƒI[ƒi[—ğ
 
-{t}Package from local file system (.tar.gz){/t}
+** Package from local file system (.tar.gz)
 ƒ[ƒJƒ‹‚Ìˆ³kƒtƒ@ƒCƒ‹i.tar.gzj
 
-{t}Packed{/t}
+** Packed
 ˆ³k
 
-{t}Page{/t}
+** Page
 ƒy[ƒW
 
-{t}Page last modified on{/t}
+** Page last modified on
 ÅIXV“ú
 
-{t}Page name (URL){/t}
+** Page name (URL)
 ƒy[ƒW–¼iURLj
 
-{t}Page not found{/t}
+** Page not found
 ƒy[ƒW‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ‚Å‚µ‚½
 
-{t}Page title{/t}
+** Page title
 ƒy[ƒWƒ^ƒCƒgƒ‹
 
-{t}Pager{/t}
+** Pager
 ƒ|ƒPƒxƒ‹
 
-{t}Paid{/t}
+** Paid
 x•¥‚¢Ï‚İ
 
-{t}Paid holidays{/t}
+** Paid holidays
 —L‹‹‹x‰É
 
-{t}Paragraphs{/t}
+** Paragraphs
 ’i—
 
-{t}parameters{/t}
+** parameters
 ƒpƒ‰ƒ[ƒ^
 
-{t}Parameters{/t}
+** Parameters
 ƒpƒ‰ƒ[ƒ^ˆê——
 
-{t}Parent folder{/t}
+** Parent folder
 eƒtƒHƒ‹ƒ_
 
-{t}Parsing{/t}
+** Parsing
 ‰ğÍ
 
-{t}Part time{/t}
+** Part time
 ƒp[ƒg‹Î–±
 
-{t}Participants{/t}
+** Participants
 Q‰ÁÒ
 
-{t}Participants (external){/t}
+** Participants (external)
 Q‰ÁÒiŠO•”j
 
-{t}Participants (internal){/t}
+** Participants (internal)
 Q‰ÁÒi“à•”j
 
-{t}Password{/t}
+** Password
 ƒpƒXƒ[ƒh
 
-{t}Password expired. (password of %s has expired){/t}
+** Password expired. (password of %s has expired)
 ƒpƒXƒ[ƒh‚ªŠúŒÀØ‚ê‚Å‚·i%s‚ÌƒpƒXƒ[ƒh‚ªŠúŒÀØ‚êj
 
-{t}Password expires{/t}
+** Password expires
 ƒpƒXƒ[ƒh‚ªŠúŒÀ
 
-{t}Password must be not null, min 5 characters.{/t}
+** Password must be not null, min 5 characters.
 ƒpƒXƒ[ƒh‚Í‹ó”’‚Éo—ˆ‚Ü‚¹‚ñCÅ­5•¶šˆÈãg—p‚µ‚Ä‚­‚¾‚³‚¢B
 
-{t}password not confirmed.{/t}
+** password not confirmed.
 ƒpƒXƒ[ƒh‚ªˆê’v‚µ‚Ü‚¹‚ñ‚Å‚µ‚½
 
-{t}Passwords{/t}
+** Passwords
 ƒpƒXƒ[ƒh
 
-{t}Paste{/t}
+** Paste
 “\‚è•t‚¯
 
-{t}Path{/t}
+** Path
 ƒpƒX
 
-{t}Pause{/t}
+** Pause
 ˆê’â~
 
-{t}Payroll{/t}
+** Payroll
 
 
-{t}Permissions{/t}
+** Permissions
 Œ ŒÀ
 
-{t}Permissions added for: %s{/t}
+** Permissions added for: %s
 %s‚ÉŒ ŒÀ‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½
 
-{t}Personal{/t}
+** Personal
 ŒÂlİ’è
 
-{t}Personal department{/t}
+** Personal department
 ƒ†[ƒU[ŠÇ—•”
 
-{t}Personal folders{/t}
+** Personal folders
 ŒÂlƒtƒHƒ‹ƒ_
 
-{t}Personal projects{/t}
+** Personal projects
 ŒÂlƒvƒƒWƒFƒNƒg
 
-{t}Phone{/t}
+** Phone
 “d˜b
 
-{t}Phone calls{/t}
+** Phone calls
 “d˜b”Ô†
 
-{t}Phone private{/t}
+** Phone private
 „—p“d˜b”Ô†
 
-{t}Photo{/t}
+** Photo
 Ê^
 
-{t}Photo gallery{/t}
+** Photo gallery
 Ê^ƒMƒƒƒ‰ƒŠ[
 
-{t}Planned{/t}
+** Planned
 Œv‰æ’†
 
-{t}Please activate cookies.{/t}
+** Please activate cookies.
 ƒuƒ‰ƒEƒU‚Ìcookie‚ğg—p‰Â‚É‚µ‚Ä‚­‚¾‚³‚¢B
 
-{t}Please choose Apache as Web-Server.{/t}
+** Please choose Apache as Web-Server.
 Please choose Apache as Web-Server.
 
-{t}Please enable Javascript in your browser.{/t}
+** Please enable Javascript in your browser.
 ƒuƒ‰ƒEƒU‚ÌJavascript‚ğg—p‰Â‚É‚µ‚Ä‚­‚¾‚³‚¢B
 
-{t}Please enter a valid url.{/t}
+** Please enter a valid url.
 ³‚µ‚¢URL‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B
 
-{t}Please give read access to %s{/t}
+** Please give read access to %s
 •K—v‚Å‚·F%s“Ç‚İæ‚èŒ ŒÀ
 
-{t}Please give write access to %s{/t}
+** Please give write access to %s
 •K—v‚Å‚·F%s‘‚«‚İŒ ŒÀ
 
-{t}Please give write access to %s and %s{/t}
+** Please give write access to %s and %s
 •K—v‚Å‚·F%s‚Ì%s‚Ö‚Ì‘‚«‚İŒ ŒÀ
 
-{t}Please hit reload.{/t}
+** Please hit reload.
 Ä“Ç‚İ‚İ‚µ‚Ä‚­‚¾‚³‚¢
 
-{t}Please input a valid e-mail adress.{/t}
+** Please input a valid e-mail adress.
 —LŒø‚Èe-mailƒAƒhƒŒƒX‚ğ“ü‚ê‚Ä‰º‚³‚¢B
 
-{t}Please install 'tsearch2' for the PostgreSQL database.{/t}
+** Please install 'tsearch2' for the PostgreSQL database.
 Please install tsearch2 for the PostgreSQL database.
 
-{t}Please install the php-extension with name '%s'.{/t}
+** Please install the php-extension with name '%s'.
 
 
-{t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}
+** Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !
 Please modify your php.ini or add an .htaccess file changing the setting %s to %s (current value is %s) !
 
-{t}Please read the following license agreement. Use the scroll bar to view the rest of this agreement.{/t}
+** Please read the following license agreement. Use the scroll bar to view the rest of this agreement.
 Please read the following license agreement. Use the scroll bar to view the rest of this agreement.
 
-{t}Please select a location.{/t}
+** Please select a location.
 êŠ‚ğ‘I‘ğ‚µ‚Ä‚­‚¾‚³‚¢
 
-{t}Please select a participant.{/t}
+** Please select a participant.
 Q‰ÁÒ‚ğ‘I‘ğ‚µ‚Ä‚­‚¾‚³‚¢B
 
-{t}Please upload again.{/t}
+** Please upload again.
 ‚à‚¤ˆê“xƒAƒbƒvƒ[ƒh‚µ‚Ä‚­‚¾‚³‚¢B
 
-{t}Please wait ...{/t}
+** Please wait ...
 ‚¨‘Ò‚¿‚­‚¾‚³‚¢...
 
-{t}Pop3-error: %s{/t}
+** Pop3-error: %s
 Pop3ƒGƒ‰[F%s
 
-{t}Port{/t}
+** Port
 ƒ|[ƒg
 
-{t}Portal{/t}
+** Portal
 ƒ|[ƒ^ƒ‹
 
-{t}Position{/t}
+** Position
 –ğE
 
-{t}Positions{/t}
+** Positions
 –ğEˆê——
 
-{t}Post{/t}
+** Post
 
 
-{t}Practical training{/t}
+** Practical training
 
 
-{t}Preformatted block{/t}
+** Preformatted block
 ®Œ`Ï‚İ•¶
 
-{t}Prepend new field as{/t}
+** Prepend new field as
 
 
-{t}Prevent formatting{/t}
+** Prevent formatting
 ®Œ`‹Ö~
 
-{t}Preview{/t}
+** Preview
 ƒvƒŒƒrƒ…[
 
-{t}Price{/t}
+** Price
 ‰¿Ši
 
-{t}Primary key{/t}
+** Primary key
 åƒL[
 
-{t}Print{/t}
+** Print
 ˆóü
 
-{t}Print all{/t}
+** Print all
 ‘S•”ˆóü
 
-{t}Printer{/t}
+** Printer
 ƒvƒŠƒ“ƒ^[
 
-{t}Priority{/t}
+** Priority
 —Dæ“x
 
-{t}Problem{/t}
+** Problem
 –â‘è
 
-{t}Processes{/t}
+** Processes
 ˆ—’†
 
-{t}Processing %s ...{/t}
+** Processing %s ...
 %s‚ğˆ—’†...
 
-{t}Program is installed with language %s, please use a different url or run the setup again.{/t}
+** Program is installed with language %s, please use a different url or run the setup again.
 ƒvƒƒOƒ‰ƒ€—p‚Í%sŒ¾Œê‚ÅƒCƒ“ƒXƒg[ƒ‹‚³‚ê‚Ä‚¢‚Ü‚·Burl‚ğ•ÏX‚µ‚ÄÄ“xƒCƒ“ƒXƒg[ƒ‹‚µ‚Ä‚­‚¾‚³‚¢B
 
-{t}Progress{/t}
+** Progress
 i’»
 
-{t}Project{/t}
+** Project
 ƒvƒƒWƒFƒNƒg
 
-{t}Project files{/t}
+** Project files
 ƒvƒƒWƒFƒNƒgƒtƒ@ƒCƒ‹
 
-{t}Project tasks{/t}
+** Project tasks
 ƒ^ƒXƒN
 
-{t}Projects{/t}
+** Projects
 ƒvƒƒWƒFƒNƒgˆê——
 
-{t}promising{/t}
+** promising
 —\–ñ
 
-{t}Properties{/t}
+** Properties
 ‘®«
 
-{t}Prospective client{/t}
+** Prospective client
 öİŒÚ‹q
 
-{t}Public holiday{/t}
+** Public holiday
 Œö‹¤‚Ì‹x“ú
 
-{t}Purchased{/t}
+** Purchased
 w“üÏ‚İ
 
-{t}Question{/t}
+** Question
 –â‘è
 
-{t}Queue{/t}
+** Queue
 ƒLƒ…[
 
-{t}Quick add{/t}
+** Quick add
 
 
-{t}Quota{/t}
+** Quota
 ãŒÀ
 
-{t}Quota (remaining){/t}
+** Quota (remaining)
 ãŒÀic‚èj
 
-{t}Quota [MB]{/t}
+** Quota [MB]
 ãŒÀ[MB]
 
-{t}Quota limitation exceeded: %s{/t}
+** Quota limitation exceeded: %s
 %s: —e—Ê’´‰ß‚Å‚·
 
-{t}R e g i s t e r{/t}
+** R e g i s t e r
 “o˜^
 
-{t}Rating{/t}
+** Rating
 •]‰¿
 
-{t}Read{/t}
+** Read
 “Ç‚İæ‚è
 
-{t}read access{/t}
+** read access
 “Ç‚İæ‚èŒ ŒÀ
 
-{t}Read access (groups){/t}
+** Read access (groups)
 “Ç‚İæ‚èŒ ŒÀiƒOƒ‹[ƒvj
 
-{t}Read access (users){/t}
+** Read access (users)
 “Ç‚İæ‚èŒ ŒÀiƒ†[ƒU[j
 
-{t}Read only in{/t}
+** Read only in
 
 
-{t}ready for repair{/t}
+** ready for repair
 C•œ‚Ì€”õ‚ªo—ˆ‚Ü‚µ‚½
 
-{t}ready for scrap{/t}
+** ready for scrap
 Ø‚èæ‚è‚Ì€”õ‚ªo—ˆ‚Ü‚µ‚½
 
-{t}Real URL format in the CMS{/t}
+** Real URL format in the CMS
 CMS‚ÌURL‘®
 
-{t}Really apply rights to subfolders ?{/t}
+** Really apply rights to subfolders ?
 Šm”F-ƒfƒBƒŒƒNƒgƒŠ‚É‚±‚ÌŒ ŒÀ‚ğ•t—^‚µ‚Ü‚·‚©H
 
-{t}Really apply the changes ?{/t}
+** Really apply the changes ?
 Šm”F-•ÏX‚ğ”½‰f‚µ‚Ü‚·‚©H
 
-{t}Really delete ?{/t}
+** Really delete ?
 Šm”F-íœ‚µ‚Ü‚·‚©HH
 
-{t}REALLY delete ALL datasets ?{/t}
+** REALLY delete ALL datasets ?
 Šm”F-‚·‚×‚Ä‚Ìƒf[ƒ^ƒZƒbƒg‚ğíœ‚µ‚Ü‚·‚©H
 
-{t}Really delete ALL subfolders ?{/t}
+** Really delete ALL subfolders ?
 Šm”F-–{“–‚ÉƒTƒuƒtƒHƒ‹ƒ_‚ğ‘S•”íœ‚µ‚Ü‚·‚©HH
 
-{t}Really delete the dataset(s) ?{/t}
+** Really delete the dataset(s) ?
 Šm”F-ƒf[ƒ^ƒZƒbƒg‚ğíœ‚µ‚Ü‚·‚©H
 
-{t}Really empty the folder ?{/t}
+** Really empty the folder ?
 Šm”F-ƒtƒHƒ‹ƒ_‚ğ‹ó‚É‚µ‚Ü‚·‚©HH
 
-{t}Really overwrite existing dataset(s) ?{/t}
+** Really overwrite existing dataset(s) ?
 Šm”F-ƒf[ƒ^ƒZƒbƒg‚ğã‘‚«‚µ‚Ü‚·‚©H
 
-{t}Really run setup again ?{/t}
+** Really run setup again ?
 Šm”F-ÄƒCƒ“ƒXƒg[ƒ‹‚µ‚Ü‚·‚©H
 
-{t}Really uninstall the module ?{/t}
+** Really uninstall the module ?
 Šm”F-‚±‚Ìƒ‚ƒWƒ…[ƒ‹‚ğƒAƒ“ƒCƒ“ƒXƒg[ƒ‹‚µ‚Ü‚·‚©H
 
-{t}Rebuild search index{/t}
+** Rebuild search index
 ŒŸõƒCƒ“ƒfƒbƒNƒX‚ÌÄ¶¬
 
-{t}Recent changes{/t}
+** Recent changes
 Å‹ß‚ÌXV
 
-{t}Recipients{/t}
+** Recipients
 óæl
 
-{t}Recommendation of affiliate{/t}
+** Recommendation of affiliate
 
 
-{t}Recurrence{/t}
+** Recurrence
 ŒJ‚è•Ô‚µ
 
-{t}Recurrences{/t}
+** Recurrences
 ŒJ‚è•Ô‚µˆê——
 
-{t}red{/t}
+** red
 Ô
 
-{t}Redirect to home directory{/t}
+** Redirect to home directory
 ƒz[ƒ€ƒfƒBƒŒƒNƒgƒŠ‚É“ü‚é
 
-{t}Reference{/t}
+** Reference
 QÆ
 
-{t}Refresh{/t}
+** Refresh
 XV
 
-{t}Refresh every x seconds{/t}
+** Refresh every x seconds
 %s•b‚²‚Æ‚ÉXV
 
-{t}Regular{/t}
+** Regular
 ’èŠú
 
-{t}Reject{/t}
+** Reject
 ‹p‰º
 
-{t}rejected{/t}
+** rejected
 ‹p‰º
 
-{t}Relative formats{/t}
+** Relative formats
 
 
-{t}Relaunch Setup{/t}
+** Relaunch Setup
 ÄƒCƒ“ƒXƒg[ƒ‹
 
-{t}Relevance{/t}
+** Relevance
 
-{t}Reminder{/t}
+** Reminder
 ƒŠƒ}ƒCƒ“ƒ_[
 
-{t}rename{/t}
+** rename
 –¼‘O‚Ì•ÏX
 
-{t}Rename folder{/t}
+** Rename folder
 ƒtƒHƒ‹ƒ_‰ü–¼
 
-{t}Repeat count{/t}
+** Repeat count
 ŒJ‚è•Ô‚µ‰ñ”
 
-{t}Repeat exclusions{/t}
+** Repeat exclusions
 ŒJ‚è•Ô‚µ‚Ì—áŠO
 
-{t}Repeat interval{/t}
+** Repeat interval
 ŒJ‚è•Ô‚µŠÔŠu
 
-{t}Repeat until{/t}
+** Repeat until
 ŒJ‚è•Ô‚µŠúŒÀ
 
-{t}Reply{/t}
+** Reply
 •ÔM
 
-{t}Reply all{/t}
+** Reply all
 ‘S•”‚É•ÔM‚·‚é
 
-{t}Require admin access to set mountpoints{/t}
+** Require admin access to set mountpoints
 mountpoints‚É‚ÍadminŒ ŒÀ‚ğ—v‚·‚é
 
-{t}Required{/t}
+** Required
 •K—v
 
-{t}Required fields{/t}
+** Required fields
 
 
-{t}Reseller{/t}
+** Reseller
 ‘ã—“X
 
-{t}reserved{/t}
+** reserved
 —\–ñÏ‚İ
 
-{t}Reset view{/t}
+** Reset view
 
 
-{t}Resource{/t}
+** Resource
 ƒŠƒ\[ƒX
 
-{t}Resources{/t}
+** Resources
 ƒŠƒ\[ƒXˆê——
 
-{t}Responsible{/t}
+** Responsible
 Ó”C
 
-{t}Responsible (external){/t}
+** Responsible (external)
 Ó”CiŠO•”j
 
-{t}Responsible (internal){/t}
+** Responsible (internal)
 Ó”Ci“à•”j
 
-{t}Restore complete{/t}
+** Restore complete
 Š®‘S‚ÉƒŠƒXƒgƒA‚·‚é
 
-{t}Restore here{/t}
+** Restore here
 ‚±‚±‚ÉƒŠƒXƒgƒA‚·‚é
 
-{t}Restore only missing{/t}
+** Restore only missing
 ¸‚í‚ê‚½•¨‚¾‚¯ƒŠƒXƒgƒA
 
-{t}Restore only newer{/t}
+** Restore only newer
 V‚µ‚¢•¨‚Ì‚İƒŠƒXƒgƒA
 
-{t}Restore to origin{/t}
+** Restore to origin
 ‰Šúó‘Ô‚É–ß‚·
 
-{t}Return receipt{/t}
+** Return receipt
 
 
-{t}right-aligned{/t}
+** right-aligned
 ‰EŠñ‚¹
 
-{t}Rights{/t}
+** Rights
 Œ ŒÀ
 
-{t}Risks{/t}
+** Risks
 
 
-{t}Room name{/t}
+** Room name
 •”‰®–¼Ì
 
-{t}Room number{/t}
+** Room number
 •”‰®”Ô†
 
-{t}Rooms{/t}
+** Rooms
 •”‰®ˆê——
 
-{t}Rows{/t}
+** Rows
 s
 
-{t}Run Setup again{/t}
+** Run Setup again
 ÄƒCƒ“ƒXƒg[ƒ‹
 
-{t}S a v e{/t}
+** S a v e
 •Û‘¶
 
-{t}S a v e  a n d  E d i t{/t}
+** S a v e  a n d  E d i t
 •Û‘¶‚µ‚Ä•ÒW
 
-{t}S a v e  a n d  g o  b a c k{/t}
+** S a v e  a n d  g o  b a c k
 •Û‘¶‚µ‚Ä–ß‚é
 
-{t}Sa{/t}
+** Sa
 “y
 
-{t}Salary{/t}
+** Salary
 Œ‹‹
 
-{t}Salary per{/t}
+** Salary per
 Œ‚ ‚½‚è‹‹—^
 
-{t}Sales promotion{/t}
+** Sales promotion
 é“`
 
-{t}Sat{/t}
+** Sat
 “y
 
-{t}Saturday{/t}
+** Saturday
 “y—j“ú
 
-{t}Scheduling{/t}
+** Scheduling
 ƒXƒPƒWƒ…[ƒŠƒ“ƒO
 
-{t}Schema{/t}
+** Schema
 ƒXƒL[ƒ}
 
-{t}Schema data{/t}
+** Schema data
 ƒXƒL[ƒ}ƒf[ƒ^
 
-{t}Schemafile not found. (%s){/t}
+** Schemafile not found. (%s)
 ƒXƒL[ƒ}‚Ìƒtƒ@ƒCƒ‹‚ª‚ ‚è‚Ü‚¹‚ñB(%s)
 
 
-{t}School{/t}
+** School
 ŠwZ
 
-{t}scrapped{/t}
+** scrapped
 Ø‚è”²‚«
 
-{t}Search{/t}
+** Search
 ŒŸõ
 
-{t}Search by ID{/t}
+** Search by ID
 
 
-{t}second level support{/t}
+** second level support
 
 
-{t}Second manager{/t}
+** Second manager
 •›ŠÇ—Ò
 
-{t}seconds{/t}
+** seconds
 •b
 
-{t}Secretary{/t}
+** Secretary
 ”é‘
 
-{t}Self registration{/t}
+** Self registration
 ƒ†[ƒU[‚É‚æ‚é“o˜^
 
-{t}Self registration needs confirmation by an administrator.{/t}
+** Self registration needs confirmation by an administrator.
 ƒ†[ƒU[‚É‚æ‚é“o˜^‚É‚ÍŠÇ—Ò‚Ì³”F‚ª•K—v‚Å‚·
 
-{t}Send now{/t}
+** Send now
 ¡‚·‚®‘—M
 
-{t}Sent{/t}
+** Sent
 ‘—MÏ‚İ
 
-{t}Sent reminders{/t}
+** Sent reminders
 ‘—MÏ‚İƒŠƒ}ƒCƒ“ƒ_[
 
-{t}Sep{/t}
+** Sep
 
 
-{t}Separate fields{/t}
+** Separate fields
 
 
-{t}Separate values{/t}
+** Separate values
 
 
-{t}Separator{/t}
+** Separator
 
 
-{t}Separators{/t}
+** Separators
 
 
-{t}September{/t}
+** September
 9Œ
 
-{t}Serial number{/t}
+** Serial number
 ’Ê‚µ”Ô†
 
-{t}Server{/t}
+** Server
 ƒT[ƒo[
 
-{t}Server does not support sorting{/t}
+** Server does not support sorting
 
 
-{t}Server-IP{/t}
+** Server-IP
 ƒT[ƒo[‚ÌIP
 
-{t}Service provider{/t}
+** Service provider
 ƒT[ƒrƒXƒvƒƒoƒCƒ_[
 
-{t}Session name in cookie{/t}
+** Session name in cookie
 cookie’†‚ÌƒZƒbƒVƒ‡ƒ“–¼Ì
 
-{t}Session timeout{/t}
+** Session timeout
 ƒZƒbƒVƒ‡ƒ“ŠÔ‚ğ‰ß‚¬‚Ü‚µ‚½B
 
-{t}Sessions{/t}
+** Sessions
 ƒZƒbƒVƒ‡ƒ“
 
-{t}Setup{/t}
+** Setup
 ƒCƒ“ƒXƒg[ƒ‹
 
-{t}Setup needs a database-php-extension ! (%s){/t}
+** Setup needs a database-php-extension ! (%s)
 ƒCƒ“ƒXƒg[ƒ‹ƒvƒƒOƒ‰ƒ€‚É•K—v‚Èdatabase-php-extension ! (%s)
 
-{t}Setup needs php with at least version %s !{/t}
+** Setup needs php with at least version %s !
 ƒCƒ“ƒXƒg[ƒ‹‚É•K—v‚ÈphpÅ’áƒo[ƒWƒ‡ƒ“%s!
 
-{t}Setup needs php-extension with name %s !{/t}
+** Setup needs php-extension with name %s !
 ƒCƒ“ƒXƒg[ƒ‹‚É•K—v‚È%s php-extension
 
-{t}Setup needs Simple Groupware with at least version %s !{/t}
+** Setup needs Simple Groupware with at least version %s !
 
 
-{t}Setup: setup-data written to %s.{/t}
+** Setup: setup-data written to %s.
 ƒCƒ“ƒXƒg[ƒ‹FƒCƒ“ƒXƒg[ƒ‹ƒf[ƒ^‘‚«‚İ%sB
 
-{t}Shapes{/t}
+** Shapes
 }Œ`
 
-{t}Share{/t}
+** Share
 ‹¤—L
 
-{t}Shared{/t}
+** Shared
 ‹¤—LÏ
 
-{t}Short links{/t}
+** Short links
 
 
-{t}Show{/t}
+** Show
 •\¦
 
-{t}Show all rules{/t}
+** Show all rules
 
 
-{t}Show archive{/t}
+** Show archive
 ƒA[ƒJƒCƒu‚ğ•\¦
 
-{t}Show details{/t}
+** Show details
 Ú×‚ğ•\¦
 
-{t}Show folder description in content area{/t}
+** Show folder description in content area
 
 
-{t}Show password{/t}
+** Show password
 ƒpƒXƒ[ƒh‚ğ•\¦
 
-{t}Show quoted text{/t}
+** Show quoted text
 ˆø—p•¶‚ğ•\¦
 
-{t}Similar{/t}
+** Similar
 —Ş—
 
-{t}Simple tables{/t}
+** Simple tables
 ƒVƒ“ƒvƒ‹‚È•\
 
-{t}single{/t}
+** single
 “Æg
 
-{t}Single choice{/t}
+** Single choice
 1‘ğ
 
-{t}Size{/t}
+** Size
 ƒTƒCƒY
 
-{t}Size (children){/t}
+** Size (children)
 ƒTƒCƒYiq€–Új
 
-{t}Slow{/t}
+** Slow
 ’x
 
-{t}small{/t}
+** small
 ¬
 
-{t}small text{/t}
+** small text
 ¬‚³‚¢š
 
-{t}smaller{/t}
+** smaller
 ¬‚³‚­
 
-{t}SMTP not configured for %s{/t}
+** SMTP not configured for %s
 %sSMTP‚ªİ’è‚³‚ê‚Ä‚¢‚Ü‚¹‚ñ
 
-{t}Smtp-error %s: %s{/t}
+** Smtp-error %s: %s
 SmtpƒGƒ‰[%sF%s
 
-{t}Software{/t}
+** Software
 ƒ\ƒtƒgƒEƒFƒA
 
-{t}Solution{/t}
+** Solution
 ‰ğ™rô
 
-{t}Solution type{/t}
+** Solution type
 
 
-{t}some text{/t}
+** some text
 ‰½‚©ƒeƒLƒXƒg‚ğ
 
-{t}Source{/t}
+** Source
 ƒ\[ƒX
 
-{t}Source code{/t}
+** Source code
 ƒ\[ƒXƒR[ƒh
 
-{t}Special leave{/t}
+** Special leave
 
 
-{t}Specification{/t}
+** Specification
 d—l
 
-{t}Spreadsheet{/t}
+** Spreadsheet
 •\ŒvZ
 
-{t}SQL failed.{/t}
+** SQL failed.
 SQL¸”s
 
-{t}SQL FAILED: %s{/t}
+** SQL FAILED: %s
 SQL¸”sF%s
 
-{t}Start scheduled{/t}
+** Start scheduled
 
-{t}Start synchronization{/t}
+** Start synchronization
 
-{t}Started{/t}
+** Started
 is’†
 
-{t}starts with{/t}
+** starts with
 “¯‚ÉŠJn
 
-{t}State{/t}
+** State
 “s“¹•{Œ§
 
-{t}Statistics{/t}
+** Statistics
 “Œv
 
-{t}Status{/t}
+** Status
 ó‘Ô
 
-{t}Statuses{/t}
+** Statuses
 ó‘Ô
 
-{t}Strategies{/t}
+** Strategies
 í—ª
 
-{t}Street{/t}
+** Street
 ”Ô’n
 
-{t}Structure{/t}
+** Structure
 \‘¢
 
-{t}Su{/t}
+** Su
 “ú
 
-{t}Subfolders{/t}
+** Subfolders
 ƒTƒuƒtƒHƒ‹ƒ_[
 
-{t}subheading{/t}
+** subheading
 •›‘è
 
-{t}Subitem{/t}
+** Subitem
 q€–Ú
 
-{t}Subject{/t}
+** Subject
 ‘è–¼
 
-{t}Subjects{/t}
+** Subjects
 ‘è–¼ˆê——
 
-{t}Submit a patch{/t}
+** Submit a patch
 ƒpƒbƒ`‚ğ“Še‚·‚é
 
-{t}Subpages{/t}
+** Subpages
 
 
-{t}subscript{/t}
+** subscript
 ‰º•t‚«•¶š
 
-{t}Subsistence costs{/t}
+** Subsistence costs
 
 
-{t}Sum{/t}
+** Sum
 Œv
 
-{t}Summary{/t}
+** Summary
 ŠT—v
 
-{t}Sun{/t}
+** Sun
 “ú
 
-{t}Sunday{/t}
+** Sunday
 “ú—j“ú
 
-{t}Superior{/t}
+** Superior
 ãi
 
-{t}superscript{/t}
+** superscript
 ã•t•¶š
 
-{t}Supplier{/t}
+** Supplier
 ƒTƒvƒ‰ƒCƒ„[
 
-{t}Suppliers{/t}
+** Suppliers
 ƒTƒvƒ‰ƒCƒ„[
 
-{t}Support{/t}
+** Support
 ƒTƒ|[ƒg
 
-{t}Support request{/t}
+** Support request
 ƒTƒ|[ƒgˆË—Š
 
-{t}Surveys{/t}
+** Surveys
 ’²¸
 
-{t}Suspended{/t}
+** Suspended
 ’â~
 
-{t}Switch maintenance mode{/t}
+** Switch maintenance mode
 ƒƒ“ƒeƒiƒ“ƒXƒ‚[ƒh‚ÉØ‚è‘Ö‚¦‚é
 
-{t}Sync attachments{/t}
+** Sync attachments
 “Y•t‚ğ“¯Šú‚·‚é
 
-{t}Sync4j remote delete items{/t}
+** Sync4j remote delete items
 Sync4j ‚ÉƒŠƒ‚[ƒg‚ÌƒAƒCƒeƒ€‚ğíœ‚³‚¹‚é
 
-{t}Syntax{/t}
+** Syntax
 ‘®
 
-{t}System{/t}
+** System
 ƒVƒXƒeƒ€
 
-{t}System command executed: %s{/t}
+** System command executed: %s
 
 
-{t}Tab{/t}
+** Tab
 ƒ^ƒu
 
-{t}Table{/t}
+** Table
 ƒf[ƒ^•\
 
-{t}Table sizes{/t}
+** Table sizes
 •\‚ÌƒTƒCƒY
 
-{t}Table status{/t}
+** Table status
 •\‚Ìó‘Ô
 
-{t}Tables{/t}
+** Tables
 ƒf[ƒ^•\
 
-{t}Take over{/t}
+** Take over
 
 
-{t}Take selection{/t}
+** Take selection
 
 
-{t}Task{/t}
+** Task
 ƒ^ƒXƒN
 
-{t}Task with ID %s{/t}
+** Task with ID %s
 ID %s ‚Ìƒ^ƒXƒN
 
-{t}Tasks{/t}
+** Tasks
 ƒ^ƒXƒN
 
-{t}Tasks with responsible %s{/t}
+** Tasks with responsible %s
 
 
-{t}Template{/t}
+** Template
 ƒeƒ“ƒvƒŒ[ƒg
 
-{t}Templates{/t}
+** Templates
 ƒeƒ“ƒvƒŒ[ƒgˆê——
 
-{t}Temporary work{/t}
+** Temporary work
 
 
-{t}term{/t}
+** term
 ŠúŒÀ
 
-{t}Text area{/t}
+** Text area
 
 
-{t}Text Document{/t}
+** Text Document
 ƒeƒLƒXƒg•¶‘
 
-{t}Text formatting rules{/t}
+** Text formatting rules
 ‘®ƒwƒ‹ƒv
 
-{t}Th{/t}
+** Th
 –Ø
 
-{t}Thanks for voting!{/t}
+** Thanks for voting!
 “Š•[‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚µ‚½
 
-{t}The folder cannot be copied.{/t}
+** The folder cannot be copied.
 ‚±‚ÌƒtƒHƒ‹ƒ_‚ÍƒRƒs[‚Å‚«‚Ü‚¹‚ñB
 
-{t}The folder cannot be deleted.{/t}
+** The folder cannot be deleted.
 ‚±‚ÌƒtƒHƒ‹ƒ_‚Ííœ‚Å‚«‚Ü‚¹‚ñB
 
-{t}The folder cannot be moved.{/t}
+** The folder cannot be moved.
 ‚±‚ÌƒtƒHƒ‹ƒ_‚ÍˆÚ“®‚Å‚«‚Ü‚¹‚ñB
 
-{t}The new password is{/t}
+** The new password is
 V‚µ‚¢ƒpƒXƒ[ƒhF
 
-{t}The url doesn't exist.{/t}
+** The url doesn't exist.
 url‚ª‘¶İ‚µ‚Ü‚¹‚ñ
 
-{t}Theme{/t}
+** Theme
 ƒe[ƒ}
 
-{t}third level support{/t}
+** third level support
 
 
-{t}this file extension is not allowed{/t}
+** this file extension is not allowed
 
 
-{t}Thu{/t}
+** Thu
 –Ø
 
-{t}Thursday{/t}
+** Thursday
 –Ø—j
 
-{t}Time and expenses{/t}
+** Time and expenses
 ŠÔ‚ ‚½‚èxo
 
-{t}Time limit{/t}
+** Time limit
 ŠúŒÀ
 
-{t}Time sheets{/t}
+** Time sheets
 •\
 
-{t}Time zone{/t}
+** Time zone
 ƒ^ƒCƒ€ƒ][ƒ“
 
-{t}timeout{/t}
+** timeout
 ŠÔØ‚ê
 
-{t}Title{/t}
+** Title
 ƒ^ƒCƒgƒ‹
 
-{t}To{/t}
+** To
 
 
-{t}to be checked{/t}
+** to be checked
 ƒ`ƒFƒbƒN‘Ò‚¿
 
-{t}To continue installing Simple Groupware you must check the box under the license{/t}
+** To continue installing Simple Groupware you must check the box under the license
 Simple Groupware‚ğƒCƒ“ƒXƒg[ƒ‹‚·‚éê‡‚ÍAƒ‰ƒCƒZƒ“ƒX‚Ì‰º‚É‚ ‚éƒ`ƒFƒbƒNƒ{ƒbƒNƒX‚ğƒNƒŠƒbƒN‚µ‚Ä‚­‚¾‚³‚¢B
 
-{t}Today{/t}
+** Today
 ¡“ú
 
-{t}Too many wrong logins. Please wait 15 minutes.{/t}
+** Too many wrong logins. Please wait 15 minutes.
 ƒƒOƒCƒ“¸”s‰ñ”‚ª’´‰ß‚µ‚Ü‚µ‚½B15•b‚¨‘Ò‚¿‚­‚¾‚³‚¢B
 
-{t}Total{/t}
+** Total
 ‡Œv
 
-{t}Trace{/t}
+** Trace
 ƒgƒŒ[ƒX
 
 
-{t}Trade fair{/t}
+** Trade fair
 
 
-{t}translations{/t}
+** translations
 –|–ó
 
-{t}Translations of the GNU GPL{/t}
+** Translations of the GNU GPL
 GNU GPL‚Ì–|–ó•¶
 
-{t}Transportation costs{/t}
+** Transportation costs
 —A‘—”ï
 
-{t}Trash{/t}
+** Trash
 ƒSƒ~” 
 
-{t}Trash folder not found.{/t}
+** Trash folder not found.
 ƒSƒ~” ƒtƒHƒ‹ƒ_‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ
 
-{t}Tree{/t}
+** Tree
 
-{t}Trigger failed{/t}
+** Trigger failed
 
-{t}Tu{/t}
+** Tu
 
 
-{t}Tue{/t}
+** Tue
 ‰Î
 
-{t}Tuesday{/t}
+** Tuesday
 ‰Î—j“ú
 
-{t}Type{/t}
+** Type
 
-{t}U n i n s t a l l{/t}
+** U n i n s t a l l
 ƒAƒ“ƒCƒ“ƒXƒg[ƒ‹
 
-{t}unable to find %s{/t}
+** unable to find %s
 %s‚ÍŒ©‚Â‚©‚è‚Ü‚¹‚ñ‚Å‚µ‚½
 
-{t}Unable to write to %s{/t}
+** Unable to write to %s
 %s‚É‘‚«‚ß‚Ü‚¹‚ñ‚Å‚µ‚½
 
-{t}unconfirmed{/t}
+** unconfirmed
 ³”F‘Ò‚¿
 
-{t}Unconfirmed{/t}
+** Unconfirmed
 –¢”FØ
 
-{t}underline{/t}
+** underline
 ƒAƒ“ƒ_[ƒ‰ƒCƒ“
 
-{t}Uninstall does not delete any data in the database.{/t}
+** Uninstall does not delete any data in the database.
 ƒAƒ“ƒCƒ“ƒXƒg[ƒ‹‚Íƒf[ƒ^ƒx[ƒX“à‚Ì€–Ú‚ğˆêØíœ‚µ‚Ü‚¹‚ñ
 
-{t}uninterested{/t}
+** uninterested
 ŠÖS‚È‚µ
 
-{t}Unique{/t}
+** Unique
 ˆêˆÓ
 
-{t}Unique with trash{/t}
+** Unique with trash
 
 
-{t}Unlock{/t}
+** Unlock
 ƒƒbƒN‰ğœ
 
-{t}Up{/t}
+** Up
 ã
 
-{t}Update{/t}
+** Update
 XV
 
-{t}Update Simple Groupware{/t}
+** Update Simple Groupware
 Simple Groupware‚ÌƒAƒbƒvƒf[ƒg
 
-{t}Updated{/t}
+** Updated
 XV
 
-{t}Updating schema %s from %s.{/t}
+** Updating schema %s from %s.
 ƒXƒL[ƒ}‚ğ%s‚©‚ç%s‚ÉXV
 
-{t}Upload failed{/t}
+** Upload failed
 ƒAƒbƒvƒ[ƒh‚É¸”s
 
-{t}Uploaded files{/t}
+** Uploaded files
 ƒAƒbƒvƒ[ƒh‚³‚ê‚½ƒtƒ@ƒCƒ‹
 
-{t}Uploading{/t}
+** Uploading
 ƒAƒbƒvƒ[ƒh’†
 
-{t}urgent{/t}
+** urgent
 Š‹}
 
-{t}URL{/t}
+** URL
 URL
 
-{t}Usage{/t}
+** Usage
 g‚¢•û
 
-{t}USD{/t}
+** USD
 •Äƒhƒ‹
 
-{t}Use APC for session storage{/t}
+** Use APC for session storage
 
 
-{t}Use Debian binaries (Warning: not latest versions){/t}
+** Use Debian binaries (Warning: not latest versions)
 Use Debian binaries (Warning: not latest versions)
 
-{t}Use LDAP Groups{/t}
+** Use LDAP Groups
 LDAP ƒOƒ‹[ƒv‚ğg—p‚·‚é 
 
-{t}use mirror from{/t}
+** use mirror from
 
 
-{t}Use syslog() function for logging events{/t}
+** Use syslog() function for logging events
 
 
-{t}Use the mail() function for sending mails (insecure){/t}
+** Use the mail() function for sending mails (insecure)
 
-{t}User{/t}
+** User
 ƒ†[ƒU[
 
-{t}User not found.{/t}
+** User not found.
 ƒ†[ƒU[‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ
 
-{t}Username{/t}
+** Username
 ƒ†[ƒU[–¼
 
-{t}Username must be different from the super administrator.{/t}
+** Username must be different from the super administrator.
 ƒ†[ƒU[–¼‚ªƒX[ƒp[ƒAƒhƒ~ƒjƒXƒgƒŒ[ƒ^[‚Ìg‚Á‚Ä‚¢‚é‚à‚Ì‚Æd•¡‚µ‚Ä‚¢‚Ü‚·B
 
-{t}Users{/t}
+** Users
 ƒ†[ƒU[ˆê——
 
-{t}V a l i d a t e{/t}
+** V a l i d a t e
 ŒŸØ
 
-{t}V o t e !{/t}
+** V o t e !
 “Š•[
 
-{t}Vacation{/t}
+** Vacation
 ‹x‰É
 
-{t}Vacation days per year{/t}
+** Vacation days per year
 ”NŠÔ‹x‰É“ú”
 
-{t}Validating %s ...{/t}
+** Validating %s ...
 %s‚ğŒŸØ’†
 
-{t}validation failed{/t}
+** validation failed
 ŒŸØ•s‡Ši
 
-{t}Value{/t}
+** Value
 ’l
 
-{t}Value '%s' needs a group membership: %s{/t}
+** Value '%s' needs a group membership: %s
 
 
-{t}Variable{/t}
+** Variable
 •Ï”
 
-{t}Variable already exists in table. (%s){/t}
+** Variable already exists in table. (%s)
 “ü—Í’l‚Í‚·‚Å‚Éƒe[ƒuƒ‹‚É‚ ‚è‚Ü‚·(%s)
 
-{t}Variable must be of type date (mm/dd/yyyy).{/t}
+** Variable must be of type date (mm/dd/yyyy).
 •Ï”‚Í“ú•tŒ^‚É‚µ‚Ä‚­‚¾‚³‚¢B(mm/dd/yyyy)
 
-{t}Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).{/t}
+** Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).
 “ü—Í’l‚Í“ú•tŒ^‚É‚µ‚Ä‚­‚¾‚³‚¢B(mm/dd/yyyy hh:mm am/pm)
 
-{t}Variable must be of type float.{/t}
+** Variable must be of type float.
 “ü—Í’l‚Í•‚“®¬”“_Œ^‚É‚µ‚Ä‚­‚¾‚³‚¢B
 
-{t}Variable must be of type int and greater than 0.{/t}
+** Variable must be of type int and greater than 0.
 “ü—Í’l‚Í0ˆÈã‚Ì®”‚É‚µ‚Ä‚­‚¾‚³‚¢B
 
-{t}Variable must be of type int.{/t}
+** Variable must be of type int.
 “ü—Í’l‚Í®”‚É‚µ‚Ä‚­‚¾‚³‚¢B
 
-{t}Variable must be of type time (hh:mm am/pm).{/t}
+** Variable must be of type time (hh:mm am/pm).
 “ü—Í’l‚ÍŒ^‚É‚µ‚Ä‚­‚¾‚³‚¢B (hh:mm am/pm)
 
-{t}Variables{/t}
+** Variables
 •Ï”
 
-{t}Verbal recommendation{/t}
+** Verbal recommendation
 
-{t}verified{/t}
+** verified
 ŒŸØÏ
 
-{t}vertical{/t}
+** vertical
 ‚’¼
 
-{t}very promising{/t}
+** very promising
 
 
-{t}View{/t}
+** View
 ƒrƒ…[
 
-{t}View access (groups){/t}
+** View access (groups)
 
 
-{t}View access (users){/t}
+** View access (users)
 
 
-{t}Virus scanner{/t}
+** Virus scanner
 ƒEƒCƒ‹ƒXƒXƒLƒƒƒi[
 
-{t}Visibility{/t}
+** Visibility
 Œ©‚¦‚é”ÍˆÍ
 
-{t}Voice mail{/t}
+** Voice mail
 —¯ç“d
 
-{t}Vote{/t}
+** Vote
 “Š•[
 
-{t}Voted by{/t}
+** Voted by
 “Š•[‚µ‚½l
 
-{t}Waiting{/t}
+** Waiting
 ‘Ò‚¿
 
-{t}Warning{/t}
+** Warning
 Œx
 
-{t}We{/t}
+** We
 …
 
-{t}Web{/t}
+** Web
 Web
 
-{t}Web page{/t}
+** Web page
 
 
-{t}Wed{/t}
+** Wed
 …
 
-{t}Wednesday{/t}
+** Wednesday
 …—j
 
-{t}Week{/t}
+** Week
 T
 
-{t}Week start{/t}
+** Week start
 T‚Ìn‚Ü‚è
 
-{t}Weekend{/t}
+** Weekend
 T––
 
-{t}weekly{/t}
+** weekly
 –ˆT
 
-{t}weeks{/t}
+** weeks
 T
 
-{t}Welcome to Simple Groupware!{/t}
+** Welcome to Simple Groupware!
 
 
-{t}white{/t}
+** white
 ”’
 
-{t}widowed{/t}
+** widowed
 €•Ê
 
-{t}Width{/t}
+** Width
 L‚³
 
-{t}Wiki{/t}
+** Wiki
 Wiki
 
-{t}WikiStyles{/t}
+** WikiStyles
 Wiki‘®
 
-{t}won't fix{/t}
+** won't fix
 C•œ‚Å‚«‚Ü‚¹‚ñ
 
-{t}word{/t}
+** word
 
 
-{t}Workflow{/t}
+** Workflow
 ƒ[ƒNƒtƒ[
 
-{t}Working student{/t}
+** Working student
 ‹Î˜JŠw¶
 
-{t}works as expected{/t}
+** works as expected
 
 
-{t}works for me{/t}
+** works for me
 ©•ª‚Åì‹Æ‚·‚é
 
-{t}Workshop{/t}
+** Workshop
 ƒ[ƒNƒVƒ‡ƒbƒv
 
-{t}Workspace{/t}
+** Workspace
 ƒ[ƒNƒXƒy[ƒX
 
-{t}write access{/t}
+** write access
 ‘‚«‚İŒ ŒÀ
 
-{t}Write access (groups){/t}
+** Write access (groups)
 ‘‚«‚İŒ ŒÀ(ƒOƒ‹[ƒv)
 
 
-{t}Write access (users){/t}
+** Write access (users)
 ‘‚«‚İŒ ŒÀ(ƒ†[ƒU[)
 
-{t}Wrong database-version (%s). Please use at least %s !{/t}
+** Wrong database-version (%s). Please use at least %s !
 ƒGƒ‰[Fƒf[ƒ^ƒx[ƒXƒo[ƒWƒ‡ƒ“‚ª‡‚¢‚Ü‚¹‚ñi%sjBƒo[ƒWƒ‡ƒ“ %s ˆÈã‚ğg—p‚µ‚Ä‚­‚¾‚³‚¢I
 
-{t}wrong directory{/t}
+** wrong directory
 ƒGƒ‰[ƒfƒBƒŒƒNƒgƒŠ
 
-{t}wrong password{/t}
+** wrong password
 ƒpƒXƒ[ƒh‚ªŠÔˆá‚Á‚Ä‚¢‚Ü‚·
 
-{t}Year{/t}
+** Year
 ”N
 
-{t}yearly{/t}
+** yearly
 ”NŠÔ
 
-{t}years{/t}
+** years
 ”N
 
-{t}yellow{/t}
+** yellow
 ‰©
 
-{t}yes{/t}
+** yes
 ‚Í‚¢
 
-{t}You are not allowed to view this folder.{/t}
+** You are not allowed to view this folder.
 ‚±‚ÌƒtƒHƒ‹ƒ_‚ğ‰{——‚·‚é‹–‰Â‚ª‚ ‚è‚Ü‚¹‚ñB
 
-{t}You can go offline now.{/t}
+** You can go offline now.
 ƒIƒtƒ‰ƒCƒ“‚É‚µ‚Ä‚à‘åä•v‚Å‚·B
 
-{t}Your message was read on %s.{/t}
+** Your message was read on %s.
 ‚ ‚È‚½‚ÌƒƒbƒZ[ƒW‚Í%s‚É“Ç‚Ü‚ê‚Ü‚µ‚½
 
-{t}Your session has timed out.{/t}
+** Your session has timed out.
 –³‘€ìŠÔ‚ğ‰ß‚¬‚Ü‚µ‚½BÄƒƒOƒCƒ“‚µ‚Ä‚­‚¾‚³‚¢B
 
-{t}Zipcode{/t}
+** Zipcode
 —X•Ö”Ô†
 
-{t}{0} - {1} of {2}{/t}
+** {0} - {1} of {2}
 

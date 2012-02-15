@@ -3,3534 +3,3534 @@
  * @license GPLv2
  */
 
-{t}!_Copyright_Language_File{/t}
+** !_Copyright_Language_File
 Copyright (C) 2006,2007 Dennis van Rijswijk, Henry van der Vegt
 
-{t}!_Language{/t}
+** !_Language
 Nederlands / Dutch
 
-{t}%s is not activated{/t}
+** %s is not activated
 %s is niet geactiveerd
 
-{t}%s is not compiled / loaded into PHP.{/t}
+** %s is not compiled / loaded into PHP.
 %s is niet gecompileerd / Is niet in PHP geladen.
 
-{t}%s M memory usage{/t}
+** %s M memory usage
 
 
-{t}%s not in database{/t}
+** %s not in database
 %s bestaat niet in de database
 
-{t}%s rows affected{/t}
+** %s rows affected
 
 
-{t}%s secs{/t}
+** %s secs
 %s sec.
 
-{t}%s started editing this asset at %s{/t}
+** %s started editing this asset at %s
 %s begon om %s met het bewerken van deze gegevens
 
-{t}(for active directory username must be: username@domain){/t}
+** (for active directory username must be: username@domain)
 (de gebruikersnaam moet voor Actieve Directory zijn: gebruiken@domein)
 
-{t}(un)Group{/t}
+** (un)Group
 (ont)Groeperen
 
-{t}About{/t}
+** About
 Over
 
-{t}Absence{/t}
+** Absence
 
 
-{t}accepted{/t}
+** accepted
 geaccepteerd
 
-{t}Access denied.{/t}
+** Access denied.
 Toegang geweigerd.
 
-{t}Access to this file has been denied.{/t}
+** Access to this file has been denied.
 De toegang tot dit bestand is geweigerd.
 
-{t}Account{/t}
+** Account
 Account
 
-{t}account of %s has expired{/t}
+** account of %s has expired
 Acount van %s is verlopen
 
-{t}Accounting{/t}
+** Accounting
 Boekhouding
 
-{t}Activate{/t}
+** Activate
 
 
-{t}Activated{/t}
+** Activated
 Geactiveerd
 
-{t}active{/t}
+** active
 
 
-{t}Active{/t}
+** Active
 Aktief
 
-{t}Ad{/t}
+** Ad
 Aankondiging
 
-{t}Add{/t}
+** Add
 Toevoegen
 
-{t}Add a special rule{/t}
+** Add a special rule
 
 
-{t}Add to offline folders{/t}
+** Add to offline folders
 
 
-{t}added line{/t}
+** added line
 toegevoegde regel
 
-{t}Address{/t}
+** Address
 Adres
 
-{t}admin access{/t}
+** admin access
 
 
-{t}Admin access (groups){/t}
+** Admin access (groups)
 Admin toegang (Groepen)
 
-{t}Admin access (users){/t}
+** Admin access (users)
 Admin toegang (Gebruikers)
 
-{t}Admin Password{/t}
+** Admin Password
 Admin Wachtwoord
 
-{t}Admin Username{/t}
+** Admin Username
 Admin Gebruikersnaam
 
-{t}Administration{/t}
+** Administration
 Administratie
 
-{t}Advanced tables{/t}
+** Advanced tables
 
 
-{t}Affected user{/t}
+** Affected user
 Betreft gebruiker
 
-{t}Affiliate{/t}
+** Affiliate
 Partner
 
-{t}after{/t}
+** after
 
 
-{t}Agent{/t}
+** Agent
 Agent
 
-{t}Ajax Error{/t}
+** Ajax Error
 
 
-{t}All{/t}
+** All
 Alle
 
-{t}All day{/t}
+** All day
 De gehele dag
 
-{t}All events{/t}
+** All events
 Alle evenementen
 
-{t}All finished tasks{/t}
+** All finished tasks
 
 
-{t}All pending tasks{/t}
+** All pending tasks
 
 
-{t}Allow custom values{/t}
+** Allow custom values
 
 
-{t}Allow disabled modules{/t}
+** Allow disabled modules
 
 
-{t}Already running latest release.{/t}
+** Already running latest release.
 Werkt al met de laatste versie.
 
-{t}Already voted.{/t}
+** Already voted.
 
 
-{t}Amount{/t}
+** Amount
 Bedrag
 
-{t}Anchor{/t}
+** Anchor
 Anker
 
-{t}and{/t}
+** and
 en
 
-{t}Anniversary{/t}
+** Anniversary
 Jubileum
 
-{t}another page{/t}
+** another page
 
 
-{t}answered{/t}
+** answered
 geantwoord
 
-{t}Answers{/t}
+** Answers
 
 
-{t}Apache based (.htaccess, Basic, Digest, etc.){/t}
+** Apache based (.htaccess, Basic, Digest, etc.)
 Gebaseerd op Apache (.htaccess, Basic, Digest, enz.)
 
-{t}Application title{/t}
+** Application title
 Naam van de applicatie
 
-{t}Apply rights to subfolders{/t}
+** Apply rights to subfolders
 Rechten op alle onderliggende mappen toepassen
 
-{t}Appointment{/t}
+** Appointment
 
 
-{t}Appointments{/t}
+** Appointments
 
 
-{t}Apprenticeship{/t}
+** Apprenticeship
 
 
-{t}Apr{/t}
+** Apr
 
 
-{t}April{/t}
+** April
 April
 
-{t}Archive{/t}
+** Archive
 
 
-{t}Archive deleted files{/t}
+** Archive deleted files
 Archief verwijderde bestanden
 
-{t}Asset{/t}
+** Asset
 
 
-{t}Asset marked as read-only.{/t}
+** Asset marked as read-only.
 Asset gemarkeerd als read-only.
 
-{t}Assets{/t}
+** Assets
 Gegevens
 
-{t}Assets (children){/t}
+** Assets (children)
 Gegevens (onderliggend)
 
-{t}Assets can be imported into multiple folders by adding the "Folder" column.{/t}
+** Assets can be imported into multiple folders by adding the "Folder" column.
 
 
-{t}Assets can be overwritten by adding the "Id" column.{/t}
+** Assets can be overwritten by adding the "Id" column.
 
 
-{t}assigned{/t}
+** assigned
 toegewezen
 
-{t}at least 20 characters{/t}
+** at least 20 characters
 
 
-{t}attach file{/t}
+** attach file
 
 
-{t}Attachment{/t}
+** Attachment
 Bijlage
 
-{t}Attachments{/t}
+** Attachments
 Bijlagen
 
-{t}Attend{/t}
+** Attend
 
 
-{t}Aug{/t}
+** Aug
 
 
-{t}August{/t}
+** August
 Augustus
 
-{t}Authentication Mode{/t}
+** Authentication Mode
 Manier van authenticatie
 
-{t}Author{/t}
+** Author
 
 
-{t}Automatically hide the menu{/t}
+** Automatically hide the menu
 
 
-{t}Automatically hide the tree{/t}
+** Automatically hide the tree
 
 
-{t}Average{/t}
+** Average
 
 
-{t}Average progress{/t}
+** Average progress
 
 
-{t}Avg length{/t}
+** Avg length
 Gemiddelde lengte
 
-{t}Back{/t}
+** Back
 Terug
 
-{t}Backup{/t}
+** Backup
 Backup
 
-{t}Backup current folder{/t}
+** Backup current folder
 Backup maken van huidige map
 
-{t}Backups{/t}
+** Backups
 Backups
 
-{t}Basic editing{/t}
+** Basic editing
 
 
-{t}before{/t}
+** before
 
 
-{t}Before{/t}
+** Before
 
 
-{t}Begin{/t}
+** Begin
 Begin
 
-{t}big{/t}
+** big
 
 
-{t}big text{/t}
+** big text
 
 
-{t}bigger{/t}
+** bigger
 
 
-{t}Billing address{/t}
+** Billing address
 Factuuradres
 
-{t}Birthday{/t}
+** Birthday
 Verjaardag
 
-{t}Birthdays{/t}
+** Birthdays
 Verjaardagen
 
-{t}Blank{/t}
+** Blank
 Leeg
 
-{t}blue{/t}
+** blue
 blauw
 
-{t}bold{/t}
+** bold
 
 
-{t}bold italic{/t}
+** bold italic
 
 
-{t}Book{/t}
+** Book
 
 
-{t}booked{/t}
+** booked
 geboekt
 
-{t}Booked{/t}
+** Booked
 Geboekt
 
-{t}Booking number{/t}
+** Booking number
 Boeknummer
 
-{t}Bookings{/t}
+** Bookings
 Boeking
 
-{t}Bookmark{/t}
+** Bookmark
 
 
-{t}Bookmarks{/t}
+** Bookmarks
 Bladwijzer
 
-{t}borrowed{/t}
+** borrowed
 geleend
 
-{t}Brand{/t}
+** Brand
 Merk
 
-{t}Brands{/t}
+** Brands
 Merken
 
-{t}Browser Compatibility{/t}
+** Browser Compatibility
 Browser Compatibility
 
-{t}Browser not supported{/t}
+** Browser not supported
 De browser wordt niet ondersteund
 
-{t}Budget{/t}
+** Budget
 Budget
 
-{t}Bug{/t}
+** Bug
 Bug
 
-{t}bulleted{/t}
+** bulleted
 
 
-{t}Business{/t}
+** Business
 Firma
 
-{t}C a n c e l{/t}
+** C a n c e l
 
 
-{t}C O N T I N U E{/t}
+** C O N T I N U E
 V E R D E R
 
-{t}Cache output{/t}
+** Cache output
 Cache output
 
-{t}Caches{/t}
+** Caches
 Cache
 
-{t}Calendar{/t}
+** Calendar
 Kalender
 
-{t}Cancel{/t}
+** Cancel
 
 
-{t}canceled{/t}
+** canceled
 geannuleerd
 
-{t}Canceled{/t}
+** Canceled
 Geannuleerd
 
-{t}Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.{/t}
+** Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.
 Proc_open kan niet worden aangeroepen. Graag proc_open verwijderen uit disable_functions in php.ini en de safe_mode deactiveren.
 
-{t}Cannot connect to database %s on %s.{/t}
+** Cannot connect to database %s on %s.
 Kan geen verbinding leggen met de databse %s op %s.
 
-{t}Cannot create preview for %s{/t}
+** Cannot create preview for %s
 Kan geen voorbeeld genereren van %s
 
-{t}Cannot read the file %s.{/t}
+** Cannot read the file %s.
 Kan het bestand %s niet lezen.
 
-{t}Cardinality{/t}
+** Cardinality
 Belangrijkheid
 
-{t}Categories{/t}
+** Categories
 Kategorieën
 
-{t}Category{/t}
+** Category
 Kategorie
 
-{t}Cc{/t}
+** Cc
 Cc
 
-{t}centered{/t}
+** centered
 
 
-{t}CEO{/t}
+** CEO
 Directeur
 
-{t}Change request{/t}
+** Change request
 Wijzigings verzoek
 
-{t}Change settings{/t}
+** Change settings
 Instellingen veranderen
 
-{t}Change Setup settings{/t}
+** Change Setup settings
 Set-up instellingen veranderen
 
-{t}Change summary{/t}
+** Change summary
 
 
-{t}Changed{/t}
+** Changed
 
 
-{t}changed line{/t}
+** changed line
 veranderde regel
 
-{t}Changelog{/t}
+** Changelog
 Laatste wijzigingen
 
-{t}Chat{/t}
+** Chat
 Chat
 
-{t}Check DoS Attacks{/t}
+** Check DoS Attacks
 Controlleren op DoS aanvallen
 
-{t}checked{/t}
+** checked
 gecontrolleerd
 
-{t}Checked{/t}
+** Checked
 Gecontrolleerd
 
-{t}Choices{/t}
+** Choices
 
 
-{t}CIO{/t}
+** CIO
 Hoofd IT
 
-{t}City{/t}
+** City
 Stad
 
-{t}Clean{/t}
+** Clean
 Opruimen
 
-{t}Clean Cache{/t}
+** Clean Cache
 Cache opruimen
 
-{t}Clear{/t}
+** Clear
 Legen
 
-{t}Clear Cache{/t}
+** Clear Cache
 Cache legen
 
-{t}Clear Data{/t}
+** Clear Data
 
 
-{t}Clear grouping{/t}
+** Clear grouping
 
 
-{t}Client{/t}
+** Client
 Klant
 
-{t}Close{/t}
+** Close
 Sluiten
 
-{t}Close session{/t}
+** Close session
 Sessie beëindigen
 
-{t}closed{/t}
+** closed
 gesloten
 
-{t}Closed{/t}
+** Closed
 Afgesloten
 
-{t}CMS{/t}
+** CMS
 
 
-{t}CMS homepage title{/t}
+** CMS homepage title
 
 
-{t}Collapse text{/t}
+** Collapse text
 
 
-{t}Collapse tree{/t}
+** Collapse tree
 Structuur dichtklappen
 
-{t}Color{/t}
+** Color
 Kleur
 
-{t}Column{/t}
+** Column
 
 
-{t}Column name{/t}
+** Column name
 Kolom naam
 
-{t}Combination{/t}
+** Combination
 
 
-{t}Comma{/t}
+** Comma
 
 
-{t}Comma separated values{/t}
+** Comma separated values
 
 
-{t}Command{/t}
+** Command
 Commando
 
-{t}Comment{/t}
+** Comment
 Opmerking
 
-{t}Comment files{/t}
+** Comment files
 Bestanden met opmerkingen
 
-{t}Companies{/t}
+** Companies
 Bedrijven
 
-{t}Company{/t}
+** Company
 Bedrijf
 
-{t}Competition{/t}
+** Competition
 Concurrentie
 
-{t}Competitor{/t}
+** Competitor
 Concurrent
 
-{t}Complete{/t}
+** Complete
 
 
-{t}completed{/t}
+** completed
 
 
-{t}Completed{/t}
+** Completed
 Afgehandeld
 
-{t}Component{/t}
+** Component
 Component
 
-{t}Compress output{/t}
+** Compress output
 Resultaat comprimeren
 
-{t}Confirm{/t}
+** Confirm
 
 
-{t}confirmed{/t}
+** confirmed
 bevestigd
 
-{t}Connection error: %s [%s]{/t}
+** Connection error: %s [%s]
 
 
-{t}Connection to database failed.{/t}
+** Connection to database failed.
 De verbinding met de database is mislukt.
 
-{t}Console{/t}
+** Console
 
 
-{t}Console scripts{/t}
+** Console scripts
 
 
-{t}Consultant{/t}
+** Consultant
 Adviseur
 
-{t}Contact{/t}
+** Contact
 Contact
 
-{t}Contact activities{/t}
+** Contact activities
 Contact activiteiten
 
-{t}Contact activity{/t}
+** Contact activity
 
 
-{t}Contact by{/t}
+** Contact by
 Contact per
 
-{t}Contact groups{/t}
+** Contact groups
 Contactgroepen
 
-{t}Contact id{/t}
+** Contact id
 Contact Id
 
-{t}Contact person{/t}
+** Contact person
 Contactpersoon
 
-{t}Contact user by{/t}
+** Contact user by
 Benader gebruiker via
 
-{t}Contacts{/t}
+** Contacts
 Contacten
 
-{t}contains{/t}
+** contains
 bevat
 
-{t}Content{/t}
+** Content
 Inhoud
 
-{t}Continue{/t}
+** Continue
 Doorgaan
 
-{t}Contracts{/t}
+** Contracts
 
 
-{t}Copier{/t}
+** Copier
 Copieermachine
 
-{t}Copy{/t}
+** Copy
 Kopieëren
 
-{t}Cost center{/t}
+** Cost center
 Kostenplaats
 
-{t}Costs of accommodation{/t}
+** Costs of accommodation
 Verblijfskosten
 
-{t}Could not determine database-version.{/t}
+** Could not determine database-version.
 Kan de database versie niet vaststellen.
 
-{t}Country{/t}
+** Country
 Land
 
-{t}Create new{/t}
+** Create new
 
 
-{t}Create new folder{/t}
+** Create new folder
 
 
-{t}Created{/t}
+** Created
 Aangemaakt
 
-{t}Creating database failed.{/t}
+** Creating database failed.
 De database kon niet worden aangemaakt.
 
-{t}current path{/t}
+** current path
 
 
-{t}current time{/t}
+** current time
 
 
-{t}Curriculum vitae{/t}
+** Curriculum vitae
 Curriculum vitae
 
-{t}Custom schema{/t}
+** Custom schema
 
 
-{t}Customization rules\nfor modules based on sgsML{/t}
+** Customization rules\nfor modules based on sgsML
 
 
-{t}customizations{/t}
+** customizations
 
 
-{t}Customize{/t}
+** Customize
 
 
-{t}Cut{/t}
+** Cut
 Knippen
 
-{t}daily{/t}
+** daily
 dagalijks
 
-{t}Data{/t}
+** Data
 Data
 
-{t}Data free{/t}
+** Data free
 Beschikbare data
 
-{t}Data length{/t}
+** Data length
 Data lengte
 
-{t}Database{/t}
+** Database
 Database
 
-{t}Database Hostname / IP{/t}
+** Database Hostname / IP
 Naam van de database host / IP adres
 
-{t}Database Name{/t}
+** Database Name
 Naam van de database
 
-{t}Database Password{/t}
+** Database Password
 Wachtwoord van de database
 
-{t}Database size{/t}
+** Database size
 
 
-{t}Database status{/t}
+** Database status
 Database status
 
-{t}Database type{/t}
+** Database type
 
 
-{t}Database User{/t}
+** Database User
 Gebruikersnaam van de database
 
-{t}Database variables{/t}
+** Database variables
 Database variabelen
 
-{t}Date{/t}
+** Date
 Datum
 
-{t}Day{/t}
+** Day
 Dag
 
-{t}Day begin{/t}
+** Day begin
 Begin van de dag
 
-{t}Day end{/t}
+** Day end
 Eind van de dag
 
-{t}days{/t}
+** days
 dagen
 
-{t}Deactivate{/t}
+** Deactivate
 
 
-{t}Deadline{/t}
+** Deadline
 Deadline
 
-{t}Debug{/t}
+** Debug
 Debug
 
-{t}Debug-dir{/t}
+** Debug-dir
 Debug-map
 
-{t}Dec{/t}
+** Dec
 
 
-{t}December{/t}
+** December
 December
 
-{t}Declining balance{/t}
+** Declining balance
 Restwaarde
 
-{t}Default{/t}
+** Default
 Standaard
 
-{t}Default function{/t}
+** Default function
 
 
-{t}Default theme{/t}
+** Default theme
 Standaard Layout
 
-{t}Default values for assets{/t}
+** Default values for assets
 
 
-{t}definition for definition lists{/t}
+** definition for definition lists
 
 
-{t}Degree{/t}
+** Degree
 Graad
 
-{t}Delete{/t}
+** Delete
 Verwijderen
 
-{t}Delete incl subfolders{/t}
+** Delete incl subfolders
 Verwijderen inclusief de onderliggende mappen.
 
-{t}deleted{/t}
+** deleted
 
 
-{t}deleted line{/t}
+** deleted line
 verwijderde regel
 
-{t}Delivery{/t}
+** Delivery
 
 
-{t}Demand{/t}
+** Demand
 Vraag
 
-{t}Demo{/t}
+** Demo
 Demo
 
-{t}Demonstration folder{/t}
+** Demonstration folder
 
 
-{t}Department{/t}
+** Department
 Werkgroep
 
-{t}Departments{/t}
+** Departments
 Werkgroepen
 
-{t}Dependancies{/t}
+** Dependancies
 Afhankelijkheden
 
-{t}Description{/t}
+** Description
 Omschrijving
 
-{t}Description hint{/t}
+** Description hint
 
 
-{t}Description title{/t}
+** Description title
 
 
-{t}Description value{/t}
+** Description value
 
 
-{t}Desktop computer{/t}
+** Desktop computer
 Desktop computer
 
-{t}Details{/t}
+** Details
 Details
 
-{t}Device type{/t}
+** Device type
 Soort apparaat
 
-{t}Device types{/t}
+** Device types
 Soort apparaten
 
-{t}Diagram{/t}
+** Diagram
 
 
-{t}directory does not exist.{/t}
+** directory does not exist.
 directory bestaat niet.
 
-{t}Directory is outside the allowed directory. (%s is outside %s){/t}
+** Directory is outside the allowed directory. (%s is outside %s)
 De map bevindt zich buiten de toegestane map. (%s bevindt zich buiten %s)
 
-{t}disable{/t}
+** disable
 
 
-{t}Disable basic authentication{/t}
+** Disable basic authentication
 
 
-{t}Disable cut-copy-paste{/t}
+** Disable cut-copy-paste
 
 
-{t}Disabled{/t}
+** Disabled
 
 
-{t}Disabled modules{/t}
+** Disabled modules
 
 
-{t}Display{/t}
+** Display
 Weergave
 
-{t}display filter{/t}
+** display filter
 weergave filter
 
-{t}Displayname{/t}
+** Displayname
 
 
-{t}displays{/t}
+** displays
 
 
-{t}Distributor{/t}
+** Distributor
 Distributeur
 
-{t}Distributors{/t}
+** Distributors
 Distributeurs
 
-{t}divorced{/t}
+** divorced
 gescheiden
 
-{t}Documentation{/t}
+** Documentation
 Documentatie
 
-{t}Documentation index{/t}
+** Documentation index
 
 
-{t}Domain{/t}
+** Domain
 Domein
 
-{t}Don't attend{/t}
+** Don't attend
 
 
-{t}Don't move old files to 'old/'{/t}
+** Don't move old files to 'old/'
 
 
-{t}Down{/t}
+** Down
 Naar beneden
 
-{t}Download{/t}
+** Download
 Download
 
-{t}Download example file{/t}
+** Download example file
 
 
-{t}Downloading extension list{/t}
+** Downloading extension list
 
 
-{t}Downloading update list{/t}
+** Downloading update list
 Downloading update list
 
-{t}Drag and drop files or URLs here.{/t}
+** Drag and drop files or URLs here.
 
 
-{t}duplicate{/t}
+** duplicate
 dubbel exemplaar
 
-{t}Duration{/t}
+** Duration
 Duratie
 
-{t}E-mail{/t}
+** E-mail
 E-Mail
 
-{t}E-mail private{/t}
+** E-mail private
 E-Mail (privé)
 
-{t}E-mail program{/t}
+** E-mail program
 E-mail applicatie
 
-{t}e.g.{/t}
+** e.g.
 
 
-{t}Edit{/t}
+** Edit
 Bewerken
 
-{t}Edit as new{/t}
+** Edit as new
 Als nieuw bewerken
 
-{t}Edit rights{/t}
+** Edit rights
 Rechten bewerken
 
-{t}Editable if hidden in all views{/t}
+** Editable if hidden in all views
 
 
-{t}Editor{/t}
+** Editor
 
 
-{t}Emphasis{/t}
+** Emphasis
 
 
-{t}Empty{/t}
+** Empty
 Leeg
 
-{t}Empty folder{/t}
+** Empty folder
 Map leegmaken
 
-{t}en{/t}
+** en
 nl
 
-{t}Enable anonymous access{/t}
+** Enable anonymous access
 Anonieme toegang toestaan
 
-{t}Enable anonymous CMS{/t}
+** Enable anonymous CMS
 
 
-{t}Enable automatic user creation{/t}
+** Enable automatic user creation
 Automatische creatie van gebruikers toestaan
 
-{t}Enable external mail client for 'mailto:' links{/t}
+** Enable external mail client for 'mailto:' links
 Gebruik externe email client voor  mailto: links
 
-{t}Enable self registration{/t}
+** Enable self registration
 
 
-{t}Enable Sync4j / Funambol{/t}
+** Enable Sync4j / Funambol
 
 
-{t}Enable WebDAV{/t}
+** Enable WebDAV
 
 
-{t}End{/t}
+** End
 Einde
 
-{t}engaged{/t}
+** engaged
 verloofd
 
-{t}equal{/t}
+** equal
 gelijk aan
 
-{t}Error{/t}
+** Error
 Foutmelding
 
-{t}Error doing request to xmlhttp{/t}
+** Error doing request to xmlhttp
 Foutmelding bij xmlhttp-verzoek
 
-{t}Error moving file{/t}
+** Error moving file
 Foutmelding bij het verplaatsen van het bestand
 
-{t}Error pasting asset{/t}
+** Error pasting asset
 Foutmelding bij het bewerken van gegevens
 
-{t}Error: no credentials{/t}
+** Error: no credentials
 Foutmelding: geen inloggegevens
 
-{t}Events{/t}
+** Events
 Gebeurtenissen
 
-{t}Example{/t}
+** Example
 
 
-{t}Example contacts{/t}
+** Example contacts
 Voorbeeld contactpersonen
 
-{t}Example surveys can be found at:{/t}
+** Example surveys can be found at:
 
 
-{t}Example without mountpoint{/t}
+** Example without mountpoint
 Voorbeeld zonder zgn. mountpoint
 
-{t}Examples{/t}
+** Examples
 
 
-{t}Execute{/t}
+** Execute
 
 
-{t}Expenses{/t}
+** Expenses
 Uitgaven
 
-{t}Experimental{/t}
+** Experimental
 Experimenteel
 
-{t}Expires{/t}
+** Expires
 Vervalt op
 
-{t}Expiry{/t}
+** Expiry
 Vervaldag
 
-{t}Extended{/t}
+** Extended
 
 
-{t}Extensions{/t}
+** Extensions
 
 
-{t}Extracting files{/t}
+** Extracting files
 Bestanden uitpakken
 
-{t}F j{/t}
+** F j
 F j
 
-{t}F j, Y{/t}
+** F j, Y
 F j, Y
 
-{t}Failed to create directory: %s{/t}
+** Failed to create directory: %s
 De map %s kon niet worden aangemaakt.
 
-{t}Failed to write file to disk.{/t}
+** Failed to write file to disk.
 De bestanden konden niet worden weggeschreven.
 
-{t}Failed to write into %s{/t}
+** Failed to write into %s
 Kon niet wegschrijven naar %s
 
-{t}Family status{/t}
+** Family status
 Familie status
 
-{t}FAQ{/t}
+** FAQ
 FAQ
 
-{t}Favorites{/t}
+** Favorites
 Favorieten
 
-{t}Fax{/t}
+** Fax
 Fax
 
-{t}Fax private{/t}
+** Fax private
 
 
-{t}Feature request{/t}
+** Feature request
 Functionaliteit aanvragen
 
-{t}Feb{/t}
+** Feb
 
 
-{t}February{/t}
+** February
 Februarie
 
-{t}Feed{/t}
+** Feed
 
 
-{t}female{/t}
+** female
 vrouw
 
-{t}Field{/t}
+** Field
 Veld
 
-{t}Field contains value{/t}
+** Field contains value
 
 
-{t}Field customization{/t}
+** Field customization
 
 
-{t}Field is equal to value{/t}
+** Field is equal to value
 
 
-{t}Fields{/t}
+** Fields
 
 
-{t}File{/t}
+** File
 Bestand
 
-{t}file is too big. Please change upload_max_filesize, post_max_size in your php.ini{/t}
+** file is too big. Please change upload_max_filesize, post_max_size in your php.ini
 Het bestand is te groot. Graag de waarde upload_max_filesize, post_max_size veranderen in het php.ini bestand
 
-{t}file is too big. Please upload a smaller one.{/t}
+** file is too big. Please upload a smaller one.
 Het bestand is te groot. Graag een kleiner bestand uploaden.
 
-{t}file not found in database.{/t}
+** file not found in database.
 Het bestand werd niet gevonden in de database.
 
-{t}file not found.{/t}
+** file not found.
 Het bestand werd niet gevonden.
 
-{t}file was uploaded partially.{/t}
+** file was uploaded partially.
 Het bestand werd gedeeltelijk geupload.
 
-{t}Filename must have the right extension. Valid extensions are %s{/t}
+** Filename must have the right extension. Valid extensions are %s
 Het bestand moet de juiste extensie hebben. Geldige extensies zijn (%s).
 
-{t}Files{/t}
+** Files
 Bestanden
 
-{t}Filesystem{/t}
+** Filesystem
 Systeembestand
 
-{t}Filter{/t}
+** Filter
 Filter
 
-{t}Find assets in multiple folders{/t}
+** Find assets in multiple folders
 
 
-{t}Finish scheduled{/t}
+** Finish scheduled
 Einde van geplande
 
-{t}Finished{/t}
+** Finished
 Afgesloten
 
-{t}First in list{/t}
+** First in list
 Eerste in de lijst
 
-{t}first level support{/t}
+** first level support
 
 
-{t}First name{/t}
+** First name
 Voornaam
 
-{t}Fix paging bar to page bottom{/t}
+** Fix paging bar to page bottom
 
 
-{t}fixed{/t}
+** fixed
 opgelost
 
-{t}Flags{/t}
+** Flags
 Attribuut
 
-{t}Flash plugin not installed.{/t}
+** Flash plugin not installed.
 
 
-{t}Folder{/t}
+** Folder
 Map
 
-{t}Folder already exists.{/t}
+** Folder already exists.
 
 
-{t}Folder created.{/t}
+** Folder created.
 
 
-{t}Folder has changed.{/t}
+** Folder has changed.
 
 
-{t}Folder icon{/t}
+** Folder icon
 
 
-{t}Folder not found.{/t}
+** Folder not found.
 
 
-{t}Folder refresh period{/t}
+** Folder refresh period
 
 
-{t}Folder structure{/t}
+** Folder structure
 
 
-{t}Folder structure created.{/t}
+** Folder structure created.
 Folder structuur aangemaakt
 
-{t}Folder structure moved to trash.{/t}
+** Folder structure moved to trash.
 Folder structuur verplaatst naar de prullebak
 
-{t}Folder Type{/t}
+** Folder Type
 Map type
 
-{t}Folder with ID %s{/t}
+** Folder with ID %s
 
 
-{t}Folders{/t}
+** Folders
 Mappen
 
-{t}for a new paragraph, use a blank line{/t}
+** for a new paragraph, use a blank line
 
 
-{t}Force SSL{/t}
+** Force SSL
 SSL forceren
 
-{t}Form{/t}
+** Form
 
 
-{t}Forum{/t}
+** Forum
 Forum
 
-{t}Forward{/t}
+** Forward
 Doorsturen
 
-{t}Fr{/t}
+** Fr
 Vr
 
-{t}Free/busy{/t}
+** Free/busy
 Vrij / bezet
 
-{t}Freelance{/t}
+** Freelance
 
 
-{t}Fri{/t}
+** Fri
 Vrij
 
-{t}Friday{/t}
+** Friday
 
 
-{t}From{/t}
+** From
 Van
 
-{t}Full screen{/t}
+** Full screen
 
 
-{t}Full texts{/t}
+** Full texts
 
 
-{t}Full time{/t}
+** Full time
 
 
-{t}Full width{/t}
+** Full width
 Volledige breedte
 
-{t}Fulltext index{/t}
+** Fulltext index
 
 
-{t}Funambol only works with MySQL and PostgreSQL.{/t}
+** Funambol only works with MySQL and PostgreSQL.
 
 
-{t}Function does not exist: %s{/t}
+** Function does not exist: %s
 De functie %s bestaat niet.
 
-{t}g:i a{/t}
+** g:i a
 G:i
 
-{t}Gender{/t}
+** Gender
 Geslacht
 
-{t}General{/t}
+** General
 Algemeen
 
-{t}Generate{/t}
+** Generate
 Genereren
 
-{t}Gifts{/t}
+** Gifts
 Geschenken
 
-{t}Give Feedback{/t}
+** Give Feedback
 Terugkoppeling geven
 
-{t}GNU GPL Frequently Asked Questions{/t}
+** GNU GPL Frequently Asked Questions
 Veel gestelde vragen met betrekking tot GNU GPL
 
-{t}greater than{/t}
+** greater than
 groter dan
 
-{t}green{/t}
+** green
 groen
 
-{t}Group{/t}
+** Group
 
 
-{t}Group created.{/t}
+** Group created.
 
 
-{t}Group deactivated.{/t}
+** Group deactivated.
 
 
-{t}Groupname{/t}
+** Groupname
 Groepsnaam
 
-{t}Groups{/t}
+** Groups
 Groepen
 
-{t}hanging text{/t}
+** hanging text
 
 
-{t}Hardware{/t}
+** Hardware
 Hardware
 
-{t}Headers{/t}
+** Headers
 Kopregels
 
-{t}heading{/t}
+** heading
 
 
-{t}headings{/t}
+** headings
 
 
-{t}Height{/t}
+** Height
 Hoogte
 
-{t}Help{/t}
+** Help
 Help
 
-{t}Helpdesk{/t}
+** Helpdesk
 Helpdesk
 
-{t}Hidden in{/t}
+** Hidden in
 
 
-{t}Hidden in all views{/t}
+** Hidden in all views
 
 
-{t}Hide{/t}
+** Hide
 
 
-{t}hide in all views{/t}
+** hide in all views
 
 
-{t}hide in this view{/t}
+** hide in this view
 
 
-{t}History{/t}
+** History
 Geschiedenis
 
-{t}Holiday{/t}
+** Holiday
 Vakantie
 
-{t}Home{/t}
+** Home
 Home
 
-{t}Home folder id{/t}
+** Home folder id
 
 
-{t}Home page in the CMS{/t}
+** Home page in the CMS
 
 
-{t}Homepage{/t}
+** Homepage
 Homepage
 
-{t}horizontal line{/t}
+** horizontal line
 
 
-{t}Host{/t}
+** Host
 Host
 
-{t}Hosts{/t}
+** Hosts
 Hosts
 
-{t}Hour{/t}
+** Hour
 
 
-{t}hours{/t}
+** hours
 uren
 
-{t}Hours per week{/t}
+** Hours per week
 
 
-{t}HTML document{/t}
+** HTML document
 
 
-{t}HTML documents{/t}
+** HTML documents
 HTML documenten
 
-{t}http://www.pmwiki.org/PmWiki/{/t}
+** http://www.pmwiki.org/PmWiki/
 
 
-{t}Human resources{/t}
+** Human resources
 
 
-{t}I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2{/t}
+** I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2
 Ik accepteer de GNU GENERAL PUBLIC LICENSE VERSION 2
 
-{t}I m p o r t{/t}
+** I m p o r t
 
 
-{t}I n s t a l l{/t}
+** I n s t a l l
 I n s t a l l e r e n
 
-{t}Icon{/t}
+** Icon
 
 
-{t}Id{/t}
+** Id
 Id
 
-{t}Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
 
 
-{t}Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].
 
 
-{t}Ideas{/t}
+** Ideas
 Ideeën
 
-{t}If empty, the SMTP connection from the module users will be used.{/t}
+** If empty, the SMTP connection from the module users will be used.
 Indien leeg, dan zal de SMTP verbinding van de gebruikers module worden gebruikt.
 
-{t}If file system permissions are ok, please check the configurations of %s if present.{/t}
+** If file system permissions are ok, please check the configurations of %s if present.
 
 
-{t}if not autodetected with namingContexts{/t}
+** if not autodetected with namingContexts
 indien niet automatisch gedetecteerd met namingContexts
 
-{t}If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.{/t}
+** If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.
 
 
-{t}If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.{/t}
+** If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.
 Indien de gebruikersnaam of wachtwoord de volgende tekens bevat &quot;@&quot; vervang deze door &quot;%%&quot;.
 
-{t}Illness{/t}
+** Illness
 
 
-{t}Im-/Export{/t}
+** Im-/Export
 Im-/Export
 
-{t}Image{/t}
+** Image
 Afbeelding
 
-{t}Images{/t}
+** Images
 
 
-{t}Imap-error: %s{/t}
+** Imap-error: %s
 Imap-error: %s
 
-{t}immediate{/t}
+** immediate
 per direct
 
-{t}Import{/t}
+** Import
 Import
 
-{t}In progress{/t}
+** In progress
 In gang
 
-{t}in repair{/t}
+** in repair
 in reparatie
 
-{t}in stock{/t}
+** in stock
 op voorraad
 
-{t}Inactive{/t}
+** Inactive
 Inaktief
 
-{t}Include in RSS feed{/t}
+** Include in RSS feed
 
 
-{t}Include page{/t}
+** Include page
 
 
-{t}indent text{/t}
+** indent text
 
 
-{t}Index{/t}
+** Index
 Index
 
-{t}Index length{/t}
+** Index length
 Index lengte
 
-{t}Index type{/t}
+** Index type
 Index type
 
-{t}Indexes{/t}
+** Indexes
 Indices
 
-{t}Industry{/t}
+** Industry
 Branche
 
-{t}Info{/t}
+** Info
 Informatie
 
-{t}inheritance to subfolders without default values{/t}
+** inheritance to subfolders without default values
 
 
-{t}Input field{/t}
+** Input field
 
 
-{t}Input field height{/t}
+** Input field height
 
 
-{t}Insert{/t}
+** Insert
 Invoegen
 
-{t}inserted{/t}
+** inserted
 
 
-{t}Install default folder structure{/t}
+** Install default folder structure
 
 
-{t}Install demo folders{/t}
+** Install demo folders
 
 
-{t}Install minimal folder structure{/t}
+** Install minimal folder structure
 
 
-{t}installed{/t}
+** installed
 
 
-{t}insufficient folder rights{/t}
+** insufficient folder rights
 onvoldoende map rechten
 
-{t}Internal recommendation{/t}
+** Internal recommendation
 Interne aanbeveling
 
-{t}Intranet{/t}
+** Intranet
 
 
-{t}Intro{/t}
+** Intro
 Intro
 
-{t}invalid{/t}
+** invalid
 ongeldig
 
-{t}Invalid file extensions{/t}
+** Invalid file extensions
 
 
-{t}Invalid schema mode '%s'{/t}
+** Invalid schema mode '%s'
 
 
-{t}Invalid security token{/t}
+** Invalid security token
 
 
-{t}Inventory{/t}
+** Inventory
 Voorraad
 
-{t}Inventory number{/t}
+** Inventory number
 Voorraadnummer
 
-{t}Investor{/t}
+** Investor
 Investeerder
 
-{t}Invoice{/t}
+** Invoice
 Rekening
 
-{t}italic{/t}
+** italic
 
 
-{t}Item created by %s at %s{/t}
+** Item created by %s at %s
 Element aangemaakt door %s om %s
 
-{t}Item deleted by %s at %s{/t}
+** Item deleted by %s at %s
 Element verwijderd door %s om %s
 
-{t}Item edited (%s) by %s at %s{/t}
+** Item edited (%s) by %s at %s
 Element (%s) veranderd door %s om %s
 
-{t}Item not found.{/t}
+** Item not found.
 Element niet gevonden.
 
-{t}Item successfully created.{/t}
+** Item successfully created.
 Element succesvol aangemaakt.
 
-{t}Item successfully updated.{/t}
+** Item successfully updated.
 Element succesvol bijgewerkt.
 
-{t}Item(s) not found or access denied.{/t}
+** Item(s) not found or access denied.
 Item(s) niet gevonden of toegang geweigerd.
 
-{t}Jan{/t}
+** Jan
 
 
-{t}January{/t}
+** January
 Januari
 
-{t}Job description{/t}
+** Job description
 Taakomschrijving
 
-{t}Join lines{/t}
+** Join lines
 
 
-{t}Jul{/t}
+** Jul
 
 
-{t}July{/t}
+** July
 Juli
 
-{t}Jun{/t}
+** Jun
 
 
-{t}June{/t}
+** June
 Juni
 
-{t}Key{/t}
+** Key
 Belangrijkst
 
-{t}Key customer{/t}
+** Key customer
 Belangrijkste klant
 
-{t}Key name{/t}
+** Key name
 Belangrijkste naam
 
-{t}Keywords{/t}
+** Keywords
 
 
-{t}Knowledge base{/t}
+** Knowledge base
 Kennisbank
 
-{t}L o g i n{/t}
+** L o g i n
 A a n m e l d e n
 
-{t}l, F j, Y{/t}
+** l, F j, Y
 l, F j, Y
 
-{t}Last access{/t}
+** Last access
 Laatste toegang
 
-{t}Last name{/t}
+** Last name
 Achternaam
 
-{t}LDAP anonymous connection failed.{/t}
+** LDAP anonymous connection failed.
 De anonieme LDAP-verbinding met de host werkte niet.
 
-{t}LDAP attribute for group memberships{/t}
+** LDAP attribute for group memberships
 
 
-{t}LDAP attribute for rooms{/t}
+** LDAP attribute for rooms
 
 
-{t}LDAP attribute for usernames{/t}
+** LDAP attribute for usernames
 
 
-{t}LDAP connection to host %s failed.{/t}
+** LDAP connection to host %s failed.
 De LDAP-verbinding met de host %s werkte niet.
 
-{t}LDAP without anonymous access{/t}
+** LDAP without anonymous access
 Geen anonieme LDAP-verbinding aangaan
 
-{t}LDAP: no base DN given{/t}
+** LDAP: no base DN given
 LDAP: geen basis DN aangegeven
 
-{t}LDAP: no UID given{/t}
+** LDAP: no UID given
 
 
-{t}Leave of absence{/t}
+** Leave of absence
 
 
-{t}less promising{/t}
+** less promising
 weinig belovend
 
-{t}lesser than{/t}
+** lesser than
 minder dan
 
-{t}Letter{/t}
+** Letter
 Brief
 
-{t}Level{/t}
+** Level
 Niveau
 
-{t}License{/t}
+** License
 Licentie
 
-{t}line{/t}
+** line
 
 
-{t}Line break{/t}
+** Line break
 
 
-{t}Link{/t}
+** Link
 Link
 
-{t}Link restricted{/t}
+** Link restricted
 De link is niet toegestaan
 
-{t}link text{/t}
+** link text
 
 
-{t}link to external page{/t}
+** link to external page
 
 
-{t}link to internal page{/t}
+** link to internal page
 
 
-{t}Links{/t}
+** Links
 
 
-{t}Lists{/t}
+** Lists
 
 
-{t}Load external images{/t}
+** Load external images
 
 
-{t}Location{/t}
+** Location
 Lokatie
 
-{t}Locations{/t}
+** Locations
 Locaties
 
-{t}Lock{/t}
+** Lock
 Vergrendeld
 
-{t}Locked by{/t}
+** Locked by
 Vergrendeld door
 
-{t}Locking{/t}
+** Locking
 Vergrendelen
 
-{t}login %s from %s with %s{/t}
+** login %s from %s with %s
 Aanmelden %s van %s met %s
 
-{t}Login failed from %s.{/t}
+** Login failed from %s.
 Het aanmelden van %s mislukte.
 
-{t}Login/-out{/t}
+** Login/-out
 Aan-/Afmelden
 
-{t}Logins{/t}
+** Logins
 Aanmeldingem
 
-{t}Logout{/t}
+** Logout
 
 
-{t}logout %s{/t}
+** logout %s
 %s afmelden
 
-{t}Lookup{/t}
+** Lookup
 Raadplegen
 
-{t}low{/t}
+** low
 laag
 
-{t}lowest{/t}
+** lowest
 zeer laag
 
-{t}M j{/t}
+** M j
 M j
 
-{t}M j, g:i a{/t}
+** M j, g:i a
 M j, G:i
 
-{t}M j, Y{/t}
+** M j, Y
 M j, Y
 
-{t}m/d/Y{/t}
+** m/d/Y
 d-m-Y
 
-{t}m/d/Y g:i a{/t}
+** m/d/Y g:i a
 d-m-y G:i
 
-{t}m/d/y g:i:s a{/t}
+** m/d/y g:i:s a
 d-m-y G:i:s
 
-{t}magenta{/t}
+** magenta
 violet
 
-{t}mail footer{/t}
+** mail footer
 E-Mail voettekst
 
-{t}Mail identities{/t}
+** Mail identities
 Email identiteiten
 
-{t}mail notification{/t}
+** mail notification
 email kennisgeving
 
-{t}mail reminder{/t}
+** mail reminder
 email herinnering
 
-{t}Main menu{/t}
+** Main menu
 Hoofdmenu
 
-{t}Main page{/t}
+** Main page
 
 
-{t}Maintenance mode{/t}
+** Maintenance mode
 Onderhoudsmode
 
-{t}male{/t}
+** male
 man
 
-{t}Man-days{/t}
+** Man-days
 Werkdagen
 
-{t}Man-days planned{/t}
+** Man-days planned
 Geplande werkdagen
 
-{t}Manage offline folders{/t}
+** Manage offline folders
 
 
-{t}Manager{/t}
+** Manager
 Manager
 
-{t}Manufacturer{/t}
+** Manufacturer
 Fabrikant
 
-{t}Mar{/t}
+** Mar
 
 
-{t}March{/t}
+** March
 Maart
 
-{t}Marketing event{/t}
+** Marketing event
 Marketing evenement
 
-{t}married{/t}
+** married
 gehuwd
 
-{t}Maximize{/t}
+** Maximize
 Maximaliseren
 
-{t}Maximum file size{/t}
+** Maximum file size
 
 
-{t}Maximum number of assets per page{/t}
+** Maximum number of assets per page
 
 
-{t}maximum number of files exceeded.{/t}
+** maximum number of files exceeded.
 Het maximale aantal bestanden is overschreven.
 
-{t}May{/t}
+** May
 Mei
 
-{t}Media{/t}
+** Media
 Media
 
-{t}Meeting{/t}
+** Meeting
 Bespreking
 
-{t}Members{/t}
+** Members
 Leden
 
-{t}Memory limit{/t}
+** Memory limit
 
 
-{t}Merge folders permanently{/t}
+** Merge folders permanently
 
 
-{t}Merged folders{/t}
+** Merged folders
 
 
-{t}Message{/t}
+** Message
 Bericht
 
-{t}Messages{/t}
+** Messages
 
 
-{t}Milestone{/t}
+** Milestone
 
 
-{t}min{/t}
+** min
 min
 
-{t}Minimize{/t}
+** Minimize
 Minimaliseren
 
-{t}minimum = 15 secs, 0 = disabled{/t}
+** minimum = 15 secs, 0 = disabled
 
 
-{t}Miscellaneous{/t}
+** Miscellaneous
 Diversen
 
-{t}missing a temporary folder.{/t}
+** missing a temporary folder.
 mist een tijdelijke map.
 
-{t}missing field{/t}
+** missing field
 graag invoeren
 
-{t}missing right: %s{/t}
+** missing right: %s
 missend toegangsrecht: %s
 
-{t}Mo{/t}
+** Mo
 Ma
 
-{t}Mobile{/t}
+** Mobile
 Mobiele telefoon
 
-{t}Model{/t}
+** Model
 Model
 
-{t}Modified{/t}
+** Modified
 Veranderd
 
-{t}Modified by{/t}
+** Modified by
 
 
-{t}Modifying database failed.{/t}
+** Modifying database failed.
 Het wijzigen van de database is mislukt.
 
-{t}Module{/t}
+** Module
 Module
 
-{t}Module disabled.{/t}
+** Module disabled.
 
 
-{t}Modules{/t}
+** Modules
 Modules
 
-{t}Mon{/t}
+** Mon
 Maa
 
-{t}Monday{/t}
+** Monday
 
 
-{t}monospace{/t}
+** monospace
 
 
-{t}Month{/t}
+** Month
 Maand
 
-{t}monthly{/t}
+** monthly
 maandelijks
 
-{t}months{/t}
+** months
 maanden
 
-{t}More information about the GNU GPL{/t}
+** More information about the GNU GPL
 Meer informatie over de GNU GPL
 
-{t}Mountpoint{/t}
+** Mountpoint
 Mountpoint
 
-{t}Move{/t}
+** Move
 Verplaatsen
 
-{t}Move to subfolder 'Archive'{/t}
+** Move to subfolder 'Archive'
 
 
-{t}Multiple{/t}
+** Multiple
 
 
-{t}Multiple choice{/t}
+** Multiple choice
 
 
-{t}My appointments{/t}
+** My appointments
 
 
-{t}My tasks{/t}
+** My tasks
 
 
-{t}Name{/t}
+** Name
 Naam
 
-{t}Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
 De naam mag niet leeg zijn en dient uit min. 3 en max. 128 karakters te bestaan [a-z0-9_-@.] (geen hoofdletters).
 
-{t}Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].{/t}
+** Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].
 
 
-{t}need feedback{/t}
+** need feedback
 ruggespraak nodig
 
-{t}Network{/t}
+** Network
 Netwerk
 
-{t}Never expires{/t}
+** Never expires
 Vervalt nooit
 
-{t}New{/t}
+** New
 Nieuw
 
-{t}New folder{/t}
+** New folder
 Nieuwe map
 
-{t}News{/t}
+** News
 Nieuws
 
-{t}Next recurrences{/t}
+** Next recurrences
 
 
-{t}Nickname{/t}
+** Nickname
 Bijnaam
 
-{t}Nightwork{/t}
+** Nightwork
 
 
-{t}no{/t}
+** no
 nee
 
-{t}No dataset selected.{/t}
+** No dataset selected.
 Geen dataset geselecteerd
 
-{t}No entries found.{/t}
+** No entries found.
 Geen input gevonden.
 
-{t}No file was uploaded{/t}
+** No file was uploaded
 
 
-{t}No line breaks{/t}
+** No line breaks
 
 
-{t}no result{/t}
+** no result
 
 
-{t}No search index{/t}
+** No search index
 
 
-{t}No sender specified.{/t}
+** No sender specified.
 Geen afzender gespecificeerd.
 
-{t}no username submitted{/t}
+** no username submitted
 Geen gebruikersnaam ingevoerd.
 
-{t}No username/password.{/t}
+** No username/password.
 
 
-{t}No wrap{/t}
+** No wrap
 
 
-{t}Non unique{/t}
+** Non unique
 Niet uniek
 
-{t}none{/t}
+** none
 geen
 
-{t}normal{/t}
+** normal
 normaal
 
-{t}Not allowed. Please log in as super administrator.{/t}
+** Not allowed. Please log in as super administrator.
 Niet toegestaan. Graag als Super-Administrator aanmelden.
 
-{t}not contains{/t}
+** not contains
 bevat niet
 
-{t}not equal{/t}
+** not equal
 niet gelijk aan
 
-{t}Not in{/t}
+** Not in
 
 
-{t}Not in database{/t}
+** Not in database
 
 
-{t}not installed{/t}
+** not installed
 
 
-{t}Note{/t}
+** Note
 
 
-{t}Notebook{/t}
+** Notebook
 Notebook
 
-{t}Notes{/t}
+** Notes
 Notities
 
-{t}Notificaiton sent to: %s{/t}
+** Notificaiton sent to: %s
 Melding verznden aan: %s
 
-{t}Notification{/t}
+** Notification
 Kennisgeving
 
-{t}Notification summary{/t}
+** Notification summary
 
 
-{t}Notifications{/t}
+** Notifications
 
 
-{t}Nov{/t}
+** Nov
 
 
-{t}November{/t}
+** November
 November
 
-{t}Null{/t}
+** Null
 Null
 
-{t}Number of employees{/t}
+** Number of employees
 Aantal medewerkers
 
-{t}numbered{/t}
+** numbered
 
 
-{t}Objectives{/t}
+** Objectives
 Doelstellingen
 
-{t}Oct{/t}
+** Oct
 
 
-{t}October{/t}
+** October
 Oktober
 
-{t}of {0}{/t}
+** of {0}
 
 
-{t}offer{/t}
+** offer
 
 
-{t}Offer{/t}
+** Offer
 
 
-{t}Office{/t}
+** Office
 Kantoor
 
-{t}Office program{/t}
+** Office program
 Kantoor applicatie
 
-{t}Offices{/t}
+** Offices
 Kantoren
 
-{t}offline{/t}
+** offline
 offline
 
-{t}Offline folders{/t}
+** Offline folders
 
 
-{t}Offline reading{/t}
+** Offline reading
 
 
-{t}Ok{/t}
+** Ok
 Ok
 
-{t}one of{/t}
+** one of
 
 
-{t}online{/t}
+** online
 online
 
-{t}Only for this folder{/t}
+** Only for this folder
 
 
-{t}Only in{/t}
+** Only in
 
 
-{t}open{/t}
+** open
 
 
-{t}Open{/t}
+** Open
 Open
 
-{t}Operating system{/t}
+** Operating system
 Besturings systeem
 
-{t}Operation not allowed. (Data loss protection){/t}
+** Operation not allowed. (Data loss protection)
 Bewerking niet toegestaan. (Bescherming tegen dataverlies)
 
-{t}Optimize Tables{/t}
+** Optimize Tables
 Tabellen optimaliseren
 
-{t}Options{/t}
+** Options
 Opties
 
-{t}or{/t}
+** or
 
 
-{t}or higher{/t}
+** or higher
 of hoger
 
-{t}orange{/t}
+** orange
 oranje
 
-{t}Order size{/t}
+** Order size
 Order omvang
 
-{t}Organisation{/t}
+** Organisation
 Organisatie
 
-{t}Organizer{/t}
+** Organizer
 Organisator
 
-{t}Origin{/t}
+** Origin
 Herkomst
 
-{t}Original message{/t}
+** Original message
 Origineel bericht
 
-{t}Other{/t}
+** Other
 Andere
 
-{t}out of office{/t}
+** out of office
 niet op kantoor
 
-{t}Outline image{/t}
+** Outline image
 Omlijning beeld
 
-{t}Output{/t}
+** Output
 Output
 
-{t}Output empty: %s{/t}
+** Output empty: %s
 
 
-{t}overlap{/t}
+** overlap
 overlap
 
-{t}Overtime{/t}
+** Overtime
 
 
-{t}Overtime compensation per hour{/t}
+** Overtime compensation per hour
 
 
-{t}Owner{/t}
+** Owner
 Eigenaar
 
-{t}Owner since{/t}
+** Owner since
 Eigenaar sinds
 
-{t}Package from local file system (.tar.gz){/t}
+** Package from local file system (.tar.gz)
 
 
-{t}Packed{/t}
+** Packed
 Ingepakt
 
-{t}Page{/t}
+** Page
 
 
-{t}Page last modified on{/t}
+** Page last modified on
 
 
-{t}Page name (URL){/t}
+** Page name (URL)
 
 
-{t}Page not found{/t}
+** Page not found
 
 
-{t}Page title{/t}
+** Page title
 
 
-{t}Pager{/t}
+** Pager
 Bieper
 
-{t}Paid{/t}
+** Paid
 
 
-{t}Paid holidays{/t}
+** Paid holidays
 
 
-{t}Paragraphs{/t}
+** Paragraphs
 
 
-{t}parameters{/t}
+** parameters
 parameter
 
-{t}Parameters{/t}
+** Parameters
 Parameters
 
-{t}Parent folder{/t}
+** Parent folder
 
 
-{t}Parsing{/t}
+** Parsing
 Analyseren
 
-{t}Part time{/t}
+** Part time
 
 
-{t}Participants{/t}
+** Participants
 Deelnemers
 
-{t}Participants (external){/t}
+** Participants (external)
 Deelnemer (extern)
 
-{t}Participants (internal){/t}
+** Participants (internal)
 Deelnemer (intern)
 
-{t}Password{/t}
+** Password
 Wachtwoord
 
-{t}Password expired. (password of %s has expired){/t}
+** Password expired. (password of %s has expired)
 Het wachtwoord is verlopen. (Het wachtwoord van gebruiker %s is verlopen)
 
-{t}Password expires{/t}
+** Password expires
 Wachtwoord verloopt op
 
-{t}Password must be not null, min 5 characters.{/t}
+** Password must be not null, min 5 characters.
 Het wachtwoord mag niet leeg zijn en moet uit min. 5 letters bestaan.
 
-{t}password not confirmed.{/t}
+** password not confirmed.
 het wachtwoord is niet bevestigd.
 
-{t}Passwords{/t}
+** Passwords
 Wachtwoorden
 
-{t}Paste{/t}
+** Paste
 Plakken
 
-{t}Path{/t}
+** Path
 Pad
 
-{t}Pause{/t}
+** Pause
 
 
-{t}Payroll{/t}
+** Payroll
 
 
-{t}Permissions{/t}
+** Permissions
 Rechten
 
-{t}Permissions added for: %s{/t}
+** Permissions added for: %s
 Rechten toegevoegd voor: %s
 
-{t}Personal{/t}
+** Personal
 Privé
 
-{t}Personal department{/t}
+** Personal department
 Mijn werkgroepen
 
-{t}Personal folders{/t}
+** Personal folders
 Mijn werkmappen
 
-{t}Personal projects{/t}
+** Personal projects
 Mijn projecten
 
-{t}Phone{/t}
+** Phone
 Telefoon
 
-{t}Phone calls{/t}
+** Phone calls
 Oproepen
 
-{t}Phone private{/t}
+** Phone private
 Telefoon (privé)
 
-{t}Photo{/t}
+** Photo
 Foto
 
-{t}Photo gallery{/t}
+** Photo gallery
 Foto-Galerij
 
-{t}Planned{/t}
+** Planned
 Staat geplanned
 
-{t}Please activate cookies.{/t}
+** Please activate cookies.
 Graag cookies inschakelen.
 
-{t}Please choose Apache as Web-Server.{/t}
+** Please choose Apache as Web-Server.
 Graag Apache als web-server kiezen.
 
-{t}Please enable Javascript in your browser.{/t}
+** Please enable Javascript in your browser.
 
 
-{t}Please enter a valid url.{/t}
+** Please enter a valid url.
 Graag een geldige URL ingeven.
 
-{t}Please give read access to %s{/t}
+** Please give read access to %s
 Geef lees rechten aan %s
 
-{t}Please give write access to %s{/t}
+** Please give write access to %s
 Graag schrijftoegang geven aan %s
 
-{t}Please give write access to %s and %s{/t}
+** Please give write access to %s and %s
 Graag schrijftoegang geven aan %s en %s
 
-{t}Please hit reload.{/t}
+** Please hit reload.
 Graag op herladen drukken.
 
-{t}Please input a valid e-mail adress.{/t}
+** Please input a valid e-mail adress.
 Graag een geldig email adres invoeren.
 
-{t}Please install 'tsearch2' for the PostgreSQL database.{/t}
+** Please install 'tsearch2' for the PostgreSQL database.
 Graag tsearch2 voor de PostgreSQL database installeren.
 
-{t}Please install the php-extension with name '%s'.{/t}
+** Please install the php-extension with name '%s'.
 
 
-{t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}
+** Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !
 Graag uw php.ini wijzigen of een .htaccess bestand aanmaken, die %s verandert in %s (der huidige waarde is %s) !
 
-{t}Please read the following license agreement. Use the scroll bar to view the rest of this agreement.{/t}
+** Please read the following license agreement. Use the scroll bar to view the rest of this agreement.
 Graag de volgende licentieovereenkomst lezen. Gebruik de scrollbar om de rest van deze overeenkomst te lezen.
 
-{t}Please select a location.{/t}
+** Please select a location.
 
 
-{t}Please select a participant.{/t}
+** Please select a participant.
 
 
-{t}Please upload again.{/t}
+** Please upload again.
 Graag nogmaals uploaden.
 
-{t}Please wait ...{/t}
+** Please wait ...
 Even wachten ...
 
-{t}Pop3-error: %s{/t}
+** Pop3-error: %s
 Pop3-fout: %s
 
-{t}Port{/t}
+** Port
 Port
 
-{t}Portal{/t}
+** Portal
 Portal
 
-{t}Position{/t}
+** Position
 Functie
 
-{t}Positions{/t}
+** Positions
 Functies
 
-{t}Post{/t}
+** Post
 Post
 
-{t}Practical training{/t}
+** Practical training
 
 
-{t}Preformatted block{/t}
+** Preformatted block
 
 
-{t}Prepend new field as{/t}
+** Prepend new field as
 
 
-{t}Prevent formatting{/t}
+** Prevent formatting
 
 
-{t}Preview{/t}
+** Preview
 Voorbeeld
 
-{t}Price{/t}
+** Price
 Prijs
 
-{t}Primary key{/t}
+** Primary key
 
 
-{t}Print{/t}
+** Print
 Afdrukken ...
 
-{t}Print all{/t}
+** Print all
 
 
-{t}Printer{/t}
+** Printer
 Printer
 
-{t}Priority{/t}
+** Priority
 Prioriteit
 
-{t}Problem{/t}
+** Problem
 Probleem
 
-{t}Processes{/t}
+** Processes
 Processen
 
-{t}Processing %s ...{/t}
+** Processing %s ...
 Bezig met verwerken van %s ...
 
-{t}Program is installed with language %s, please use a different url or run the setup again.{/t}
+** Program is installed with language %s, please use a different url or run the setup again.
 Programma werd geïnstalleerd met de %s taal, graag een andere url gebruiken of nogmaals de installatie starten.
 
-{t}Progress{/t}
+** Progress
 Voortgang
 
-{t}Project{/t}
+** Project
 Project
 
-{t}Project files{/t}
+** Project files
 
 
-{t}Project tasks{/t}
+** Project tasks
 
 
-{t}Projects{/t}
+** Projects
 Projecten
 
-{t}promising{/t}
+** promising
 veel belovend
 
-{t}Properties{/t}
+** Properties
 
 
-{t}Prospective client{/t}
+** Prospective client
 Potentiële cliënt
 
-{t}Public holiday{/t}
+** Public holiday
 
 
-{t}Purchased{/t}
+** Purchased
 Gekocht
 
-{t}Question{/t}
+** Question
 Vraag
 
-{t}Queue{/t}
+** Queue
 Queue
 
-{t}Quick add{/t}
+** Quick add
 
 
-{t}Quota{/t}
+** Quota
 Quota
 
-{t}Quota (remaining){/t}
+** Quota (remaining)
 Quota (over)
 
-{t}Quota [MB]{/t}
+** Quota [MB]
 Quota [MB]
 
-{t}Quota limitation exceeded: %s{/t}
+** Quota limitation exceeded: %s
 Quota overschreven
 
-{t}R e g i s t e r{/t}
+** R e g i s t e r
 
 
-{t}Rating{/t}
+** Rating
 Waardering
 
-{t}Read{/t}
+** Read
 Lees
 
-{t}read access{/t}
+** read access
 lees toegang
 
-{t}Read access (groups){/t}
+** Read access (groups)
 Leestoegang (groepen)
 
-{t}Read access (users){/t}
+** Read access (users)
 Leestoegang (gebruikers)
 
-{t}Read only in{/t}
+** Read only in
 
 
-{t}Read this page offline:{/t}
+** Read this page offline:
 
 
-{t}ready for repair{/t}
+** ready for repair
 gereed voor reparatie
 
-{t}ready for scrap{/t}
+** ready for scrap
 gereed voor scroot
 
-{t}Real URL format in the CMS{/t}
+** Real URL format in the CMS
 
 
-{t}Really apply rights to subfolders ?{/t}
+** Really apply rights to subfolders ?
 Daadwerkelijk rechten aan onderliggende mappen toekennen?
 
-{t}Really apply the changes ?{/t}
+** Really apply the changes ?
 
 
-{t}Really delete ?{/t}
+** Really delete ?
 Daadwerkelijk verwijderen?
 
-{t}REALLY delete ALL datasets ?{/t}
+** REALLY delete ALL datasets ?
 Daadwerkelijk ALLE datasets verwijderen?
 
-{t}Really delete ALL subfolders ?{/t}
+** Really delete ALL subfolders ?
 Daadwerkelijk ALLE onderliggende mappen verwijderen?
 
-{t}Really delete the dataset(s) ?{/t}
+** Really delete the dataset(s) ?
 Daadwerkelijk de datasets verwijderen?
 
-{t}Really empty the folder ?{/t}
+** Really empty the folder ?
 Daadwerkelijk de folder leegmaken?
 
-{t}Really overwrite existing dataset(s) ?{/t}
+** Really overwrite existing dataset(s) ?
 Daadwerkelijk de bestaande dataset(s) overschrijven?
 
-{t}Really run setup again ?{/t}
+** Really run setup again ?
 Daadwerkelijk de installatie opnieuw starten?
 
-{t}Really uninstall the module ?{/t}
+** Really uninstall the module ?
 
 
-{t}Rebuild search index{/t}
+** Rebuild search index
 Zoekindex opnieuw opbouwen
 
-{t}Recent changes{/t}
+** Recent changes
 
 
-{t}Recipients{/t}
+** Recipients
 
 
-{t}Recommendation of affiliate{/t}
+** Recommendation of affiliate
 Externe aanbeveling
 
-{t}Recurrence{/t}
+** Recurrence
 Herhaling
 
-{t}Recurrences{/t}
+** Recurrences
 
 
-{t}red{/t}
+** red
 rood
 
-{t}Redirect to home directory{/t}
+** Redirect to home directory
 Starten in de bovenste map.
 
-{t}Reference{/t}
+** Reference
 
 
-{t}Refresh{/t}
+** Refresh
 
 
-{t}Refresh every x seconds{/t}
+** Refresh every x seconds
 
 
-{t}Regular{/t}
+** Regular
 
 
-{t}Reject{/t}
+** Reject
 
 
-{t}rejected{/t}
+** rejected
 geweigerd
 
-{t}Relative formats{/t}
+** Relative formats
 
 
-{t}Relaunch Setup{/t}
+** Relaunch Setup
 Installatie opnieuw opstarten
 
-{t}Relevance{/t}
+** Relevance
 
 
-{t}Reminder{/t}
+** Reminder
 Herinnering
 
-{t}rename{/t}
+** rename
 
 
-{t}Rename folder{/t}
+** Rename folder
 Map hernoemen
 
-{t}Repeat count{/t}
+** Repeat count
 Aantal herhalingen
 
-{t}Repeat exclusions{/t}
+** Repeat exclusions
 Uitgesloten herhalingen
 
-{t}Repeat interval{/t}
+** Repeat interval
 Interval herhaling
 
-{t}Repeat until{/t}
+** Repeat until
 Herhalen tot
 
-{t}Reply{/t}
+** Reply
 Beantwoorden
 
-{t}Reply all{/t}
+** Reply all
 Allen beantwoorden
 
-{t}Require admin access to set mountpoints{/t}
+** Require admin access to set mountpoints
 Vereist admin rechten om mountpoints te zetten
 
-{t}Required{/t}
+** Required
 
 
-{t}Required fields{/t}
+** Required fields
 
 
-{t}Reseller{/t}
+** Reseller
 Doorverkoper
 
-{t}reserved{/t}
+** reserved
 gereserveerd
 
-{t}Reset view{/t}
+** Reset view
 Aanzicht terugzetten
 
-{t}Resource{/t}
+** Resource
 Resource
 
-{t}Resources{/t}
+** Resources
 Resources
 
-{t}Responsible{/t}
+** Responsible
 Verantwoordelijk
 
-{t}Responsible (external){/t}
+** Responsible (external)
 Verantwoordelijk (extern)
 
-{t}Responsible (internal){/t}
+** Responsible (internal)
 Verantwoordelijk (intern)
 
-{t}Restore complete{/t}
+** Restore complete
 Herstellen compleet
 
-{t}Restore here{/t}
+** Restore here
 Hier herstellen
 
-{t}Restore only missing{/t}
+** Restore only missing
 
 
-{t}Restore only newer{/t}
+** Restore only newer
 Enkel nieuwere herstellen
 
-{t}Restore to origin{/t}
+** Restore to origin
 Herstellen naar oorspronkelijke
 
-{t}Return receipt{/t}
+** Return receipt
 Ontvangstbevestiging
 
-{t}right-aligned{/t}
+** right-aligned
 
 
-{t}Rights{/t}
+** Rights
 Rechten
 
-{t}Risks{/t}
+** Risks
 
 
-{t}Room name{/t}
+** Room name
 Kamernaam
 
-{t}Room number{/t}
+** Room number
 Kamernummer
 
-{t}Rooms{/t}
+** Rooms
 Kamers
 
-{t}Rows{/t}
+** Rows
 Rijen
 
-{t}Run Setup again{/t}
+** Run Setup again
 Installatie opnieuw uitvoeren
 
-{t}S a v e{/t}
+** S a v e
 O P S L A A N
 
-{t}S a v e  a n d  E d i t{/t}
+** S a v e  a n d  E d i t
 
 
-{t}S a v e  a n d  g o  b a c k{/t}
+** S a v e  a n d  g o  b a c k
 
 
-{t}Sa{/t}
+** Sa
 Za
 
-{t}Salary{/t}
+** Salary
 
 
-{t}Salary per{/t}
+** Salary per
 
 
-{t}Sales promotion{/t}
+** Sales promotion
 Verkooppromotie
 
-{t}Sat{/t}
+** Sat
 Zat
 
-{t}Saturday{/t}
+** Saturday
 
 
-{t}Scheduling{/t}
+** Scheduling
 Planning
 
-{t}Schema{/t}
+** Schema
 Schema
 
-{t}Schema data{/t}
+** Schema data
 Data schema
 
-{t}Schemafile not found. (%s){/t}
+** Schemafile not found. (%s)
 Het schemabestand werd niet gevonden. (%s)
 
-{t}School{/t}
+** School
 
 
-{t}scrapped{/t}
+** scrapped
 vernietigd
 
-{t}Search{/t}
+** Search
 Zoeken
 
-{t}Search by ID{/t}
+** Search by ID
 
 
-{t}second level support{/t}
+** second level support
 
 
-{t}Second manager{/t}
+** Second manager
 Tweede manager
 
-{t}seconds{/t}
+** seconds
 
 
-{t}Secretary{/t}
+** Secretary
 Secretaresse
 
-{t}Self registration{/t}
+** Self registration
 
 
-{t}Self registration needs confirmation by an administrator.{/t}
+** Self registration needs confirmation by an administrator.
 
 
-{t}Send now{/t}
+** Send now
 
 
-{t}Sent{/t}
+** Sent
 
 
-{t}Sent reminders{/t}
+** Sent reminders
 
 
-{t}Sep{/t}
+** Sep
 
 
-{t}Separate fields{/t}
+** Separate fields
 
 
-{t}Separate values{/t}
+** Separate values
 
 
-{t}Separator{/t}
+** Separator
 
 
-{t}Separators{/t}
+** Separators
 
 
-{t}September{/t}
+** September
 September
 
-{t}Serial number{/t}
+** Serial number
 Serienummer
 
-{t}Server{/t}
+** Server
 Server
 
-{t}Server does not support sorting{/t}
+** Server does not support sorting
 
 
-{t}Server-IP{/t}
+** Server-IP
 Server-IP
 
-{t}Service provider{/t}
+** Service provider
 Dienstverlener
 
-{t}Session name in cookie{/t}
+** Session name in cookie
 
 
-{t}Session timeout{/t}
+** Session timeout
 Sessie is verlopen
 
-{t}Sessions{/t}
+** Sessions
 Sessies
 
-{t}Settings{/t}
+** Settings
 
 
-{t}Setup{/t}
+** Setup
 Installatie
 
-{t}Setup needs a database-php-extension ! (%s){/t}
+** Setup needs a database-php-extension ! (%s)
 De installatie vereist een PHP-database-extentie! (%s)
 
-{t}Setup needs php with at least version %s !{/t}
+** Setup needs php with at least version %s !
 De installatie vereist minimaal PHP versie %s !
 
-{t}Setup needs php-extension with name %s !{/t}
+** Setup needs php-extension with name %s !
 De installatie vereist een PHP-extentie genaamd %s !
 
-{t}Setup needs Simple Groupware with at least version %s !{/t}
+** Setup needs Simple Groupware with at least version %s !
 
 
-{t}Setup: setup-data written to %s.{/t}
+** Setup: setup-data written to %s.
 Installatie: installatie data geschreven naar %s.
 
-{t}Shapes{/t}
+** Shapes
 
 
-{t}Share{/t}
+** Share
 Deel
 
-{t}Shared{/t}
+** Shared
 
 
-{t}Short links{/t}
+** Short links
 
 
-{t}Show{/t}
+** Show
 Toon
 
-{t}Show all rules{/t}
+** Show all rules
 
 
-{t}Show archive{/t}
+** Show archive
 Toon archief
 
-{t}Show details{/t}
+** Show details
 
 
-{t}Show folder description in content area{/t}
+** Show folder description in content area
 
 
-{t}Show password{/t}
+** Show password
 
 
-{t}Show quoted text{/t}
+** Show quoted text
 Toon geciteerde tekst
 
-{t}Similar{/t}
+** Similar
 
 
-{t}Simple tables{/t}
+** Simple tables
 
 
-{t}single{/t}
+** single
 enkel
 
-{t}Single choice{/t}
+** Single choice
 
 
-{t}Size{/t}
+** Size
 Grootte
 
-{t}Size (children){/t}
+** Size (children)
 Grootte(onderliggend)
 
-{t}Slow{/t}
+** Slow
 Langzaam
 
-{t}small{/t}
+** small
 
 
-{t}small text{/t}
+** small text
 
 
-{t}smaller{/t}
+** smaller
 
 
-{t}SMTP not configured for %s{/t}
+** SMTP not configured for %s
 SMTP is niet geconfigureerd voor %s
 
-{t}Smtp-error %s: %s{/t}
+** Smtp-error %s: %s
 Smtp-fout %s: %s
 
-{t}Software{/t}
+** Software
 Software
 
-{t}Solution{/t}
+** Solution
 Oplossing
 
-{t}Solution type{/t}
+** Solution type
 Soort oplossing
 
-{t}some text{/t}
+** some text
 
 
-{t}Source{/t}
+** Source
 
 
-{t}Source code{/t}
+** Source code
 
 
-{t}Special leave{/t}
+** Special leave
 
 
-{t}Specification{/t}
+** Specification
 Specificaties
 
-{t}Spreadsheet{/t}
+** Spreadsheet
 Spreadsheet
 
-{t}SQL failed.{/t}
+** SQL failed.
 SQL opdracht mislukt.
 
-{t}SQL FAILED: %s{/t}
+** SQL FAILED: %s
 SQL opdracht MISLUKT: %s
 
-{t}Start scheduled{/t}
+** Start scheduled
 Start geplande
 
-{t}Started{/t}
+** Started
 Gestart
 
-{t}starts with{/t}
+** starts with
 start met
 
-{t}State{/t}
+** State
 Status
 
-{t}Static cache{/t}
+** Static cache
 
 
-{t}Statistics{/t}
+** Statistics
 Statistieken
 
-{t}Status{/t}
+** Status
 Status
 
-{t}Statuses{/t}
+** Statuses
 Statussen
 
-{t}Strategies{/t}
+** Strategies
 Strategieën
 
-{t}Street{/t}
+** Street
 Straat
 
-{t}Structure{/t}
+** Structure
 Struktuur
 
-{t}Su{/t}
+** Su
 Zo
 
-{t}Subfolder{/t}
+** Subfolder
 
 
-{t}Subfolders{/t}
+** Subfolders
 
 
-{t}subheading{/t}
+** subheading
 
 
-{t}Subitem{/t}
+** Subitem
 Subelement
 
-{t}Subject{/t}
+** Subject
 Onderwerp
 
-{t}Subjects{/t}
+** Subjects
 
 
-{t}Submit a patch{/t}
+** Submit a patch
 Patch doorgeven
 
-{t}Subpages{/t}
+** Subpages
 
 
-{t}subscript{/t}
+** subscript
 
 
-{t}Subsistence costs{/t}
+** Subsistence costs
 Onderhoudskosten
 
-{t}Sum{/t}
+** Sum
 
 
-{t}Summary{/t}
+** Summary
 Samenvatting
 
-{t}Sun{/t}
+** Sun
 Zon
 
-{t}Sunday{/t}
+** Sunday
 
 
-{t}Superior{/t}
+** Superior
 Superieur
 
-{t}superscript{/t}
+** superscript
 
 
-{t}Supplier{/t}
+** Supplier
 Leverancier
 
-{t}Suppliers{/t}
+** Suppliers
 Leverancieren
 
-{t}Support{/t}
+** Support
 Ondersteuning
 
-{t}Support request{/t}
+** Support request
 Ondersteuning aanvragen
 
-{t}Surveys{/t}
+** Surveys
 
 
-{t}Suspended{/t}
+** Suspended
 Opgeschort
 
-{t}Switch maintenance mode{/t}
+** Switch maintenance mode
 Onderhoudsmodus wisselen
 
-{t}Sync4j remote delete items{/t}
+** Sync4j remote delete items
 Sync4j remote verwijder items
 
-{t}Syntax{/t}
+** Syntax
 
 
-{t}System{/t}
+** System
 Systeem
 
-{t}System command executed: %s{/t}
+** System command executed: %s
 
 
-{t}Tab{/t}
+** Tab
 
 
-{t}Table{/t}
+** Table
 Tabel
 
-{t}Table sizes{/t}
+** Table sizes
 Tabel grootte
 
-{t}Table status{/t}
+** Table status
 Tabel status
 
-{t}Tables{/t}
+** Tables
 Tabellen
 
-{t}Take over{/t}
+** Take over
 
 
-{t}Take selection{/t}
+** Take selection
 
 
-{t}Task{/t}
+** Task
 
 
-{t}Task with ID %s{/t}
+** Task with ID %s
 
 
-{t}Tasks{/t}
+** Tasks
 Taken
 
-{t}Tasks with responsible %s{/t}
+** Tasks with responsible %s
 
 
-{t}Template{/t}
+** Template
 
 
-{t}Templates{/t}
+** Templates
 Sjabloon
 
-{t}Temporary work{/t}
+** Temporary work
 
 
-{t}term{/t}
+** term
 
 
-{t}Text area{/t}
+** Text area
 
 
-{t}Text Document{/t}
+** Text Document
 Tekstdocument
 
-{t}Text formatting rules{/t}
+** Text formatting rules
 
 
-{t}Th{/t}
+** Th
 Do
 
-{t}Thanks for voting!{/t}
+** Thanks for voting!
 
 
-{t}The folder cannot be copied.{/t}
+** The folder cannot be copied.
 
 
-{t}The folder cannot be deleted.{/t}
+** The folder cannot be deleted.
 
 
-{t}The folder cannot be moved.{/t}
+** The folder cannot be moved.
 
 
-{t}The new password is{/t}
+** The new password is
 
 
-{t}The url doesn't exist.{/t}
+** The url doesn't exist.
 De URL bestaat niet.
 
-{t}Theme{/t}
+** Theme
 Thema
 
-{t}third level support{/t}
+** third level support
 
 
-{t}this file extension is not allowed{/t}
+** this file extension is not allowed
 Dit bestandstype is niet toegestaan!
 
-{t}Thu{/t}
+** Thu
 Don
 
-{t}Thursday{/t}
+** Thursday
 
 
-{t}Time and expenses{/t}
+** Time and expenses
 Urendeclaratie
 
-{t}Time limit{/t}
+** Time limit
 
 
-{t}Time sheets{/t}
+** Time sheets
 
 
-{t}Time zone{/t}
+** Time zone
 
 
-{t}timeout{/t}
+** timeout
 
 
-{t}Title{/t}
+** Title
 Titel
 
-{t}To{/t}
+** To
 Aan
 
-{t}to be checked{/t}
+** to be checked
 nog na te zien
 
-{t}To continue installing Simple Groupware you must check the box under the license{/t}
+** To continue installing Simple Groupware you must check the box under the license
 Om de installatie van Simple Groupware te vervolgen dient u het vakje, onderaan de licentie, aan te vinken.
 
-{t}Today{/t}
+** Today
 Vandaag
 
-{t}Too many wrong logins. Please wait 15 minutes.{/t}
+** Too many wrong logins. Please wait 15 minutes.
 Te vaak verkeerd ingelogd. Wacht 15 minuten.
 
-{t}Total{/t}
+** Total
 Totaal
 
-{t}Trace{/t}
+** Trace
 Spoor
 
-{t}Trade fair{/t}
+** Trade fair
 Beurs
 
-{t}translations{/t}
+** translations
 vertalingen
 
-{t}Translations of the GNU GPL{/t}
+** Translations of the GNU GPL
 Vertaling van de GNU GPL
 
-{t}Transportation costs{/t}
+** Transportation costs
 Transportkosten
 
-{t}Trash{/t}
+** Trash
 Prullenbak
 
-{t}Trash folder not found.{/t}
+** Trash folder not found.
 
 
-{t}Tree{/t}
+** Tree
 Structuur
 
-{t}Trigger failed{/t}
+** Trigger failed
 De trigger mislukte
 
-{t}Tu{/t}
+** Tu
 Di
 
-{t}Tue{/t}
+** Tue
 Din
 
-{t}Tuesday{/t}
+** Tuesday
 
 
-{t}Type{/t}
+** Type
 Type
 
-{t}U n i n s t a l l{/t}
+** U n i n s t a l l
 
 
-{t}unable to find %s{/t}
+** unable to find %s
 kan %s niet vinden
 
-{t}Unable to write to %s{/t}
+** Unable to write to %s
 Kan niet schrijven naar %s
 
-{t}unconfirmed{/t}
+** unconfirmed
 ongeconfirmeerd
 
-{t}Unconfirmed{/t}
+** Unconfirmed
 
 
-{t}underline{/t}
+** underline
 
 
-{t}Uninstall does not delete any data in the database.{/t}
+** Uninstall does not delete any data in the database.
 
 
-{t}uninterested{/t}
+** uninterested
 niet geïnteresseerd
 
-{t}Unique{/t}
+** Unique
 
 
-{t}Unique with trash{/t}
+** Unique with trash
 
 
-{t}Unlock{/t}
+** Unlock
 Ontgrendel
 
-{t}Up{/t}
+** Up
 Omhoog
 
-{t}Update{/t}
+** Update
 Update
 
-{t}Update Simple Groupware{/t}
+** Update Simple Groupware
 Update Simple Groupware
 
-{t}Updated{/t}
+** Updated
 Geupdate
 
-{t}Updating schema %s from %s.{/t}
+** Updating schema %s from %s.
 Schema aan het updaten %s met %s.
 
-{t}Upload failed{/t}
+** Upload failed
 Het uploaden is mislukt
 
-{t}Uploaded files{/t}
+** Uploaded files
 Bestanden die zijn ge-upload
 
-{t}Uploading{/t}
+** Uploading
 
 
-{t}urgent{/t}
+** urgent
 urgent
 
-{t}URL{/t}
+** URL
 URL
 
-{t}Usage{/t}
+** Usage
 Gebruik
 
-{t}USD{/t}
+** USD
 EUR
 
-{t}Use APC for session storage{/t}
+** Use APC for session storage
 
 
-{t}Use Debian binaries (Warning: not latest versions){/t}
+** Use Debian binaries (Warning: not latest versions)
 Use Debian binaries (Warning: not latest versions)
 
-{t}Use LDAP Groups{/t}
+** Use LDAP Groups
 
 
-{t}use mirror from{/t}
+** use mirror from
 
 
-{t}Use syslog() function for logging events{/t}
+** Use syslog() function for logging events
 
 
-{t}Use the mail() function for sending mails (insecure){/t}
+** Use the mail() function for sending mails (insecure)
 Use the mail() function for sending mails (insecure)
 
-{t}User{/t}
+** User
 Gebruiker
 
-{t}User not found.{/t}
+** User not found.
 
 
-{t}Username{/t}
+** Username
 Gebruikersnaam
 
-{t}Username must be different from the super administrator.{/t}
+** Username must be different from the super administrator.
 De gebruikersnaam mag niet gelijk zijn aan dien van de Super-Administrator.
 
-{t}Users{/t}
+** Users
 Gebruikers
 
-{t}V a l i d a t e{/t}
+** V a l i d a t e
 
 
-{t}V o t e !{/t}
+** V o t e !
 
 
-{t}Vacation{/t}
+** Vacation
 Vakantie
 
-{t}Vacation days per year{/t}
+** Vacation days per year
 
 
-{t}Validating %s ...{/t}
+** Validating %s ...
 
 
-{t}validation failed{/t}
+** validation failed
 validatie is mislukt
 
-{t}Value{/t}
+** Value
 Waarde
 
-{t}Value '%s' needs a group membership: %s{/t}
+** Value '%s' needs a group membership: %s
 
 
-{t}Variable{/t}
+** Variable
 Variabelen
 
-{t}Variable already exists in table. (%s){/t}
+** Variable already exists in table. (%s)
 De variabele bestaat reeds in de tabel. (%s)
 
-{t}Variable must be of type date (mm/dd/yyyy).{/t}
+** Variable must be of type date (mm/dd/yyyy).
 De waarde dient de volgende datum notatie te hebben bv. 31-12-2001
 
-{t}Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).{/t}
+** Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).
 De waarde dient de volgende datum-tijd notatie te hebben bv. 31-12-2001 23:59
 
-{t}Variable must be of type float.{/t}
+** Variable must be of type float.
 Graag een geldig getal invoeren.
 
-{t}Variable must be of type int and greater than 0.{/t}
+** Variable must be of type int and greater than 0.
 De waarde dient numeriek en groter dan 0 te zijn.
 
-{t}Variable must be of type int.{/t}
+** Variable must be of type int.
 Graag een geldeig geheel getal invoeren.
 
-{t}Variable must be of type time (hh:mm am/pm).{/t}
+** Variable must be of type time (hh:mm am/pm).
 De waarde dient de volgende tijd notatie te hebben bv. 23:59
 
-{t}Variables{/t}
+** Variables
 Variabelen
 
-{t}Verbal recommendation{/t}
+** Verbal recommendation
 Mondelinge aanbeveling
 
-{t}verified{/t}
+** verified
 gecontroleerd
 
-{t}vertical{/t}
+** vertical
 
 
-{t}very promising{/t}
+** very promising
 zeer veel belovend
 
-{t}View{/t}
+** View
 
 
-{t}View access (groups){/t}
+** View access (groups)
 
 
-{t}View access (users){/t}
+** View access (users)
 
 
-{t}Virus scanner{/t}
+** Virus scanner
 Virusscanner
 
-{t}Visibility{/t}
+** Visibility
 
 
-{t}Voice mail{/t}
+** Voice mail
 Voice-mail
 
-{t}Vote{/t}
+** Vote
 
 
-{t}Voted by{/t}
+** Voted by
 
 
-{t}Waiting{/t}
+** Waiting
 In de wacht
 
-{t}Warning{/t}
+** Warning
 Waarschuwing
 
-{t}We{/t}
+** We
 Wo
 
-{t}Web{/t}
+** Web
 Web
 
-{t}Web page{/t}
+** Web page
 
 
-{t}Wed{/t}
+** Wed
 Woe
 
-{t}Wednesday{/t}
+** Wednesday
 
 
-{t}Week{/t}
+** Week
 Week
 
-{t}Week start{/t}
+** Week start
 Begin van de week
 
-{t}Weekend{/t}
+** Weekend
 
 
-{t}weekly{/t}
+** weekly
 wekelijks
 
-{t}weeks{/t}
+** weeks
 weken
 
-{t}Welcome to Simple Groupware!{/t}
+** Welcome to Simple Groupware!
 
 
-{t}white{/t}
+** white
 wit
 
-{t}widowed{/t}
+** widowed
 zonder onderliggenden
 
-{t}Width{/t}
+** Width
 
 
-{t}Wiki{/t}
+** Wiki
 Wiki
 
-{t}WikiStyles{/t}
+** WikiStyles
 
 
-{t}won't fix{/t}
+** won't fix
 lost niets op
 
-{t}word{/t}
+** word
 
 
-{t}Workflow{/t}
+** Workflow
 
 
-{t}Working student{/t}
+** Working student
 
 
-{t}works as expected{/t}
+** works as expected
 werkt zoals verwacht
 
-{t}works for me{/t}
+** works for me
 werkt voor mij voldoende
 
-{t}Workshop{/t}
+** Workshop
 Seminar
 
-{t}Workspace{/t}
+** Workspace
 Werkruimte
 
-{t}write access{/t}
+** write access
 schrijftoegang
 
-{t}Write access (groups){/t}
+** Write access (groups)
 Schrijftoegang (groepen)
 
-{t}Write access (users){/t}
+** Write access (users)
 Schrijftoegang (gebruikers)
 
-{t}Wrong database-version (%s). Please use at least %s !{/t}
+** Wrong database-version (%s). Please use at least %s !
 Verkeerde database versie (%s). Graag minstens versie %s gebruiken!
 
-{t}wrong directory{/t}
+** wrong directory
 Verkeerde map
 
-{t}wrong password{/t}
+** wrong password
 ongeldig wachtwoord
 
-{t}Year{/t}
+** Year
 Jaar
 
-{t}yearly{/t}
+** yearly
 jaarlijks
 
-{t}years{/t}
+** years
 
 
-{t}yellow{/t}
+** yellow
 geel
 
-{t}yes{/t}
+** yes
 ja
 
-{t}You are not allowed to view this folder.{/t}
+** You are not allowed to view this folder.
 U bent niet gemachtigd om deze map te bekijken.
 
-{t}Your message was read on %s.{/t}
+** Your message was read on %s.
 Uw bericht is gelezen op %s.
 
-{t}Your session has timed out.{/t}
+** Your session has timed out.
 Uw sessie is verlopen.
 
-{t}Zipcode{/t}
+** Zipcode
 Postcode
 
-{t}{0} - {1} of {2}{/t}
+** {0} - {1} of {2}
 
 

@@ -3,3534 +3,3534 @@
  * @license GPLv2
  */
 
-{t}!_Copyright_Language_File{/t}
+** !_Copyright_Language_File
 Copyright (C) 2009 Muhammad Bashir Al-Noimi
 
-{t}!_Language{/t}
+** !_Language
 Arabic العربية
 
-{t}%s is not activated{/t}
+** %s is not activated
 %s لم يتم تفعيله
 
-{t}%s is not compiled / loaded into PHP.{/t}
+** %s is not compiled / loaded into PHP.
 %s لم يتم بناؤه / تشغيله ضمن بي إتش بي
 
-{t}%s M memory usage{/t}
+** %s M memory usage
 
 
-{t}%s not in database{/t}
+** %s not in database
 %s ليس قاعدة بيانات
 
-{t}%s rows affected{/t}
+** %s rows affected
 %s صفوف تأثرت
 
-{t}%s secs{/t}
+** %s secs
 %s ثانية
 
-{t}%s started editing this asset at %s{/t}
+** %s started editing this asset at %s
 %s started editing this asset at %s
 
-{t}(for active directory username must be: username@domain){/t}
+** (for active directory username must be: username@domain)
 (إسم المستخدم للمجلد الحالي يجب أن يكون:username@domain )
 
-{t}(un)Group{/t}
+** (un)Group
 إلغاء التجميع
 
-{t}About{/t}
+** About
 حول
 
-{t}Absence{/t}
+** Absence
 
 
-{t}accepted{/t}
+** accepted
 مقبول
 
-{t}Access denied.{/t}
+** Access denied.
 الوصول مرفوض.
 
-{t}Access to this file has been denied.{/t}
+** Access to this file has been denied.
 الوصول لهذا الملف تم رفضه.
 
-{t}Account{/t}
+** Account
 حساب
 
-{t}account of %s has expired{/t}
+** account of %s has expired
 حساب %s إنتهى
 
-{t}Accounting{/t}
+** Accounting
 محاسبة
 
-{t}Activate{/t}
+** Activate
 
 
-{t}Activated{/t}
+** Activated
 فعّال
 
-{t}active{/t}
+** active
 
 
-{t}Active{/t}
+** Active
 فعّال
 
-{t}Ad{/t}
+** Ad
 إعلان
 
-{t}Add{/t}
+** Add
 إضافة
 
-{t}Add a special rule{/t}
+** Add a special rule
 
 
-{t}Add to offline folders{/t}
+** Add to offline folders
 إضافة لمجلدات بدون إتصال
 
-{t}added line{/t}
+** added line
 سطر تم إضافته
 
-{t}Address{/t}
+** Address
 عنوان
 
-{t}admin access{/t}
+** admin access
 وصول المدير
 
-{t}Admin access (groups){/t}
+** Admin access (groups)
 وصول المدير (مجموعات)
 
-{t}Admin access (users){/t}
+** Admin access (users)
 وصول المدير (مستخدمين)
 
-{t}Admin Password{/t}
+** Admin Password
 كلمة سر المدير
 
-{t}Admin Username{/t}
+** Admin Username
 إسم المستخدم للمدير
 
-{t}Administration{/t}
+** Administration
 الإدارة
 
-{t}Advanced tables{/t}
+** Advanced tables
 جداول متقدمة
 
-{t}Affected user{/t}
+** Affected user
 المستخدم
 
-{t}Affiliate{/t}
+** Affiliate
 Affiliate
 
-{t}after{/t}
+** after
 بعد
 
-{t}Agent{/t}
+** Agent
 عميل
 
-{t}Ajax Error{/t}
+** Ajax Error
 خطأ أجاكس
 
-{t}All{/t}
+** All
 كل
 
-{t}All day{/t}
+** All day
 كل اليوم
 
-{t}All events{/t}
+** All events
 كل الأحداث
 
-{t}All finished tasks{/t}
+** All finished tasks
 
 
-{t}All pending tasks{/t}
+** All pending tasks
 
 
-{t}Allow custom values{/t}
+** Allow custom values
 
 
-{t}Allow disabled modules{/t}
+** Allow disabled modules
 
 
-{t}Already running latest release.{/t}
+** Already running latest release.
 آخر إصدار يتم تشغيله الآن
 
-{t}Already voted.{/t}
+** Already voted.
 
 
-{t}Amount{/t}
+** Amount
 كمية
 
-{t}Anchor{/t}
+** Anchor
 إشارة مرجعية
 
-{t}and{/t}
+** and
 و
 
-{t}Anniversary{/t}
+** Anniversary
 ذكرى سنوية
 
-{t}another page{/t}
+** another page
 صفحة أخرى
 
-{t}answered{/t}
+** answered
 تم الإجابة عليه
 
-{t}Answers{/t}
+** Answers
 
 
-{t}Apache based (.htaccess, Basic, Digest, etc.){/t}
+** Apache based (.htaccess, Basic, Digest, etc.)
 يعتمد على أباتشي (.htaccess, Basic, Digest, etc.)
 
-{t}Application title{/t}
+** Application title
 عنوان التطبيق
 
-{t}Apply rights to subfolders{/t}
+** Apply rights to subfolders
 تطبيق السماحيات للمجلدات الفرعية
 
-{t}Appointment{/t}
+** Appointment
 
 
-{t}Appointments{/t}
+** Appointments
 
 
-{t}Apprenticeship{/t}
+** Apprenticeship
 
 
-{t}Apr{/t}
+** Apr
 
 
-{t}April{/t}
+** April
 نيسان
 
-{t}Archive{/t}
+** Archive
 
 
-{t}Archive deleted files{/t}
+** Archive deleted files
 أرشفة الملفات المحذوفة
 
-{t}Asset{/t}
+** Asset
 
 
-{t}Asset marked as read-only.{/t}
+** Asset marked as read-only.
 Asset marked as read-only.
 
-{t}Assets{/t}
+** Assets
 Assets
 
-{t}Assets (children){/t}
+** Assets (children)
 Assets (children)
 
-{t}Assets can be imported into multiple folders by adding the "Folder" column.{/t}
+** Assets can be imported into multiple folders by adding the "Folder" column.
 
 
-{t}Assets can be overwritten by adding the "Id" column.{/t}
+** Assets can be overwritten by adding the "Id" column.
 
 
-{t}assigned{/t}
+** assigned
 assigned
 
-{t}at least 20 characters{/t}
+** at least 20 characters
 
 
-{t}attach file{/t}
+** attach file
 إرفاق ملف
 
-{t}Attachment{/t}
+** Attachment
 مرفق
 
-{t}Attachments{/t}
+** Attachments
 مرفقات
 
-{t}Attend{/t}
+** Attend
 
 
-{t}Aug{/t}
+** Aug
 
 
-{t}August{/t}
+** August
 آب
 
-{t}Authentication Mode{/t}
+** Authentication Mode
 Authentication Mode
 
-{t}Author{/t}
+** Author
 المؤلف
 
-{t}Automatically hide the menu{/t}
+** Automatically hide the menu
 
 
-{t}Automatically hide the tree{/t}
+** Automatically hide the tree
 
 
-{t}Average{/t}
+** Average
 
 
-{t}Average progress{/t}
+** Average progress
 
 
-{t}Avg length{/t}
+** Avg length
 الطول المتوسط
 
-{t}Back{/t}
+** Back
 السابق
 
-{t}Backup{/t}
+** Backup
 نسخ إحتياطي
 
-{t}Backup current folder{/t}
+** Backup current folder
 نسخ إحتياطي للمجلد الحالي
 
-{t}Backups{/t}
+** Backups
 نسخ إحتياطية
 
-{t}Basic editing{/t}
+** Basic editing
 تحرير أساسي
 
-{t}before{/t}
+** before
 قبل
 
-{t}Before{/t}
+** Before
 
 
-{t}Begin{/t}
+** Begin
 بدء
 
-{t}big{/t}
+** big
 كبير
 
-{t}big text{/t}
+** big text
 نص كبير
 
-{t}bigger{/t}
+** bigger
 أكبر
 
-{t}Billing address{/t}
+** Billing address
 عنوان الفاتورة
 
-{t}Birthday{/t}
+** Birthday
 الميلاد
 
-{t}Birthdays{/t}
+** Birthdays
 Birthdays
 
-{t}Blank{/t}
+** Blank
 فارغ
 
-{t}blue{/t}
+** blue
 أزرق
 
-{t}bold{/t}
+** bold
 سميك
 
-{t}bold italic{/t}
+** bold italic
 سميك مائل
 
-{t}Book{/t}
+** Book
 
 
-{t}booked{/t}
+** booked
 booked
 
-{t}Booked{/t}
+** Booked
 Booked
 
-{t}Booking number{/t}
+** Booking number
 Booking number
 
-{t}Bookings{/t}
+** Bookings
 Bookings
 
-{t}Bookmark{/t}
+** Bookmark
 
 
-{t}Bookmarks{/t}
+** Bookmarks
 إشارات مرجعية
 
-{t}borrowed{/t}
+** borrowed
 تم إستعارته
 
-{t}Brand{/t}
+** Brand
 ماركة
 
-{t}Brands{/t}
+** Brands
 ماركات
 
-{t}Browser Compatibility{/t}
+** Browser Compatibility
 توافقية المتصفح
 
-{t}Browser not supported{/t}
+** Browser not supported
 المتصفح غير مدعوم
 
-{t}Budget{/t}
+** Budget
 الميزانية
 
-{t}Bug{/t}
+** Bug
 خطأ
 
-{t}bulleted{/t}
+** bulleted
 منقط
 
-{t}Business{/t}
+** Business
 عمل
 
-{t}C a n c e l{/t}
+** C a n c e l
 
 
-{t}C O N T I N U E{/t}
+** C O N T I N U E
 مـتـابـعـة
 
-{t}Cache output{/t}
+** Cache output
 خرج الذاكرة المخبئية
 
-{t}Caches{/t}
+** Caches
 ذواكر مخبئية
 
-{t}Calendar{/t}
+** Calendar
 تقويم
 
-{t}Cancel{/t}
+** Cancel
 
 
-{t}canceled{/t}
+** canceled
 تم إلغاؤه
 
-{t}Canceled{/t}
+** Canceled
 ألغي
 
-{t}Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.{/t}
+** Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.
 غير قادر على إستدعاء proc_open. قم بإزالة proc_open من disable_functions في الملف php.ini ثم قم بإلغاء تمكين  safe_mode.
 
-{t}Cannot connect to database %s on %s.{/t}
+** Cannot connect to database %s on %s.
 غير قادر على الإتصال بقاعدة البيانات %s على %s.
 
-{t}Cannot create preview for %s{/t}
+** Cannot create preview for %s
 غير قادر على إنشاء معاينة لـ%s
 
-{t}Cannot read the file %s.{/t}
+** Cannot read the file %s.
 غير قادر على قراءة الملف %s.
 
-{t}Cardinality{/t}
+** Cardinality
 Cardinality
 
-{t}Categories{/t}
+** Categories
 تصنيفات
 
-{t}Category{/t}
+** Category
 تصنيف
 
-{t}Cc{/t}
+** Cc
 نسخة
 
-{t}centered{/t}
+** centered
 توسيط
 
-{t}CEO{/t}
+** CEO
 CEO
 
-{t}Change request{/t}
+** Change request
 تعديل الطلب
 
-{t}Change settings{/t}
+** Change settings
 تعديل الإعدادات
 
-{t}Change Setup settings{/t}
+** Change Setup settings
 تعديل إعدادات التنصيب
 
-{t}Change summary{/t}
+** Change summary
 تعديل الخلاصة
 
-{t}Changed{/t}
+** Changed
 
 
-{t}changed line{/t}
+** changed line
 سطر تم تعديله
 
-{t}Changelog{/t}
+** Changelog
 سجل التعديلات
 
-{t}Chat{/t}
+** Chat
 دردشة
 
-{t}Check DoS Attacks{/t}
+** Check DoS Attacks
 Check DoS Attacks
 
-{t}checked{/t}
+** checked
 تم فحصه
 
-{t}Checked{/t}
+** Checked
 تم فحصه
 
-{t}Choices{/t}
+** Choices
 
 
-{t}CIO{/t}
+** CIO
 CIO
 
-{t}City{/t}
+** City
 المدينة
 
-{t}Clean{/t}
+** Clean
 تنظيف
 
-{t}Clean Cache{/t}
+** Clean Cache
 تنظيف الذاكرة المؤقتة
 
-{t}Clear{/t}
+** Clear
 مسح
 
-{t}Clear Cache{/t}
+** Clear Cache
 مسح الذاكرة المؤقتة
 
-{t}Clear Data{/t}
+** Clear Data
 
 
-{t}Clear grouping{/t}
+** Clear grouping
 
 
-{t}Client{/t}
+** Client
 عميل
 
-{t}Close{/t}
+** Close
 إغلاق
 
-{t}Close session{/t}
+** Close session
 إغلاق الجلسة
 
-{t}closed{/t}
+** closed
 مغلق
 
-{t}Closed{/t}
+** Closed
 مغلق
 
-{t}CMS{/t}
+** CMS
 نظام إداة المحتوى
 
-{t}CMS homepage title{/t}
+** CMS homepage title
 
 
-{t}Collapse text{/t}
+** Collapse text
 
 
-{t}Collapse tree{/t}
+** Collapse tree
 طوي الشجرة
 
-{t}Color{/t}
+** Color
 لون
 
-{t}Column{/t}
+** Column
 
 
-{t}Column name{/t}
+** Column name
 إسم العمود
 
-{t}Combination{/t}
+** Combination
 
 
-{t}Comma{/t}
+** Comma
 
 
-{t}Comma separated values{/t}
+** Comma separated values
 
 
-{t}Command{/t}
+** Command
 أمر
 
-{t}Comment{/t}
+** Comment
 تعليق
 
-{t}Comment files{/t}
+** Comment files
 تعليق الملفات
 
-{t}Companies{/t}
+** Companies
 شركات
 
-{t}Company{/t}
+** Company
 شركة
 
-{t}Competition{/t}
+** Competition
 منافسة
 
-{t}Competitor{/t}
+** Competitor
 منافس
 
-{t}Complete{/t}
+** Complete
 
 
-{t}completed{/t}
+** completed
 
 
-{t}Completed{/t}
+** Completed
 إنتهى
 
-{t}Component{/t}
+** Component
 مكوّن
 
-{t}Compress output{/t}
+** Compress output
 خرج مضغوط
 
-{t}Confirm{/t}
+** Confirm
 
 
-{t}confirmed{/t}
+** confirmed
 تم تأكيده
 
-{t}Connection error: %s [%s]{/t}
+** Connection error: %s [%s]
 
 
-{t}Connection to database failed.{/t}
+** Connection to database failed.
 فشل الأتصال بقاعدة البيانات.
 
-{t}Console{/t}
+** Console
 
 
-{t}Console scripts{/t}
+** Console scripts
 
 
-{t}Consultant{/t}
+** Consultant
 مشتشار
 
-{t}Contact{/t}
+** Contact
 الأتصال
 
-{t}Contact activities{/t}
+** Contact activities
 نشاطات المراسلة
 
-{t}Contact activity{/t}
+** Contact activity
 
 
-{t}Contact by{/t}
+** Contact by
 الأتصال بـ
 
-{t}Contact groups{/t}
+** Contact groups
 مجموعات الإتصال
 
-{t}Contact id{/t}
+** Contact id
 الاسم المستعار
 
-{t}Contact person{/t}
+** Contact person
 الشخص المتصل به
 
-{t}Contact user by{/t}
+** Contact user by
 الإتصال بالمستخدم بواسطة
 
-{t}Contacts{/t}
+** Contacts
 إتصالات
 
-{t}contains{/t}
+** contains
 يحتوي على
 
-{t}Content{/t}
+** Content
 محتوى
 
-{t}Continue{/t}
+** Continue
 إستمرار
 
-{t}Contracts{/t}
+** Contracts
 
 
-{t}Copier{/t}
+** Copier
 ناسخة
 
-{t}Copy{/t}
+** Copy
 نسخ
 
-{t}Cost center{/t}
+** Cost center
 مركز التكلفة
 
-{t}Costs of accommodation{/t}
+** Costs of accommodation
 تكاليف السند
 
-{t}Could not determine database-version.{/t}
+** Could not determine database-version.
 غير قادر على تحديد إصدار قاعدة البيانات.
 
-{t}Country{/t}
+** Country
 البلد
 
-{t}Create new{/t}
+** Create new
 
 
-{t}Create new folder{/t}
+** Create new folder
 
 
-{t}Created{/t}
+** Created
 تم إنشاؤه
 
-{t}Creating database failed.{/t}
+** Creating database failed.
 فشل إنشاء قاعدة البيانات
 
-{t}current path{/t}
+** current path
 المسار الحالي
 
-{t}current time{/t}
+** current time
 التوقيت الحالي
 
-{t}Curriculum vitae{/t}
+** Curriculum vitae
 السيرة الذاتية
 
-{t}Custom schema{/t}
+** Custom schema
 
 
-{t}Customization rules\nfor modules based on sgsML{/t}
+** Customization rules\nfor modules based on sgsML
 
 
-{t}customizations{/t}
+** customizations
 تخصيصات
 
-{t}Customize{/t}
+** Customize
 
 
-{t}Cut{/t}
+** Cut
 قص
 
-{t}daily{/t}
+** daily
 يومي
 
-{t}Data{/t}
+** Data
 بيانات
 
-{t}Data free{/t}
+** Data free
 تحرير البيانات
 
-{t}Data length{/t}
+** Data length
 طول البيانات
 
-{t}Database{/t}
+** Database
 نوع قاعدة البيانات
 
-{t}Database Hostname / IP{/t}
+** Database Hostname / IP
 قاعدة البيانات: إسم المستضيف/الآي بي
 
-{t}Database Name{/t}
+** Database Name
 إسم قاعدة البيانات
 
-{t}Database Password{/t}
+** Database Password
 كلمة سر قاعدة البيانات
 
-{t}Database size{/t}
+** Database size
 
 
-{t}Database status{/t}
+** Database status
 حالة قاعدة البيانات
 
-{t}Database type{/t}
+** Database type
 
 
-{t}Database User{/t}
+** Database User
 مستخدم قاعدة البيانات
 
-{t}Database variables{/t}
+** Database variables
 متغيرات قاعدة البيانات
 
-{t}Date{/t}
+** Date
 التاريخ
 
-{t}Day{/t}
+** Day
 يوم
 
-{t}Day begin{/t}
+** Day begin
 بدء اليوم
 
-{t}Day end{/t}
+** Day end
 نهاية اليوم
 
-{t}days{/t}
+** days
 أيام
 
-{t}Deactivate{/t}
+** Deactivate
 
 
-{t}Deadline{/t}
+** Deadline
 إنتهاء
 
-{t}Debug{/t}
+** Debug
 معالجة الأخطاء
 
-{t}Debug-dir{/t}
+** Debug-dir
 مجلد معالجة الأخطاء
 
-{t}Dec{/t}
+** Dec
 
 
-{t}December{/t}
+** December
 كانون الأول
 
-{t}Declining balance{/t}
+** Declining balance
 Declining balance (معدل الخيسان)
 
-{t}Default{/t}
+** Default
 إفتراضي
 
-{t}Default function{/t}
+** Default function
 
 
-{t}Default theme{/t}
+** Default theme
 السمة الإفتراضية
 
-{t}Default values for assets{/t}
+** Default values for assets
 
 
-{t}definition for definition lists{/t}
+** definition for definition lists
 تعريف قوائم التعريف
 
-{t}Degree{/t}
+** Degree
 الشهادة
 
-{t}Delete{/t}
+** Delete
 حذف
 
-{t}Delete incl subfolders{/t}
+** Delete incl subfolders
 حذف
 
-{t}deleted{/t}
+** deleted
 تم حذفه
 
-{t}deleted line{/t}
+** deleted line
 سطر تم حذفه
 
-{t}Delivery{/t}
+** Delivery
 
 
-{t}Demand{/t}
+** Demand
 Demand
 
-{t}Demo{/t}
+** Demo
 Demo
 
-{t}Demonstration folder{/t}
+** Demonstration folder
 
 
-{t}Department{/t}
+** Department
 فرع
 
-{t}Departments{/t}
+** Departments
 فروع
 
-{t}Dependancies{/t}
+** Dependancies
 إعتماديات
 
-{t}Description{/t}
+** Description
 وصف
 
-{t}Description hint{/t}
+** Description hint
 
 
-{t}Description title{/t}
+** Description title
 
 
-{t}Description value{/t}
+** Description value
 
 
-{t}Desktop computer{/t}
+** Desktop computer
 كمبيوتر مكتبي
 
-{t}Details{/t}
+** Details
 تفاصيل
 
-{t}Device type{/t}
+** Device type
 نوع الجهاز
 
-{t}Device types{/t}
+** Device types
 انواع الأجهزة
 
-{t}Diagram{/t}
+** Diagram
 
 
-{t}directory does not exist.{/t}
+** directory does not exist.
 المجلد غير موجود
 
-{t}Directory is outside the allowed directory. (%s is outside %s){/t}
+** Directory is outside the allowed directory. (%s is outside %s)
 Directory is outside the allowed directory. (%s is outside %s)
 
-{t}disable{/t}
+** disable
 
 
-{t}Disable basic authentication{/t}
+** Disable basic authentication
 Disable basic authentication
 
-{t}Disable cut-copy-paste{/t}
+** Disable cut-copy-paste
 
 
-{t}Disabled{/t}
+** Disabled
 
 
-{t}Disabled modules{/t}
+** Disabled modules
 
 
-{t}Display{/t}
+** Display
 عرض
 
-{t}display filter{/t}
+** display filter
 مرشح العرض
 
-{t}Displayname{/t}
+** Displayname
 
 
-{t}displays{/t}
+** displays
 عروض
 
-{t}Distributor{/t}
+** Distributor
 موزّع
 
-{t}Distributors{/t}
+** Distributors
 موزعون
 
-{t}divorced{/t}
+** divorced
 مطلق
 
-{t}Documentation{/t}
+** Documentation
 توثيق
 
-{t}Documentation index{/t}
+** Documentation index
 فهرس التوثيق
 
-{t}Domain{/t}
+** Domain
 نطاق
 
-{t}Don't attend{/t}
+** Don't attend
 
 
-{t}Don't move old files to 'old/'{/t}
+** Don't move old files to 'old/'
 
 
-{t}Down{/t}
+** Down
 Down
 
-{t}Download{/t}
+** Download
 تحميل
 
-{t}Download example file{/t}
+** Download example file
 
 
-{t}Downloading extension list{/t}
+** Downloading extension list
 
 
-{t}Downloading update list{/t}
+** Downloading update list
 تحميل قائمة التحديث
 
-{t}Drag and drop files or URLs here.{/t}
+** Drag and drop files or URLs here.
 
 
-{t}duplicate{/t}
+** duplicate
 مضاعفة
 
-{t}Duration{/t}
+** Duration
 الفترة
 
-{t}E-mail{/t}
+** E-mail
 بريد إلكتروني
 
-{t}E-mail private{/t}
+** E-mail private
 بريد إلكتروني خاص
 
-{t}E-mail program{/t}
+** E-mail program
 برنامج بريد إلكتروني
 
-{t}e.g.{/t}
+** e.g.
 مثل
 
-{t}Edit{/t}
+** Edit
 تحرير
 
-{t}Edit as new{/t}
+** Edit as new
 تحرير كجديد
 
-{t}Edit rights{/t}
+** Edit rights
 تحرير السماحيات
 
-{t}Editable if hidden in all views{/t}
+** Editable if hidden in all views
 
 
-{t}Editor{/t}
+** Editor
 محرّر
 
-{t}Emphasis{/t}
+** Emphasis
 Emphasis
 
-{t}Empty{/t}
+** Empty
 فارغ
 
-{t}Empty folder{/t}
+** Empty folder
 تفريغ المجلد
 
-{t}en{/t}
+** en
 إنكليزي
 
-{t}Enable anonymous access{/t}
+** Enable anonymous access
 تمكين الوصول لأي شخص
 
-{t}Enable anonymous CMS{/t}
+** Enable anonymous CMS
 تمكين الوصول لأي شخص لنظام إدارة المحتوى
 
-{t}Enable automatic user creation{/t}
+** Enable automatic user creation
 تمكين إنشاء المستخدم التلقائي
 
-{t}Enable external mail client for 'mailto:' links{/t}
+** Enable external mail client for 'mailto:' links
 تمكين تشغيل برنامج بريد إلكتروني خارجي لكل روابط mailto:
 
-{t}Enable self registration{/t}
+** Enable self registration
 
 
-{t}Enable Sync4j / Funambol{/t}
+** Enable Sync4j / Funambol
 تمكين Sync4j / Funambol
 
-{t}Enable WebDAV{/t}
+** Enable WebDAV
 
 
-{t}End{/t}
+** End
 نهاية
 
-{t}engaged{/t}
+** engaged
 مخطوب
 
-{t}equal{/t}
+** equal
 مساوي
 
-{t}Error{/t}
+** Error
 خطأ
 
-{t}Error doing request to xmlhttp{/t}
+** Error doing request to xmlhttp
 خطأ لدى إرسال طلب لـxmlhttp
 
-{t}Error moving file{/t}
+** Error moving file
 خطأ لدى نقل الملف
 
-{t}Error pasting asset{/t}
+** Error pasting asset
 Error pasting asset
 
-{t}Error: no credentials{/t}
+** Error: no credentials
 Error: no credentials
 
-{t}Events{/t}
+** Events
 أحداث
 
-{t}Example{/t}
+** Example
 مثال
 
-{t}Example contacts{/t}
+** Example contacts
 مثال للإتصالات
 
-{t}Example surveys can be found at:{/t}
+** Example surveys can be found at:
 
 
-{t}Example without mountpoint{/t}
+** Example without mountpoint
 مثال بدون نقطة استيراد
 
-{t}Examples{/t}
+** Examples
 أمثلة
 
-{t}Execute{/t}
+** Execute
 تنفيذ
 
-{t}Expenses{/t}
+** Expenses
 مصاريف
 
-{t}Experimental{/t}
+** Experimental
 تجريبي
 
-{t}Expires{/t}
+** Expires
 ينتهي
 
-{t}Expiry{/t}
+** Expiry
 إنتهاء
 
-{t}Extended{/t}
+** Extended
 
 
-{t}Extensions{/t}
+** Extensions
 
 
-{t}Extracting files{/t}
+** Extracting files
 ملفات الفصل
 
-{t}F j{/t}
+** F j
 F j{
 
-{t}F j, Y{/t}
+** F j, Y
 F j, Y
 
-{t}Failed to create directory: %s{/t}
+** Failed to create directory: %s
 غير قادر على إنشاء المجلد: %s
 
-{t}Failed to write file to disk.{/t}
+** Failed to write file to disk.
 غير قادر على كتابة الملف للقرص.
 
-{t}Failed to write into %s{/t}
+** Failed to write into %s
 غير قادر على الكتابة ضمن %s
 
-{t}Family status{/t}
+** Family status
 الحالة العائلية
 
-{t}FAQ{/t}
+** FAQ
 أسئلة شائعة
 
-{t}Favorites{/t}
+** Favorites
 المفضلات
 
-{t}Fax{/t}
+** Fax
 فاكس
 
-{t}Fax private{/t}
+** Fax private
 
 
-{t}Feature request{/t}
+** Feature request
 طلب ميزة
 
-{t}Feb{/t}
+** Feb
 
 
-{t}February{/t}
+** February
 شباط
 
-{t}Feed{/t}
+** Feed
 
 
-{t}female{/t}
+** female
 أنثى
 
-{t}Field{/t}
+** Field
 حقل
 
-{t}Field contains value{/t}
+** Field contains value
 
 
-{t}Field customization{/t}
+** Field customization
 
 
-{t}Field is equal to value{/t}
+** Field is equal to value
 
 
-{t}Fields{/t}
+** Fields
 
 
-{t}File{/t}
+** File
 ملف
 
-{t}file is too big. Please change upload_max_filesize, post_max_size in your php.ini{/t}
+** file is too big. Please change upload_max_filesize, post_max_size in your php.ini
 الملف كبير جداُ. قم بتعديل upload_max_filesize و post_max_size ضمن ملف php.ini
 
-{t}file is too big. Please upload a smaller one.{/t}
+** file is too big. Please upload a smaller one.
 الملف كبير جداً. قم برفع ملف أصغر منه.
 
-{t}file not found in database.{/t}
+** file not found in database.
 الملف غير موجود بقاعدة البيانات
 
-{t}file not found.{/t}
+** file not found.
 الملف غير موجود.
 
-{t}file was uploaded partially.{/t}
+** file was uploaded partially.
 الملف تم رفعه بشكل جزئي.
 
-{t}Filename must have the right extension. Valid extensions are %s{/t}
+** Filename must have the right extension. Valid extensions are %s
 إسم الملف يجب أن يحتوي على لاحقة صحيحة. اللواحق الصحيحة هي %s
 
-{t}Files{/t}
+** Files
 ملفات
 
-{t}Filesystem{/t}
+** Filesystem
 نظام الملفات
 
-{t}Filter{/t}
+** Filter
 مرشح
 
-{t}Find assets in multiple folders{/t}
+** Find assets in multiple folders
 Find assets in multiple folders
 
-{t}Finish scheduled{/t}
+** Finish scheduled
 نهاية الجدولة
 
-{t}Finished{/t}
+** Finished
 إنتهى
 
-{t}First in list{/t}
+** First in list
 الأول بالقائمة
 
-{t}first level support{/t}
+** first level support
 
 
-{t}First name{/t}
+** First name
 إسم
 
-{t}Fix paging bar to page bottom{/t}
+** Fix paging bar to page bottom
 
 
-{t}fixed{/t}
+** fixed
 fixed
 
-{t}Flags{/t}
+** Flags
 أعلام
 
-{t}Flash plugin not installed.{/t}
+** Flash plugin not installed.
 
 
-{t}Folder{/t}
+** Folder
 مجلد
 
-{t}Folder already exists.{/t}
+** Folder already exists.
 المجلد موجود حالياً.
 
-{t}Folder created.{/t}
+** Folder created.
 
 
-{t}Folder has changed.{/t}
+** Folder has changed.
 
 
-{t}Folder icon{/t}
+** Folder icon
 
 
-{t}Folder not found.{/t}
+** Folder not found.
 
 
-{t}Folder refresh period{/t}
+** Folder refresh period
 
 
-{t}Folder structure{/t}
+** Folder structure
 
 
-{t}Folder structure created.{/t}
+** Folder structure created.
 تم إنشاء بنية المجلد.
 
-{t}Folder structure moved to trash.{/t}
+** Folder structure moved to trash.
 بنية المجلد تم نقلها لسلة المهملات.
 
-{t}Folder Type{/t}
+** Folder Type
 نوع المجلد
 
-{t}Folder with ID %s{/t}
+** Folder with ID %s
 
 
-{t}Folders{/t}
+** Folders
 مجلدات
 
-{t}for a new paragraph, use a blank line{/t}
+** for a new paragraph, use a blank line
 قم بإستعمال سطر فارغ من أجل الفقرة الجديدة
 
-{t}Force SSL{/t}
+** Force SSL
 إجبار إستعمال SSL
 
-{t}Form{/t}
+** Form
 
 
-{t}Forum{/t}
+** Forum
 منتدى
 
-{t}Forward{/t}
+** Forward
 للأمام
 
-{t}Fr{/t}
+** Fr
 الجمعة
 
-{t}Free/busy{/t}
+** Free/busy
 حر/مشغول
 
-{t}Freelance{/t}
+** Freelance
 
 
-{t}Fri{/t}
+** Fri
 الجمعة
 
-{t}Friday{/t}
+** Friday
 الجمعة
 
-{t}From{/t}
+** From
 من
 
-{t}Full screen{/t}
+** Full screen
 
 
-{t}Full texts{/t}
+** Full texts
 النصوص الكاملة
 
-{t}Full time{/t}
+** Full time
 
 
-{t}Full width{/t}
+** Full width
 إستعمال كل عرض الصفحة
 
-{t}Fulltext index{/t}
+** Fulltext index
 
 
-{t}Funambol only works with MySQL and PostgreSQL.{/t}
+** Funambol only works with MySQL and PostgreSQL.
 Funambol يعمل مع MySQL و PostgreSQL.
 
-{t}Function does not exist: %s{/t}
+** Function does not exist: %s
 Function does not exist: %s
 
-{t}g:i a{/t}
+** g:i a
 g:i a
 
-{t}Gender{/t}
+** Gender
 الجنس
 
-{t}General{/t}
+** General
 عام
 
-{t}Generate{/t}
+** Generate
 إنشاء
 
-{t}Gifts{/t}
+** Gifts
 هدايا
 
-{t}Give Feedback{/t}
+** Give Feedback
 Give Feedback
 
-{t}GNU GPL Frequently Asked Questions{/t}
+** GNU GPL Frequently Asked Questions
 الأسئلة الشائعة للرخصة العمومية
 
-{t}greater than{/t}
+** greater than
 أكبر من
 
-{t}green{/t}
+** green
 أخضر
 
-{t}Group{/t}
+** Group
 مجموعة
 
-{t}Group created.{/t}
+** Group created.
 
 
-{t}Group deactivated.{/t}
+** Group deactivated.
 
 
-{t}Groupname{/t}
+** Groupname
 إسم المجموعة
 
-{t}Groups{/t}
+** Groups
 مجموعات
 
-{t}hanging text{/t}
+** hanging text
 hanging text
 
-{t}Hardware{/t}
+** Hardware
 عتاد
 
-{t}Headers{/t}
+** Headers
 ترويسات
 
-{t}heading{/t}
+** heading
 عنوان
 
-{t}headings{/t}
+** headings
 عناوين
 
-{t}Height{/t}
+** Height
 إرتفاع
 
-{t}Help{/t}
+** Help
 مساعدة
 
-{t}Helpdesk{/t}
+** Helpdesk
 نظام البطاقات
 
-{t}Hidden in{/t}
+** Hidden in
 
 
-{t}Hidden in all views{/t}
+** Hidden in all views
 
 
-{t}Hide{/t}
+** Hide
 
 
-{t}hide in all views{/t}
+** hide in all views
 
 
-{t}hide in this view{/t}
+** hide in this view
 
 
-{t}History{/t}
+** History
 محفوظات
 
-{t}Holiday{/t}
+** Holiday
 عطلة
 
-{t}Home{/t}
+** Home
 الرئيسية
 
-{t}Home folder id{/t}
+** Home folder id
 الرقم المعرف للمجلد الرئيسية
 
-{t}Home page in the CMS{/t}
+** Home page in the CMS
 الصفحة الرئيسية لنظام إدارة المحتوى
 
-{t}Homepage{/t}
+** Homepage
 الصفحة الرئيسية
 
-{t}horizontal line{/t}
+** horizontal line
 خط أفقي
 
-{t}Host{/t}
+** Host
 مستضيف
 
-{t}Hosts{/t}
+** Hosts
 مستضيفات
 
-{t}Hour{/t}
+** Hour
 
 
-{t}hours{/t}
+** hours
 ساعات
 
-{t}Hours per week{/t}
+** Hours per week
 
 
-{t}HTML document{/t}
+** HTML document
 
 
-{t}HTML documents{/t}
+** HTML documents
 مستندات إتش تي إم إل
 
-{t}http://www.pmwiki.org/PmWiki/{/t}
+** http://www.pmwiki.org/PmWiki/
 http://www.pmwiki.org/PmWiki/
 
-{t}Human resources{/t}
+** Human resources
 
 
-{t}I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2{/t}
+** I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2
 قبول الرخصة العمومية الإصدار الثاني
 
-{t}I m p o r t{/t}
+** I m p o r t
 
 
-{t}I n s t a l l{/t}
+** I n s t a l l
 تـنـصـيـب
 
-{t}Icon{/t}
+** Icon
 
 
-{t}Id{/t}
+** Id
 الرقم المعرف
 
-{t}Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
 Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
 
-{t}Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].
 Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].
 
-{t}Ideas{/t}
+** Ideas
 أفكار
 
-{t}If empty, the SMTP connection from the module users will be used.{/t}
+** If empty, the SMTP connection from the module users will be used.
 If empty, the SMTP connection from the module users will be used.
 
-{t}If file system permissions are ok, please check the configurations of %s if present.{/t}
+** If file system permissions are ok, please check the configurations of %s if present.
 
 
-{t}if not autodetected with namingContexts{/t}
+** if not autodetected with namingContexts
 if not autodetected with namingContexts
 
-{t}If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.{/t}
+** If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.
 
 
-{t}If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.{/t}
+** If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.
 إذا كان إسم المستخدم أو كلمة السر تحتوي على المحارف &quot;@&quot; قم بإستبدالهم بـ &quot;%%&quot;.
 
-{t}Illness{/t}
+** Illness
 
 
-{t}Im-/Export{/t}
+** Im-/Export
 إستيراد/تصدير
 
-{t}Image{/t}
+** Image
 صورة
 
-{t}Images{/t}
+** Images
 صور
 
-{t}Imap-error: %s{/t}
+** Imap-error: %s
 خطأ IMAP: %s
 
-{t}immediate{/t}
+** immediate
 حالاً، مباشرة
 
-{t}Import{/t}
+** Import
 إستيراد
 
-{t}In progress{/t}
+** In progress
 جاري العمل عليه
 
-{t}in repair{/t}
+** in repair
 قيد الإصلاح
 
-{t}in stock{/t}
+** in stock
 in stock
 
-{t}Inactive{/t}
+** Inactive
 غير فعّال
 
-{t}Include in RSS feed{/t}
+** Include in RSS feed
 تضمين في الخلاصات
 
-{t}Include page{/t}
+** Include page
 
 
-{t}indent text{/t}
+** indent text
 indent text
 
-{t}Index{/t}
+** Index
 فهرس
 
-{t}Index length{/t}
+** Index length
 طول الفهرس
 
-{t}Index type{/t}
+** Index type
 نوع الفهرس
 
-{t}Indexes{/t}
+** Indexes
 فهارس
 
-{t}Industry{/t}
+** Industry
 صناعة
 
-{t}Info{/t}
+** Info
 معلومات
 
-{t}inheritance to subfolders without default values{/t}
+** inheritance to subfolders without default values
 
 
-{t}Input field{/t}
+** Input field
 
 
-{t}Input field height{/t}
+** Input field height
 
 
-{t}Insert{/t}
+** Insert
 إدخال
 
-{t}inserted{/t}
+** inserted
 تم إدخاله
 
-{t}Install default folder structure{/t}
+** Install default folder structure
 
 
-{t}Install demo folders{/t}
+** Install demo folders
 
 
-{t}Install minimal folder structure{/t}
+** Install minimal folder structure
 
 
-{t}installed{/t}
+** installed
 
 
-{t}insufficient folder rights{/t}
+** insufficient folder rights
 سماحيات غير كافية للمجلد
 
-{t}Internal recommendation{/t}
+** Internal recommendation
 توصيات داخلية
 
-{t}Intranet{/t}
+** Intranet
 
 
-{t}Intro{/t}
+** Intro
 مدخل
 
-{t}invalid{/t}
+** invalid
 غير صالح
 
-{t}Invalid file extensions{/t}
+** Invalid file extensions
 
 
-{t}Invalid schema mode '%s'{/t}
+** Invalid schema mode '%s'
 
 
-{t}Invalid security token{/t}
+** Invalid security token
 
 
-{t}Inventory{/t}
+** Inventory
 مستودع
 
-{t}Inventory number{/t}
+** Inventory number
 رقم قائمة الجرد
 
-{t}Investor{/t}
+** Investor
 مستثمر
 
-{t}Invoice{/t}
+** Invoice
 فاتورة
 
-{t}italic{/t}
+** italic
 مائل
 
-{t}Item created by %s at %s{/t}
+** Item created by %s at %s
 تم إنشاء العنصر بواسطة %s في %s
 
-{t}Item deleted by %s at %s{/t}
+** Item deleted by %s at %s
 تم حذف العنصر بواسطة %s في %s
 
-{t}Item edited (%s) by %s at %s{/t}
+** Item edited (%s) by %s at %s
 تم تعديل العنصر (%s) بواسطة %s في %s
 
-{t}Item not found.{/t}
+** Item not found.
 العنصر غير موجود
 
-{t}Item successfully created.{/t}
+** Item successfully created.
 تم إنشاء العنصر بنجاح
 
-{t}Item successfully updated.{/t}
+** Item successfully updated.
 تم تحديث العنصر بنجاح
 
-{t}Item(s) not found or access denied.{/t}
+** Item(s) not found or access denied.
 العنصر (العناصر) غير موجود أو غير مسموح بالوصول لهم.
 
-{t}Jan{/t}
+** Jan
 
 
-{t}January{/t}
+** January
 كانون الثاني
 
-{t}Job description{/t}
+** Job description
 وصف العمل
 
-{t}Join lines{/t}
+** Join lines
 ضم الخطوط
 
-{t}Jul{/t}
+** Jul
 
 
-{t}July{/t}
+** July
 تموز
 
-{t}Jun{/t}
+** Jun
 
 
-{t}June{/t}
+** June
 حزيران
 
-{t}Key{/t}
+** Key
 Key
 
-{t}Key customer{/t}
+** Key customer
 Key customer
 
-{t}Key name{/t}
+** Key name
 Key name
 
-{t}Keywords{/t}
+** Keywords
 كلمات مفتاحية
 
-{t}Knowledge base{/t}
+** Knowledge base
 قاعدة بيانات معرفية
 
-{t}L o g i n{/t}
+** L o g i n
 تسجيل دخول
 
-{t}l, F j, Y{/t}
+** l, F j, Y
 l, F j, Y
 
-{t}Last access{/t}
+** Last access
 آخر وصول
 
-{t}Last name{/t}
+** Last name
 الكنية
 
-{t}LDAP anonymous connection failed.{/t}
+** LDAP anonymous connection failed.
 فشل الإتصال بـLDAP بحساب أي شخص
 
-{t}LDAP attribute for group memberships{/t}
+** LDAP attribute for group memberships
 LDAP attribute for group memberships
 
-{t}LDAP attribute for rooms{/t}
+** LDAP attribute for rooms
 LDAP attribute for rooms
 
-{t}LDAP attribute for usernames{/t}
+** LDAP attribute for usernames
 LDAP attribute for usernames
 
-{t}LDAP connection to host %s failed.{/t}
+** LDAP connection to host %s failed.
 فشل إتصال LDAP بالمستضيف %s
 
-{t}LDAP without anonymous access{/t}
+** LDAP without anonymous access
 LDAP without أي شخص access
 
-{t}LDAP: no base DN given{/t}
+** LDAP: no base DN given
 LDAP: لا يعتمد على إسم النطاق DN المعطى
 
-{t}LDAP: no UID given{/t}
+** LDAP: no UID given
 
 
-{t}Leave of absence{/t}
+** Leave of absence
 
 
-{t}less promising{/t}
+** less promising
 واعد بدرجة قليلة
 
-{t}lesser than{/t}
+** lesser than
 أقل من
 
-{t}Letter{/t}
+** Letter
 رسالة
 
-{t}Level{/t}
+** Level
 المستوى
 
-{t}License{/t}
+** License
 الرخصة
 
-{t}line{/t}
+** line
 
 
-{t}Line break{/t}
+** Line break
 سطر فاصل
 
-{t}Link{/t}
+** Link
 رابط
 
-{t}Link restricted{/t}
+** Link restricted
 رابط ممنوع
 
-{t}link text{/t}
+** link text
 نص الرابط
 
-{t}link to external page{/t}
+** link to external page
 رابط لصفحة خارجية
 
-{t}link to internal page{/t}
+** link to internal page
 رابط لصفحة داخلية
 
-{t}Links{/t}
+** Links
 روابط
 
-{t}Lists{/t}
+** Lists
 قوائم
 
-{t}Load external images{/t}
+** Load external images
 فتح صور خارجية
 
-{t}Location{/t}
+** Location
 مكان
 
-{t}Locations{/t}
+** Locations
 أماكن
 
-{t}Lock{/t}
+** Lock
 إقفال
 
-{t}Locked by{/t}
+** Locked by
 مقفل بواسطة
 
-{t}Locking{/t}
+** Locking
 إقفال
 
-{t}login %s from %s with %s{/t}
+** login %s from %s with %s
 تسجيل دخول %s من %s بـ %s
 
-{t}Login failed from %s.{/t}
+** Login failed from %s.
 فشل تسجيل الدخول من %s
 
-{t}Login/-out{/t}
+** Login/-out
 تسجيل دخول/خروج
 
-{t}Logins{/t}
+** Logins
 تسجيلات دخول
 
-{t}Logout{/t}
+** Logout
 
 
-{t}logout %s{/t}
+** logout %s
 تسجيل خروج %s
 
-{t}Lookup{/t}
+** Lookup
 بحث
 
-{t}low{/t}
+** low
 منخفض
 
-{t}lowest{/t}
+** lowest
 منخفض جداً
 
-{t}M j{/t}
+** M j
 M j
 
-{t}M j, g:i a{/t}
+** M j, g:i a
 M j, g:i a
 
-{t}M j, Y{/t}
+** M j, Y
 M j, Y
 
-{t}m/d/Y{/t}
+** m/d/Y
 d/m/Y
 
-{t}m/d/Y g:i a{/t}
+** m/d/Y g:i a
 d/m/Y g:i a
 
-{t}m/d/y g:i:s a{/t}
+** m/d/y g:i:s a
 d/m/y g:i:s a
 
-{t}magenta{/t}
+** magenta
 أرجواني
 
-{t}mail footer{/t}
+** mail footer
 تذييل البريد
 
-{t}Mail identities{/t}
+** Mail identities
 هويات البريد
 
-{t}mail notification{/t}
+** mail notification
 تنبيه البريد
 
-{t}mail reminder{/t}
+** mail reminder
 تذكير البريد
 
-{t}Main menu{/t}
+** Main menu
 القائمة الرئيسية
 
-{t}Main page{/t}
+** Main page
 
 
-{t}Maintenance mode{/t}
+** Maintenance mode
 نمط الصيانة
 
-{t}male{/t}
+** male
 ذكر
 
-{t}Man-days{/t}
+** Man-days
 أيام العمل
 
-{t}Man-days planned{/t}
+** Man-days planned
 أيام العمل المخطط لها
 
-{t}Manage offline folders{/t}
+** Manage offline folders
 
 
-{t}Manager{/t}
+** Manager
 مدير
 
-{t}Manufacturer{/t}
+** Manufacturer
 مصنّع
 
-{t}Mar{/t}
+** Mar
 
 
-{t}March{/t}
+** March
 آذار
 
-{t}Marketing event{/t}
+** Marketing event
 حدث تسويقي
 
-{t}married{/t}
+** married
 متزوّج
 
-{t}Maximize{/t}
+** Maximize
 تكبير
 
-{t}Maximum file size{/t}
+** Maximum file size
 
 
-{t}Maximum number of assets per page{/t}
+** Maximum number of assets per page
 
 
-{t}maximum number of files exceeded.{/t}
+** maximum number of files exceeded.
 تم الوصول لأقصى عدد من الملفات
 
-{t}May{/t}
+** May
 أيار
 
-{t}Media{/t}
+** Media
 وسائل إعلام
 
-{t}Meeting{/t}
+** Meeting
 مقابلة
 
-{t}Members{/t}
+** Members
 أعضاء
 
-{t}Memory limit{/t}
+** Memory limit
 
 
-{t}Merge folders permanently{/t}
+** Merge folders permanently
 دمج المجلدات بشكل نهائي
 
-{t}Merged folders{/t}
+** Merged folders
 دمج المجلدات
 
-{t}Message{/t}
+** Message
 رسالة
 
-{t}Messages{/t}
+** Messages
 
 
-{t}Milestone{/t}
+** Milestone
 
 
-{t}min{/t}
+** min
 min
 
-{t}Minimize{/t}
+** Minimize
 تصغير
 
-{t}minimum = 15 secs, 0 = disabled{/t}
+** minimum = 15 secs, 0 = disabled
 أصغر = 15 ثا، 0 = إلغاء تمكين
 
-{t}Miscellaneous{/t}
+** Miscellaneous
 متنوع
 
-{t}missing a temporary folder.{/t}
+** missing a temporary folder.
 المجلد المؤقت مفقود.
 
-{t}missing field{/t}
+** missing field
 حقل مفقود.
 
-{t}missing right: %s{/t}
+** missing right: %s
 سماحية مفقودة: %s
 
-{t}Mo{/t}
+** Mo
 إث
 
-{t}Mobile{/t}
+** Mobile
 جوّال
 
-{t}Model{/t}
+** Model
 طراز
 
-{t}Modified{/t}
+** Modified
 تم تعديله
 
-{t}Modified by{/t}
+** Modified by
 تم تعديله من قبل
 
-{t}Modifying database failed.{/t}
+** Modifying database failed.
 فشل تعديل قاعدة البيانات
 
-{t}Module{/t}
+** Module
 موديول
 
-{t}Module disabled.{/t}
+** Module disabled.
 
 
-{t}Modules{/t}
+** Modules
 موديولات
 
-{t}Mon{/t}
+** Mon
 الإثنين
 
-{t}Monday{/t}
+** Monday
 الإثنين
 
-{t}monospace{/t}
+** monospace
 monospace
 
-{t}Month{/t}
+** Month
 شهر
 
-{t}monthly{/t}
+** monthly
 شهري
 
-{t}months{/t}
+** months
 أشهر
 
-{t}More information about the GNU GPL{/t}
+** More information about the GNU GPL
 المزيد من المعلومات حول الرخصة العمومية
 
-{t}Mountpoint{/t}
+** Mountpoint
 نقطة استيراد
 
-{t}Move{/t}
+** Move
 نقل
 
-{t}Move to subfolder 'Archive'{/t}
+** Move to subfolder 'Archive'
 
 
-{t}Multiple{/t}
+** Multiple
 
 
-{t}Multiple choice{/t}
+** Multiple choice
 
 
-{t}My appointments{/t}
+** My appointments
 مواعيدي
 
-{t}My tasks{/t}
+** My tasks
 مهامي
 
-{t}Name{/t}
+** Name
 إسم
 
-{t}Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
 حقل الإسم لا يجب أن يكون فارغاً. يسمح بإستعمال 3 محارف صغيرة على الأقل و 128 على الأكثر و من المجال [a-z0-9_-@.].
 
-{t}Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].{/t}
+** Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].
 حقل الإسم لا يجب أن يكون فارغاً. يسمح بإستعمال 3 محارف على الأقل و من المجال [a-zA-Z0-9-_.].
 
-{t}need feedback{/t}
+** need feedback
 need feedback
 
-{t}Network{/t}
+** Network
 شبكة
 
-{t}Never expires{/t}
+** Never expires
 غير منته
 
-{t}New{/t}
+** New
 جديد
 
-{t}New folder{/t}
+** New folder
 مجلد جديد
 
-{t}News{/t}
+** News
 أخبار
 
-{t}Next recurrences{/t}
+** Next recurrences
 
 
-{t}Nickname{/t}
+** Nickname
 اللقب
 
-{t}Nightwork{/t}
+** Nightwork
 عمل ليلي
 
-{t}no{/t}
+** no
 لا
 
-{t}No dataset selected.{/t}
+** No dataset selected.
 لم يتم تحديد أي حقل
 
-{t}No entries found.{/t}
+** No entries found.
 لم يتم العثور على أية مدخلات
 
-{t}No file was uploaded{/t}
+** No file was uploaded
 
 
-{t}No line breaks{/t}
+** No line breaks
 
 
-{t}no result{/t}
+** no result
 لا توجد أية نتيجة
 
-{t}No search index{/t}
+** No search index
 
 
-{t}No sender specified.{/t}
+** No sender specified.
 لم يتم تحديد المرسل.
 
-{t}no username submitted{/t}
+** no username submitted
 لم يتم حفظ إسم المستخدم
 
-{t}No username/password.{/t}
+** No username/password.
 
 
-{t}No wrap{/t}
+** No wrap
 
 
-{t}Non unique{/t}
+** Non unique
 ليس فريداً
 
-{t}none{/t}
+** none
 غير موجود
 
-{t}normal{/t}
+** normal
 عادي
 
-{t}Not allowed. Please log in as super administrator.{/t}
+** Not allowed. Please log in as super administrator.
 لا توجد سماحيات. قم بتسجيل الدخول كمدير
 
-{t}not contains{/t}
+** not contains
 لا يحتوي
 
-{t}not equal{/t}
+** not equal
 لا يساوي
 
-{t}Not in{/t}
+** Not in
 
 
-{t}Not in database{/t}
+** Not in database
 
 
-{t}not installed{/t}
+** not installed
 
 
-{t}Note{/t}
+** Note
 
 
-{t}Notebook{/t}
+** Notebook
 مفكرة
 
-{t}Notes{/t}
+** Notes
 ملاحظات
 
-{t}Notificaiton sent to: %s{/t}
+** Notificaiton sent to: %s
 التنبيه سيرسل لـ: %s
 
-{t}Notification{/t}
+** Notification
 تنبيه
 
-{t}Notification summary{/t}
+** Notification summary
 خلاصة التنبيه
 
-{t}Notifications{/t}
+** Notifications
 
 
-{t}Nov{/t}
+** Nov
 
 
-{t}November{/t}
+** November
 تشرين الثاني
 
-{t}Null{/t}
+** Null
 فارغ
 
-{t}Number of employees{/t}
+** Number of employees
 عدد الموظفين
 
-{t}numbered{/t}
+** numbered
 مرقّم
 
-{t}Objectives{/t}
+** Objectives
 Objectives
 
-{t}Oct{/t}
+** Oct
 
 
-{t}October{/t}
+** October
 تشرين الأول
 
-{t}of {0}{/t}
+** of {0}
 
 
-{t}offer{/t}
+** offer
 
 
-{t}Offer{/t}
+** Offer
 
 
-{t}Office{/t}
+** Office
 مكتب
 
-{t}Office program{/t}
+** Office program
 برنامج المكتب
 
-{t}Offices{/t}
+** Offices
 مكاتب
 
-{t}offline{/t}
+** offline
 بدون إتصال
 
-{t}Offline folders{/t}
+** Offline folders
 مجلدات بدون إتصال
 
-{t}Offline reading{/t}
+** Offline reading
 
 
-{t}Ok{/t}
+** Ok
 موافق
 
-{t}one of{/t}
+** one of
 
 
-{t}online{/t}
+** online
 متصل
 
-{t}Only for this folder{/t}
+** Only for this folder
 
 
-{t}Only in{/t}
+** Only in
 
 
-{t}open{/t}
+** open
 
 
-{t}Open{/t}
+** Open
 فتح
 
-{t}Operating system{/t}
+** Operating system
 نظام التشغيل
 
-{t}Operation not allowed. (Data loss protection){/t}
+** Operation not allowed. (Data loss protection)
 العملية غير مسموحة. (حماية من أجل عدم فقد البيانات)
 
-{t}Optimize Tables{/t}
+** Optimize Tables
 تحسين الجداول
 
-{t}Options{/t}
+** Options
 خصائص
 
-{t}or{/t}
+** or
 أو
 
-{t}or higher{/t}
+** or higher
 أو أعلى
 
-{t}orange{/t}
+** orange
 برتقالي
 
-{t}Order size{/t}
+** Order size
 حجم الطلبية
 
-{t}Organisation{/t}
+** Organisation
 تنظيم
 
-{t}Organizer{/t}
+** Organizer
 منظّم
 
-{t}Origin{/t}
+** Origin
 مصدر
 
-{t}Original message{/t}
+** Original message
 رسالة أصلية
 
-{t}Other{/t}
+** Other
 أخرى
 
-{t}out of office{/t}
+** out of office
 خارج المكتب
 
-{t}Outline image{/t}
+** Outline image
 مخطط تمهيدي
 
-{t}Output{/t}
+** Output
 خرج
 
-{t}Output empty: %s{/t}
+** Output empty: %s
 
 
-{t}overlap{/t}
+** overlap
 overlap
 
-{t}Overtime{/t}
+** Overtime
 ساعات إضافية
 
-{t}Overtime compensation per hour{/t}
+** Overtime compensation per hour
 
 
-{t}Owner{/t}
+** Owner
 مالك
 
-{t}Owner since{/t}
+** Owner since
 مالك منذ
 
-{t}Package from local file system (.tar.gz){/t}
+** Package from local file system (.tar.gz)
 حزمة من ملف محلي (.tar.gz)
 
-{t}Packed{/t}
+** Packed
 محزوم
 
-{t}Page{/t}
+** Page
 صفحة
 
-{t}Page last modified on{/t}
+** Page last modified on
 
 
-{t}Page name (URL){/t}
+** Page name (URL)
 إسم الصفحة (رابط)
 
-{t}Page not found{/t}
+** Page not found
 الصفحة غير موجودة
 
-{t}Page title{/t}
+** Page title
 عنوان الصفحة
 
-{t}Pager{/t}
+** Pager
 بايجر (رسائل نصية)
 
-{t}Paid{/t}
+** Paid
 
 
-{t}Paid holidays{/t}
+** Paid holidays
 
 
-{t}Paragraphs{/t}
+** Paragraphs
 فقرات
 
-{t}parameters{/t}
+** parameters
 وسائط
 
-{t}Parameters{/t}
+** Parameters
 وسائط
 
-{t}Parent folder{/t}
+** Parent folder
 
 
-{t}Parsing{/t}
+** Parsing
 تفسير
 
-{t}Part time{/t}
+** Part time
 
 
-{t}Participants{/t}
+** Participants
 مساهمون
 
-{t}Participants (external){/t}
+** Participants (external)
 مساهمون (من الخارج)
 
-{t}Participants (internal){/t}
+** Participants (internal)
 مساهمون (من الداخل)
 
-{t}Password{/t}
+** Password
 كلمة السر
 
-{t}Password expired. (password of %s has expired){/t}
+** Password expired. (password of %s has expired)
 إنتهت صلاحية كلمة السر لـ %s
 
-{t}Password expires{/t}
+** Password expires
 إنتهاء صلاحية كلمة السر
 
-{t}Password must be not null, min 5 characters.{/t}
+** Password must be not null, min 5 characters.
 حقل كلمة السر لا يجب أن يكون فارغاً، يجب أن يحتوي على 5 محارف على الأقل
 
-{t}password not confirmed.{/t}
+** password not confirmed.
 لم يتم تأكيد كلمة السر
 
-{t}Passwords{/t}
+** Passwords
 كلمات السر
 
-{t}Paste{/t}
+** Paste
 لصق
 
-{t}Path{/t}
+** Path
 مسار
 
-{t}Pause{/t}
+** Pause
 توقف مؤقت
 
-{t}Payroll{/t}
+** Payroll
 
 
-{t}Permissions{/t}
+** Permissions
 سماحيات
 
-{t}Permissions added for: %s{/t}
+** Permissions added for: %s
 تم إضافة السماحيات لـ: %s
 
-{t}Personal{/t}
+** Personal
 شخصي
 
-{t}Personal department{/t}
+** Personal department
 مجلدات الفروع
 
-{t}Personal folders{/t}
+** Personal folders
 مجلدات المستخدمين
 
-{t}Personal projects{/t}
+** Personal projects
 مجلدات المشاريع
 
-{t}Phone{/t}
+** Phone
 هاتف
 
-{t}Phone calls{/t}
+** Phone calls
 مكالمات هاتفية
 
-{t}Phone private{/t}
+** Phone private
 هاتف خاص
 
-{t}Photo{/t}
+** Photo
 صورة
 
-{t}Photo gallery{/t}
+** Photo gallery
 معرض الصور
 
-{t}Planned{/t}
+** Planned
 دراسة
 
-{t}Please activate cookies.{/t}
+** Please activate cookies.
 قم بتفعيل الكوكيز
 
-{t}Please choose Apache as Web-Server.{/t}
+** Please choose Apache as Web-Server.
 قم بأختيار أباتشي مخادم ويب
 
-{t}Please enable Javascript in your browser.{/t}
+** Please enable Javascript in your browser.
 
 
-{t}Please enter a valid url.{/t}
+** Please enter a valid url.
 قم بإدخال رابط صالح.
 
-{t}Please give read access to %s{/t}
+** Please give read access to %s
 قم بمنح إمكانية القراءة لـ %s
 
-{t}Please give write access to %s{/t}
+** Please give write access to %s
 قم بمنح إمكانية الكتابة لـ %s
 
-{t}Please give write access to %s and %s{/t}
+** Please give write access to %s and %s
 قم بمنح إمكانية الكتابة لـ %s و %s
 
-{t}Please hit reload.{/t}
+** Please hit reload.
 قم بالنقر على -إعادة التحميل
 
-{t}Please input a valid e-mail adress.{/t}
+** Please input a valid e-mail adress.
 قم بإدخال عنوان بريد إلكتروني صالح.
 
-{t}Please install 'tsearch2' for the PostgreSQL database.{/t}
+** Please install 'tsearch2' for the PostgreSQL database.
 قم يتنصيب tsearch2 لقاعدة بيانات PostgreSQL
 
-{t}Please install the php-extension with name '%s'.{/t}
+** Please install the php-extension with name '%s'.
 
 
-{t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}
+** Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !
 قم بتعديل ملف php.ini أو أضف الملف  .htaccess من أجل تعديل الإعدادات %s إلى %s (القية الحالية هي %s) !
 
-{t}Please read the following license agreement. Use the scroll bar to view the rest of this agreement.{/t}
+** Please read the following license agreement. Use the scroll bar to view the rest of this agreement.
 قم بقراءة أتفاقية الرخصة التالية. بإمكانك إستعمال شريط التمرير لقراءة بقية الإتفاقية.
 
-{t}Please select a location.{/t}
+** Please select a location.
 
 
-{t}Please select a participant.{/t}
+** Please select a participant.
 قم بتحديد المساهم
 
-{t}Please upload again.{/t}
+** Please upload again.
 قم بإعادة الرفع مرة أخرى
 
-{t}Please wait ...{/t}
+** Please wait ...
 إنتظر من فضلك ...
 
-{t}Pop3-error: %s{/t}
+** Pop3-error: %s
 خطأ POP3: %s
 
-{t}Port{/t}
+** Port
 منفذ
 
-{t}Portal{/t}
+** Portal
 بواية
 
-{t}Position{/t}
+** Position
 منصب
 
-{t}Positions{/t}
+** Positions
 مناصب
 
-{t}Post{/t}
+** Post
 بريد
 
-{t}Practical training{/t}
+** Practical training
 
 
-{t}Preformatted block{/t}
+** Preformatted block
 Preformatted block
 
-{t}Prepend new field as{/t}
+** Prepend new field as
 
 
-{t}Prevent formatting{/t}
+** Prevent formatting
 منع التنسيق
 
-{t}Preview{/t}
+** Preview
 معاينة
 
-{t}Price{/t}
+** Price
 سعر
 
-{t}Primary key{/t}
+** Primary key
 
 
-{t}Print{/t}
+** Print
 طباعة
 
-{t}Print all{/t}
+** Print all
 طباعة الكل
 
-{t}Printer{/t}
+** Printer
 طابعة
 
-{t}Priority{/t}
+** Priority
 أولوية
 
-{t}Problem{/t}
+** Problem
 مشكلة
 
-{t}Processes{/t}
+** Processes
 معالجات
 
-{t}Processing %s ...{/t}
+** Processing %s ...
 جاري معالحة %s ...
 
-{t}Program is installed with language %s, please use a different url or run the setup again.{/t}
+** Program is installed with language %s, please use a different url or run the setup again.
 لقد تم تنصيب البرنامج بواجهة اللغة %s، قم بإستعمال رابط آخر أو أعد التنصيب مرة أخرى.
 
-{t}Progress{/t}
+** Progress
 تقدّم
 
-{t}Project{/t}
+** Project
 مشروع
 
-{t}Project files{/t}
+** Project files
 ملفات المشروع
 
-{t}Project tasks{/t}
+** Project tasks
 مهام المشروع
 
-{t}Projects{/t}
+** Projects
 مشاريع
 
-{t}promising{/t}
+** promising
 واعد
 
-{t}Properties{/t}
+** Properties
 خصائص
 
-{t}Prospective client{/t}
+** Prospective client
 زبون مستقبلي
 
-{t}Public holiday{/t}
+** Public holiday
 
 
-{t}Purchased{/t}
+** Purchased
 تم شراؤه
 
-{t}Question{/t}
+** Question
 سؤال
 
-{t}Queue{/t}
+** Queue
 صف
 
-{t}Quick add{/t}
+** Quick add
 
 
-{t}Quota{/t}
+** Quota
 المساحة
 
-{t}Quota (remaining){/t}
+** Quota (remaining)
 المساحة (متبقية)
 
-{t}Quota [MB]{/t}
+** Quota [MB]
 مساحة [ميغابايت]
 
-{t}Quota limitation exceeded: %s{/t}
+** Quota limitation exceeded: %s
 تم الوصول لأقصى مساحة ممكنة: %s
 
-{t}R e g i s t e r{/t}
+** R e g i s t e r
 
 
-{t}Rating{/t}
+** Rating
 تقييم
 
-{t}Read{/t}
+** Read
 قراءة
 
-{t}read access{/t}
+** read access
 وصول القراءة
 
-{t}Read access (groups){/t}
+** Read access (groups)
 وصول القراءة (مجموعات)
 
-{t}Read access (users){/t}
+** Read access (users)
 وصول القراءة (مستخدمين)
 
-{t}Read only in{/t}
+** Read only in
 
 
-{t}Read this page offline:{/t}
+** Read this page offline:
 
 
-{t}ready for repair{/t}
+** ready for repair
 جاهز للإصلاح
 
-{t}ready for scrap{/t}
+** ready for scrap
 جاهز للإتلاف
 
-{t}Real URL format in the CMS{/t}
+** Real URL format in the CMS
 صيغة رابط حقيقة ضمن برنامج إدارة المحتوى
 
-{t}Really apply rights to subfolders ?{/t}
+** Really apply rights to subfolders ?
 هل أنت متأكد من تطبيق السماحيات للمجلدات الفرعية ؟
 
-{t}Really apply the changes ?{/t}
+** Really apply the changes ?
 
 
-{t}Really delete ?{/t}
+** Really delete ?
 هل أنت متاكد من الحذف ؟
 
-{t}REALLY delete ALL datasets ?{/t}
+** REALLY delete ALL datasets ?
 هل أنت متأكد من حذف كل الحقول ؟
 
-{t}Really delete ALL subfolders ?{/t}
+** Really delete ALL subfolders ?
 هل أنت متأكد من حذف كل المجلدات الفرعية ؟
 
-{t}Really delete the dataset(s) ?{/t}
+** Really delete the dataset(s) ?
 هل أنت متأكد من حذف كل الحقول/الحقل ؟
 
-{t}Really empty the folder ?{/t}
+** Really empty the folder ?
 هل أنت متأكد من إفراغ المجلد ؟
 
-{t}Really overwrite existing dataset(s) ?{/t}
+** Really overwrite existing dataset(s) ?
 هل أنت متأكد من إستبدال الحقل/الحقول ؟
 
-{t}Really run setup again ?{/t}
+** Really run setup again ?
 هل أنت متأكد من تشغيل التنصيب مرة أخرى ؟
 
-{t}Really uninstall the module ?{/t}
+** Really uninstall the module ?
 
 
-{t}Rebuild search index{/t}
+** Rebuild search index
 إعادة بناء فهرس البحث
 
-{t}Recent changes{/t}
+** Recent changes
 
 
-{t}Recipients{/t}
+** Recipients
 
 
-{t}Recommendation of affiliate{/t}
+** Recommendation of affiliate
 Recommendation of affiliate
 
-{t}Recurrence{/t}
+** Recurrence
 تكرار
 
-{t}Recurrences{/t}
+** Recurrences
 
 
-{t}red{/t}
+** red
 أحمر
 
-{t}Redirect to home directory{/t}
+** Redirect to home directory
 إعادة توجيه للمجلد الرئيسي
 
-{t}Reference{/t}
+** Reference
 
 
-{t}Refresh{/t}
+** Refresh
 
 
-{t}Refresh every x seconds{/t}
+** Refresh every x seconds
 تحدبث كل x ثانية
 
-{t}Regular{/t}
+** Regular
 عادي
 
-{t}Reject{/t}
+** Reject
 
 
-{t}rejected{/t}
+** rejected
 مرفوض
 
-{t}Relative formats{/t}
+** Relative formats
 
 
-{t}Relaunch Setup{/t}
+** Relaunch Setup
 إعادة تشغيل التنصيب
 
-{t}Relevance{/t}
+** Relevance
 على صلة
 
-{t}Reminder{/t}
+** Reminder
 تذكير
 
-{t}rename{/t}
+** rename
 
 
-{t}Rename folder{/t}
+** Rename folder
 إعادة تسمية المجلد
 
-{t}Repeat count{/t}
+** Repeat count
 عدد التكرارات
 
-{t}Repeat exclusions{/t}
+** Repeat exclusions
 Repeat exclusions
 
-{t}Repeat interval{/t}
+** Repeat interval
 فاصل التكرارات
 
-{t}Repeat until{/t}
+** Repeat until
 تكرار حتى
 
-{t}Reply{/t}
+** Reply
 ردّ
 
-{t}Reply all{/t}
+** Reply all
 ردّ على الكل
 
-{t}Require admin access to set mountpoints{/t}
+** Require admin access to set mountpoints
 أنت بحاجة سماحية المدير من أجل إضافة نقاط الاستيراد
 
-{t}Required{/t}
+** Required
 
 
-{t}Required fields{/t}
+** Required fields
 
 
-{t}Reseller{/t}
+** Reseller
 Reseller
 
-{t}reserved{/t}
+** reserved
 reserved
 
-{t}Reset view{/t}
+** Reset view
 إعادة تهيئة العرض
 
-{t}Resource{/t}
+** Resource
 مورد
 
-{t}Resources{/t}
+** Resources
 موارد
 
-{t}Responsible{/t}
+** Responsible
 مسؤول
 
-{t}Responsible (external){/t}
+** Responsible (external)
 مسؤول (خارجي)
 
-{t}Responsible (internal){/t}
+** Responsible (internal)
 مسؤول (داخلي)
 
-{t}Restore complete{/t}
+** Restore complete
 إكتمال الإستعادة
 
-{t}Restore here{/t}
+** Restore here
 إستعادة هنا
 
-{t}Restore only missing{/t}
+** Restore only missing
 إستعادة المفقود فقط
 
-{t}Restore only newer{/t}
+** Restore only newer
 إستعادة الجديد فقط
 
-{t}Restore to origin{/t}
+** Restore to origin
 إستعادة الأصل
 
-{t}Return receipt{/t}
+** Return receipt
 Return receipt
 
-{t}right-aligned{/t}
+** right-aligned
 محاذاة لليمين
 
-{t}Rights{/t}
+** Rights
 سماحيات
 
-{t}Risks{/t}
+** Risks
 
 
-{t}Room name{/t}
+** Room name
 إسم الغرفة
 
-{t}Room number{/t}
+** Room number
 رقم الغرفة
 
-{t}Rooms{/t}
+** Rooms
 غرف
 
-{t}Rows{/t}
+** Rows
 صفوف
 
-{t}Run Setup again{/t}
+** Run Setup again
 تشغيل التنصيب مرة أخرى
 
-{t}S a v e{/t}
+** S a v e
 حـفـظ
 
-{t}S a v e  a n d  E d i t{/t}
+** S a v e  a n d  E d i t
 
 
-{t}S a v e  a n d  g o  b a c k{/t}
+** S a v e  a n d  g o  b a c k
 حـفـظ و عـودة
 
-{t}Sa{/t}
+** Sa
 سب
 
-{t}Salary{/t}
+** Salary
 
 
-{t}Salary per{/t}
+** Salary per
 
 
-{t}Sales promotion{/t}
+** Sales promotion
 Sales promotion
 
-{t}Sat{/t}
+** Sat
 السبت
 
-{t}Saturday{/t}
+** Saturday
 السبت
 
-{t}Scheduling{/t}
+** Scheduling
 جدولة
 
-{t}Schema{/t}
+** Schema
 قالب
 
-{t}Schema data{/t}
+** Schema data
 بيانات القالب
 
-{t}Schemafile not found. (%s){/t}
+** Schemafile not found. (%s)
 ملف القالب غير موجود. (%s)
 
-{t}School{/t}
+** School
 
 
-{t}scrapped{/t}
+** scrapped
 تالف
 
-{t}Search{/t}
+** Search
 بحث
 
-{t}Search by ID{/t}
+** Search by ID
 
 
-{t}second level support{/t}
+** second level support
 
 
-{t}Second manager{/t}
+** Second manager
 مدير ثاني
 
-{t}seconds{/t}
+** seconds
 
 
-{t}Secretary{/t}
+** Secretary
 سكرتير
 
-{t}Self registration{/t}
+** Self registration
 تسجيل ذاتي
 
-{t}Self registration needs confirmation by an administrator.{/t}
+** Self registration needs confirmation by an administrator.
 
 
-{t}Send now{/t}
+** Send now
 
 
-{t}Sent{/t}
+** Sent
 
 
-{t}Sent reminders{/t}
+** Sent reminders
 إرسال التذكيرات
 
-{t}Sep{/t}
+** Sep
 
 
-{t}Separate fields{/t}
+** Separate fields
 
 
-{t}Separate values{/t}
+** Separate values
 
 
-{t}Separator{/t}
+** Separator
 
 
-{t}Separators{/t}
+** Separators
 فواصل
 
-{t}September{/t}
+** September
 أيلول
 
-{t}Serial number{/t}
+** Serial number
 الرقم المتسلسل
 
-{t}Server{/t}
+** Server
 الخادم
 
-{t}Server does not support sorting{/t}
+** Server does not support sorting
 الخادم لا يدعم ميزة الترتيب
 
-{t}Server-IP{/t}
+** Server-IP
 خادم-آي بي
 
-{t}Service provider{/t}
+** Service provider
 مزوّد الخدمة
 
-{t}Session name in cookie{/t}
+** Session name in cookie
 إسم الجلسة في الكوكيز
 
-{t}Session timeout{/t}
+** Session timeout
 إنتهت الجلسة
 
-{t}Sessions{/t}
+** Sessions
 جلسات
 
-{t}Settings{/t}
+** Settings
 
 
-{t}Setup{/t}
+** Setup
 تنصيب
 
-{t}Setup needs a database-php-extension ! (%s){/t}
+** Setup needs a database-php-extension ! (%s)
 برنامج التنصيب بحاجة لـdatabase-php-extension ! (%s)
 
-{t}Setup needs php with at least version %s !{/t}
+** Setup needs php with at least version %s !
 برنامج التنصيب بحاجة لـ بي إتش بي بآخر إصدار %s
 
-{t}Setup needs php-extension with name %s !{/t}
+** Setup needs php-extension with name %s !
 برنامج التنصيب بحاجة لإضافة بي إتش بي التي إسمها %s
 
-{t}Setup needs Simple Groupware with at least version %s !{/t}
+** Setup needs Simple Groupware with at least version %s !
 
 
-{t}Setup: setup-data written to %s.{/t}
+** Setup: setup-data written to %s.
 برنامج التنصيب: بيانات التنصيب تمت كتابتها لـ %s
 
-{t}Shapes{/t}
+** Shapes
 أشكال
 
-{t}Share{/t}
+** Share
 مشكاركة
 
-{t}Shared{/t}
+** Shared
 
 
-{t}Short links{/t}
+** Short links
 
 
-{t}Show{/t}
+** Show
 عرض
 
-{t}Show all rules{/t}
+** Show all rules
 
 
-{t}Show archive{/t}
+** Show archive
 عرض الأرشيف
 
-{t}Show details{/t}
+** Show details
 
 
-{t}Show folder description in content area{/t}
+** Show folder description in content area
 
 
-{t}Show password{/t}
+** Show password
 
 
-{t}Show quoted text{/t}
+** Show quoted text
 عرض النص المقتبس
 
-{t}Similar{/t}
+** Similar
 
 
-{t}Simple tables{/t}
+** Simple tables
 جداول بسيطة
 
-{t}single{/t}
+** single
 عازب
 
-{t}Single choice{/t}
+** Single choice
 
 
-{t}Size{/t}
+** Size
 الحجم
 
-{t}Size (children){/t}
+** Size (children)
 الحجم (أبناء)
 
-{t}Slow{/t}
+** Slow
 بطيء
 
-{t}small{/t}
+** small
 صغير
 
-{t}small text{/t}
+** small text
 نص صغير
 
-{t}smaller{/t}
+** smaller
 أصغر
 
-{t}SMTP not configured for %s{/t}
+** SMTP not configured for %s
 لم يتم إعداد SMTP لـ %s
 
-{t}Smtp-error %s: %s{/t}
+** Smtp-error %s: %s
 خطأ SMTP %s: %s
 
-{t}Software{/t}
+** Software
 برنامج
 
-{t}Solution{/t}
+** Solution
 الحل
 
-{t}Solution type{/t}
+** Solution type
 نوع الحل
 
-{t}some text{/t}
+** some text
 
 
-{t}Source{/t}
+** Source
 
 
-{t}Source code{/t}
+** Source code
 شيفرة مصدرية
 
-{t}Special leave{/t}
+** Special leave
 
 
-{t}Specification{/t}
+** Specification
 توصيف
 
-{t}Spreadsheet{/t}
+** Spreadsheet
 Spreadsheet
 
-{t}SQL failed.{/t}
+** SQL failed.
 فشل SQL.
 
-{t}SQL FAILED: %s{/t}
+** SQL FAILED: %s
 فشل SQL: %s
 
-{t}Start scheduled{/t}
+** Start scheduled
 بداية الجدولة
 
-{t}Started{/t}
+** Started
 تنفيذ
 
-{t}starts with{/t}
+** starts with
 بدء مع
 
-{t}State{/t}
+** State
 ولاية
 
-{t}Static cache{/t}
+** Static cache
 ذاكرة مخبئية ساكنة
 
-{t}Statistics{/t}
+** Statistics
 إحصائيات
 
-{t}Status{/t}
+** Status
 حالة
 
-{t}Statuses{/t}
+** Statuses
 حالات
 
-{t}Strategies{/t}
+** Strategies
 إستراتيجيات
 
-{t}Street{/t}
+** Street
 شارع
 
-{t}Structure{/t}
+** Structure
 بنية
 
-{t}Su{/t}
+** Su
 أح
 
-{t}Subfolder{/t}
+** Subfolder
 
 
-{t}Subfolders{/t}
+** Subfolders
 
 
-{t}subheading{/t}
+** subheading
 subheading
 
-{t}Subitem{/t}
+** Subitem
 عنصر فرعي
 
-{t}Subject{/t}
+** Subject
 موضوع
 
-{t}Subjects{/t}
+** Subjects
 مواضيع
 
-{t}Submit a patch{/t}
+** Submit a patch
 حفظ رقعة
 
-{t}Subpages{/t}
+** Subpages
 
 
-{t}subscript{/t}
+** subscript
 subscript
 
-{t}Subsistence costs{/t}
+** Subsistence costs
 تكاليف متبقية
 
-{t}Sum{/t}
+** Sum
 
 
-{t}Summary{/t}
+** Summary
 الخلاصة
 
-{t}Sun{/t}
+** Sun
 الأحد
 
-{t}Sunday{/t}
+** Sunday
 الأحد
 
-{t}Superior{/t}
+** Superior
 مشرف
 
-{t}superscript{/t}
+** superscript
 superscript
 
-{t}Supplier{/t}
+** Supplier
 مورّد
 
-{t}Suppliers{/t}
+** Suppliers
 مورّدون
 
-{t}Support{/t}
+** Support
 دعم
 
-{t}Support request{/t}
+** Support request
 طلب دعم
 
-{t}Surveys{/t}
+** Surveys
 
 
-{t}Suspended{/t}
+** Suspended
 مؤجل
 
-{t}Switch maintenance mode{/t}
+** Switch maintenance mode
 تبديل لنمط الصيانة
 
-{t}Sync4j remote delete items{/t}
+** Sync4j remote delete items
 Sync4j سيقوم بحذف العناصر عن بُعد
 
-{t}Syntax{/t}
+** Syntax
 
 
-{t}System{/t}
+** System
 نظام
 
-{t}System command executed: %s{/t}
+** System command executed: %s
 
 
-{t}Tab{/t}
+** Tab
 
 
-{t}Table{/t}
+** Table
 جدول
 
-{t}Table sizes{/t}
+** Table sizes
 قياسات الجدول
 
-{t}Table status{/t}
+** Table status
 حالة الجدول
 
-{t}Tables{/t}
+** Tables
 جداول
 
-{t}Take over{/t}
+** Take over
 
 
-{t}Take selection{/t}
+** Take selection
 
 
-{t}Task{/t}
+** Task
 
 
-{t}Task with ID %s{/t}
+** Task with ID %s
 
 
-{t}Tasks{/t}
+** Tasks
 مهام
 
-{t}Tasks with responsible %s{/t}
+** Tasks with responsible %s
 
 
-{t}Template{/t}
+** Template
 قالب
 
-{t}Templates{/t}
+** Templates
 قوالب
 
-{t}Temporary work{/t}
+** Temporary work
 
 
-{t}term{/t}
+** term
 عنصر
 
-{t}Text area{/t}
+** Text area
 
 
-{t}Text Document{/t}
+** Text Document
 مستند نصي
 
-{t}Text formatting rules{/t}
+** Text formatting rules
 شروط تنسيق النص
 
-{t}Th{/t}
+** Th
 خم
 
-{t}Thanks for voting!{/t}
+** Thanks for voting!
 
 
-{t}The folder cannot be copied.{/t}
+** The folder cannot be copied.
 لا يمكن نسخ المجلد.
 
-{t}The folder cannot be deleted.{/t}
+** The folder cannot be deleted.
 لا يمكن حذف المجلد.
 
-{t}The folder cannot be moved.{/t}
+** The folder cannot be moved.
 لا يمكن نقل المجلد.
 
-{t}The new password is{/t}
+** The new password is
 كلمة السر الجديدة هي
 
-{t}The url doesn't exist.{/t}
+** The url doesn't exist.
 الرابط غير موجود
 
-{t}Theme{/t}
+** Theme
 سمة
 
-{t}third level support{/t}
+** third level support
 
 
-{t}this file extension is not allowed{/t}
+** this file extension is not allowed
 ملف التوسعة لا يسمح بإستعماله
 
-{t}Thu{/t}
+** Thu
 الخميس
 
-{t}Thursday{/t}
+** Thursday
 الخميس
 
-{t}Time and expenses{/t}
+** Time and expenses
 الوقت و النفقات
 
-{t}Time limit{/t}
+** Time limit
 
 
-{t}Time sheets{/t}
+** Time sheets
 صفحات زمنية
 
-{t}Time zone{/t}
+** Time zone
 المنطقة الزمنية
 
-{t}timeout{/t}
+** timeout
 إنتهاء الوقت
 
-{t}Title{/t}
+** Title
 عنوان
 
-{t}To{/t}
+** To
 إلى
 
-{t}to be checked{/t}
+** to be checked
 سيتم تمكينة
 
-{t}To continue installing Simple Groupware you must check the box under the license{/t}
+** To continue installing Simple Groupware you must check the box under the license
 للإستمرار في تنصيب Simple Groupware أنت بحاجة لتمكين صندوق الإختيار تحت الرخصة.
 
-{t}Today{/t}
+** Today
 يوم
 
-{t}Too many wrong logins. Please wait 15 minutes.{/t}
+** Too many wrong logins. Please wait 15 minutes.
 يجب عليك الإنتظار لـ15 دقيقة بسبب كثرة محاولات الدخول الخاطئة
 
-{t}Total{/t}
+** Total
 المجموع
 
-{t}Trace{/t}
+** Trace
 Trace
 
-{t}Trade fair{/t}
+** Trade fair
 Trade fair
 
-{t}translations{/t}
+** translations
 ترجمات
 
-{t}Translations of the GNU GPL{/t}
+** Translations of the GNU GPL
 ترجمات الرخصة العمومية
 
-{t}Transportation costs{/t}
+** Transportation costs
 تكاليف النقل
 
-{t}Trash{/t}
+** Trash
 سلة المهملات
 
-{t}Trash folder not found.{/t}
+** Trash folder not found.
 مجلد سلة المهملات غير موجود
 
-{t}Tree{/t}
+** Tree
 الشجرة
 
-{t}Trigger failed{/t}
+** Trigger failed
 فشل القادح
 
-{t}Tu{/t}
+** Tu
 ثل
 
-{t}Tue{/t}
+** Tue
 الثلاثاء
 
-{t}Tuesday{/t}
+** Tuesday
 الثلاثاء
 
-{t}Type{/t}
+** Type
 النوع
 
-{t}U n i n s t a l l{/t}
+** U n i n s t a l l
 
 
-{t}unable to find %s{/t}
+** unable to find %s
 غير قادر على إيجاد %s
 
-{t}Unable to write to %s{/t}
+** Unable to write to %s
 غير قادر على الكتابة لـ %s
 
-{t}unconfirmed{/t}
+** unconfirmed
 غير مصادق عليه
 
-{t}Unconfirmed{/t}
+** Unconfirmed
 
 
-{t}underline{/t}
+** underline
 
 
-{t}Uninstall does not delete any data in the database.{/t}
+** Uninstall does not delete any data in the database.
 
 
-{t}uninterested{/t}
+** uninterested
 غير مهم
 
-{t}Unique{/t}
+** Unique
 
 
-{t}Unique with trash{/t}
+** Unique with trash
 
 
-{t}Unlock{/t}
+** Unlock
 إلغاء القفل
 
-{t}Up{/t}
+** Up
 للأعلى
 
-{t}Update{/t}
+** Update
 تحديث
 
-{t}Update Simple Groupware{/t}
+** Update Simple Groupware
 تحدبث Simple Groupware
 
-{t}Updated{/t}
+** Updated
 تم تحديثه
 
-{t}Updating schema %s from %s.{/t}
+** Updating schema %s from %s.
 تحديث القالب %s من %s
 
-{t}Upload failed{/t}
+** Upload failed
 عملية الرفع فشلت
 
-{t}Uploaded files{/t}
+** Uploaded files
 ملفات تم رفعها
 
-{t}Uploading{/t}
+** Uploading
 
 
-{t}urgent{/t}
+** urgent
 عاجل
 
-{t}URL{/t}
+** URL
 رابط
 
-{t}Usage{/t}
+** Usage
 الإستخدام
 
-{t}USD{/t}
+** USD
 دولار أمريكي
 
-{t}Use APC for session storage{/t}
+** Use APC for session storage
 
 
-{t}Use Debian binaries (Warning: not latest versions){/t}
+** Use Debian binaries (Warning: not latest versions)
 قم بإستعمال الملفات الثنائية الخاثة بدبيان (تحذير: لا تستعمل آخر الإصدارات)
 
-{t}Use LDAP Groups{/t}
+** Use LDAP Groups
 إستعمال مجموعات LDAP
 
-{t}use mirror from{/t}
+** use mirror from
 
 
-{t}Use syslog() function for logging events{/t}
+** Use syslog() function for logging events
 
 
-{t}Use the mail() function for sending mails (insecure){/t}
+** Use the mail() function for sending mails (insecure)
 إستعمال التابع mail() من أجل إرسال الرسائل (غير آمن)
 
-{t}User{/t}
+** User
 المستخدم
 
-{t}User not found.{/t}
+** User not found.
 
 
-{t}Username{/t}
+** Username
 إسم المستخدم
 
-{t}Username must be different from the super administrator.{/t}
+** Username must be different from the super administrator.
 إسم المستخدم يجب أن لا يتطابق مع إسم المدير
 
-{t}Users{/t}
+** Users
 مستخدمون
 
-{t}V a l i d a t e{/t}
+** V a l i d a t e
 
 
-{t}V o t e !{/t}
+** V o t e !
 
 
-{t}Vacation{/t}
+** Vacation
 عطلة
 
-{t}Vacation days per year{/t}
+** Vacation days per year
 
 
-{t}Validating %s ...{/t}
+** Validating %s ...
 
 
-{t}validation failed{/t}
+** validation failed
 validation failed
 
-{t}Value{/t}
+** Value
 قيمة
 
-{t}Value '%s' needs a group membership: %s{/t}
+** Value '%s' needs a group membership: %s
 
 
-{t}Variable{/t}
+** Variable
 متغير
 
-{t}Variable already exists in table. (%s){/t}
+** Variable already exists in table. (%s)
 المتغير موجود مسبقاً في الجدول. (%s)
 
-{t}Variable must be of type date (mm/dd/yyyy).{/t}
+** Variable must be of type date (mm/dd/yyyy).
 المتغير يجب أن يكون من صيغة التاريخ (dd/mm/yyyy)
 
-{t}Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).{/t}
+** Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).
 المتغير يجب أن يكون من صيغة التاريخ و الوقت (dd/mm/yyyy hh:mm am/pm)
 
-{t}Variable must be of type float.{/t}
+** Variable must be of type float.
 المتغير يجب أن يكون من نوع الفاصلة العائمة
 
-{t}Variable must be of type int and greater than 0.{/t}
+** Variable must be of type int and greater than 0.
 المتغير يجب أن يكون بقيمة صحيحة و أكبر من الصفر
 
-{t}Variable must be of type int.{/t}
+** Variable must be of type int.
 المتغير يجب أن يكون من نمط القيمة الصحيحة
 
-{t}Variable must be of type time (hh:mm am/pm).{/t}
+** Variable must be of type time (hh:mm am/pm).
 المتغير يجب أن يكون من صيغة الوقت (hh:mm am/pm).
 
-{t}Variables{/t}
+** Variables
 المتغيرات
 
-{t}Verbal recommendation{/t}
+** Verbal recommendation
 Verbal recommendation
 
-{t}verified{/t}
+** verified
 تم التأكد منه
 
-{t}vertical{/t}
+** vertical
 عمودي
 
-{t}very promising{/t}
+** very promising
 واعد جداً
 
-{t}View{/t}
+** View
 
 
-{t}View access (groups){/t}
+** View access (groups)
 
 
-{t}View access (users){/t}
+** View access (users)
 
 
-{t}Virus scanner{/t}
+** Virus scanner
 فاحص الفيروسات
 
-{t}Visibility{/t}
+** Visibility
 
 
-{t}Voice mail{/t}
+** Voice mail
 بريد صوتي
 
-{t}Vote{/t}
+** Vote
 
 
-{t}Voted by{/t}
+** Voted by
 
 
-{t}Waiting{/t}
+** Waiting
 إنتظار
 
-{t}Warning{/t}
+** Warning
 تحذير
 
-{t}We{/t}
+** We
 أر
 
-{t}Web{/t}
+** Web
 شبكة
 
-{t}Web page{/t}
+** Web page
 
 
-{t}Wed{/t}
+** Wed
 الأربعاء
 
-{t}Wednesday{/t}
+** Wednesday
 الأربعاء
 
-{t}Week{/t}
+** Week
 أسبوع
 
-{t}Week start{/t}
+** Week start
 بداية الأسبوع
 
-{t}Weekend{/t}
+** Weekend
 نهاية الأسبوع
 
-{t}weekly{/t}
+** weekly
 أسبوعي
 
-{t}weeks{/t}
+** weeks
 الأسابيع
 
-{t}Welcome to Simple Groupware!{/t}
+** Welcome to Simple Groupware!
 
 
-{t}white{/t}
+** white
 أبيض
 
-{t}widowed{/t}
+** widowed
 أرمل
 
-{t}Width{/t}
+** Width
 
 
-{t}Wiki{/t}
+** Wiki
 ويكي
 
-{t}WikiStyles{/t}
+** WikiStyles
 نمط الويكي
 
-{t}won't fix{/t}
+** won't fix
 لم يتم إصلاحه
 
-{t}word{/t}
+** word
 
 
-{t}Workflow{/t}
+** Workflow
 
 
-{t}Working student{/t}
+** Working student
 
 
-{t}works as expected{/t}
+** works as expected
 يعمل كما هو متوقع منه
 
-{t}works for me{/t}
+** works for me
 يعمل لأجلي
 
-{t}Workshop{/t}
+** Workshop
 ورشة
 
-{t}Workspace{/t}
+** Workspace
 فضاء العمل
 
-{t}write access{/t}
+** write access
 وصول الكتابة
 
-{t}Write access (groups){/t}
+** Write access (groups)
 وصول الكتابة (مجموعات)
 
-{t}Write access (users){/t}
+** Write access (users)
 وصول الكتابة (مستخدمين)
 
-{t}Wrong database-version (%s). Please use at least %s !{/t}
+** Wrong database-version (%s). Please use at least %s !
 إصدار قاعدة البيانات خاطئ (%s) . قم بإستعمال الإصدار %s على الأقل !
 
-{t}wrong directory{/t}
+** wrong directory
 مجلد خاطئ
 
-{t}wrong password{/t}
+** wrong password
 كلمة سر خاطئة
 
-{t}Year{/t}
+** Year
 عام
 
-{t}yearly{/t}
+** yearly
 كل عام
 
-{t}years{/t}
+** years
 
 
-{t}yellow{/t}
+** yellow
 أصفر
 
-{t}yes{/t}
+** yes
 نعم
 
-{t}You are not allowed to view this folder.{/t}
+** You are not allowed to view this folder.
 لم يتم السماح لك بمشاهدة هذا المجلد
 
-{t}Your message was read on %s.{/t}
+** Your message was read on %s.
 تم قراءة رسالتك في %s.
 
-{t}Your session has timed out.{/t}
+** Your session has timed out.
 إنتهي زمن جلستك.
 
-{t}Zipcode{/t}
+** Zipcode
 الرمز البريدي
 
-{t}{0} - {1} of {2}{/t}
+** {0} - {1} of {2}
 
 

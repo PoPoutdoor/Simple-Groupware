@@ -3,3534 +3,3534 @@
  * @license GPLv2
  */
 
-{t}!_Copyright_Language_File{/t}
+** !_Copyright_Language_File
 Copyright (C) 2007-2008 Emmanuel BAC / Emmanuel BROST / Christophe THOMAS / Laurent BARDI
 
-{t}!_Language{/t}
+** !_Language
 Français / French
 
-{t}%s is not activated{/t}
+** %s is not activated
 %s nest pas activé
 
-{t}%s is not compiled / loaded into PHP.{/t}
+** %s is not compiled / loaded into PHP.
 %s nest pas compilé / chargé dans PHP.
 
-{t}%s M memory usage{/t}
+** %s M memory usage
 
 
-{t}%s not in database{/t}
+** %s not in database
 %s nest pas dans la base de données
 
-{t}%s rows affected{/t}
+** %s rows affected
 %s colonnes modifiés
 
-{t}%s secs{/t}
+** %s secs
 %s sec
 
-{t}%s started editing this asset at %s{/t}
+** %s started editing this asset at %s
 %s a modifié cet élément à %s
 
-{t}(for active directory username must be: username@domain){/t}
+** (for active directory username must be: username@domain)
 (pour active directory, le nom dutilisateur doit être: nom_utilisateur@domaine)
 
-{t}(un)Group{/t}
+** (un)Group
 (de)Grouper
 
-{t}About{/t}
+** About
 A propos
 
-{t}Absence{/t}
+** Absence
 
 
-{t}accepted{/t}
+** accepted
 Réussi
 
-{t}Access denied.{/t}
+** Access denied.
 Accès Refusé.
 
-{t}Access to this file has been denied.{/t}
+** Access to this file has been denied.
 Laccès à ce fichier a été refusé.
 
-{t}Account{/t}
+** Account
 Compte
 
-{t}account of %s has expired{/t}
+** account of %s has expired
 le compte de %s a expiré
 
-{t}Accounting{/t}
+** Accounting
 Comptabilité
 
-{t}Activate{/t}
+** Activate
 
 
-{t}Activated{/t}
+** Activated
 Activé
 
-{t}active{/t}
+** active
 
 
-{t}Active{/t}
+** Active
 Actif
 
-{t}Ad{/t}
+** Ad
 Annonce
 
-{t}Add{/t}
+** Add
 Ajouter
 
-{t}Add a special rule{/t}
+** Add a special rule
 
 
-{t}Add to offline folders{/t}
+** Add to offline folders
 
 
-{t}added line{/t}
+** added line
 Ligne ajoutée
 
-{t}Address{/t}
+** Address
 Adresse
 
-{t}admin access{/t}
+** admin access
 acces administrateur
 
-{t}Admin access (groups){/t}
+** Admin access (groups)
 Acces Administrateur (groupes)
 
-{t}Admin access (users){/t}
+** Admin access (users)
 Acces Administrateur (utilisateurs)
 
-{t}Admin Password{/t}
+** Admin Password
 Mot de passe Administrateur
 
-{t}Admin Username{/t}
+** Admin Username
 nom dutilisateur Administrateur
 
-{t}Administration{/t}
+** Administration
 Administration
 
-{t}Advanced tables{/t}
+** Advanced tables
 Tables Avancées
 
-{t}Affected user{/t}
+** Affected user
 Utilisateur modifie
 
-{t}Affiliate{/t}
+** Affiliate
 Affiliés
 
-{t}after{/t}
+** after
 
 
-{t}Agent{/t}
+** Agent
 Agent
 
-{t}Ajax Error{/t}
+** Ajax Error
 erreur AJAX
 
-{t}All{/t}
+** All
 Tous
 
-{t}All day{/t}
+** All day
 Toute la journée
 
-{t}All events{/t}
+** All events
 Tous les événements
 
-{t}All finished tasks{/t}
+** All finished tasks
 
 
-{t}All pending tasks{/t}
+** All pending tasks
 
 
-{t}Allow custom values{/t}
+** Allow custom values
 
 
-{t}Allow disabled modules{/t}
+** Allow disabled modules
 
 
-{t}Already running latest release.{/t}
+** Already running latest release.
 Dernière mouture deja installée
 
-{t}Already voted.{/t}
+** Already voted.
 
 
-{t}Amount{/t}
+** Amount
 Quantité
 
-{t}Anchor{/t}
+** Anchor
 Ancre
 
-{t}and{/t}
+** and
 et
 
-{t}Anniversary{/t}
+** Anniversary
 Anniversaire
 
-{t}another page{/t}
+** another page
 Une autre page
 
-{t}answered{/t}
+** answered
 Repondu
 
-{t}Answers{/t}
+** Answers
 
 
-{t}Apache based (.htaccess, Basic, Digest, etc.){/t}
+** Apache based (.htaccess, Basic, Digest, etc.)
 Basé sur un module Apache (.htaccess, Basic, Digest, etc.)
 
-{t}Application title{/t}
+** Application title
 Titre de lapplication
 
-{t}Apply rights to subfolders{/t}
+** Apply rights to subfolders
 Appliquer les droits aux sous-dossiers
 
-{t}Appointment{/t}
+** Appointment
 
 
-{t}Appointments{/t}
+** Appointments
 
 
-{t}Apprenticeship{/t}
+** Apprenticeship
 
 
-{t}Apr{/t}
+** Apr
 
 
-{t}April{/t}
+** April
 Avril
 
-{t}Archive{/t}
+** Archive
 
 
-{t}Archive deleted files{/t}
+** Archive deleted files
 Archiver les fichiers effacés
 
-{t}Asset{/t}
+** Asset
 
 
-{t}Asset marked as read-only.{/t}
+** Asset marked as read-only.
 Eléments en lecture seule
 
-{t}Assets{/t}
+** Assets
 Eléments
 
-{t}Assets (children){/t}
+** Assets (children)
 Elements (sous-item)
 
-{t}Assets can be imported into multiple folders by adding the "Folder" column.{/t}
+** Assets can be imported into multiple folders by adding the "Folder" column.
 
 
-{t}Assets can be overwritten by adding the "Id" column.{/t}
+** Assets can be overwritten by adding the "Id" column.
 
 
-{t}assigned{/t}
+** assigned
 assigné
 
-{t}at least 20 characters{/t}
+** at least 20 characters
 
 
-{t}attach file{/t}
+** attach file
 Fichier attaché
 
-{t}Attachment{/t}
+** Attachment
 document attaché
 
-{t}Attachments{/t}
+** Attachments
 documents attachés
 
-{t}Attend{/t}
+** Attend
 
 
-{t}Aug{/t}
+** Aug
 
 
-{t}August{/t}
+** August
 Août
 
-{t}Authentication Mode{/t}
+** Authentication Mode
 Mode dauthentification
 
-{t}Author{/t}
+** Author
 Auteur
 
-{t}Automatically hide the menu{/t}
+** Automatically hide the menu
 
 
-{t}Automatically hide the tree{/t}
+** Automatically hide the tree
 
 
-{t}Average{/t}
+** Average
 
 
-{t}Average progress{/t}
+** Average progress
 
 
-{t}Avg length{/t}
+** Avg length
 Longueur moyenne
 
-{t}Back{/t}
+** Back
 Retour
 
-{t}Backup{/t}
+** Backup
 Sauvegarde
 
-{t}Backup current folder{/t}
+** Backup current folder
 Sauvegarde du répertoire courant
 
-{t}Backups{/t}
+** Backups
 Sauvegardes
 
-{t}Basic editing{/t}
+** Basic editing
 Edition simple
 
-{t}before{/t}
+** before
 
 
-{t}Before{/t}
+** Before
 
 
-{t}Begin{/t}
+** Begin
 Début
 
-{t}big{/t}
+** big
 Grand
 
-{t}big text{/t}
+** big text
 Texte plus grand
 
-{t}bigger{/t}
+** bigger
 Plus grand
 
-{t}Billing address{/t}
+** Billing address
 Adresse de facturation
 
-{t}Birthday{/t}
+** Birthday
 Anniversaire
 
-{t}Birthdays{/t}
+** Birthdays
 Anniversaires
 
-{t}Blank{/t}
+** Blank
 Vierge
 
-{t}blue{/t}
+** blue
 bleu
 
-{t}bold{/t}
+** bold
 Gras
 
-{t}bold italic{/t}
+** bold italic
 Gras et Italique
 
-{t}Book{/t}
+** Book
 
 
-{t}booked{/t}
+** booked
 réservé
 
-{t}Booked{/t}
+** Booked
 Réservé
 
-{t}Booking number{/t}
+** Booking number
 Numéro de réservation
 
-{t}Bookings{/t}
+** Bookings
 Réservations
 
-{t}Bookmark{/t}
+** Bookmark
 
 
-{t}Bookmarks{/t}
+** Bookmarks
 Bookmarks
 
-{t}borrowed{/t}
+** borrowed
 emprunter
 
-{t}Brand{/t}
+** Brand
 Marque
 
-{t}Brands{/t}
+** Brands
 Marques
 
-{t}Browser Compatibility{/t}
+** Browser Compatibility
 Compatibilité du navigateur
 
-{t}Browser not supported{/t}
+** Browser not supported
 Navigateur non supporté
 
-{t}Budget{/t}
+** Budget
 Budget
 
-{t}Bug{/t}
+** Bug
 Bogue
 
-{t}bulleted{/t}
+** bulleted
 Puce
 
-{t}Business{/t}
+** Business
 Affaire
 
-{t}C a n c e l{/t}
+** C a n c e l
 
 
-{t}C O N T I N U E{/t}
+** C O N T I N U E
 C O N T I N U E R
 
-{t}Cache output{/t}
+** Cache output
 Cache de sortie
 
-{t}Caches{/t}
+** Caches
 Caches
 
-{t}Calendar{/t}
+** Calendar
 Calendrier
 
-{t}Cancel{/t}
+** Cancel
 
 
-{t}canceled{/t}
+** canceled
 annulé
 
-{t}Canceled{/t}
+** Canceled
 Annulé
 
-{t}Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.{/t}
+** Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.
 impossible dappeler proc_open. Veuillez enlever proc_open de disable_functions dans php.ini et désactiver safe_mode.
 
-{t}Cannot connect to database %s on %s.{/t}
+** Cannot connect to database %s on %s.
 Impossible de se connecter à la base de données %s sur %s.
 
-{t}Cannot create preview for %s{/t}
+** Cannot create preview for %s
 Impossible de créer une prévisualisation pour %s
 
-{t}Cannot read the file %s.{/t}
+** Cannot read the file %s.
 Impossible de lire le fichier  %s.
 
-{t}Cardinality{/t}
+** Cardinality
 Cardinalité
 
-{t}Categories{/t}
+** Categories
 Categories
 
-{t}Category{/t}
+** Category
 Categorie
 
-{t}Cc{/t}
+** Cc
 Cc
 
-{t}centered{/t}
+** centered
 Centré
 
-{t}CEO{/t}
+** CEO
 PDG
 
-{t}Change request{/t}
+** Change request
 Modifier la requete
 
-{t}Change settings{/t}
+** Change settings
 Modifier la configuration
 
-{t}Change Setup settings{/t}
+** Change Setup settings
 Modifier la configuration dinstallation
 
-{t}Change summary{/t}
+** Change summary
 Sommaire des changements
 
-{t}Changed{/t}
+** Changed
 
 
-{t}changed line{/t}
+** changed line
 ligne modifiée
 
-{t}Changelog{/t}
+** Changelog
 Log de modifs
 
-{t}Chat{/t}
+** Chat
 Chat
 
-{t}Check DoS Attacks{/t}
+** Check DoS Attacks
 Verification des attaques DOS
 
-{t}checked{/t}
+** checked
 controlé
 
-{t}Checked{/t}
+** Checked
 Controlé
 
-{t}Choices{/t}
+** Choices
 
 
-{t}CIO{/t}
+** CIO
 Directeur technique
 
-{t}City{/t}
+** City
 Ville
 
-{t}Clean{/t}
+** Clean
 Nettoyer
 
-{t}Clean Cache{/t}
+** Clean Cache
 Nettoyer le cache
 
-{t}Clear{/t}
+** Clear
 Vider
 
-{t}Clear Cache{/t}
+** Clear Cache
 Vider le cache
 
-{t}Clear Data{/t}
+** Clear Data
 
 
-{t}Clear grouping{/t}
+** Clear grouping
 
 
-{t}Client{/t}
+** Client
 Client
 
-{t}Close{/t}
+** Close
 Fermer
 
-{t}Close session{/t}
+** Close session
 Fermer la session
 
-{t}closed{/t}
+** closed
 fermé
 
-{t}Closed{/t}
+** Closed
 Fermé / Terminé
 
-{t}CMS{/t}
+** CMS
 Système de gestion de composants
 
-{t}CMS homepage title{/t}
+** CMS homepage title
 
 
-{t}Collapse text{/t}
+** Collapse text
 
 
-{t}Collapse tree{/t}
+** Collapse tree
 Replier larbre
 
-{t}Color{/t}
+** Color
 Couleur
 
-{t}Column{/t}
+** Column
 
 
-{t}Column name{/t}
+** Column name
 Nom de la colonne
 
-{t}Combination{/t}
+** Combination
 
 
-{t}Comma{/t}
+** Comma
 
 
-{t}Comma separated values{/t}
+** Comma separated values
 
 
-{t}Command{/t}
+** Command
 Commande
 
-{t}Comment{/t}
+** Comment
 Commentaire
 
-{t}Comment files{/t}
+** Comment files
 Fichier de commentaires
 
-{t}Companies{/t}
+** Companies
 Sociétés
 
-{t}Company{/t}
+** Company
 Société
 
-{t}Competition{/t}
+** Competition
 Concurrence
 
-{t}Competitor{/t}
+** Competitor
 Concurrent
 
-{t}Complete{/t}
+** Complete
 
 
-{t}completed{/t}
+** completed
 
 
-{t}Completed{/t}
+** Completed
 Completé
 
-{t}Component{/t}
+** Component
 Composant
 
-{t}Compress output{/t}
+** Compress output
 Compresser la sortie
 
-{t}Confirm{/t}
+** Confirm
 
 
-{t}confirmed{/t}
+** confirmed
 confirmé
 
-{t}Connection error: %s [%s]{/t}
+** Connection error: %s [%s]
 
 
-{t}Connection to database failed.{/t}
+** Connection to database failed.
 La connexion à la base de données a échoué.
 
-{t}Console{/t}
+** Console
 
 
-{t}Console scripts{/t}
+** Console scripts
 
 
-{t}Consultant{/t}
+** Consultant
 Consultant
 
-{t}Contact{/t}
+** Contact
 Contact
 
-{t}Contact activities{/t}
+** Contact activities
 Activités du contact
 
-{t}Contact activity{/t}
+** Contact activity
 
 
-{t}Contact by{/t}
+** Contact by
 Contact par
 
-{t}Contact groups{/t}
+** Contact groups
 Groupes du contact
 
-{t}Contact id{/t}
+** Contact id
 Id du contact
 
-{t}Contact person{/t}
+** Contact person
 Contacter une personne
 
-{t}Contact user by{/t}
+** Contact user by
 Contacter l utilisateur avec
 
-{t}Contacts{/t}
+** Contacts
 Contacts
 
-{t}contains{/t}
+** contains
 contient
 
-{t}Content{/t}
+** Content
 Contenu
 
-{t}Continue{/t}
+** Continue
 Continuer
 
-{t}Contracts{/t}
+** Contracts
 
 
-{t}Copier{/t}
+** Copier
 
 
-{t}Copy{/t}
+** Copy
 Copier
 
-{t}Cost center{/t}
+** Cost center
 Centre de coût
 
-{t}Costs of accommodation{/t}
+** Costs of accommodation
 Coûts d hebergements
 
-{t}Could not determine database-version.{/t}
+** Could not determine database-version.
 Ne peut déterminer la version de la base de données.
 
-{t}Country{/t}
+** Country
 Pays
 
-{t}Create new{/t}
+** Create new
 
 
-{t}Create new folder{/t}
+** Create new folder
 
 
-{t}Created{/t}
+** Created
 Créé le
 
-{t}Creating database failed.{/t}
+** Creating database failed.
 Echec de création de la base de données.
 
-{t}current path{/t}
+** current path
 chemin courant
 
-{t}current time{/t}
+** current time
 
 
-{t}Curriculum vitae{/t}
+** Curriculum vitae
 Curriculum vitae
 
-{t}Custom schema{/t}
+** Custom schema
 
 
-{t}Customization rules\nfor modules based on sgsML{/t}
+** Customization rules\nfor modules based on sgsML
 
 
-{t}customizations{/t}
+** customizations
 
 
-{t}Customize{/t}
+** Customize
 
 
-{t}Cut{/t}
+** Cut
 Couper
 
-{t}daily{/t}
+** daily
 journalier
 
-{t}Data{/t}
+** Data
 Données
 
-{t}Data free{/t}
+** Data free
 Données libres
 
-{t}Data length{/t}
+** Data length
 Taille des données
 
-{t}Database{/t}
+** Database
 Base de données
 
-{t}Database Hostname / IP{/t}
+** Database Hostname / IP
 Hostname / IP de la base de données
 
-{t}Database Name{/t}
+** Database Name
 Nom de la base de données
 
-{t}Database Password{/t}
+** Database Password
 Mot de passe de la base de données
 
-{t}Database size{/t}
+** Database size
 
 
-{t}Database status{/t}
+** Database status
 Statut de la base de données
 
-{t}Database type{/t}
+** Database type
 
 
-{t}Database User{/t}
+** Database User
 Utilisateur de la base de données
 
-{t}Database variables{/t}
+** Database variables
 Variables de la base de données
 
-{t}Date{/t}
+** Date
 Date
 
-{t}Day{/t}
+** Day
 Jour
 
-{t}Day begin{/t}
+** Day begin
 Début de journée
 
-{t}Day end{/t}
+** Day end
 Fin de journée
 
-{t}days{/t}
+** days
 Jours
 
-{t}Deactivate{/t}
+** Deactivate
 
 
-{t}Deadline{/t}
+** Deadline
 Date limite
 
-{t}Debug{/t}
+** Debug
 Dépanner
 
-{t}Debug-dir{/t}
+** Debug-dir
 Dépannage-dir
 
-{t}Dec{/t}
+** Dec
 
 
-{t}December{/t}
+** December
 Décembre
 
-{t}Declining balance{/t}
+** Declining balance
 amortissement dégressif
 
-{t}Default{/t}
+** Default
 Défaut
 
-{t}Default function{/t}
+** Default function
 
 
-{t}Default theme{/t}
+** Default theme
 Thème par défaut
 
-{t}Default values for assets{/t}
+** Default values for assets
 
 
-{t}definition for definition lists{/t}
+** definition for definition lists
 définition pour les liste de définitions
 
-{t}Degree{/t}
+** Degree
 Degré
 
-{t}Delete{/t}
+** Delete
 Supprimer
 
-{t}Delete incl subfolders{/t}
+** Delete incl subfolders
 Supprimer les sous dossiers inclus
 
-{t}deleted{/t}
+** deleted
 éffacé
 
-{t}deleted line{/t}
+** deleted line
 effacer la ligne
 
-{t}Delivery{/t}
+** Delivery
 
 
-{t}Demand{/t}
+** Demand
 Demande
 
-{t}Demo{/t}
+** Demo
 Démonstration
 
-{t}Demonstration folder{/t}
+** Demonstration folder
 
 
-{t}Department{/t}
+** Department
 Departement
 
-{t}Departments{/t}
+** Departments
 Departements
 
-{t}Dependancies{/t}
+** Dependancies
 Dependances
 
-{t}Description{/t}
+** Description
 Description
 
-{t}Description hint{/t}
+** Description hint
 
 
-{t}Description title{/t}
+** Description title
 
 
-{t}Description value{/t}
+** Description value
 
 
-{t}Desktop computer{/t}
+** Desktop computer
 Ordinateur de bureau
 
-{t}Details{/t}
+** Details
 Details
 
-{t}Device type{/t}
+** Device type
 Type de périphérique
 
-{t}Device types{/t}
+** Device types
 Types de périphérique
 
-{t}Diagram{/t}
+** Diagram
 
 
-{t}directory does not exist.{/t}
+** directory does not exist.
 Le répertoire nexiste pas.
 
-{t}Directory is outside the allowed directory. (%s is outside %s){/t}
+** Directory is outside the allowed directory. (%s is outside %s)
 Le répertoire est à lextérieur du répertoire autorisé. (%s est en dehors de %s)
 
-{t}disable{/t}
+** disable
 
 
-{t}Disable basic authentication{/t}
+** Disable basic authentication
 Autentification simple désactivée
 
-{t}Disable cut-copy-paste{/t}
+** Disable cut-copy-paste
 
 
-{t}Disabled{/t}
+** Disabled
 
 
-{t}Disabled modules{/t}
+** Disabled modules
 
 
-{t}Display{/t}
+** Display
 Afficher
 
-{t}display filter{/t}
+** display filter
 Afficher le filtre
 
-{t}Displayname{/t}
+** Displayname
 
 
-{t}displays{/t}
+** displays
 affichages
 
-{t}Distributor{/t}
+** Distributor
 Distributeur
 
-{t}Distributors{/t}
+** Distributors
 Distributeurs
 
-{t}divorced{/t}
+** divorced
 divorcé
 
-{t}Documentation{/t}
+** Documentation
 Documentation
 
-{t}Documentation index{/t}
+** Documentation index
 Index de l aide
 
-{t}Domain{/t}
+** Domain
 Domaine
 
-{t}Don't attend{/t}
+** Don't attend
 
 
-{t}Don't move old files to 'old/'{/t}
+** Don't move old files to 'old/'
 
 
-{t}Down{/t}
+** Down
 Bas
 
-{t}Download{/t}
+** Download
 Télécharger
 
-{t}Download example file{/t}
+** Download example file
 
 
-{t}Downloading extension list{/t}
+** Downloading extension list
 
 
-{t}Downloading update list{/t}
+** Downloading update list
 Téléchargement de la liste des mises a jour
 
-{t}Drag and drop files or URLs here.{/t}
+** Drag and drop files or URLs here.
 
 
-{t}duplicate{/t}
+** duplicate
 dupliquer
 
-{t}Duration{/t}
+** Duration
 Durée
 
-{t}E-mail{/t}
+** E-mail
 Courriel
 
-{t}E-mail private{/t}
+** E-mail private
 Courriel (privé)
 
-{t}E-mail program{/t}
+** E-mail program
 Logiciel de courriel
 
-{t}e.g.{/t}
+** e.g.
 par exemple
 
-{t}Edit{/t}
+** Edit
 Modifier
 
-{t}Edit as new{/t}
+** Edit as new
 marquer comme nouveau
 
-{t}Edit rights{/t}
+** Edit rights
 Modifier les droits
 
-{t}Editable if hidden in all views{/t}
+** Editable if hidden in all views
 
 
-{t}Editor{/t}
+** Editor
 Editeur
 
-{t}Emphasis{/t}
+** Emphasis
 Mettre l accent sur
 
-{t}Empty{/t}
+** Empty
 Vide
 
-{t}Empty folder{/t}
+** Empty folder
 Dossier vide
 
-{t}en{/t}
+** en
 fr
 
-{t}Enable anonymous access{/t}
+** Enable anonymous access
 Autoriser les accès anonymes
 
-{t}Enable anonymous CMS{/t}
+** Enable anonymous CMS
 Autoriser le CMS anonymes
 
-{t}Enable automatic user creation{/t}
+** Enable automatic user creation
 Autoriser la création automatique de l utilisateur
 
-{t}Enable external mail client for 'mailto:' links{/t}
+** Enable external mail client for 'mailto:' links
 Autoriser l utilisation de logiciel de courriel externe pour les liens mailto:
 
-{t}Enable self registration{/t}
+** Enable self registration
 
 
-{t}Enable Sync4j / Funambol{/t}
+** Enable Sync4j / Funambol
 
 
-{t}Enable WebDAV{/t}
+** Enable WebDAV
 
 
-{t}End{/t}
+** End
 Fin
 
-{t}engaged{/t}
+** engaged
 Concubin
 
-{t}equal{/t}
+** equal
 égal
 
-{t}Error{/t}
+** Error
 Erreur
 
-{t}Error doing request to xmlhttp{/t}
+** Error doing request to xmlhttp
 Erreur de requête xmlhttp
 
-{t}Error moving file{/t}
+** Error moving file
 Erreur de déplacement de fichier
 
-{t}Error pasting asset{/t}
+** Error pasting asset
 Erreur de collage d élement
 
-{t}Error: no credentials{/t}
+** Error: no credentials
 Erreur: pas de données dautentification
 
-{t}Events{/t}
+** Events
 Evènements
 
-{t}Example{/t}
+** Example
 Exemple
 
-{t}Example contacts{/t}
+** Example contacts
 Exemple de contacts
 
-{t}Example surveys can be found at:{/t}
+** Example surveys can be found at:
 
 
-{t}Example without mountpoint{/t}
+** Example without mountpoint
 Exemple sans point de montage
 
-{t}Examples{/t}
+** Examples
 
 
-{t}Execute{/t}
+** Execute
 Exécuter
 
-{t}Expenses{/t}
+** Expenses
 Dépenses
 
-{t}Experimental{/t}
+** Experimental
 Experimental
 
-{t}Expires{/t}
+** Expires
 Expire le
 
-{t}Expiry{/t}
+** Expiry
 Echéance
 
-{t}Extended{/t}
+** Extended
 
 
-{t}Extensions{/t}
+** Extensions
 
 
-{t}Extracting files{/t}
+** Extracting files
 Extraction des fichiers
 
-{t}F j{/t}
+** F j
 j F
 
-{t}F j, Y{/t}
+** F j, Y
 j F Y
 
-{t}Failed to create directory: %s{/t}
+** Failed to create directory: %s
 Echec de création de répertoire: %s
 
-{t}Failed to write file to disk.{/t}
+** Failed to write file to disk.
 Echec décriture sur le disque
 
-{t}Failed to write into %s{/t}
+** Failed to write into %s
 Echec décriture dans %s
 
-{t}Family status{/t}
+** Family status
 Statut familial
 
-{t}FAQ{/t}
+** FAQ
 FAQ
 
-{t}Favorites{/t}
+** Favorites
 Favoris
 
-{t}Fax{/t}
+** Fax
 Fax
 
-{t}Fax private{/t}
+** Fax private
 
 
-{t}Feature request{/t}
+** Feature request
 Demande de fonctionalités
 
-{t}Feb{/t}
+** Feb
 
 
-{t}February{/t}
+** February
 Fevrier
 
-{t}Feed{/t}
+** Feed
 
 
-{t}female{/t}
+** female
 Feminin
 
-{t}Field{/t}
+** Field
 Champ
 
-{t}Field contains value{/t}
+** Field contains value
 
 
-{t}Field customization{/t}
+** Field customization
 
 
-{t}Field is equal to value{/t}
+** Field is equal to value
 
 
-{t}Fields{/t}
+** Fields
 
 
-{t}File{/t}
+** File
 fichier
 
-{t}file is too big. Please change upload_max_filesize, post_max_size in your php.ini{/t}
+** file is too big. Please change upload_max_filesize, post_max_size in your php.ini
 Le fichier est trop gros. Modifiez les valeurs de upload_max_filesize et post_max_size dans votre php.ini
 
-{t}file is too big. Please upload a smaller one.{/t}
+** file is too big. Please upload a smaller one.
 Le fichier est trop gros. Téléchargez en un plus petit.
 
-{t}file not found in database.{/t}
+** file not found in database.
 le fichier n a pas été trouvé dans la base de données.
 
-{t}file not found.{/t}
+** file not found.
 fichier non trouvé.
 
-{t}file was uploaded partially.{/t}
+** file was uploaded partially.
 le fichier a été partiellement téléchargé
 
-{t}Filename must have the right extension. Valid extensions are %s{/t}
+** Filename must have the right extension. Valid extensions are %s
 Le nom du fichier doit avoir la bonne extension. Les extensions valides sont (%s).
 
-{t}Files{/t}
+** Files
 Fichiers
 
-{t}Filesystem{/t}
+** Filesystem
 Fichier systeme
 
-{t}Filter{/t}
+** Filter
 Filtre
 
-{t}Find assets in multiple folders{/t}
+** Find assets in multiple folders
 Chercher les élements dans de multiples dossiers
 
-{t}Finish scheduled{/t}
+** Finish scheduled
 Planification terminée
 
-{t}Finished{/t}
+** Finished
 Terminé
 
-{t}First in list{/t}
+** First in list
 Premier dans la liste
 
-{t}first level support{/t}
+** first level support
 
 
-{t}First name{/t}
+** First name
 Prénom
 
-{t}Fix paging bar to page bottom{/t}
+** Fix paging bar to page bottom
 
 
-{t}fixed{/t}
+** fixed
 Corrigé
 
-{t}Flags{/t}
+** Flags
 Drapeaux
 
-{t}Flash plugin not installed.{/t}
+** Flash plugin not installed.
 
 
-{t}Folder{/t}
+** Folder
 Dossier
 
-{t}Folder already exists.{/t}
+** Folder already exists.
 Le dossier existe deja.
 
-{t}Folder created.{/t}
+** Folder created.
 
 
-{t}Folder has changed.{/t}
+** Folder has changed.
 
 
-{t}Folder icon{/t}
+** Folder icon
 
 
-{t}Folder not found.{/t}
+** Folder not found.
 
 
-{t}Folder refresh period{/t}
+** Folder refresh period
 
 
-{t}Folder structure{/t}
+** Folder structure
 
 
-{t}Folder structure created.{/t}
+** Folder structure created.
 Structure de dossiers crée.
 
-{t}Folder structure moved to trash.{/t}
+** Folder structure moved to trash.
 Structure de dossiers envoyé a la poubelle.
 
-{t}Folder Type{/t}
+** Folder Type
 Type de dossier
 
-{t}Folder with ID %s{/t}
+** Folder with ID %s
 
 
-{t}Folders{/t}
+** Folders
 Dossiers
 
-{t}for a new paragraph, use a blank line{/t}
+** for a new paragraph, use a blank line
 pour une nouveau paragraphe utilisez une nouvelle ligne
 
-{t}Force SSL{/t}
+** Force SSL
 Forcer SSL
 
-{t}Form{/t}
+** Form
 
 
-{t}Forum{/t}
+** Forum
 Forum
 
-{t}Forward{/t}
+** Forward
 Transmettre
 
-{t}Fr{/t}
+** Fr
 Ve
 
-{t}Free/busy{/t}
+** Free/busy
 Libre/Occupé
 
-{t}Freelance{/t}
+** Freelance
 
 
-{t}Fri{/t}
+** Fri
 Ven
 
-{t}Friday{/t}
+** Friday
 Vendredi
 
-{t}From{/t}
+** From
 De
 
-{t}Full screen{/t}
+** Full screen
 
 
-{t}Full texts{/t}
+** Full texts
 
 
-{t}Full time{/t}
+** Full time
 
 
-{t}Full width{/t}
+** Full width
 Largeur complète
 
-{t}Fulltext index{/t}
+** Fulltext index
 
 
-{t}Funambol only works with MySQL and PostgreSQL.{/t}
+** Funambol only works with MySQL and PostgreSQL.
 
 
-{t}Function does not exist: %s{/t}
+** Function does not exist: %s
 La fonction %s n existe pas.
 
-{t}g:i a{/t}
+** g:i a
 H:i
 
-{t}Gender{/t}
+** Gender
 Genre
 
-{t}General{/t}
+** General
 Genéral
 
-{t}Generate{/t}
+** Generate
 Genérer
 
-{t}Gifts{/t}
+** Gifts
 Cadeaux
 
-{t}Give Feedback{/t}
+** Give Feedback
 Feedback
 
-{t}GNU GPL Frequently Asked Questions{/t}
+** GNU GPL Frequently Asked Questions
 GNU GPL FAQ
 
-{t}greater than{/t}
+** greater than
 plus grand que
 
-{t}green{/t}
+** green
 vert
 
-{t}Group{/t}
+** Group
 Groupe
 
-{t}Group created.{/t}
+** Group created.
 
 
-{t}Group deactivated.{/t}
+** Group deactivated.
 
 
-{t}Groupname{/t}
+** Groupname
 Nom du groupe
 
-{t}Groups{/t}
+** Groups
 Groupes
 
-{t}hanging text{/t}
+** hanging text
 Texte en cours
 
-{t}Hardware{/t}
+** Hardware
 Matériel
 
-{t}Headers{/t}
+** Headers
 En tête
 
-{t}heading{/t}
+** heading
 Tête de chapitre
 
-{t}headings{/t}
+** headings
 Têtes de chapitres
 
-{t}Height{/t}
+** Height
 Hauteur
 
-{t}Help{/t}
+** Help
 Aide
 
-{t}Helpdesk{/t}
+** Helpdesk
 Centre d aide
 
-{t}Hidden in{/t}
+** Hidden in
 
 
-{t}Hidden in all views{/t}
+** Hidden in all views
 
 
-{t}Hide{/t}
+** Hide
 
 
-{t}hide in all views{/t}
+** hide in all views
 
 
-{t}hide in this view{/t}
+** hide in this view
 
 
-{t}History{/t}
+** History
 Historique
 
-{t}Holiday{/t}
+** Holiday
 Vacances
 
-{t}Home{/t}
+** Home
 Accueil
 
-{t}Home folder id{/t}
+** Home folder id
 
 
-{t}Home page in the CMS{/t}
+** Home page in the CMS
 Page d accueil dans le CMS
 
-{t}Homepage{/t}
+** Homepage
 Page daccueil
 
-{t}horizontal line{/t}
+** horizontal line
 ligne horizontale
 
-{t}Host{/t}
+** Host
 Hôte
 
-{t}Hosts{/t}
+** Hosts
 Hôtes
 
-{t}Hour{/t}
+** Hour
 
 
-{t}hours{/t}
+** hours
 Heures
 
-{t}Hours per week{/t}
+** Hours per week
 
 
-{t}HTML document{/t}
+** HTML document
 
 
-{t}HTML documents{/t}
+** HTML documents
 documents HTML
 
-{t}http://www.pmwiki.org/PmWiki/{/t}
+** http://www.pmwiki.org/PmWiki/
 http://www.pmwiki.org/PmWikiFr/
 
-{t}Human resources{/t}
+** Human resources
 
 
-{t}I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2{/t}
+** I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2
 Jaccepte la GNU GENERAL PUBLIC LICENSE VERSION 2
 
-{t}I m p o r t{/t}
+** I m p o r t
 
 
-{t}I n s t a l l{/t}
+** I n s t a l l
 I n s t a l l e r
 
-{t}Icon{/t}
+** Icon
 
 
-{t}Id{/t}
+** Id
 Id
 
-{t}Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
 Id ne doit pas etre nul, en minuscule, min 3 carateres max 128 de valeurs [a-z0-9_-@.].
 
-{t}Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].
 Id ne doit pas etre nul, min 3 carateres max 128 de valeurs [a-z0-9_-@.].
 
-{t}Ideas{/t}
+** Ideas
 Idées
 
-{t}If empty, the SMTP connection from the module users will be used.{/t}
+** If empty, the SMTP connection from the module users will be used.
 Si elle nest pas renseignée, la connexion SMTP du module utilisateur sera utilisée.
 
-{t}If file system permissions are ok, please check the configurations of %s if present.{/t}
+** If file system permissions are ok, please check the configurations of %s if present.
 
 
-{t}if not autodetected with namingContexts{/t}
+** if not autodetected with namingContexts
 si non détecté avec le contexte nominal
 
-{t}If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.{/t}
+** If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.
 
 
-{t}If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.{/t}
+** If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.
 Si le nom dutilisateur  ou le mot de passe contient le caractère &quot;@&quot;, remplacez le par &quot;%%&quot;.
 
-{t}Illness{/t}
+** Illness
 
 
-{t}Im-/Export{/t}
+** Im-/Export
 Import/Export
 
-{t}Image{/t}
+** Image
 Image
 
-{t}Images{/t}
+** Images
 Images
 
-{t}Imap-error: %s{/t}
+** Imap-error: %s
 Erreur Imap: %s
 
-{t}immediate{/t}
+** immediate
 immédiat
 
-{t}Import{/t}
+** Import
 Importer
 
-{t}In progress{/t}
+** In progress
 En progression
 
-{t}in repair{/t}
+** in repair
 en réparation
 
-{t}in stock{/t}
+** in stock
 en stock
 
-{t}Inactive{/t}
+** Inactive
 Inactif
 
-{t}Include in RSS feed{/t}
+** Include in RSS feed
 Inclure dans le flux RSS
 
-{t}Include page{/t}
+** Include page
 
 
-{t}indent text{/t}
+** indent text
 Indetation du texte
 
-{t}Index{/t}
+** Index
 Index
 
-{t}Index length{/t}
+** Index length
 Taille de lindex
 
-{t}Index type{/t}
+** Index type
 Type dindex
 
-{t}Indexes{/t}
+** Indexes
 Index
 
-{t}Industry{/t}
+** Industry
 Industrie
 
-{t}Info{/t}
+** Info
 Information
 
-{t}inheritance to subfolders without default values{/t}
+** inheritance to subfolders without default values
 
 
-{t}Input field{/t}
+** Input field
 
 
-{t}Input field height{/t}
+** Input field height
 
 
-{t}Insert{/t}
+** Insert
 Inserer
 
-{t}inserted{/t}
+** inserted
 inseré
 
-{t}Install default folder structure{/t}
+** Install default folder structure
 
 
-{t}Install demo folders{/t}
+** Install demo folders
 
 
-{t}Install minimal folder structure{/t}
+** Install minimal folder structure
 
 
-{t}installed{/t}
+** installed
 
 
-{t}insufficient folder rights{/t}
+** insufficient folder rights
 Permissions sur le répertoire insuffisantes
 
-{t}Internal recommendation{/t}
+** Internal recommendation
 Recommendation interne
 
-{t}Intranet{/t}
+** Intranet
 
 
-{t}Intro{/t}
+** Intro
 Introduction
 
-{t}invalid{/t}
+** invalid
 Faux
 
-{t}Invalid file extensions{/t}
+** Invalid file extensions
 
 
-{t}Invalid schema mode '%s'{/t}
+** Invalid schema mode '%s'
 
 
-{t}Invalid security token{/t}
+** Invalid security token
 
 
-{t}Inventory{/t}
+** Inventory
 Inventaire
 
-{t}Inventory number{/t}
+** Inventory number
 numéro dinventaire
 
-{t}Investor{/t}
+** Investor
 Investisseur
 
-{t}Invoice{/t}
+** Invoice
 Rappel
 
-{t}italic{/t}
+** italic
 italique
 
-{t}Item created by %s at %s{/t}
+** Item created by %s at %s
 Item créé par %s à %s
 
-{t}Item deleted by %s at %s{/t}
+** Item deleted by %s at %s
 Item supprimé par %s à %s
 
-{t}Item edited (%s) by %s at %s{/t}
+** Item edited (%s) by %s at %s
 Item édité (%s) par %s à %s
 
-{t}Item not found.{/t}
+** Item not found.
 Objet non trouvé.
 
-{t}Item successfully created.{/t}
+** Item successfully created.
 Objet créé avec succés.
 
-{t}Item successfully updated.{/t}
+** Item successfully updated.
 Objet actualisé avec succés.
 
-{t}Item(s) not found or access denied.{/t}
+** Item(s) not found or access denied.
 Objet non trouvé ou accès refusé.
 
-{t}Jan{/t}
+** Jan
 
 
-{t}January{/t}
+** January
 Janvier
 
-{t}Job description{/t}
+** Job description
 Description de lemploi
 
-{t}Join lines{/t}
+** Join lines
 Fusionner les lignes
 
-{t}Jul{/t}
+** Jul
 
 
-{t}July{/t}
+** July
 Juillet
 
-{t}Jun{/t}
+** Jun
 
 
-{t}June{/t}
+** June
 Juin
 
-{t}Key{/t}
+** Key
 Clé
 
-{t}Key customer{/t}
+** Key customer
 clé client
 
-{t}Key name{/t}
+** Key name
 Nom de la clé
 
-{t}Keywords{/t}
+** Keywords
 Mots clefs
 
-{t}Knowledge base{/t}
+** Knowledge base
 Base de connaissance
 
-{t}L o g i n{/t}
+** L o g i n
 V a l i d e r
 
-{t}l, F j, Y{/t}
+** l, F j, Y
 l, j F Y
 
-{t}Last access{/t}
+** Last access
 Dernier accès
 
-{t}Last name{/t}
+** Last name
 Nom de Famille
 
-{t}LDAP anonymous connection failed.{/t}
+** LDAP anonymous connection failed.
 Echec de connexion anonyme LDAP.
 
-{t}LDAP attribute for group memberships{/t}
+** LDAP attribute for group memberships
 Attribut LDAP pour l appartenance aux groupes
 
-{t}LDAP attribute for rooms{/t}
+** LDAP attribute for rooms
 Attribut LDAP pour les pieces
 
-{t}LDAP attribute for usernames{/t}
+** LDAP attribute for usernames
 Attribut LDAP pour le nom d utilisateur
 
-{t}LDAP connection to host %s failed.{/t}
+** LDAP connection to host %s failed.
 La connection LDAP à lhôte %s a échoué.
 
-{t}LDAP without anonymous access{/t}
+** LDAP without anonymous access
 LDAP sans accès anonyme
 
-{t}LDAP: no base DN given{/t}
+** LDAP: no base DN given
 LDAP: pas de base DN
 
-{t}LDAP: no UID given{/t}
+** LDAP: no UID given
 
 
-{t}Leave of absence{/t}
+** Leave of absence
 
 
-{t}less promising{/t}
+** less promising
 Moins prometteur
 
-{t}lesser than{/t}
+** lesser than
 plus petit que
 
-{t}Letter{/t}
+** Letter
 Lettre
 
-{t}Level{/t}
+** Level
 Niveau
 
-{t}License{/t}
+** License
 Licence
 
-{t}line{/t}
+** line
 
 
-{t}Line break{/t}
+** Line break
 Saut de ligne
 
-{t}Link{/t}
+** Link
 Lien
 
-{t}Link restricted{/t}
+** Link restricted
 Lien restreint
 
-{t}link text{/t}
+** link text
 Texte lié
 
-{t}link to external page{/t}
+** link to external page
 Lien vers une page externe
 
-{t}link to internal page{/t}
+** link to internal page
 Lien vers une page interne
 
-{t}Links{/t}
+** Links
 Liens
 
-{t}Lists{/t}
+** Lists
 Listes
 
-{t}Load external images{/t}
+** Load external images
 
 
-{t}Location{/t}
+** Location
 Lieu
 
-{t}Locations{/t}
+** Locations
 Lieux
 
-{t}Lock{/t}
+** Lock
 Verrouiller
 
-{t}Locked by{/t}
+** Locked by
 Verrouiller par
 
-{t}Locking{/t}
+** Locking
 Verrouillage
 
-{t}login %s from %s with %s{/t}
+** login %s from %s with %s
 Login %s de %s avec %s
 
-{t}Login failed from %s.{/t}
+** Login failed from %s.
 Login %s: echec .
 
-{t}Login/-out{/t}
+** Login/-out
 Dé/Connecter
 
-{t}Logins{/t}
+** Logins
 Logins
 
-{t}Logout{/t}
+** Logout
 
 
-{t}logout %s{/t}
+** logout %s
 déconnecter %s
 
-{t}Lookup{/t}
+** Lookup
 Chercher
 
-{t}low{/t}
+** low
 basse
 
-{t}lowest{/t}
+** lowest
 la plus basse
 
-{t}M j{/t}
+** M j
 j M
 
-{t}M j, g:i a{/t}
+** M j, g:i a
 j M, H:i
 
-{t}M j, Y{/t}
+** M j, Y
 j M Y
 
-{t}m/d/Y{/t}
+** m/d/Y
 d/m/Y
 
-{t}m/d/Y g:i a{/t}
+** m/d/Y g:i a
 d/m/Y H:i
 
-{t}m/d/y g:i:s a{/t}
+** m/d/y g:i:s a
 d/m/Y H:i:s
 
-{t}magenta{/t}
+** magenta
 magenta
 
-{t}mail footer{/t}
+** mail footer
 Pied de page dE-Mail
 
-{t}Mail identities{/t}
+** Mail identities
 Identités dE-mail
 
-{t}mail notification{/t}
+** mail notification
 Notification de courriel
 
-{t}mail reminder{/t}
+** mail reminder
 Rappel courriel
 
-{t}Main menu{/t}
+** Main menu
 Menu principal
 
-{t}Main page{/t}
+** Main page
 
 
-{t}Maintenance mode{/t}
+** Maintenance mode
 Mode de maintenance
 
-{t}male{/t}
+** male
 masculin
 
-{t}Man-days{/t}
+** Man-days
 Homme/jours
 
-{t}Man-days planned{/t}
+** Man-days planned
 Homme/jours planifié
 
-{t}Manage offline folders{/t}
+** Manage offline folders
 
 
-{t}Manager{/t}
+** Manager
 Responsable
 
-{t}Manufacturer{/t}
+** Manufacturer
 Fabricant
 
-{t}Mar{/t}
+** Mar
 
 
-{t}March{/t}
+** March
 Mars
 
-{t}Marketing event{/t}
+** Marketing event
 Evenement marketing
 
-{t}married{/t}
+** married
 marrié
 
-{t}Maximize{/t}
+** Maximize
 Agrandir
 
-{t}Maximum file size{/t}
+** Maximum file size
 
 
-{t}Maximum number of assets per page{/t}
+** Maximum number of assets per page
 
 
-{t}maximum number of files exceeded.{/t}
+** maximum number of files exceeded.
 Nombre maximal de fichiers dépassé.
 
-{t}May{/t}
+** May
 Mai
 
-{t}Media{/t}
+** Media
 Media
 
-{t}Meeting{/t}
+** Meeting
 Réunion
 
-{t}Members{/t}
+** Members
 Membres
 
-{t}Memory limit{/t}
+** Memory limit
 
 
-{t}Merge folders permanently{/t}
+** Merge folders permanently
 Fusion des repertoires permanente
 
-{t}Merged folders{/t}
+** Merged folders
 repertoires fusionnés
 
-{t}Message{/t}
+** Message
 Message
 
-{t}Messages{/t}
+** Messages
 
 
-{t}Milestone{/t}
+** Milestone
 
 
-{t}min{/t}
+** min
 min
 
-{t}Minimize{/t}
+** Minimize
 Réduire
 
-{t}minimum = 15 secs, 0 = disabled{/t}
+** minimum = 15 secs, 0 = disabled
 minimum = 15 secs, 0 = désactivé
 
-{t}Miscellaneous{/t}
+** Miscellaneous
 Divers
 
-{t}missing a temporary folder.{/t}
+** missing a temporary folder.
 dossier temporaire manquant
 
-{t}missing field{/t}
+** missing field
 champ manquant
 
-{t}missing right: %s{/t}
+** missing right: %s
 droit manquant: %s
 
-{t}Mo{/t}
+** Mo
 Lu
 
-{t}Mobile{/t}
+** Mobile
 Portable
 
-{t}Model{/t}
+** Model
 Modèle
 
-{t}Modified{/t}
+** Modified
 Modifié
 
-{t}Modified by{/t}
+** Modified by
 Modifié par
 
-{t}Modifying database failed.{/t}
+** Modifying database failed.
 Echec de la modification de la base de données.
 
-{t}Module{/t}
+** Module
 Module
 
-{t}Module disabled.{/t}
+** Module disabled.
 
 
-{t}Modules{/t}
+** Modules
 Modules
 
-{t}Mon{/t}
+** Mon
 Lun
 
-{t}Monday{/t}
+** Monday
 Lundi
 
-{t}monospace{/t}
+** monospace
 monospace
 
-{t}Month{/t}
+** Month
 Mois
 
-{t}monthly{/t}
+** monthly
 mensuel
 
-{t}months{/t}
+** months
 mois
 
-{t}More information about the GNU GPL{/t}
+** More information about the GNU GPL
 Plus dinformation à propos de GNU GPL
 
-{t}Mountpoint{/t}
+** Mountpoint
 Point de montage
 
-{t}Move{/t}
+** Move
 Déplacer
 
-{t}Move to subfolder 'Archive'{/t}
+** Move to subfolder 'Archive'
 
 
-{t}Multiple{/t}
+** Multiple
 
 
-{t}Multiple choice{/t}
+** Multiple choice
 
 
-{t}My appointments{/t}
+** My appointments
 Mes rendez vous
 
-{t}My tasks{/t}
+** My tasks
 Mes travaux
 
-{t}Name{/t}
+** Name
 Nom
 
-{t}Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
 Le nom doit être en minuscule, comporter au min 3 caractères et au max 128. Caractères autorisés [a-z0-9_-@.].
 
-{t}Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].{/t}
+** Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].
 Le nom doit comporter au min 3 caractères .Caractères autorisés [a-zA-Z0-9-_.].
 
-{t}need feedback{/t}
+** need feedback
 Bbesoin dun retour dinformations
 
-{t}Network{/t}
+** Network
 Reseau
 
-{t}Never expires{/t}
+** Never expires
 Nexpire jamais
 
-{t}New{/t}
+** New
 Nouveau
 
-{t}New folder{/t}
+** New folder
 Nouveau dossier
 
-{t}News{/t}
+** News
 Nouvelles
 
-{t}Next recurrences{/t}
+** Next recurrences
 
 
-{t}Nickname{/t}
+** Nickname
 Surnom
 
-{t}Nightwork{/t}
+** Nightwork
 Travail de nuit
 
-{t}no{/t}
+** no
 non
 
-{t}No dataset selected.{/t}
+** No dataset selected.
 Aucun jeu de données selectionné
 
-{t}No entries found.{/t}
+** No entries found.
 Aucune entrée trouvée.
 
-{t}No file was uploaded{/t}
+** No file was uploaded
 
 
-{t}No line breaks{/t}
+** No line breaks
 
 
-{t}no result{/t}
+** no result
 pas de retour
 
-{t}No search index{/t}
+** No search index
 
 
-{t}No sender specified.{/t}
+** No sender specified.
 Expéditeur non spécifié.
 
-{t}no username submitted{/t}
+** no username submitted
 Nom dutilisateur manquant
 
-{t}No username/password.{/t}
+** No username/password.
 
 
-{t}No wrap{/t}
+** No wrap
 
 
-{t}Non unique{/t}
+** Non unique
 Non unique
 
-{t}none{/t}
+** none
 aucun
 
-{t}normal{/t}
+** normal
 normal
 
-{t}Not allowed. Please log in as super administrator.{/t}
+** Not allowed. Please log in as super administrator.
 Non autorisé. Vous devez vous loguer en tant que super-administrateur.
 
-{t}not contains{/t}
+** not contains
 ne contient pas
 
-{t}not equal{/t}
+** not equal
 non égal
 
-{t}Not in{/t}
+** Not in
 
 
-{t}Not in database{/t}
+** Not in database
 
 
-{t}not installed{/t}
+** not installed
 
 
-{t}Note{/t}
+** Note
 
 
-{t}Notebook{/t}
+** Notebook
 
 
-{t}Notes{/t}
+** Notes
 Notes
 
-{t}Notificaiton sent to: %s{/t}
+** Notificaiton sent to: %s
 Notification envoyé à: %s
 
-{t}Notification{/t}
+** Notification
 Notification
 
-{t}Notification summary{/t}
+** Notification summary
 Sommaire des notifications
 
-{t}Notifications{/t}
+** Notifications
 
 
-{t}Nov{/t}
+** Nov
 
 
-{t}November{/t}
+** November
 Novembre
 
-{t}Null{/t}
+** Null
 Nul (zéro)
 
-{t}Number of employees{/t}
+** Number of employees
 Nombre demployés
 
-{t}numbered{/t}
+** numbered
 numéroté
 
-{t}Objectives{/t}
+** Objectives
 Objectifs
 
-{t}Oct{/t}
+** Oct
 
 
-{t}October{/t}
+** October
 Octobre
 
-{t}of {0}{/t}
+** of {0}
 
 
-{t}offer{/t}
+** offer
 
 
-{t}Offer{/t}
+** Offer
 
 
-{t}Office{/t}
+** Office
 Bureau
 
-{t}Office program{/t}
+** Office program
 Logiciels de bureau
 
-{t}Offices{/t}
+** Offices
 Bureaux
 
-{t}offline{/t}
+** offline
 déconnecté
 
-{t}Offline folders{/t}
+** Offline folders
 
 
-{t}Offline reading{/t}
+** Offline reading
 
 
-{t}Ok{/t}
+** Ok
 Ok
 
-{t}one of{/t}
+** one of
 
 
-{t}online{/t}
+** online
 en ligne
 
-{t}Only for this folder{/t}
+** Only for this folder
 
 
-{t}Only in{/t}
+** Only in
 
 
-{t}open{/t}
+** open
 
 
-{t}Open{/t}
+** Open
 Ouvert / En cours
 
-{t}Operating system{/t}
+** Operating system
 OS Système
 
-{t}Operation not allowed. (Data loss protection){/t}
+** Operation not allowed. (Data loss protection)
 Opération non autorisée. (Protection contre la perte de données)
 
-{t}Optimize Tables{/t}
+** Optimize Tables
 Optimisation des tables
 
-{t}Options{/t}
+** Options
 Options
 
-{t}or{/t}
+** or
 ou
 
-{t}or higher{/t}
+** or higher
 ou plus
 
-{t}orange{/t}
+** orange
 orange
 
-{t}Order size{/t}
+** Order size
 Ordre de taille
 
-{t}Organisation{/t}
+** Organisation
 Organisation
 
-{t}Organizer{/t}
+** Organizer
 Organiseur
 
-{t}Origin{/t}
+** Origin
 Origine
 
-{t}Original message{/t}
+** Original message
 Message original
 
-{t}Other{/t}
+** Other
 Autre
 
-{t}out of office{/t}
+** out of office
 absent du bureau
 
-{t}Outline image{/t}
+** Outline image
 image densemble
 
-{t}Output{/t}
+** Output
 Sortie
 
-{t}Output empty: %s{/t}
+** Output empty: %s
 
 
-{t}overlap{/t}
+** overlap
 chevauchement
 
-{t}Overtime{/t}
+** Overtime
 Dépassement horaire
 
-{t}Overtime compensation per hour{/t}
+** Overtime compensation per hour
 
 
-{t}Owner{/t}
+** Owner
 Propriétaire
 
-{t}Owner since{/t}
+** Owner since
 Propriétaire depuis
 
-{t}Package from local file system (.tar.gz){/t}
+** Package from local file system (.tar.gz)
 paquet situé sur les disques locaux (.tar.gz)
 
-{t}Packed{/t}
+** Packed
 empaquetté
 
-{t}Page{/t}
+** Page
 Page
 
-{t}Page last modified on{/t}
+** Page last modified on
 
 
-{t}Page name (URL){/t}
+** Page name (URL)
 Nom de la page (URL)
 
-{t}Page not found{/t}
+** Page not found
 Page non trouvée
 
-{t}Page title{/t}
+** Page title
 Titre de la page
 
-{t}Pager{/t}
+** Pager
 Pager
 
-{t}Paid{/t}
+** Paid
 
 
-{t}Paid holidays{/t}
+** Paid holidays
 
 
-{t}Paragraphs{/t}
+** Paragraphs
 Paragraphes
 
-{t}parameters{/t}
+** parameters
 paramètres
 
-{t}Parameters{/t}
+** Parameters
 Paramètres
 
-{t}Parent folder{/t}
+** Parent folder
 
 
-{t}Parsing{/t}
+** Parsing
 Complilation
 
-{t}Part time{/t}
+** Part time
 
 
-{t}Participants{/t}
+** Participants
 Participants
 
-{t}Participants (external){/t}
+** Participants (external)
 Participants (externes)
 
-{t}Participants (internal){/t}
+** Participants (internal)
 Participants (internes)
 
-{t}Password{/t}
+** Password
 Mot de passe
 
-{t}Password expired. (password of %s has expired){/t}
+** Password expired. (password of %s has expired)
 Mot de passe expiré. (Mot de passe de %s expiré)
 
-{t}Password expires{/t}
+** Password expires
 Mot de passe expire
 
-{t}Password must be not null, min 5 characters.{/t}
+** Password must be not null, min 5 characters.
 Le mot de passe doit contenir au minimum 5 caractères.
 
-{t}password not confirmed.{/t}
+** password not confirmed.
 Mot de passe non confirmé.
 
-{t}Passwords{/t}
+** Passwords
 Mots de passe
 
-{t}Paste{/t}
+** Paste
 Coller
 
-{t}Path{/t}
+** Path
 Chemin
 
-{t}Pause{/t}
+** Pause
 Pause
 
-{t}Payroll{/t}
+** Payroll
 
 
-{t}Permissions{/t}
+** Permissions
 Permissions
 
-{t}Permissions added for: %s{/t}
+** Permissions added for: %s
 Permissions ajoutées pour: %s
 
-{t}Personal{/t}
+** Personal
 Personnel
 
-{t}Personal department{/t}
+** Personal department
 Département du personnel
 
-{t}Personal folders{/t}
+** Personal folders
 Dossiers personnel
 
-{t}Personal projects{/t}
+** Personal projects
 Projets personnel
 
-{t}Phone{/t}
+** Phone
 Téléphone
 
-{t}Phone calls{/t}
+** Phone calls
 Appels téléphoniques
 
-{t}Phone private{/t}
+** Phone private
 Téléphone privé
 
-{t}Photo{/t}
+** Photo
 Photo
 
-{t}Photo gallery{/t}
+** Photo gallery
 Gallerie de photos
 
-{t}Planned{/t}
+** Planned
 Plannifié
 
-{t}Please activate cookies.{/t}
+** Please activate cookies.
 Activer les cookies.
 
-{t}Please choose Apache as Web-Server.{/t}
+** Please choose Apache as Web-Server.
 Choisissez Apache comme Serveur web.
 
-{t}Please enable Javascript in your browser.{/t}
+** Please enable Javascript in your browser.
 
 
-{t}Please enter a valid url.{/t}
+** Please enter a valid url.
 Entrez une URL valide.
 
-{t}Please give read access to %s{/t}
+** Please give read access to %s
 Donnez l accès en lecture à %s
 
-{t}Please give write access to %s{/t}
+** Please give write access to %s
 Donnez laccès en écriture à %s
 
-{t}Please give write access to %s and %s{/t}
+** Please give write access to %s and %s
 Donnez laccès en écriture à %s et %s
 
-{t}Please hit reload.{/t}
+** Please hit reload.
 cliquez sur recharger.
 
-{t}Please input a valid e-mail adress.{/t}
+** Please input a valid e-mail adress.
 Entrez une adresse e-mail valide.
 
-{t}Please install 'tsearch2' for the PostgreSQL database.{/t}
+** Please install 'tsearch2' for the PostgreSQL database.
 Installer tsearch2 pour la base de données PostgreSQL.
 
-{t}Please install the php-extension with name '%s'.{/t}
+** Please install the php-extension with name '%s'.
 
 
-{t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}
+** Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !
 Modifiez votre php.ini ou ajoutez un fichier .htaccess en changeant la valeur de %s en %s (la valeur actuelle est %s) !
 
-{t}Please read the following license agreement. Use the scroll bar to view the rest of this agreement.{/t}
+** Please read the following license agreement. Use the scroll bar to view the rest of this agreement.
 Lisez laccord de licence. Utilisez la barre de défilement pour voir la totalité de la licence.
 
-{t}Please select a location.{/t}
+** Please select a location.
 
 
-{t}Please select a participant.{/t}
+** Please select a participant.
 Sélectionnez un participant.
 
-{t}Please upload again.{/t}
+** Please upload again.
 téléchargez à nouveau.
 
-{t}Please wait ...{/t}
+** Please wait ...
 Patientez ...
 
-{t}Pop3-error: %s{/t}
+** Pop3-error: %s
 Erreur Pop3: %s
 
-{t}Port{/t}
+** Port
 Port
 
-{t}Portal{/t}
+** Portal
 Portail
 
-{t}Position{/t}
+** Position
 Position
 
-{t}Positions{/t}
+** Positions
 Positions
 
-{t}Post{/t}
+** Post
 Post
 
-{t}Practical training{/t}
+** Practical training
 
 
-{t}Preformatted block{/t}
+** Preformatted block
 Bloc pré-formaté
 
-{t}Prepend new field as{/t}
+** Prepend new field as
 
 
-{t}Prevent formatting{/t}
+** Prevent formatting
 Empecher le formattage
 
-{t}Preview{/t}
+** Preview
 Prévisualiser
 
-{t}Price{/t}
+** Price
 Prix
 
-{t}Primary key{/t}
+** Primary key
 
 
-{t}Print{/t}
+** Print
 Imprimer
 
-{t}Print all{/t}
+** Print all
 Imprimer tout
 
-{t}Printer{/t}
+** Printer
 Imprimante
 
-{t}Priority{/t}
+** Priority
 Priorité
 
-{t}Problem{/t}
+** Problem
 Problème
 
-{t}Processes{/t}
+** Processes
 Processus
 
-{t}Processing %s ...{/t}
+** Processing %s ...
 Traitement %s ...
 
-{t}Program is installed with language %s, please use a different url or run the setup again.{/t}
+** Program is installed with language %s, please use a different url or run the setup again.
 Le programme a été installé en %s, utilisez une URL différente ou relancez linstallation.
 
-{t}Progress{/t}
+** Progress
 Progression
 
-{t}Project{/t}
+** Project
 Projet
 
-{t}Project files{/t}
+** Project files
 Fichiers du projet
 
-{t}Project tasks{/t}
+** Project tasks
 Traveaux du projet
 
-{t}Projects{/t}
+** Projects
 Projets
 
-{t}promising{/t}
+** promising
 promesse
 
-{t}Properties{/t}
+** Properties
 Propriétés
 
-{t}Prospective client{/t}
+** Prospective client
 Prospect
 
-{t}Public holiday{/t}
+** Public holiday
 
 
-{t}Purchased{/t}
+** Purchased
 Acheté
 
-{t}Question{/t}
+** Question
 Question
 
-{t}Queue{/t}
+** Queue
 File dattente
 
-{t}Quick add{/t}
+** Quick add
 
 
-{t}Quota{/t}
+** Quota
 Quota
 
-{t}Quota (remaining){/t}
+** Quota (remaining)
 Quota (restant)
 
-{t}Quota [MB]{/t}
+** Quota [MB]
 Quota [MB]
 
-{t}Quota limitation exceeded: %s{/t}
+** Quota limitation exceeded: %s
 Limite de quota dépassé: %s
 
-{t}R e g i s t e r{/t}
+** R e g i s t e r
 
 
-{t}Rating{/t}
+** Rating
 Estimation
 
-{t}Read{/t}
+** Read
 Lu
 
-{t}read access{/t}
+** read access
 Accès en lecture
 
-{t}Read access (groups){/t}
+** Read access (groups)
 Accès en lecture (groupe)
 
-{t}Read access (users){/t}
+** Read access (users)
 Accès en lecture (utilisateur)
 
-{t}Read only in{/t}
+** Read only in
 
 
-{t}Read this page offline:{/t}
+** Read this page offline:
 
 
-{t}ready for repair{/t}
+** ready for repair
 prêt pour la réparation
 
-{t}ready for scrap{/t}
+** ready for scrap
 
 
-{t}Real URL format in the CMS{/t}
+** Real URL format in the CMS
 
 
-{t}Really apply rights to subfolders ?{/t}
+** Really apply rights to subfolders ?
 Appliquer les droits aux sous-dossiers?
 
-{t}Really apply the changes ?{/t}
+** Really apply the changes ?
 
 
-{t}Really delete ?{/t}
+** Really delete ?
 Voulez-vous vraiment SUPPRIMER?
 
-{t}REALLY delete ALL datasets ?{/t}
+** REALLY delete ALL datasets ?
 Voulez-vous vraiment SUPPRIMER tous le(s) fichier(s) de données?
 
-{t}Really delete ALL subfolders ?{/t}
+** Really delete ALL subfolders ?
 Voulez-vous vraiment SUPPRIMER tous les sous-dossiers?
 
-{t}Really delete the dataset(s) ?{/t}
+** Really delete the dataset(s) ?
 Voulez-vous vraiment SUPPRIMER le(s) fichier(s) de données?
 
-{t}Really empty the folder ?{/t}
+** Really empty the folder ?
 Vider le dossier?
 
-{t}Really overwrite existing dataset(s) ?{/t}
+** Really overwrite existing dataset(s) ?
 Ecraser le(s) fichier(s) de données existant(s)?
 
-{t}Really run setup again ?{/t}
+** Really run setup again ?
 Relancer linstallation ?
 
-{t}Really uninstall the module ?{/t}
+** Really uninstall the module ?
 
 
-{t}Rebuild search index{/t}
+** Rebuild search index
 Reconstruire lindex de recherche
 
-{t}Recent changes{/t}
+** Recent changes
 
 
-{t}Recipients{/t}
+** Recipients
 
 
-{t}Recommendation of affiliate{/t}
+** Recommendation of affiliate
 Reccommandation daffilié
 
-{t}Recurrence{/t}
+** Recurrence
 Recurrence
 
-{t}Recurrences{/t}
+** Recurrences
 
 
-{t}red{/t}
+** red
 rouge
 
-{t}Redirect to home directory{/t}
+** Redirect to home directory
 Revenir au Dossier parent
 
-{t}Reference{/t}
+** Reference
 
 
-{t}Refresh{/t}
+** Refresh
 
 
-{t}Refresh every x seconds{/t}
+** Refresh every x seconds
 Rafraichir toutes les x secondes
 
-{t}Regular{/t}
+** Regular
 Egal
 
-{t}Reject{/t}
+** Reject
 
 
-{t}rejected{/t}
+** rejected
 Refusé
 
-{t}Relative formats{/t}
+** Relative formats
 
 
-{t}Relaunch Setup{/t}
+** Relaunch Setup
 Relancer linstallation (Setup)
 
-{t}Relevance{/t}
+** Relevance
 
 
-{t}Reminder{/t}
+** Reminder
 rappel
 
-{t}rename{/t}
+** rename
 
 
-{t}Rename folder{/t}
+** Rename folder
 Renommer le dossier
 
-{t}Repeat count{/t}
+** Repeat count
 nombre de répétitions
 
-{t}Repeat exclusions{/t}
+** Repeat exclusions
 exclusions de répétitions
 
-{t}Repeat interval{/t}
+** Repeat interval
 intervalle de répétition
 
-{t}Repeat until{/t}
+** Repeat until
 répéter jusqu à
 
-{t}Reply{/t}
+** Reply
 Repondre
 
-{t}Reply all{/t}
+** Reply all
 Répondre à tous
 
-{t}Require admin access to set mountpoints{/t}
+** Require admin access to set mountpoints
 Nécéssite l acces administrateur pour poser un point de montage
 
-{t}Required{/t}
+** Required
 
 
-{t}Required fields{/t}
+** Required fields
 
 
-{t}Reseller{/t}
+** Reseller
 Revendeur
 
-{t}reserved{/t}
+** reserved
 reservé
 
-{t}Reset view{/t}
+** Reset view
 Rétablir la vue
 
-{t}Resource{/t}
+** Resource
 Ressource
 
-{t}Resources{/t}
+** Resources
 Ressources
 
-{t}Responsible{/t}
+** Responsible
 Responsable
 
-{t}Responsible (external){/t}
+** Responsible (external)
 Responsable (externe)
 
-{t}Responsible (internal){/t}
+** Responsible (internal)
 Responsable (interne)
 
-{t}Restore complete{/t}
+** Restore complete
 Restauration complétée
 
-{t}Restore here{/t}
+** Restore here
 Restaurer ici
 
-{t}Restore only missing{/t}
+** Restore only missing
 Restaurer uniquement les manquants
 
-{t}Restore only newer{/t}
+** Restore only newer
 Restaurer seulement les plus récents
 
-{t}Restore to origin{/t}
+** Restore to origin
 Restaurer loriginal
 
-{t}Return receipt{/t}
+** Return receipt
 Renvoyer un récépissé
 
-{t}right-aligned{/t}
+** right-aligned
 aligné a droite
 
-{t}Rights{/t}
+** Rights
 Droits
 
-{t}Risks{/t}
+** Risks
 
 
-{t}Room name{/t}
+** Room name
 Nom de la salle
 
-{t}Room number{/t}
+** Room number
 Numéro de la salle
 
-{t}Rooms{/t}
+** Rooms
 Salles
 
-{t}Rows{/t}
+** Rows
 Lignes
 
-{t}Run Setup again{/t}
+** Run Setup again
 Relancer linstallation
 
-{t}S a v e{/t}
+** S a v e
 S a u v e g a r d e r
 
-{t}S a v e  a n d  E d i t{/t}
+** S a v e  a n d  E d i t
 
 
-{t}S a v e  a n d  g o  b a c k{/t}
+** S a v e  a n d  g o  b a c k
 S a u v e  g a r d e r  E t  R e t o u r n e r
 
-{t}Sa{/t}
+** Sa
 Sa
 
-{t}Salary{/t}
+** Salary
 
 
-{t}Salary per{/t}
+** Salary per
 
 
-{t}Sales promotion{/t}
+** Sales promotion
 Ventes promotionnelles
 
-{t}Sat{/t}
+** Sat
 Sam
 
-{t}Saturday{/t}
+** Saturday
 Samedi
 
-{t}Scheduling{/t}
+** Scheduling
 Planification
 
-{t}Schema{/t}
+** Schema
 Schéma
 
-{t}Schema data{/t}
+** Schema data
 Données du schéma
 
-{t}Schemafile not found. (%s){/t}
+** Schemafile not found. (%s)
 Fichier schéma innexistant
 
-{t}School{/t}
+** School
 
 
-{t}scrapped{/t}
+** scrapped
 désactivé
 
-{t}Search{/t}
+** Search
 Recherche
 
-{t}Search by ID{/t}
+** Search by ID
 
 
-{t}second level support{/t}
+** second level support
 
 
-{t}Second manager{/t}
+** Second manager
 Responsable adjoint
 
-{t}seconds{/t}
+** seconds
 
 
-{t}Secretary{/t}
+** Secretary
 Secrétariat
 
-{t}Self registration{/t}
+** Self registration
 Auto-enregistrement
 
-{t}Self registration needs confirmation by an administrator.{/t}
+** Self registration needs confirmation by an administrator.
 
 
-{t}Send now{/t}
+** Send now
 
 
-{t}Sent{/t}
+** Sent
 
 
-{t}Sent reminders{/t}
+** Sent reminders
 Rappels envoyés
 
-{t}Sep{/t}
+** Sep
 
 
-{t}Separate fields{/t}
+** Separate fields
 
 
-{t}Separate values{/t}
+** Separate values
 
 
-{t}Separator{/t}
+** Separator
 
 
-{t}Separators{/t}
+** Separators
 Separateurs
 
-{t}September{/t}
+** September
 Septembre
 
-{t}Serial number{/t}
+** Serial number
 Numéro de série
 
-{t}Server{/t}
+** Server
 Serveur
 
-{t}Server does not support sorting{/t}
+** Server does not support sorting
 Le serveur ne sait pas trier
 
-{t}Server-IP{/t}
+** Server-IP
 IP du serveur
 
-{t}Service provider{/t}
+** Service provider
 fournisseur de service
 
-{t}Session name in cookie{/t}
+** Session name in cookie
 Nom de session dans les cookies
 
-{t}Session timeout{/t}
+** Session timeout
 Session expiré
 
-{t}Sessions{/t}
+** Sessions
 Sessions
 
-{t}Settings{/t}
+** Settings
 
 
-{t}Setup{/t}
+** Setup
 Installation
 
-{t}Setup needs a database-php-extension ! (%s){/t}
+** Setup needs a database-php-extension ! (%s)
 Linstallation nécessite une extension php de base de données! (%s)
 
-{t}Setup needs php with at least version %s !{/t}
+** Setup needs php with at least version %s !
 Linstallation nécessite php version %s au minimum!
 
-{t}Setup needs php-extension with name %s !{/t}
+** Setup needs php-extension with name %s !
 Linstallation nécessite lextension php %s
 
-{t}Setup needs Simple Groupware with at least version %s !{/t}
+** Setup needs Simple Groupware with at least version %s !
 
 
-{t}Setup: setup-data written to %s.{/t}
+** Setup: setup-data written to %s.
 Installation: écriture des données de configuration dans %s.
 
-{t}Shapes{/t}
+** Shapes
 
 
-{t}Share{/t}
+** Share
 Partager
 
-{t}Shared{/t}
+** Shared
 
 
-{t}Short links{/t}
+** Short links
 
 
-{t}Show{/t}
+** Show
 Afficher
 
-{t}Show all rules{/t}
+** Show all rules
 
 
-{t}Show archive{/t}
+** Show archive
 Afficher les archives
 
-{t}Show details{/t}
+** Show details
 
 
-{t}Show folder description in content area{/t}
+** Show folder description in content area
 
 
-{t}Show password{/t}
+** Show password
 
 
-{t}Show quoted text{/t}
+** Show quoted text
 Afficher le texte cité
 
-{t}Similar{/t}
+** Similar
 
 
-{t}Simple tables{/t}
+** Simple tables
 tables de base
 
-{t}single{/t}
+** single
 Célibataire
 
-{t}Single choice{/t}
+** Single choice
 
 
-{t}Size{/t}
+** Size
 Taille
 
-{t}Size (children){/t}
+** Size (children)
 Taille (enfant)
 
-{t}Slow{/t}
+** Slow
 lent
 
-{t}small{/t}
+** small
 petit
 
-{t}small text{/t}
+** small text
 texte plus petit
 
-{t}smaller{/t}
+** smaller
 plus petit
 
-{t}SMTP not configured for %s{/t}
+** SMTP not configured for %s
 SMTP n est pas configuré pour %s
 
-{t}Smtp-error %s: %s{/t}
+** Smtp-error %s: %s
 erreur Smtp %s: %s
 
-{t}Software{/t}
+** Software
 Logiciel
 
-{t}Solution{/t}
+** Solution
 Solution
 
-{t}Solution type{/t}
+** Solution type
 Type de solution
 
-{t}some text{/t}
+** some text
 
 
-{t}Source{/t}
+** Source
 
 
-{t}Source code{/t}
+** Source code
 Code source
 
-{t}Special leave{/t}
+** Special leave
 
 
-{t}Specification{/t}
+** Specification
 Spécification
 
-{t}Spreadsheet{/t}
+** Spreadsheet
 Feuille de calcul
 
-{t}SQL failed.{/t}
+** SQL failed.
 Echec SQL.
 
-{t}SQL FAILED: %s{/t}
+** SQL FAILED: %s
 echec SQL: %s
 
-{t}Start scheduled{/t}
+** Start scheduled
 début programmé à
 
-{t}Started{/t}
+** Started
 Démarré
 
-{t}starts with{/t}
+** starts with
 démarré avec
 
-{t}State{/t}
+** State
 Etat
 
-{t}Static cache{/t}
+** Static cache
 Cache statique
 
-{t}Statistics{/t}
+** Statistics
 statistiques
 
-{t}Status{/t}
+** Status
 Etat
 
-{t}Statuses{/t}
+** Statuses
 Etats
 
-{t}Strategies{/t}
+** Strategies
 Stratégies
 
-{t}Street{/t}
+** Street
 Rue
 
-{t}Structure{/t}
+** Structure
 Structure
 
-{t}Su{/t}
+** Su
 Di
 
-{t}Subfolder{/t}
+** Subfolder
 
 
-{t}Subfolders{/t}
+** Subfolders
 
 
-{t}subheading{/t}
+** subheading
 sous-titre
 
-{t}Subitem{/t}
+** Subitem
 Subitem
 
-{t}Subject{/t}
+** Subject
 Sujet
 
-{t}Subjects{/t}
+** Subjects
 Sujets
 
-{t}Submit a patch{/t}
+** Submit a patch
 Proposer un patch
 
-{t}Subpages{/t}
+** Subpages
 
 
-{t}subscript{/t}
+** subscript
 indice
 
-{t}Subsistence costs{/t}
+** Subsistence costs
 Defraiements
 
-{t}Sum{/t}
+** Sum
 
 
-{t}Summary{/t}
+** Summary
 Sommaire
 
-{t}Sun{/t}
+** Sun
 Dim
 
-{t}Sunday{/t}
+** Sunday
 Dimanche
 
-{t}Superior{/t}
+** Superior
 Superieur
 
-{t}superscript{/t}
+** superscript
 exposant
 
-{t}Supplier{/t}
+** Supplier
 Fournisseur
 
-{t}Suppliers{/t}
+** Suppliers
 Fournisseurs
 
-{t}Support{/t}
+** Support
 Support
 
-{t}Support request{/t}
+** Support request
 Demande de support
 
-{t}Surveys{/t}
+** Surveys
 
 
-{t}Suspended{/t}
+** Suspended
 Suspendu
 
-{t}Switch maintenance mode{/t}
+** Switch maintenance mode
 Basculer en mode maintenance
 
-{t}Sync4j remote delete items{/t}
+** Sync4j remote delete items
 Sync4j effacements d éléments distants
 
-{t}Syntax{/t}
+** Syntax
 
 
-{t}System{/t}
+** System
 Système
 
-{t}System command executed: %s{/t}
+** System command executed: %s
 
 
-{t}Tab{/t}
+** Tab
 
 
-{t}Table{/t}
+** Table
 Table
 
-{t}Table sizes{/t}
+** Table sizes
 Dimension des tables
 
-{t}Table status{/t}
+** Table status
 Statut des tables
 
-{t}Tables{/t}
+** Tables
 Tables
 
-{t}Take over{/t}
+** Take over
 
 
-{t}Take selection{/t}
+** Take selection
 
 
-{t}Task{/t}
+** Task
 
 
-{t}Task with ID %s{/t}
+** Task with ID %s
 
 
-{t}Tasks{/t}
+** Tasks
 Travaux
 
-{t}Tasks with responsible %s{/t}
+** Tasks with responsible %s
 
 
-{t}Template{/t}
+** Template
 Gabarit
 
-{t}Templates{/t}
+** Templates
 Gabarits
 
-{t}Temporary work{/t}
+** Temporary work
 
 
-{t}term{/t}
+** term
 terme
 
-{t}Text area{/t}
+** Text area
 
 
-{t}Text Document{/t}
+** Text Document
 Document Texte
 
-{t}Text formatting rules{/t}
+** Text formatting rules
 Règles de formatage de texte
 
-{t}Th{/t}
+** Th
 Je
 
-{t}Thanks for voting!{/t}
+** Thanks for voting!
 
 
-{t}The folder cannot be copied.{/t}
+** The folder cannot be copied.
 
 
-{t}The folder cannot be deleted.{/t}
+** The folder cannot be deleted.
 
 
-{t}The folder cannot be moved.{/t}
+** The folder cannot be moved.
 
 
-{t}The new password is{/t}
+** The new password is
 Le nouveau mot de passe est
 
-{t}The url doesn't exist.{/t}
+** The url doesn't exist.
 Lurl nexiste pas.
 
-{t}Theme{/t}
+** Theme
 Thème
 
-{t}third level support{/t}
+** third level support
 
 
-{t}this file extension is not allowed{/t}
+** this file extension is not allowed
 Extension de fichier non autorisée!
 
-{t}Thu{/t}
+** Thu
 Jeu
 
-{t}Thursday{/t}
+** Thursday
 Jeudi
 
-{t}Time and expenses{/t}
+** Time and expenses
 Temps et dépenses
 
-{t}Time limit{/t}
+** Time limit
 
 
-{t}Time sheets{/t}
+** Time sheets
 Feuilles horaires
 
-{t}Time zone{/t}
+** Time zone
 Time zone
 
-{t}timeout{/t}
+** timeout
 Temps dépassé
 
-{t}Title{/t}
+** Title
 Titre
 
-{t}To{/t}
+** To
 Pour
 
-{t}to be checked{/t}
+** to be checked
 à vérifier
 
-{t}To continue installing Simple Groupware you must check the box under the license{/t}
+** To continue installing Simple Groupware you must check the box under the license
 Pour continuer linstallation de Simple Groupware, vous devez accepter les termes du contrat de license.
 
-{t}Today{/t}
+** Today
 Aujourdhui
 
-{t}Too many wrong logins. Please wait 15 minutes.{/t}
+** Too many wrong logins. Please wait 15 minutes.
 Trop d echec d autentification. Ré-essayez dans 15 minutes.
 
-{t}Total{/t}
+** Total
 Total
 
-{t}Trace{/t}
+** Trace
 Trace
 
-{t}Trade fair{/t}
+** Trade fair
 Foire commerciale
 
-{t}translations{/t}
+** translations
 Traductions
 
-{t}Translations of the GNU GPL{/t}
+** Translations of the GNU GPL
 Traductions du GNU GPL
 
-{t}Transportation costs{/t}
+** Transportation costs
 Coûts de transports
 
-{t}Trash{/t}
+** Trash
 Corbeille
 
-{t}Trash folder not found.{/t}
+** Trash folder not found.
 Corbeille non trouvée.
 
-{t}Tree{/t}
+** Tree
 Arbre
 
-{t}Trigger failed{/t}
+** Trigger failed
 echec du déclenchement
 
-{t}Tu{/t}
+** Tu
 Ma
 
-{t}Tue{/t}
+** Tue
 Mar
 
-{t}Tuesday{/t}
+** Tuesday
 Mardi
 
-{t}Type{/t}
+** Type
 Type
 
-{t}U n i n s t a l l{/t}
+** U n i n s t a l l
 
 
-{t}unable to find %s{/t}
+** unable to find %s
 impossible de trouver %s
 
-{t}Unable to write to %s{/t}
+** Unable to write to %s
 impossible d écrire à %s
 
-{t}unconfirmed{/t}
+** unconfirmed
 non confirmé
 
-{t}Unconfirmed{/t}
+** Unconfirmed
 
 
-{t}underline{/t}
+** underline
 
 
-{t}Uninstall does not delete any data in the database.{/t}
+** Uninstall does not delete any data in the database.
 
 
-{t}uninterested{/t}
+** uninterested
 desinteressé
 
-{t}Unique{/t}
+** Unique
 
 
-{t}Unique with trash{/t}
+** Unique with trash
 
 
-{t}Unlock{/t}
+** Unlock
 Déverrouiller
 
-{t}Up{/t}
+** Up
 Haut
 
-{t}Update{/t}
+** Update
 Mise(s) à jour
 
-{t}Update Simple Groupware{/t}
+** Update Simple Groupware
 Mise à jour de Simple Groupware
 
-{t}Updated{/t}
+** Updated
 Actualisé
 
-{t}Updating schema %s from %s.{/t}
+** Updating schema %s from %s.
 Actualisation du schéma %s à partir de %s.
 
-{t}Upload failed{/t}
+** Upload failed
 Echec de téléchargement
 
-{t}Uploaded files{/t}
+** Uploaded files
 Fichiers téléchargés
 
-{t}Uploading{/t}
+** Uploading
 
 
-{t}urgent{/t}
+** urgent
 urgent
 
-{t}URL{/t}
+** URL
 URL
 
-{t}Usage{/t}
+** Usage
 Mode demploi
 
-{t}USD{/t}
+** USD
 US Dollar
 
-{t}Use APC for session storage{/t}
+** Use APC for session storage
 
 
-{t}Use Debian binaries (Warning: not latest versions){/t}
+** Use Debian binaries (Warning: not latest versions)
 Utiliser les binaires Debian (Attention: pas lezs dernières versions)
 
-{t}Use LDAP Groups{/t}
+** Use LDAP Groups
 Utiliser les groupes LDAP
 
-{t}use mirror from{/t}
+** use mirror from
 
 
-{t}Use syslog() function for logging events{/t}
+** Use syslog() function for logging events
 
 
-{t}Use the mail() function for sending mails (insecure){/t}
+** Use the mail() function for sending mails (insecure)
 Utiliser la fonction mail() pour envoyer les courriels (pas sécurisé)
 
-{t}User{/t}
+** User
 Utilisateur
 
-{t}User not found.{/t}
+** User not found.
 
 
-{t}Username{/t}
+** Username
 Nom de l utilisateur
 
-{t}Username must be different from the super administrator.{/t}
+** Username must be different from the super administrator.
 Le nom dutilisateur doit être différent de celui du super-admin.
 
-{t}Users{/t}
+** Users
 Utilisateurs
 
-{t}V a l i d a t e{/t}
+** V a l i d a t e
 
 
-{t}V o t e !{/t}
+** V o t e !
 
 
-{t}Vacation{/t}
+** Vacation
 Vacances
 
-{t}Vacation days per year{/t}
+** Vacation days per year
 
 
-{t}Validating %s ...{/t}
+** Validating %s ...
 
 
-{t}validation failed{/t}
+** validation failed
 Echec de validation
 
-{t}Value{/t}
+** Value
 Valeur
 
-{t}Value '%s' needs a group membership: %s{/t}
+** Value '%s' needs a group membership: %s
 
 
-{t}Variable{/t}
+** Variable
 Variable
 
-{t}Variable already exists in table. (%s){/t}
+** Variable already exists in table. (%s)
 Variable déja existante dans la table. (%s)
 
-{t}Variable must be of type date (mm/dd/yyyy).{/t}
+** Variable must be of type date (mm/dd/yyyy).
 La variable doivent être de type date (jj/mm/aaaa).
 
-{t}Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).{/t}
+** Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).
 La variable doivent être de type datetime (jj/mm/aaaa hh:mm).
 
-{t}Variable must be of type float.{/t}
+** Variable must be of type float.
 La variable doit être de type float.
 
-{t}Variable must be of type int and greater than 0.{/t}
+** Variable must be of type int and greater than 0.
 La variable doit être de type int et plus grande que 0.
 
-{t}Variable must be of type int.{/t}
+** Variable must be of type int.
 La variable doit être de type int.
 
-{t}Variable must be of type time (hh:mm am/pm).{/t}
+** Variable must be of type time (hh:mm am/pm).
 La variable doit être de type time (hh:mm).
 
-{t}Variables{/t}
+** Variables
 Variables
 
-{t}Verbal recommendation{/t}
+** Verbal recommendation
 Recommendation verbale
 
-{t}verified{/t}
+** verified
 Vérifié
 
-{t}vertical{/t}
+** vertical
 vertical
 
-{t}very promising{/t}
+** very promising
 très prometteur
 
-{t}View{/t}
+** View
 
 
-{t}View access (groups){/t}
+** View access (groups)
 
 
-{t}View access (users){/t}
+** View access (users)
 
 
-{t}Virus scanner{/t}
+** Virus scanner
 Anti-virus
 
-{t}Visibility{/t}
+** Visibility
 
 
-{t}Voice mail{/t}
+** Voice mail
 Répondeur
 
-{t}Vote{/t}
+** Vote
 
 
-{t}Voted by{/t}
+** Voted by
 
 
-{t}Waiting{/t}
+** Waiting
 Patientez
 
-{t}Warning{/t}
+** Warning
 Attention
 
-{t}We{/t}
+** We
 Me
 
-{t}Web{/t}
+** Web
 Web
 
-{t}Web page{/t}
+** Web page
 
 
-{t}Wed{/t}
+** Wed
 Mer
 
-{t}Wednesday{/t}
+** Wednesday
 Mercredi
 
-{t}Week{/t}
+** Week
 Semaine
 
-{t}Week start{/t}
+** Week start
 Début de semaine
 
-{t}Weekend{/t}
+** Weekend
 Fin de emaine
 
-{t}weekly{/t}
+** weekly
 Hebdomadaire
 
-{t}weeks{/t}
+** weeks
 semaines
 
-{t}Welcome to Simple Groupware!{/t}
+** Welcome to Simple Groupware!
 
 
-{t}white{/t}
+** white
 blanc
 
-{t}widowed{/t}
+** widowed
 veuve
 
-{t}Width{/t}
+** Width
 
 
-{t}Wiki{/t}
+** Wiki
 Wiki
 
-{t}WikiStyles{/t}
+** WikiStyles
 Styles du Wiki
 
-{t}won't fix{/t}
+** won't fix
 ne sera pas corrigé
 
-{t}word{/t}
+** word
 
 
-{t}Workflow{/t}
+** Workflow
 
 
-{t}Working student{/t}
+** Working student
 
 
-{t}works as expected{/t}
+** works as expected
 fonctionne comme prévu
 
-{t}works for me{/t}
+** works for me
 fonctionne pour moi
 
-{t}Workshop{/t}
+** Workshop
 Atelier
 
-{t}Workspace{/t}
+** Workspace
 Espace de travail
 
-{t}write access{/t}
+** write access
 Permission décriture
 
-{t}Write access (groups){/t}
+** Write access (groups)
 Permissions décriture (groupes)
 
-{t}Write access (users){/t}
+** Write access (users)
 Permissions décriture (utilisateurs)
 
-{t}Wrong database-version (%s). Please use at least %s !{/t}
+** Wrong database-version (%s). Please use at least %s !
 Version de la base de données erronée (%s). Utilisez au moins %s!
 
-{t}wrong directory{/t}
+** wrong directory
 Mauvais dossier
 
-{t}wrong password{/t}
+** wrong password
 Mot de passe erroné
 
-{t}Year{/t}
+** Year
 Année
 
-{t}yearly{/t}
+** yearly
 Annuel
 
-{t}years{/t}
+** years
 
 
-{t}yellow{/t}
+** yellow
 jaune
 
-{t}yes{/t}
+** yes
 oui
 
-{t}You are not allowed to view this folder.{/t}
+** You are not allowed to view this folder.
 Vous navez pas les droits pour accéder à ce dossier.
 
-{t}Your message was read on %s.{/t}
+** Your message was read on %s.
 Votre message à été lu par %s.
 
-{t}Your session has timed out.{/t}
+** Your session has timed out.
 Votre session a expiré.
 
-{t}Zipcode{/t}
+** Zipcode
 Code postal
 
-{t}{0} - {1} of {2}{/t}
+** {0} - {1} of {2}
 
 

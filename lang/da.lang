@@ -3,3534 +3,3534 @@
  * @license GPLv2
  */
 
-{t}!_Copyright_Language_File{/t}
+** !_Copyright_Language_File
 Copyright (C) 2007 Jens Chr. True, Copyright (C) 2009 Jack W. Jensen
 
-{t}!_Language{/t}
+** !_Language
 Dansk / Danish
 
-{t}%s is not activated{/t}
+** %s is not activated
 Er ikke aktiveret: %s
 
-{t}%s is not compiled / loaded into PHP.{/t}
+** %s is not compiled / loaded into PHP.
 %s er ikke komplieret /loaded i PHP.
 
-{t}%s M memory usage{/t}
+** %s M memory usage
 
 
-{t}%s not in database{/t}
+** %s not in database
 %s ikke i database
 
-{t}%s rows affected{/t}
+** %s rows affected
 %s rækker ændret
 
-{t}%s secs{/t}
+** %s secs
 %s sekunder
 
-{t}%s started editing this asset at %s{/t}
+** %s started editing this asset at %s
 %s begyndtet redigering af dette aktiv ved %s
 
-{t}(for active directory username must be: username@domain){/t}
+** (for active directory username must be: username@domain)
 (for active directory skal brugernavnet være: brugernavn@domæne)
 
-{t}(un)Group{/t}
+** (un)Group
 (af)grupper
 
-{t}About{/t}
+** About
 Om
 
-{t}Absence{/t}
+** Absence
 
 
-{t}accepted{/t}
+** accepted
 godkendt
 
-{t}Access denied.{/t}
+** Access denied.
 Adgang nægtet.
 
-{t}Access to this file has been denied.{/t}
+** Access to this file has been denied.
 Nægtet adgang til denne fil.
 
-{t}Account{/t}
+** Account
 Konto
 
-{t}account of %s has expired{/t}
+** account of %s has expired
 %s konto er udløbet
 
-{t}Accounting{/t}
+** Accounting
 Regnskab
 
-{t}Activate{/t}
+** Activate
 
 
-{t}Activated{/t}
+** Activated
 Aktiveret
 
-{t}active{/t}
+** active
 
 
-{t}Active{/t}
+** Active
 Aktiv
 
-{t}Ad{/t}
+** Ad
 Reklame
 
-{t}Add{/t}
+** Add
 Tilføj
 
-{t}Add a special rule{/t}
+** Add a special rule
 
 
-{t}Add to offline folders{/t}
+** Add to offline folders
 Tilføj til offline mapper
 
-{t}added line{/t}
+** added line
 tilføjet linje
 
-{t}Address{/t}
+** Address
 Adresse
 
-{t}admin access{/t}
+** admin access
 Administrator adgang
 
-{t}Admin access (groups){/t}
+** Admin access (groups)
 Administrator adgang (grupper)
 
-{t}Admin access (users){/t}
+** Admin access (users)
 Administrator adgang (brugere)
 
-{t}Admin Password{/t}
+** Admin Password
 Administrator password
 
-{t}Admin Username{/t}
+** Admin Username
 Administrator brugernavn
 
-{t}Administration{/t}
+** Administration
 Administration
 
-{t}Advanced tables{/t}
+** Advanced tables
 Avancerede tabeller
 
-{t}Affected user{/t}
+** Affected user
 Påvirkede brugere
 
-{t}Affiliate{/t}
+** Affiliate
 Tilknyttede
 
-{t}after{/t}
+** after
 efter
 
-{t}Agent{/t}
+** Agent
 Agent
 
-{t}Ajax Error{/t}
+** Ajax Error
 Ajax fejl
 
-{t}All{/t}
+** All
 Alle
 
-{t}All day{/t}
+** All day
 Hele dagen
 
-{t}All events{/t}
+** All events
 Alle begivenheder
 
-{t}All finished tasks{/t}
+** All finished tasks
 
 
-{t}All pending tasks{/t}
+** All pending tasks
 
 
-{t}Allow custom values{/t}
+** Allow custom values
 
 
-{t}Allow disabled modules{/t}
+** Allow disabled modules
 
 
-{t}Already running latest release.{/t}
+** Already running latest release.
 Køre allerede seneste udgave.
 
-{t}Already voted.{/t}
+** Already voted.
 
 
-{t}Amount{/t}
+** Amount
 Mængde
 
-{t}Anchor{/t}
+** Anchor
 Link
 
-{t}and{/t}
+** and
 og
 
-{t}Anniversary{/t}
+** Anniversary
 Fødselsdag
 
-{t}another page{/t}
+** another page
 en anden side
 
-{t}answered{/t}
+** answered
 besvaret
 
-{t}Answers{/t}
+** Answers
 
 
-{t}Apache based (.htaccess, Basic, Digest, etc.){/t}
+** Apache based (.htaccess, Basic, Digest, etc.)
 Apache baseret (.htaccess, Basic, Digest, osv.)
 
-{t}Application title{/t}
+** Application title
 Applications titel
 
-{t}Apply rights to subfolders{/t}
+** Apply rights to subfolders
 Tilføj rettigheder til undermapper
 
-{t}Appointment{/t}
+** Appointment
 
 
-{t}Appointments{/t}
+** Appointments
 
 
-{t}Apprenticeship{/t}
+** Apprenticeship
 
 
-{t}Apr{/t}
+** Apr
 
 
-{t}April{/t}
+** April
 April
 
-{t}Archive{/t}
+** Archive
 
 
-{t}Archive deleted files{/t}
+** Archive deleted files
 Arkiver slettede filer
 
-{t}Asset{/t}
+** Asset
 
 
-{t}Asset marked as read-only.{/t}
+** Asset marked as read-only.
 Aktiv markeret som læs-kun.
 
-{t}Assets{/t}
+** Assets
 Aktiver
 
-{t}Assets (children){/t}
+** Assets (children)
 Aktiver (underpunkter)
 
-{t}Assets can be imported into multiple folders by adding the "Folder" column.{/t}
+** Assets can be imported into multiple folders by adding the "Folder" column.
 
 
-{t}Assets can be overwritten by adding the "Id" column.{/t}
+** Assets can be overwritten by adding the "Id" column.
 
 
-{t}assigned{/t}
+** assigned
 tilknyttet
 
-{t}at least 20 characters{/t}
+** at least 20 characters
 
 
-{t}attach file{/t}
+** attach file
 vedhæft fil
 
-{t}Attachment{/t}
+** Attachment
 Vedhæftet
 
-{t}Attachments{/t}
+** Attachments
 Vedhæftede
 
-{t}Attend{/t}
+** Attend
 
 
-{t}Aug{/t}
+** Aug
 
 
-{t}August{/t}
+** August
 August
 
-{t}Authentication Mode{/t}
+** Authentication Mode
 Godkendelse methode
 
-{t}Author{/t}
+** Author
 forfatter
 
-{t}Automatically hide the menu{/t}
+** Automatically hide the menu
 
 
-{t}Automatically hide the tree{/t}
+** Automatically hide the tree
 
 
-{t}Average{/t}
+** Average
 
 
-{t}Average progress{/t}
+** Average progress
 
 
-{t}Avg length{/t}
+** Avg length
 Gennemsnitlig længde
 
-{t}Back{/t}
+** Back
 Tilbage
 
-{t}Backup{/t}
+** Backup
 Backup
 
-{t}Backup current folder{/t}
+** Backup current folder
 Backup nuværende mappe
 
-{t}Backups{/t}
+** Backups
 Backups
 
-{t}Basic editing{/t}
+** Basic editing
 Basal redigering
 
-{t}before{/t}
+** before
 før
 
-{t}Before{/t}
+** Before
 
 
-{t}Begin{/t}
+** Begin
 Begynd
 
-{t}big{/t}
+** big
 stor
 
-{t}big text{/t}
+** big text
 stor tekst
 
-{t}bigger{/t}
+** bigger
 større
 
-{t}Billing address{/t}
+** Billing address
 Fakturerings addresse
 
-{t}Birthday{/t}
+** Birthday
 Fødselsdag
 
-{t}Birthdays{/t}
+** Birthdays
 Fødselsdage
 
-{t}Blank{/t}
+** Blank
 Tomt
 
-{t}blue{/t}
+** blue
 blå
 
-{t}bold{/t}
+** bold
 fed
 
-{t}bold italic{/t}
+** bold italic
 fed kursiv
 
-{t}Book{/t}
+** Book
 
 
-{t}booked{/t}
+** booked
 booket
 
-{t}Booked{/t}
+** Booked
 Booket
 
-{t}Booking number{/t}
+** Booking number
 Booking nummer
 
-{t}Bookings{/t}
+** Bookings
 Bookinger
 
-{t}Bookmark{/t}
+** Bookmark
 
 
-{t}Bookmarks{/t}
+** Bookmarks
 Bogmærker
 
-{t}borrowed{/t}
+** borrowed
 lånt
 
-{t}Brand{/t}
+** Brand
 Mærke
 
-{t}Brands{/t}
+** Brands
 Mærker
 
-{t}Browser Compatibility{/t}
+** Browser Compatibility
 Browser kompitibillitet
 
-{t}Browser not supported{/t}
+** Browser not supported
 Browser ikke understøttet
 
-{t}Budget{/t}
+** Budget
 Budget
 
-{t}Bug{/t}
+** Bug
 Bug
 
-{t}bulleted{/t}
+** bulleted
 punkt opstilling
 
-{t}Business{/t}
+** Business
 Forretning
 
-{t}C a n c e l{/t}
+** C a n c e l
 
 
-{t}C O N T I N U E{/t}
+** C O N T I N U E
 F O R S Æ T
 
-{t}Cache output{/t}
+** Cache output
 Cache output
 
-{t}Caches{/t}
+** Caches
 Caches
 
-{t}Calendar{/t}
+** Calendar
 Kalender
 
-{t}Cancel{/t}
+** Cancel
 
 
-{t}canceled{/t}
+** canceled
 annulleret
 
-{t}Canceled{/t}
+** Canceled
 Annulleret
 
-{t}Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.{/t}
+** Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.
 Kan ikke kalde proc_open. Fjern venligst proc_open fra disable_functions i php.ini og deaktiver safe_mode.
 
-{t}Cannot connect to database %s on %s.{/t}
+** Cannot connect to database %s on %s.
 Kan ikke forbinde til database %s på %s.
 
-{t}Cannot create preview for %s{/t}
+** Cannot create preview for %s
 Kan ikke oprette forvisning af %s
 
-{t}Cannot read the file %s.{/t}
+** Cannot read the file %s.
 Kan ikke læse filen %s.
 
-{t}Cardinality{/t}
+** Cardinality
 Antal
 
-{t}Categories{/t}
+** Categories
 Kategorier
 
-{t}Category{/t}
+** Category
 Kategori
 
-{t}Cc{/t}
+** Cc
 Cc
 
-{t}centered{/t}
+** centered
 centreret
 
-{t}CEO{/t}
+** CEO
 Administrerende direktør
 
-{t}Change request{/t}
+** Change request
 Skift forespørgelse
 
-{t}Change settings{/t}
+** Change settings
 Skift indstillinger
 
-{t}Change Setup settings{/t}
+** Change Setup settings
 Skift opsætningsindstillinger
 
-{t}Change summary{/t}
+** Change summary
 Ændre sammendrag
 
-{t}Changed{/t}
+** Changed
 
 
-{t}changed line{/t}
+** changed line
 skiftet linje
 
-{t}Changelog{/t}
+** Changelog
 ChangeLog
 
-{t}Chat{/t}
+** Chat
 Chat
 
-{t}Check DoS Attacks{/t}
+** Check DoS Attacks
 Check for DoS angreb
 
-{t}checked{/t}
+** checked
 checket
 
-{t}Checked{/t}
+** Checked
 Checket
 
-{t}Choices{/t}
+** Choices
 
 
-{t}CIO{/t}
+** CIO
 IT leder
 
-{t}City{/t}
+** City
 By
 
-{t}Clean{/t}
+** Clean
 Rengør
 
-{t}Clean Cache{/t}
+** Clean Cache
 Rengør cache
 
-{t}Clear{/t}
+** Clear
 Tøm
 
-{t}Clear Cache{/t}
+** Clear Cache
 Tøm cache
 
-{t}Clear Data{/t}
+** Clear Data
 
 
-{t}Clear grouping{/t}
+** Clear grouping
 
 
-{t}Client{/t}
+** Client
 Klient
 
-{t}Close{/t}
+** Close
 Luk
 
-{t}Close session{/t}
+** Close session
 Luk session
 
-{t}closed{/t}
+** closed
 lukket
 
-{t}Closed{/t}
+** Closed
 Lukket
 
-{t}CMS{/t}
+** CMS
 
 
-{t}CMS homepage title{/t}
+** CMS homepage title
 
 
-{t}Collapse text{/t}
+** Collapse text
 
 
-{t}Collapse tree{/t}
+** Collapse tree
 Sammenfold træ
 
-{t}Color{/t}
+** Color
 Farve
 
-{t}Column{/t}
+** Column
 
 
-{t}Column name{/t}
+** Column name
 Kolonne navn
 
-{t}Combination{/t}
+** Combination
 
 
-{t}Comma{/t}
+** Comma
 
 
-{t}Comma separated values{/t}
+** Comma separated values
 
 
-{t}Command{/t}
+** Command
 Kommando
 
-{t}Comment{/t}
+** Comment
 Kommentar
 
-{t}Comment files{/t}
+** Comment files
 Kommentar filer
 
-{t}Companies{/t}
+** Companies
 Firmaer
 
-{t}Company{/t}
+** Company
 Firma
 
-{t}Competition{/t}
+** Competition
 Konkurrence
 
-{t}Competitor{/t}
+** Competitor
 Modstander
 
-{t}Complete{/t}
+** Complete
 
 
-{t}completed{/t}
+** completed
 
 
-{t}Completed{/t}
+** Completed
 Fuldført
 
-{t}Component{/t}
+** Component
 Komponent
 
-{t}Compress output{/t}
+** Compress output
 Komprimer output
 
-{t}Confirm{/t}
+** Confirm
 
 
-{t}confirmed{/t}
+** confirmed
 bekræftet
 
-{t}Connection error: %s [%s]{/t}
+** Connection error: %s [%s]
 
 
-{t}Connection to database failed.{/t}
+** Connection to database failed.
 Forbindelse til database mislykkes.
 
-{t}Console{/t}
+** Console
 
 
-{t}Console scripts{/t}
+** Console scripts
 
 
-{t}Consultant{/t}
+** Consultant
 Konsulent
 
-{t}Contact{/t}
+** Contact
 Kontakt
 
-{t}Contact activities{/t}
+** Contact activities
 Kontakt aktiviteter
 
-{t}Contact activity{/t}
+** Contact activity
 
 
-{t}Contact by{/t}
+** Contact by
 Kontakt ved
 
-{t}Contact groups{/t}
+** Contact groups
 Kontakt grupper
 
-{t}Contact id{/t}
+** Contact id
 Kontakt id
 
-{t}Contact person{/t}
+** Contact person
 Kontakt personer
 
-{t}Contact user by{/t}
+** Contact user by
 Kontakt bruger ved
 
-{t}Contacts{/t}
+** Contacts
 Kontakter
 
-{t}contains{/t}
+** contains
 indeholder
 
-{t}Content{/t}
+** Content
 Indhold
 
-{t}Continue{/t}
+** Continue
 Forsæt
 
-{t}Contracts{/t}
+** Contracts
 
 
-{t}Copier{/t}
+** Copier
 Kopier
 
-{t}Copy{/t}
+** Copy
 Kopier
 
-{t}Cost center{/t}
+** Cost center
 Betalings center
 
-{t}Costs of accommodation{/t}
+** Costs of accommodation
 Betaling for overnatning
 
-{t}Could not determine database-version.{/t}
+** Could not determine database-version.
 Kunne ikke bestemme database-version.
 
-{t}Country{/t}
+** Country
 Land
 
-{t}Create new{/t}
+** Create new
 
 
-{t}Create new folder{/t}
+** Create new folder
 
 
-{t}Created{/t}
+** Created
 Oprettet
 
-{t}Creating database failed.{/t}
+** Creating database failed.
 Oprettelse af database mislykkes.
 
-{t}current path{/t}
+** current path
 nuværende sti
 
-{t}current time{/t}
+** current time
 
 
-{t}Curriculum vitae{/t}
+** Curriculum vitae
 Curriculum vitae (CV)
 
-{t}Custom schema{/t}
+** Custom schema
 
 
-{t}Customization rules\nfor modules based on sgsML{/t}
+** Customization rules\nfor modules based on sgsML
 
 
-{t}customizations{/t}
+** customizations
 tilpasninger
 
-{t}Customize{/t}
+** Customize
 
 
-{t}Cut{/t}
+** Cut
 Klip
 
-{t}daily{/t}
+** daily
 daglig
 
-{t}Data{/t}
+** Data
 Data
 
-{t}Data free{/t}
+** Data free
 Data ledig
 
-{t}Data length{/t}
+** Data length
 Data længde
 
-{t}Database{/t}
+** Database
 Database
 
-{t}Database Hostname / IP{/t}
+** Database Hostname / IP
 Database domæne / IP
 
-{t}Database Name{/t}
+** Database Name
 Database navn
 
-{t}Database Password{/t}
+** Database Password
 Database password
 
-{t}Database size{/t}
+** Database size
 
 
-{t}Database status{/t}
+** Database status
 Database status
 
-{t}Database type{/t}
+** Database type
 
 
-{t}Database User{/t}
+** Database User
 Database bruger
 
-{t}Database variables{/t}
+** Database variables
 Database variabler
 
-{t}Date{/t}
+** Date
 Dato
 
-{t}Day{/t}
+** Day
 Dag
 
-{t}Day begin{/t}
+** Day begin
 Dag starter
 
-{t}Day end{/t}
+** Day end
 Dag slutter
 
-{t}days{/t}
+** days
 dage
 
-{t}Deactivate{/t}
+** Deactivate
 
 
-{t}Deadline{/t}
+** Deadline
 Deadline
 
-{t}Debug{/t}
+** Debug
 Debug
 
-{t}Debug-dir{/t}
+** Debug-dir
 Debug-mappe
 
-{t}Dec{/t}
+** Dec
 
 
-{t}December{/t}
+** December
 December
 
-{t}Declining balance{/t}
+** Declining balance
 Afvis balance
 
-{t}Default{/t}
+** Default
 Standart
 
-{t}Default function{/t}
+** Default function
 
 
-{t}Default theme{/t}
+** Default theme
 Standart tema
 
-{t}Default values for assets{/t}
+** Default values for assets
 
 
-{t}definition for definition lists{/t}
+** definition for definition lists
 definition til difinitionslister
 
-{t}Degree{/t}
+** Degree
 Uddannelse
 
-{t}Delete{/t}
+** Delete
 Slet
 
-{t}Delete incl subfolders{/t}
+** Delete incl subfolders
 Slet inklusiv undermapper
 
-{t}deleted{/t}
+** deleted
 slettet
 
-{t}deleted line{/t}
+** deleted line
 slettet linje
 
-{t}Delivery{/t}
+** Delivery
 
 
-{t}Demand{/t}
+** Demand
 Krav
 
-{t}Demo{/t}
+** Demo
 Demo
 
-{t}Demonstration folder{/t}
+** Demonstration folder
 
 
-{t}Department{/t}
+** Department
 Afdeling
 
-{t}Departments{/t}
+** Departments
 Afdelinger
 
-{t}Dependancies{/t}
+** Dependancies
 Afhængigheder
 
-{t}Description{/t}
+** Description
 Beskrivelse
 
-{t}Description hint{/t}
+** Description hint
 
 
-{t}Description title{/t}
+** Description title
 
 
-{t}Description value{/t}
+** Description value
 
 
-{t}Desktop computer{/t}
+** Desktop computer
 Desktop computer
 
-{t}Details{/t}
+** Details
 Detajler
 
-{t}Device type{/t}
+** Device type
 Enheds type
 
-{t}Device types{/t}
+** Device types
 Enheds typer
 
-{t}Diagram{/t}
+** Diagram
 
 
-{t}directory does not exist.{/t}
+** directory does not exist.
 mappe eksistere ikke.
 
-{t}Directory is outside the allowed directory. (%s is outside %s){/t}
+** Directory is outside the allowed directory. (%s is outside %s)
 Mappe er udenfor tilladte mappe. (%s er udenfor %s)
 
-{t}disable{/t}
+** disable
 
 
-{t}Disable basic authentication{/t}
+** Disable basic authentication
 Deaktiver basal godkendelse
 
-{t}Disable cut-copy-paste{/t}
+** Disable cut-copy-paste
 
 
-{t}Disabled{/t}
+** Disabled
 
 
-{t}Disabled modules{/t}
+** Disabled modules
 
 
-{t}Display{/t}
+** Display
 Visning
 
-{t}display filter{/t}
+** display filter
 Visnings filter
 
-{t}Displayname{/t}
+** Displayname
 
 
-{t}displays{/t}
+** displays
 visninger
 
-{t}Distributor{/t}
+** Distributor
 Distrubutør
 
-{t}Distributors{/t}
+** Distributors
 Distrubtører
 
-{t}divorced{/t}
+** divorced
 skilt
 
-{t}Documentation{/t}
+** Documentation
 Dokumentation
 
-{t}Documentation index{/t}
+** Documentation index
 Dokumentationsindeks
 
-{t}Domain{/t}
+** Domain
 Domæne
 
-{t}Don't attend{/t}
+** Don't attend
 
 
-{t}Don't move old files to 'old/'{/t}
+** Don't move old files to 'old/'
 
 
-{t}Down{/t}
+** Down
 Ned
 
-{t}Download{/t}
+** Download
 Download
 
-{t}Download example file{/t}
+** Download example file
 
 
-{t}Downloading extension list{/t}
+** Downloading extension list
 
 
-{t}Downloading update list{/t}
+** Downloading update list
 Downloader updaterings liste
 
-{t}Drag and drop files or URLs here.{/t}
+** Drag and drop files or URLs here.
 
 
-{t}duplicate{/t}
+** duplicate
 dubliker
 
-{t}Duration{/t}
+** Duration
 Varighed
 
-{t}E-mail{/t}
+** E-mail
 E-mail
 
-{t}E-mail private{/t}
+** E-mail private
 E-mail privat
 
-{t}E-mail program{/t}
+** E-mail program
 E-mail program
 
-{t}e.g.{/t}
+** e.g.
 f.eks.
 
-{t}Edit{/t}
+** Edit
 Rediger
 
-{t}Edit as new{/t}
+** Edit as new
 Rediger som ny
 
-{t}Edit rights{/t}
+** Edit rights
 Rediger rettigheder
 
-{t}Editable if hidden in all views{/t}
+** Editable if hidden in all views
 
 
-{t}Editor{/t}
+** Editor
 Redaktør
 
-{t}Emphasis{/t}
+** Emphasis
 Fremhævning
 
-{t}Empty{/t}
+** Empty
 Tom
 
-{t}Empty folder{/t}
+** Empty folder
 Tomme mapper
 
-{t}en{/t}
+** en
 da
 
-{t}Enable anonymous access{/t}
+** Enable anonymous access
 Aktiver anonym adgang
 
-{t}Enable anonymous CMS{/t}
+** Enable anonymous CMS
 Aktiver anonym CMS
 
-{t}Enable automatic user creation{/t}
+** Enable automatic user creation
 Aktiver automatisk bruger oprettelse
 
-{t}Enable external mail client for 'mailto:' links{/t}
+** Enable external mail client for 'mailto:' links
 Aktiver ekstern mail klient for mailto: links
 
-{t}Enable self registration{/t}
+** Enable self registration
 
 
-{t}Enable Sync4j / Funambol{/t}
+** Enable Sync4j / Funambol
 Aktiver Sync4j / Funambol
 
-{t}Enable WebDAV{/t}
+** Enable WebDAV
 
 
-{t}End{/t}
+** End
 Slut
 
-{t}engaged{/t}
+** engaged
 aktiveret
 
-{t}equal{/t}
+** equal
 lig med
 
-{t}Error{/t}
+** Error
 Fejl
 
-{t}Error doing request to xmlhttp{/t}
+** Error doing request to xmlhttp
 Fejl under forspørgelse til xmlHTTP
 
-{t}Error moving file{/t}
+** Error moving file
 Fejl under flytning af fil
 
-{t}Error pasting asset{/t}
+** Error pasting asset
 Fejl under indsættelse af punkt
 
-{t}Error: no credentials{/t}
+** Error: no credentials
 Fejl: ingen godkendelse
 
-{t}Events{/t}
+** Events
 Begivenheder
 
-{t}Example{/t}
+** Example
 Eksemple
 
-{t}Example contacts{/t}
+** Example contacts
 Eksempel kontakter
 
-{t}Example surveys can be found at:{/t}
+** Example surveys can be found at:
 
 
-{t}Example without mountpoint{/t}
+** Example without mountpoint
 Eksempel uden tilknytning
 
-{t}Examples{/t}
+** Examples
 Eksempler
 
-{t}Execute{/t}
+** Execute
 Udfør
 
-{t}Expenses{/t}
+** Expenses
 Udgifter
 
-{t}Experimental{/t}
+** Experimental
 Forsøg
 
-{t}Expires{/t}
+** Expires
 Udløber
 
-{t}Expiry{/t}
+** Expiry
 Udløber
 
-{t}Extended{/t}
+** Extended
 
 
-{t}Extensions{/t}
+** Extensions
 
 
-{t}Extracting files{/t}
+** Extracting files
 Udpakker filer
 
-{t}F j{/t}
+** F j
 j F
 
-{t}F j, Y{/t}
+** F j, Y
 j F, Y
 
-{t}Failed to create directory: %s{/t}
+** Failed to create directory: %s
 Mislykkes at oprette mappe: %s
 
-{t}Failed to write file to disk.{/t}
+** Failed to write file to disk.
 Mislykkes at skrive til disk.
 
-{t}Failed to write into %s{/t}
+** Failed to write into %s
 Mislykkes at skrive til %s
 
-{t}Family status{/t}
+** Family status
 Familie status
 
-{t}FAQ{/t}
+** FAQ
 OSS
 
-{t}Favorites{/t}
+** Favorites
 Farvoritter
 
-{t}Fax{/t}
+** Fax
 Fax
 
-{t}Fax private{/t}
+** Fax private
 
 
-{t}Feature request{/t}
+** Feature request
 Funktions ønske
 
-{t}Feb{/t}
+** Feb
 
 
-{t}February{/t}
+** February
 Febuar
 
-{t}Feed{/t}
+** Feed
 
 
-{t}female{/t}
+** female
 kvinde
 
-{t}Field{/t}
+** Field
 Felt
 
-{t}Field contains value{/t}
+** Field contains value
 
 
-{t}Field customization{/t}
+** Field customization
 
 
-{t}Field is equal to value{/t}
+** Field is equal to value
 
 
-{t}Fields{/t}
+** Fields
 
 
-{t}File{/t}
+** File
 Fil
 
-{t}file is too big. Please change upload_max_filesize, post_max_size in your php.ini{/t}
+** file is too big. Please change upload_max_filesize, post_max_size in your php.ini
 filen er for stor. Skift venligst upload_max_filesize, post_max_size i din php.ini
 
-{t}file is too big. Please upload a smaller one.{/t}
+** file is too big. Please upload a smaller one.
 Filen er for stor. Upload venligst en mindre
 
-{t}file not found in database.{/t}
+** file not found in database.
 Fil ikke fundet i database
 
-{t}file not found.{/t}
+** file not found.
 Fil ikke fundet
 
-{t}file was uploaded partially.{/t}
+** file was uploaded partially.
 Filen blev delvist uploaded.
 
-{t}Filename must have the right extension. Valid extensions are %s{/t}
+** Filename must have the right extension. Valid extensions are %s
 Filnavn skal have den rigtige endelse. Gyldige endelser er %s
 
-{t}Files{/t}
+** Files
 Filer
 
-{t}Filesystem{/t}
+** Filesystem
 Filsystem
 
-{t}Filter{/t}
+** Filter
 Filter
 
-{t}Find assets in multiple folders{/t}
+** Find assets in multiple folders
 Find punkter i flere mapper
 
-{t}Finish scheduled{/t}
+** Finish scheduled
 Færdig planlagt
 
-{t}Finished{/t}
+** Finished
 Færdig
 
-{t}First in list{/t}
+** First in list
 Først på liste
 
-{t}first level support{/t}
+** first level support
 
 
-{t}First name{/t}
+** First name
 Fornavn
 
-{t}Fix paging bar to page bottom{/t}
+** Fix paging bar to page bottom
 
 
-{t}fixed{/t}
+** fixed
 rettet
 
-{t}Flags{/t}
+** Flags
 Makater
 
-{t}Flash plugin not installed.{/t}
+** Flash plugin not installed.
 
 
-{t}Folder{/t}
+** Folder
 Mappe
 
-{t}Folder already exists.{/t}
+** Folder already exists.
 Mappen eksistere allerede.
 
-{t}Folder created.{/t}
+** Folder created.
 
 
-{t}Folder has changed.{/t}
+** Folder has changed.
 
 
-{t}Folder icon{/t}
+** Folder icon
 
 
-{t}Folder not found.{/t}
+** Folder not found.
 
 
-{t}Folder refresh period{/t}
+** Folder refresh period
 
 
-{t}Folder structure{/t}
+** Folder structure
 
 
-{t}Folder structure created.{/t}
+** Folder structure created.
 Mappe struktur oprettet.
 
-{t}Folder structure moved to trash.{/t}
+** Folder structure moved to trash.
 Mappe struktur flyttet til skraldespand.
 
-{t}Folder Type{/t}
+** Folder Type
 Mappe type
 
-{t}Folder with ID %s{/t}
+** Folder with ID %s
 
 
-{t}Folders{/t}
+** Folders
 Mapper
 
-{t}for a new paragraph, use a blank line{/t}
+** for a new paragraph, use a blank line
 for et nyt afsnit, brug en blank linie
 
-{t}Force SSL{/t}
+** Force SSL
 Tving SSL
 
-{t}Form{/t}
+** Form
 
 
-{t}Forum{/t}
+** Forum
 Forum
 
-{t}Forward{/t}
+** Forward
 Vidresend
 
-{t}Fr{/t}
+** Fr
 Fr
 
-{t}Free/busy{/t}
+** Free/busy
 Ledig/Optaget
 
-{t}Freelance{/t}
+** Freelance
 
 
-{t}Fri{/t}
+** Fri
 Fre
 
-{t}Friday{/t}
+** Friday
 Fredag
 
-{t}From{/t}
+** From
 Fra
 
-{t}Full screen{/t}
+** Full screen
 
 
-{t}Full texts{/t}
+** Full texts
 Hel tekst
 
-{t}Full time{/t}
+** Full time
 
 
-{t}Full width{/t}
+** Full width
 Fuld bredde
 
-{t}Fulltext index{/t}
+** Fulltext index
 
 
-{t}Funambol only works with MySQL and PostgreSQL.{/t}
+** Funambol only works with MySQL and PostgreSQL.
 Funambol virker kun med MySQL og PostgreSQL
 
-{t}Function does not exist: %s{/t}
+** Function does not exist: %s
 Funktionen %s eksistere ikke
 
-{t}g:i a{/t}
+** g:i a
 G:i
 
-{t}Gender{/t}
+** Gender
 Køn
 
-{t}General{/t}
+** General
 Generalt
 
-{t}Generate{/t}
+** Generate
 Generer
 
-{t}Gifts{/t}
+** Gifts
 Gaver
 
-{t}Give Feedback{/t}
+** Give Feedback
 Giv tilbagemelding
 
-{t}GNU GPL Frequently Asked Questions{/t}
+** GNU GPL Frequently Asked Questions
 GNU GPL Ofte stillede spørgsmål
 
-{t}greater than{/t}
+** greater than
 størrer end
 
-{t}green{/t}
+** green
 grøn
 
-{t}Group{/t}
+** Group
 Gruppe
 
-{t}Group created.{/t}
+** Group created.
 
 
-{t}Group deactivated.{/t}
+** Group deactivated.
 
 
-{t}Groupname{/t}
+** Groupname
 Gruppenavn
 
-{t}Groups{/t}
+** Groups
 Grupper
 
-{t}hanging text{/t}
+** hanging text
 hængende tekst
 
-{t}Hardware{/t}
+** Hardware
 Hardware
 
-{t}Headers{/t}
+** Headers
 Hovedsektioner
 
-{t}heading{/t}
+** heading
 overskrift
 
-{t}headings{/t}
+** headings
 overskrifter
 
-{t}Height{/t}
+** Height
 Højde
 
-{t}Help{/t}
+** Help
 Hjælp
 
-{t}Helpdesk{/t}
+** Helpdesk
 Info
 
-{t}Hidden in{/t}
+** Hidden in
 
 
-{t}Hidden in all views{/t}
+** Hidden in all views
 
 
-{t}Hide{/t}
+** Hide
 
 
-{t}hide in all views{/t}
+** hide in all views
 
 
-{t}hide in this view{/t}
+** hide in this view
 
 
-{t}History{/t}
+** History
 Historie
 
-{t}Holiday{/t}
+** Holiday
 Ferie
 
-{t}Home{/t}
+** Home
 Hjem
 
-{t}Home folder id{/t}
+** Home folder id
 Hjemmemappe id
 
-{t}Home page in the CMS{/t}
+** Home page in the CMS
 Hjemmeside i CMSet
 
-{t}Homepage{/t}
+** Homepage
 Hjemmeside
 
-{t}horizontal line{/t}
+** horizontal line
 horisontal linie
 
-{t}Host{/t}
+** Host
 Domæne
 
-{t}Hosts{/t}
+** Hosts
 Domæner
 
-{t}Hour{/t}
+** Hour
 
 
-{t}hours{/t}
+** hours
 timer
 
-{t}Hours per week{/t}
+** Hours per week
 
 
-{t}HTML document{/t}
+** HTML document
 
 
-{t}HTML documents{/t}
+** HTML documents
 HTML dokumenter
 
-{t}http://www.pmwiki.org/PmWiki/{/t}
+** http://www.pmwiki.org/PmWiki/
 
 
-{t}Human resources{/t}
+** Human resources
 
 
-{t}I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2{/t}
+** I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2
 Jeg acceptere GNU GENERAL PUBLIC LICENSE VERSION 2
 
-{t}I m p o r t{/t}
+** I m p o r t
 
 
-{t}I n s t a l l{/t}
+** I n s t a l l
 I n s t a l l e r
 
-{t}Icon{/t}
+** Icon
 
 
-{t}Id{/t}
+** Id
 Id
 
-{t}Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
 Id skal være null, små bogstaver, min. 3 tegn, maks. 128 tegn indeholdende [a-z0-9_-@.].
 
-{t}Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].
 Id skal ikke være null, min. 3 tegn, maks. 128 tegn indeholdende [a-z0-9_@.].
 
-{t}Ideas{/t}
+** Ideas
 Ideèr
 
-{t}If empty, the SMTP connection from the module users will be used.{/t}
+** If empty, the SMTP connection from the module users will be used.
 Hvis tom vil SMTP konfigurationen fra brugermodulet benyttes
 
-{t}If file system permissions are ok, please check the configurations of %s if present.{/t}
+** If file system permissions are ok, please check the configurations of %s if present.
 
 
-{t}if not autodetected with namingContexts{/t}
+** if not autodetected with namingContexts
 hvis ikke autodetekteret ved navnesammenhæng
 
-{t}If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.{/t}
+** If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.
 
 
-{t}If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.{/t}
+** If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.
 Hvis brugernavn indeholder &quot;@&quot; karakterer, erstat med &quot;%%&quot;.
 
-{t}Illness{/t}
+** Illness
 
 
-{t}Im-/Export{/t}
+** Im-/Export
 Import/Eksport
 
-{t}Image{/t}
+** Image
 Billed
 
-{t}Images{/t}
+** Images
 Billeder
 
-{t}Imap-error: %s{/t}
+** Imap-error: %s
 IMAP-fejl: %s
 
-{t}immediate{/t}
+** immediate
 Øjeblikkeligt
 
-{t}Import{/t}
+** Import
 Importer
 
-{t}In progress{/t}
+** In progress
 Under udførsel
 
-{t}in repair{/t}
+** in repair
 under reperation
 
-{t}in stock{/t}
+** in stock
 på lager
 
-{t}Inactive{/t}
+** Inactive
 Inaktiv
 
-{t}Include in RSS feed{/t}
+** Include in RSS feed
 Inkluder i RSS feed
 
-{t}Include page{/t}
+** Include page
 
 
-{t}indent text{/t}
+** indent text
 indryk tekst
 
-{t}Index{/t}
+** Index
 Indeks
 
-{t}Index length{/t}
+** Index length
 Indeks længde
 
-{t}Index type{/t}
+** Index type
 Indeks type
 
-{t}Indexes{/t}
+** Indexes
 Indekser
 
-{t}Industry{/t}
+** Industry
 Industri
 
-{t}Info{/t}
+** Info
 Info
 
-{t}inheritance to subfolders without default values{/t}
+** inheritance to subfolders without default values
 
 
-{t}Input field{/t}
+** Input field
 
 
-{t}Input field height{/t}
+** Input field height
 
 
-{t}Insert{/t}
+** Insert
 Indsæt
 
-{t}inserted{/t}
+** inserted
 indsat
 
-{t}Install default folder structure{/t}
+** Install default folder structure
 
 
-{t}Install demo folders{/t}
+** Install demo folders
 
 
-{t}Install minimal folder structure{/t}
+** Install minimal folder structure
 
 
-{t}installed{/t}
+** installed
 
 
-{t}insufficient folder rights{/t}
+** insufficient folder rights
 ikke tilstrækkelige mappe rettigheder
 
-{t}Internal recommendation{/t}
+** Internal recommendation
 Intern anbefaling
 
-{t}Intranet{/t}
+** Intranet
 
 
-{t}Intro{/t}
+** Intro
 Intro
 
-{t}invalid{/t}
+** invalid
 ugyldig
 
-{t}Invalid file extensions{/t}
+** Invalid file extensions
 
 
-{t}Invalid schema mode '%s'{/t}
+** Invalid schema mode '%s'
 
 
-{t}Invalid security token{/t}
+** Invalid security token
 
 
-{t}Inventory{/t}
+** Inventory
 Inventar
 
-{t}Inventory number{/t}
+** Inventory number
 Inventar nummer
 
-{t}Investor{/t}
+** Investor
 Investor
 
-{t}Invoice{/t}
+** Invoice
 Regning
 
-{t}italic{/t}
+** italic
 kursiv
 
-{t}Item created by %s at %s{/t}
+** Item created by %s at %s
 Punkt oprettet af %s den %s
 
-{t}Item deleted by %s at %s{/t}
+** Item deleted by %s at %s
 Punkt slettet af %s den %s
 
-{t}Item edited (%s) by %s at %s{/t}
+** Item edited (%s) by %s at %s
 Punkt redigeret (%s) af %s den %s
 
-{t}Item not found.{/t}
+** Item not found.
 Ikke fundet
 
-{t}Item successfully created.{/t}
+** Item successfully created.
 Succesfuldt oprettet
 
-{t}Item successfully updated.{/t}
+** Item successfully updated.
 Succesfuldt opdateret
 
-{t}Item(s) not found or access denied.{/t}
+** Item(s) not found or access denied.
 Ikke fundet i database eller adgang.
 
-{t}Jan{/t}
+** Jan
 
 
-{t}January{/t}
+** January
 Januar
 
-{t}Job description{/t}
+** Job description
 Job beskrivelse
 
-{t}Join lines{/t}
+** Join lines
 Saml linier
 
-{t}Jul{/t}
+** Jul
 
 
-{t}July{/t}
+** July
 Juli
 
-{t}Jun{/t}
+** Jun
 
 
-{t}June{/t}
+** June
 Juni
 
-{t}Key{/t}
+** Key
 Nøgle
 
-{t}Key customer{/t}
+** Key customer
 VIP kunde
 
-{t}Key name{/t}
+** Key name
 Nøgle navn
 
-{t}Keywords{/t}
+** Keywords
 Nøgleord
 
-{t}Knowledge base{/t}
+** Knowledge base
 Vidensdatabase
 
-{t}L o g i n{/t}
+** L o g i n
 Log ind
 
-{t}l, F j, Y{/t}
+** l, F j, Y
 l, j F, Y
 
-{t}Last access{/t}
+** Last access
 Sidste adgang
 
-{t}Last name{/t}
+** Last name
 Efternavn
 
-{t}LDAP anonymous connection failed.{/t}
+** LDAP anonymous connection failed.
 LDAP anonym forbindelse mislykkes.
 
-{t}LDAP attribute for group memberships{/t}
+** LDAP attribute for group memberships
 LDAP egenskaber for gruppemedlemsskaber
 
-{t}LDAP attribute for rooms{/t}
+** LDAP attribute for rooms
 LDAP egenskaber for rum
 
-{t}LDAP attribute for usernames{/t}
+** LDAP attribute for usernames
 LDAP egenskaber for brugernavne
 
-{t}LDAP connection to host %s failed.{/t}
+** LDAP connection to host %s failed.
 LDAP forbindelse til domæne %s mislykkes.
 
-{t}LDAP without anonymous access{/t}
+** LDAP without anonymous access
 LDAP uden anonym adgang
 
-{t}LDAP: no base DN given{/t}
+** LDAP: no base DN given
 LDAP: ingen base DN givet
 
-{t}LDAP: no UID given{/t}
+** LDAP: no UID given
 
 
-{t}Leave of absence{/t}
+** Leave of absence
 
 
-{t}less promising{/t}
+** less promising
 mindre lovende
 
-{t}lesser than{/t}
+** lesser than
 mindre end
 
-{t}Letter{/t}
+** Letter
 Brev
 
-{t}Level{/t}
+** Level
 Niveau
 
-{t}License{/t}
+** License
 Licens
 
-{t}line{/t}
+** line
 
 
-{t}Line break{/t}
+** Line break
 Linieskift
 
-{t}Link{/t}
+** Link
 Link
 
-{t}Link restricted{/t}
+** Link restricted
 Link begrænset
 
-{t}link text{/t}
+** link text
 link tekst
 
-{t}link to external page{/t}
+** link to external page
 link til ekstern side
 
-{t}link to internal page{/t}
+** link to internal page
 link til intern side
 
-{t}Links{/t}
+** Links
 
 
-{t}Lists{/t}
+** Lists
 Lister
 
-{t}Load external images{/t}
+** Load external images
 Load eksterne billeder
 
-{t}Location{/t}
+** Location
 Lokation
 
-{t}Locations{/t}
+** Locations
 Lokationer
 
-{t}Lock{/t}
+** Lock
 Lås
 
-{t}Locked by{/t}
+** Locked by
 Låst af
 
-{t}Locking{/t}
+** Locking
 Låser
 
-{t}login %s from %s with %s{/t}
+** login %s from %s with %s
 login %s fra %s med %s
 
-{t}Login failed from %s.{/t}
+** Login failed from %s.
 Login fejlet fra %s.
 
-{t}Login/-out{/t}
+** Login/-out
 Login/-out
 
-{t}Logins{/t}
+** Logins
 Logins
 
-{t}Logout{/t}
+** Logout
 
 
-{t}logout %s{/t}
+** logout %s
 logud %s
 
-{t}Lookup{/t}
+** Lookup
 Slå op
 
-{t}low{/t}
+** low
 lav
 
-{t}lowest{/t}
+** lowest
 lavest
 
-{t}M j{/t}
+** M j
 j M
 
-{t}M j, g:i a{/t}
+** M j, g:i a
 j M, G:i
 
-{t}M j, Y{/t}
+** M j, Y
 j M Y
 
-{t}m/d/Y{/t}
+** m/d/Y
 d/m/Y
 
-{t}m/d/Y g:i a{/t}
+** m/d/Y g:i a
 d/m/Y G:i
 
-{t}m/d/y g:i:s a{/t}
+** m/d/y g:i:s a
 d/m/y G:i:s
 
-{t}magenta{/t}
+** magenta
 magenta
 
-{t}mail footer{/t}
+** mail footer
 Mial fodnote
 
-{t}Mail identities{/t}
+** Mail identities
 Mail identiteter
 
-{t}mail notification{/t}
+** mail notification
 Mail information
 
-{t}mail reminder{/t}
+** mail reminder
 Mail påmindelse
 
-{t}Main menu{/t}
+** Main menu
 Hovedmenu
 
-{t}Main page{/t}
+** Main page
 
 
-{t}Maintenance mode{/t}
+** Maintenance mode
 Vedligeholdelse
 
-{t}male{/t}
+** male
 mand
 
-{t}Man-days{/t}
+** Man-days
 Mand-dage
 
-{t}Man-days planned{/t}
+** Man-days planned
 Mand-dage planlagt
 
-{t}Manage offline folders{/t}
+** Manage offline folders
 
 
-{t}Manager{/t}
+** Manager
 Leder
 
-{t}Manufacturer{/t}
+** Manufacturer
 Producent
 
-{t}Mar{/t}
+** Mar
 
 
-{t}March{/t}
+** March
 Marts
 
-{t}Marketing event{/t}
+** Marketing event
 Marketings begivenhed
 
-{t}married{/t}
+** married
 gift
 
-{t}Maximize{/t}
+** Maximize
 Maksimeret
 
-{t}Maximum file size{/t}
+** Maximum file size
 
 
-{t}Maximum number of assets per page{/t}
+** Maximum number of assets per page
 
 
-{t}maximum number of files exceeded.{/t}
+** maximum number of files exceeded.
 maksimum antallet af filer overskredet.
 
-{t}May{/t}
+** May
 Maj
 
-{t}Media{/t}
+** Media
 Medie
 
-{t}Meeting{/t}
+** Meeting
 Møde
 
-{t}Members{/t}
+** Members
 Medlemmer
 
-{t}Memory limit{/t}
+** Memory limit
 
 
-{t}Merge folders permanently{/t}
+** Merge folders permanently
 Flet mapper permanent
 
-{t}Merged folders{/t}
+** Merged folders
 Flettede mapper
 
-{t}Message{/t}
+** Message
 Besked
 
-{t}Messages{/t}
+** Messages
 
 
-{t}Milestone{/t}
+** Milestone
 
 
-{t}min{/t}
+** min
 min
 
-{t}Minimize{/t}
+** Minimize
 Minimer
 
-{t}minimum = 15 secs, 0 = disabled{/t}
+** minimum = 15 secs, 0 = disabled
 minimum = 15 sek, 0 = deaktiveret
 
-{t}Miscellaneous{/t}
+** Miscellaneous
 Diverse
 
-{t}missing a temporary folder.{/t}
+** missing a temporary folder.
 mangler temp mappe
 
-{t}missing field{/t}
+** missing field
 manglende felt
 
-{t}missing right: %s{/t}
+** missing right: %s
 manglende rettigheder: %s
 
-{t}Mo{/t}
+** Mo
 Ma
 
-{t}Mobile{/t}
+** Mobile
 Mobil
 
-{t}Model{/t}
+** Model
 Model
 
-{t}Modified{/t}
+** Modified
 Ændret
 
-{t}Modified by{/t}
+** Modified by
 Ændret af
 
-{t}Modifying database failed.{/t}
+** Modifying database failed.
 Ændring af database mislykket.
 
-{t}Module{/t}
+** Module
 Modul
 
-{t}Module disabled.{/t}
+** Module disabled.
 
 
-{t}Modules{/t}
+** Modules
 Moduler
 
-{t}Mon{/t}
+** Mon
 Man
 
-{t}Monday{/t}
+** Monday
 Mandag
 
-{t}monospace{/t}
+** monospace
 
 
-{t}Month{/t}
+** Month
 Måned
 
-{t}monthly{/t}
+** monthly
 Månedlig
 
-{t}months{/t}
+** months
 Måneder
 
-{t}More information about the GNU GPL{/t}
+** More information about the GNU GPL
 Mere information om GNU GPL
 
-{t}Mountpoint{/t}
+** Mountpoint
 Vedhæftet
 
-{t}Move{/t}
+** Move
 Flyt
 
-{t}Move to subfolder 'Archive'{/t}
+** Move to subfolder 'Archive'
 
 
-{t}Multiple{/t}
+** Multiple
 
 
-{t}Multiple choice{/t}
+** Multiple choice
 
 
-{t}My appointments{/t}
+** My appointments
 Mine aftaler
 
-{t}My tasks{/t}
+** My tasks
 Mine opgaver
 
-{t}Name{/t}
+** Name
 Navn
 
-{t}Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
 Navn må ikke være tomt, kun små bogstaver. Min. 3 tegn, maks. 128 indeholdende [a-z0-9_-@.].
 
-{t}Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].{/t}
+** Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].
 Navn må ikke være null, min. 3 tegn, indeholdende [a-zA-Z0-9-_.].
 
-{t}need feedback{/t}
+** need feedback
 mangler feeback
 
-{t}Network{/t}
+** Network
 Netværk
 
-{t}Never expires{/t}
+** Never expires
 Udløber aldrig
 
-{t}New{/t}
+** New
 Ny
 
-{t}New folder{/t}
+** New folder
 Ny mappe
 
-{t}News{/t}
+** News
 Nyheder
 
-{t}Next recurrences{/t}
+** Next recurrences
 
 
-{t}Nickname{/t}
+** Nickname
 Kaldenavn
 
-{t}Nightwork{/t}
+** Nightwork
 Natarbejde
 
-{t}no{/t}
+** no
 nej
 
-{t}No dataset selected.{/t}
+** No dataset selected.
 Intet dataset valgt.
 
-{t}No entries found.{/t}
+** No entries found.
 Ingen elementer fundet.
 
-{t}No file was uploaded{/t}
+** No file was uploaded
 
 
-{t}No line breaks{/t}
+** No line breaks
 
 
-{t}no result{/t}
+** no result
 intet resultat
 
-{t}No search index{/t}
+** No search index
 
 
-{t}No sender specified.{/t}
+** No sender specified.
 Ingen modtager sat.
 
-{t}no username submitted{/t}
+** no username submitted
 Intet brugernavn givet
 
-{t}No username/password.{/t}
+** No username/password.
 
 
-{t}No wrap{/t}
+** No wrap
 
 
-{t}Non unique{/t}
+** Non unique
 Ikke unikt
 
-{t}none{/t}
+** none
 ingen
 
-{t}normal{/t}
+** normal
 normal
 
-{t}Not allowed. Please log in as super administrator.{/t}
+** Not allowed. Please log in as super administrator.
 Ikke tilladt. Log venligst som super administartor.
 
-{t}not contains{/t}
+** not contains
 ikke indeholder
 
-{t}not equal{/t}
+** not equal
 ikke lig med
 
-{t}Not in{/t}
+** Not in
 
 
-{t}Not in database{/t}
+** Not in database
 
 
-{t}not installed{/t}
+** not installed
 
 
-{t}Note{/t}
+** Note
 
 
-{t}Notebook{/t}
+** Notebook
 Notesbog
 
-{t}Notes{/t}
+** Notes
 Noter
 
-{t}Notificaiton sent to: %s{/t}
+** Notificaiton sent to: %s
 Påmindelse sendt til: %s
 
-{t}Notification{/t}
+** Notification
 Besked
 
-{t}Notification summary{/t}
+** Notification summary
 Besked sammendrag
 
-{t}Notifications{/t}
+** Notifications
 
 
-{t}Nov{/t}
+** Nov
 
 
-{t}November{/t}
+** November
 November
 
-{t}Null{/t}
+** Null
 Tom
 
-{t}Number of employees{/t}
+** Number of employees
 Antal ansatte
 
-{t}numbered{/t}
+** numbered
 nummereret
 
-{t}Objectives{/t}
+** Objectives
 Mål
 
-{t}Oct{/t}
+** Oct
 
 
-{t}October{/t}
+** October
 Oktober
 
-{t}of {0}{/t}
+** of {0}
 
 
-{t}offer{/t}
+** offer
 
 
-{t}Offer{/t}
+** Offer
 
 
-{t}Office{/t}
+** Office
 Kontor
 
-{t}Office program{/t}
+** Office program
 Kontor program
 
-{t}Offices{/t}
+** Offices
 Kontorer
 
-{t}offline{/t}
+** offline
 offline
 
-{t}Offline folders{/t}
+** Offline folders
 Offline mapper
 
-{t}Offline reading{/t}
+** Offline reading
 
 
-{t}Ok{/t}
+** Ok
 OK
 
-{t}one of{/t}
+** one of
 
 
-{t}online{/t}
+** online
 online
 
-{t}Only for this folder{/t}
+** Only for this folder
 
 
-{t}Only in{/t}
+** Only in
 
 
-{t}open{/t}
+** open
 
 
-{t}Open{/t}
+** Open
 Åben
 
-{t}Operating system{/t}
+** Operating system
 Operativ system
 
-{t}Operation not allowed. (Data loss protection){/t}
+** Operation not allowed. (Data loss protection)
 Operation ikke tiladt. (Data tabs beskyttelse)
 
-{t}Optimize Tables{/t}
+** Optimize Tables
 Optimiser tabeller
 
-{t}Options{/t}
+** Options
 Indstillinger
 
-{t}or{/t}
+** or
 eller
 
-{t}or higher{/t}
+** or higher
 eller højere
 
-{t}orange{/t}
+** orange
 orange
 
-{t}Order size{/t}
+** Order size
 Ordre størrelse
 
-{t}Organisation{/t}
+** Organisation
 Organisiation
 
-{t}Organizer{/t}
+** Organizer
 Organizer
 
-{t}Origin{/t}
+** Origin
 Oprindelse
 
-{t}Original message{/t}
+** Original message
 Original besked
 
-{t}Other{/t}
+** Other
 Andet
 
-{t}out of office{/t}
+** out of office
 ude
 
-{t}Outline image{/t}
+** Outline image
 Skabelon billed
 
-{t}Output{/t}
+** Output
 Resultat
 
-{t}Output empty: %s{/t}
+** Output empty: %s
 
 
-{t}overlap{/t}
+** overlap
 overlap
 
-{t}Overtime{/t}
+** Overtime
 Overtid
 
-{t}Overtime compensation per hour{/t}
+** Overtime compensation per hour
 
 
-{t}Owner{/t}
+** Owner
 Ejer
 
-{t}Owner since{/t}
+** Owner since
 Ejer siden
 
-{t}Package from local file system (.tar.gz){/t}
+** Package from local file system (.tar.gz)
 Pakke fra lokalt fil system (.tar.gz)
 
-{t}Packed{/t}
+** Packed
 Pakket
 
-{t}Page{/t}
+** Page
 Side
 
-{t}Page last modified on{/t}
+** Page last modified on
 
 
-{t}Page name (URL){/t}
+** Page name (URL)
 Sidenavn (URL)
 
-{t}Page not found{/t}
+** Page not found
 Side ikke fundet
 
-{t}Page title{/t}
+** Page title
 Side titel
 
-{t}Pager{/t}
+** Pager
 Pager
 
-{t}Paid{/t}
+** Paid
 
 
-{t}Paid holidays{/t}
+** Paid holidays
 
 
-{t}Paragraphs{/t}
+** Paragraphs
 Afsnit
 
-{t}parameters{/t}
+** parameters
 parametere
 
-{t}Parameters{/t}
+** Parameters
 Parametere
 
-{t}Parent folder{/t}
+** Parent folder
 
 
-{t}Parsing{/t}
+** Parsing
 Læser
 
-{t}Part time{/t}
+** Part time
 
 
-{t}Participants{/t}
+** Participants
 Deltagere
 
-{t}Participants (external){/t}
+** Participants (external)
 Deltagere (eksternt)
 
-{t}Participants (internal){/t}
+** Participants (internal)
 Deltagere (internt)
 
-{t}Password{/t}
+** Password
 Password
 
-{t}Password expired. (password of %s has expired){/t}
+** Password expired. (password of %s has expired)
 Password udløbet. (%s password er udløbet)
 
-{t}Password expires{/t}
+** Password expires
 Password udløber
 
-{t}Password must be not null, min 5 characters.{/t}
+** Password must be not null, min 5 characters.
 Password må ikke være tomt, og minumum 5 tegn.
 
-{t}password not confirmed.{/t}
+** password not confirmed.
 password ikke bekræftet.
 
-{t}Passwords{/t}
+** Passwords
 Passwords
 
-{t}Paste{/t}
+** Paste
 Indsæt
 
-{t}Path{/t}
+** Path
 Sti
 
-{t}Pause{/t}
+** Pause
 
 
-{t}Payroll{/t}
+** Payroll
 
 
-{t}Permissions{/t}
+** Permissions
 Tilladelser
 
-{t}Permissions added for: %s{/t}
+** Permissions added for: %s
 Tilladelser tilføjet for: %s
 
-{t}Personal{/t}
+** Personal
 Personlig
 
-{t}Personal department{/t}
+** Personal department
 Personlig afdeling
 
-{t}Personal folders{/t}
+** Personal folders
 Personlige mapper
 
-{t}Personal projects{/t}
+** Personal projects
 Personlige afdelinger
 
-{t}Phone{/t}
+** Phone
 Telefon
 
-{t}Phone calls{/t}
+** Phone calls
 Telefon opkald
 
-{t}Phone private{/t}
+** Phone private
 Telefon privat
 
-{t}Photo{/t}
+** Photo
 Billed
 
-{t}Photo gallery{/t}
+** Photo gallery
 Billed galleri
 
-{t}Planned{/t}
+** Planned
 Planlagt
 
-{t}Please activate cookies.{/t}
+** Please activate cookies.
 Aktiver venligst cookies.
 
-{t}Please choose Apache as Web-Server.{/t}
+** Please choose Apache as Web-Server.
 Vælg venligst Apache som Web-server.
 
-{t}Please enable Javascript in your browser.{/t}
+** Please enable Javascript in your browser.
 
 
-{t}Please enter a valid url.{/t}
+** Please enter a valid url.
 Venligst skriv en gyldig url.
 
-{t}Please give read access to %s{/t}
+** Please give read access to %s
 Giv venligst læse adgang til %s
 
-{t}Please give write access to %s{/t}
+** Please give write access to %s
 Giv venligst skrive adgange til %s
 
-{t}Please give write access to %s and %s{/t}
+** Please give write access to %s and %s
 Giv venligst skrive adgang til %s og %s
 
-{t}Please hit reload.{/t}
+** Please hit reload.
 Opdater siden.
 
-{t}Please input a valid e-mail adress.{/t}
+** Please input a valid e-mail adress.
 Venligst skriv en gyldig e-mail addresse.
 
-{t}Please install 'tsearch2' for the PostgreSQL database.{/t}
+** Please install 'tsearch2' for the PostgreSQL database.
 Installer venlist tsearch2 for PostgreSQl databasen.
 
-{t}Please install the php-extension with name '%s'.{/t}
+** Please install the php-extension with name '%s'.
 
 
-{t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}
+** Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !
 Modificer venligst din php.ini eller tilføj en .htaccess fil som ændre indstillingen %s til %s (nuværende værdi er %s) !
 
-{t}Please read the following license agreement. Use the scroll bar to view the rest of this agreement.{/t}
+** Please read the following license agreement. Use the scroll bar to view the rest of this agreement.
 Læs venligst følgende licens aftale. Brug scroll baren for at læse resten af aftalen.
 
-{t}Please select a location.{/t}
+** Please select a location.
 
 
-{t}Please select a participant.{/t}
+** Please select a participant.
 Venligst vælg en deltager
 
-{t}Please upload again.{/t}
+** Please upload again.
 Upload igen.
 
-{t}Please wait ...{/t}
+** Please wait ...
 Vent venligst ...
 
-{t}Pop3-error: %s{/t}
+** Pop3-error: %s
 POP3-fejl: %s
 
-{t}Port{/t}
+** Port
 Port
 
-{t}Portal{/t}
+** Portal
 Portal
 
-{t}Position{/t}
+** Position
 Position
 
-{t}Positions{/t}
+** Positions
 Positioner
 
-{t}Post{/t}
+** Post
 Send
 
-{t}Practical training{/t}
+** Practical training
 
 
-{t}Preformatted block{/t}
+** Preformatted block
 Preformateret blok
 
-{t}Prepend new field as{/t}
+** Prepend new field as
 
 
-{t}Prevent formatting{/t}
+** Prevent formatting
 Forhindre formatering
 
-{t}Preview{/t}
+** Preview
 Eksempel
 
-{t}Price{/t}
+** Price
 Pris
 
-{t}Primary key{/t}
+** Primary key
 
 
-{t}Print{/t}
+** Print
 Print
 
-{t}Print all{/t}
+** Print all
 Print alt
 
-{t}Printer{/t}
+** Printer
 Printer
 
-{t}Priority{/t}
+** Priority
 Prioritet
 
-{t}Problem{/t}
+** Problem
 Problem
 
-{t}Processes{/t}
+** Processes
 Processer
 
-{t}Processing %s ...{/t}
+** Processing %s ...
 Beregner %s ...
 
-{t}Program is installed with language %s, please use a different url or run the setup again.{/t}
+** Program is installed with language %s, please use a different url or run the setup again.
 Programmet er isntalleret med sproget %s, benytt venligst en anden url, eller kør installationen igen.
 
-{t}Progress{/t}
+** Progress
 Fremskridt
 
-{t}Project{/t}
+** Project
 Projekt
 
-{t}Project files{/t}
+** Project files
 Projekt filer
 
-{t}Project tasks{/t}
+** Project tasks
 Projekt opgaver
 
-{t}Projects{/t}
+** Projects
 Projekter
 
-{t}promising{/t}
+** promising
 lovende
 
-{t}Properties{/t}
+** Properties
 Egenskaber
 
-{t}Prospective client{/t}
+** Prospective client
 Lovende client
 
-{t}Public holiday{/t}
+** Public holiday
 
 
-{t}Purchased{/t}
+** Purchased
 Købt
 
-{t}Question{/t}
+** Question
 Spørgsmål
 
-{t}Queue{/t}
+** Queue
 Kø
 
-{t}Quick add{/t}
+** Quick add
 
 
-{t}Quota{/t}
+** Quota
 Kvote
 
-{t}Quota (remaining){/t}
+** Quota (remaining)
 Kvote (tilbage)
 
-{t}Quota [MB]{/t}
+** Quota [MB]
 Kvote [MB]
 
-{t}Quota limitation exceeded: %s{/t}
+** Quota limitation exceeded: %s
 Kvote begrænsning overskrider: %s
 
-{t}R e g i s t e r{/t}
+** R e g i s t e r
 
 
-{t}Rating{/t}
+** Rating
 Karakter
 
-{t}Read{/t}
+** Read
 Læs
 
-{t}read access{/t}
+** read access
 læse adgang
 
-{t}Read access (groups){/t}
+** Read access (groups)
 Læse adgang (grupper)
 
-{t}Read access (users){/t}
+** Read access (users)
 Læse adgang (brugere)
 
-{t}Read only in{/t}
+** Read only in
 
 
-{t}Read this page offline:{/t}
+** Read this page offline:
 
 
-{t}ready for repair{/t}
+** ready for repair
 klar til reperation
 
-{t}ready for scrap{/t}
+** ready for scrap
 klar til stripning
 
-{t}Real URL format in the CMS{/t}
+** Real URL format in the CMS
 Real URL format i CMSet
 
-{t}Really apply rights to subfolders ?{/t}
+** Really apply rights to subfolders ?
 Ønsker du at tilføje rettigheder til undermapper?
 
-{t}Really apply the changes ?{/t}
+** Really apply the changes ?
 
 
-{t}Really delete ?{/t}
+** Really delete ?
 Slet?
 
-{t}REALLY delete ALL datasets ?{/t}
+** REALLY delete ALL datasets ?
 Ønsker du at slette alle datasæt?
 
-{t}Really delete ALL subfolders ?{/t}
+** Really delete ALL subfolders ?
 Slet alle undermapper?
 
-{t}Really delete the dataset(s) ?{/t}
+** Really delete the dataset(s) ?
 Slet datasæt?
 
-{t}Really empty the folder ?{/t}
+** Really empty the folder ?
 Tøm mappen?
 
-{t}Really overwrite existing dataset(s) ?{/t}
+** Really overwrite existing dataset(s) ?
 Overskriv eksiterende datasæt?
 
-{t}Really run setup again ?{/t}
+** Really run setup again ?
 Kør opsætning igen?
 
-{t}Really uninstall the module ?{/t}
+** Really uninstall the module ?
 
 
-{t}Rebuild search index{/t}
+** Rebuild search index
 Genopbyg søge indeks
 
-{t}Recent changes{/t}
+** Recent changes
 
 
-{t}Recipients{/t}
+** Recipients
 
 
-{t}Recommendation of affiliate{/t}
+** Recommendation of affiliate
 Anbefaling af samarbejdes partnere
 
-{t}Recurrence{/t}
+** Recurrence
 Gentagelse
 
-{t}Recurrences{/t}
+** Recurrences
 
 
-{t}red{/t}
+** red
 red
 
-{t}Redirect to home directory{/t}
+** Redirect to home directory
 Vidre send til hjemme mappen
 
-{t}Reference{/t}
+** Reference
 
 
-{t}Refresh{/t}
+** Refresh
 
 
-{t}Refresh every x seconds{/t}
+** Refresh every x seconds
 Genopfrisk hvert x sekund
 
-{t}Regular{/t}
+** Regular
 
 
-{t}Reject{/t}
+** Reject
 
 
-{t}rejected{/t}
+** rejected
 afvist
 
-{t}Relative formats{/t}
+** Relative formats
 
 
-{t}Relaunch Setup{/t}
+** Relaunch Setup
 Genstart installation
 
-{t}Relevance{/t}
+** Relevance
 Relevans
 
-{t}Reminder{/t}
+** Reminder
 Påmindelse
 
-{t}rename{/t}
+** rename
 
 
-{t}Rename folder{/t}
+** Rename folder
 Omdøb mappe
 
-{t}Repeat count{/t}
+** Repeat count
 Gentagelse tæller
 
-{t}Repeat exclusions{/t}
+** Repeat exclusions
 Gentag udelukkelser
 
-{t}Repeat interval{/t}
+** Repeat interval
 Gentagelse interval
 
-{t}Repeat until{/t}
+** Repeat until
 Gentag indtil
 
-{t}Reply{/t}
+** Reply
 Svar
 
-{t}Reply all{/t}
+** Reply all
 Svar alle
 
-{t}Require admin access to set mountpoints{/t}
+** Require admin access to set mountpoints
 Kræver admin rettigheder at sætte vedhæftningspunkt
 
-{t}Required{/t}
+** Required
 
 
-{t}Required fields{/t}
+** Required fields
 
 
-{t}Reseller{/t}
+** Reseller
 Vidresælger
 
-{t}reserved{/t}
+** reserved
 reseveret
 
-{t}Reset view{/t}
+** Reset view
 Nulstil visning
 
-{t}Resource{/t}
+** Resource
 Resource
 
-{t}Resources{/t}
+** Resources
 Resourcer
 
-{t}Responsible{/t}
+** Responsible
 Ansvarlige
 
-{t}Responsible (external){/t}
+** Responsible (external)
 Ansvarlige (ekstern)
 
-{t}Responsible (internal){/t}
+** Responsible (internal)
 Ansvarlige (internt)
 
-{t}Restore complete{/t}
+** Restore complete
 Gendannelse fuldført
 
-{t}Restore here{/t}
+** Restore here
 Gendan her
 
-{t}Restore only missing{/t}
+** Restore only missing
 Reetabler kun manglende
 
-{t}Restore only newer{/t}
+** Restore only newer
 Gendan kun nyere
 
-{t}Restore to origin{/t}
+** Restore to origin
 Gendan til oprindelig
 
-{t}Return receipt{/t}
+** Return receipt
 Returner modtager
 
-{t}right-aligned{/t}
+** right-aligned
 højre-justeret
 
-{t}Rights{/t}
+** Rights
 Rettigheder
 
-{t}Risks{/t}
+** Risks
 
 
-{t}Room name{/t}
+** Room name
 Rum navn
 
-{t}Room number{/t}
+** Room number
 Rum nummer
 
-{t}Rooms{/t}
+** Rooms
 Rum
 
-{t}Rows{/t}
+** Rows
 Rækker
 
-{t}Run Setup again{/t}
+** Run Setup again
 Kør opsætning igen
 
-{t}S a v e{/t}
+** S a v e
 G e m
 
-{t}S a v e  a n d  E d i t{/t}
+** S a v e  a n d  E d i t
 
 
-{t}S a v e  a n d  g o  b a c k{/t}
+** S a v e  a n d  g o  b a c k
 
 
-{t}Sa{/t}
+** Sa
 Lø
 
-{t}Salary{/t}
+** Salary
 
 
-{t}Salary per{/t}
+** Salary per
 
 
-{t}Sales promotion{/t}
+** Sales promotion
 Salgs fremende
 
-{t}Sat{/t}
+** Sat
 Lør
 
-{t}Saturday{/t}
+** Saturday
 Lørdag
 
-{t}Scheduling{/t}
+** Scheduling
 Planlagt
 
-{t}Schema{/t}
+** Schema
 Skema
 
-{t}Schema data{/t}
+** Schema data
 Skema data
 
-{t}Schemafile not found. (%s){/t}
+** Schemafile not found. (%s)
 Skemafil ikke fundet. (%s)
 
-{t}School{/t}
+** School
 
 
-{t}scrapped{/t}
+** scrapped
 skrabbet
 
-{t}Search{/t}
+** Search
 Søg
 
-{t}Search by ID{/t}
+** Search by ID
 
 
-{t}second level support{/t}
+** second level support
 
 
-{t}Second manager{/t}
+** Second manager
 Underdirektør
 
-{t}seconds{/t}
+** seconds
 
 
-{t}Secretary{/t}
+** Secretary
 Sekretær
 
-{t}Self registration{/t}
+** Self registration
 Selv registrering
 
-{t}Self registration needs confirmation by an administrator.{/t}
+** Self registration needs confirmation by an administrator.
 
 
-{t}Send now{/t}
+** Send now
 
 
-{t}Sent{/t}
+** Sent
 
 
-{t}Sent reminders{/t}
+** Sent reminders
 Afsent huske mails
 
-{t}Sep{/t}
+** Sep
 
 
-{t}Separate fields{/t}
+** Separate fields
 
 
-{t}Separate values{/t}
+** Separate values
 
 
-{t}Separator{/t}
+** Separator
 
 
-{t}Separators{/t}
+** Separators
 Adskildere
 
-{t}September{/t}
+** September
 September
 
-{t}Serial number{/t}
+** Serial number
 Serie nummer
 
-{t}Server{/t}
+** Server
 Server
 
-{t}Server does not support sorting{/t}
+** Server does not support sorting
 Server understøtter ikke sortering
 
-{t}Server-IP{/t}
+** Server-IP
 Server-IP
 
-{t}Service provider{/t}
+** Service provider
 Service giver
 
-{t}Session name in cookie{/t}
+** Session name in cookie
 Sessionsnavn i cookie
 
-{t}Session timeout{/t}
+** Session timeout
 Session udløbstid
 
-{t}Sessions{/t}
+** Sessions
 Sessions
 
-{t}Settings{/t}
+** Settings
 
 
-{t}Setup{/t}
+** Setup
 Opsætning
 
-{t}Setup needs a database-php-extension ! (%s){/t}
+** Setup needs a database-php-extension ! (%s)
 Opsætning kræver en database-php-udvidelse! (%s)
 
-{t}Setup needs php with at least version %s !{/t}
+** Setup needs php with at least version %s !
 Opsætning kræver minimum en php version %s!
 
-{t}Setup needs php-extension with name %s !{/t}
+** Setup needs php-extension with name %s !
 Opsætning kræver php-udvidelsen %s !
 
-{t}Setup needs Simple Groupware with at least version %s !{/t}
+** Setup needs Simple Groupware with at least version %s !
 
 
-{t}Setup: setup-data written to %s.{/t}
+** Setup: setup-data written to %s.
 Opsætning: Opsætnings-data skrevet til %s.
 
-{t}Shapes{/t}
+** Shapes
 Former
 
-{t}Share{/t}
+** Share
 Del
 
-{t}Shared{/t}
+** Shared
 
 
-{t}Short links{/t}
+** Short links
 
 
-{t}Show{/t}
+** Show
 Vis
 
-{t}Show all rules{/t}
+** Show all rules
 
 
-{t}Show archive{/t}
+** Show archive
 Vis arkiv
 
-{t}Show details{/t}
+** Show details
 
 
-{t}Show folder description in content area{/t}
+** Show folder description in content area
 
 
-{t}Show password{/t}
+** Show password
 
 
-{t}Show quoted text{/t}
+** Show quoted text
 Vis anført tekst
 
-{t}Similar{/t}
+** Similar
 
 
-{t}Simple tables{/t}
+** Simple tables
 Simple tabeller
 
-{t}single{/t}
+** single
 en
 
-{t}Single choice{/t}
+** Single choice
 
 
-{t}Size{/t}
+** Size
 Størrelse
 
-{t}Size (children){/t}
+** Size (children)
 Størelse (underpunkter)
 
-{t}Slow{/t}
+** Slow
 Langsom
 
-{t}small{/t}
+** small
 lille
 
-{t}small text{/t}
+** small text
 lille tekst
 
-{t}smaller{/t}
+** smaller
 mindre
 
-{t}SMTP not configured for %s{/t}
+** SMTP not configured for %s
 SMTP ikke konfiguret for %s
 
-{t}Smtp-error %s: %s{/t}
+** Smtp-error %s: %s
 SMTP-fejl %s: %s
 
-{t}Software{/t}
+** Software
 Software
 
-{t}Solution{/t}
+** Solution
 Løsning
 
-{t}Solution type{/t}
+** Solution type
 Løsnings type
 
-{t}some text{/t}
+** some text
 
 
-{t}Source{/t}
+** Source
 
 
-{t}Source code{/t}
+** Source code
 Kildetekst
 
-{t}Special leave{/t}
+** Special leave
 
 
-{t}Specification{/t}
+** Specification
 Specifikationer
 
-{t}Spreadsheet{/t}
+** Spreadsheet
 Regneark
 
-{t}SQL failed.{/t}
+** SQL failed.
 SQL mislykkes.
 
-{t}SQL FAILED: %s{/t}
+** SQL FAILED: %s
 SQL mislykkes: %s
 
-{t}Start scheduled{/t}
+** Start scheduled
 Start planlagt
 
-{t}Started{/t}
+** Started
 Startet
 
-{t}starts with{/t}
+** starts with
 starter med
 
-{t}State{/t}
+** State
 Status
 
-{t}Static cache{/t}
+** Static cache
 Statisk cache
 
-{t}Statistics{/t}
+** Statistics
 Statistikker
 
-{t}Status{/t}
+** Status
 Status
 
-{t}Statuses{/t}
+** Statuses
 Statuser
 
-{t}Strategies{/t}
+** Strategies
 Strategier
 
-{t}Street{/t}
+** Street
 Gade
 
-{t}Structure{/t}
+** Structure
 Struktur
 
-{t}Su{/t}
+** Su
 Sø
 
-{t}Subfolder{/t}
+** Subfolder
 
 
-{t}Subfolders{/t}
+** Subfolders
 
 
-{t}subheading{/t}
+** subheading
 underoverskrift
 
-{t}Subitem{/t}
+** Subitem
 Underpunkt
 
-{t}Subject{/t}
+** Subject
 Emne
 
-{t}Subjects{/t}
+** Subjects
 Emner
 
-{t}Submit a patch{/t}
+** Submit a patch
 Send en patch
 
-{t}Subpages{/t}
+** Subpages
 
 
-{t}subscript{/t}
+** subscript
 sænket skrift
 
-{t}Subsistence costs{/t}
+** Subsistence costs
 Mimimum omkostninger
 
-{t}Sum{/t}
+** Sum
 
 
-{t}Summary{/t}
+** Summary
 Resumé
 
-{t}Sun{/t}
+** Sun
 Søn
 
-{t}Sunday{/t}
+** Sunday
 Søndag
 
-{t}Superior{/t}
+** Superior
 Overlegn
 
-{t}superscript{/t}
+** superscript
 hævet skrift
 
-{t}Supplier{/t}
+** Supplier
 Leverandør
 
-{t}Suppliers{/t}
+** Suppliers
 Levenrandører
 
-{t}Support{/t}
+** Support
 Support
 
-{t}Support request{/t}
+** Support request
 Support ønsker
 
-{t}Surveys{/t}
+** Surveys
 
 
-{t}Suspended{/t}
+** Suspended
 Udskudt
 
-{t}Switch maintenance mode{/t}
+** Switch maintenance mode
 Skift vedligholdelse
 
-{t}Sync4j remote delete items{/t}
+** Sync4j remote delete items
 Sync4j remote slet punkteer
 
-{t}Syntax{/t}
+** Syntax
 
 
-{t}System{/t}
+** System
 System
 
-{t}System command executed: %s{/t}
+** System command executed: %s
 
 
-{t}Tab{/t}
+** Tab
 
 
-{t}Table{/t}
+** Table
 Tabel
 
-{t}Table sizes{/t}
+** Table sizes
 Tabel størrelse
 
-{t}Table status{/t}
+** Table status
 Tabel størrelse
 
-{t}Tables{/t}
+** Tables
 Tabeller
 
-{t}Take over{/t}
+** Take over
 
 
-{t}Take selection{/t}
+** Take selection
 
 
-{t}Task{/t}
+** Task
 
 
-{t}Task with ID %s{/t}
+** Task with ID %s
 
 
-{t}Tasks{/t}
+** Tasks
 Opgaver
 
-{t}Tasks with responsible %s{/t}
+** Tasks with responsible %s
 
 
-{t}Template{/t}
+** Template
 Skabelon
 
-{t}Templates{/t}
+** Templates
 Skabeloner
 
-{t}Temporary work{/t}
+** Temporary work
 
 
-{t}term{/t}
+** term
 
 
-{t}Text area{/t}
+** Text area
 
 
-{t}Text Document{/t}
+** Text Document
 Tekst dokumenter
 
-{t}Text formatting rules{/t}
+** Text formatting rules
 Tekst formateringsregler
 
-{t}Th{/t}
+** Th
 To
 
-{t}Thanks for voting!{/t}
+** Thanks for voting!
 
 
-{t}The folder cannot be copied.{/t}
+** The folder cannot be copied.
 Mappen kan ikke kopieres
 
-{t}The folder cannot be deleted.{/t}
+** The folder cannot be deleted.
 Mappen kan ikke slettes
 
-{t}The folder cannot be moved.{/t}
+** The folder cannot be moved.
 Mappen kan ikke flyttes
 
-{t}The new password is{/t}
+** The new password is
 Den nye adgangskode er
 
-{t}The url doesn't exist.{/t}
+** The url doesn't exist.
 URL eksistere ikke
 
-{t}Theme{/t}
+** Theme
 Tema
 
-{t}third level support{/t}
+** third level support
 
 
-{t}this file extension is not allowed{/t}
+** this file extension is not allowed
 Denne fil endelse er ikke tilladt.
 
-{t}Thu{/t}
+** Thu
 Tor
 
-{t}Thursday{/t}
+** Thursday
 Torsdag
 
-{t}Time and expenses{/t}
+** Time and expenses
 Tid og udgifter
 
-{t}Time limit{/t}
+** Time limit
 
 
-{t}Time sheets{/t}
+** Time sheets
 Timeoversigter
 
-{t}Time zone{/t}
+** Time zone
 Tidszone
 
-{t}timeout{/t}
+** timeout
 
 
-{t}Title{/t}
+** Title
 Titel
 
-{t}To{/t}
+** To
 Til
 
-{t}to be checked{/t}
+** to be checked
 skal undersøges
 
-{t}To continue installing Simple Groupware you must check the box under the license{/t}
+** To continue installing Simple Groupware you must check the box under the license
 For at forsætte installationen af Simple Groupware skal du afkrydes boksen under licensen
 
-{t}Today{/t}
+** Today
 Idag
 
-{t}Too many wrong logins. Please wait 15 minutes.{/t}
+** Too many wrong logins. Please wait 15 minutes.
 For mange mislykkes logins. Vent 15 minutter.
 
-{t}Total{/t}
+** Total
 Total
 
-{t}Trace{/t}
+** Trace
 Spor
 
-{t}Trade fair{/t}
+** Trade fair
 Forhandle fair
 
-{t}translations{/t}
+** translations
 oversættelser
 
-{t}Translations of the GNU GPL{/t}
+** Translations of the GNU GPL
 Oversættelse af GNU GPL
 
-{t}Transportation costs{/t}
+** Transportation costs
 Tansport omkostninger
 
-{t}Trash{/t}
+** Trash
 Papirkurv
 
-{t}Trash folder not found.{/t}
+** Trash folder not found.
 Papirkurv-mappe ikke fundet.
 
-{t}Tree{/t}
+** Tree
 Træ
 
-{t}Trigger failed{/t}
+** Trigger failed
 Trigger mislykket
 
-{t}Tu{/t}
+** Tu
 Ti
 
-{t}Tue{/t}
+** Tue
 Tir
 
-{t}Tuesday{/t}
+** Tuesday
 Tirsdag
 
-{t}Type{/t}
+** Type
 Type
 
-{t}U n i n s t a l l{/t}
+** U n i n s t a l l
 
 
-{t}unable to find %s{/t}
+** unable to find %s
 kunne ikke finde %s
 
-{t}Unable to write to %s{/t}
+** Unable to write to %s
 Kunne ikke skrive til %s
 
-{t}unconfirmed{/t}
+** unconfirmed
 Ukonfirmeret
 
-{t}Unconfirmed{/t}
+** Unconfirmed
 
 
-{t}underline{/t}
+** underline
 
 
-{t}Uninstall does not delete any data in the database.{/t}
+** Uninstall does not delete any data in the database.
 
 
-{t}uninterested{/t}
+** uninterested
 uinteresseret
 
-{t}Unique{/t}
+** Unique
 
 
-{t}Unique with trash{/t}
+** Unique with trash
 
 
-{t}Unlock{/t}
+** Unlock
 Lås op
 
-{t}Up{/t}
+** Up
 Op
 
-{t}Update{/t}
+** Update
 Opdater
 
-{t}Update Simple Groupware{/t}
+** Update Simple Groupware
 Opdater Simple Groupeware
 
-{t}Updated{/t}
+** Updated
 Opdateret
 
-{t}Updating schema %s from %s.{/t}
+** Updating schema %s from %s.
 Opdater skema %s fra %s.
 
-{t}Upload failed{/t}
+** Upload failed
 Upload mislykkes
 
-{t}Uploaded files{/t}
+** Uploaded files
 Uploaded filer
 
-{t}Uploading{/t}
+** Uploading
 
 
-{t}urgent{/t}
+** urgent
 påkrævende
 
-{t}URL{/t}
+** URL
 URL
 
-{t}Usage{/t}
+** Usage
 Brug
 
-{t}USD{/t}
+** USD
 DKK
 
-{t}Use APC for session storage{/t}
+** Use APC for session storage
 
 
-{t}Use Debian binaries (Warning: not latest versions){/t}
+** Use Debian binaries (Warning: not latest versions)
 Brug Debian filer (Advarsel: ikke seneste versioner)
 
-{t}Use LDAP Groups{/t}
+** Use LDAP Groups
 Brug LDAP grupper
 
-{t}use mirror from{/t}
+** use mirror from
 
 
-{t}Use syslog() function for logging events{/t}
+** Use syslog() function for logging events
 
 
-{t}Use the mail() function for sending mails (insecure){/t}
+** Use the mail() function for sending mails (insecure)
 Brug mail() funktionen for afsendelse af mails (usikker)
 
-{t}User{/t}
+** User
 Bruger
 
-{t}User not found.{/t}
+** User not found.
 
 
-{t}Username{/t}
+** Username
 Brugernavn
 
-{t}Username must be different from the super administrator.{/t}
+** Username must be different from the super administrator.
 Brugernavn skal være forskellige for super administrator.
 
-{t}Users{/t}
+** Users
 Brugere
 
-{t}V a l i d a t e{/t}
+** V a l i d a t e
 
 
-{t}V o t e !{/t}
+** V o t e !
 
 
-{t}Vacation{/t}
+** Vacation
 Ferie
 
-{t}Vacation days per year{/t}
+** Vacation days per year
 
 
-{t}Validating %s ...{/t}
+** Validating %s ...
 
 
-{t}validation failed{/t}
+** validation failed
 validering mislykkes
 
-{t}Value{/t}
+** Value
 Værdi
 
-{t}Value '%s' needs a group membership: %s{/t}
+** Value '%s' needs a group membership: %s
 
 
-{t}Variable{/t}
+** Variable
 Vairabler
 
-{t}Variable already exists in table. (%s){/t}
+** Variable already exists in table. (%s)
 Variabel eksistere allerede i tabel. (%s)
 
-{t}Variable must be of type date (mm/dd/yyyy).{/t}
+** Variable must be of type date (mm/dd/yyyy).
 Variablen skal være af type dato (dd/mm/yyyy).
 
-{t}Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).{/t}
+** Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).
 Variablen skal være af typen dato-tid (dd/mm/yyyy HH:mm).
 
-{t}Variable must be of type float.{/t}
+** Variable must be of type float.
 Variablen skal være af type decimal.
 
-{t}Variable must be of type int and greater than 0.{/t}
+** Variable must be of type int and greater than 0.
 Variablen skal være af type heltal og størrer end 0.
 
-{t}Variable must be of type int.{/t}
+** Variable must be of type int.
 Variablen skal være af type heltal.
 
-{t}Variable must be of type time (hh:mm am/pm).{/t}
+** Variable must be of type time (hh:mm am/pm).
 Variablen skal være af typen tid (HH:mm).
 
-{t}Variables{/t}
+** Variables
 Variabler
 
-{t}Verbal recommendation{/t}
+** Verbal recommendation
 Verbal anbefaling
 
-{t}verified{/t}
+** verified
 bekræftet
 
-{t}vertical{/t}
+** vertical
 vertikal
 
-{t}very promising{/t}
+** very promising
 meget lovende
 
-{t}View{/t}
+** View
 
 
-{t}View access (groups){/t}
+** View access (groups)
 
 
-{t}View access (users){/t}
+** View access (users)
 
 
-{t}Virus scanner{/t}
+** Virus scanner
 Virus scanner
 
-{t}Visibility{/t}
+** Visibility
 
 
-{t}Voice mail{/t}
+** Voice mail
 Voice mail
 
-{t}Vote{/t}
+** Vote
 
 
-{t}Voted by{/t}
+** Voted by
 
 
-{t}Waiting{/t}
+** Waiting
 Venter
 
-{t}Warning{/t}
+** Warning
 Advarsel
 
-{t}We{/t}
+** We
 On
 
-{t}Web{/t}
+** Web
 Web
 
-{t}Web page{/t}
+** Web page
 
 
-{t}Wed{/t}
+** Wed
 Ons
 
-{t}Wednesday{/t}
+** Wednesday
 Onsdag
 
-{t}Week{/t}
+** Week
 Uge
 
-{t}Week start{/t}
+** Week start
 Uge start
 
-{t}Weekend{/t}
+** Weekend
 
 
-{t}weekly{/t}
+** weekly
 ugentlig
 
-{t}weeks{/t}
+** weeks
 uger
 
-{t}Welcome to Simple Groupware!{/t}
+** Welcome to Simple Groupware!
 
 
-{t}white{/t}
+** white
 hvid
 
-{t}widowed{/t}
+** widowed
 enke
 
-{t}Width{/t}
+** Width
 
 
-{t}Wiki{/t}
+** Wiki
 Wiki
 
-{t}WikiStyles{/t}
+** WikiStyles
 
 
-{t}won't fix{/t}
+** won't fix
 kan ikke rettes
 
-{t}word{/t}
+** word
 
 
-{t}Workflow{/t}
+** Workflow
 
 
-{t}Working student{/t}
+** Working student
 
 
-{t}works as expected{/t}
+** works as expected
 virker som forventet
 
-{t}works for me{/t}
+** works for me
 virker for mig
 
-{t}Workshop{/t}
+** Workshop
 Workshop
 
-{t}Workspace{/t}
+** Workspace
 Arbejdsområde
 
-{t}write access{/t}
+** write access
 skrive adgang
 
-{t}Write access (groups){/t}
+** Write access (groups)
 Skrive adgang (grupper)
 
-{t}Write access (users){/t}
+** Write access (users)
 Skrive adgang (brugere)
 
-{t}Wrong database-version (%s). Please use at least %s !{/t}
+** Wrong database-version (%s). Please use at least %s !
 Forkert database-version (%s). Benyte venligst mindst %s!
 
-{t}wrong directory{/t}
+** wrong directory
 forkert mappe
 
-{t}wrong password{/t}
+** wrong password
 forkert password
 
-{t}Year{/t}
+** Year
 År
 
-{t}yearly{/t}
+** yearly
 årlig
 
-{t}years{/t}
+** years
 
 
-{t}yellow{/t}
+** yellow
 gul
 
-{t}yes{/t}
+** yes
 ja
 
-{t}You are not allowed to view this folder.{/t}
+** You are not allowed to view this folder.
 Du har ikke tilladelser til at vise denne mappe.
 
-{t}Your message was read on %s.{/t}
+** Your message was read on %s.
 Din besked var læst den %s.
 
-{t}Your session has timed out.{/t}
+** Your session has timed out.
 Din session er udløbet
 
-{t}Zipcode{/t}
+** Zipcode
 Postnr.
 
-{t}{0} - {1} of {2}{/t}
+** {0} - {1} of {2}
 
 

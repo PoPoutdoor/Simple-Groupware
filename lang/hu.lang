@@ -3,3534 +3,3534 @@
  * @license GPLv2
  */
 
-{t}!_Copyright_Language_File{/t}
+** !_Copyright_Language_File
 Copyright (C) 2007 Sandor Dibuz
 
-{t}!_Language{/t}
+** !_Language
 magyar / Hungarian
 
-{t}%s is not activated{/t}
+** %s is not activated
 %s nincs aktiválva
 
-{t}%s is not compiled / loaded into PHP.{/t}
+** %s is not compiled / loaded into PHP.
 %s nincs befordítva/betöltve a PHP-be.
 
-{t}%s M memory usage{/t}
+** %s M memory usage
 
 
-{t}%s not in database{/t}
+** %s not in database
 %s nincs az adatbázisban.
 
-{t}%s rows affected{/t}
+** %s rows affected
 
 
-{t}%s secs{/t}
+** %s secs
 %s mp
 
-{t}%s started editing this asset at %s{/t}
+** %s started editing this asset at %s
 
 
-{t}(for active directory username must be: username@domain){/t}
+** (for active directory username must be: username@domain)
 
 
-{t}(un)Group{/t}
+** (un)Group
 Csoportosítás
 
-{t}About{/t}
+** About
 A programról
 
-{t}Absence{/t}
+** Absence
 
 
-{t}accepted{/t}
+** accepted
 
 
-{t}Access denied.{/t}
+** Access denied.
 Hozzáférés megtagadva.
 
-{t}Access to this file has been denied.{/t}
+** Access to this file has been denied.
 Fájlhozzáférés megtagadva.
 
-{t}Account{/t}
+** Account
 
 
-{t}account of %s has expired{/t}
+** account of %s has expired
 
 
-{t}Accounting{/t}
+** Accounting
 
 
-{t}Activate{/t}
+** Activate
 
 
-{t}Activated{/t}
+** Activated
 Aktiválva
 
-{t}active{/t}
+** active
 
 
-{t}Active{/t}
+** Active
 Aktív
 
-{t}Ad{/t}
+** Ad
 
 
-{t}Add{/t}
+** Add
 Hozzáadás
 
-{t}Add a special rule{/t}
+** Add a special rule
 
 
-{t}Add to offline folders{/t}
+** Add to offline folders
 
 
-{t}added line{/t}
+** added line
 hozzáadott sorok
 
-{t}Address{/t}
+** Address
 Cím
 
-{t}admin access{/t}
+** admin access
 
 
-{t}Admin access (groups){/t}
+** Admin access (groups)
 Admin hozzáférés (csoportok)
 
-{t}Admin access (users){/t}
+** Admin access (users)
 Admin hozzáférés (felhasználók)
 
-{t}Admin Password{/t}
+** Admin Password
 Admin jelszó
 
-{t}Admin Username{/t}
+** Admin Username
 Admin felhasználónév
 
-{t}Administration{/t}
+** Administration
 Adminisztráció
 
-{t}Advanced tables{/t}
+** Advanced tables
 
 
-{t}Affected user{/t}
+** Affected user
 
 
-{t}Affiliate{/t}
+** Affiliate
 
 
-{t}after{/t}
+** after
 
 
-{t}Agent{/t}
+** Agent
 
 
-{t}Ajax Error{/t}
+** Ajax Error
 
 
-{t}All{/t}
+** All
 Összes
 
-{t}All day{/t}
+** All day
 Összes nap
 
-{t}All events{/t}
+** All events
 Összes esemény
 
-{t}All finished tasks{/t}
+** All finished tasks
 
 
-{t}All pending tasks{/t}
+** All pending tasks
 
 
-{t}Allow custom values{/t}
+** Allow custom values
 
 
-{t}Allow disabled modules{/t}
+** Allow disabled modules
 
 
-{t}Already running latest release.{/t}
+** Already running latest release.
 
 
-{t}Already voted.{/t}
+** Already voted.
 
 
-{t}Amount{/t}
+** Amount
 
 
-{t}Anchor{/t}
+** Anchor
 
 
-{t}and{/t}
+** and
 és
 
-{t}Anniversary{/t}
+** Anniversary
 Évforduló
 
-{t}another page{/t}
+** another page
 
 
-{t}answered{/t}
+** answered
 
 
-{t}Answers{/t}
+** Answers
 
 
-{t}Apache based (.htaccess, Basic, Digest, etc.){/t}
+** Apache based (.htaccess, Basic, Digest, etc.)
 Apache szerver (.htaccess, Basic, Digest, stb.)
 
-{t}Application title{/t}
+** Application title
 Alkalmazás neve
 
-{t}Apply rights to subfolders{/t}
+** Apply rights to subfolders
 
 
-{t}Appointment{/t}
+** Appointment
 
 
-{t}Appointments{/t}
+** Appointments
 
 
-{t}Apprenticeship{/t}
+** Apprenticeship
 
 
-{t}Apr{/t}
+** Apr
 
 
-{t}April{/t}
+** April
 április
 
-{t}Archive{/t}
+** Archive
 
 
-{t}Archive deleted files{/t}
+** Archive deleted files
 
 
-{t}Asset{/t}
+** Asset
 
 
-{t}Asset marked as read-only.{/t}
+** Asset marked as read-only.
 
 
-{t}Assets{/t}
+** Assets
 
 
-{t}Assets (children){/t}
+** Assets (children)
 
 
-{t}Assets can be imported into multiple folders by adding the "Folder" column.{/t}
+** Assets can be imported into multiple folders by adding the "Folder" column.
 
 
-{t}Assets can be overwritten by adding the "Id" column.{/t}
+** Assets can be overwritten by adding the "Id" column.
 
 
-{t}assigned{/t}
+** assigned
 hozzárendelve
 
-{t}at least 20 characters{/t}
+** at least 20 characters
 
 
-{t}attach file{/t}
+** attach file
 
 
-{t}Attachment{/t}
+** Attachment
 Melléklet
 
-{t}Attachments{/t}
+** Attachments
 Mellékletek
 
-{t}Attend{/t}
+** Attend
 
 
-{t}Aug{/t}
+** Aug
 
 
-{t}August{/t}
+** August
 augusztus
 
-{t}Authentication Mode{/t}
+** Authentication Mode
 Autentikáció módja
 
-{t}Author{/t}
+** Author
 
 
-{t}Automatically hide the menu{/t}
+** Automatically hide the menu
 
 
-{t}Automatically hide the tree{/t}
+** Automatically hide the tree
 
 
-{t}Average{/t}
+** Average
 
 
-{t}Average progress{/t}
+** Average progress
 
 
-{t}Avg length{/t}
+** Avg length
 Átlaghossz
 
-{t}Back{/t}
+** Back
 Vissza
 
-{t}Backup{/t}
+** Backup
 Biztonsági másolat
 
-{t}Backup current folder{/t}
+** Backup current folder
 Biztonsági másolat a kiválasztott mappáról
 
-{t}Backups{/t}
+** Backups
 Biztonsági mentések
 
-{t}Basic editing{/t}
+** Basic editing
 
 
-{t}before{/t}
+** before
 
 
-{t}Before{/t}
+** Before
 
 
-{t}Begin{/t}
+** Begin
 Kezdet
 
-{t}big{/t}
+** big
 
 
-{t}big text{/t}
+** big text
 
 
-{t}bigger{/t}
+** bigger
 
 
-{t}Billing address{/t}
+** Billing address
 Számlázási cím
 
-{t}Birthday{/t}
+** Birthday
 Születésnap
 
-{t}Birthdays{/t}
+** Birthdays
 
 
-{t}Blank{/t}
+** Blank
 Üres
 
-{t}blue{/t}
+** blue
 kék
 
-{t}bold{/t}
+** bold
 
 
-{t}bold italic{/t}
+** bold italic
 
 
-{t}Book{/t}
+** Book
 
 
-{t}booked{/t}
+** booked
 
 
-{t}Booked{/t}
+** Booked
 
 
-{t}Booking number{/t}
+** Booking number
 
 
-{t}Bookings{/t}
+** Bookings
 
 
-{t}Bookmark{/t}
+** Bookmark
 
 
-{t}Bookmarks{/t}
+** Bookmarks
 Könyvjelzõk
 
-{t}borrowed{/t}
+** borrowed
 kölcsönzött
 
-{t}Brand{/t}
+** Brand
 
 
-{t}Brands{/t}
+** Brands
 
 
-{t}Browser Compatibility{/t}
+** Browser Compatibility
 Böngészõ kompatibilitás
 
-{t}Browser not supported{/t}
+** Browser not supported
 Nem támogatott böngészõ
 
-{t}Budget{/t}
+** Budget
 Költségvetés
 
-{t}Bug{/t}
+** Bug
 
 
-{t}bulleted{/t}
+** bulleted
 
 
-{t}Business{/t}
+** Business
 Üzleti
 
-{t}C a n c e l{/t}
+** C a n c e l
 
 
-{t}C O N T I N U E{/t}
+** C O N T I N U E
 F O L Y T A T Á S
 
-{t}Cache output{/t}
+** Cache output
 Gyorsítótár használata kimenõ adatforgalomnál
 
-{t}Caches{/t}
+** Caches
 Gyorsítótárak
 
-{t}Calendar{/t}
+** Calendar
 Határidõnapló
 
-{t}Cancel{/t}
+** Cancel
 
 
-{t}canceled{/t}
+** canceled
 törölve
 
-{t}Canceled{/t}
+** Canceled
 Törölve
 
-{t}Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.{/t}
+** Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.
 
 
-{t}Cannot connect to database %s on %s.{/t}
+** Cannot connect to database %s on %s.
 
 
-{t}Cannot create preview for %s{/t}
+** Cannot create preview for %s
 
 
-{t}Cannot read the file %s.{/t}
+** Cannot read the file %s.
 
 
-{t}Cardinality{/t}
+** Cardinality
 
 
-{t}Categories{/t}
+** Categories
 Kategóriák
 
-{t}Category{/t}
+** Category
 Kategória
 
-{t}Cc{/t}
+** Cc
 
 
-{t}centered{/t}
+** centered
 
 
-{t}CEO{/t}
+** CEO
 
 
-{t}Change request{/t}
+** Change request
 
 
-{t}Change settings{/t}
+** Change settings
 Beállítások megváltoztatása
 
-{t}Change Setup settings{/t}
+** Change Setup settings
 Beállítások megváltoztatása
 
-{t}Change summary{/t}
+** Change summary
 
 
-{t}Changed{/t}
+** Changed
 
 
-{t}changed line{/t}
+** changed line
 megváltoztatott sorok
 
-{t}Changelog{/t}
+** Changelog
 Változtatások naplója
 
-{t}Chat{/t}
+** Chat
 
 
-{t}Check DoS Attacks{/t}
+** Check DoS Attacks
 DoS támadás esetén késleltetés
 
-{t}checked{/t}
+** checked
 ellenõrizve
 
-{t}Checked{/t}
+** Checked
 Ellenõrizve
 
-{t}Choices{/t}
+** Choices
 
 
-{t}CIO{/t}
+** CIO
 
 
-{t}City{/t}
+** City
 Helység
 
-{t}Clean{/t}
+** Clean
 
 
-{t}Clean Cache{/t}
+** Clean Cache
 
 
-{t}Clear{/t}
+** Clear
 
 
-{t}Clear Cache{/t}
+** Clear Cache
 
 
-{t}Clear Data{/t}
+** Clear Data
 
 
-{t}Clear grouping{/t}
+** Clear grouping
 
 
-{t}Client{/t}
+** Client
 Ügyfél
 
-{t}Close{/t}
+** Close
 Bezár
 
-{t}Close session{/t}
+** Close session
 Munkafolyamat bezárása
 
-{t}closed{/t}
+** closed
 
 
-{t}Closed{/t}
+** Closed
 Bezárva
 
-{t}CMS{/t}
+** CMS
 
 
-{t}CMS homepage title{/t}
+** CMS homepage title
 
 
-{t}Collapse text{/t}
+** Collapse text
 
 
-{t}Collapse tree{/t}
+** Collapse tree
 Mappák bezárása
 
-{t}Color{/t}
+** Color
 Szín
 
-{t}Column{/t}
+** Column
 
 
-{t}Column name{/t}
+** Column name
 Oszlop neve
 
-{t}Combination{/t}
+** Combination
 
 
-{t}Comma{/t}
+** Comma
 
 
-{t}Comma separated values{/t}
+** Comma separated values
 
 
-{t}Command{/t}
+** Command
 Parancs
 
-{t}Comment{/t}
+** Comment
 Megjegyzés
 
-{t}Comment files{/t}
+** Comment files
 Megjegyzés fájlok
 
-{t}Companies{/t}
+** Companies
 Cégek
 
-{t}Company{/t}
+** Company
 Cég
 
-{t}Competition{/t}
+** Competition
 Verseny
 
-{t}Competitor{/t}
+** Competitor
 Konkurrens
 
-{t}Complete{/t}
+** Complete
 
 
-{t}completed{/t}
+** completed
 
 
-{t}Completed{/t}
+** Completed
 Elvégzett
 
-{t}Component{/t}
+** Component
 Komponens
 
-{t}Compress output{/t}
+** Compress output
 Tömörítés a kimenõ adatforgalomnál
 
-{t}Confirm{/t}
+** Confirm
 
 
-{t}confirmed{/t}
+** confirmed
 nyugtázva
 
-{t}Connection error: %s [%s]{/t}
+** Connection error: %s [%s]
 
 
-{t}Connection to database failed.{/t}
+** Connection to database failed.
 Nem sikerült az adatbázishoz kapcsolódni.
 
-{t}Console{/t}
+** Console
 
 
-{t}Console scripts{/t}
+** Console scripts
 
 
-{t}Consultant{/t}
+** Consultant
 Tanácsadó
 
-{t}Contact{/t}
+** Contact
 Kapcsolat
 
-{t}Contact activities{/t}
+** Contact activities
 
 
-{t}Contact activity{/t}
+** Contact activity
 
 
-{t}Contact by{/t}
+** Contact by
 Elérhetõség
 
-{t}Contact groups{/t}
+** Contact groups
 
 
-{t}Contact id{/t}
+** Contact id
 Kapcsolat azonosító
 
-{t}Contact person{/t}
+** Contact person
 Kapcsolattartó
 
-{t}Contact user by{/t}
+** Contact user by
 
 
-{t}Contacts{/t}
+** Contacts
 Kapcsolatok
 
-{t}contains{/t}
+** contains
 tartalmaz
 
-{t}Content{/t}
+** Content
 Tartalom
 
-{t}Continue{/t}
+** Continue
 Folytatás
 
-{t}Contracts{/t}
+** Contracts
 
 
-{t}Copier{/t}
+** Copier
 
 
-{t}Copy{/t}
+** Copy
 Másolás
 
-{t}Cost center{/t}
+** Cost center
 
 
-{t}Costs of accommodation{/t}
+** Costs of accommodation
 
 
-{t}Could not determine database-version.{/t}
+** Could not determine database-version.
 Az adatbázis verziójának meghatározása nem sikerült.
 
-{t}Country{/t}
+** Country
 Ország
 
-{t}Create new{/t}
+** Create new
 
 
-{t}Create new folder{/t}
+** Create new folder
 
 
-{t}Created{/t}
+** Created
 Létrehozva
 
-{t}Creating database failed.{/t}
+** Creating database failed.
 Az adatbázis létrehozása nem sikerült.
 
-{t}current path{/t}
+** current path
 
 
-{t}current time{/t}
+** current time
 
 
-{t}Curriculum vitae{/t}
+** Curriculum vitae
 Önéletrajz
 
-{t}Custom schema{/t}
+** Custom schema
 
 
-{t}Customization rules\nfor modules based on sgsML{/t}
+** Customization rules\nfor modules based on sgsML
 
 
-{t}customizations{/t}
+** customizations
 
 
-{t}Customize{/t}
+** Customize
 
 
-{t}Cut{/t}
+** Cut
 Kivágás
 
-{t}daily{/t}
+** daily
 napi
 
-{t}Data{/t}
+** Data
 Adatok
 
-{t}Data free{/t}
+** Data free
 
 
-{t}Data length{/t}
+** Data length
 Adathossz
 
-{t}Database{/t}
+** Database
 Adatbázis
 
-{t}Database Hostname / IP{/t}
+** Database Hostname / IP
 Adatbázis hosztnév vagy IP
 
-{t}Database Name{/t}
+** Database Name
 Adatbázis név
 
-{t}Database Password{/t}
+** Database Password
 Adatbázis jelszó
 
-{t}Database size{/t}
+** Database size
 
 
-{t}Database status{/t}
+** Database status
 Adatbázis státusz
 
-{t}Database type{/t}
+** Database type
 
 
-{t}Database User{/t}
+** Database User
 Adatbázis felhasználónév
 
-{t}Database variables{/t}
+** Database variables
 Adatbázis változók
 
-{t}Date{/t}
+** Date
 Dátum
 
-{t}Day{/t}
+** Day
 Nap
 
-{t}Day begin{/t}
+** Day begin
 Nappal kezdete
 
-{t}Day end{/t}
+** Day end
 Nappal vége
 
-{t}days{/t}
+** days
 napok
 
-{t}Deactivate{/t}
+** Deactivate
 
 
-{t}Deadline{/t}
+** Deadline
 Határidõ
 
-{t}Debug{/t}
+** Debug
 
 
-{t}Debug-dir{/t}
+** Debug-dir
 
 
-{t}Dec{/t}
+** Dec
 
 
-{t}December{/t}
+** December
 december
 
-{t}Declining balance{/t}
+** Declining balance
 Értékcsökkenés
 
-{t}Default{/t}
+** Default
 Alapértelmezett
 
-{t}Default function{/t}
+** Default function
 
 
-{t}Default theme{/t}
+** Default theme
 Alapértelmezett téma
 
-{t}Default values for assets{/t}
+** Default values for assets
 
 
-{t}definition for definition lists{/t}
+** definition for definition lists
 
 
-{t}Degree{/t}
+** Degree
 Fokozat
 
-{t}Delete{/t}
+** Delete
 Törlés
 
-{t}Delete incl subfolders{/t}
+** Delete incl subfolders
 Törlés az almappákkal együtt
 
-{t}deleted{/t}
+** deleted
 
 
-{t}deleted line{/t}
+** deleted line
 törölt sor
 
-{t}Delivery{/t}
+** Delivery
 
 
-{t}Demand{/t}
+** Demand
 Kívánság
 
-{t}Demo{/t}
+** Demo
 
 
-{t}Demonstration folder{/t}
+** Demonstration folder
 
 
-{t}Department{/t}
+** Department
 Osztály
 
-{t}Departments{/t}
+** Departments
 Osztályok
 
-{t}Dependancies{/t}
+** Dependancies
 Függõségek
 
-{t}Description{/t}
+** Description
 Leírás
 
-{t}Description hint{/t}
+** Description hint
 
 
-{t}Description title{/t}
+** Description title
 
 
-{t}Description value{/t}
+** Description value
 
 
-{t}Desktop computer{/t}
+** Desktop computer
 
 
-{t}Details{/t}
+** Details
 Részletek
 
-{t}Device type{/t}
+** Device type
 Eszköz típus
 
-{t}Device types{/t}
+** Device types
 Eszköz típusok
 
-{t}Diagram{/t}
+** Diagram
 
 
-{t}directory does not exist.{/t}
+** directory does not exist.
 a könyvtár nem létezik.
 
-{t}Directory is outside the allowed directory. (%s is outside %s){/t}
+** Directory is outside the allowed directory. (%s is outside %s)
 
 
-{t}disable{/t}
+** disable
 
 
-{t}Disable basic authentication{/t}
+** Disable basic authentication
 
 
-{t}Disable cut-copy-paste{/t}
+** Disable cut-copy-paste
 
 
-{t}Disabled{/t}
+** Disabled
 
 
-{t}Disabled modules{/t}
+** Disabled modules
 
 
-{t}Display{/t}
+** Display
 Listázás
 
-{t}display filter{/t}
+** display filter
 megjelenítési szûrõ
 
-{t}Displayname{/t}
+** Displayname
 
 
-{t}displays{/t}
+** displays
 
 
-{t}Distributor{/t}
+** Distributor
 Disztribútor
 
-{t}Distributors{/t}
+** Distributors
 Disztribútorok
 
-{t}divorced{/t}
+** divorced
 elvált
 
-{t}Documentation{/t}
+** Documentation
 Dokumentáció
 
-{t}Documentation index{/t}
+** Documentation index
 
 
-{t}Domain{/t}
+** Domain
 Domén
 
-{t}Don't attend{/t}
+** Don't attend
 
 
-{t}Don't move old files to 'old/'{/t}
+** Don't move old files to 'old/'
 
 
-{t}Down{/t}
+** Down
 Le
 
-{t}Download{/t}
+** Download
 
 
-{t}Download example file{/t}
+** Download example file
 
 
-{t}Downloading extension list{/t}
+** Downloading extension list
 
 
-{t}Downloading update list{/t}
+** Downloading update list
 
 
-{t}Drag and drop files or URLs here.{/t}
+** Drag and drop files or URLs here.
 
 
-{t}duplicate{/t}
+** duplicate
 
 
-{t}Duration{/t}
+** Duration
 Idõtartam
 
-{t}E-mail{/t}
+** E-mail
 Email
 
-{t}E-mail private{/t}
+** E-mail private
 Otthoni email
 
-{t}E-mail program{/t}
+** E-mail program
 
 
-{t}e.g.{/t}
+** e.g.
 
 
-{t}Edit{/t}
+** Edit
 Szerkesztés
 
-{t}Edit as new{/t}
+** Edit as new
 Szerkesztés újként
 
-{t}Edit rights{/t}
+** Edit rights
 Szerkesztési jogok
 
-{t}Editable if hidden in all views{/t}
+** Editable if hidden in all views
 
 
-{t}Editor{/t}
+** Editor
 
 
-{t}Emphasis{/t}
+** Emphasis
 
 
-{t}Empty{/t}
+** Empty
 Üres
 
-{t}Empty folder{/t}
+** Empty folder
 Kuka(?) kiürítése
 
-{t}en{/t}
+** en
 hu
 
-{t}Enable anonymous access{/t}
+** Enable anonymous access
 Anonim bejelentkezés engedélyezése
 
-{t}Enable anonymous CMS{/t}
+** Enable anonymous CMS
 
 
-{t}Enable automatic user creation{/t}
+** Enable automatic user creation
 Automatikus felhasználó-létrehozás engedélyezése
 
-{t}Enable external mail client for 'mailto:' links{/t}
+** Enable external mail client for 'mailto:' links
 
 
-{t}Enable self registration{/t}
+** Enable self registration
 
 
-{t}Enable Sync4j / Funambol{/t}
+** Enable Sync4j / Funambol
 
 
-{t}Enable WebDAV{/t}
+** Enable WebDAV
 
 
-{t}End{/t}
+** End
 Vége
 
-{t}engaged{/t}
+** engaged
 
 
-{t}equal{/t}
+** equal
 egyenlõ
 
-{t}Error{/t}
+** Error
 Hiba
 
-{t}Error doing request to xmlhttp{/t}
+** Error doing request to xmlhttp
 
 
-{t}Error moving file{/t}
+** Error moving file
 Fájlmozgatási hiba
 
-{t}Error pasting asset{/t}
+** Error pasting asset
 
 
-{t}Error: no credentials{/t}
+** Error: no credentials
 
 
-{t}Events{/t}
+** Events
 Események
 
-{t}Example{/t}
+** Example
 
 
-{t}Example contacts{/t}
+** Example contacts
 
 
-{t}Example surveys can be found at:{/t}
+** Example surveys can be found at:
 
 
-{t}Example without mountpoint{/t}
+** Example without mountpoint
 
 
-{t}Examples{/t}
+** Examples
 
 
-{t}Execute{/t}
+** Execute
 
 
-{t}Expenses{/t}
+** Expenses
 
 
-{t}Experimental{/t}
+** Experimental
 Kísérleti
 
-{t}Expires{/t}
+** Expires
 Érvényessg lejár
 
-{t}Expiry{/t}
+** Expiry
 Lejárat
 
-{t}Extended{/t}
+** Extended
 
 
-{t}Extensions{/t}
+** Extensions
 
 
-{t}Extracting files{/t}
+** Extracting files
 
 
-{t}F j{/t}
+** F j
 F j
 
-{t}F j, Y{/t}
+** F j, Y
 Y F j
 
-{t}Failed to create directory: %s{/t}
+** Failed to create directory: %s
 A %s könyvtár létrehozása nem sikerült.
 
-{t}Failed to write file to disk.{/t}
+** Failed to write file to disk.
 
 
-{t}Failed to write into %s{/t}
+** Failed to write into %s
 
 
-{t}Family status{/t}
+** Family status
 Családi állapot
 
-{t}FAQ{/t}
+** FAQ
 GYIK (FAQ)
 
-{t}Favorites{/t}
+** Favorites
 Kedvencek
 
-{t}Fax{/t}
+** Fax
 
 
-{t}Fax private{/t}
+** Fax private
 
 
-{t}Feature request{/t}
+** Feature request
 
 
-{t}Feb{/t}
+** Feb
 
 
-{t}February{/t}
+** February
 február
 
-{t}Feed{/t}
+** Feed
 
 
-{t}female{/t}
+** female
 nõ
 
-{t}Field{/t}
+** Field
 Mezõ
 
-{t}Field contains value{/t}
+** Field contains value
 
 
-{t}Field customization{/t}
+** Field customization
 
 
-{t}Field is equal to value{/t}
+** Field is equal to value
 
 
-{t}Fields{/t}
+** Fields
 
 
-{t}File{/t}
+** File
 Fájl
 
-{t}file is too big. Please change upload_max_filesize, post_max_size in your php.ini{/t}
+** file is too big. Please change upload_max_filesize, post_max_size in your php.ini
 
 
-{t}file is too big. Please upload a smaller one.{/t}
+** file is too big. Please upload a smaller one.
 a fájl túl nagy. Próbálj kisebbet feltölteni.
 
-{t}file not found in database.{/t}
+** file not found in database.
 a fájl nem található az adatbázisban.
 
-{t}file not found.{/t}
+** file not found.
 a fájl nem található.
 
-{t}file was uploaded partially.{/t}
+** file was uploaded partially.
 a fájlfeltöltés csak részlegesen sikerült.
 
-{t}Filename must have the right extension. Valid extensions are %s{/t}
+** Filename must have the right extension. Valid extensions are %s
 A fájlnév a megfelelõ kiterjesztéssel kell rendelkezzen. Érvényes kiterjesztések: %s
 
-{t}Files{/t}
+** Files
 Fájlok
 
-{t}Filesystem{/t}
+** Filesystem
 Fájlrendszer
 
-{t}Filter{/t}
+** Filter
 Szûrõ
 
-{t}Find assets in multiple folders{/t}
+** Find assets in multiple folders
 
 
-{t}Finish scheduled{/t}
+** Finish scheduled
 Ütemezés vége
 
-{t}Finished{/t}
+** Finished
 Befejezett
 
-{t}First in list{/t}
+** First in list
 A lista elejére
 
-{t}first level support{/t}
+** first level support
 
 
-{t}First name{/t}
+** First name
 Keresztnév
 
-{t}Fix paging bar to page bottom{/t}
+** Fix paging bar to page bottom
 
 
-{t}fixed{/t}
+** fixed
 
 
-{t}Flags{/t}
+** Flags
 
 
-{t}Flash plugin not installed.{/t}
+** Flash plugin not installed.
 
 
-{t}Folder{/t}
+** Folder
 Mappa
 
-{t}Folder already exists.{/t}
+** Folder already exists.
 
 
-{t}Folder created.{/t}
+** Folder created.
 
 
-{t}Folder has changed.{/t}
+** Folder has changed.
 
 
-{t}Folder icon{/t}
+** Folder icon
 
 
-{t}Folder not found.{/t}
+** Folder not found.
 
 
-{t}Folder refresh period{/t}
+** Folder refresh period
 
 
-{t}Folder structure{/t}
+** Folder structure
 
 
-{t}Folder structure created.{/t}
+** Folder structure created.
 
 
-{t}Folder structure moved to trash.{/t}
+** Folder structure moved to trash.
 
 
-{t}Folder Type{/t}
+** Folder Type
 Mappa típus
 
-{t}Folder with ID %s{/t}
+** Folder with ID %s
 
 
-{t}Folders{/t}
+** Folders
 Mappák
 
-{t}for a new paragraph, use a blank line{/t}
+** for a new paragraph, use a blank line
 
 
-{t}Force SSL{/t}
+** Force SSL
 SSL átirányítás
 
-{t}Form{/t}
+** Form
 
 
-{t}Forum{/t}
+** Forum
 Fórum
 
-{t}Forward{/t}
+** Forward
 
 
-{t}Fr{/t}
+** Fr
 Pé
 
-{t}Free/busy{/t}
+** Free/busy
 Szabad/foglalt
 
-{t}Freelance{/t}
+** Freelance
 
 
-{t}Fri{/t}
+** Fri
 Pén
 
-{t}Friday{/t}
+** Friday
 
 
-{t}From{/t}
+** From
 Kitõl
 
-{t}Full screen{/t}
+** Full screen
 
 
-{t}Full texts{/t}
+** Full texts
 
 
-{t}Full time{/t}
+** Full time
 
 
-{t}Full width{/t}
+** Full width
 Teljes szélesség
 
-{t}Fulltext index{/t}
+** Fulltext index
 
 
-{t}Funambol only works with MySQL and PostgreSQL.{/t}
+** Funambol only works with MySQL and PostgreSQL.
 
 
-{t}Function does not exist: %s{/t}
+** Function does not exist: %s
 Nemlétezõ funkció: %s
 
-{t}g:i a{/t}
+** g:i a
 H:i
 
-{t}Gender{/t}
+** Gender
 Neme
 
-{t}General{/t}
+** General
 Általános
 
-{t}Generate{/t}
+** Generate
 Generálás
 
-{t}Gifts{/t}
+** Gifts
 Ajándék
 
-{t}Give Feedback{/t}
+** Give Feedback
 Visszajelzés
 
-{t}GNU GPL Frequently Asked Questions{/t}
+** GNU GPL Frequently Asked Questions
 GNU GPL GYIK (FAQ)
 
-{t}greater than{/t}
+** greater than
 nagyobb mint
 
-{t}green{/t}
+** green
 zöld
 
-{t}Group{/t}
+** Group
 
 
-{t}Group created.{/t}
+** Group created.
 
 
-{t}Group deactivated.{/t}
+** Group deactivated.
 
 
-{t}Groupname{/t}
+** Groupname
 Csoportnév
 
-{t}Groups{/t}
+** Groups
 Csoportok
 
-{t}hanging text{/t}
+** hanging text
 
 
-{t}Hardware{/t}
+** Hardware
 
 
-{t}Headers{/t}
+** Headers
 Fejlécek
 
-{t}heading{/t}
+** heading
 
 
-{t}headings{/t}
+** headings
 
 
-{t}Height{/t}
+** Height
 
 
-{t}Help{/t}
+** Help
 Segítség
 
-{t}Helpdesk{/t}
+** Helpdesk
 
 
-{t}Hidden in{/t}
+** Hidden in
 
 
-{t}Hidden in all views{/t}
+** Hidden in all views
 
 
-{t}Hide{/t}
+** Hide
 
 
-{t}hide in all views{/t}
+** hide in all views
 
 
-{t}hide in this view{/t}
+** hide in this view
 
 
-{t}History{/t}
+** History
 Történet
 
-{t}Holiday{/t}
+** Holiday
 Ünnep
 
-{t}Home{/t}
+** Home
 
 
-{t}Home folder id{/t}
+** Home folder id
 
 
-{t}Home page in the CMS{/t}
+** Home page in the CMS
 
 
-{t}Homepage{/t}
+** Homepage
 Honlap
 
-{t}horizontal line{/t}
+** horizontal line
 
 
-{t}Host{/t}
+** Host
 Hoszt
 
-{t}Hosts{/t}
+** Hosts
 Hosztok
 
-{t}Hour{/t}
+** Hour
 
 
-{t}hours{/t}
+** hours
 óra
 
-{t}Hours per week{/t}
+** Hours per week
 
 
-{t}HTML document{/t}
+** HTML document
 
 
-{t}HTML documents{/t}
+** HTML documents
 HTML dokumentumok
 
-{t}http://www.pmwiki.org/PmWiki/{/t}
+** http://www.pmwiki.org/PmWiki/
 
 
-{t}Human resources{/t}
+** Human resources
 
 
-{t}I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2{/t}
+** I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2
 A fenti GNU GPL v2 dokumentumban írottakat elfogadom.
 
-{t}I m p o r t{/t}
+** I m p o r t
 
 
-{t}I n s t a l l{/t}
+** I n s t a l l
 T e l e p í t é s
 
-{t}Icon{/t}
+** Icon
 
 
-{t}Id{/t}
+** Id
 Azonosító
 
-{t}Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
 
 
-{t}Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].
 
 
-{t}Ideas{/t}
+** Ideas
 Ötletek
 
-{t}If empty, the SMTP connection from the module users will be used.{/t}
+** If empty, the SMTP connection from the module users will be used.
 SMTP hoszt a kimenõ levelek fogadására. Ha üres, a felhasználói modulban definiált SMTP kapcsolatot használja a pgm.
 
-{t}If file system permissions are ok, please check the configurations of %s if present.{/t}
+** If file system permissions are ok, please check the configurations of %s if present.
 
 
-{t}if not autodetected with namingContexts{/t}
+** if not autodetected with namingContexts
 
 
-{t}If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.{/t}
+** If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.
 
 
-{t}If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.{/t}
+** If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.
 
 
-{t}Illness{/t}
+** Illness
 
 
-{t}Im-/Export{/t}
+** Im-/Export
 Import/Export
 
-{t}Image{/t}
+** Image
 Kép
 
-{t}Images{/t}
+** Images
 
 
-{t}Imap-error: %s{/t}
+** Imap-error: %s
 IMAP hiba_ %s
 
-{t}immediate{/t}
+** immediate
 azonnal
 
-{t}Import{/t}
+** Import
 
 
-{t}In progress{/t}
+** In progress
 Folyamatban
 
-{t}in repair{/t}
+** in repair
 javításon
 
-{t}in stock{/t}
+** in stock
 raktáron
 
-{t}Inactive{/t}
+** Inactive
 Inaktív
 
-{t}Include in RSS feed{/t}
+** Include in RSS feed
 
 
-{t}Include page{/t}
+** Include page
 
 
-{t}indent text{/t}
+** indent text
 
 
-{t}Index{/t}
+** Index
 
 
-{t}Index length{/t}
+** Index length
 Index hossz
 
-{t}Index type{/t}
+** Index type
 Index típus
 
-{t}Indexes{/t}
+** Indexes
 
 
-{t}Industry{/t}
+** Industry
 Tevékenység
 
-{t}Info{/t}
+** Info
 Információ
 
-{t}inheritance to subfolders without default values{/t}
+** inheritance to subfolders without default values
 
 
-{t}Input field{/t}
+** Input field
 
 
-{t}Input field height{/t}
+** Input field height
 
 
-{t}Insert{/t}
+** Insert
 Beszúrás
 
-{t}inserted{/t}
+** inserted
 
 
-{t}Install default folder structure{/t}
+** Install default folder structure
 
 
-{t}Install demo folders{/t}
+** Install demo folders
 
 
-{t}Install minimal folder structure{/t}
+** Install minimal folder structure
 
 
-{t}installed{/t}
+** installed
 
 
-{t}insufficient folder rights{/t}
+** insufficient folder rights
 
 
-{t}Internal recommendation{/t}
+** Internal recommendation
 
 
-{t}Intranet{/t}
+** Intranet
 
 
-{t}Intro{/t}
+** Intro
 
 
-{t}invalid{/t}
+** invalid
 
 
-{t}Invalid file extensions{/t}
+** Invalid file extensions
 
 
-{t}Invalid schema mode '%s'{/t}
+** Invalid schema mode '%s'
 
 
-{t}Invalid security token{/t}
+** Invalid security token
 
 
-{t}Inventory{/t}
+** Inventory
 Leltár
 
-{t}Inventory number{/t}
+** Inventory number
 Leltárszám
 
-{t}Investor{/t}
+** Investor
 Beruházó
 
-{t}Invoice{/t}
+** Invoice
 
 
-{t}italic{/t}
+** italic
 
 
-{t}Item created by %s at %s{/t}
+** Item created by %s at %s
 
 
-{t}Item deleted by %s at %s{/t}
+** Item deleted by %s at %s
 
 
-{t}Item edited (%s) by %s at %s{/t}
+** Item edited (%s) by %s at %s
 
 
-{t}Item not found.{/t}
+** Item not found.
 
 
-{t}Item successfully created.{/t}
+** Item successfully created.
 Sikeresen létrehozva.
 
-{t}Item successfully updated.{/t}
+** Item successfully updated.
 Sikeresen frissítve.
 
-{t}Item(s) not found or access denied.{/t}
+** Item(s) not found or access denied.
 
 
-{t}Jan{/t}
+** Jan
 
 
-{t}January{/t}
+** January
 január
 
-{t}Job description{/t}
+** Job description
 Munkaköri leírás
 
-{t}Join lines{/t}
+** Join lines
 
 
-{t}Jul{/t}
+** Jul
 
 
-{t}July{/t}
+** July
 július
 
-{t}Jun{/t}
+** Jun
 
 
-{t}June{/t}
+** June
 június
 
-{t}Key{/t}
+** Key
 
 
-{t}Key customer{/t}
+** Key customer
 Kulcsfontosságú ügyfél
 
-{t}Key name{/t}
+** Key name
 
 
-{t}Keywords{/t}
+** Keywords
 
 
-{t}Knowledge base{/t}
+** Knowledge base
 Tudástár
 
-{t}L o g i n{/t}
+** L o g i n
 
 
-{t}l, F j, Y{/t}
+** l, F j, Y
 l, Y F j
 
-{t}Last access{/t}
+** Last access
 Utolsó bejelentkezés
 
-{t}Last name{/t}
+** Last name
 Családnév
 
-{t}LDAP anonymous connection failed.{/t}
+** LDAP anonymous connection failed.
 Az LDAP anonim kapcsolat létrehozása nem sikerült.
 
-{t}LDAP attribute for group memberships{/t}
+** LDAP attribute for group memberships
 
 
-{t}LDAP attribute for rooms{/t}
+** LDAP attribute for rooms
 
 
-{t}LDAP attribute for usernames{/t}
+** LDAP attribute for usernames
 
 
-{t}LDAP connection to host %s failed.{/t}
+** LDAP connection to host %s failed.
 Az LDAP kapcsolat létrehozása nem sikerült ehhez a hoszthoz: %s
 
-{t}LDAP without anonymous access{/t}
+** LDAP without anonymous access
 LDAP anonim elérés nélkül
 
-{t}LDAP: no base DN given{/t}
+** LDAP: no base DN given
 
 
-{t}LDAP: no UID given{/t}
+** LDAP: no UID given
 
 
-{t}Leave of absence{/t}
+** Leave of absence
 
 
-{t}less promising{/t}
+** less promising
 kevésbé ígéretes
 
-{t}lesser than{/t}
+** lesser than
 kevesebb mint
 
-{t}Letter{/t}
+** Letter
 
 
-{t}Level{/t}
+** Level
 Szint
 
-{t}License{/t}
+** License
 Licensz
 
-{t}line{/t}
+** line
 
 
-{t}Line break{/t}
+** Line break
 
 
-{t}Link{/t}
+** Link
 
 
-{t}Link restricted{/t}
+** Link restricted
 
 
-{t}link text{/t}
+** link text
 
 
-{t}link to external page{/t}
+** link to external page
 
 
-{t}link to internal page{/t}
+** link to internal page
 
 
-{t}Links{/t}
+** Links
 
 
-{t}Lists{/t}
+** Lists
 
 
-{t}Load external images{/t}
+** Load external images
 
 
-{t}Location{/t}
+** Location
 Hely
 
-{t}Locations{/t}
+** Locations
 Helyszínek
 
-{t}Lock{/t}
+** Lock
 
 
-{t}Locked by{/t}
+** Locked by
 
 
-{t}Locking{/t}
+** Locking
 
 
-{t}login %s from %s with %s{/t}
+** login %s from %s with %s
 
 
-{t}Login failed from %s.{/t}
+** Login failed from %s.
 
 
-{t}Login/-out{/t}
+** Login/-out
 Kijelentkezés
 
-{t}Logins{/t}
+** Logins
 Bejelentkezések
 
-{t}Logout{/t}
+** Logout
 
 
-{t}logout %s{/t}
+** logout %s
 kijelentkezés %s
 
-{t}Lookup{/t}
+** Lookup
 
 
-{t}low{/t}
+** low
 alacsony
 
-{t}lowest{/t}
+** lowest
 legalacsonyabb
 
-{t}M j{/t}
+** M j
 M j
 
-{t}M j, g:i a{/t}
+** M j, g:i a
 M j H:i
 
-{t}M j, Y{/t}
+** M j, Y
 Y M j
 
-{t}m/d/Y{/t}
+** m/d/Y
 Y/m/d
 
-{t}m/d/Y g:i a{/t}
+** m/d/Y g:i a
 Y/m/d H:i
 
-{t}m/d/y g:i:s a{/t}
+** m/d/y g:i:s a
 y/m/d H:i:s
 
-{t}magenta{/t}
+** magenta
 bíbor
 
-{t}mail footer{/t}
+** mail footer
 email lábjegyzet
 
-{t}Mail identities{/t}
+** Mail identities
 Email azonosítók
 
-{t}mail notification{/t}
+** mail notification
 
 
-{t}mail reminder{/t}
+** mail reminder
 
 
-{t}Main menu{/t}
+** Main menu
 Fõmenü
 
-{t}Main page{/t}
+** Main page
 
 
-{t}Maintenance mode{/t}
+** Maintenance mode
 Karbantartás
 
-{t}male{/t}
+** male
 férfi
 
-{t}Man-days{/t}
+** Man-days
 
 
-{t}Man-days planned{/t}
+** Man-days planned
 
 
-{t}Manage offline folders{/t}
+** Manage offline folders
 
 
-{t}Manager{/t}
+** Manager
 
 
-{t}Manufacturer{/t}
+** Manufacturer
 Gyártó
 
-{t}Mar{/t}
+** Mar
 
 
-{t}March{/t}
+** March
 március
 
-{t}Marketing event{/t}
+** Marketing event
 
 
-{t}married{/t}
+** married
 házas
 
-{t}Maximize{/t}
+** Maximize
 Maximalizálás
 
-{t}Maximum file size{/t}
+** Maximum file size
 
 
-{t}Maximum number of assets per page{/t}
+** Maximum number of assets per page
 
 
-{t}maximum number of files exceeded.{/t}
+** maximum number of files exceeded.
 
 
-{t}May{/t}
+** May
 május
 
-{t}Media{/t}
+** Media
 sajtó
 
-{t}Meeting{/t}
+** Meeting
 
 
-{t}Members{/t}
+** Members
 Tagok
 
-{t}Memory limit{/t}
+** Memory limit
 
 
-{t}Merge folders permanently{/t}
+** Merge folders permanently
 
 
-{t}Merged folders{/t}
+** Merged folders
 
 
-{t}Message{/t}
+** Message
 Üzenet
 
-{t}Messages{/t}
+** Messages
 
 
-{t}Milestone{/t}
+** Milestone
 
 
-{t}min{/t}
+** min
 
 
-{t}Minimize{/t}
+** Minimize
 Minimalizálás
 
-{t}minimum = 15 secs, 0 = disabled{/t}
+** minimum = 15 secs, 0 = disabled
 
 
-{t}Miscellaneous{/t}
+** Miscellaneous
 Vegyes
 
-{t}missing a temporary folder.{/t}
+** missing a temporary folder.
 
 
-{t}missing field{/t}
+** missing field
 hiányzó mezõ
 
-{t}missing right: %s{/t}
+** missing right: %s
 
 
-{t}Mo{/t}
+** Mo
 Hé
 
-{t}Mobile{/t}
+** Mobile
 Mobil
 
-{t}Model{/t}
+** Model
 
 
-{t}Modified{/t}
+** Modified
 Módosítva
 
-{t}Modified by{/t}
+** Modified by
 
 
-{t}Modifying database failed.{/t}
+** Modifying database failed.
 Sikertelen adatbázis módosítás.
 
-{t}Module{/t}
+** Module
 Modul
 
-{t}Module disabled.{/t}
+** Module disabled.
 
 
-{t}Modules{/t}
+** Modules
 Modulok
 
-{t}Mon{/t}
+** Mon
 Hét
 
-{t}Monday{/t}
+** Monday
 
 
-{t}monospace{/t}
+** monospace
 
 
-{t}Month{/t}
+** Month
 Hónap
 
-{t}monthly{/t}
+** monthly
 havi
 
-{t}months{/t}
+** months
 hónapok
 
-{t}More information about the GNU GPL{/t}
+** More information about the GNU GPL
 További információk a GNU GPL-rõl
 
-{t}Mountpoint{/t}
+** Mountpoint
 
 
-{t}Move{/t}
+** Move
 Áthelyezés
 
-{t}Move to subfolder 'Archive'{/t}
+** Move to subfolder 'Archive'
 
 
-{t}Multiple{/t}
+** Multiple
 
 
-{t}Multiple choice{/t}
+** Multiple choice
 
 
-{t}My appointments{/t}
+** My appointments
 
 
-{t}My tasks{/t}
+** My tasks
 
 
-{t}Name{/t}
+** Name
 Név
 
-{t}Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
 A név hossza min. 3, max. 128 karakter [a-z0-9_-@.] legyen és nagybetûket nem tartalmazhat.
 
-{t}Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].{/t}
+** Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].
 
 
-{t}need feedback{/t}
+** need feedback
 
 
-{t}Network{/t}
+** Network
 
 
-{t}Never expires{/t}
+** Never expires
 Érvényesség nem jár le
 
-{t}New{/t}
+** New
 Új
 
-{t}New folder{/t}
+** New folder
 Új mappa
 
-{t}News{/t}
+** News
 Hírek
 
-{t}Next recurrences{/t}
+** Next recurrences
 
 
-{t}Nickname{/t}
+** Nickname
 Becenév
 
-{t}Nightwork{/t}
+** Nightwork
 
 
-{t}no{/t}
+** no
 nem
 
-{t}No dataset selected.{/t}
+** No dataset selected.
 
 
-{t}No entries found.{/t}
+** No entries found.
 Nincs kilistázható bejegyzés.
 
-{t}No file was uploaded{/t}
+** No file was uploaded
 
 
-{t}No line breaks{/t}
+** No line breaks
 
 
-{t}no result{/t}
+** no result
 
 
-{t}No search index{/t}
+** No search index
 
 
-{t}No sender specified.{/t}
+** No sender specified.
 Nincs feladó megjelölve.
 
-{t}no username submitted{/t}
+** no username submitted
 nincs felhasználónév megadva
 
-{t}No username/password.{/t}
+** No username/password.
 
 
-{t}No wrap{/t}
+** No wrap
 
 
-{t}Non unique{/t}
+** Non unique
 Nem egyedi
 
-{t}none{/t}
+** none
 nincs
 
-{t}normal{/t}
+** normal
 normál
 
-{t}Not allowed. Please log in as super administrator.{/t}
+** Not allowed. Please log in as super administrator.
 Nem megengedett. Jelentkezz be adminisztrátorként.
 
-{t}not contains{/t}
+** not contains
 nem tartalmaz
 
-{t}not equal{/t}
+** not equal
 nem egyenlõ
 
-{t}Not in{/t}
+** Not in
 
 
-{t}Not in database{/t}
+** Not in database
 
 
-{t}not installed{/t}
+** not installed
 
 
-{t}Note{/t}
+** Note
 
 
-{t}Notebook{/t}
+** Notebook
 
 
-{t}Notes{/t}
+** Notes
 Megjegyzések
 
-{t}Notificaiton sent to: %s{/t}
+** Notificaiton sent to: %s
 
 
-{t}Notification{/t}
+** Notification
 Közlemény
 
-{t}Notification summary{/t}
+** Notification summary
 
 
-{t}Notifications{/t}
+** Notifications
 
 
-{t}Nov{/t}
+** Nov
 
 
-{t}November{/t}
+** November
 november
 
-{t}Null{/t}
+** Null
 Nulla
 
-{t}Number of employees{/t}
+** Number of employees
 Alkalmazottak száma
 
-{t}numbered{/t}
+** numbered
 
 
-{t}Objectives{/t}
+** Objectives
 
 
-{t}Oct{/t}
+** Oct
 
 
-{t}October{/t}
+** October
 október
 
-{t}of {0}{/t}
+** of {0}
 
 
-{t}offer{/t}
+** offer
 
 
-{t}Offer{/t}
+** Offer
 
 
-{t}Office{/t}
+** Office
 Iroda
 
-{t}Office program{/t}
+** Office program
 
 
-{t}Offices{/t}
+** Offices
 Irodák
 
-{t}offline{/t}
+** offline
 
 
-{t}Offline folders{/t}
+** Offline folders
 
 
-{t}Offline reading{/t}
+** Offline reading
 
 
-{t}Ok{/t}
+** Ok
 
 
-{t}one of{/t}
+** one of
 
 
-{t}online{/t}
+** online
 
 
-{t}Only for this folder{/t}
+** Only for this folder
 
 
-{t}Only in{/t}
+** Only in
 
 
-{t}open{/t}
+** open
 
 
-{t}Open{/t}
+** Open
 Megnyitás
 
-{t}Operating system{/t}
+** Operating system
 
 
-{t}Operation not allowed. (Data loss protection){/t}
+** Operation not allowed. (Data loss protection)
 
 
-{t}Optimize Tables{/t}
+** Optimize Tables
 
 
-{t}Options{/t}
+** Options
 Opciók
 
-{t}or{/t}
+** or
 
 
-{t}or higher{/t}
+** or higher
 vagy magasabb
 
-{t}orange{/t}
+** orange
 narancs
 
-{t}Order size{/t}
+** Order size
 Rendelés mérete
 
-{t}Organisation{/t}
+** Organisation
 Szervezet
 
-{t}Organizer{/t}
+** Organizer
 Szervezõ
 
-{t}Origin{/t}
+** Origin
 Eredet
 
-{t}Original message{/t}
+** Original message
 Eredeti üzenet
 
-{t}Other{/t}
+** Other
 Egyéb
 
-{t}out of office{/t}
+** out of office
 házon kívül
 
-{t}Outline image{/t}
+** Outline image
 
 
-{t}Output{/t}
+** Output
 
 
-{t}Output empty: %s{/t}
+** Output empty: %s
 
 
-{t}overlap{/t}
+** overlap
 
 
-{t}Overtime{/t}
+** Overtime
 
 
-{t}Overtime compensation per hour{/t}
+** Overtime compensation per hour
 
 
-{t}Owner{/t}
+** Owner
 Tulajdonos
 
-{t}Owner since{/t}
+** Owner since
 Mióta tulajdonos
 
-{t}Package from local file system (.tar.gz){/t}
+** Package from local file system (.tar.gz)
 
 
-{t}Packed{/t}
+** Packed
 
 
-{t}Page{/t}
+** Page
 
 
-{t}Page last modified on{/t}
+** Page last modified on
 
 
-{t}Page name (URL){/t}
+** Page name (URL)
 
 
-{t}Page not found{/t}
+** Page not found
 
 
-{t}Page title{/t}
+** Page title
 
 
-{t}Pager{/t}
+** Pager
 
 
-{t}Paid{/t}
+** Paid
 
 
-{t}Paid holidays{/t}
+** Paid holidays
 
 
-{t}Paragraphs{/t}
+** Paragraphs
 
 
-{t}parameters{/t}
+** parameters
 paraméterek
 
-{t}Parameters{/t}
+** Parameters
 Paraméterek
 
-{t}Parent folder{/t}
+** Parent folder
 
 
-{t}Parsing{/t}
+** Parsing
 
 
-{t}Part time{/t}
+** Part time
 
 
-{t}Participants{/t}
+** Participants
 Résztvevõk
 
-{t}Participants (external){/t}
+** Participants (external)
 Résztvevõk (külsõ)
 
-{t}Participants (internal){/t}
+** Participants (internal)
 Résztvevõk (belsõ)
 
-{t}Password{/t}
+** Password
 Jelszó
 
-{t}Password expired. (password of %s has expired){/t}
+** Password expired. (password of %s has expired)
 A jelszó érvényesége lejárt. (%s)
 
-{t}Password expires{/t}
+** Password expires
 A jelszó érvényessége lejár
 
-{t}Password must be not null, min 5 characters.{/t}
+** Password must be not null, min 5 characters.
 A jelszó legalább 5 karakter hosszúságú legyen.
 
-{t}password not confirmed.{/t}
+** password not confirmed.
 a két jelszó nem azonos.
 
-{t}Passwords{/t}
+** Passwords
 Jelszavak
 
-{t}Paste{/t}
+** Paste
 
 
-{t}Path{/t}
+** Path
 Útvonal
 
-{t}Pause{/t}
+** Pause
 
 
-{t}Payroll{/t}
+** Payroll
 
 
-{t}Permissions{/t}
+** Permissions
 Jogosultságok
 
-{t}Permissions added for: %s{/t}
+** Permissions added for: %s
 
 
-{t}Personal{/t}
+** Personal
 személyes
 
-{t}Personal department{/t}
+** Personal department
 
 
-{t}Personal folders{/t}
+** Personal folders
 Személyes mappák
 
-{t}Personal projects{/t}
+** Personal projects
 
 
-{t}Phone{/t}
+** Phone
 Telefon
 
-{t}Phone calls{/t}
+** Phone calls
 Telefonhívás
 
-{t}Phone private{/t}
+** Phone private
 Otthoni telefon
 
-{t}Photo{/t}
+** Photo
 Fotó
 
-{t}Photo gallery{/t}
+** Photo gallery
 Fotógaléria
 
-{t}Planned{/t}
+** Planned
 Tervezett
 
-{t}Please activate cookies.{/t}
+** Please activate cookies.
 Engedélyezd a sütik (cookies) használatát!
 
-{t}Please choose Apache as Web-Server.{/t}
+** Please choose Apache as Web-Server.
 
 
-{t}Please enable Javascript in your browser.{/t}
+** Please enable Javascript in your browser.
 
 
-{t}Please enter a valid url.{/t}
+** Please enter a valid url.
 Érvényes URL-t adjál meg!
 
-{t}Please give read access to %s{/t}
+** Please give read access to %s
 
 
-{t}Please give write access to %s{/t}
+** Please give write access to %s
 %s írása nincs engedélyezve
 
-{t}Please give write access to %s and %s{/t}
+** Please give write access to %s and %s
 %s és %s írása nincs engedélyezve
 
-{t}Please hit reload.{/t}
+** Please hit reload.
 
 
-{t}Please input a valid e-mail adress.{/t}
+** Please input a valid e-mail adress.
 Adjál meg egy érvényes email címet!
 
-{t}Please install 'tsearch2' for the PostgreSQL database.{/t}
+** Please install 'tsearch2' for the PostgreSQL database.
 
 
-{t}Please install the php-extension with name '%s'.{/t}
+** Please install the php-extension with name '%s'.
 
 
-{t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}
+** Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !
 
 
-{t}Please read the following license agreement. Use the scroll bar to view the rest of this agreement.{/t}
+** Please read the following license agreement. Use the scroll bar to view the rest of this agreement.
 Olvasd el a következõ dokumentum teljes szövegét! (Használd a görgetõsávot.)
 
-{t}Please select a location.{/t}
+** Please select a location.
 
 
-{t}Please select a participant.{/t}
+** Please select a participant.
 
 
-{t}Please upload again.{/t}
+** Please upload again.
 Töltsed fel újra!
 
-{t}Please wait ...{/t}
+** Please wait ...
 Várjál ...
 
-{t}Pop3-error: %s{/t}
+** Pop3-error: %s
 POP3 hiba: %s
 
-{t}Port{/t}
+** Port
 
 
-{t}Portal{/t}
+** Portal
 Hírportál
 
-{t}Position{/t}
+** Position
 Beosztás
 
-{t}Positions{/t}
+** Positions
 Beosztások
 
-{t}Post{/t}
+** Post
 Levél
 
-{t}Practical training{/t}
+** Practical training
 
 
-{t}Preformatted block{/t}
+** Preformatted block
 
 
-{t}Prepend new field as{/t}
+** Prepend new field as
 
 
-{t}Prevent formatting{/t}
+** Prevent formatting
 
 
-{t}Preview{/t}
+** Preview
 Elõnézet
 
-{t}Price{/t}
+** Price
 Ár (érték)
 
-{t}Primary key{/t}
+** Primary key
 
 
-{t}Print{/t}
+** Print
 Nyomtatás
 
-{t}Print all{/t}
+** Print all
 
 
-{t}Printer{/t}
+** Printer
 
 
-{t}Priority{/t}
+** Priority
 Prioritás
 
-{t}Problem{/t}
+** Problem
 Probléma
 
-{t}Processes{/t}
+** Processes
 
 
-{t}Processing %s ...{/t}
+** Processing %s ...
 Feldolgozás alatt: %s ...
 
-{t}Program is installed with language %s, please use a different url or run the setup again.{/t}
+** Program is installed with language %s, please use a different url or run the setup again.
 
 
-{t}Progress{/t}
+** Progress
 
 
-{t}Project{/t}
+** Project
 Projekt
 
-{t}Project files{/t}
+** Project files
 
 
-{t}Project tasks{/t}
+** Project tasks
 
 
-{t}Projects{/t}
+** Projects
 Projektek
 
-{t}promising{/t}
+** promising
 ígéretes
 
-{t}Properties{/t}
+** Properties
 
 
-{t}Prospective client{/t}
+** Prospective client
 Lehetséges ügyfél
 
-{t}Public holiday{/t}
+** Public holiday
 
 
-{t}Purchased{/t}
+** Purchased
 Beszerzés idõpontja
 
-{t}Question{/t}
+** Question
 Kérdés
 
-{t}Queue{/t}
+** Queue
 
 
-{t}Quick add{/t}
+** Quick add
 
 
-{t}Quota{/t}
+** Quota
 Kvóta
 
-{t}Quota (remaining){/t}
+** Quota (remaining)
 Kvóta (maradék)
 
-{t}Quota [MB]{/t}
+** Quota [MB]
 Kvóta [MB]
 
-{t}Quota limitation exceeded: %s{/t}
+** Quota limitation exceeded: %s
 Kvóta határ túllépve: %s
 
-{t}R e g i s t e r{/t}
+** R e g i s t e r
 
 
-{t}Rating{/t}
+** Rating
 Minõsítés
 
-{t}Read{/t}
+** Read
 
 
-{t}read access{/t}
+** read access
 olvasási jog
 
-{t}Read access (groups){/t}
+** Read access (groups)
 Olvasás (csoportok)
 
-{t}Read access (users){/t}
+** Read access (users)
 Olvasás (felhasználók)
 
-{t}Read only in{/t}
+** Read only in
 
 
-{t}Read this page offline:{/t}
+** Read this page offline:
 
 
-{t}ready for repair{/t}
+** ready for repair
 javításra
 
-{t}ready for scrap{/t}
+** ready for scrap
 selejtezésre
 
-{t}Real URL format in the CMS{/t}
+** Real URL format in the CMS
 
 
-{t}Really apply rights to subfolders ?{/t}
+** Really apply rights to subfolders ?
 
 
-{t}Really apply the changes ?{/t}
+** Really apply the changes ?
 
 
-{t}Really delete ?{/t}
+** Really delete ?
 Valóban törölni akarod?
 
-{t}REALLY delete ALL datasets ?{/t}
+** REALLY delete ALL datasets ?
 Valóban törölni akarod az ÖSSZES adatot?!
 
-{t}Really delete ALL subfolders ?{/t}
+** Really delete ALL subfolders ?
 Valóban törölni akarod az ÖSSZES almappát?
 
-{t}Really delete the dataset(s) ?{/t}
+** Really delete the dataset(s) ?
 Valóban töröljem az adatbázisból?
 
-{t}Really empty the folder ?{/t}
+** Really empty the folder ?
 Tényleg MINDENT törölni akarsz a mappából?
 
-{t}Really overwrite existing dataset(s) ?{/t}
+** Really overwrite existing dataset(s) ?
 Valóban felül akarod írni a rögzített adatokat?
 
-{t}Really run setup again ?{/t}
+** Really run setup again ?
 Tényleg újra akarod telepíteni?
 
-{t}Really uninstall the module ?{/t}
+** Really uninstall the module ?
 
 
-{t}Rebuild search index{/t}
+** Rebuild search index
 
 
-{t}Recent changes{/t}
+** Recent changes
 
 
-{t}Recipients{/t}
+** Recipients
 
 
-{t}Recommendation of affiliate{/t}
+** Recommendation of affiliate
 
 
-{t}Recurrence{/t}
+** Recurrence
 Ismétlõdés
 
-{t}Recurrences{/t}
+** Recurrences
 
 
-{t}red{/t}
+** red
 piros
 
-{t}Redirect to home directory{/t}
+** Redirect to home directory
 
 
-{t}Reference{/t}
+** Reference
 
 
-{t}Refresh{/t}
+** Refresh
 
 
-{t}Refresh every x seconds{/t}
+** Refresh every x seconds
 
 
-{t}Regular{/t}
+** Regular
 
 
-{t}Reject{/t}
+** Reject
 
 
-{t}rejected{/t}
+** rejected
 
 
-{t}Relative formats{/t}
+** Relative formats
 
 
-{t}Relaunch Setup{/t}
+** Relaunch Setup
 Telepítés/beállítások újraindítása
 
-{t}Relevance{/t}
+** Relevance
 
 
-{t}Reminder{/t}
+** Reminder
 
 
-{t}rename{/t}
+** rename
 
 
-{t}Rename folder{/t}
+** Rename folder
 Mappa átnevezése
 
-{t}Repeat count{/t}
+** Repeat count
 Hányszor
 
-{t}Repeat exclusions{/t}
+** Repeat exclusions
 Kivéve
 
-{t}Repeat interval{/t}
+** Repeat interval
 Intervallum
 
-{t}Repeat until{/t}
+** Repeat until
 Meddig
 
-{t}Reply{/t}
+** Reply
 Válasz
 
-{t}Reply all{/t}
+** Reply all
 Válasz mindenkinek
 
-{t}Require admin access to set mountpoints{/t}
+** Require admin access to set mountpoints
 
 
-{t}Required{/t}
+** Required
 
 
-{t}Required fields{/t}
+** Required fields
 
 
-{t}Reseller{/t}
+** Reseller
 Viszonteladó
 
-{t}reserved{/t}
+** reserved
 fenntartott
 
-{t}Reset view{/t}
+** Reset view
 
 
-{t}Resource{/t}
+** Resource
 Forrás
 
-{t}Resources{/t}
+** Resources
 Források
 
-{t}Responsible{/t}
+** Responsible
 Felelõs
 
-{t}Responsible (external){/t}
+** Responsible (external)
 Felelõs (külsõ)
 
-{t}Responsible (internal){/t}
+** Responsible (internal)
 Felelõs (belsõ)
 
-{t}Restore complete{/t}
+** Restore complete
 
 
-{t}Restore here{/t}
+** Restore here
 
 
-{t}Restore only missing{/t}
+** Restore only missing
 
 
-{t}Restore only newer{/t}
+** Restore only newer
 
 
-{t}Restore to origin{/t}
+** Restore to origin
 
 
-{t}Return receipt{/t}
+** Return receipt
 
 
-{t}right-aligned{/t}
+** right-aligned
 
 
-{t}Rights{/t}
+** Rights
 Jogok
 
-{t}Risks{/t}
+** Risks
 
 
-{t}Room name{/t}
+** Room name
 Helyiség neve
 
-{t}Room number{/t}
+** Room number
 Szobaszám
 
-{t}Rooms{/t}
+** Rooms
 Helyiségek
 
-{t}Rows{/t}
+** Rows
 Sorok
 
-{t}Run Setup again{/t}
+** Run Setup again
 Újratelepítés
 
-{t}S a v e{/t}
+** S a v e
 M e n t é s
 
-{t}S a v e  a n d  E d i t{/t}
+** S a v e  a n d  E d i t
 
 
-{t}S a v e  a n d  g o  b a c k{/t}
+** S a v e  a n d  g o  b a c k
 
 
-{t}Sa{/t}
+** Sa
 Sz
 
-{t}Salary{/t}
+** Salary
 
 
-{t}Salary per{/t}
+** Salary per
 
 
-{t}Sales promotion{/t}
+** Sales promotion
 
 
-{t}Sat{/t}
+** Sat
 Szo
 
-{t}Saturday{/t}
+** Saturday
 
 
-{t}Scheduling{/t}
+** Scheduling
 Ütemezés
 
-{t}Schema{/t}
+** Schema
 Séma
 
-{t}Schema data{/t}
+** Schema data
 Séma adatok
 
-{t}Schemafile not found. (%s){/t}
+** Schemafile not found. (%s)
 A sémafájl nem található. (%s)
 
-{t}School{/t}
+** School
 
 
-{t}scrapped{/t}
+** scrapped
 kiselejtezve
 
-{t}Search{/t}
+** Search
 Keresés
 
-{t}Search by ID{/t}
+** Search by ID
 
 
-{t}second level support{/t}
+** second level support
 
 
-{t}Second manager{/t}
+** Second manager
 
 
-{t}seconds{/t}
+** seconds
 
 
-{t}Secretary{/t}
+** Secretary
 Titkár
 
-{t}Self registration{/t}
+** Self registration
 
 
-{t}Self registration needs confirmation by an administrator.{/t}
+** Self registration needs confirmation by an administrator.
 
 
-{t}Send now{/t}
+** Send now
 
 
-{t}Sent{/t}
+** Sent
 
 
-{t}Sent reminders{/t}
+** Sent reminders
 
 
-{t}Sep{/t}
+** Sep
 
 
-{t}Separate fields{/t}
+** Separate fields
 
 
-{t}Separate values{/t}
+** Separate values
 
 
-{t}Separator{/t}
+** Separator
 
 
-{t}Separators{/t}
+** Separators
 
 
-{t}September{/t}
+** September
 szeptember
 
-{t}Serial number{/t}
+** Serial number
 Gyári szám
 
-{t}Server{/t}
+** Server
 Szerver
 
-{t}Server does not support sorting{/t}
+** Server does not support sorting
 
 
-{t}Server-IP{/t}
+** Server-IP
 Szerver IP
 
-{t}Service provider{/t}
+** Service provider
 szolgáltató
 
-{t}Session name in cookie{/t}
+** Session name in cookie
 
 
-{t}Session timeout{/t}
+** Session timeout
 Munkafolyamat idõtúllépés
 
-{t}Sessions{/t}
+** Sessions
 Munkafolyamatok
 
-{t}Settings{/t}
+** Settings
 
 
-{t}Setup{/t}
+** Setup
 Beállítások
 
-{t}Setup needs a database-php-extension ! (%s){/t}
+** Setup needs a database-php-extension ! (%s)
 
 
-{t}Setup needs php with at least version %s !{/t}
+** Setup needs php with at least version %s !
 
 
-{t}Setup needs php-extension with name %s !{/t}
+** Setup needs php-extension with name %s !
 
 
-{t}Setup needs Simple Groupware with at least version %s !{/t}
+** Setup needs Simple Groupware with at least version %s !
 
 
-{t}Setup: setup-data written to %s.{/t}
+** Setup: setup-data written to %s.
 Beállítási adatok elmentve: %s
 
-{t}Shapes{/t}
+** Shapes
 
 
-{t}Share{/t}
+** Share
 
 
-{t}Shared{/t}
+** Shared
 
 
-{t}Short links{/t}
+** Short links
 
 
-{t}Show{/t}
+** Show
 Megmutat
 
-{t}Show all rules{/t}
+** Show all rules
 
 
-{t}Show archive{/t}
+** Show archive
 
 
-{t}Show details{/t}
+** Show details
 
 
-{t}Show folder description in content area{/t}
+** Show folder description in content area
 
 
-{t}Show password{/t}
+** Show password
 
 
-{t}Show quoted text{/t}
+** Show quoted text
 Idézett szöveg megjelenítése
 
-{t}Similar{/t}
+** Similar
 
 
-{t}Simple tables{/t}
+** Simple tables
 
 
-{t}single{/t}
+** single
 
 
-{t}Single choice{/t}
+** Single choice
 
 
-{t}Size{/t}
+** Size
 Méret
 
-{t}Size (children){/t}
+** Size (children)
 
 
-{t}Slow{/t}
+** Slow
 Lassulás
 
-{t}small{/t}
+** small
 
 
-{t}small text{/t}
+** small text
 
 
-{t}smaller{/t}
+** smaller
 
 
-{t}SMTP not configured for %s{/t}
+** SMTP not configured for %s
 
 
-{t}Smtp-error %s: %s{/t}
+** Smtp-error %s: %s
 SMTP hiba %s: %s
 
-{t}Software{/t}
+** Software
 
 
-{t}Solution{/t}
+** Solution
 
 
-{t}Solution type{/t}
+** Solution type
 
 
-{t}some text{/t}
+** some text
 
 
-{t}Source{/t}
+** Source
 
 
-{t}Source code{/t}
+** Source code
 
 
-{t}Special leave{/t}
+** Special leave
 
 
-{t}Specification{/t}
+** Specification
 Specifikáció
 
-{t}Spreadsheet{/t}
+** Spreadsheet
 
 
-{t}SQL failed.{/t}
+** SQL failed.
 
 
-{t}SQL FAILED: %s{/t}
+** SQL FAILED: %s
 
 
-{t}Start scheduled{/t}
+** Start scheduled
 Ütemezés kezdete
 
-{t}Started{/t}
+** Started
 Elkezdve
 
-{t}starts with{/t}
+** starts with
 ezzel kezdõdik
 
-{t}State{/t}
+** State
 Megye
 
-{t}Static cache{/t}
+** Static cache
 
 
-{t}Statistics{/t}
+** Statistics
 Statisztikák
 
-{t}Status{/t}
+** Status
 Állapot
 
-{t}Statuses{/t}
+** Statuses
 Állapotok
 
-{t}Strategies{/t}
+** Strategies
 
 
-{t}Street{/t}
+** Street
 Utca
 
-{t}Structure{/t}
+** Structure
 Struktúra
 
-{t}Su{/t}
+** Su
 Va
 
-{t}Subfolder{/t}
+** Subfolder
 
 
-{t}Subfolders{/t}
+** Subfolders
 
 
-{t}subheading{/t}
+** subheading
 
 
-{t}Subitem{/t}
+** Subitem
 
 
-{t}Subject{/t}
+** Subject
 Tárgy
 
-{t}Subjects{/t}
+** Subjects
 
 
-{t}Submit a patch{/t}
+** Submit a patch
 Hibajavítás beküldése
 
-{t}Subpages{/t}
+** Subpages
 
 
-{t}subscript{/t}
+** subscript
 
 
-{t}Subsistence costs{/t}
+** Subsistence costs
 
 
-{t}Sum{/t}
+** Sum
 
 
-{t}Summary{/t}
+** Summary
 
 
-{t}Sun{/t}
+** Sun
 Vas
 
-{t}Sunday{/t}
+** Sunday
 
 
-{t}Superior{/t}
+** Superior
 Felettes
 
-{t}superscript{/t}
+** superscript
 
 
-{t}Supplier{/t}
+** Supplier
 Szállító
 
-{t}Suppliers{/t}
+** Suppliers
 Szállítók
 
-{t}Support{/t}
+** Support
 Támogatás
 
-{t}Support request{/t}
+** Support request
 
 
-{t}Surveys{/t}
+** Surveys
 
 
-{t}Suspended{/t}
+** Suspended
 Felfüggesztve
 
-{t}Switch maintenance mode{/t}
+** Switch maintenance mode
 Karbantartási üzemmód
 
-{t}Sync4j remote delete items{/t}
+** Sync4j remote delete items
 Sync4j távtörlés engedélyezése
 
-{t}Syntax{/t}
+** Syntax
 
 
-{t}System{/t}
+** System
 Rendszer
 
-{t}System command executed: %s{/t}
+** System command executed: %s
 
 
-{t}Tab{/t}
+** Tab
 
 
-{t}Table{/t}
+** Table
 
 
-{t}Table sizes{/t}
+** Table sizes
 
 
-{t}Table status{/t}
+** Table status
 
 
-{t}Tables{/t}
+** Tables
 
 
-{t}Take over{/t}
+** Take over
 
 
-{t}Take selection{/t}
+** Take selection
 
 
-{t}Task{/t}
+** Task
 
 
-{t}Task with ID %s{/t}
+** Task with ID %s
 
 
-{t}Tasks{/t}
+** Tasks
 Feladatok
 
-{t}Tasks with responsible %s{/t}
+** Tasks with responsible %s
 
 
-{t}Template{/t}
+** Template
 
 
-{t}Templates{/t}
+** Templates
 
 
-{t}Temporary work{/t}
+** Temporary work
 
 
-{t}term{/t}
+** term
 
 
-{t}Text area{/t}
+** Text area
 
 
-{t}Text Document{/t}
+** Text Document
 Szöveges dokumentum
 
-{t}Text formatting rules{/t}
+** Text formatting rules
 
 
-{t}Th{/t}
+** Th
 Cs
 
-{t}Thanks for voting!{/t}
+** Thanks for voting!
 
 
-{t}The folder cannot be copied.{/t}
+** The folder cannot be copied.
 
 
-{t}The folder cannot be deleted.{/t}
+** The folder cannot be deleted.
 
 
-{t}The folder cannot be moved.{/t}
+** The folder cannot be moved.
 
 
-{t}The new password is{/t}
+** The new password is
 
 
-{t}The url doesn't exist.{/t}
+** The url doesn't exist.
 Nincs ilyen URL.
 
-{t}Theme{/t}
+** Theme
 Téma
 
-{t}third level support{/t}
+** third level support
 
 
-{t}this file extension is not allowed{/t}
+** this file extension is not allowed
 ez a fájlkiterjesztés nem megengedett
 
-{t}Thu{/t}
+** Thu
 Csü
 
-{t}Thursday{/t}
+** Thursday
 
 
-{t}Time and expenses{/t}
+** Time and expenses
 Idõ és költségek
 
-{t}Time limit{/t}
+** Time limit
 
 
-{t}Time sheets{/t}
+** Time sheets
 
 
-{t}Time zone{/t}
+** Time zone
 
 
-{t}timeout{/t}
+** timeout
 
 
-{t}Title{/t}
+** Title
 Cím
 
-{t}To{/t}
+** To
 Kinek
 
-{t}to be checked{/t}
+** to be checked
 ellenõrizendõ
 
-{t}To continue installing Simple Groupware you must check the box under the license{/t}
+** To continue installing Simple Groupware you must check the box under the license
 A Simple Groupware telepítésének folytatásához jelöld be a licensz szövege alatt olvasható nyilatkozatot!
 
-{t}Today{/t}
+** Today
 Ma
 
-{t}Too many wrong logins. Please wait 15 minutes.{/t}
+** Too many wrong logins. Please wait 15 minutes.
 
 
-{t}Total{/t}
+** Total
 Összesen
 
-{t}Trace{/t}
+** Trace
 Nyomkövetés
 
-{t}Trade fair{/t}
+** Trade fair
 
 
-{t}translations{/t}
+** translations
 
 
-{t}Translations of the GNU GPL{/t}
+** Translations of the GNU GPL
 A GNU GPL dokumentum fordításai
 
-{t}Transportation costs{/t}
+** Transportation costs
 
 
-{t}Trash{/t}
+** Trash
 Kuka
 
-{t}Trash folder not found.{/t}
+** Trash folder not found.
 
 
-{t}Tree{/t}
+** Tree
 Könyvtárszerkezet
 
-{t}Trigger failed{/t}
+** Trigger failed
 
 
-{t}Tu{/t}
+** Tu
 Ke
 
-{t}Tue{/t}
+** Tue
 Ked
 
-{t}Tuesday{/t}
+** Tuesday
 
 
-{t}Type{/t}
+** Type
 Típus
 
-{t}U n i n s t a l l{/t}
+** U n i n s t a l l
 
 
-{t}unable to find %s{/t}
+** unable to find %s
 %s nem található
 
-{t}Unable to write to %s{/t}
+** Unable to write to %s
 
 
-{t}unconfirmed{/t}
+** unconfirmed
 nem nyugtázott
 
-{t}Unconfirmed{/t}
+** Unconfirmed
 
 
-{t}underline{/t}
+** underline
 
 
-{t}Uninstall does not delete any data in the database.{/t}
+** Uninstall does not delete any data in the database.
 
 
-{t}uninterested{/t}
+** uninterested
 érdektelen
 
-{t}Unique{/t}
+** Unique
 
 
-{t}Unique with trash{/t}
+** Unique with trash
 
 
-{t}Unlock{/t}
+** Unlock
 
 
-{t}Up{/t}
+** Up
 Fel
 
-{t}Update{/t}
+** Update
 Frissítés
 
-{t}Update Simple Groupware{/t}
+** Update Simple Groupware
 
 
-{t}Updated{/t}
+** Updated
 Frissítve
 
-{t}Updating schema %s from %s.{/t}
+** Updating schema %s from %s.
 
 
-{t}Upload failed{/t}
+** Upload failed
 A feltöltés nem sikerült
 
-{t}Uploaded files{/t}
+** Uploaded files
 Feltöltött fájlok
 
-{t}Uploading{/t}
+** Uploading
 
 
-{t}urgent{/t}
+** urgent
 sürgõs
 
-{t}URL{/t}
+** URL
 
 
-{t}Usage{/t}
+** Usage
 
 
-{t}USD{/t}
+** USD
 
 
-{t}Use APC for session storage{/t}
+** Use APC for session storage
 
 
-{t}Use Debian binaries (Warning: not latest versions){/t}
+** Use Debian binaries (Warning: not latest versions)
 
 
-{t}Use LDAP Groups{/t}
+** Use LDAP Groups
 
 
-{t}use mirror from{/t}
+** use mirror from
 
 
-{t}Use syslog() function for logging events{/t}
+** Use syslog() function for logging events
 
 
-{t}Use the mail() function for sending mails (insecure){/t}
+** Use the mail() function for sending mails (insecure)
 
 
-{t}User{/t}
+** User
 Felhasználó
 
-{t}User not found.{/t}
+** User not found.
 
 
-{t}Username{/t}
+** Username
 Felhasználónév
 
-{t}Username must be different from the super administrator.{/t}
+** Username must be different from the super administrator.
 
 
-{t}Users{/t}
+** Users
 Felhasználók
 
-{t}V a l i d a t e{/t}
+** V a l i d a t e
 
 
-{t}V o t e !{/t}
+** V o t e !
 
 
-{t}Vacation{/t}
+** Vacation
 Vakáció
 
-{t}Vacation days per year{/t}
+** Vacation days per year
 
 
-{t}Validating %s ...{/t}
+** Validating %s ...
 
 
-{t}validation failed{/t}
+** validation failed
 
 
-{t}Value{/t}
+** Value
 Érték
 
-{t}Value '%s' needs a group membership: %s{/t}
+** Value '%s' needs a group membership: %s
 
 
-{t}Variable{/t}
+** Variable
 Változó
 
-{t}Variable already exists in table. (%s){/t}
+** Variable already exists in table. (%s)
 
 
-{t}Variable must be of type date (mm/dd/yyyy).{/t}
+** Variable must be of type date (mm/dd/yyyy).
 
 
-{t}Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).{/t}
+** Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).
 
 
-{t}Variable must be of type float.{/t}
+** Variable must be of type float.
 
 
-{t}Variable must be of type int and greater than 0.{/t}
+** Variable must be of type int and greater than 0.
 
 
-{t}Variable must be of type int.{/t}
+** Variable must be of type int.
 
 
-{t}Variable must be of type time (hh:mm am/pm).{/t}
+** Variable must be of type time (hh:mm am/pm).
 
 
-{t}Variables{/t}
+** Variables
 Változók
 
-{t}Verbal recommendation{/t}
+** Verbal recommendation
 Szóbeli ajánlás
 
-{t}verified{/t}
+** verified
 
 
-{t}vertical{/t}
+** vertical
 
 
-{t}very promising{/t}
+** very promising
 nagyon ígéretes
 
-{t}View{/t}
+** View
 
 
-{t}View access (groups){/t}
+** View access (groups)
 
 
-{t}View access (users){/t}
+** View access (users)
 
 
-{t}Virus scanner{/t}
+** Virus scanner
 Víruskeresõ
 
-{t}Visibility{/t}
+** Visibility
 
 
-{t}Voice mail{/t}
+** Voice mail
 
 
-{t}Vote{/t}
+** Vote
 
 
-{t}Voted by{/t}
+** Voted by
 
 
-{t}Waiting{/t}
+** Waiting
 Várakozó
 
-{t}Warning{/t}
+** Warning
 
 
-{t}We{/t}
+** We
 Sz
 
-{t}Web{/t}
+** Web
 
 
-{t}Web page{/t}
+** Web page
 
 
-{t}Wed{/t}
+** Wed
 Sze
 
-{t}Wednesday{/t}
+** Wednesday
 
 
-{t}Week{/t}
+** Week
 Hét
 
-{t}Week start{/t}
+** Week start
 Hét kezdete
 
-{t}Weekend{/t}
+** Weekend
 
 
-{t}weekly{/t}
+** weekly
 heti
 
-{t}weeks{/t}
+** weeks
 
 
-{t}Welcome to Simple Groupware!{/t}
+** Welcome to Simple Groupware!
 
 
-{t}white{/t}
+** white
 fehér
 
-{t}widowed{/t}
+** widowed
 özvegy
 
-{t}Width{/t}
+** Width
 
 
-{t}Wiki{/t}
+** Wiki
 
 
-{t}WikiStyles{/t}
+** WikiStyles
 
 
-{t}won't fix{/t}
+** won't fix
 
 
-{t}word{/t}
+** word
 
 
-{t}Workflow{/t}
+** Workflow
 
 
-{t}Working student{/t}
+** Working student
 
 
-{t}works as expected{/t}
+** works as expected
 
 
-{t}works for me{/t}
+** works for me
 
 
-{t}Workshop{/t}
+** Workshop
 
 
-{t}Workspace{/t}
+** Workspace
 Munkaterület
 
-{t}write access{/t}
+** write access
 írásjog
 
-{t}Write access (groups){/t}
+** Write access (groups)
 Írás (csoportok)
 
-{t}Write access (users){/t}
+** Write access (users)
 Írás (felhasználók)
 
-{t}Wrong database-version (%s). Please use at least %s !{/t}
+** Wrong database-version (%s). Please use at least %s !
 
 
-{t}wrong directory{/t}
+** wrong directory
 hibás könyvtár
 
-{t}wrong password{/t}
+** wrong password
 hibás jelszó
 
-{t}Year{/t}
+** Year
 Év
 
-{t}yearly{/t}
+** yearly
 évi
 
-{t}years{/t}
+** years
 
 
-{t}yellow{/t}
+** yellow
 sárga
 
-{t}yes{/t}
+** yes
 igen
 
-{t}You are not allowed to view this folder.{/t}
+** You are not allowed to view this folder.
 A mappa megtekintése nem engedélyezett.
 
-{t}Your message was read on %s.{/t}
+** Your message was read on %s.
 
 
-{t}Your session has timed out.{/t}
+** Your session has timed out.
 A munkafolyamat ideje lejárt.
 
-{t}Zipcode{/t}
+** Zipcode
 Irányítószám
 
-{t}{0} - {1} of {2}{/t}
+** {0} - {1} of {2}
 
 

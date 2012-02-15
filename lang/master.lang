@@ -3,3531 +3,3531 @@
  * @license GPLv2
  */
 
-{t}!_Language{/t}
+** !_Language
 
 
-{t}%s is not activated{/t}
+** %s is not activated
 
 
-{t}%s is not compiled / loaded into PHP.{/t}
+** %s is not compiled / loaded into PHP.
 
 
-{t}%s M memory usage{/t}
+** %s M memory usage
 
 
-{t}%s not in database{/t}
+** %s not in database
 
 
-{t}%s rows affected{/t}
+** %s rows affected
 
 
-{t}%s secs{/t}
+** %s secs
 
 
-{t}%s started editing this asset at %s{/t}
+** %s started editing this asset at %s
 
 
-{t}(for active directory username must be: username@domain){/t}
+** (for active directory username must be: username@domain)
 
 
-{t}(un)Group{/t}
+** (un)Group
 
 
-{t}About{/t}
+** About
 
 
-{t}Absence{/t}
+** Absence
 
 
-{t}accepted{/t}
+** accepted
 
 
-{t}Access denied.{/t}
+** Access denied.
 
 
-{t}Access to this file has been denied.{/t}
+** Access to this file has been denied.
 
 
-{t}Account{/t}
+** Account
 
 
-{t}account of %s has expired{/t}
+** account of %s has expired
 
 
-{t}Accounting{/t}
+** Accounting
 
 
-{t}Activate{/t}
+** Activate
 
 
-{t}Activated{/t}
+** Activated
 
 
-{t}active{/t}
+** active
 
 
-{t}Active{/t}
+** Active
 
 
-{t}Ad{/t}
+** Ad
 
 
-{t}Add{/t}
+** Add
 
 
-{t}Add a special rule{/t}
+** Add a special rule
 
 
-{t}Add to offline folders{/t}
+** Add to offline folders
 
 
-{t}added line{/t}
+** added line
 
 
-{t}Address{/t}
+** Address
 
 
-{t}admin access{/t}
+** admin access
 
 
-{t}Admin access (groups){/t}
+** Admin access (groups)
 
 
-{t}Admin access (users){/t}
+** Admin access (users)
 
 
-{t}Admin Password{/t}
+** Admin Password
 
 
-{t}Admin Username{/t}
+** Admin Username
 
 
-{t}Administration{/t}
+** Administration
 
 
-{t}Advanced tables{/t}
+** Advanced tables
 
 
-{t}Affected user{/t}
+** Affected user
 
 
-{t}Affiliate{/t}
+** Affiliate
 
 
-{t}after{/t}
+** after
 
 
-{t}Agent{/t}
+** Agent
 
 
-{t}Ajax Error{/t}
+** Ajax Error
 
 
-{t}All{/t}
+** All
 
 
-{t}All day{/t}
+** All day
 
 
-{t}All events{/t}
+** All events
 
 
-{t}All finished tasks{/t}
+** All finished tasks
 
 
-{t}All pending tasks{/t}
+** All pending tasks
 
 
-{t}Allow custom values{/t}
+** Allow custom values
 
 
-{t}Allow disabled modules{/t}
+** Allow disabled modules
 
 
-{t}Already running latest release.{/t}
+** Already running latest release.
 
 
-{t}Already voted.{/t}
+** Already voted.
 
 
-{t}Amount{/t}
+** Amount
 
 
-{t}Anchor{/t}
+** Anchor
 
 
-{t}and{/t}
+** and
 
 
-{t}Anniversary{/t}
+** Anniversary
 
 
-{t}another page{/t}
+** another page
 
 
-{t}answered{/t}
+** answered
 
 
-{t}Answers{/t}
+** Answers
 
 
-{t}Apache based (.htaccess, Basic, Digest, etc.){/t}
+** Apache based (.htaccess, Basic, Digest, etc.)
 
 
-{t}Application title{/t}
+** Application title
 
 
-{t}Apply rights to subfolders{/t}
+** Apply rights to subfolders
 
 
-{t}Appointment{/t}
+** Appointment
 
 
-{t}Appointments{/t}
+** Appointments
 
 
-{t}Apprenticeship{/t}
+** Apprenticeship
 
 
-{t}Apr{/t}
+** Apr
 
 
-{t}April{/t}
+** April
 
 
-{t}Archive{/t}
+** Archive
 
 
-{t}Archive deleted files{/t}
+** Archive deleted files
 
 
-{t}Asset{/t}
+** Asset
 
 
-{t}Asset marked as read-only.{/t}
+** Asset marked as read-only.
 
 
-{t}Assets{/t}
+** Assets
 
 
-{t}Assets (children){/t}
+** Assets (children)
 
 
-{t}Assets can be imported into multiple folders by adding the "Folder" column.{/t}
+** Assets can be imported into multiple folders by adding the "Folder" column.
 
 
-{t}Assets can be overwritten by adding the "Id" column.{/t}
+** Assets can be overwritten by adding the "Id" column.
 
 
-{t}assigned{/t}
+** assigned
 
 
-{t}at least 20 characters{/t}
+** at least 20 characters
 
 
-{t}attach file{/t}
+** attach file
 
 
-{t}Attachment{/t}
+** Attachment
 
 
-{t}Attachments{/t}
+** Attachments
 
 
-{t}Attend{/t}
+** Attend
 
 
-{t}Aug{/t}
+** Aug
 
 
-{t}August{/t}
+** August
 
 
-{t}Authentication Mode{/t}
+** Authentication Mode
 
 
-{t}Author{/t}
+** Author
 
 
-{t}Automatically hide the menu{/t}
+** Automatically hide the menu
 
 
-{t}Automatically hide the tree{/t}
+** Automatically hide the tree
 
 
-{t}Average{/t}
+** Average
 
 
-{t}Average progress{/t}
+** Average progress
 
 
-{t}Avg length{/t}
+** Avg length
 
 
-{t}Back{/t}
+** Back
 
 
-{t}Backup{/t}
+** Backup
 
 
-{t}Backup current folder{/t}
+** Backup current folder
 
 
-{t}Backups{/t}
+** Backups
 
 
-{t}Basic editing{/t}
+** Basic editing
 
 
-{t}before{/t}
+** before
 
 
-{t}Before{/t}
+** Before
 
 
-{t}Begin{/t}
+** Begin
 
 
-{t}big{/t}
+** big
 
 
-{t}big text{/t}
+** big text
 
 
-{t}bigger{/t}
+** bigger
 
 
-{t}Billing address{/t}
+** Billing address
 
 
-{t}Birthday{/t}
+** Birthday
 
 
-{t}Birthdays{/t}
+** Birthdays
 
 
-{t}Blank{/t}
+** Blank
 
 
-{t}blue{/t}
+** blue
 
 
-{t}bold{/t}
+** bold
 
 
-{t}bold italic{/t}
+** bold italic
 
 
-{t}Book{/t}
+** Book
 
 
-{t}booked{/t}
+** booked
 
 
-{t}Booked{/t}
+** Booked
 
 
-{t}Booking number{/t}
+** Booking number
 
 
-{t}Bookings{/t}
+** Bookings
 
 
-{t}Bookmark{/t}
+** Bookmark
 
 
-{t}Bookmarks{/t}
+** Bookmarks
 
 
-{t}borrowed{/t}
+** borrowed
 
 
-{t}Brand{/t}
+** Brand
 
 
-{t}Brands{/t}
+** Brands
 
 
-{t}Browser Compatibility{/t}
+** Browser Compatibility
 
 
-{t}Browser not supported{/t}
+** Browser not supported
 
 
-{t}Budget{/t}
+** Budget
 
 
-{t}Bug{/t}
+** Bug
 
 
-{t}bulleted{/t}
+** bulleted
 
 
-{t}Business{/t}
+** Business
 
 
-{t}C a n c e l{/t}
+** C a n c e l
 
 
-{t}C O N T I N U E{/t}
+** C O N T I N U E
 
 
-{t}Cache output{/t}
+** Cache output
 
 
-{t}Caches{/t}
+** Caches
 
 
-{t}Calendar{/t}
+** Calendar
 
 
-{t}Cancel{/t}
+** Cancel
 
 
-{t}canceled{/t}
+** canceled
 
 
-{t}Canceled{/t}
+** Canceled
 
 
-{t}Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.{/t}
+** Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.
 
 
-{t}Cannot connect to database %s on %s.{/t}
+** Cannot connect to database %s on %s.
 
 
-{t}Cannot create preview for %s{/t}
+** Cannot create preview for %s
 
 
-{t}Cannot read the file %s.{/t}
+** Cannot read the file %s.
 
 
-{t}Cardinality{/t}
+** Cardinality
 
 
-{t}Categories{/t}
+** Categories
 
 
-{t}Category{/t}
+** Category
 
 
-{t}Cc{/t}
+** Cc
 
 
-{t}centered{/t}
+** centered
 
 
-{t}CEO{/t}
+** CEO
 
 
-{t}Change request{/t}
+** Change request
 
 
-{t}Change settings{/t}
+** Change settings
 
 
-{t}Change Setup settings{/t}
+** Change Setup settings
 
 
-{t}Change summary{/t}
+** Change summary
 
 
-{t}Changed{/t}
+** Changed
 
 
-{t}changed line{/t}
+** changed line
 
 
-{t}Changelog{/t}
+** Changelog
 
 
-{t}Chat{/t}
+** Chat
 
 
-{t}Check DoS Attacks{/t}
+** Check DoS Attacks
 
 
-{t}checked{/t}
+** checked
 
 
-{t}Checked{/t}
+** Checked
 
 
-{t}Choices{/t}
+** Choices
 
 
-{t}CIO{/t}
+** CIO
 
 
-{t}City{/t}
+** City
 
 
-{t}Clean{/t}
+** Clean
 
 
-{t}Clean Cache{/t}
+** Clean Cache
 
 
-{t}Clear{/t}
+** Clear
 
 
-{t}Clear Cache{/t}
+** Clear Cache
 
 
-{t}Clear Data{/t}
+** Clear Data
 
 
-{t}Clear grouping{/t}
+** Clear grouping
 
 
-{t}Client{/t}
+** Client
 
 
-{t}Close{/t}
+** Close
 
 
-{t}Close session{/t}
+** Close session
 
 
-{t}closed{/t}
+** closed
 
 
-{t}Closed{/t}
+** Closed
 
 
-{t}CMS{/t}
+** CMS
 
 
-{t}CMS homepage title{/t}
+** CMS homepage title
 
 
-{t}Collapse text{/t}
+** Collapse text
 
 
-{t}Collapse tree{/t}
+** Collapse tree
 
 
-{t}Color{/t}
+** Color
 
 
-{t}Column{/t}
+** Column
 
 
-{t}Column name{/t}
+** Column name
 
 
-{t}Combination{/t}
+** Combination
 
 
-{t}Comma{/t}
+** Comma
 
 
-{t}Comma separated values{/t}
+** Comma separated values
 
 
-{t}Command{/t}
+** Command
 
 
-{t}Comment{/t}
+** Comment
 
 
-{t}Comment files{/t}
+** Comment files
 
 
-{t}Companies{/t}
+** Companies
 
 
-{t}Company{/t}
+** Company
 
 
-{t}Competition{/t}
+** Competition
 
 
-{t}Competitor{/t}
+** Competitor
 
 
-{t}Complete{/t}
+** Complete
 
 
-{t}completed{/t}
+** completed
 
 
-{t}Completed{/t}
+** Completed
 
 
-{t}Component{/t}
+** Component
 
 
-{t}Compress output{/t}
+** Compress output
 
 
-{t}Confirm{/t}
+** Confirm
 
 
-{t}confirmed{/t}
+** confirmed
 
 
-{t}Connection error: %s [%s]{/t}
+** Connection error: %s [%s]
 
 
-{t}Connection to database failed.{/t}
+** Connection to database failed.
 
 
-{t}Console{/t}
+** Console
 
 
-{t}Console scripts{/t}
+** Console scripts
 
 
-{t}Consultant{/t}
+** Consultant
 
 
-{t}Contact{/t}
+** Contact
 
 
-{t}Contact activities{/t}
+** Contact activities
 
 
-{t}Contact activity{/t}
+** Contact activity
 
 
-{t}Contact by{/t}
+** Contact by
 
 
-{t}Contact groups{/t}
+** Contact groups
 
 
-{t}Contact id{/t}
+** Contact id
 
 
-{t}Contact person{/t}
+** Contact person
 
 
-{t}Contact user by{/t}
+** Contact user by
 
 
-{t}Contacts{/t}
+** Contacts
 
 
-{t}contains{/t}
+** contains
 
 
-{t}Content{/t}
+** Content
 
 
-{t}Continue{/t}
+** Continue
 
 
-{t}Contracts{/t}
+** Contracts
 
 
-{t}Copier{/t}
+** Copier
 
 
-{t}Copy{/t}
+** Copy
 
 
-{t}Cost center{/t}
+** Cost center
 
 
-{t}Costs of accommodation{/t}
+** Costs of accommodation
 
 
-{t}Could not determine database-version.{/t}
+** Could not determine database-version.
 
 
-{t}Country{/t}
+** Country
 
 
-{t}Create new{/t}
+** Create new
 
 
-{t}Create new folder{/t}
+** Create new folder
 
 
-{t}Created{/t}
+** Created
 
 
-{t}Creating database failed.{/t}
+** Creating database failed.
 
 
-{t}current path{/t}
+** current path
 
 
-{t}current time{/t}
+** current time
 
 
-{t}Curriculum vitae{/t}
+** Curriculum vitae
 
 
-{t}Custom schema{/t}
+** Custom schema
 
 
-{t}Customization rules\nfor modules based on sgsML{/t}
+** Customization rules\nfor modules based on sgsML
 
 
-{t}customizations{/t}
+** customizations
 
 
-{t}Customize{/t}
+** Customize
 
 
-{t}Cut{/t}
+** Cut
 
 
-{t}daily{/t}
+** daily
 
 
-{t}Data{/t}
+** Data
 
 
-{t}Data free{/t}
+** Data free
 
 
-{t}Data length{/t}
+** Data length
 
 
-{t}Database{/t}
+** Database
 
 
-{t}Database Hostname / IP{/t}
+** Database Hostname / IP
 
 
-{t}Database Name{/t}
+** Database Name
 
 
-{t}Database Password{/t}
+** Database Password
 
 
-{t}Database size{/t}
+** Database size
 
 
-{t}Database status{/t}
+** Database status
 
 
-{t}Database type{/t}
+** Database type
 
 
-{t}Database User{/t}
+** Database User
 
 
-{t}Database variables{/t}
+** Database variables
 
 
-{t}Date{/t}
+** Date
 
 
-{t}Day{/t}
+** Day
 
 
-{t}Day begin{/t}
+** Day begin
 
 
-{t}Day end{/t}
+** Day end
 
 
-{t}days{/t}
+** days
 
 
-{t}Deactivate{/t}
+** Deactivate
 
 
-{t}Deadline{/t}
+** Deadline
 
 
-{t}Debug{/t}
+** Debug
 
 
-{t}Debug-dir{/t}
+** Debug-dir
 
 
-{t}Dec{/t}
+** Dec
 
 
-{t}December{/t}
+** December
 
 
-{t}Declining balance{/t}
+** Declining balance
 
 
-{t}Default{/t}
+** Default
 
 
-{t}Default function{/t}
+** Default function
 
 
-{t}Default theme{/t}
+** Default theme
 
 
-{t}Default values for assets{/t}
+** Default values for assets
 
 
-{t}definition for definition lists{/t}
+** definition for definition lists
 
 
-{t}Degree{/t}
+** Degree
 
 
-{t}Delete{/t}
+** Delete
 
 
-{t}Delete incl subfolders{/t}
+** Delete incl subfolders
 
 
-{t}deleted{/t}
+** deleted
 
 
-{t}deleted line{/t}
+** deleted line
 
 
-{t}Delivery{/t}
+** Delivery
 
 
-{t}Demand{/t}
+** Demand
 
 
-{t}Demo{/t}
+** Demo
 
 
-{t}Demonstration folder{/t}
+** Demonstration folder
 
 
-{t}Department{/t}
+** Department
 
 
-{t}Departments{/t}
+** Departments
 
 
-{t}Dependancies{/t}
+** Dependancies
 
 
-{t}Description{/t}
+** Description
 
 
-{t}Description hint{/t}
+** Description hint
 
 
-{t}Description title{/t}
+** Description title
 
 
-{t}Description value{/t}
+** Description value
 
 
-{t}Desktop computer{/t}
+** Desktop computer
 
 
-{t}Details{/t}
+** Details
 
 
-{t}Device type{/t}
+** Device type
 
 
-{t}Device types{/t}
+** Device types
 
 
-{t}Diagram{/t}
+** Diagram
 
 
-{t}directory does not exist.{/t}
+** directory does not exist.
 
 
-{t}Directory is outside the allowed directory. (%s is outside %s){/t}
+** Directory is outside the allowed directory. (%s is outside %s)
 
 
-{t}disable{/t}
+** disable
 
 
-{t}Disable basic authentication{/t}
+** Disable basic authentication
 
 
-{t}Disable cut-copy-paste{/t}
+** Disable cut-copy-paste
 
 
-{t}Disabled{/t}
+** Disabled
 
 
-{t}Disabled modules{/t}
+** Disabled modules
 
 
-{t}Display{/t}
+** Display
 
 
-{t}display filter{/t}
+** display filter
 
 
-{t}Displayname{/t}
+** Displayname
 
 
-{t}displays{/t}
+** displays
 
 
-{t}Distributor{/t}
+** Distributor
 
 
-{t}Distributors{/t}
+** Distributors
 
 
-{t}divorced{/t}
+** divorced
 
 
-{t}Documentation{/t}
+** Documentation
 
 
-{t}Documentation index{/t}
+** Documentation index
 
 
-{t}Domain{/t}
+** Domain
 
 
-{t}Don't attend{/t}
+** Don't attend
 
 
-{t}Don't move old files to 'old/'{/t}
+** Don't move old files to 'old/'
 
 
-{t}Down{/t}
+** Down
 
 
-{t}Download{/t}
+** Download
 
 
-{t}Download example file{/t}
+** Download example file
 
 
-{t}Downloading extension list{/t}
+** Downloading extension list
 
 
-{t}Downloading update list{/t}
+** Downloading update list
 
 
-{t}Drag and drop files or URLs here.{/t}
+** Drag and drop files or URLs here.
 
 
-{t}duplicate{/t}
+** duplicate
 
 
-{t}Duration{/t}
+** Duration
 
 
-{t}E-mail{/t}
+** E-mail
 
 
-{t}E-mail private{/t}
+** E-mail private
 
 
-{t}E-mail program{/t}
+** E-mail program
 
 
-{t}e.g.{/t}
+** e.g.
 
 
-{t}Edit{/t}
+** Edit
 
 
-{t}Edit as new{/t}
+** Edit as new
 
 
-{t}Edit rights{/t}
+** Edit rights
 
 
-{t}Editable if hidden in all views{/t}
+** Editable if hidden in all views
 
 
-{t}Editor{/t}
+** Editor
 
 
-{t}Emphasis{/t}
+** Emphasis
 
 
-{t}Empty{/t}
+** Empty
 
 
-{t}Empty folder{/t}
+** Empty folder
 
 
-{t}en{/t}
+** en
 
 
-{t}Enable anonymous access{/t}
+** Enable anonymous access
 
 
-{t}Enable anonymous CMS{/t}
+** Enable anonymous CMS
 
 
-{t}Enable automatic user creation{/t}
+** Enable automatic user creation
 
 
-{t}Enable external mail client for 'mailto:' links{/t}
+** Enable external mail client for 'mailto:' links
 
 
-{t}Enable self registration{/t}
+** Enable self registration
 
 
-{t}Enable Sync4j / Funambol{/t}
+** Enable Sync4j / Funambol
 
 
-{t}Enable WebDAV{/t}
+** Enable WebDAV
 
 
-{t}End{/t}
+** End
 
 
-{t}engaged{/t}
+** engaged
 
 
-{t}equal{/t}
+** equal
 
 
-{t}Error{/t}
+** Error
 
 
-{t}Error doing request to xmlhttp{/t}
+** Error doing request to xmlhttp
 
 
-{t}Error moving file{/t}
+** Error moving file
 
 
-{t}Error pasting asset{/t}
+** Error pasting asset
 
 
-{t}Error: no credentials{/t}
+** Error: no credentials
 
 
-{t}Events{/t}
+** Events
 
 
-{t}Example{/t}
+** Example
 
 
-{t}Example contacts{/t}
+** Example contacts
 
 
-{t}Example surveys can be found at:{/t}
+** Example surveys can be found at:
 
 
-{t}Example without mountpoint{/t}
+** Example without mountpoint
 
 
-{t}Examples{/t}
+** Examples
 
 
-{t}Execute{/t}
+** Execute
 
 
-{t}Expenses{/t}
+** Expenses
 
 
-{t}Experimental{/t}
+** Experimental
 
 
-{t}Expires{/t}
+** Expires
 
 
-{t}Expiry{/t}
+** Expiry
 
 
-{t}Extended{/t}
+** Extended
 
 
-{t}Extensions{/t}
+** Extensions
 
 
-{t}Extracting files{/t}
+** Extracting files
 
 
-{t}F j{/t}
+** F j
 
 
-{t}F j, Y{/t}
+** F j, Y
 
 
-{t}Failed to create directory: %s{/t}
+** Failed to create directory: %s
 
 
-{t}Failed to write file to disk.{/t}
+** Failed to write file to disk.
 
 
-{t}Failed to write into %s{/t}
+** Failed to write into %s
 
 
-{t}Family status{/t}
+** Family status
 
 
-{t}FAQ{/t}
+** FAQ
 
 
-{t}Favorites{/t}
+** Favorites
 
 
-{t}Fax{/t}
+** Fax
 
 
-{t}Fax private{/t}
+** Fax private
 
 
-{t}Feature request{/t}
+** Feature request
 
 
-{t}Feb{/t}
+** Feb
 
 
-{t}February{/t}
+** February
 
 
-{t}Feed{/t}
+** Feed
 
 
-{t}female{/t}
+** female
 
 
-{t}Field{/t}
+** Field
 
 
-{t}Field contains value{/t}
+** Field contains value
 
 
-{t}Field customization{/t}
+** Field customization
 
 
-{t}Field is equal to value{/t}
+** Field is equal to value
 
 
-{t}Fields{/t}
+** Fields
 
 
-{t}File{/t}
+** File
 
 
-{t}file is too big. Please change upload_max_filesize, post_max_size in your php.ini{/t}
+** file is too big. Please change upload_max_filesize, post_max_size in your php.ini
 
 
-{t}file is too big. Please upload a smaller one.{/t}
+** file is too big. Please upload a smaller one.
 
 
-{t}file not found in database.{/t}
+** file not found in database.
 
 
-{t}file not found.{/t}
+** file not found.
 
 
-{t}file was uploaded partially.{/t}
+** file was uploaded partially.
 
 
-{t}Filename must have the right extension. Valid extensions are %s{/t}
+** Filename must have the right extension. Valid extensions are %s
 
 
-{t}Files{/t}
+** Files
 
 
-{t}Filesystem{/t}
+** Filesystem
 
 
-{t}Filter{/t}
+** Filter
 
 
-{t}Find assets in multiple folders{/t}
+** Find assets in multiple folders
 
 
-{t}Finish scheduled{/t}
+** Finish scheduled
 
 
-{t}Finished{/t}
+** Finished
 
 
-{t}First in list{/t}
+** First in list
 
 
-{t}first level support{/t}
+** first level support
 
 
-{t}First name{/t}
+** First name
 
 
-{t}Fix paging bar to page bottom{/t}
+** Fix paging bar to page bottom
 
 
-{t}fixed{/t}
+** fixed
 
 
-{t}Flags{/t}
+** Flags
 
 
-{t}Flash plugin not installed.{/t}
+** Flash plugin not installed.
 
 
-{t}Folder{/t}
+** Folder
 
 
-{t}Folder already exists.{/t}
+** Folder already exists.
 
 
-{t}Folder created.{/t}
+** Folder created.
 
 
-{t}Folder has changed.{/t}
+** Folder has changed.
 
 
-{t}Folder icon{/t}
+** Folder icon
 
 
-{t}Folder not found.{/t}
+** Folder not found.
 
 
-{t}Folder refresh period{/t}
+** Folder refresh period
 
 
-{t}Folder structure{/t}
+** Folder structure
 
 
-{t}Folder structure created.{/t}
+** Folder structure created.
 
 
-{t}Folder structure moved to trash.{/t}
+** Folder structure moved to trash.
 
 
-{t}Folder Type{/t}
+** Folder Type
 
 
-{t}Folder with ID %s{/t}
+** Folder with ID %s
 
 
-{t}Folders{/t}
+** Folders
 
 
-{t}for a new paragraph, use a blank line{/t}
+** for a new paragraph, use a blank line
 
 
-{t}Force SSL{/t}
+** Force SSL
 
 
-{t}Form{/t}
+** Form
 
 
-{t}Forum{/t}
+** Forum
 
 
-{t}Forward{/t}
+** Forward
 
 
-{t}Fr{/t}
+** Fr
 
 
-{t}Free/busy{/t}
+** Free/busy
 
 
-{t}Freelance{/t}
+** Freelance
 
 
-{t}Fri{/t}
+** Fri
 
 
-{t}Friday{/t}
+** Friday
 
 
-{t}From{/t}
+** From
 
 
-{t}Full screen{/t}
+** Full screen
 
 
-{t}Full texts{/t}
+** Full texts
 
 
-{t}Full time{/t}
+** Full time
 
 
-{t}Full width{/t}
+** Full width
 
 
-{t}Fulltext index{/t}
+** Fulltext index
 
 
-{t}Funambol only works with MySQL and PostgreSQL.{/t}
+** Funambol only works with MySQL and PostgreSQL.
 
 
-{t}Function does not exist: %s{/t}
+** Function does not exist: %s
 
 
-{t}g:i a{/t}
+** g:i a
 
 
-{t}Gender{/t}
+** Gender
 
 
-{t}General{/t}
+** General
 
 
-{t}Generate{/t}
+** Generate
 
 
-{t}Gifts{/t}
+** Gifts
 
 
-{t}Give Feedback{/t}
+** Give Feedback
 
 
-{t}GNU GPL Frequently Asked Questions{/t}
+** GNU GPL Frequently Asked Questions
 
 
-{t}greater than{/t}
+** greater than
 
 
-{t}green{/t}
+** green
 
 
-{t}Group{/t}
+** Group
 
 
-{t}Group created.{/t}
+** Group created.
 
 
-{t}Group deactivated.{/t}
+** Group deactivated.
 
 
-{t}Groupname{/t}
+** Groupname
 
 
-{t}Groups{/t}
+** Groups
 
 
-{t}hanging text{/t}
+** hanging text
 
 
-{t}Hardware{/t}
+** Hardware
 
 
-{t}Headers{/t}
+** Headers
 
 
-{t}heading{/t}
+** heading
 
 
-{t}headings{/t}
+** headings
 
 
-{t}Height{/t}
+** Height
 
 
-{t}Help{/t}
+** Help
 
 
-{t}Helpdesk{/t}
+** Helpdesk
 
 
-{t}Hidden in{/t}
+** Hidden in
 
 
-{t}Hidden in all views{/t}
+** Hidden in all views
 
 
-{t}Hide{/t}
+** Hide
 
 
-{t}hide in all views{/t}
+** hide in all views
 
 
-{t}hide in this view{/t}
+** hide in this view
 
 
-{t}History{/t}
+** History
 
 
-{t}Holiday{/t}
+** Holiday
 
 
-{t}Home{/t}
+** Home
 
 
-{t}Home folder id{/t}
+** Home folder id
 
 
-{t}Home page in the CMS{/t}
+** Home page in the CMS
 
 
-{t}Homepage{/t}
+** Homepage
 
 
-{t}horizontal line{/t}
+** horizontal line
 
 
-{t}Host{/t}
+** Host
 
 
-{t}Hosts{/t}
+** Hosts
 
 
-{t}Hour{/t}
+** Hour
 
 
-{t}hours{/t}
+** hours
 
 
-{t}Hours per week{/t}
+** Hours per week
 
 
-{t}HTML document{/t}
+** HTML document
 
 
-{t}HTML documents{/t}
+** HTML documents
 
 
-{t}http://www.pmwiki.org/PmWiki/{/t}
+** http://www.pmwiki.org/PmWiki/
 
 
-{t}Human resources{/t}
+** Human resources
 
 
-{t}I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2{/t}
+** I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2
 
 
-{t}I m p o r t{/t}
+** I m p o r t
 
 
-{t}I n s t a l l{/t}
+** I n s t a l l
 
 
-{t}Icon{/t}
+** Icon
 
 
-{t}Id{/t}
+** Id
 
 
-{t}Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
 
 
-{t}Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].
 
 
-{t}Ideas{/t}
+** Ideas
 
 
-{t}If empty, the SMTP connection from the module users will be used.{/t}
+** If empty, the SMTP connection from the module users will be used.
 
 
-{t}If file system permissions are ok, please check the configurations of %s if present.{/t}
+** If file system permissions are ok, please check the configurations of %s if present.
 
 
-{t}if not autodetected with namingContexts{/t}
+** if not autodetected with namingContexts
 
 
-{t}If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.{/t}
+** If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.
 
 
-{t}If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.{/t}
+** If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.
 
 
-{t}Illness{/t}
+** Illness
 
 
-{t}Im-/Export{/t}
+** Im-/Export
 
 
-{t}Image{/t}
+** Image
 
 
-{t}Images{/t}
+** Images
 
 
-{t}Imap-error: %s{/t}
+** Imap-error: %s
 
 
-{t}immediate{/t}
+** immediate
 
 
-{t}Import{/t}
+** Import
 
 
-{t}In progress{/t}
+** In progress
 
 
-{t}in repair{/t}
+** in repair
 
 
-{t}in stock{/t}
+** in stock
 
 
-{t}Inactive{/t}
+** Inactive
 
 
-{t}Include in RSS feed{/t}
+** Include in RSS feed
 
 
-{t}Include page{/t}
+** Include page
 
 
-{t}indent text{/t}
+** indent text
 
 
-{t}Index{/t}
+** Index
 
 
-{t}Index length{/t}
+** Index length
 
 
-{t}Index type{/t}
+** Index type
 
 
-{t}Indexes{/t}
+** Indexes
 
 
-{t}Industry{/t}
+** Industry
 
 
-{t}Info{/t}
+** Info
 
 
-{t}inheritance to subfolders without default values{/t}
+** inheritance to subfolders without default values
 
 
-{t}Input field{/t}
+** Input field
 
 
-{t}Input field height{/t}
+** Input field height
 
 
-{t}Insert{/t}
+** Insert
 
 
-{t}inserted{/t}
+** inserted
 
 
-{t}Install default folder structure{/t}
+** Install default folder structure
 
 
-{t}Install demo folders{/t}
+** Install demo folders
 
 
-{t}Install minimal folder structure{/t}
+** Install minimal folder structure
 
 
-{t}installed{/t}
+** installed
 
 
-{t}insufficient folder rights{/t}
+** insufficient folder rights
 
 
-{t}Internal recommendation{/t}
+** Internal recommendation
 
 
-{t}Intranet{/t}
+** Intranet
 
 
-{t}Intro{/t}
+** Intro
 
 
-{t}invalid{/t}
+** invalid
 
 
-{t}Invalid file extensions{/t}
+** Invalid file extensions
 
 
-{t}Invalid schema mode '%s'{/t}
+** Invalid schema mode '%s'
 
 
-{t}Invalid security token{/t}
+** Invalid security token
 
 
-{t}Inventory{/t}
+** Inventory
 
 
-{t}Inventory number{/t}
+** Inventory number
 
 
-{t}Investor{/t}
+** Investor
 
 
-{t}Invoice{/t}
+** Invoice
 
 
-{t}italic{/t}
+** italic
 
 
-{t}Item created by %s at %s{/t}
+** Item created by %s at %s
 
 
-{t}Item deleted by %s at %s{/t}
+** Item deleted by %s at %s
 
 
-{t}Item edited (%s) by %s at %s{/t}
+** Item edited (%s) by %s at %s
 
 
-{t}Item not found.{/t}
+** Item not found.
 
 
-{t}Item successfully created.{/t}
+** Item successfully created.
 
 
-{t}Item successfully updated.{/t}
+** Item successfully updated.
 
 
-{t}Item(s) not found or access denied.{/t}
+** Item(s) not found or access denied.
 
 
-{t}Jan{/t}
+** Jan
 
 
-{t}January{/t}
+** January
 
 
-{t}Job description{/t}
+** Job description
 
 
-{t}Join lines{/t}
+** Join lines
 
 
-{t}Jul{/t}
+** Jul
 
 
-{t}July{/t}
+** July
 
 
-{t}Jun{/t}
+** Jun
 
 
-{t}June{/t}
+** June
 
 
-{t}Key{/t}
+** Key
 
 
-{t}Key customer{/t}
+** Key customer
 
 
-{t}Key name{/t}
+** Key name
 
 
-{t}Keywords{/t}
+** Keywords
 
 
-{t}Knowledge base{/t}
+** Knowledge base
 
 
-{t}L o g i n{/t}
+** L o g i n
 
 
-{t}l, F j, Y{/t}
+** l, F j, Y
 
 
-{t}Last access{/t}
+** Last access
 
 
-{t}Last name{/t}
+** Last name
 
 
-{t}LDAP anonymous connection failed.{/t}
+** LDAP anonymous connection failed.
 
 
-{t}LDAP attribute for group memberships{/t}
+** LDAP attribute for group memberships
 
 
-{t}LDAP attribute for rooms{/t}
+** LDAP attribute for rooms
 
 
-{t}LDAP attribute for usernames{/t}
+** LDAP attribute for usernames
 
 
-{t}LDAP connection to host %s failed.{/t}
+** LDAP connection to host %s failed.
 
 
-{t}LDAP without anonymous access{/t}
+** LDAP without anonymous access
 
 
-{t}LDAP: no base DN given{/t}
+** LDAP: no base DN given
 
 
-{t}LDAP: no UID given{/t}
+** LDAP: no UID given
 
 
-{t}Leave of absence{/t}
+** Leave of absence
 
 
-{t}less promising{/t}
+** less promising
 
 
-{t}lesser than{/t}
+** lesser than
 
 
-{t}Letter{/t}
+** Letter
 
 
-{t}Level{/t}
+** Level
 
 
-{t}License{/t}
+** License
 
 
-{t}line{/t}
+** line
 
 
-{t}Line break{/t}
+** Line break
 
 
-{t}Link{/t}
+** Link
 
 
-{t}Link restricted{/t}
+** Link restricted
 
 
-{t}link text{/t}
+** link text
 
 
-{t}link to external page{/t}
+** link to external page
 
 
-{t}link to internal page{/t}
+** link to internal page
 
 
-{t}Links{/t}
+** Links
 
 
-{t}Lists{/t}
+** Lists
 
 
-{t}Load external images{/t}
+** Load external images
 
 
-{t}Location{/t}
+** Location
 
 
-{t}Locations{/t}
+** Locations
 
 
-{t}Lock{/t}
+** Lock
 
 
-{t}Locked by{/t}
+** Locked by
 
 
-{t}Locking{/t}
+** Locking
 
 
-{t}login %s from %s with %s{/t}
+** login %s from %s with %s
 
 
-{t}Login failed from %s.{/t}
+** Login failed from %s.
 
 
-{t}Login/-out{/t}
+** Login/-out
 
 
-{t}Logins{/t}
+** Logins
 
 
-{t}Logout{/t}
+** Logout
 
 
-{t}logout %s{/t}
+** logout %s
 
 
-{t}Lookup{/t}
+** Lookup
 
 
-{t}low{/t}
+** low
 
 
-{t}lowest{/t}
+** lowest
 
 
-{t}M j{/t}
+** M j
 
 
-{t}M j, g:i a{/t}
+** M j, g:i a
 
 
-{t}M j, Y{/t}
+** M j, Y
 
 
-{t}m/d/Y{/t}
+** m/d/Y
 
 
-{t}m/d/Y g:i a{/t}
+** m/d/Y g:i a
 
 
-{t}m/d/y g:i:s a{/t}
+** m/d/y g:i:s a
 
 
-{t}magenta{/t}
+** magenta
 
 
-{t}mail footer{/t}
+** mail footer
 
 
-{t}Mail identities{/t}
+** Mail identities
 
 
-{t}mail notification{/t}
+** mail notification
 
 
-{t}mail reminder{/t}
+** mail reminder
 
 
-{t}Main menu{/t}
+** Main menu
 
 
-{t}Main page{/t}
+** Main page
 
 
-{t}Maintenance mode{/t}
+** Maintenance mode
 
 
-{t}male{/t}
+** male
 
 
-{t}Man-days{/t}
+** Man-days
 
 
-{t}Man-days planned{/t}
+** Man-days planned
 
 
-{t}Manage offline folders{/t}
+** Manage offline folders
 
 
-{t}Manager{/t}
+** Manager
 
 
-{t}Manufacturer{/t}
+** Manufacturer
 
 
-{t}Mar{/t}
+** Mar
 
 
-{t}March{/t}
+** March
 
 
-{t}Marketing event{/t}
+** Marketing event
 
 
-{t}married{/t}
+** married
 
 
-{t}Maximize{/t}
+** Maximize
 
 
-{t}Maximum file size{/t}
+** Maximum file size
 
 
-{t}Maximum number of assets per page{/t}
+** Maximum number of assets per page
 
 
-{t}maximum number of files exceeded.{/t}
+** maximum number of files exceeded.
 
 
-{t}May{/t}
+** May
 
 
-{t}Media{/t}
+** Media
 
 
-{t}Meeting{/t}
+** Meeting
 
 
-{t}Members{/t}
+** Members
 
 
-{t}Memory limit{/t}
+** Memory limit
 
 
-{t}Merge folders permanently{/t}
+** Merge folders permanently
 
 
-{t}Merged folders{/t}
+** Merged folders
 
 
-{t}Message{/t}
+** Message
 
 
-{t}Messages{/t}
+** Messages
 
 
-{t}Milestone{/t}
+** Milestone
 
 
-{t}min{/t}
+** min
 
 
-{t}Minimize{/t}
+** Minimize
 
 
-{t}minimum = 15 secs, 0 = disabled{/t}
+** minimum = 15 secs, 0 = disabled
 
 
-{t}Miscellaneous{/t}
+** Miscellaneous
 
 
-{t}missing a temporary folder.{/t}
+** missing a temporary folder.
 
 
-{t}missing field{/t}
+** missing field
 
 
-{t}missing right: %s{/t}
+** missing right: %s
 
 
-{t}Mo{/t}
+** Mo
 
 
-{t}Mobile{/t}
+** Mobile
 
 
-{t}Model{/t}
+** Model
 
 
-{t}Modified{/t}
+** Modified
 
 
-{t}Modified by{/t}
+** Modified by
 
 
-{t}Modifying database failed.{/t}
+** Modifying database failed.
 
 
-{t}Module{/t}
+** Module
 
 
-{t}Module disabled.{/t}
+** Module disabled.
 
 
-{t}Modules{/t}
+** Modules
 
 
-{t}Mon{/t}
+** Mon
 
 
-{t}Monday{/t}
+** Monday
 
 
-{t}monospace{/t}
+** monospace
 
 
-{t}Month{/t}
+** Month
 
 
-{t}monthly{/t}
+** monthly
 
 
-{t}months{/t}
+** months
 
 
-{t}More information about the GNU GPL{/t}
+** More information about the GNU GPL
 
 
-{t}Mountpoint{/t}
+** Mountpoint
 
 
-{t}Move{/t}
+** Move
 
 
-{t}Move to subfolder 'Archive'{/t}
+** Move to subfolder 'Archive'
 
 
-{t}Multiple{/t}
+** Multiple
 
 
-{t}Multiple choice{/t}
+** Multiple choice
 
 
-{t}My appointments{/t}
+** My appointments
 
 
-{t}My tasks{/t}
+** My tasks
 
 
-{t}Name{/t}
+** Name
 
 
-{t}Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
 
 
-{t}Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].{/t}
+** Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].
 
 
-{t}need feedback{/t}
+** need feedback
 
 
-{t}Network{/t}
+** Network
 
 
-{t}Never expires{/t}
+** Never expires
 
 
-{t}New{/t}
+** New
 
 
-{t}New folder{/t}
+** New folder
 
 
-{t}News{/t}
+** News
 
 
-{t}Next recurrences{/t}
+** Next recurrences
 
 
-{t}Nickname{/t}
+** Nickname
 
 
-{t}Nightwork{/t}
+** Nightwork
 
 
-{t}no{/t}
+** no
 
 
-{t}No dataset selected.{/t}
+** No dataset selected.
 
 
-{t}No entries found.{/t}
+** No entries found.
 
 
-{t}No file was uploaded{/t}
+** No file was uploaded
 
 
-{t}No line breaks{/t}
+** No line breaks
 
 
-{t}no result{/t}
+** no result
 
 
-{t}No search index{/t}
+** No search index
 
 
-{t}No sender specified.{/t}
+** No sender specified.
 
 
-{t}no username submitted{/t}
+** no username submitted
 
 
-{t}No username/password.{/t}
+** No username/password.
 
 
-{t}No wrap{/t}
+** No wrap
 
 
-{t}Non unique{/t}
+** Non unique
 
 
-{t}none{/t}
+** none
 
 
-{t}normal{/t}
+** normal
 
 
-{t}Not allowed. Please log in as super administrator.{/t}
+** Not allowed. Please log in as super administrator.
 
 
-{t}not contains{/t}
+** not contains
 
 
-{t}not equal{/t}
+** not equal
 
 
-{t}Not in{/t}
+** Not in
 
 
-{t}Not in database{/t}
+** Not in database
 
 
-{t}not installed{/t}
+** not installed
 
 
-{t}Note{/t}
+** Note
 
 
-{t}Notebook{/t}
+** Notebook
 
 
-{t}Notes{/t}
+** Notes
 
 
-{t}Notificaiton sent to: %s{/t}
+** Notificaiton sent to: %s
 
 
-{t}Notification{/t}
+** Notification
 
 
-{t}Notification summary{/t}
+** Notification summary
 
 
-{t}Notifications{/t}
+** Notifications
 
 
-{t}Nov{/t}
+** Nov
 
 
-{t}November{/t}
+** November
 
 
-{t}Null{/t}
+** Null
 
 
-{t}Number of employees{/t}
+** Number of employees
 
 
-{t}numbered{/t}
+** numbered
 
 
-{t}Objectives{/t}
+** Objectives
 
 
-{t}Oct{/t}
+** Oct
 
 
-{t}October{/t}
+** October
 
 
-{t}of {0}{/t}
+** of {0}
 
 
-{t}offer{/t}
+** offer
 
 
-{t}Offer{/t}
+** Offer
 
 
-{t}Office{/t}
+** Office
 
 
-{t}Office program{/t}
+** Office program
 
 
-{t}Offices{/t}
+** Offices
 
 
-{t}offline{/t}
+** offline
 
 
-{t}Offline folders{/t}
+** Offline folders
 
 
-{t}Offline reading{/t}
+** Offline reading
 
 
-{t}Ok{/t}
+** Ok
 
 
-{t}one of{/t}
+** one of
 
 
-{t}online{/t}
+** online
 
 
-{t}Only for this folder{/t}
+** Only for this folder
 
 
-{t}Only in{/t}
+** Only in
 
 
-{t}open{/t}
+** open
 
 
-{t}Open{/t}
+** Open
 
 
-{t}Operating system{/t}
+** Operating system
 
 
-{t}Operation not allowed. (Data loss protection){/t}
+** Operation not allowed. (Data loss protection)
 
 
-{t}Optimize Tables{/t}
+** Optimize Tables
 
 
-{t}Options{/t}
+** Options
 
 
-{t}or{/t}
+** or
 
 
-{t}or higher{/t}
+** or higher
 
 
-{t}orange{/t}
+** orange
 
 
-{t}Order size{/t}
+** Order size
 
 
-{t}Organisation{/t}
+** Organisation
 
 
-{t}Organizer{/t}
+** Organizer
 
 
-{t}Origin{/t}
+** Origin
 
 
-{t}Original message{/t}
+** Original message
 
 
-{t}Other{/t}
+** Other
 
 
-{t}out of office{/t}
+** out of office
 
 
-{t}Outline image{/t}
+** Outline image
 
 
-{t}Output{/t}
+** Output
 
 
-{t}Output empty: %s{/t}
+** Output empty: %s
 
 
-{t}overlap{/t}
+** overlap
 
 
-{t}Overtime{/t}
+** Overtime
 
 
-{t}Overtime compensation per hour{/t}
+** Overtime compensation per hour
 
 
-{t}Owner{/t}
+** Owner
 
 
-{t}Owner since{/t}
+** Owner since
 
 
-{t}Package from local file system (.tar.gz){/t}
+** Package from local file system (.tar.gz)
 
 
-{t}Packed{/t}
+** Packed
 
 
-{t}Page{/t}
+** Page
 
 
-{t}Page last modified on{/t}
+** Page last modified on
 
 
-{t}Page name (URL){/t}
+** Page name (URL)
 
 
-{t}Page not found{/t}
+** Page not found
 
 
-{t}Page title{/t}
+** Page title
 
 
-{t}Pager{/t}
+** Pager
 
 
-{t}Paid{/t}
+** Paid
 
 
-{t}Paid holidays{/t}
+** Paid holidays
 
 
-{t}Paragraphs{/t}
+** Paragraphs
 
 
-{t}parameters{/t}
+** parameters
 
 
-{t}Parameters{/t}
+** Parameters
 
 
-{t}Parent folder{/t}
+** Parent folder
 
 
-{t}Parsing{/t}
+** Parsing
 
 
-{t}Part time{/t}
+** Part time
 
 
-{t}Participants{/t}
+** Participants
 
 
-{t}Participants (external){/t}
+** Participants (external)
 
 
-{t}Participants (internal){/t}
+** Participants (internal)
 
 
-{t}Password{/t}
+** Password
 
 
-{t}Password expired. (password of %s has expired){/t}
+** Password expired. (password of %s has expired)
 
 
-{t}Password expires{/t}
+** Password expires
 
 
-{t}Password must be not null, min 5 characters.{/t}
+** Password must be not null, min 5 characters.
 
 
-{t}password not confirmed.{/t}
+** password not confirmed.
 
 
-{t}Passwords{/t}
+** Passwords
 
 
-{t}Paste{/t}
+** Paste
 
 
-{t}Path{/t}
+** Path
 
 
-{t}Pause{/t}
+** Pause
 
 
-{t}Payroll{/t}
+** Payroll
 
 
-{t}Permissions{/t}
+** Permissions
 
 
-{t}Permissions added for: %s{/t}
+** Permissions added for: %s
 
 
-{t}Personal{/t}
+** Personal
 
 
-{t}Personal department{/t}
+** Personal department
 
 
-{t}Personal folders{/t}
+** Personal folders
 
 
-{t}Personal projects{/t}
+** Personal projects
 
 
-{t}Phone{/t}
+** Phone
 
 
-{t}Phone calls{/t}
+** Phone calls
 
 
-{t}Phone private{/t}
+** Phone private
 
 
-{t}Photo{/t}
+** Photo
 
 
-{t}Photo gallery{/t}
+** Photo gallery
 
 
-{t}Planned{/t}
+** Planned
 
 
-{t}Please activate cookies.{/t}
+** Please activate cookies.
 
 
-{t}Please choose Apache as Web-Server.{/t}
+** Please choose Apache as Web-Server.
 
 
-{t}Please enable Javascript in your browser.{/t}
+** Please enable Javascript in your browser.
 
 
-{t}Please enter a valid url.{/t}
+** Please enter a valid url.
 
 
-{t}Please give read access to %s{/t}
+** Please give read access to %s
 
 
-{t}Please give write access to %s{/t}
+** Please give write access to %s
 
 
-{t}Please give write access to %s and %s{/t}
+** Please give write access to %s and %s
 
 
-{t}Please hit reload.{/t}
+** Please hit reload.
 
 
-{t}Please input a valid e-mail adress.{/t}
+** Please input a valid e-mail adress.
 
 
-{t}Please install 'tsearch2' for the PostgreSQL database.{/t}
+** Please install 'tsearch2' for the PostgreSQL database.
 
 
-{t}Please install the php-extension with name '%s'.{/t}
+** Please install the php-extension with name '%s'.
 
 
-{t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}
+** Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !
 
 
-{t}Please read the following license agreement. Use the scroll bar to view the rest of this agreement.{/t}
+** Please read the following license agreement. Use the scroll bar to view the rest of this agreement.
 
 
-{t}Please select a location.{/t}
+** Please select a location.
 
 
-{t}Please select a participant.{/t}
+** Please select a participant.
 
 
-{t}Please upload again.{/t}
+** Please upload again.
 
 
-{t}Please wait ...{/t}
+** Please wait ...
 
 
-{t}Pop3-error: %s{/t}
+** Pop3-error: %s
 
 
-{t}Port{/t}
+** Port
 
 
-{t}Portal{/t}
+** Portal
 
 
-{t}Position{/t}
+** Position
 
 
-{t}Positions{/t}
+** Positions
 
 
-{t}Post{/t}
+** Post
 
 
-{t}Practical training{/t}
+** Practical training
 
 
-{t}Preformatted block{/t}
+** Preformatted block
 
 
-{t}Prepend new field as{/t}
+** Prepend new field as
 
 
-{t}Prevent formatting{/t}
+** Prevent formatting
 
 
-{t}Preview{/t}
+** Preview
 
 
-{t}Price{/t}
+** Price
 
 
-{t}Primary key{/t}
+** Primary key
 
 
-{t}Print{/t}
+** Print
 
 
-{t}Print all{/t}
+** Print all
 
 
-{t}Printer{/t}
+** Printer
 
 
-{t}Priority{/t}
+** Priority
 
 
-{t}Problem{/t}
+** Problem
 
 
-{t}Processes{/t}
+** Processes
 
 
-{t}Processing %s ...{/t}
+** Processing %s ...
 
 
-{t}Program is installed with language %s, please use a different url or run the setup again.{/t}
+** Program is installed with language %s, please use a different url or run the setup again.
 
 
-{t}Progress{/t}
+** Progress
 
 
-{t}Project{/t}
+** Project
 
 
-{t}Project files{/t}
+** Project files
 
 
-{t}Project tasks{/t}
+** Project tasks
 
 
-{t}Projects{/t}
+** Projects
 
 
-{t}promising{/t}
+** promising
 
 
-{t}Properties{/t}
+** Properties
 
 
-{t}Prospective client{/t}
+** Prospective client
 
 
-{t}Public holiday{/t}
+** Public holiday
 
 
-{t}Purchased{/t}
+** Purchased
 
 
-{t}Question{/t}
+** Question
 
 
-{t}Queue{/t}
+** Queue
 
 
-{t}Quick add{/t}
+** Quick add
 
 
-{t}Quota{/t}
+** Quota
 
 
-{t}Quota (remaining){/t}
+** Quota (remaining)
 
 
-{t}Quota [MB]{/t}
+** Quota [MB]
 
 
-{t}Quota limitation exceeded: %s{/t}
+** Quota limitation exceeded: %s
 
 
-{t}R e g i s t e r{/t}
+** R e g i s t e r
 
 
-{t}Rating{/t}
+** Rating
 
 
-{t}Read{/t}
+** Read
 
 
-{t}read access{/t}
+** read access
 
 
-{t}Read access (groups){/t}
+** Read access (groups)
 
 
-{t}Read access (users){/t}
+** Read access (users)
 
 
-{t}Read only in{/t}
+** Read only in
 
 
-{t}Read this page offline:{/t}
+** Read this page offline:
 
 
-{t}ready for repair{/t}
+** ready for repair
 
 
-{t}ready for scrap{/t}
+** ready for scrap
 
 
-{t}Real URL format in the CMS{/t}
+** Real URL format in the CMS
 
 
-{t}Really apply rights to subfolders ?{/t}
+** Really apply rights to subfolders ?
 
 
-{t}Really apply the changes ?{/t}
+** Really apply the changes ?
 
 
-{t}Really delete ?{/t}
+** Really delete ?
 
 
-{t}REALLY delete ALL datasets ?{/t}
+** REALLY delete ALL datasets ?
 
 
-{t}Really delete ALL subfolders ?{/t}
+** Really delete ALL subfolders ?
 
 
-{t}Really delete the dataset(s) ?{/t}
+** Really delete the dataset(s) ?
 
 
-{t}Really empty the folder ?{/t}
+** Really empty the folder ?
 
 
-{t}Really overwrite existing dataset(s) ?{/t}
+** Really overwrite existing dataset(s) ?
 
 
-{t}Really run setup again ?{/t}
+** Really run setup again ?
 
 
-{t}Really uninstall the module ?{/t}
+** Really uninstall the module ?
 
 
-{t}Rebuild search index{/t}
+** Rebuild search index
 
 
-{t}Recent changes{/t}
+** Recent changes
 
 
-{t}Recipients{/t}
+** Recipients
 
 
-{t}Recommendation of affiliate{/t}
+** Recommendation of affiliate
 
 
-{t}Recurrence{/t}
+** Recurrence
 
 
-{t}Recurrences{/t}
+** Recurrences
 
 
-{t}red{/t}
+** red
 
 
-{t}Redirect to home directory{/t}
+** Redirect to home directory
 
 
-{t}Reference{/t}
+** Reference
 
 
-{t}Refresh{/t}
+** Refresh
 
 
-{t}Refresh every x seconds{/t}
+** Refresh every x seconds
 
 
-{t}Regular{/t}
+** Regular
 
 
-{t}Reject{/t}
+** Reject
 
 
-{t}rejected{/t}
+** rejected
 
 
-{t}Relative formats{/t}
+** Relative formats
 
 
-{t}Relaunch Setup{/t}
+** Relaunch Setup
 
 
-{t}Relevance{/t}
+** Relevance
 
 
-{t}Reminder{/t}
+** Reminder
 
 
-{t}rename{/t}
+** rename
 
 
-{t}Rename folder{/t}
+** Rename folder
 
 
-{t}Repeat count{/t}
+** Repeat count
 
 
-{t}Repeat exclusions{/t}
+** Repeat exclusions
 
 
-{t}Repeat interval{/t}
+** Repeat interval
 
 
-{t}Repeat until{/t}
+** Repeat until
 
 
-{t}Reply{/t}
+** Reply
 
 
-{t}Reply all{/t}
+** Reply all
 
 
-{t}Require admin access to set mountpoints{/t}
+** Require admin access to set mountpoints
 
 
-{t}Required{/t}
+** Required
 
 
-{t}Required fields{/t}
+** Required fields
 
 
-{t}Reseller{/t}
+** Reseller
 
 
-{t}reserved{/t}
+** reserved
 
 
-{t}Reset view{/t}
+** Reset view
 
 
-{t}Resource{/t}
+** Resource
 
 
-{t}Resources{/t}
+** Resources
 
 
-{t}Responsible{/t}
+** Responsible
 
 
-{t}Responsible (external){/t}
+** Responsible (external)
 
 
-{t}Responsible (internal){/t}
+** Responsible (internal)
 
 
-{t}Restore complete{/t}
+** Restore complete
 
 
-{t}Restore here{/t}
+** Restore here
 
 
-{t}Restore only missing{/t}
+** Restore only missing
 
 
-{t}Restore only newer{/t}
+** Restore only newer
 
 
-{t}Restore to origin{/t}
+** Restore to origin
 
 
-{t}Return receipt{/t}
+** Return receipt
 
 
-{t}right-aligned{/t}
+** right-aligned
 
 
-{t}Rights{/t}
+** Rights
 
 
-{t}Risks{/t}
+** Risks
 
 
-{t}Room name{/t}
+** Room name
 
 
-{t}Room number{/t}
+** Room number
 
 
-{t}Rooms{/t}
+** Rooms
 
 
-{t}Rows{/t}
+** Rows
 
 
-{t}Run Setup again{/t}
+** Run Setup again
 
 
-{t}S a v e{/t}
+** S a v e
 
 
-{t}S a v e  a n d  E d i t{/t}
+** S a v e  a n d  E d i t
 
 
-{t}S a v e  a n d  g o  b a c k{/t}
+** S a v e  a n d  g o  b a c k
 
 
-{t}Sa{/t}
+** Sa
 
 
-{t}Salary{/t}
+** Salary
 
 
-{t}Salary per{/t}
+** Salary per
 
 
-{t}Sales promotion{/t}
+** Sales promotion
 
 
-{t}Sat{/t}
+** Sat
 
 
-{t}Saturday{/t}
+** Saturday
 
 
-{t}Scheduling{/t}
+** Scheduling
 
 
-{t}Schema{/t}
+** Schema
 
 
-{t}Schema data{/t}
+** Schema data
 
 
-{t}Schemafile not found. (%s){/t}
+** Schemafile not found. (%s)
 
 
-{t}School{/t}
+** School
 
 
-{t}scrapped{/t}
+** scrapped
 
 
-{t}Search{/t}
+** Search
 
 
-{t}Search by ID{/t}
+** Search by ID
 
 
-{t}second level support{/t}
+** second level support
 
 
-{t}Second manager{/t}
+** Second manager
 
 
-{t}seconds{/t}
+** seconds
 
 
-{t}Secretary{/t}
+** Secretary
 
 
-{t}Self registration{/t}
+** Self registration
 
 
-{t}Self registration needs confirmation by an administrator.{/t}
+** Self registration needs confirmation by an administrator.
 
 
-{t}Send now{/t}
+** Send now
 
 
-{t}Sent{/t}
+** Sent
 
 
-{t}Sent reminders{/t}
+** Sent reminders
 
 
-{t}Sep{/t}
+** Sep
 
 
-{t}Separate fields{/t}
+** Separate fields
 
 
-{t}Separate values{/t}
+** Separate values
 
 
-{t}Separator{/t}
+** Separator
 
 
-{t}Separators{/t}
+** Separators
 
 
-{t}September{/t}
+** September
 
 
-{t}Serial number{/t}
+** Serial number
 
 
-{t}Server{/t}
+** Server
 
 
-{t}Server does not support sorting{/t}
+** Server does not support sorting
 
 
-{t}Server-IP{/t}
+** Server-IP
 
 
-{t}Service provider{/t}
+** Service provider
 
 
-{t}Session name in cookie{/t}
+** Session name in cookie
 
 
-{t}Session timeout{/t}
+** Session timeout
 
 
-{t}Sessions{/t}
+** Sessions
 
 
-{t}Settings{/t}
+** Settings
 
 
-{t}Setup{/t}
+** Setup
 
 
-{t}Setup needs a database-php-extension ! (%s){/t}
+** Setup needs a database-php-extension ! (%s)
 
 
-{t}Setup needs php with at least version %s !{/t}
+** Setup needs php with at least version %s !
 
 
-{t}Setup needs php-extension with name %s !{/t}
+** Setup needs php-extension with name %s !
 
 
-{t}Setup needs Simple Groupware with at least version %s !{/t}
+** Setup needs Simple Groupware with at least version %s !
 
 
-{t}Setup: setup-data written to %s.{/t}
+** Setup: setup-data written to %s.
 
 
-{t}Shapes{/t}
+** Shapes
 
 
-{t}Share{/t}
+** Share
 
 
-{t}Shared{/t}
+** Shared
 
 
-{t}Short links{/t}
+** Short links
 
 
-{t}Show{/t}
+** Show
 
 
-{t}Show all rules{/t}
+** Show all rules
 
 
-{t}Show archive{/t}
+** Show archive
 
 
-{t}Show details{/t}
+** Show details
 
 
-{t}Show folder description in content area{/t}
+** Show folder description in content area
 
 
-{t}Show password{/t}
+** Show password
 
 
-{t}Show quoted text{/t}
+** Show quoted text
 
 
-{t}Similar{/t}
+** Similar
 
 
-{t}Simple tables{/t}
+** Simple tables
 
 
-{t}single{/t}
+** single
 
 
-{t}Single choice{/t}
+** Single choice
 
 
-{t}Size{/t}
+** Size
 
 
-{t}Size (children){/t}
+** Size (children)
 
 
-{t}Slow{/t}
+** Slow
 
 
-{t}small{/t}
+** small
 
 
-{t}small text{/t}
+** small text
 
 
-{t}smaller{/t}
+** smaller
 
 
-{t}SMTP not configured for %s{/t}
+** SMTP not configured for %s
 
 
-{t}Smtp-error %s: %s{/t}
+** Smtp-error %s: %s
 
 
-{t}Software{/t}
+** Software
 
 
-{t}Solution{/t}
+** Solution
 
 
-{t}Solution type{/t}
+** Solution type
 
 
-{t}some text{/t}
+** some text
 
 
-{t}Source{/t}
+** Source
 
 
-{t}Source code{/t}
+** Source code
 
 
-{t}Special leave{/t}
+** Special leave
 
 
-{t}Specification{/t}
+** Specification
 
 
-{t}Spreadsheet{/t}
+** Spreadsheet
 
 
-{t}SQL failed.{/t}
+** SQL failed.
 
 
-{t}SQL FAILED: %s{/t}
+** SQL FAILED: %s
 
 
-{t}Start scheduled{/t}
+** Start scheduled
 
 
-{t}Started{/t}
+** Started
 
 
-{t}starts with{/t}
+** starts with
 
 
-{t}State{/t}
+** State
 
 
-{t}Static cache{/t}
+** Static cache
 
 
-{t}Statistics{/t}
+** Statistics
 
 
-{t}Status{/t}
+** Status
 
 
-{t}Statuses{/t}
+** Statuses
 
 
-{t}Strategies{/t}
+** Strategies
 
 
-{t}Street{/t}
+** Street
 
 
-{t}Structure{/t}
+** Structure
 
 
-{t}Su{/t}
+** Su
 
 
-{t}Subfolder{/t}
+** Subfolder
 
 
-{t}Subfolders{/t}
+** Subfolders
 
 
-{t}subheading{/t}
+** subheading
 
 
-{t}Subitem{/t}
+** Subitem
 
 
-{t}Subject{/t}
+** Subject
 
 
-{t}Subjects{/t}
+** Subjects
 
 
-{t}Submit a patch{/t}
+** Submit a patch
 
 
-{t}Subpages{/t}
+** Subpages
 
 
-{t}subscript{/t}
+** subscript
 
 
-{t}Subsistence costs{/t}
+** Subsistence costs
 
 
-{t}Sum{/t}
+** Sum
 
 
-{t}Summary{/t}
+** Summary
 
 
-{t}Sun{/t}
+** Sun
 
 
-{t}Sunday{/t}
+** Sunday
 
 
-{t}Superior{/t}
+** Superior
 
 
-{t}superscript{/t}
+** superscript
 
 
-{t}Supplier{/t}
+** Supplier
 
 
-{t}Suppliers{/t}
+** Suppliers
 
 
-{t}Support{/t}
+** Support
 
 
-{t}Support request{/t}
+** Support request
 
 
-{t}Surveys{/t}
+** Surveys
 
 
-{t}Suspended{/t}
+** Suspended
 
 
-{t}Switch maintenance mode{/t}
+** Switch maintenance mode
 
 
-{t}Sync4j remote delete items{/t}
+** Sync4j remote delete items
 
 
-{t}Syntax{/t}
+** Syntax
 
 
-{t}System{/t}
+** System
 
 
-{t}System command executed: %s{/t}
+** System command executed: %s
 
 
-{t}Tab{/t}
+** Tab
 
 
-{t}Table{/t}
+** Table
 
 
-{t}Table sizes{/t}
+** Table sizes
 
 
-{t}Table status{/t}
+** Table status
 
 
-{t}Tables{/t}
+** Tables
 
 
-{t}Take over{/t}
+** Take over
 
 
-{t}Take selection{/t}
+** Take selection
 
 
-{t}Task{/t}
+** Task
 
 
-{t}Task with ID %s{/t}
+** Task with ID %s
 
 
-{t}Tasks{/t}
+** Tasks
 
 
-{t}Tasks with responsible %s{/t}
+** Tasks with responsible %s
 
 
-{t}Template{/t}
+** Template
 
 
-{t}Templates{/t}
+** Templates
 
 
-{t}Temporary work{/t}
+** Temporary work
 
 
-{t}term{/t}
+** term
 
 
-{t}Text area{/t}
+** Text area
 
 
-{t}Text Document{/t}
+** Text Document
 
 
-{t}Text formatting rules{/t}
+** Text formatting rules
 
 
-{t}Th{/t}
+** Th
 
 
-{t}Thanks for voting!{/t}
+** Thanks for voting!
 
 
-{t}The folder cannot be copied.{/t}
+** The folder cannot be copied.
 
 
-{t}The folder cannot be deleted.{/t}
+** The folder cannot be deleted.
 
 
-{t}The folder cannot be moved.{/t}
+** The folder cannot be moved.
 
 
-{t}The new password is{/t}
+** The new password is
 
 
-{t}The url doesn't exist.{/t}
+** The url doesn't exist.
 
 
-{t}Theme{/t}
+** Theme
 
 
-{t}third level support{/t}
+** third level support
 
 
-{t}this file extension is not allowed{/t}
+** this file extension is not allowed
 
 
-{t}Thu{/t}
+** Thu
 
 
-{t}Thursday{/t}
+** Thursday
 
 
-{t}Time and expenses{/t}
+** Time and expenses
 
 
-{t}Time limit{/t}
+** Time limit
 
 
-{t}Time sheets{/t}
+** Time sheets
 
 
-{t}Time zone{/t}
+** Time zone
 
 
-{t}timeout{/t}
+** timeout
 
 
-{t}Title{/t}
+** Title
 
 
-{t}To{/t}
+** To
 
 
-{t}to be checked{/t}
+** to be checked
 
 
-{t}To continue installing Simple Groupware you must check the box under the license{/t}
+** To continue installing Simple Groupware you must check the box under the license
 
 
-{t}Today{/t}
+** Today
 
 
-{t}Too many wrong logins. Please wait 15 minutes.{/t}
+** Too many wrong logins. Please wait 15 minutes.
 
 
-{t}Total{/t}
+** Total
 
 
-{t}Trace{/t}
+** Trace
 
 
-{t}Trade fair{/t}
+** Trade fair
 
 
-{t}translations{/t}
+** translations
 
 
-{t}Translations of the GNU GPL{/t}
+** Translations of the GNU GPL
 
 
-{t}Transportation costs{/t}
+** Transportation costs
 
 
-{t}Trash{/t}
+** Trash
 
 
-{t}Trash folder not found.{/t}
+** Trash folder not found.
 
 
-{t}Tree{/t}
+** Tree
 
 
-{t}Trigger failed{/t}
+** Trigger failed
 
 
-{t}Tu{/t}
+** Tu
 
 
-{t}Tue{/t}
+** Tue
 
 
-{t}Tuesday{/t}
+** Tuesday
 
 
-{t}Type{/t}
+** Type
 
 
-{t}U n i n s t a l l{/t}
+** U n i n s t a l l
 
 
-{t}unable to find %s{/t}
+** unable to find %s
 
 
-{t}Unable to write to %s{/t}
+** Unable to write to %s
 
 
-{t}unconfirmed{/t}
+** unconfirmed
 
 
-{t}Unconfirmed{/t}
+** Unconfirmed
 
 
-{t}underline{/t}
+** underline
 
 
-{t}Uninstall does not delete any data in the database.{/t}
+** Uninstall does not delete any data in the database.
 
 
-{t}uninterested{/t}
+** uninterested
 
 
-{t}Unique{/t}
+** Unique
 
 
-{t}Unique with trash{/t}
+** Unique with trash
 
 
-{t}Unlock{/t}
+** Unlock
 
 
-{t}Up{/t}
+** Up
 
 
-{t}Update{/t}
+** Update
 
 
-{t}Update Simple Groupware{/t}
+** Update Simple Groupware
 
 
-{t}Updated{/t}
+** Updated
 
 
-{t}Updating schema %s from %s.{/t}
+** Updating schema %s from %s.
 
 
-{t}Upload failed{/t}
+** Upload failed
 
 
-{t}Uploaded files{/t}
+** Uploaded files
 
 
-{t}Uploading{/t}
+** Uploading
 
 
-{t}urgent{/t}
+** urgent
 
 
-{t}URL{/t}
+** URL
 
 
-{t}Usage{/t}
+** Usage
 
 
-{t}USD{/t}
+** USD
 
 
-{t}Use APC for session storage{/t}
+** Use APC for session storage
 
 
-{t}Use Debian binaries (Warning: not latest versions){/t}
+** Use Debian binaries (Warning: not latest versions)
 
 
-{t}Use LDAP Groups{/t}
+** Use LDAP Groups
 
 
-{t}use mirror from{/t}
+** use mirror from
 
 
-{t}Use syslog() function for logging events{/t}
+** Use syslog() function for logging events
 
 
-{t}Use the mail() function for sending mails (insecure){/t}
+** Use the mail() function for sending mails (insecure)
 
 
-{t}User{/t}
+** User
 
 
-{t}User not found.{/t}
+** User not found.
 
 
-{t}Username{/t}
+** Username
 
 
-{t}Username must be different from the super administrator.{/t}
+** Username must be different from the super administrator.
 
 
-{t}Users{/t}
+** Users
 
 
-{t}V a l i d a t e{/t}
+** V a l i d a t e
 
 
-{t}V o t e !{/t}
+** V o t e !
 
 
-{t}Vacation{/t}
+** Vacation
 
 
-{t}Vacation days per year{/t}
+** Vacation days per year
 
 
-{t}Validating %s ...{/t}
+** Validating %s ...
 
 
-{t}validation failed{/t}
+** validation failed
 
 
-{t}Value{/t}
+** Value
 
 
-{t}Value '%s' needs a group membership: %s{/t}
+** Value '%s' needs a group membership: %s
 
 
-{t}Variable{/t}
+** Variable
 
 
-{t}Variable already exists in table. (%s){/t}
+** Variable already exists in table. (%s)
 
 
-{t}Variable must be of type date (mm/dd/yyyy).{/t}
+** Variable must be of type date (mm/dd/yyyy).
 
 
-{t}Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).{/t}
+** Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).
 
 
-{t}Variable must be of type float.{/t}
+** Variable must be of type float.
 
 
-{t}Variable must be of type int and greater than 0.{/t}
+** Variable must be of type int and greater than 0.
 
 
-{t}Variable must be of type int.{/t}
+** Variable must be of type int.
 
 
-{t}Variable must be of type time (hh:mm am/pm).{/t}
+** Variable must be of type time (hh:mm am/pm).
 
 
-{t}Variables{/t}
+** Variables
 
 
-{t}Verbal recommendation{/t}
+** Verbal recommendation
 
 
-{t}verified{/t}
+** verified
 
 
-{t}vertical{/t}
+** vertical
 
 
-{t}very promising{/t}
+** very promising
 
 
-{t}View{/t}
+** View
 
 
-{t}View access (groups){/t}
+** View access (groups)
 
 
-{t}View access (users){/t}
+** View access (users)
 
 
-{t}Virus scanner{/t}
+** Virus scanner
 
 
-{t}Visibility{/t}
+** Visibility
 
 
-{t}Voice mail{/t}
+** Voice mail
 
 
-{t}Vote{/t}
+** Vote
 
 
-{t}Voted by{/t}
+** Voted by
 
 
-{t}Waiting{/t}
+** Waiting
 
 
-{t}Warning{/t}
+** Warning
 
 
-{t}We{/t}
+** We
 
 
-{t}Web{/t}
+** Web
 
 
-{t}Web page{/t}
+** Web page
 
 
-{t}Wed{/t}
+** Wed
 
 
-{t}Wednesday{/t}
+** Wednesday
 
 
-{t}Week{/t}
+** Week
 
 
-{t}Week start{/t}
+** Week start
 
 
-{t}Weekend{/t}
+** Weekend
 
 
-{t}weekly{/t}
+** weekly
 
 
-{t}weeks{/t}
+** weeks
 
 
-{t}Welcome to Simple Groupware!{/t}
+** Welcome to Simple Groupware!
 
 
-{t}white{/t}
+** white
 
 
-{t}widowed{/t}
+** widowed
 
 
-{t}Width{/t}
+** Width
 
 
-{t}Wiki{/t}
+** Wiki
 
 
-{t}WikiStyles{/t}
+** WikiStyles
 
 
-{t}won't fix{/t}
+** won't fix
 
 
-{t}word{/t}
+** word
 
 
-{t}Workflow{/t}
+** Workflow
 
 
-{t}Working student{/t}
+** Working student
 
 
-{t}works as expected{/t}
+** works as expected
 
 
-{t}works for me{/t}
+** works for me
 
 
-{t}Workshop{/t}
+** Workshop
 
 
-{t}Workspace{/t}
+** Workspace
 
 
-{t}write access{/t}
+** write access
 
 
-{t}Write access (groups){/t}
+** Write access (groups)
 
 
-{t}Write access (users){/t}
+** Write access (users)
 
 
-{t}Wrong database-version (%s). Please use at least %s !{/t}
+** Wrong database-version (%s). Please use at least %s !
 
 
-{t}wrong directory{/t}
+** wrong directory
 
 
-{t}wrong password{/t}
+** wrong password
 
 
-{t}Year{/t}
+** Year
 
 
-{t}yearly{/t}
+** yearly
 
 
-{t}years{/t}
+** years
 
 
-{t}yellow{/t}
+** yellow
 
 
-{t}yes{/t}
+** yes
 
 
-{t}You are not allowed to view this folder.{/t}
+** You are not allowed to view this folder.
 
 
-{t}Your message was read on %s.{/t}
+** Your message was read on %s.
 
 
-{t}Your session has timed out.{/t}
+** Your session has timed out.
 
 
-{t}Zipcode{/t}
+** Zipcode
 
 
-{t}{0} - {1} of {2}{/t}
+** {0} - {1} of {2}
 
 

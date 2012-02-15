@@ -3,3534 +3,3534 @@
  * @license GPLv2
  */
 
-{t}!_Copyright_Language_File{/t}
+** !_Copyright_Language_File
 Copyright (C) 2009 Bagus Winar
 
-{t}!_Language{/t}
+** !_Language
 Indonesia
 
-{t}%s is not activated{/t}
+** %s is not activated
 %s tidak diaktifkan
 
-{t}%s is not compiled / loaded into PHP.{/t}
+** %s is not compiled / loaded into PHP.
 %s tidak dikompile / load ke dalam PHP.
 
-{t}%s M memory usage{/t}
+** %s M memory usage
 
 
-{t}%s not in database{/t}
+** %s not in database
 %s tidak di dalam database
 
-{t}%s rows affected{/t}
+** %s rows affected
 %s baris terdampak
 
-{t}%s secs{/t}
+** %s secs
 %s detik
 
-{t}%s started editing this asset at %s{/t}
+** %s started editing this asset at %s
 %s mulai editing asset ini pada %s
 
-{t}(for active directory username must be: username@domain){/t}
+** (for active directory username must be: username@domain)
 (untuk username aktive directory harus: username@domain)
 
-{t}(un)Group{/t}
+** (un)Group
 Group
 
-{t}About{/t}
+** About
 Tentang Aplikasi Knowledge Management
 
-{t}Absence{/t}
+** Absence
 
 
-{t}accepted{/t}
+** accepted
 diterima
 
-{t}Access denied.{/t}
+** Access denied.
 Akses ditolak
 
-{t}Access to this file has been denied.{/t}
+** Access to this file has been denied.
 Akses untuk file ini telah ditolak
 
-{t}Account{/t}
+** Account
 Account
 
-{t}account of %s has expired{/t}
+** account of %s has expired
 account dari %s telah expired
 
-{t}Accounting{/t}
+** Accounting
 Akuntansi
 
-{t}Activate{/t}
+** Activate
 
 
-{t}Activated{/t}
+** Activated
 Diaktifkan
 
-{t}active{/t}
+** active
 
 
-{t}Active{/t}
+** Active
 Aktif
 
-{t}Ad{/t}
+** Ad
 Kegiatan
 
-{t}Add{/t}
+** Add
 Tambahkan
 
-{t}Add a special rule{/t}
+** Add a special rule
 
 
-{t}Add to offline folders{/t}
+** Add to offline folders
 Tambahkan untuk folder-folder offline
 
-{t}added line{/t}
+** added line
 menambah baris
 
-{t}Address{/t}
+** Address
 Alamat
 
-{t}admin access{/t}
+** admin access
 akses admin
 
-{t}Admin access (groups){/t}
+** Admin access (groups)
 Admin akses (group)
 
-{t}Admin access (users){/t}
+** Admin access (users)
 Admin akses (user)
 
-{t}Admin Password{/t}
+** Admin Password
 Password admin
 
-{t}Admin Username{/t}
+** Admin Username
 Username admin
 
-{t}Administration{/t}
+** Administration
 Administrasi
 
-{t}Advanced tables{/t}
+** Advanced tables
 Tabel-tabel advance
 
-{t}Affected user{/t}
+** Affected user
 User yang terpengaruh
 
-{t}Affiliate{/t}
+** Affiliate
 Afiliasi/Gabungan
 
-{t}after{/t}
+** after
 sesudah
 
-{t}Agent{/t}
+** Agent
 Agen
 
-{t}Ajax Error{/t}
+** Ajax Error
 Ajax Error
 
-{t}All{/t}
+** All
 Semua
 
-{t}All day{/t}
+** All day
 Sepanjang hari
 
-{t}All events{/t}
+** All events
 Semua event
 
-{t}All finished tasks{/t}
+** All finished tasks
 
 
-{t}All pending tasks{/t}
+** All pending tasks
 
 
-{t}Allow custom values{/t}
+** Allow custom values
 
 
-{t}Allow disabled modules{/t}
+** Allow disabled modules
 
 
-{t}Already running latest release.{/t}
+** Already running latest release.
 Sudah berjalan dengan rilis terbaru.
 
-{t}Already voted.{/t}
+** Already voted.
 
 
-{t}Amount{/t}
+** Amount
 Jumlah
 
-{t}Anchor{/t}
+** Anchor
 Anchor
 
-{t}and{/t}
+** and
 dan
 
-{t}Anniversary{/t}
+** Anniversary
 Hari ulang tahun
 
-{t}another page{/t}
+** another page
 halaman lain
 
-{t}answered{/t}
+** answered
 jawab
 
-{t}Answers{/t}
+** Answers
 
 
-{t}Apache based (.htaccess, Basic, Digest, etc.){/t}
+** Apache based (.htaccess, Basic, Digest, etc.)
 Dasar-dasar Apache (.htaccess, Basic, Digest, dll.)
 
-{t}Application title{/t}
+** Application title
 Nama aplikasi
 
-{t}Apply rights to subfolders{/t}
+** Apply rights to subfolders
 Terapkan hak-hak untuk subfolder
 
-{t}Appointment{/t}
+** Appointment
 
 
-{t}Appointments{/t}
+** Appointments
 
 
-{t}Apprenticeship{/t}
+** Apprenticeship
 
 
-{t}Apr{/t}
+** Apr
 
 
-{t}April{/t}
+** April
 April
 
-{t}Archive{/t}
+** Archive
 
 
-{t}Archive deleted files{/t}
+** Archive deleted files
 File arsip dihapus
 
-{t}Asset{/t}
+** Asset
 
 
-{t}Asset marked as read-only.{/t}
+** Asset marked as read-only.
 Tandai asset sebagai read-only.
 
-{t}Assets{/t}
+** Assets
 Asset
 
-{t}Assets (children){/t}
+** Assets (children)
 Assets (anak)
 
-{t}Assets can be imported into multiple folders by adding the "Folder" column.{/t}
+** Assets can be imported into multiple folders by adding the "Folder" column.
 
 
-{t}Assets can be overwritten by adding the "Id" column.{/t}
+** Assets can be overwritten by adding the "Id" column.
 
 
-{t}assigned{/t}
+** assigned
 ditugaskan
 
-{t}at least 20 characters{/t}
+** at least 20 characters
 
 
-{t}attach file{/t}
+** attach file
 file lampiran
 
-{t}Attachment{/t}
+** Attachment
 Lampiran
 
-{t}Attachments{/t}
+** Attachments
 Lampiran-lampiran
 
-{t}Attend{/t}
+** Attend
 
 
-{t}Aug{/t}
+** Aug
 
 
-{t}August{/t}
+** August
 Agustus
 
-{t}Authentication Mode{/t}
+** Authentication Mode
 Mode otentifikasi
 
-{t}Author{/t}
+** Author
 Author
 
-{t}Automatically hide the menu{/t}
+** Automatically hide the menu
 
 
-{t}Automatically hide the tree{/t}
+** Automatically hide the tree
 
 
-{t}Average{/t}
+** Average
 
 
-{t}Average progress{/t}
+** Average progress
 
 
-{t}Avg length{/t}
+** Avg length
 Panjang rata-rata
 
-{t}Back{/t}
+** Back
 Kembali
 
-{t}Backup{/t}
+** Backup
 Backup
 
-{t}Backup current folder{/t}
+** Backup current folder
 Bakup folder
 
-{t}Backups{/t}
+** Backups
 Backups
 
-{t}Basic editing{/t}
+** Basic editing
 Dasar penyuntingan/editing
 
-{t}before{/t}
+** before
 sebelum
 
-{t}Before{/t}
+** Before
 
 
-{t}Begin{/t}
+** Begin
 Mulai
 
-{t}big{/t}
+** big
 besar
 
-{t}big text{/t}
+** big text
 text besar
 
-{t}bigger{/t}
+** bigger
 lebih besar
 
-{t}Billing address{/t}
+** Billing address
 Alamat penagihan
 
-{t}Birthday{/t}
+** Birthday
 Hari lahir
 
-{t}Birthdays{/t}
+** Birthdays
 Hari lahir
 
-{t}Blank{/t}
+** Blank
 Kosong
 
-{t}blue{/t}
+** blue
 biru
 
-{t}bold{/t}
+** bold
 tebal
 
-{t}bold italic{/t}
+** bold italic
 tebal italic
 
-{t}Book{/t}
+** Book
 
 
-{t}booked{/t}
+** booked
 dipesan
 
-{t}Booked{/t}
+** Booked
 Dipesan
 
-{t}Booking number{/t}
+** Booking number
 Jumlah pesanan
 
-{t}Bookings{/t}
+** Bookings
 Pesanan
 
-{t}Bookmark{/t}
+** Bookmark
 
 
-{t}Bookmarks{/t}
+** Bookmarks
 Bookmarks
 
-{t}borrowed{/t}
+** borrowed
 borrow
 
-{t}Brand{/t}
+** Brand
 Brand
 
-{t}Brands{/t}
+** Brands
 Brands
 
-{t}Browser Compatibility{/t}
+** Browser Compatibility
 Kompatibilitas Browser
 
-{t}Browser not supported{/t}
+** Browser not supported
 Browser tidak support
 
-{t}Budget{/t}
+** Budget
 Anggaran
 
-{t}Bug{/t}
+** Bug
 Bug
 
-{t}bulleted{/t}
+** bulleted
 bulleted
 
-{t}Business{/t}
+** Business
 Bisnis
 
-{t}C a n c e l{/t}
+** C a n c e l
 
 
-{t}C O N T I N U E{/t}
+** C O N T I N U E
 L A N J U T
 
-{t}Cache output{/t}
+** Cache output
 Output cache
 
-{t}Caches{/t}
+** Caches
 Caches
 
-{t}Calendar{/t}
+** Calendar
 Kalender
 
-{t}Cancel{/t}
+** Cancel
 
 
-{t}canceled{/t}
+** canceled
 dibatalkan
 
-{t}Canceled{/t}
+** Canceled
 Dibatalkan
 
-{t}Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.{/t}
+** Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.
 Tidak dapat memanggil proc_open. Silahkan hilangkan proc_open dari disable_functions di dalam php.ini dan disable safe_mode
 
-{t}Cannot connect to database %s on %s.{/t}
+** Cannot connect to database %s on %s.
 Tidak dapat terhubung ke database %s pada %s.
 
-{t}Cannot create preview for %s{/t}
+** Cannot create preview for %s
 Tidak dapat membuat pratinjau/preview untuk %s
 
-{t}Cannot read the file %s.{/t}
+** Cannot read the file %s.
 Tidak dapat membaca file %s.
 
-{t}Cardinality{/t}
+** Cardinality
 Kardinalitas
 
-{t}Categories{/t}
+** Categories
 Kategori
 
-{t}Category{/t}
+** Category
 Kategori
 
-{t}Cc{/t}
+** Cc
 Cc
 
-{t}centered{/t}
+** centered
 center
 
-{t}CEO{/t}
+** CEO
 CEO
 
-{t}Change request{/t}
+** Change request
 Rubah request
 
-{t}Change settings{/t}
+** Change settings
 Rubah setting/pengaturan
 
-{t}Change Setup settings{/t}
+** Change Setup settings
 Rubah pengaturan Setup
 
-{t}Change summary{/t}
+** Change summary
 Rubah rangkuman/summary
 
-{t}Changed{/t}
+** Changed
 
 
-{t}changed line{/t}
+** changed line
 rubah baris
 
-{t}Changelog{/t}
+** Changelog
 Laporan perubahan
 
-{t}Chat{/t}
+** Chat
 Chat
 
-{t}Check DoS Attacks{/t}
+** Check DoS Attacks
 Check DoS Attacks
 
-{t}checked{/t}
+** checked
 verifikasi
 
-{t}Checked{/t}
+** Checked
 Verifikasi
 
-{t}Choices{/t}
+** Choices
 
 
-{t}CIO{/t}
+** CIO
 CIO
 
-{t}City{/t}
+** City
 Kota
 
-{t}Clean{/t}
+** Clean
 Bersih
 
-{t}Clean Cache{/t}
+** Clean Cache
 Bersihkan Cache
 
-{t}Clear{/t}
+** Clear
 Clear
 
-{t}Clear Cache{/t}
+** Clear Cache
 Clear Cache
 
-{t}Clear Data{/t}
+** Clear Data
 
 
-{t}Clear grouping{/t}
+** Clear grouping
 
 
-{t}Client{/t}
+** Client
 Client
 
-{t}Close{/t}
+** Close
 Tutup
 
-{t}Close session{/t}
+** Close session
 Tutup sesi
 
-{t}closed{/t}
+** closed
 ditutup
 
-{t}Closed{/t}
+** Closed
 Ditutup
 
-{t}CMS{/t}
+** CMS
 CMS
 
-{t}CMS homepage title{/t}
+** CMS homepage title
 
 
-{t}Collapse text{/t}
+** Collapse text
 
 
-{t}Collapse tree{/t}
+** Collapse tree
 Collapse tree
 
-{t}Color{/t}
+** Color
 Warna
 
-{t}Column{/t}
+** Column
 
 
-{t}Column name{/t}
+** Column name
 Nama kolom
 
-{t}Combination{/t}
+** Combination
 
 
-{t}Comma{/t}
+** Comma
 
 
-{t}Comma separated values{/t}
+** Comma separated values
 
 
-{t}Command{/t}
+** Command
 Perintah/Command
 
-{t}Comment{/t}
+** Comment
 Komentar
 
-{t}Comment files{/t}
+** Comment files
 File komentar
 
-{t}Companies{/t}
+** Companies
 Perusahaan
 
-{t}Company{/t}
+** Company
 Perusahaan
 
-{t}Competition{/t}
+** Competition
 Kompetisi
 
-{t}Competitor{/t}
+** Competitor
 Kompetitor
 
-{t}Complete{/t}
+** Complete
 
 
-{t}completed{/t}
+** completed
 
 
-{t}Completed{/t}
+** Completed
 Selesai
 
-{t}Component{/t}
+** Component
 Komponen
 
-{t}Compress output{/t}
+** Compress output
 Kompres output
 
-{t}Confirm{/t}
+** Confirm
 
 
-{t}confirmed{/t}
+** confirmed
 dikonfirmasi
 
-{t}Connection error: %s [%s]{/t}
+** Connection error: %s [%s]
 
 
-{t}Connection to database failed.{/t}
+** Connection to database failed.
 Koneksi ke database gagal
 
-{t}Console{/t}
+** Console
 
 
-{t}Console scripts{/t}
+** Console scripts
 
 
-{t}Consultant{/t}
+** Consultant
 Konsultan
 
-{t}Contact{/t}
+** Contact
 Contact
 
-{t}Contact activities{/t}
+** Contact activities
 Aktivitas cotact
 
-{t}Contact activity{/t}
+** Contact activity
 
 
-{t}Contact by{/t}
+** Contact by
 Contact oleh
 
-{t}Contact groups{/t}
+** Contact groups
 Group contact
 
-{t}Contact id{/t}
+** Contact id
 ID contact
 
-{t}Contact person{/t}
+** Contact person
 Contact person
 
-{t}Contact user by{/t}
+** Contact user by
 Contact user oleh
 
-{t}Contacts{/t}
+** Contacts
 Contacts
 
-{t}contains{/t}
+** contains
 berisi
 
-{t}Content{/t}
+** Content
 Isi
 
-{t}Continue{/t}
+** Continue
 Lanjutkan
 
-{t}Contracts{/t}
+** Contracts
 
 
-{t}Copier{/t}
+** Copier
 Copier
 
-{t}Copy{/t}
+** Copy
 Copy
 
-{t}Cost center{/t}
+** Cost center
 Cost center
 
-{t}Costs of accommodation{/t}
+** Costs of accommodation
 Biaya-biaya akomodasi
 
-{t}Could not determine database-version.{/t}
+** Could not determine database-version.
 Tidak dapat menentukan versi-database.
 
-{t}Country{/t}
+** Country
 Negara
 
-{t}Create new{/t}
+** Create new
 
 
-{t}Create new folder{/t}
+** Create new folder
 
 
-{t}Created{/t}
+** Created
 Dibuat
 
-{t}Creating database failed.{/t}
+** Creating database failed.
 Gagal membuat database
 
-{t}current path{/t}
+** current path
 path saat ini
 
-{t}current time{/t}
+** current time
 waktu saat ini
 
-{t}Curriculum vitae{/t}
+** Curriculum vitae
 Curriculum vitae
 
-{t}Custom schema{/t}
+** Custom schema
 
 
-{t}Customization rules\nfor modules based on sgsML{/t}
+** Customization rules\nfor modules based on sgsML
 
 
-{t}customizations{/t}
+** customizations
 Kustomisasi
 
-{t}Customize{/t}
+** Customize
 
 
-{t}Cut{/t}
+** Cut
 Cut
 
-{t}daily{/t}
+** daily
 harian
 
-{t}Data{/t}
+** Data
 Data
 
-{t}Data free{/t}
+** Data free
 Data free
 
-{t}Data length{/t}
+** Data length
 Panjang data
 
-{t}Database{/t}
+** Database
 Database
 
-{t}Database Hostname / IP{/t}
+** Database Hostname / IP
 Hostname Database / IP
 
-{t}Database Name{/t}
+** Database Name
 Nama Database
 
-{t}Database Password{/t}
+** Database Password
 Password Database
 
-{t}Database size{/t}
+** Database size
 
 
-{t}Database status{/t}
+** Database status
 Status database
 
-{t}Database type{/t}
+** Database type
 
 
-{t}Database User{/t}
+** Database User
 User Database
 
-{t}Database variables{/t}
+** Database variables
 Variabel-variabel database
 
-{t}Date{/t}
+** Date
 Tanggal
 
-{t}Day{/t}
+** Day
 Hari
 
-{t}Day begin{/t}
+** Day begin
 Awal hari kerja
 
-{t}Day end{/t}
+** Day end
 Akhir hari kerja
 
-{t}days{/t}
+** days
 hari-hari
 
-{t}Deactivate{/t}
+** Deactivate
 
 
-{t}Deadline{/t}
+** Deadline
 Deadline
 
-{t}Debug{/t}
+** Debug
 Debug
 
-{t}Debug-dir{/t}
+** Debug-dir
 Debug-dir
 
-{t}Dec{/t}
+** Dec
 
 
-{t}December{/t}
+** December
 Desember
 
-{t}Declining balance{/t}
+** Declining balance
 Declining balance
 
-{t}Default{/t}
+** Default
 Default
 
-{t}Default function{/t}
+** Default function
 
 
-{t}Default theme{/t}
+** Default theme
 Tema default
 
-{t}Default values for assets{/t}
+** Default values for assets
 
 
-{t}definition for definition lists{/t}
+** definition for definition lists
 definisi untuk daftar definis
 
-{t}Degree{/t}
+** Degree
 Tingkatan
 
-{t}Delete{/t}
+** Delete
 Hapus
 
-{t}Delete incl subfolders{/t}
+** Delete incl subfolders
 Hapus termasuk subfolder
 
-{t}deleted{/t}
+** deleted
 dihapus
 
-{t}deleted line{/t}
+** deleted line
 menghapus garis
 
-{t}Delivery{/t}
+** Delivery
 
 
-{t}Demand{/t}
+** Demand
 Permintaan/Demand
 
-{t}Demo{/t}
+** Demo
 Demo
 
-{t}Demonstration folder{/t}
+** Demonstration folder
 
 
-{t}Department{/t}
+** Department
 Departemen
 
-{t}Departments{/t}
+** Departments
 Departemen-Departemen
 
-{t}Dependancies{/t}
+** Dependancies
 Dependansi
 
-{t}Description{/t}
+** Description
 Deskripsi
 
-{t}Description hint{/t}
+** Description hint
 
 
-{t}Description title{/t}
+** Description title
 
 
-{t}Description value{/t}
+** Description value
 
 
-{t}Desktop computer{/t}
+** Desktop computer
 Komputer desktop
 
-{t}Details{/t}
+** Details
 Detail
 
-{t}Device type{/t}
+** Device type
 Tipe alat/device
 
-{t}Device types{/t}
+** Device types
 Tipe-tipe alat/device
 
-{t}Diagram{/t}
+** Diagram
 
 
-{t}directory does not exist.{/t}
+** directory does not exist.
 direktori tidak ada
 
-{t}Directory is outside the allowed directory. (%s is outside %s){/t}
+** Directory is outside the allowed directory. (%s is outside %s)
 Direktori berada diluar dari direktori yang diijinkan. (%s berada diluar %s)
 
-{t}disable{/t}
+** disable
 
 
-{t}Disable basic authentication{/t}
+** Disable basic authentication
 Nonaktifkan dasar otentifikasi
 
-{t}Disable cut-copy-paste{/t}
+** Disable cut-copy-paste
 
 
-{t}Disabled{/t}
+** Disabled
 
 
-{t}Disabled modules{/t}
+** Disabled modules
 
 
-{t}Display{/t}
+** Display
 Tampilan
 
-{t}display filter{/t}
+** display filter
 tampilan filter
 
-{t}Displayname{/t}
+** Displayname
 
 
-{t}displays{/t}
+** displays
 tampilan-tampilan
 
-{t}Distributor{/t}
+** Distributor
 Distributor
 
-{t}Distributors{/t}
+** Distributors
 Distributor-distributor
 
-{t}divorced{/t}
+** divorced
 cerai
 
-{t}Documentation{/t}
+** Documentation
 Dokumentasi
 
-{t}Documentation index{/t}
+** Documentation index
 Index dokumentasi
 
-{t}Domain{/t}
+** Domain
 Domain
 
-{t}Don't attend{/t}
+** Don't attend
 
 
-{t}Don't move old files to 'old/'{/t}
+** Don't move old files to 'old/'
 
 
-{t}Down{/t}
+** Down
 Turun
 
-{t}Download{/t}
+** Download
 Download
 
-{t}Download example file{/t}
+** Download example file
 
 
-{t}Downloading extension list{/t}
+** Downloading extension list
 
 
-{t}Downloading update list{/t}
+** Downloading update list
 Downloading daftar update
 
-{t}Drag and drop files or URLs here.{/t}
+** Drag and drop files or URLs here.
 
 
-{t}duplicate{/t}
+** duplicate
 duplikat
 
-{t}Duration{/t}
+** Duration
 Durasi
 
-{t}E-mail{/t}
+** E-mail
 E-mail
 
-{t}E-mail private{/t}
+** E-mail private
 Private E-mail
 
-{t}E-mail program{/t}
+** E-mail program
 Program E-mail
 
-{t}e.g.{/t}
+** e.g.
 misal
 
-{t}Edit{/t}
+** Edit
 Edit
 
-{t}Edit as new{/t}
+** Edit as new
 Edit menjadi baru
 
-{t}Edit rights{/t}
+** Edit rights
 Hak edit
 
-{t}Editable if hidden in all views{/t}
+** Editable if hidden in all views
 
 
-{t}Editor{/t}
+** Editor
 Editor
 
-{t}Emphasis{/t}
+** Emphasis
 Penekanan/emphasis
 
-{t}Empty{/t}
+** Empty
 Kosong
 
-{t}Empty folder{/t}
+** Empty folder
 Folder kosong
 
-{t}en{/t}
+** en
 idn
 
-{t}Enable anonymous access{/t}
+** Enable anonymous access
 Aktifkan akses anonim
 
-{t}Enable anonymous CMS{/t}
+** Enable anonymous CMS
 Aktifkan CMS anonim
 
-{t}Enable automatic user creation{/t}
+** Enable automatic user creation
 Aktifkan pembuatan user otomatis
 
-{t}Enable external mail client for 'mailto:' links{/t}
+** Enable external mail client for 'mailto:' links
 Aktifkan client external mail untuk link mailto:
 
-{t}Enable self registration{/t}
+** Enable self registration
 
 
-{t}Enable Sync4j / Funambol{/t}
+** Enable Sync4j / Funambol
 Aktifkan Sync4j / Funambol
 
-{t}Enable WebDAV{/t}
+** Enable WebDAV
 
 
-{t}End{/t}
+** End
 Akhir/Selesai
 
-{t}engaged{/t}
+** engaged
 terlibat
 
-{t}equal{/t}
+** equal
 sama dengan
 
-{t}Error{/t}
+** Error
 Error
 
-{t}Error doing request to xmlhttp{/t}
+** Error doing request to xmlhttp
 Error melakukan permintaan ke xmlhttp
 
-{t}Error moving file{/t}
+** Error moving file
 Error pindahkan file
 
-{t}Error pasting asset{/t}
+** Error pasting asset
 Error pasting asset
 
-{t}Error: no credentials{/t}
+** Error: no credentials
 Error: tanpa credensial
 
-{t}Events{/t}
+** Events
 Event
 
-{t}Example{/t}
+** Example
 Contoh
 
-{t}Example contacts{/t}
+** Example contacts
 Contoh contact
 
-{t}Example surveys can be found at:{/t}
+** Example surveys can be found at:
 
 
-{t}Example without mountpoint{/t}
+** Example without mountpoint
 Contoh tanpa mountpoint
 
-{t}Examples{/t}
+** Examples
 Contoh-contoh
 
-{t}Execute{/t}
+** Execute
 Jalankan
 
-{t}Expenses{/t}
+** Expenses
 Pengeluaran
 
-{t}Experimental{/t}
+** Experimental
 Ekperimental
 
-{t}Expires{/t}
+** Expires
 Berakhir
 
-{t}Expiry{/t}
+** Expiry
 Kadaluwarsa
 
-{t}Extended{/t}
+** Extended
 
 
-{t}Extensions{/t}
+** Extensions
 
 
-{t}Extracting files{/t}
+** Extracting files
 Extracting file
 
-{t}F j{/t}
+** F j
 F j
 
-{t}F j, Y{/t}
+** F j, Y
 F j Y
 
-{t}Failed to create directory: %s{/t}
+** Failed to create directory: %s
 Gagal untuk membuat direktori: %s
 
-{t}Failed to write file to disk.{/t}
+** Failed to write file to disk.
 Gagal menulis file ke disk.
 
-{t}Failed to write into %s{/t}
+** Failed to write into %s
 Gagal untuk menulis kedalam %s
 
-{t}Family status{/t}
+** Family status
 Status keluarga
 
-{t}FAQ{/t}
+** FAQ
 FAQ
 
-{t}Favorites{/t}
+** Favorites
 Favorit
 
-{t}Fax{/t}
+** Fax
 Fax
 
-{t}Fax private{/t}
+** Fax private
 
 
-{t}Feature request{/t}
+** Feature request
 Fitur request
 
-{t}Feb{/t}
+** Feb
 
 
-{t}February{/t}
+** February
 Februari
 
-{t}Feed{/t}
+** Feed
 
 
-{t}female{/t}
+** female
 wanita
 
-{t}Field{/t}
+** Field
 Field
 
-{t}Field contains value{/t}
+** Field contains value
 
 
-{t}Field customization{/t}
+** Field customization
 
 
-{t}Field is equal to value{/t}
+** Field is equal to value
 
 
-{t}Fields{/t}
+** Fields
 
 
-{t}File{/t}
+** File
 File
 
-{t}file is too big. Please change upload_max_filesize, post_max_size in your php.ini{/t}
+** file is too big. Please change upload_max_filesize, post_max_size in your php.ini
 file terlalu besar. Silahkan ubah upload_max_filesize, post_max_size php.ini Anda
 
-{t}file is too big. Please upload a smaller one.{/t}
+** file is too big. Please upload a smaller one.
 file terlalu besar. Harap upload dengan ukuran yang lebih kecil.
 
-{t}file not found in database.{/t}
+** file not found in database.
 file tidak ditemukan di dalam database
 
-{t}file not found.{/t}
+** file not found.
 file tidak ditemukan
 
-{t}file was uploaded partially.{/t}
+** file was uploaded partially.
 file sudah ter-upload sebagian
 
-{t}Filename must have the right extension. Valid extensions are %s{/t}
+** Filename must have the right extension. Valid extensions are %s
 Nama fila harus memiliki ekstensi yang benar. Ekstensi yang valid adalah %s
 
-{t}Files{/t}
+** Files
 File-file
 
-{t}Filesystem{/t}
+** Filesystem
 Filesystem
 
-{t}Filter{/t}
+** Filter
 Filter
 
-{t}Find assets in multiple folders{/t}
+** Find assets in multiple folders
 Temukan beberapa assets di dalam folder
 
-{t}Finish scheduled{/t}
+** Finish scheduled
 Penjadwalan berakhir
 
-{t}Finished{/t}
+** Finished
 Selesai
 
-{t}First in list{/t}
+** First in list
 Pertama di dalam daftar
 
-{t}first level support{/t}
+** first level support
 
 
-{t}First name{/t}
+** First name
 Nama depan
 
-{t}Fix paging bar to page bottom{/t}
+** Fix paging bar to page bottom
 
 
-{t}fixed{/t}
+** fixed
 tetap
 
-{t}Flags{/t}
+** Flags
 Flag
 
-{t}Flash plugin not installed.{/t}
+** Flash plugin not installed.
 
 
-{t}Folder{/t}
+** Folder
 Folder
 
-{t}Folder already exists.{/t}
+** Folder already exists.
 Folder sudah ada
 
-{t}Folder created.{/t}
+** Folder created.
 
 
-{t}Folder has changed.{/t}
+** Folder has changed.
 
 
-{t}Folder icon{/t}
+** Folder icon
 
 
-{t}Folder not found.{/t}
+** Folder not found.
 
 
-{t}Folder refresh period{/t}
+** Folder refresh period
 
 
-{t}Folder structure{/t}
+** Folder structure
 
 
-{t}Folder structure created.{/t}
+** Folder structure created.
 Struktur folder terbentuk
 
-{t}Folder structure moved to trash.{/t}
+** Folder structure moved to trash.
 Struktur folder dipindahkan ke trash
 
-{t}Folder Type{/t}
+** Folder Type
 Tipe Folder
 
-{t}Folder with ID %s{/t}
+** Folder with ID %s
 
 
-{t}Folders{/t}
+** Folders
 Folder-folder
 
-{t}for a new paragraph, use a blank line{/t}
+** for a new paragraph, use a blank line
 untuk sebuah paragrap baru, gunakan sebuah baris kosong
 
-{t}Force SSL{/t}
+** Force SSL
 Force SSL
 
-{t}Form{/t}
+** Form
 
 
-{t}Forum{/t}
+** Forum
 Forum
 
-{t}Forward{/t}
+** Forward
 Forward
 
-{t}Fr{/t}
+** Fr
 Fr
 
-{t}Free/busy{/t}
+** Free/busy
 Bebas/sibuk
 
-{t}Freelance{/t}
+** Freelance
 
 
-{t}Fri{/t}
+** Fri
 Jum
 
-{t}Friday{/t}
+** Friday
 Jumat
 
-{t}From{/t}
+** From
 Dari
 
-{t}Full screen{/t}
+** Full screen
 
 
-{t}Full texts{/t}
+** Full texts
 Text penuh
 
-{t}Full time{/t}
+** Full time
 
 
-{t}Full width{/t}
+** Full width
 Lebar penuh
 
-{t}Fulltext index{/t}
+** Fulltext index
 
 
-{t}Funambol only works with MySQL and PostgreSQL.{/t}
+** Funambol only works with MySQL and PostgreSQL.
 Funambol hanya berjalan dengan MySQL dan PostgreSQL.
 
-{t}Function does not exist: %s{/t}
+** Function does not exist: %s
 Fungsi: %s tidak ada
 
-{t}g:i a{/t}
+** g:i a
 g:i a
 
-{t}Gender{/t}
+** Gender
 Jenis kelamin
 
-{t}General{/t}
+** General
 Umum/General
 
-{t}Generate{/t}
+** Generate
 Generate
 
-{t}Gifts{/t}
+** Gifts
 Hadiah
 
-{t}Give Feedback{/t}
+** Give Feedback
 Berikan Tanggapan
 
-{t}GNU GPL Frequently Asked Questions{/t}
+** GNU GPL Frequently Asked Questions
 GNU GPL Frequently Asked Questions
 
-{t}greater than{/t}
+** greater than
 lebih besar dari
 
-{t}green{/t}
+** green
 hijau
 
-{t}Group{/t}
+** Group
 Group
 
-{t}Group created.{/t}
+** Group created.
 
 
-{t}Group deactivated.{/t}
+** Group deactivated.
 
 
-{t}Groupname{/t}
+** Groupname
 Nama group
 
-{t}Groups{/t}
+** Groups
 Group-group
 
-{t}hanging text{/t}
+** hanging text
 hanging text
 
-{t}Hardware{/t}
+** Hardware
 Hardware
 
-{t}Headers{/t}
+** Headers
 Header
 
-{t}heading{/t}
+** heading
 heading
 
-{t}headings{/t}
+** headings
 headings
 
-{t}Height{/t}
+** Height
 Tinggi
 
-{t}Help{/t}
+** Help
 Bantuan
 
-{t}Helpdesk{/t}
+** Helpdesk
 Helpdesk
 
-{t}Hidden in{/t}
+** Hidden in
 
 
-{t}Hidden in all views{/t}
+** Hidden in all views
 
 
-{t}Hide{/t}
+** Hide
 
 
-{t}hide in all views{/t}
+** hide in all views
 
 
-{t}hide in this view{/t}
+** hide in this view
 
 
-{t}History{/t}
+** History
 Histori
 
-{t}Holiday{/t}
+** Holiday
 Hari Libur/Hari Besar
 
-{t}Home{/t}
+** Home
 Home
 
-{t}Home folder id{/t}
+** Home folder id
 Home folder id
 
-{t}Home page in the CMS{/t}
+** Home page in the CMS
 Home page di dalam CMS ini
 
-{t}Homepage{/t}
+** Homepage
 Homepage
 
-{t}horizontal line{/t}
+** horizontal line
 garis horizontal
 
-{t}Host{/t}
+** Host
 Host
 
-{t}Hosts{/t}
+** Hosts
 Hosts
 
-{t}Hour{/t}
+** Hour
 
 
-{t}hours{/t}
+** hours
 jam
 
-{t}Hours per week{/t}
+** Hours per week
 
 
-{t}HTML document{/t}
+** HTML document
 
 
-{t}HTML documents{/t}
+** HTML documents
 Dokumen HTML
 
-{t}http://www.pmwiki.org/PmWiki/{/t}
+** http://www.pmwiki.org/PmWiki/
 
 
-{t}Human resources{/t}
+** Human resources
 
 
-{t}I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2{/t}
+** I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2
 Saya menyetujui GNU GENERAL PUBLIC LICENSE VERSION 2
 
-{t}I m p o r t{/t}
+** I m p o r t
 
 
-{t}I n s t a l l{/t}
+** I n s t a l l
 I n s t a l l
 
-{t}Icon{/t}
+** Icon
 
 
-{t}Id{/t}
+** Id
 Id
 
-{t}Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
 Id tidak boleh kosong, huruf kecil, min 3 karakter, mak 128 dan berisi [a-z0-9_-@.]
 
-{t}Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].
 Id tidak boleh kosong, min 3 karakter, mak 128 dan berisi [a-z0-9_-@.]
 
-{t}Ideas{/t}
+** Ideas
 Ide
 
-{t}If empty, the SMTP connection from the module users will be used.{/t}
+** If empty, the SMTP connection from the module users will be used.
 Jika kosong, maka koneksi SMTP dari modul user ini akan digunakan.
 
-{t}If file system permissions are ok, please check the configurations of %s if present.{/t}
+** If file system permissions are ok, please check the configurations of %s if present.
 
 
-{t}if not autodetected with namingContexts{/t}
+** if not autodetected with namingContexts
 jika tidak ada autodeteksi dengan namingContexts
 
-{t}If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.{/t}
+** If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.
 
 
-{t}If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.{/t}
+** If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.
 Jika username atau pasword berisi karakter &quot;@&quot;, replace/timpa hal itu dengan &quot;%%&quot;.
 
-{t}Illness{/t}
+** Illness
 
 
-{t}Im-/Export{/t}
+** Im-/Export
 Im-/Export
 
-{t}Image{/t}
+** Image
 Gambar
 
-{t}Images{/t}
+** Images
 Gambar-gambar
 
-{t}Imap-error: %s{/t}
+** Imap-error: %s
 Imap-error: %s
 
-{t}immediate{/t}
+** immediate
 segera
 
-{t}Import{/t}
+** Import
 Impor
 
-{t}In progress{/t}
+** In progress
 Dalam proses
 
-{t}in repair{/t}
+** in repair
 dalam perbaikan
 
-{t}in stock{/t}
+** in stock
 dalam persediaan
 
-{t}Inactive{/t}
+** Inactive
 Tidak akrif
 
-{t}Include in RSS feed{/t}
+** Include in RSS feed
 Termasuk di dalam RSS feed
 
-{t}Include page{/t}
+** Include page
 
 
-{t}indent text{/t}
+** indent text
 indent text
 
-{t}Index{/t}
+** Index
 Index
 
-{t}Index length{/t}
+** Index length
 Panjang index
 
-{t}Index type{/t}
+** Index type
 Tipe index
 
-{t}Indexes{/t}
+** Indexes
 Index
 
-{t}Industry{/t}
+** Industry
 Industri
 
-{t}Info{/t}
+** Info
 Info
 
-{t}inheritance to subfolders without default values{/t}
+** inheritance to subfolders without default values
 
 
-{t}Input field{/t}
+** Input field
 
 
-{t}Input field height{/t}
+** Input field height
 
 
-{t}Insert{/t}
+** Insert
 Sisipkan
 
-{t}inserted{/t}
+** inserted
 disisipkan
 
-{t}Install default folder structure{/t}
+** Install default folder structure
 
 
-{t}Install demo folders{/t}
+** Install demo folders
 
 
-{t}Install minimal folder structure{/t}
+** Install minimal folder structure
 
 
-{t}installed{/t}
+** installed
 
 
-{t}insufficient folder rights{/t}
+** insufficient folder rights
 hak folder tidak memadai
 
-{t}Internal recommendation{/t}
+** Internal recommendation
 Rekomendasi internal
 
-{t}Intranet{/t}
+** Intranet
 
 
-{t}Intro{/t}
+** Intro
 Intro
 
-{t}invalid{/t}
+** invalid
 tidak valid
 
-{t}Invalid file extensions{/t}
+** Invalid file extensions
 
 
-{t}Invalid schema mode '%s'{/t}
+** Invalid schema mode '%s'
 
 
-{t}Invalid security token{/t}
+** Invalid security token
 
 
-{t}Inventory{/t}
+** Inventory
 Inventori
 
-{t}Inventory number{/t}
+** Inventory number
 Jumlah inventori
 
-{t}Investor{/t}
+** Investor
 Investor
 
-{t}Invoice{/t}
+** Invoice
 Invoice
 
-{t}italic{/t}
+** italic
 italic
 
-{t}Item created by %s at %s{/t}
+** Item created by %s at %s
 Item dibuat oleh %s pada %s
 
-{t}Item deleted by %s at %s{/t}
+** Item deleted by %s at %s
 Item dihapus oleh %s pada %s
 
-{t}Item edited (%s) by %s at %s{/t}
+** Item edited (%s) by %s at %s
 Item (%s) diedit oleh %s pada %s
 
-{t}Item not found.{/t}
+** Item not found.
 Item tidak ditemukan
 
-{t}Item successfully created.{/t}
+** Item successfully created.
 Item berhasil dibuat.
 
-{t}Item successfully updated.{/t}
+** Item successfully updated.
 Item berhasil diupdate
 
-{t}Item(s) not found or access denied.{/t}
+** Item(s) not found or access denied.
 Item tidak ditemukan atau akses ditolak.
 
-{t}Jan{/t}
+** Jan
 
 
-{t}January{/t}
+** January
 Januari
 
-{t}Job description{/t}
+** Job description
 Job description
 
-{t}Join lines{/t}
+** Join lines
 Gabung baris
 
-{t}Jul{/t}
+** Jul
 
 
-{t}July{/t}
+** July
 Juli
 
-{t}Jun{/t}
+** Jun
 
 
-{t}June{/t}
+** June
 Juni
 
-{t}Key{/t}
+** Key
 Key
 
-{t}Key customer{/t}
+** Key customer
 Key customer
 
-{t}Key name{/t}
+** Key name
 Nama key
 
-{t}Keywords{/t}
+** Keywords
 Kata kunci
 
-{t}Knowledge base{/t}
+** Knowledge base
 Pengetahuan dasar
 
-{t}L o g i n{/t}
+** L o g i n
 L o g i n
 
-{t}l, F j, Y{/t}
+** l, F j, Y
 l, F j Y
 
-{t}Last access{/t}
+** Last access
 Akses terakhir
 
-{t}Last name{/t}
+** Last name
 Nama belakang
 
-{t}LDAP anonymous connection failed.{/t}
+** LDAP anonymous connection failed.
 Koneksi LDAP anonim gagal.
 
-{t}LDAP attribute for group memberships{/t}
+** LDAP attribute for group memberships
 Atribut LDAP untuk group memberships
 
-{t}LDAP attribute for rooms{/t}
+** LDAP attribute for rooms
 Atribut LDAP untuk room
 
-{t}LDAP attribute for usernames{/t}
+** LDAP attribute for usernames
 Atribut LDAP untuk username
 
-{t}LDAP connection to host %s failed.{/t}
+** LDAP connection to host %s failed.
 Koneksi LDAP untuk host %s gagal.
 
-{t}LDAP without anonymous access{/t}
+** LDAP without anonymous access
 LDAP tanpa anonim akses
 
-{t}LDAP: no base DN given{/t}
+** LDAP: no base DN given
 LDAP: tanpa diberikan dasar DN
 
-{t}LDAP: no UID given{/t}
+** LDAP: no UID given
 
 
-{t}Leave of absence{/t}
+** Leave of absence
 
 
-{t}less promising{/t}
+** less promising
 kurang menjanjikan
 
-{t}lesser than{/t}
+** lesser than
 kurang dari
 
-{t}Letter{/t}
+** Letter
 Surat
 
-{t}Level{/t}
+** Level
 Level
 
-{t}License{/t}
+** License
 Lisensi
 
-{t}line{/t}
+** line
 
 
-{t}Line break{/t}
+** Line break
 Batas baris
 
-{t}Link{/t}
+** Link
 Link
 
-{t}Link restricted{/t}
+** Link restricted
 Pembatasan link
 
-{t}link text{/t}
+** link text
 text link
 
-{t}link to external page{/t}
+** link to external page
 link untuk halaman eksternal
 
-{t}link to internal page{/t}
+** link to internal page
 link untuk halaman internal
 
-{t}Links{/t}
+** Links
 Links
 
-{t}Lists{/t}
+** Lists
 Daftar
 
-{t}Load external images{/t}
+** Load external images
 Load gambar eksternal
 
-{t}Location{/t}
+** Location
 Lokasi
 
-{t}Locations{/t}
+** Locations
 Lokasi-lokasi
 
-{t}Lock{/t}
+** Lock
 Kunci
 
-{t}Locked by{/t}
+** Locked by
 Dikunci oleh
 
-{t}Locking{/t}
+** Locking
 Terkunci
 
-{t}login %s from %s with %s{/t}
+** login %s from %s with %s
 login %s dari %s dengan %s
 
-{t}Login failed from %s.{/t}
+** Login failed from %s.
 Login gagal dari %s.
 
-{t}Login/-out{/t}
+** Login/-out
 Login/Logout
 
-{t}Logins{/t}
+** Logins
 Logins
 
-{t}Logout{/t}
+** Logout
 
 
-{t}logout %s{/t}
+** logout %s
 logout %s
 
-{t}Lookup{/t}
+** Lookup
 Lookup
 
-{t}low{/t}
+** low
 rendah
 
-{t}lowest{/t}
+** lowest
 lebih rendah
 
-{t}M j{/t}
+** M j
 M j
 
-{t}M j, g:i a{/t}
+** M j, g:i a
 M j, g:i a
 
-{t}M j, Y{/t}
+** M j, Y
 M j, Y
 
-{t}m/d/Y{/t}
+** m/d/Y
 d/m/Y
 
-{t}m/d/Y g:i a{/t}
+** m/d/Y g:i a
 d/m/Y g:i a
 
-{t}m/d/y g:i:s a{/t}
+** m/d/y g:i:s a
 d/m/y g:i:s a
 
-{t}magenta{/t}
+** magenta
 magenta
 
-{t}mail footer{/t}
+** mail footer
 footer mail
 
-{t}Mail identities{/t}
+** Mail identities
 Identitas mail
 
-{t}mail notification{/t}
+** mail notification
 notifikasi mail
 
-{t}mail reminder{/t}
+** mail reminder
 pengingat mail
 
-{t}Main menu{/t}
+** Main menu
 Menu utama
 
-{t}Main page{/t}
+** Main page
 
 
-{t}Maintenance mode{/t}
+** Maintenance mode
 Modus pemeliharaan
 
-{t}male{/t}
+** male
 laki-laki
 
-{t}Man-days{/t}
+** Man-days
 Man-days
 
-{t}Man-days planned{/t}
+** Man-days planned
 Perencanaan Man-days
 
-{t}Manage offline folders{/t}
+** Manage offline folders
 
 
-{t}Manager{/t}
+** Manager
 Manager
 
-{t}Manufacturer{/t}
+** Manufacturer
 Pabrikan
 
-{t}Mar{/t}
+** Mar
 
 
-{t}March{/t}
+** March
 Maret
 
-{t}Marketing event{/t}
+** Marketing event
 Kegiatan pemasaran/marketing
 
-{t}married{/t}
+** married
 menikah
 
-{t}Maximize{/t}
+** Maximize
 Maximize
 
-{t}Maximum file size{/t}
+** Maximum file size
 
 
-{t}Maximum number of assets per page{/t}
+** Maximum number of assets per page
 
 
-{t}maximum number of files exceeded.{/t}
+** maximum number of files exceeded.
 melebihi jumlah file maksimum
 
-{t}May{/t}
+** May
 Mei
 
-{t}Media{/t}
+** Media
 Media
 
-{t}Meeting{/t}
+** Meeting
 Meeting
 
-{t}Members{/t}
+** Members
 Member
 
-{t}Memory limit{/t}
+** Memory limit
 
 
-{t}Merge folders permanently{/t}
+** Merge folders permanently
 Gabung folder secara permanen
 
-{t}Merged folders{/t}
+** Merged folders
 Gabung folder
 
-{t}Message{/t}
+** Message
 Pesan
 
-{t}Messages{/t}
+** Messages
 
 
-{t}Milestone{/t}
+** Milestone
 
 
-{t}min{/t}
+** min
 min
 
-{t}Minimize{/t}
+** Minimize
 Minimize
 
-{t}minimum = 15 secs, 0 = disabled{/t}
+** minimum = 15 secs, 0 = disabled
 minimum = 15 detik, 0 = nonaktif
 
-{t}Miscellaneous{/t}
+** Miscellaneous
 Miscellaneous
 
-{t}missing a temporary folder.{/t}
+** missing a temporary folder.
 folder temporer hilang.
 
-{t}missing field{/t}
+** missing field
 field hilang
 
-{t}missing right: %s{/t}
+** missing right: %s
 kehilangan hak: %s
 
-{t}Mo{/t}
+** Mo
 Sn
 
-{t}Mobile{/t}
+** Mobile
 Mobile
 
-{t}Model{/t}
+** Model
 Model
 
-{t}Modified{/t}
+** Modified
 Dimodifikasi
 
-{t}Modified by{/t}
+** Modified by
 Dimodifikasi oleh
 
-{t}Modifying database failed.{/t}
+** Modifying database failed.
 Modifikasi database gagal
 
-{t}Module{/t}
+** Module
 Modul
 
-{t}Module disabled.{/t}
+** Module disabled.
 
 
-{t}Modules{/t}
+** Modules
 Modul
 
-{t}Mon{/t}
+** Mon
 Sen
 
-{t}Monday{/t}
+** Monday
 Senin
 
-{t}monospace{/t}
+** monospace
 monospace
 
-{t}Month{/t}
+** Month
 Bulan
 
-{t}monthly{/t}
+** monthly
 bulanan
 
-{t}months{/t}
+** months
 bulan
 
-{t}More information about the GNU GPL{/t}
+** More information about the GNU GPL
 Informasi lebih lanjut tentang GNU GPL
 
-{t}Mountpoint{/t}
+** Mountpoint
 Mountpoint
 
-{t}Move{/t}
+** Move
 Pindah
 
-{t}Move to subfolder 'Archive'{/t}
+** Move to subfolder 'Archive'
 
 
-{t}Multiple{/t}
+** Multiple
 
 
-{t}Multiple choice{/t}
+** Multiple choice
 
 
-{t}My appointments{/t}
+** My appointments
 Appointment saya
 
-{t}My tasks{/t}
+** My tasks
 Tugas-tugas saya
 
-{t}Name{/t}
+** Name
 Nama
 
-{t}Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
 Nama tidak boleh kosong, huruf kecil, min 3 karakter, mak 128 dan berisi [a-z0-9_-@.].
 
-{t}Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].{/t}
+** Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].
 Nama tidak boleh kosong, min 3 karakter, berisi [a-zA-Z0-9-_.].
 
-{t}need feedback{/t}
+** need feedback
 membutuhkan tanggapan
 
-{t}Network{/t}
+** Network
 Network
 
-{t}Never expires{/t}
+** Never expires
 Tidak pernah berakhir
 
-{t}New{/t}
+** New
 Baru
 
-{t}New folder{/t}
+** New folder
 Folder baru
 
-{t}News{/t}
+** News
 Berita
 
-{t}Next recurrences{/t}
+** Next recurrences
 
 
-{t}Nickname{/t}
+** Nickname
 Nama panggilan
 
-{t}Nightwork{/t}
+** Nightwork
 Kerja lembur/Nightwork
 
-{t}no{/t}
+** no
 tidak
 
-{t}No dataset selected.{/t}
+** No dataset selected.
 Tidak ada dataset yang dipilih
 
-{t}No entries found.{/t}
+** No entries found.
 Tidak ditemukan masukan data
 
-{t}No file was uploaded{/t}
+** No file was uploaded
 
 
-{t}No line breaks{/t}
+** No line breaks
 
 
-{t}no result{/t}
+** no result
 tidak ada hasil
 
-{t}No search index{/t}
+** No search index
 
 
-{t}No sender specified.{/t}
+** No sender specified.
 Tanpa pengirim yang spesifik
 
-{t}no username submitted{/t}
+** no username submitted
 tanpa mengirim username
 
-{t}No username/password.{/t}
+** No username/password.
 
 
-{t}No wrap{/t}
+** No wrap
 
 
-{t}Non unique{/t}
+** Non unique
 Tidak unik
 
-{t}none{/t}
+** none
 tidak ada
 
-{t}normal{/t}
+** normal
 normal
 
-{t}Not allowed. Please log in as super administrator.{/t}
+** Not allowed. Please log in as super administrator.
 Tidak diijinkan. Harap log in sebagai super administrator.
 
-{t}not contains{/t}
+** not contains
 tidak berisi
 
-{t}not equal{/t}
+** not equal
 tidak sama dengan
 
-{t}Not in{/t}
+** Not in
 
 
-{t}Not in database{/t}
+** Not in database
 
 
-{t}not installed{/t}
+** not installed
 
 
-{t}Note{/t}
+** Note
 
 
-{t}Notebook{/t}
+** Notebook
 Notebook
 
-{t}Notes{/t}
+** Notes
 Catatan
 
-{t}Notificaiton sent to: %s{/t}
+** Notificaiton sent to: %s
 Notifikasi dikirim ke: %s
 
-{t}Notification{/t}
+** Notification
 Notifikasi
 
-{t}Notification summary{/t}
+** Notification summary
 Rangkuman notifikasi
 
-{t}Notifications{/t}
+** Notifications
 
 
-{t}Nov{/t}
+** Nov
 
 
-{t}November{/t}
+** November
 Nopember
 
-{t}Null{/t}
+** Null
 Null
 
-{t}Number of employees{/t}
+** Number of employees
 Jumlah karyawan
 
-{t}numbered{/t}
+** numbered
 penomoran
 
-{t}Objectives{/t}
+** Objectives
 Obyektif
 
-{t}Oct{/t}
+** Oct
 
 
-{t}October{/t}
+** October
 Oktober
 
-{t}of {0}{/t}
+** of {0}
 
 
-{t}offer{/t}
+** offer
 
 
-{t}Offer{/t}
+** Offer
 
 
-{t}Office{/t}
+** Office
 Kantor
 
-{t}Office program{/t}
+** Office program
 Program kantor
 
-{t}Offices{/t}
+** Offices
 Kantor
 
-{t}offline{/t}
+** offline
 offline
 
-{t}Offline folders{/t}
+** Offline folders
 Folder offline
 
-{t}Offline reading{/t}
+** Offline reading
 
 
-{t}Ok{/t}
+** Ok
 Ok
 
-{t}one of{/t}
+** one of
 
 
-{t}online{/t}
+** online
 online
 
-{t}Only for this folder{/t}
+** Only for this folder
 
 
-{t}Only in{/t}
+** Only in
 
 
-{t}open{/t}
+** open
 
 
-{t}Open{/t}
+** Open
 Buka
 
-{t}Operating system{/t}
+** Operating system
 System operasi
 
-{t}Operation not allowed. (Data loss protection){/t}
+** Operation not allowed. (Data loss protection)
 Operasi tidak diijinkan. (Data kehilangan proteksi)
 
-{t}Optimize Tables{/t}
+** Optimize Tables
 Optimasi Tabel
 
-{t}Options{/t}
+** Options
 Pilihan
 
-{t}or{/t}
+** or
 atau
 
-{t}or higher{/t}
+** or higher
 atau lebih tinggi
 
-{t}orange{/t}
+** orange
 orange
 
-{t}Order size{/t}
+** Order size
 Jumlah order
 
-{t}Organisation{/t}
+** Organisation
 Organisasi
 
-{t}Organizer{/t}
+** Organizer
 Penyelenggara
 
-{t}Origin{/t}
+** Origin
 Asli
 
-{t}Original message{/t}
+** Original message
 Pesan original
 
-{t}Other{/t}
+** Other
 Lain
 
-{t}out of office{/t}
+** out of office
 diluar kantor
 
-{t}Outline image{/t}
+** Outline image
 Garis luar gambar
 
-{t}Output{/t}
+** Output
 Output
 
-{t}Output empty: %s{/t}
+** Output empty: %s
 
 
-{t}overlap{/t}
+** overlap
 overlap
 
-{t}Overtime{/t}
+** Overtime
 Lembur
 
-{t}Overtime compensation per hour{/t}
+** Overtime compensation per hour
 
 
-{t}Owner{/t}
+** Owner
 Owner/Pemilik
 
-{t}Owner since{/t}
+** Owner since
 Owner sejak
 
-{t}Package from local file system (.tar.gz){/t}
+** Package from local file system (.tar.gz)
 Paket dari file system lokal (.tar.gz)
 
-{t}Packed{/t}
+** Packed
 Packed
 
-{t}Page{/t}
+** Page
 Halaman
 
-{t}Page last modified on{/t}
+** Page last modified on
 
 
-{t}Page name (URL){/t}
+** Page name (URL)
 Nama halaman (URL)
 
-{t}Page not found{/t}
+** Page not found
 Halaman tidak ditemukan
 
-{t}Page title{/t}
+** Page title
 Judul halaman
 
-{t}Pager{/t}
+** Pager
 Pager
 
-{t}Paid{/t}
+** Paid
 
 
-{t}Paid holidays{/t}
+** Paid holidays
 
 
-{t}Paragraphs{/t}
+** Paragraphs
 Paragrap
 
-{t}parameters{/t}
+** parameters
 parameter
 
-{t}Parameters{/t}
+** Parameters
 Parameter
 
-{t}Parent folder{/t}
+** Parent folder
 
 
-{t}Parsing{/t}
+** Parsing
 Parsing
 
-{t}Part time{/t}
+** Part time
 
 
-{t}Participants{/t}
+** Participants
 Peserta
 
-{t}Participants (external){/t}
+** Participants (external)
 Peserta (eksternal)
 
-{t}Participants (internal){/t}
+** Participants (internal)
 Peserta (internal)
 
-{t}Password{/t}
+** Password
 Password
 
-{t}Password expired. (password of %s has expired){/t}
+** Password expired. (password of %s has expired)
 Password expired. (password dari %s telah expired)
 
-{t}Password expires{/t}
+** Password expires
 Password expires
 
-{t}Password must be not null, min 5 characters.{/t}
+** Password must be not null, min 5 characters.
 Password tidak boleh kosong, min 5 karakter.
 
-{t}password not confirmed.{/t}
+** password not confirmed.
 password tanpa dikonfirmasi.
 
-{t}Passwords{/t}
+** Passwords
 Passwords
 
-{t}Paste{/t}
+** Paste
 Paste
 
-{t}Path{/t}
+** Path
 Path
 
-{t}Pause{/t}
+** Pause
 Pause
 
-{t}Payroll{/t}
+** Payroll
 
 
-{t}Permissions{/t}
+** Permissions
 Perijinan
 
-{t}Permissions added for: %s{/t}
+** Permissions added for: %s
 Perijinan ditambahkan untu: %s
 
-{t}Personal{/t}
+** Personal
 Personal
 
-{t}Personal department{/t}
+** Personal department
 Departemen personal
 
-{t}Personal folders{/t}
+** Personal folders
 Folder personal
 
-{t}Personal projects{/t}
+** Personal projects
 Proyek personal
 
-{t}Phone{/t}
+** Phone
 Telepon
 
-{t}Phone calls{/t}
+** Phone calls
 Panggilan telepon
 
-{t}Phone private{/t}
+** Phone private
 Private phone
 
-{t}Photo{/t}
+** Photo
 Photo
 
-{t}Photo gallery{/t}
+** Photo gallery
 Galeri photo
 
-{t}Planned{/t}
+** Planned
 Perencanaan
 
-{t}Please activate cookies.{/t}
+** Please activate cookies.
 Harap aktifkan cookies.
 
-{t}Please choose Apache as Web-Server.{/t}
+** Please choose Apache as Web-Server.
 Harap pilih Apache sebagai Web-Server.
 
-{t}Please enable Javascript in your browser.{/t}
+** Please enable Javascript in your browser.
 
 
-{t}Please enter a valid url.{/t}
+** Please enter a valid url.
 Silahkan masukkan url yang valid.
 
-{t}Please give read access to %s{/t}
+** Please give read access to %s
 Harap berikan akses baca untuk %s
 
-{t}Please give write access to %s{/t}
+** Please give write access to %s
 Harap berikan akses menulis untuk %s
 
-{t}Please give write access to %s and %s{/t}
+** Please give write access to %s and %s
 Harap berikan akses menulis untuk %s dan %s
 
-{t}Please hit reload.{/t}
+** Please hit reload.
 Silahkan tekan reload.
 
-{t}Please input a valid e-mail adress.{/t}
+** Please input a valid e-mail adress.
 Silahkan masukkan alamat e-mail yang valid.
 
-{t}Please install 'tsearch2' for the PostgreSQL database.{/t}
+** Please install 'tsearch2' for the PostgreSQL database.
 Harap install tsearch2 untuk database PostgreSQL.
 
-{t}Please install the php-extension with name '%s'.{/t}
+** Please install the php-extension with name '%s'.
 
 
-{t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}
+** Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !
 Harap rubah php.ini anda tau tambahkan perubahan pada file .htaccess dengan disetting %s ke %s (nilai saat ini adalah %s) !
 
-{t}Please read the following license agreement. Use the scroll bar to view the rest of this agreement.{/t}
+** Please read the following license agreement. Use the scroll bar to view the rest of this agreement.
 Bacalah perjanjian lisensi berikut ini. Gunakan scroll bar untuk melihat sampai akhir halaman dari perjanjian ini.
 
-{t}Please select a location.{/t}
+** Please select a location.
 
 
-{t}Please select a participant.{/t}
+** Please select a participant.
 Silahkan pilih seorang peserta.
 
-{t}Please upload again.{/t}
+** Please upload again.
 Silahkan upload lagi
 
-{t}Please wait ...{/t}
+** Please wait ...
 Harap tunggu ...
 
-{t}Pop3-error: %s{/t}
+** Pop3-error: %s
 Pop3-error: %s
 
-{t}Port{/t}
+** Port
 Port
 
-{t}Portal{/t}
+** Portal
 Portal
 
-{t}Position{/t}
+** Position
 Posisi
 
-{t}Positions{/t}
+** Positions
 Posisi
 
-{t}Post{/t}
+** Post
 Posting
 
-{t}Practical training{/t}
+** Practical training
 
 
-{t}Preformatted block{/t}
+** Preformatted block
 Preformatted block
 
-{t}Prepend new field as{/t}
+** Prepend new field as
 
 
-{t}Prevent formatting{/t}
+** Prevent formatting
 Pencegahan pemformatan
 
-{t}Preview{/t}
+** Preview
 Preview
 
-{t}Price{/t}
+** Price
 Harga
 
-{t}Primary key{/t}
+** Primary key
 
 
-{t}Print{/t}
+** Print
 Cetak
 
-{t}Print all{/t}
+** Print all
 Cetak semua
 
-{t}Printer{/t}
+** Printer
 Printer
 
-{t}Priority{/t}
+** Priority
 Prioritas
 
-{t}Problem{/t}
+** Problem
 Problem
 
-{t}Processes{/t}
+** Processes
 Proses
 
-{t}Processing %s ...{/t}
+** Processing %s ...
 Prosesing %s ...
 
-{t}Program is installed with language %s, please use a different url or run the setup again.{/t}
+** Program is installed with language %s, please use a different url or run the setup again.
 Program diinstall dengan bahasa %s, harap gunakan url yang berbeda atau jalankan setup lagi.
 
-{t}Progress{/t}
+** Progress
 Progres
 
-{t}Project{/t}
+** Project
 Proyek
 
-{t}Project files{/t}
+** Project files
 File proyek
 
-{t}Project tasks{/t}
+** Project tasks
 Tugas proyek
 
-{t}Projects{/t}
+** Projects
 Proyek
 
-{t}promising{/t}
+** promising
 perjanjian
 
-{t}Properties{/t}
+** Properties
 Properti
 
-{t}Prospective client{/t}
+** Prospective client
 Calon client
 
-{t}Public holiday{/t}
+** Public holiday
 
 
-{t}Purchased{/t}
+** Purchased
 Pembelian
 
-{t}Question{/t}
+** Question
 Pertanyaan
 
-{t}Queue{/t}
+** Queue
 Antrian
 
-{t}Quick add{/t}
+** Quick add
 
 
-{t}Quota{/t}
+** Quota
 Kuaota
 
-{t}Quota (remaining){/t}
+** Quota (remaining)
 Sisa kuota
 
-{t}Quota [MB]{/t}
+** Quota [MB]
 Kuota [MB]
 
-{t}Quota limitation exceeded: %s{/t}
+** Quota limitation exceeded: %s
 Melebihi batas kuota: %s
 
-{t}R e g i s t e r{/t}
+** R e g i s t e r
 
 
-{t}Rating{/t}
+** Rating
 Rating
 
-{t}Read{/t}
+** Read
 Baca
 
-{t}read access{/t}
+** read access
 akses baca
 
-{t}Read access (groups){/t}
+** Read access (groups)
 Akses baca (group)
 
-{t}Read access (users){/t}
+** Read access (users)
 Akses baca (user)
 
-{t}Read only in{/t}
+** Read only in
 
 
-{t}Read this page offline:{/t}
+** Read this page offline:
 
 
-{t}ready for repair{/t}
+** ready for repair
 siap untuk perbaikan
 
-{t}ready for scrap{/t}
+** ready for scrap
 siap untuk scrap
 
-{t}Real URL format in the CMS{/t}
+** Real URL format in the CMS
 Format real URL di dalam CMS ini
 
-{t}Really apply rights to subfolders ?{/t}
+** Really apply rights to subfolders ?
 Yakin menerapkan hak untuk subfolder ?
 
-{t}Really apply the changes ?{/t}
+** Really apply the changes ?
 
 
-{t}Really delete ?{/t}
+** Really delete ?
 Yakin dihapus ?
 
-{t}REALLY delete ALL datasets ?{/t}
+** REALLY delete ALL datasets ?
 YAKIN hapus SEMUA dataset ?
 
-{t}Really delete ALL subfolders ?{/t}
+** Really delete ALL subfolders ?
 Yakin menghapus SEMUA subfolder ?
 
-{t}Really delete the dataset(s) ?{/t}
+** Really delete the dataset(s) ?
 Yakin menghapus dataset ini ?
 
-{t}Really empty the folder ?{/t}
+** Really empty the folder ?
 Yakin mengosongkan folder ini?
 
-{t}Really overwrite existing dataset(s) ?{/t}
+** Really overwrite existing dataset(s) ?
 Yakin overwrite dataset yang sudah ada ?
 
-{t}Really run setup again ?{/t}
+** Really run setup again ?
 Yakin akan menjalankan setup lagi ?
 
-{t}Really uninstall the module ?{/t}
+** Really uninstall the module ?
 
 
-{t}Rebuild search index{/t}
+** Rebuild search index
 Ulang index pencarian
 
-{t}Recent changes{/t}
+** Recent changes
 
 
-{t}Recipients{/t}
+** Recipients
 
 
-{t}Recommendation of affiliate{/t}
+** Recommendation of affiliate
 Rekomendasi dari afiliasi
 
-{t}Recurrence{/t}
+** Recurrence
 Pengulangan
 
-{t}Recurrences{/t}
+** Recurrences
 
 
-{t}red{/t}
+** red
 merah
 
-{t}Redirect to home directory{/t}
+** Redirect to home directory
 Redirect untuk home direktori
 
-{t}Reference{/t}
+** Reference
 
 
-{t}Refresh{/t}
+** Refresh
 
 
-{t}Refresh every x seconds{/t}
+** Refresh every x seconds
 Refresh setiap x detik
 
-{t}Regular{/t}
+** Regular
 Reguler
 
-{t}Reject{/t}
+** Reject
 
 
-{t}rejected{/t}
+** rejected
 ditolak
 
-{t}Relative formats{/t}
+** Relative formats
 
 
-{t}Relaunch Setup{/t}
+** Relaunch Setup
 Relaunch Setup
 
-{t}Relevance{/t}
+** Relevance
 Relevansi
 
-{t}Reminder{/t}
+** Reminder
 Pengingat
 
-{t}rename{/t}
+** rename
 
 
-{t}Rename folder{/t}
+** Rename folder
 Ubah nama folder
 
-{t}Repeat count{/t}
+** Repeat count
 Jumlah ulang
 
-{t}Repeat exclusions{/t}
+** Repeat exclusions
 Ulang pengecualian
 
-{t}Repeat interval{/t}
+** Repeat interval
 Interval pengulangan
 
-{t}Repeat until{/t}
+** Repeat until
 Ulang sampai dengan
 
-{t}Reply{/t}
+** Reply
 Balas
 
-{t}Reply all{/t}
+** Reply all
 Balas semua
 
-{t}Require admin access to set mountpoints{/t}
+** Require admin access to set mountpoints
 Dibutuhkan hak akses admin untuk melakukan set maountpoints
 
-{t}Required{/t}
+** Required
 
 
-{t}Required fields{/t}
+** Required fields
 
 
-{t}Reseller{/t}
+** Reseller
 Reseller
 
-{t}reserved{/t}
+** reserved
 reservasi
 
-{t}Reset view{/t}
+** Reset view
 Reset view
 
-{t}Resource{/t}
+** Resource
 Resource
 
-{t}Resources{/t}
+** Resources
 Resources
 
-{t}Responsible{/t}
+** Responsible
 Tanggung jawab
 
-{t}Responsible (external){/t}
+** Responsible (external)
 Tanggung jawab (eksternal)
 
-{t}Responsible (internal){/t}
+** Responsible (internal)
 Tanggung jawab (internal)
 
-{t}Restore complete{/t}
+** Restore complete
 Restore selesai
 
-{t}Restore here{/t}
+** Restore here
 Restore disini
 
-{t}Restore only missing{/t}
+** Restore only missing
 Restore hanya untuk yang hilang
 
-{t}Restore only newer{/t}
+** Restore only newer
 Restore hanya untuk yang terbaru
 
-{t}Restore to origin{/t}
+** Restore to origin
 Restore untuk yang original
 
-{t}Return receipt{/t}
+** Return receipt
 Terima kembali
 
-{t}right-aligned{/t}
+** right-aligned
 rata kanan
 
-{t}Rights{/t}
+** Rights
 Hak-hak
 
-{t}Risks{/t}
+** Risks
 
 
-{t}Room name{/t}
+** Room name
 Nama room
 
-{t}Room number{/t}
+** Room number
 Nomor room
 
-{t}Rooms{/t}
+** Rooms
 Room
 
-{t}Rows{/t}
+** Rows
 Baris
 
-{t}Run Setup again{/t}
+** Run Setup again
 Jalankan Setup lagi
 
-{t}S a v e{/t}
+** S a v e
 S i m p a n
 
-{t}S a v e  a n d  E d i t{/t}
+** S a v e  a n d  E d i t
 
 
-{t}S a v e  a n d  g o  b a c k{/t}
+** S a v e  a n d  g o  b a c k
 S i m p a n  d a n  k e m b a l i
 
-{t}Sa{/t}
+** Sa
 Sb
 
-{t}Salary{/t}
+** Salary
 
 
-{t}Salary per{/t}
+** Salary per
 
 
-{t}Sales promotion{/t}
+** Sales promotion
 Promosi penjualan
 
-{t}Sat{/t}
+** Sat
 Sb
 
-{t}Saturday{/t}
+** Saturday
 Sabtu
 
-{t}Scheduling{/t}
+** Scheduling
 Penjadwalan
 
-{t}Schema{/t}
+** Schema
 Skema
 
-{t}Schema data{/t}
+** Schema data
 Skema data
 
-{t}Schemafile not found. (%s){/t}
+** Schemafile not found. (%s)
 Skema file tidak ditemukan
 
-{t}School{/t}
+** School
 
 
-{t}scrapped{/t}
+** scrapped
 scrapped
 
-{t}Search{/t}
+** Search
 Cari
 
-{t}Search by ID{/t}
+** Search by ID
 
 
-{t}second level support{/t}
+** second level support
 
 
-{t}Second manager{/t}
+** Second manager
 Wakil manager
 
-{t}seconds{/t}
+** seconds
 
 
-{t}Secretary{/t}
+** Secretary
 Sekretaris
 
-{t}Self registration{/t}
+** Self registration
 Registrasi
 
-{t}Self registration needs confirmation by an administrator.{/t}
+** Self registration needs confirmation by an administrator.
 
 
-{t}Send now{/t}
+** Send now
 
 
-{t}Sent{/t}
+** Sent
 
 
-{t}Sent reminders{/t}
+** Sent reminders
 Kirim reminder
 
-{t}Sep{/t}
+** Sep
 
 
-{t}Separate fields{/t}
+** Separate fields
 
 
-{t}Separate values{/t}
+** Separate values
 
 
-{t}Separator{/t}
+** Separator
 
 
-{t}Separators{/t}
+** Separators
 Spasi/Pemisah
 
-{t}September{/t}
+** September
 September
 
-{t}Serial number{/t}
+** Serial number
 Serial number
 
-{t}Server{/t}
+** Server
 Server
 
-{t}Server does not support sorting{/t}
+** Server does not support sorting
 Server tidak support untuk sorting
 
-{t}Server-IP{/t}
+** Server-IP
 IP-Server
 
-{t}Service provider{/t}
+** Service provider
 Service provider
 
-{t}Session name in cookie{/t}
+** Session name in cookie
 Nama sesi di dalam cookie
 
-{t}Session timeout{/t}
+** Session timeout
 Sesi timeout
 
-{t}Sessions{/t}
+** Sessions
 Sesi
 
-{t}Settings{/t}
+** Settings
 
 
-{t}Setup{/t}
+** Setup
 Setup
 
-{t}Setup needs a database-php-extension ! (%s){/t}
+** Setup needs a database-php-extension ! (%s)
 Setup membutuhkan sebuah database-php-extension ! (%s)
 
-{t}Setup needs php with at least version %s !{/t}
+** Setup needs php with at least version %s !
 Setup membutuhkan php dengan versi minimum %s !
 
-{t}Setup needs php-extension with name %s !{/t}
+** Setup needs php-extension with name %s !
 Setup membutuhkan php-extension dengan nama %s !
 
-{t}Setup needs Simple Groupware with at least version %s !{/t}
+** Setup needs Simple Groupware with at least version %s !
 
 
-{t}Setup: setup-data written to %s.{/t}
+** Setup: setup-data written to %s.
 Setup: setup-data ditulis ke %s.
 
-{t}Shapes{/t}
+** Shapes
 Shape
 
-{t}Share{/t}
+** Share
 Share
 
-{t}Shared{/t}
+** Shared
 
 
-{t}Short links{/t}
+** Short links
 
 
-{t}Show{/t}
+** Show
 Show
 
-{t}Show all rules{/t}
+** Show all rules
 
 
-{t}Show archive{/t}
+** Show archive
 Show arsip
 
-{t}Show details{/t}
+** Show details
 
 
-{t}Show folder description in content area{/t}
+** Show folder description in content area
 
 
-{t}Show password{/t}
+** Show password
 
 
-{t}Show quoted text{/t}
+** Show quoted text
 Tampilkan kutipan text
 
-{t}Similar{/t}
+** Similar
 
 
-{t}Simple tables{/t}
+** Simple tables
 Simple tabel
 
-{t}single{/t}
+** single
 single
 
-{t}Single choice{/t}
+** Single choice
 
 
-{t}Size{/t}
+** Size
 Size
 
-{t}Size (children){/t}
+** Size (children)
 Size (anak)
 
-{t}Slow{/t}
+** Slow
 Lambat
 
-{t}small{/t}
+** small
 kecil
 
-{t}small text{/t}
+** small text
 text kecil
 
-{t}smaller{/t}
+** smaller
 lebih kecil
 
-{t}SMTP not configured for %s{/t}
+** SMTP not configured for %s
 SMTP tidak dikonfigurasi untuk %s
 
-{t}Smtp-error %s: %s{/t}
+** Smtp-error %s: %s
 Smtp-error %s: %s
 
-{t}Software{/t}
+** Software
 Software
 
-{t}Solution{/t}
+** Solution
 Solusi
 
-{t}Solution type{/t}
+** Solution type
 Tipe solusi
 
-{t}some text{/t}
+** some text
 
 
-{t}Source{/t}
+** Source
 
 
-{t}Source code{/t}
+** Source code
 Source code
 
-{t}Special leave{/t}
+** Special leave
 
 
-{t}Specification{/t}
+** Specification
 Spesifikasi
 
-{t}Spreadsheet{/t}
+** Spreadsheet
 Spreadsheet
 
-{t}SQL failed.{/t}
+** SQL failed.
 SQL gagal.
 
-{t}SQL FAILED: %s{/t}
+** SQL FAILED: %s
 SQL GAGAL: %s
 
-{t}Start scheduled{/t}
+** Start scheduled
 Mulai penjadwalan
 
-{t}Started{/t}
+** Started
 Dimulai
 
-{t}starts with{/t}
+** starts with
 mulai dengan
 
-{t}State{/t}
+** State
 Propinsi
 
-{t}Static cache{/t}
+** Static cache
 Cache static
 
-{t}Statistics{/t}
+** Statistics
 Statistik
 
-{t}Status{/t}
+** Status
 Status
 
-{t}Statuses{/t}
+** Statuses
 Status
 
-{t}Strategies{/t}
+** Strategies
 Strategi
 
-{t}Street{/t}
+** Street
 Jalan
 
-{t}Structure{/t}
+** Structure
 Struktur
 
-{t}Su{/t}
+** Su
 Mg
 
-{t}Subfolder{/t}
+** Subfolder
 
 
-{t}Subfolders{/t}
+** Subfolders
 
 
-{t}subheading{/t}
+** subheading
 subheading
 
-{t}Subitem{/t}
+** Subitem
 Subitem
 
-{t}Subject{/t}
+** Subject
 Subyek
 
-{t}Subjects{/t}
+** Subjects
 Subyek
 
-{t}Submit a patch{/t}
+** Submit a patch
 Kirim patch
 
-{t}Subpages{/t}
+** Subpages
 
 
-{t}subscript{/t}
+** subscript
 subscript
 
-{t}Subsistence costs{/t}
+** Subsistence costs
 Cost subsistence
 
-{t}Sum{/t}
+** Sum
 
 
-{t}Summary{/t}
+** Summary
 Rangkuman
 
-{t}Sun{/t}
+** Sun
 Mgu
 
-{t}Sunday{/t}
+** Sunday
 Minggu
 
-{t}Superior{/t}
+** Superior
 Superior
 
-{t}superscript{/t}
+** superscript
 superscript
 
-{t}Supplier{/t}
+** Supplier
 Supplier
 
-{t}Suppliers{/t}
+** Suppliers
 Supplier
 
-{t}Support{/t}
+** Support
 Support/dukungan
 
-{t}Support request{/t}
+** Support request
 Request support
 
-{t}Surveys{/t}
+** Surveys
 
 
-{t}Suspended{/t}
+** Suspended
 Ditangguhkan
 
-{t}Switch maintenance mode{/t}
+** Switch maintenance mode
 Switch modus pemeliharaan
 
-{t}Sync4j remote delete items{/t}
+** Sync4j remote delete items
 Hapus item Sync4j secara remote
 
-{t}Syntax{/t}
+** Syntax
 
 
-{t}System{/t}
+** System
 System
 
-{t}System command executed: %s{/t}
+** System command executed: %s
 
 
-{t}Tab{/t}
+** Tab
 
 
-{t}Table{/t}
+** Table
 Tabel
 
-{t}Table sizes{/t}
+** Table sizes
 Ukuran tabel
 
-{t}Table status{/t}
+** Table status
 Status tabel
 
-{t}Tables{/t}
+** Tables
 Tabel
 
-{t}Take over{/t}
+** Take over
 
 
-{t}Take selection{/t}
+** Take selection
 
 
-{t}Task{/t}
+** Task
 
 
-{t}Task with ID %s{/t}
+** Task with ID %s
 
 
-{t}Tasks{/t}
+** Tasks
 Tugas
 
-{t}Tasks with responsible %s{/t}
+** Tasks with responsible %s
 
 
-{t}Template{/t}
+** Template
 Template
 
-{t}Templates{/t}
+** Templates
 Template
 
-{t}Temporary work{/t}
+** Temporary work
 
 
-{t}term{/t}
+** term
 istilah
 
-{t}Text area{/t}
+** Text area
 
 
-{t}Text Document{/t}
+** Text Document
 Dokument Text
 
-{t}Text formatting rules{/t}
+** Text formatting rules
 Aturan pemformatan text
 
-{t}Th{/t}
+** Th
 Km
 
-{t}Thanks for voting!{/t}
+** Thanks for voting!
 
 
-{t}The folder cannot be copied.{/t}
+** The folder cannot be copied.
 Folder ini tidak dapat di copy
 
-{t}The folder cannot be deleted.{/t}
+** The folder cannot be deleted.
 Folder ini tidak dapat dihapus
 
-{t}The folder cannot be moved.{/t}
+** The folder cannot be moved.
 Folder ini tidak dapat dipindahkan
 
-{t}The new password is{/t}
+** The new password is
 Password yang baru adalah
 
-{t}The url doesn't exist.{/t}
+** The url doesn't exist.
 Url ini tidak ada
 
-{t}Theme{/t}
+** Theme
 Tema
 
-{t}third level support{/t}
+** third level support
 
 
-{t}this file extension is not allowed{/t}
+** this file extension is not allowed
 ekstensi file ini tidak diijinkan
 
-{t}Thu{/t}
+** Thu
 Kms
 
-{t}Thursday{/t}
+** Thursday
 Kamis
 
-{t}Time and expenses{/t}
+** Time and expenses
 Waktu dan biaya
 
-{t}Time limit{/t}
+** Time limit
 
 
-{t}Time sheets{/t}
+** Time sheets
 Time sheets
 
-{t}Time zone{/t}
+** Time zone
 Zona waktu
 
-{t}timeout{/t}
+** timeout
 timeout
 
-{t}Title{/t}
+** Title
 Judul
 
-{t}To{/t}
+** To
 Kepada
 
-{t}to be checked{/t}
+** to be checked
 yang akan diperiksa
 
-{t}To continue installing Simple Groupware you must check the box under the license{/t}
+** To continue installing Simple Groupware you must check the box under the license
 Untuk melanjutkan installing Aplikasi Knowledge Management anda harus menandai check box dibawah perjanjian ini
 
-{t}Today{/t}
+** Today
 Hari ini
 
-{t}Too many wrong logins. Please wait 15 minutes.{/t}
+** Too many wrong logins. Please wait 15 minutes.
 Terlalu banyak salah login. Mohon tunggu 15 menit lagi.
 
-{t}Total{/t}
+** Total
 Total
 
-{t}Trace{/t}
+** Trace
 Trace
 
-{t}Trade fair{/t}
+** Trade fair
 Trade fair
 
-{t}translations{/t}
+** translations
 translasi
 
-{t}Translations of the GNU GPL{/t}
+** Translations of the GNU GPL
 Translasi dari GNU GPL
 
-{t}Transportation costs{/t}
+** Transportation costs
 Biaya perjalanan
 
-{t}Trash{/t}
+** Trash
 Trash
 
-{t}Trash folder not found.{/t}
+** Trash folder not found.
 Folder trash tidak ditemukan
 
-{t}Tree{/t}
+** Tree
 Tree
 
-{t}Trigger failed{/t}
+** Trigger failed
 Trigger gagal
 
-{t}Tu{/t}
+** Tu
 Sl
 
-{t}Tue{/t}
+** Tue
 Sel
 
-{t}Tuesday{/t}
+** Tuesday
 Selasa
 
-{t}Type{/t}
+** Type
 Tipe
 
-{t}U n i n s t a l l{/t}
+** U n i n s t a l l
 
 
-{t}unable to find %s{/t}
+** unable to find %s
 tidak menemukan %s
 
-{t}Unable to write to %s{/t}
+** Unable to write to %s
 Tidak dapat menulis untuk %s
 
-{t}unconfirmed{/t}
+** unconfirmed
 tanpa konfirmasi
 
-{t}Unconfirmed{/t}
+** Unconfirmed
 
 
-{t}underline{/t}
+** underline
 
 
-{t}Uninstall does not delete any data in the database.{/t}
+** Uninstall does not delete any data in the database.
 
 
-{t}uninterested{/t}
+** uninterested
 tidak interest
 
-{t}Unique{/t}
+** Unique
 
 
-{t}Unique with trash{/t}
+** Unique with trash
 
 
-{t}Unlock{/t}
+** Unlock
 Tidak terkunci
 
-{t}Up{/t}
+** Up
 Naik
 
-{t}Update{/t}
+** Update
 Update
 
-{t}Update Simple Groupware{/t}
+** Update Simple Groupware
 
 
-{t}Updated{/t}
+** Updated
 Diupdate
 
-{t}Updating schema %s from %s.{/t}
+** Updating schema %s from %s.
 Update skema %s dari %s.
 
-{t}Upload failed{/t}
+** Upload failed
 Upload gagal
 
-{t}Uploaded files{/t}
+** Uploaded files
 Upload file
 
-{t}Uploading{/t}
+** Uploading
 
 
-{t}urgent{/t}
+** urgent
 mendesak
 
-{t}URL{/t}
+** URL
 URL
 
-{t}Usage{/t}
+** Usage
 Penggunaan
 
-{t}USD{/t}
+** USD
 USD
 
-{t}Use APC for session storage{/t}
+** Use APC for session storage
 
 
-{t}Use Debian binaries (Warning: not latest versions){/t}
+** Use Debian binaries (Warning: not latest versions)
 Gunakan Debian binari (Perhatian: tidak versi terbaru)
 
-{t}Use LDAP Groups{/t}
+** Use LDAP Groups
 Gunakan Group LPAD
 
-{t}use mirror from{/t}
+** use mirror from
 
 
-{t}Use syslog() function for logging events{/t}
+** Use syslog() function for logging events
 
 
-{t}Use the mail() function for sending mails (insecure){/t}
+** Use the mail() function for sending mails (insecure)
 Gunakan fungsi mail() untuk mengirim mail (aman)
 
-{t}User{/t}
+** User
 User
 
-{t}User not found.{/t}
+** User not found.
 
 
-{t}Username{/t}
+** Username
 Username
 
-{t}Username must be different from the super administrator.{/t}
+** Username must be different from the super administrator.
 Username harus berbeda dengan super administrator.
 
-{t}Users{/t}
+** Users
 User
 
-{t}V a l i d a t e{/t}
+** V a l i d a t e
 
 
-{t}V o t e !{/t}
+** V o t e !
 
 
-{t}Vacation{/t}
+** Vacation
 Liburan
 
-{t}Vacation days per year{/t}
+** Vacation days per year
 
 
-{t}Validating %s ...{/t}
+** Validating %s ...
 
 
-{t}validation failed{/t}
+** validation failed
 validasi gagal
 
-{t}Value{/t}
+** Value
 Value
 
-{t}Value '%s' needs a group membership: %s{/t}
+** Value '%s' needs a group membership: %s
 
 
-{t}Variable{/t}
+** Variable
 Variabel
 
-{t}Variable already exists in table. (%s){/t}
+** Variable already exists in table. (%s)
 Variabel sudah ada didalam tabel.
 
-{t}Variable must be of type date (mm/dd/yyyy).{/t}
+** Variable must be of type date (mm/dd/yyyy).
 Variabel harus bertipe tanggal (dd/mm/yyyy).
 
-{t}Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).{/t}
+** Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).
 Variabel harus bertipe tanggal waktu (dd/mm/yyyy hh:mm am/pm).
 
-{t}Variable must be of type float.{/t}
+** Variable must be of type float.
 Variabel harus bertipe float.
 
-{t}Variable must be of type int and greater than 0.{/t}
+** Variable must be of type int and greater than 0.
 Variabel harus bertipe int dan lebih besar dari 0.
 
-{t}Variable must be of type int.{/t}
+** Variable must be of type int.
 Variabel harus bertipe int.
 
-{t}Variable must be of type time (hh:mm am/pm).{/t}
+** Variable must be of type time (hh:mm am/pm).
 Variabel harus bertipe data waktu (hh:mm am/pm).
 
-{t}Variables{/t}
+** Variables
 Variabel
 
-{t}Verbal recommendation{/t}
+** Verbal recommendation
 Rekomendasi verbal
 
-{t}verified{/t}
+** verified
 Diverifikasi
 
-{t}vertical{/t}
+** vertical
 vertical
 
-{t}very promising{/t}
+** very promising
 sangat menjanjikan
 
-{t}View{/t}
+** View
 
 
-{t}View access (groups){/t}
+** View access (groups)
 
 
-{t}View access (users){/t}
+** View access (users)
 
 
-{t}Virus scanner{/t}
+** Virus scanner
 Virus scanner
 
-{t}Visibility{/t}
+** Visibility
 
 
-{t}Voice mail{/t}
+** Voice mail
 Voice mail
 
-{t}Vote{/t}
+** Vote
 
 
-{t}Voted by{/t}
+** Voted by
 
 
-{t}Waiting{/t}
+** Waiting
 Menunggu
 
-{t}Warning{/t}
+** Warning
 Perhatian
 
-{t}We{/t}
+** We
 Rb
 
-{t}Web{/t}
+** Web
 Web
 
-{t}Web page{/t}
+** Web page
 
 
-{t}Wed{/t}
+** Wed
 Rab
 
-{t}Wednesday{/t}
+** Wednesday
 Rabu
 
-{t}Week{/t}
+** Week
 Seminggu
 
-{t}Week start{/t}
+** Week start
 Awal pekan
 
-{t}Weekend{/t}
+** Weekend
 Akhir pekan
 
-{t}weekly{/t}
+** weekly
 mingguan
 
-{t}weeks{/t}
+** weeks
 pekan
 
-{t}Welcome to Simple Groupware!{/t}
+** Welcome to Simple Groupware!
 
 
-{t}white{/t}
+** white
 putih
 
-{t}widowed{/t}
+** widowed
 janda
 
-{t}Width{/t}
+** Width
 
 
-{t}Wiki{/t}
+** Wiki
 Wiki
 
-{t}WikiStyles{/t}
+** WikiStyles
 WikiStyles
 
-{t}won't fix{/t}
+** won't fix
 wont fix
 
-{t}word{/t}
+** word
 
 
-{t}Workflow{/t}
+** Workflow
 
 
-{t}Working student{/t}
+** Working student
 
 
-{t}works as expected{/t}
+** works as expected
 pekerjaan yang diharapkan
 
-{t}works for me{/t}
+** works for me
 pekerjaan untuk saya
 
-{t}Workshop{/t}
+** Workshop
 Workshop
 
-{t}Workspace{/t}
+** Workspace
 Workspace
 
-{t}write access{/t}
+** write access
 akses menulis
 
-{t}Write access (groups){/t}
+** Write access (groups)
 Akses menulis (group)
 
-{t}Write access (users){/t}
+** Write access (users)
 Akses menulis (user)
 
-{t}Wrong database-version (%s). Please use at least %s !{/t}
+** Wrong database-version (%s). Please use at least %s !
 Versi database (%s) salah. Harap gunakan paling tidak %s !
 
-{t}wrong directory{/t}
+** wrong directory
 direktori salah
 
-{t}wrong password{/t}
+** wrong password
 password salah
 
-{t}Year{/t}
+** Year
 Tahun
 
-{t}yearly{/t}
+** yearly
 tahunan
 
-{t}years{/t}
+** years
 
 
-{t}yellow{/t}
+** yellow
 kuning
 
-{t}yes{/t}
+** yes
 ya
 
-{t}You are not allowed to view this folder.{/t}
+** You are not allowed to view this folder.
 Anda tidak diijinkan untuk melihat folder ini.
 
-{t}Your message was read on %s.{/t}
+** Your message was read on %s.
 Pesan anda sudah dibaca pada %s.
 
-{t}Your session has timed out.{/t}
+** Your session has timed out.
 Sesi anda sudah time out.
 
-{t}Zipcode{/t}
+** Zipcode
 Kode pos
 
-{t}{0} - {1} of {2}{/t}
+** {0} - {1} of {2}
 
 

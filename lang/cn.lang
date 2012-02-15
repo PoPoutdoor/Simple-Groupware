@@ -3,3534 +3,3534 @@
  * @license GPLv2
  */
 
-{t}!_Copyright_Language_File{/t}
+** !_Copyright_Language_File
 Copyright (C) 2009 Wang Zhanjun
 
-{t}!_Language{/t}
+** !_Language
 Chinese / China
 
-{t}%s is not activated{/t}
+** %s is not activated
 %s没有激活
 
-{t}%s is not compiled / loaded into PHP.{/t}
+** %s is not compiled / loaded into PHP.
 %s没有编译/载入PHP
 
-{t}%s M memory usage{/t}
+** %s M memory usage
 
 
-{t}%s not in database{/t}
+** %s not in database
 数据库中没有找到%s
 
-{t}%s rows affected{/t}
+** %s rows affected
 影响%s行
 
-{t}%s secs{/t}
+** %s secs
 %s秒
 
-{t}%s started editing this asset at %s{/t}
+** %s started editing this asset at %s
 %s开始编辑%s附件
 
-{t}(for active directory username must be: username@domain){/t}
+** (for active directory username must be: username@domain)
 (for active directory username must be: username@domain)
 
-{t}(un)Group{/t}
+** (un)Group
 (取消)分组
 
-{t}About{/t}
+** About
 关于
 
-{t}Absence{/t}
+** Absence
 
 
-{t}accepted{/t}
+** accepted
 接受
 
-{t}Access denied.{/t}
+** Access denied.
 无权访问。
 
-{t}Access to this file has been denied.{/t}
+** Access to this file has been denied.
 无权访问此文件。
 
-{t}Account{/t}
+** Account
 账户
 
-{t}account of %s has expired{/t}
+** account of %s has expired
 %s的账户已经过期
 
-{t}Accounting{/t}
+** Accounting
 账户
 
-{t}Activate{/t}
+** Activate
 
 
-{t}Activated{/t}
+** Activated
 已激活
 
-{t}active{/t}
+** active
 
 
-{t}Active{/t}
+** Active
 活动
 
-{t}Ad{/t}
+** Ad
 广告
 
-{t}Add{/t}
+** Add
 添加
 
-{t}Add a special rule{/t}
+** Add a special rule
 
 
-{t}Add to offline folders{/t}
+** Add to offline folders
 添加到离线文件夹
 
-{t}added line{/t}
+** added line
 添加行
 
-{t}Address{/t}
+** Address
 地址
 
-{t}admin access{/t}
+** admin access
 管理区
 
-{t}Admin access (groups){/t}
+** Admin access (groups)
 管理（组）
 
-{t}Admin access (users){/t}
+** Admin access (users)
 管理（成员）
 
-{t}Admin Password{/t}
+** Admin Password
 管理员密码
 
-{t}Admin Username{/t}
+** Admin Username
 管理员用户名
 
-{t}Administration{/t}
+** Administration
 管理
 
-{t}Advanced tables{/t}
+** Advanced tables
 高级表格
 
-{t}Affected user{/t}
+** Affected user
 受影响用户
 
-{t}Affiliate{/t}
+** Affiliate
 附属机构
 
-{t}after{/t}
+** after
 之后
 
-{t}Agent{/t}
+** Agent
 代理
 
-{t}Ajax Error{/t}
+** Ajax Error
 Ajax错误
 
-{t}All{/t}
+** All
 所有
 
-{t}All day{/t}
+** All day
 全天
 
-{t}All events{/t}
+** All events
 所有事件
 
-{t}All finished tasks{/t}
+** All finished tasks
 
 
-{t}All pending tasks{/t}
+** All pending tasks
 
 
-{t}Allow custom values{/t}
+** Allow custom values
 
 
-{t}Allow disabled modules{/t}
+** Allow disabled modules
 
 
-{t}Already running latest release.{/t}
+** Already running latest release.
 已经是最新版本。
 
-{t}Already voted.{/t}
+** Already voted.
 
 
-{t}Amount{/t}
+** Amount
 总额
 
-{t}Anchor{/t}
+** Anchor
 标记
 
-{t}and{/t}
+** and
 和
 
-{t}Anniversary{/t}
+** Anniversary
 周年纪念日
 
-{t}another page{/t}
+** another page
 另一页
 
-{t}answered{/t}
+** answered
 已回答
 
-{t}Answers{/t}
+** Answers
 
 
-{t}Apache based (.htaccess, Basic, Digest, etc.){/t}
+** Apache based (.htaccess, Basic, Digest, etc.)
 基于Apache(.htaccess, Basic, Digest, 等.)
 
-{t}Application title{/t}
+** Application title
 系统标题
 
-{t}Apply rights to subfolders{/t}
+** Apply rights to subfolders
 应用权限到子目录
 
-{t}Appointment{/t}
+** Appointment
 
 
-{t}Appointments{/t}
+** Appointments
 
 
-{t}Apprenticeship{/t}
+** Apprenticeship
 
 
-{t}Apr{/t}
+** Apr
 
 
-{t}April{/t}
+** April
 四月
 
-{t}Archive{/t}
+** Archive
 
 
-{t}Archive deleted files{/t}
+** Archive deleted files
 归档已删除文件
 
-{t}Asset{/t}
+** Asset
 
 
-{t}Asset marked as read-only.{/t}
+** Asset marked as read-only.
 Asset标记为只读。
 
-{t}Assets{/t}
+** Assets
 Assets
 
-{t}Assets (children){/t}
+** Assets (children)
 Assets (children)
 
-{t}Assets can be imported into multiple folders by adding the "Folder" column.{/t}
+** Assets can be imported into multiple folders by adding the "Folder" column.
 
 
-{t}Assets can be overwritten by adding the "Id" column.{/t}
+** Assets can be overwritten by adding the "Id" column.
 
 
-{t}assigned{/t}
+** assigned
 分配
 
-{t}at least 20 characters{/t}
+** at least 20 characters
 
 
-{t}attach file{/t}
+** attach file
 附加文件
 
-{t}Attachment{/t}
+** Attachment
 附件
 
-{t}Attachments{/t}
+** Attachments
 附件
 
-{t}Attend{/t}
+** Attend
 
 
-{t}Aug{/t}
+** Aug
 
 
-{t}August{/t}
+** August
 八月
 
-{t}Authentication Mode{/t}
+** Authentication Mode
 身份认证模式
 
-{t}Author{/t}
+** Author
 作者
 
-{t}Automatically hide the menu{/t}
+** Automatically hide the menu
 
 
-{t}Automatically hide the tree{/t}
+** Automatically hide the tree
 
 
-{t}Average{/t}
+** Average
 
 
-{t}Average progress{/t}
+** Average progress
 
 
-{t}Avg length{/t}
+** Avg length
 平均长度
 
-{t}Back{/t}
+** Back
 返回
 
-{t}Backup{/t}
+** Backup
 备份
 
-{t}Backup current folder{/t}
+** Backup current folder
 备份当前文件夹
 
-{t}Backups{/t}
+** Backups
 备份
 
-{t}Basic editing{/t}
+** Basic editing
 基本编辑
 
-{t}before{/t}
+** before
 之前
 
-{t}Before{/t}
+** Before
 
 
-{t}Begin{/t}
+** Begin
 开始
 
-{t}big{/t}
+** big
 大
 
-{t}big text{/t}
+** big text
 大字体
 
-{t}bigger{/t}
+** bigger
 较大
 
-{t}Billing address{/t}
+** Billing address
 账单地址
 
-{t}Birthday{/t}
+** Birthday
 生日
 
-{t}Birthdays{/t}
+** Birthdays
 生日
 
-{t}Blank{/t}
+** Blank
 空白
 
-{t}blue{/t}
+** blue
 蓝色
 
-{t}bold{/t}
+** bold
 加粗
 
-{t}bold italic{/t}
+** bold italic
 倾斜加粗
 
-{t}Book{/t}
+** Book
 
 
-{t}booked{/t}
+** booked
 登记
 
-{t}Booked{/t}
+** Booked
 登记
 
-{t}Booking number{/t}
+** Booking number
 登记编号
 
-{t}Bookings{/t}
+** Bookings
 登记
 
-{t}Bookmark{/t}
+** Bookmark
 
 
-{t}Bookmarks{/t}
+** Bookmarks
 书签
 
-{t}borrowed{/t}
+** borrowed
 借入
 
-{t}Brand{/t}
+** Brand
 商标
 
-{t}Brands{/t}
+** Brands
 商标
 
-{t}Browser Compatibility{/t}
+** Browser Compatibility
 浏览器兼容性
 
-{t}Browser not supported{/t}
+** Browser not supported
 不支持的浏览器
 
-{t}Budget{/t}
+** Budget
 预算
 
-{t}Bug{/t}
+** Bug
 缺陷
 
-{t}bulleted{/t}
+** bulleted
 项目列表符号
 
-{t}Business{/t}
+** Business
 事务
 
-{t}C a n c e l{/t}
+** C a n c e l
 
 
-{t}C O N T I N U E{/t}
+** C O N T I N U E
 继续
 
-{t}Cache output{/t}
+** Cache output
 缓存输出
 
-{t}Caches{/t}
+** Caches
 缓存
 
-{t}Calendar{/t}
+** Calendar
 日程表
 
-{t}Cancel{/t}
+** Cancel
 
 
-{t}canceled{/t}
+** canceled
 取消
 
-{t}Canceled{/t}
+** Canceled
 取消
 
-{t}Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.{/t}
+** Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.
 Cannot call proc_open. Please remove proc_open from disable_functions in php.ini and disable safe_mode.
 
-{t}Cannot connect to database %s on %s.{/t}
+** Cannot connect to database %s on %s.
 不能连接到%s数据库到%s。
 
-{t}Cannot create preview for %s{/t}
+** Cannot create preview for %s
 不能建立%s的预览
 
-{t}Cannot read the file %s.{/t}
+** Cannot read the file %s.
 不能读取文件%s。
 
-{t}Cardinality{/t}
+** Cardinality
 表间关系
 
-{t}Categories{/t}
+** Categories
 类别
 
-{t}Category{/t}
+** Category
 类别
 
-{t}Cc{/t}
+** Cc
 Cc
 
-{t}centered{/t}
+** centered
 中心的
 
-{t}CEO{/t}
+** CEO
 CEO
 
-{t}Change request{/t}
+** Change request
 更改请求
 
-{t}Change settings{/t}
+** Change settings
 更改设置
 
-{t}Change Setup settings{/t}
+** Change Setup settings
 更改安装设置
 
-{t}Change summary{/t}
+** Change summary
 更改摘要
 
-{t}Changed{/t}
+** Changed
 
 
-{t}changed line{/t}
+** changed line
 已修改行
 
-{t}Changelog{/t}
+** Changelog
 更改日志
 
-{t}Chat{/t}
+** Chat
 聊天
 
-{t}Check DoS Attacks{/t}
+** Check DoS Attacks
 检查DoS攻击
 
-{t}checked{/t}
+** checked
 选中的
 
-{t}Checked{/t}
+** Checked
 选中的
 
-{t}Choices{/t}
+** Choices
 
 
-{t}CIO{/t}
+** CIO
 CIO
 
-{t}City{/t}
+** City
 城市
 
-{t}Clean{/t}
+** Clean
 清除
 
-{t}Clean Cache{/t}
+** Clean Cache
 清除缓存
 
-{t}Clear{/t}
+** Clear
 清理
 
-{t}Clear Cache{/t}
+** Clear Cache
 清理缓存
 
-{t}Clear Data{/t}
+** Clear Data
 
 
-{t}Clear grouping{/t}
+** Clear grouping
 
 
-{t}Client{/t}
+** Client
 客户
 
-{t}Close{/t}
+** Close
 结束
 
-{t}Close session{/t}
+** Close session
 结束会话
 
-{t}closed{/t}
+** closed
 已结束
 
-{t}Closed{/t}
+** Closed
 已结束
 
-{t}CMS{/t}
+** CMS
 CMS
 
-{t}CMS homepage title{/t}
+** CMS homepage title
 
 
-{t}Collapse text{/t}
+** Collapse text
 
 
-{t}Collapse tree{/t}
+** Collapse tree
 收缩树型结构
 
-{t}Color{/t}
+** Color
 颜色
 
-{t}Column{/t}
+** Column
 
 
-{t}Column name{/t}
+** Column name
 栏目名称
 
-{t}Combination{/t}
+** Combination
 
 
-{t}Comma{/t}
+** Comma
 
 
-{t}Comma separated values{/t}
+** Comma separated values
 
 
-{t}Command{/t}
+** Command
 命令
 
-{t}Comment{/t}
+** Comment
 评论
 
-{t}Comment files{/t}
+** Comment files
 注释文件
 
-{t}Companies{/t}
+** Companies
 公司
 
-{t}Company{/t}
+** Company
 公司
 
-{t}Competition{/t}
+** Competition
 竞争
 
-{t}Competitor{/t}
+** Competitor
 竞争者
 
-{t}Complete{/t}
+** Complete
 
 
-{t}completed{/t}
+** completed
 
 
-{t}Completed{/t}
+** Completed
 完成
 
-{t}Component{/t}
+** Component
 组件
 
-{t}Compress output{/t}
+** Compress output
 压缩输出
 
-{t}Confirm{/t}
+** Confirm
 
 
-{t}confirmed{/t}
+** confirmed
 确定
 
-{t}Connection error: %s [%s]{/t}
+** Connection error: %s [%s]
 
 
-{t}Connection to database failed.{/t}
+** Connection to database failed.
 连接到数据库失败
 
-{t}Console{/t}
+** Console
 
 
-{t}Console scripts{/t}
+** Console scripts
 
 
-{t}Consultant{/t}
+** Consultant
 顾问
 
-{t}Contact{/t}
+** Contact
 联系人
 
-{t}Contact activities{/t}
+** Contact activities
 联系人活动
 
-{t}Contact activity{/t}
+** Contact activity
 
 
-{t}Contact by{/t}
+** Contact by
 联系
 
-{t}Contact groups{/t}
+** Contact groups
 联系人组
 
-{t}Contact id{/t}
+** Contact id
 联系人id
 
-{t}Contact person{/t}
+** Contact person
 联系人
 
-{t}Contact user by{/t}
+** Contact user by
 联系用户
 
-{t}Contacts{/t}
+** Contacts
 通讯录
 
-{t}contains{/t}
+** contains
 包含
 
-{t}Content{/t}
+** Content
 内容
 
-{t}Continue{/t}
+** Continue
 继续
 
-{t}Contracts{/t}
+** Contracts
 
 
-{t}Copier{/t}
+** Copier
 副本
 
-{t}Copy{/t}
+** Copy
 副本
 
-{t}Cost center{/t}
+** Cost center
 费用中心
 
-{t}Costs of accommodation{/t}
+** Costs of accommodation
 住宿费
 
-{t}Could not determine database-version.{/t}
+** Could not determine database-version.
 未知数据库版本。
 
-{t}Country{/t}
+** Country
 国家地区
 
-{t}Create new{/t}
+** Create new
 
 
-{t}Create new folder{/t}
+** Create new folder
 
 
-{t}Created{/t}
+** Created
 创建
 
-{t}Creating database failed.{/t}
+** Creating database failed.
 建立数据库失败
 
-{t}current path{/t}
+** current path
 当前路径
 
-{t}current time{/t}
+** current time
 
 
-{t}Curriculum vitae{/t}
+** Curriculum vitae
 履历
 
-{t}Custom schema{/t}
+** Custom schema
 
 
-{t}Customization rules\nfor modules based on sgsML{/t}
+** Customization rules\nfor modules based on sgsML
 
 
-{t}customizations{/t}
+** customizations
 用户化
 
-{t}Customize{/t}
+** Customize
 
 
-{t}Cut{/t}
+** Cut
 裁剪
 
-{t}daily{/t}
+** daily
 每天
 
-{t}Data{/t}
+** Data
 数据
 
-{t}Data free{/t}
+** Data free
 自由数据
 
-{t}Data length{/t}
+** Data length
 数据长度
 
-{t}Database{/t}
+** Database
 数据库
 
-{t}Database Hostname / IP{/t}
+** Database Hostname / IP
 数据库主机名称/IP
 
-{t}Database Name{/t}
+** Database Name
 数据库名称
 
-{t}Database Password{/t}
+** Database Password
 数据库密码
 
-{t}Database size{/t}
+** Database size
 
 
-{t}Database status{/t}
+** Database status
 数据库状态
 
-{t}Database type{/t}
+** Database type
 
 
-{t}Database User{/t}
+** Database User
 数据库用户
 
-{t}Database variables{/t}
+** Database variables
 数据库变量
 
-{t}Date{/t}
+** Date
 日期
 
-{t}Day{/t}
+** Day
 天
 
-{t}Day begin{/t}
+** Day begin
 开始日
 
-{t}Day end{/t}
+** Day end
 结束日
 
-{t}days{/t}
+** days
 天
 
-{t}Deactivate{/t}
+** Deactivate
 
 
-{t}Deadline{/t}
+** Deadline
 最后期限
 
-{t}Debug{/t}
+** Debug
 调试
 
-{t}Debug-dir{/t}
+** Debug-dir
 调试目录
 
-{t}Dec{/t}
+** Dec
 
 
-{t}December{/t}
+** December
 12月
 
-{t}Declining balance{/t}
+** Declining balance
 余额递减
 
-{t}Default{/t}
+** Default
 默认
 
-{t}Default function{/t}
+** Default function
 
 
-{t}Default theme{/t}
+** Default theme
 默认主题
 
-{t}Default values for assets{/t}
+** Default values for assets
 
 
-{t}definition for definition lists{/t}
+** definition for definition lists
 列表定义的定义
 
-{t}Degree{/t}
+** Degree
 程度
 
-{t}Delete{/t}
+** Delete
 删除
 
-{t}Delete incl subfolders{/t}
+** Delete incl subfolders
 删除时包含子目录
 
-{t}deleted{/t}
+** deleted
 删除
 
-{t}deleted line{/t}
+** deleted line
 删除的行
 
-{t}Delivery{/t}
+** Delivery
 
 
-{t}Demand{/t}
+** Demand
 要求
 
-{t}Demo{/t}
+** Demo
 演示
 
-{t}Demonstration folder{/t}
+** Demonstration folder
 
 
-{t}Department{/t}
+** Department
 部门
 
-{t}Departments{/t}
+** Departments
 部门
 
-{t}Dependancies{/t}
+** Dependancies
 依赖
 
-{t}Description{/t}
+** Description
 描述
 
-{t}Description hint{/t}
+** Description hint
 
 
-{t}Description title{/t}
+** Description title
 
 
-{t}Description value{/t}
+** Description value
 
 
-{t}Desktop computer{/t}
+** Desktop computer
 桌面电脑
 
-{t}Details{/t}
+** Details
 细节
 
-{t}Device type{/t}
+** Device type
 设备类型
 
-{t}Device types{/t}
+** Device types
 设备类型
 
-{t}Diagram{/t}
+** Diagram
 
 
-{t}directory does not exist.{/t}
+** directory does not exist.
 目录不存在。
 
-{t}Directory is outside the allowed directory. (%s is outside %s){/t}
+** Directory is outside the allowed directory. (%s is outside %s)
 目录在许可目录之外（%s在%s之外）
 
-{t}disable{/t}
+** disable
 
 
-{t}Disable basic authentication{/t}
+** Disable basic authentication
 停用基本认证
 
-{t}Disable cut-copy-paste{/t}
+** Disable cut-copy-paste
 
 
-{t}Disabled{/t}
+** Disabled
 
 
-{t}Disabled modules{/t}
+** Disabled modules
 
 
-{t}Display{/t}
+** Display
 显示
 
-{t}display filter{/t}
+** display filter
 显示过滤
 
-{t}Displayname{/t}
+** Displayname
 
 
-{t}displays{/t}
+** displays
 显示
 
-{t}Distributor{/t}
+** Distributor
 经销商
 
-{t}Distributors{/t}
+** Distributors
 经销商
 
-{t}divorced{/t}
+** divorced
 离异
 
-{t}Documentation{/t}
+** Documentation
 文件
 
-{t}Documentation index{/t}
+** Documentation index
 文件索引
 
-{t}Domain{/t}
+** Domain
 域
 
-{t}Don't attend{/t}
+** Don't attend
 
 
-{t}Don't move old files to 'old/'{/t}
+** Don't move old files to 'old/'
 
 
-{t}Down{/t}
+** Down
 向下
 
-{t}Download{/t}
+** Download
 下载
 
-{t}Download example file{/t}
+** Download example file
 
 
-{t}Downloading extension list{/t}
+** Downloading extension list
 
 
-{t}Downloading update list{/t}
+** Downloading update list
 下载更新列表
 
-{t}Drag and drop files or URLs here.{/t}
+** Drag and drop files or URLs here.
 
 
-{t}duplicate{/t}
+** duplicate
 复制
 
-{t}Duration{/t}
+** Duration
 持续时间
 
-{t}E-mail{/t}
+** E-mail
 E-mail
 
-{t}E-mail private{/t}
+** E-mail private
 E-mail私人
 
-{t}E-mail program{/t}
+** E-mail program
 E-mail程序
 
-{t}e.g.{/t}
+** e.g.
 例如
 
-{t}Edit{/t}
+** Edit
 编辑
 
-{t}Edit as new{/t}
+** Edit as new
 作为新的编辑
 
-{t}Edit rights{/t}
+** Edit rights
 编辑权限
 
-{t}Editable if hidden in all views{/t}
+** Editable if hidden in all views
 
 
-{t}Editor{/t}
+** Editor
 编辑者
 
-{t}Emphasis{/t}
+** Emphasis
 重点
 
-{t}Empty{/t}
+** Empty
 空白
 
-{t}Empty folder{/t}
+** Empty folder
 空文件夹
 
-{t}en{/t}
+** en
 在
 
-{t}Enable anonymous access{/t}
+** Enable anonymous access
 允许匿名使用
 
-{t}Enable anonymous CMS{/t}
+** Enable anonymous CMS
 允许匿名CMS
 
-{t}Enable automatic user creation{/t}
+** Enable automatic user creation
 允许自动创建用户
 
-{t}Enable external mail client for 'mailto:' links{/t}
+** Enable external mail client for 'mailto:' links
 允许外部邮件客户程序打开mailto:连接
 
-{t}Enable self registration{/t}
+** Enable self registration
 
 
-{t}Enable Sync4j / Funambol{/t}
+** Enable Sync4j / Funambol
 允许Sync4j / Funambol
 
-{t}Enable WebDAV{/t}
+** Enable WebDAV
 
 
-{t}End{/t}
+** End
 结束
 
-{t}engaged{/t}
+** engaged
 预定
 
-{t}equal{/t}
+** equal
 等于
 
-{t}Error{/t}
+** Error
 错误
 
-{t}Error doing request to xmlhttp{/t}
+** Error doing request to xmlhttp
 执行xmlhttp请求时发生错误
 
-{t}Error moving file{/t}
+** Error moving file
 移动文件时发生错误
 
-{t}Error pasting asset{/t}
+** Error pasting asset
 粘贴asset时发生错误
 
-{t}Error: no credentials{/t}
+** Error: no credentials
 错误：没有证书
 
-{t}Events{/t}
+** Events
 日程
 
-{t}Example{/t}
+** Example
 例子
 
-{t}Example contacts{/t}
+** Example contacts
 通讯录示例
 
-{t}Example surveys can be found at:{/t}
+** Example surveys can be found at:
 
 
-{t}Example without mountpoint{/t}
+** Example without mountpoint
 无mountpoint示例
 
-{t}Examples{/t}
+** Examples
 示例
 
-{t}Execute{/t}
+** Execute
 执行
 
-{t}Expenses{/t}
+** Expenses
 费用
 
-{t}Experimental{/t}
+** Experimental
 实验
 
-{t}Expires{/t}
+** Expires
 到期
 
-{t}Expiry{/t}
+** Expiry
 期满
 
-{t}Extended{/t}
+** Extended
 
 
-{t}Extensions{/t}
+** Extensions
 
 
-{t}Extracting files{/t}
+** Extracting files
 提取文件
 
-{t}F j{/t}
+** F j
 F j
 
-{t}F j, Y{/t}
+** F j, Y
 F j, Y
 
-{t}Failed to create directory: %s{/t}
+** Failed to create directory: %s
 建立目录%s失败
 
-{t}Failed to write file to disk.{/t}
+** Failed to write file to disk.
 文件写入磁盘失败。
 
-{t}Failed to write into %s{/t}
+** Failed to write into %s
 写入%s失败
 
-{t}Family status{/t}
+** Family status
 家庭状况
 
-{t}FAQ{/t}
+** FAQ
 常见问题
 
-{t}Favorites{/t}
+** Favorites
 收藏夹
 
-{t}Fax{/t}
+** Fax
 传真
 
-{t}Fax private{/t}
+** Fax private
 
 
-{t}Feature request{/t}
+** Feature request
 功能建议
 
-{t}Feb{/t}
+** Feb
 
 
-{t}February{/t}
+** February
 2月
 
-{t}Feed{/t}
+** Feed
 
 
-{t}female{/t}
+** female
 女
 
-{t}Field{/t}
+** Field
 字段
 
-{t}Field contains value{/t}
+** Field contains value
 
 
-{t}Field customization{/t}
+** Field customization
 
 
-{t}Field is equal to value{/t}
+** Field is equal to value
 
 
-{t}Fields{/t}
+** Fields
 
 
-{t}File{/t}
+** File
 文件
 
-{t}file is too big. Please change upload_max_filesize, post_max_size in your php.ini{/t}
+** file is too big. Please change upload_max_filesize, post_max_size in your php.ini
 文件太大。请修改php.ini文件中的upload_max_filesize, post_max_size设置。
 
-{t}file is too big. Please upload a smaller one.{/t}
+** file is too big. Please upload a smaller one.
 文件太大，请上传小一点的文件。
 
-{t}file not found in database.{/t}
+** file not found in database.
 在数据库中找不到文件。
 
-{t}file not found.{/t}
+** file not found.
 文件没找到。
 
-{t}file was uploaded partially.{/t}
+** file was uploaded partially.
 文件部分上传。
 
-{t}Filename must have the right extension. Valid extensions are %s{/t}
+** Filename must have the right extension. Valid extensions are %s
 文件名应该包含正确的扩展名：%s。
 
-{t}Files{/t}
+** Files
 文件
 
-{t}Filesystem{/t}
+** Filesystem
 文件系统
 
-{t}Filter{/t}
+** Filter
 过滤器
 
-{t}Find assets in multiple folders{/t}
+** Find assets in multiple folders
 在多个文件夹中找到assets.
 
-{t}Finish scheduled{/t}
+** Finish scheduled
 已结束计划
 
-{t}Finished{/t}
+** Finished
 结束
 
-{t}First in list{/t}
+** First in list
 列表中第一项
 
-{t}first level support{/t}
+** first level support
 
 
-{t}First name{/t}
+** First name
 名
 
-{t}Fix paging bar to page bottom{/t}
+** Fix paging bar to page bottom
 
 
-{t}fixed{/t}
+** fixed
 固定
 
-{t}Flags{/t}
+** Flags
 标志
 
-{t}Flash plugin not installed.{/t}
+** Flash plugin not installed.
 
 
-{t}Folder{/t}
+** Folder
 文件夹
 
-{t}Folder already exists.{/t}
+** Folder already exists.
 文件夹已经存在。
 
-{t}Folder created.{/t}
+** Folder created.
 
 
-{t}Folder has changed.{/t}
+** Folder has changed.
 
 
-{t}Folder icon{/t}
+** Folder icon
 
 
-{t}Folder not found.{/t}
+** Folder not found.
 
 
-{t}Folder refresh period{/t}
+** Folder refresh period
 
 
-{t}Folder structure{/t}
+** Folder structure
 
 
-{t}Folder structure created.{/t}
+** Folder structure created.
 文件夹结构已建立。
 
-{t}Folder structure moved to trash.{/t}
+** Folder structure moved to trash.
 文件夹结构已移动到回收站。
 
-{t}Folder Type{/t}
+** Folder Type
 文件夹类型
 
-{t}Folder with ID %s{/t}
+** Folder with ID %s
 
 
-{t}Folders{/t}
+** Folders
 文件夹
 
-{t}for a new paragraph, use a blank line{/t}
+** for a new paragraph, use a blank line
 使用新行开始一个段落
 
-{t}Force SSL{/t}
+** Force SSL
 强制使用SSL
 
-{t}Form{/t}
+** Form
 
 
-{t}Forum{/t}
+** Forum
 论坛
 
-{t}Forward{/t}
+** Forward
 下一个
 
-{t}Fr{/t}
+** Fr
 Fr
 
-{t}Free/busy{/t}
+** Free/busy
 空闲/忙
 
-{t}Freelance{/t}
+** Freelance
 
 
-{t}Fri{/t}
+** Fri
 五
 
-{t}Friday{/t}
+** Friday
 星期五
 
-{t}From{/t}
+** From
 来自
 
-{t}Full screen{/t}
+** Full screen
 
 
-{t}Full texts{/t}
+** Full texts
 全文
 
-{t}Full time{/t}
+** Full time
 
 
-{t}Full width{/t}
+** Full width
 整个宽度
 
-{t}Fulltext index{/t}
+** Fulltext index
 
 
-{t}Funambol only works with MySQL and PostgreSQL.{/t}
+** Funambol only works with MySQL and PostgreSQL.
 Funambol仅在MySQL和PostgreSQL下可用。
 
-{t}Function does not exist: %s{/t}
+** Function does not exist: %s
 %s功能没找到
 
-{t}g:i a{/t}
+** g:i a
 g:i a
 
-{t}Gender{/t}
+** Gender
 性别
 
-{t}General{/t}
+** General
 普通
 
-{t}Generate{/t}
+** Generate
 生成
 
-{t}Gifts{/t}
+** Gifts
 礼物
 
-{t}Give Feedback{/t}
+** Give Feedback
 提供反馈
 
-{t}GNU GPL Frequently Asked Questions{/t}
+** GNU GPL Frequently Asked Questions
 GNU GPL常见问题
 
-{t}greater than{/t}
+** greater than
 大于
 
-{t}green{/t}
+** green
 绿色
 
-{t}Group{/t}
+** Group
 组
 
-{t}Group created.{/t}
+** Group created.
 
 
-{t}Group deactivated.{/t}
+** Group deactivated.
 
 
-{t}Groupname{/t}
+** Groupname
 组名称
 
-{t}Groups{/t}
+** Groups
 组
 
-{t}hanging text{/t}
+** hanging text
 悬挂文字
 
-{t}Hardware{/t}
+** Hardware
 硬件
 
-{t}Headers{/t}
+** Headers
 标题
 
-{t}heading{/t}
+** heading
 标题
 
-{t}headings{/t}
+** headings
 标题
 
-{t}Height{/t}
+** Height
 高度
 
-{t}Help{/t}
+** Help
 帮助
 
-{t}Helpdesk{/t}
+** Helpdesk
 用户指南
 
-{t}Hidden in{/t}
+** Hidden in
 
 
-{t}Hidden in all views{/t}
+** Hidden in all views
 
 
-{t}Hide{/t}
+** Hide
 
 
-{t}hide in all views{/t}
+** hide in all views
 
 
-{t}hide in this view{/t}
+** hide in this view
 
 
-{t}History{/t}
+** History
 历史
 
-{t}Holiday{/t}
+** Holiday
 节假日
 
-{t}Home{/t}
+** Home
 主页
 
-{t}Home folder id{/t}
+** Home folder id
 主页文件夹ID
 
-{t}Home page in the CMS{/t}
+** Home page in the CMS
 CMS主页
 
-{t}Homepage{/t}
+** Homepage
 主页
 
-{t}horizontal line{/t}
+** horizontal line
 水平行
 
-{t}Host{/t}
+** Host
 主机
 
-{t}Hosts{/t}
+** Hosts
 主机
 
-{t}Hour{/t}
+** Hour
 
 
-{t}hours{/t}
+** hours
 小时
 
-{t}Hours per week{/t}
+** Hours per week
 
 
-{t}HTML document{/t}
+** HTML document
 
 
-{t}HTML documents{/t}
+** HTML documents
 HTML文档
 
-{t}http://www.pmwiki.org/PmWiki/{/t}
+** http://www.pmwiki.org/PmWiki/
 http://www.pmwiki.org/PmWiki/
 
-{t}Human resources{/t}
+** Human resources
 
 
-{t}I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2{/t}
+** I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2
 接受GNU通用公共许可证第二版
 
-{t}I m p o r t{/t}
+** I m p o r t
 
 
-{t}I n s t a l l{/t}
+** I n s t a l l
 安装
 
-{t}Icon{/t}
+** Icon
 
 
-{t}Id{/t}
+** Id
 Id
 
-{t}Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
 Id不能为空，小写，由[a-z0-9_-@.]组成，3到128字符。
 
-{t}Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].
 Id不能为空，由[a-z0-9_-@.]组成，3到128字符。
 
-{t}Ideas{/t}
+** Ideas
 观念
 
-{t}If empty, the SMTP connection from the module users will be used.{/t}
+** If empty, the SMTP connection from the module users will be used.
 If empty, the SMTP connection from the module users will be used.
 
-{t}If file system permissions are ok, please check the configurations of %s if present.{/t}
+** If file system permissions are ok, please check the configurations of %s if present.
 
 
-{t}if not autodetected with namingContexts{/t}
+** if not autodetected with namingContexts
 if not autodetected with namingContexts
 
-{t}If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.{/t}
+** If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.
 
 
-{t}If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.{/t}
+** If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.
 如果用户名或密码包含 &quot;@&quot;字符，替换为&quot;%%&quot;。
 
-{t}Illness{/t}
+** Illness
 
 
-{t}Im-/Export{/t}
+** Im-/Export
 导入/导出
 
-{t}Image{/t}
+** Image
 图像
 
-{t}Images{/t}
+** Images
 图像
 
-{t}Imap-error: %s{/t}
+** Imap-error: %s
 Imap错误：%s
 
-{t}immediate{/t}
+** immediate
 立即
 
-{t}Import{/t}
+** Import
 导入
 
-{t}In progress{/t}
+** In progress
 正在处理
 
-{t}in repair{/t}
+** in repair
 正在修复
 
-{t}in stock{/t}
+** in stock
 备有
 
-{t}Inactive{/t}
+** Inactive
 停止
 
-{t}Include in RSS feed{/t}
+** Include in RSS feed
 包含到RSS
 
-{t}Include page{/t}
+** Include page
 
 
-{t}indent text{/t}
+** indent text
 文字缩进
 
-{t}Index{/t}
+** Index
 索引
 
-{t}Index length{/t}
+** Index length
 索引长度
 
-{t}Index type{/t}
+** Index type
 索引类型
 
-{t}Indexes{/t}
+** Indexes
 索引
 
-{t}Industry{/t}
+** Industry
 行业
 
-{t}Info{/t}
+** Info
 信息
 
-{t}inheritance to subfolders without default values{/t}
+** inheritance to subfolders without default values
 
 
-{t}Input field{/t}
+** Input field
 
 
-{t}Input field height{/t}
+** Input field height
 
 
-{t}Insert{/t}
+** Insert
 插入
 
-{t}inserted{/t}
+** inserted
 插入
 
-{t}Install default folder structure{/t}
+** Install default folder structure
 
 
-{t}Install demo folders{/t}
+** Install demo folders
 
 
-{t}Install minimal folder structure{/t}
+** Install minimal folder structure
 
 
-{t}installed{/t}
+** installed
 
 
-{t}insufficient folder rights{/t}
+** insufficient folder rights
 文件夹权限不足
 
-{t}Internal recommendation{/t}
+** Internal recommendation
 内部推荐
 
-{t}Intranet{/t}
+** Intranet
 
 
-{t}Intro{/t}
+** Intro
 简介
 
-{t}invalid{/t}
+** invalid
 无效
 
-{t}Invalid file extensions{/t}
+** Invalid file extensions
 
 
-{t}Invalid schema mode '%s'{/t}
+** Invalid schema mode '%s'
 
 
-{t}Invalid security token{/t}
+** Invalid security token
 
 
-{t}Inventory{/t}
+** Inventory
 详细目录
 
-{t}Inventory number{/t}
+** Inventory number
 目录数
 
-{t}Investor{/t}
+** Investor
 创建者
 
-{t}Invoice{/t}
+** Invoice
 发票
 
-{t}italic{/t}
+** italic
 斜体
 
-{t}Item created by %s at %s{/t}
+** Item created by %s at %s
 %s在%s创建项目
 
-{t}Item deleted by %s at %s{/t}
+** Item deleted by %s at %s
 %s在%s删除项目
 
-{t}Item edited (%s) by %s at %s{/t}
+** Item edited (%s) by %s at %s
 项目%s由%s在%s编辑
 
-{t}Item not found.{/t}
+** Item not found.
 项目不存在。
 
-{t}Item successfully created.{/t}
+** Item successfully created.
 项目成功创建。
 
-{t}Item successfully updated.{/t}
+** Item successfully updated.
 项目成功更新。
 
-{t}Item(s) not found or access denied.{/t}
+** Item(s) not found or access denied.
 项目没找到或拒绝访问。
 
-{t}Jan{/t}
+** Jan
 
 
-{t}January{/t}
+** January
 1月
 
-{t}Job description{/t}
+** Job description
 工作描述
 
-{t}Join lines{/t}
+** Join lines
 连接行
 
-{t}Jul{/t}
+** Jul
 
 
-{t}July{/t}
+** July
 7月
 
-{t}Jun{/t}
+** Jun
 
 
-{t}June{/t}
+** June
 6月
 
-{t}Key{/t}
+** Key
 关键
 
-{t}Key customer{/t}
+** Key customer
 主要客户
 
-{t}Key name{/t}
+** Key name
 关键字名称
 
-{t}Keywords{/t}
+** Keywords
 关键字
 
-{t}Knowledge base{/t}
+** Knowledge base
 基础知识
 
-{t}L o g i n{/t}
+** L o g i n
 登录
 
-{t}l, F j, Y{/t}
+** l, F j, Y
 l, F j, Y
 
-{t}Last access{/t}
+** Last access
 上次登录
 
-{t}Last name{/t}
+** Last name
 姓
 
-{t}LDAP anonymous connection failed.{/t}
+** LDAP anonymous connection failed.
 LDAP匿名连接失败。
 
-{t}LDAP attribute for group memberships{/t}
+** LDAP attribute for group memberships
 LDAP组成员属性
 
-{t}LDAP attribute for rooms{/t}
+** LDAP attribute for rooms
 LDAP attribute for rooms
 
-{t}LDAP attribute for usernames{/t}
+** LDAP attribute for usernames
 LDAP attribute for usernames
 
-{t}LDAP connection to host %s failed.{/t}
+** LDAP connection to host %s failed.
 LDAP connection to host %s failed.
 
-{t}LDAP without anonymous access{/t}
+** LDAP without anonymous access
 LDAP without anonymous access
 
-{t}LDAP: no base DN given{/t}
+** LDAP: no base DN given
 LDAP: no base DN given
 
-{t}LDAP: no UID given{/t}
+** LDAP: no UID given
 
 
-{t}Leave of absence{/t}
+** Leave of absence
 
 
-{t}less promising{/t}
+** less promising
 可行性
 
-{t}lesser than{/t}
+** lesser than
 小于
 
-{t}Letter{/t}
+** Letter
 字母
 
-{t}Level{/t}
+** Level
 级别
 
-{t}License{/t}
+** License
 许可证
 
-{t}line{/t}
+** line
 
 
-{t}Line break{/t}
+** Line break
 换行
 
-{t}Link{/t}
+** Link
 连接
 
-{t}Link restricted{/t}
+** Link restricted
 连接限制
 
-{t}link text{/t}
+** link text
 连接文字
 
-{t}link to external page{/t}
+** link to external page
 连接到外部页面
 
-{t}link to internal page{/t}
+** link to internal page
 连接到内部页面
 
-{t}Links{/t}
+** Links
 连接
 
-{t}Lists{/t}
+** Lists
 列表
 
-{t}Load external images{/t}
+** Load external images
 载入外部图像
 
-{t}Location{/t}
+** Location
 地点
 
-{t}Locations{/t}
+** Locations
 地点
 
-{t}Lock{/t}
+** Lock
 锁定
 
-{t}Locked by{/t}
+** Locked by
 由锁定
 
-{t}Locking{/t}
+** Locking
 锁定中
 
-{t}login %s from %s with %s{/t}
+** login %s from %s with %s
 %s登录从%s和%s
 
-{t}Login failed from %s.{/t}
+** Login failed from %s.
 从%s登录失败。
 
-{t}Login/-out{/t}
+** Login/-out
 登录/注销
 
-{t}Logins{/t}
+** Logins
 登录
 
-{t}Logout{/t}
+** Logout
 
 
-{t}logout %s{/t}
+** logout %s
 注销%s
 
-{t}Lookup{/t}
+** Lookup
 查找
 
-{t}low{/t}
+** low
 低
 
-{t}lowest{/t}
+** lowest
 最低
 
-{t}M j{/t}
+** M j
 }M j
 
-{t}M j, g:i a{/t}
+** M j, g:i a
 M j, g:i a
 
-{t}M j, Y{/t}
+** M j, Y
 M j, Y
 
-{t}m/d/Y{/t}
+** m/d/Y
 m/d/Y
 
-{t}m/d/Y g:i a{/t}
+** m/d/Y g:i a
 m/d/Y g:i a
 
-{t}m/d/y g:i:s a{/t}
+** m/d/y g:i:s a
 m/d/y g:i:s a
 
-{t}magenta{/t}
+** magenta
 品红
 
-{t}mail footer{/t}
+** mail footer
 邮件脚部内容
 
-{t}Mail identities{/t}
+** Mail identities
 邮件身份
 
-{t}mail notification{/t}
+** mail notification
 邮件通知
 
-{t}mail reminder{/t}
+** mail reminder
 邮件提醒
 
-{t}Main menu{/t}
+** Main menu
 主菜单
 
-{t}Main page{/t}
+** Main page
 
 
-{t}Maintenance mode{/t}
+** Maintenance mode
 维护模式
 
-{t}male{/t}
+** male
 男
 
-{t}Man-days{/t}
+** Man-days
 工作日
 
-{t}Man-days planned{/t}
+** Man-days planned
 工作日安排
 
-{t}Manage offline folders{/t}
+** Manage offline folders
 
 
-{t}Manager{/t}
+** Manager
 管理员
 
-{t}Manufacturer{/t}
+** Manufacturer
 制造者
 
-{t}Mar{/t}
+** Mar
 
 
-{t}March{/t}
+** March
 3月
 
-{t}Marketing event{/t}
+** Marketing event
 营销事件
 
-{t}married{/t}
+** married
 已婚
 
-{t}Maximize{/t}
+** Maximize
 最大化
 
-{t}Maximum file size{/t}
+** Maximum file size
 
 
-{t}Maximum number of assets per page{/t}
+** Maximum number of assets per page
 
 
-{t}maximum number of files exceeded.{/t}
+** maximum number of files exceeded.
 超过文件最大数量
 
-{t}May{/t}
+** May
 5月
 
-{t}Media{/t}
+** Media
 媒体
 
-{t}Meeting{/t}
+** Meeting
 会议
 
-{t}Members{/t}
+** Members
 成员
 
-{t}Memory limit{/t}
+** Memory limit
 
 
-{t}Merge folders permanently{/t}
+** Merge folders permanently
 永久合并文件夹
 
-{t}Merged folders{/t}
+** Merged folders
 合并文件夹
 
-{t}Message{/t}
+** Message
 消息
 
-{t}Messages{/t}
+** Messages
 
 
-{t}Milestone{/t}
+** Milestone
 
 
-{t}min{/t}
+** min
 最小
 
-{t}Minimize{/t}
+** Minimize
 最小化
 
-{t}minimum = 15 secs, 0 = disabled{/t}
+** minimum = 15 secs, 0 = disabled
 minimum = 15秒, 0 = 禁止
 
-{t}Miscellaneous{/t}
+** Miscellaneous
 其他
 
-{t}missing a temporary folder.{/t}
+** missing a temporary folder.
 丢失临时文件夹
 
-{t}missing field{/t}
+** missing field
 丢失字段
 
-{t}missing right: %s{/t}
+** missing right: %s
 丢失权限：%s
 
-{t}Mo{/t}
+** Mo
 Mo
 
-{t}Mobile{/t}
+** Mobile
 手机
 
-{t}Model{/t}
+** Model
 模型
 
-{t}Modified{/t}
+** Modified
 修改
 
-{t}Modified by{/t}
+** Modified by
 修改者
 
-{t}Modifying database failed.{/t}
+** Modifying database failed.
 修改数据库失败。
 
-{t}Module{/t}
+** Module
 模块
 
-{t}Module disabled.{/t}
+** Module disabled.
 
 
-{t}Modules{/t}
+** Modules
 模块
 
-{t}Mon{/t}
+** Mon
 一
 
-{t}Monday{/t}
+** Monday
 星期一
 
-{t}monospace{/t}
+** monospace
 等宽字体
 
-{t}Month{/t}
+** Month
 月
 
-{t}monthly{/t}
+** monthly
 每月
 
-{t}months{/t}
+** months
 月
 
-{t}More information about the GNU GPL{/t}
+** More information about the GNU GPL
 GNU GPL的更多信息
 
-{t}Mountpoint{/t}
+** Mountpoint
 Mountpoint
 
-{t}Move{/t}
+** Move
 移动
 
-{t}Move to subfolder 'Archive'{/t}
+** Move to subfolder 'Archive'
 
 
-{t}Multiple{/t}
+** Multiple
 
 
-{t}Multiple choice{/t}
+** Multiple choice
 
 
-{t}My appointments{/t}
+** My appointments
 我的安排
 
-{t}My tasks{/t}
+** My tasks
 我的任务
 
-{t}Name{/t}
+** Name
 姓名
 
-{t}Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
 姓名不能空，小写，由3--128个 [a-z0-9_-@.]字符组成
 
-{t}Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].{/t}
+** Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].
 姓名不能为空，小写，最少3个 [a-zA-Z0-9-_.]字符组成
 
-{t}need feedback{/t}
+** need feedback
 需要反馈
 
-{t}Network{/t}
+** Network
 网络
 
-{t}Never expires{/t}
+** Never expires
 永不过期
 
-{t}New{/t}
+** New
 新建
 
-{t}New folder{/t}
+** New folder
 新文件夹
 
-{t}News{/t}
+** News
 新闻
 
-{t}Next recurrences{/t}
+** Next recurrences
 
 
-{t}Nickname{/t}
+** Nickname
 昵称
 
-{t}Nightwork{/t}
+** Nightwork
 夜间工作
 
-{t}no{/t}
+** no
 否
 
-{t}No dataset selected.{/t}
+** No dataset selected.
 没有选择数据集。
 
-{t}No entries found.{/t}
+** No entries found.
 没有记录。
 
-{t}No file was uploaded{/t}
+** No file was uploaded
 
 
-{t}No line breaks{/t}
+** No line breaks
 
 
-{t}no result{/t}
+** no result
 没有找到
 
-{t}No search index{/t}
+** No search index
 
 
-{t}No sender specified.{/t}
+** No sender specified.
 没指定发送人
 
-{t}no username submitted{/t}
+** no username submitted
 没填写发生用户
 
-{t}No username/password.{/t}
+** No username/password.
 
 
-{t}No wrap{/t}
+** No wrap
 
 
-{t}Non unique{/t}
+** Non unique
 重复
 
-{t}none{/t}
+** none
 没有
 
-{t}normal{/t}
+** normal
 正常
 
-{t}Not allowed. Please log in as super administrator.{/t}
+** Not allowed. Please log in as super administrator.
 不允许。请以管理员登录。
 
-{t}not contains{/t}
+** not contains
 不包含
 
-{t}not equal{/t}
+** not equal
 不等于
 
-{t}Not in{/t}
+** Not in
 
 
-{t}Not in database{/t}
+** Not in database
 
 
-{t}not installed{/t}
+** not installed
 
 
-{t}Note{/t}
+** Note
 
 
-{t}Notebook{/t}
+** Notebook
 记事本
 
-{t}Notes{/t}
+** Notes
 便签
 
-{t}Notificaiton sent to: %s{/t}
+** Notificaiton sent to: %s
 通知发送到：%s
 
-{t}Notification{/t}
+** Notification
 通知
 
-{t}Notification summary{/t}
+** Notification summary
 通知摘要
 
-{t}Notifications{/t}
+** Notifications
 
 
-{t}Nov{/t}
+** Nov
 
 
-{t}November{/t}
+** November
 11月
 
-{t}Null{/t}
+** Null
 无效
 
-{t}Number of employees{/t}
+** Number of employees
 雇员人数
 
-{t}numbered{/t}
+** numbered
 编号标记
 
-{t}Objectives{/t}
+** Objectives
 目标
 
-{t}Oct{/t}
+** Oct
 
 
-{t}October{/t}
+** October
 10月
 
-{t}of {0}{/t}
+** of {0}
 
 
-{t}offer{/t}
+** offer
 
 
-{t}Offer{/t}
+** Offer
 
 
-{t}Office{/t}
+** Office
 办公
 
-{t}Office program{/t}
+** Office program
 办公程序
 
-{t}Offices{/t}
+** Offices
 办公
 
-{t}offline{/t}
+** offline
 离线
 
-{t}Offline folders{/t}
+** Offline folders
 离线文件夹
 
-{t}Offline reading{/t}
+** Offline reading
 
 
-{t}Ok{/t}
+** Ok
 确定
 
-{t}one of{/t}
+** one of
 
 
-{t}online{/t}
+** online
 在线
 
-{t}Only for this folder{/t}
+** Only for this folder
 
 
-{t}Only in{/t}
+** Only in
 
 
-{t}open{/t}
+** open
 
 
-{t}Open{/t}
+** Open
 打开
 
-{t}Operating system{/t}
+** Operating system
 操作系统
 
-{t}Operation not allowed. (Data loss protection){/t}
+** Operation not allowed. (Data loss protection)
 操作禁止。（数据丢失保护）
 
-{t}Optimize Tables{/t}
+** Optimize Tables
 优化数据表
 
-{t}Options{/t}
+** Options
 选项
 
-{t}or{/t}
+** or
 或
 
-{t}or higher{/t}
+** or higher
 或更高
 
-{t}orange{/t}
+** orange
 橙色
 
-{t}Order size{/t}
+** Order size
 订单量
 
-{t}Organisation{/t}
+** Organisation
 组织
 
-{t}Organizer{/t}
+** Organizer
 组织者
 
-{t}Origin{/t}
+** Origin
 起源
 
-{t}Original message{/t}
+** Original message
 原始消息
 
-{t}Other{/t}
+** Other
 其他
 
-{t}out of office{/t}
+** out of office
 离开办公室
 
-{t}Outline image{/t}
+** Outline image
 图像轮廓
 
-{t}Output{/t}
+** Output
 输出
 
-{t}Output empty: %s{/t}
+** Output empty: %s
 
 
-{t}overlap{/t}
+** overlap
 重叠
 
-{t}Overtime{/t}
+** Overtime
 超时
 
-{t}Overtime compensation per hour{/t}
+** Overtime compensation per hour
 
 
-{t}Owner{/t}
+** Owner
 所有者
 
-{t}Owner since{/t}
+** Owner since
 取得所有权
 
-{t}Package from local file system (.tar.gz){/t}
+** Package from local file system (.tar.gz)
 在本地文件系统压缩（.tar.gz）
 
-{t}Packed{/t}
+** Packed
 压缩
 
-{t}Page{/t}
+** Page
 页面
 
-{t}Page last modified on{/t}
+** Page last modified on
 
 
-{t}Page name (URL){/t}
+** Page name (URL)
 页面名称（URL）
 
-{t}Page not found{/t}
+** Page not found
 页面没找到
 
-{t}Page title{/t}
+** Page title
 页面标题
 
-{t}Pager{/t}
+** Pager
 分页
 
-{t}Paid{/t}
+** Paid
 
 
-{t}Paid holidays{/t}
+** Paid holidays
 
 
-{t}Paragraphs{/t}
+** Paragraphs
 段落
 
-{t}parameters{/t}
+** parameters
 参数
 
-{t}Parameters{/t}
+** Parameters
 参数
 
-{t}Parent folder{/t}
+** Parent folder
 
 
-{t}Parsing{/t}
+** Parsing
 分析
 
-{t}Part time{/t}
+** Part time
 
 
-{t}Participants{/t}
+** Participants
 参与
 
-{t}Participants (external){/t}
+** Participants (external)
 参与（外部）
 
-{t}Participants (internal){/t}
+** Participants (internal)
 参与（内部）
 
-{t}Password{/t}
+** Password
 密码
 
-{t}Password expired. (password of %s has expired){/t}
+** Password expired. (password of %s has expired)
 密码过期。（%s密码已经失效）
 
-{t}Password expires{/t}
+** Password expires
 密码失效
 
-{t}Password must be not null, min 5 characters.{/t}
+** Password must be not null, min 5 characters.
 密码不能为空，最少5个字符。
 
-{t}password not confirmed.{/t}
+** password not confirmed.
 密码不匹配。
 
-{t}Passwords{/t}
+** Passwords
 密码
 
-{t}Paste{/t}
+** Paste
 粘贴
 
-{t}Path{/t}
+** Path
 路径
 
-{t}Pause{/t}
+** Pause
 暂停
 
-{t}Payroll{/t}
+** Payroll
 
 
-{t}Permissions{/t}
+** Permissions
 权限
 
-{t}Permissions added for: %s{/t}
+** Permissions added for: %s
 权限许可给：%s
 
-{t}Personal{/t}
+** Personal
 个性化
 
-{t}Personal department{/t}
+** Personal department
 人事部
 
-{t}Personal folders{/t}
+** Personal folders
 个人文件夹
 
-{t}Personal projects{/t}
+** Personal projects
 个人项目
 
-{t}Phone{/t}
+** Phone
 电话
 
-{t}Phone calls{/t}
+** Phone calls
 通话记录
 
-{t}Phone private{/t}
+** Phone private
 私人电话
 
-{t}Photo{/t}
+** Photo
 图片
 
-{t}Photo gallery{/t}
+** Photo gallery
 图片夹
 
-{t}Planned{/t}
+** Planned
 计划
 
-{t}Please activate cookies.{/t}
+** Please activate cookies.
 请启用cookies。
 
-{t}Please choose Apache as Web-Server.{/t}
+** Please choose Apache as Web-Server.
 Please choose Apache as Web-Server.
 
-{t}Please enable Javascript in your browser.{/t}
+** Please enable Javascript in your browser.
 
 
-{t}Please enter a valid url.{/t}
+** Please enter a valid url.
 请输入有效url
 
-{t}Please give read access to %s{/t}
+** Please give read access to %s
 请赋予%s读取权限
 
-{t}Please give write access to %s{/t}
+** Please give write access to %s
 请赋予%s写入权限
 
-{t}Please give write access to %s and %s{/t}
+** Please give write access to %s and %s
 请赋予%s和%s写入权限
 
-{t}Please hit reload.{/t}
+** Please hit reload.
 请点击重新加载。
 
-{t}Please input a valid e-mail adress.{/t}
+** Please input a valid e-mail adress.
 请输入有效的e-mail地址。
 
-{t}Please install 'tsearch2' for the PostgreSQL database.{/t}
+** Please install 'tsearch2' for the PostgreSQL database.
 Please install tsearch2 for the PostgreSQL database.
 
-{t}Please install the php-extension with name '%s'.{/t}
+** Please install the php-extension with name '%s'.
 
 
-{t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}
+** Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !
 Please modify your php.ini or add an .htaccess file changing the setting %s to %s (current value is %s) !
 
-{t}Please read the following license agreement. Use the scroll bar to view the rest of this agreement.{/t}
+** Please read the following license agreement. Use the scroll bar to view the rest of this agreement.
 Please read the following license agreement. Use the scroll bar to view the rest of this agreement.
 
-{t}Please select a location.{/t}
+** Please select a location.
 
 
-{t}Please select a participant.{/t}
+** Please select a participant.
 请选择参与者。
 
-{t}Please upload again.{/t}
+** Please upload again.
 请重新上传。
 
-{t}Please wait ...{/t}
+** Please wait ...
 请等待...
 
-{t}Pop3-error: %s{/t}
+** Pop3-error: %s
 Pop3错误：%s
 
-{t}Port{/t}
+** Port
 端口
 
-{t}Portal{/t}
+** Portal
 站点
 
-{t}Position{/t}
+** Position
 位置
 
-{t}Positions{/t}
+** Positions
 位置
 
-{t}Post{/t}
+** Post
 发送
 
-{t}Practical training{/t}
+** Practical training
 
 
-{t}Preformatted block{/t}
+** Preformatted block
 预先定义块
 
-{t}Prepend new field as{/t}
+** Prepend new field as
 
 
-{t}Prevent formatting{/t}
+** Prevent formatting
 禁止格式化
 
-{t}Preview{/t}
+** Preview
 预览
 
-{t}Price{/t}
+** Price
 价格
 
-{t}Primary key{/t}
+** Primary key
 
 
-{t}Print{/t}
+** Print
 打印
 
-{t}Print all{/t}
+** Print all
 全部打印
 
-{t}Printer{/t}
+** Printer
 打印机
 
-{t}Priority{/t}
+** Priority
 优先权
 
-{t}Problem{/t}
+** Problem
 问题
 
-{t}Processes{/t}
+** Processes
 处理
 
-{t}Processing %s ...{/t}
+** Processing %s ...
 %s处理中...
 
-{t}Program is installed with language %s, please use a different url or run the setup again.{/t}
+** Program is installed with language %s, please use a different url or run the setup again.
 程序用%s语言安装，请用另一个url或重新安装。
 
-{t}Progress{/t}
+** Progress
 进度
 
-{t}Project{/t}
+** Project
 项目
 
-{t}Project files{/t}
+** Project files
 项目文件
 
-{t}Project tasks{/t}
+** Project tasks
 项目任务
 
-{t}Projects{/t}
+** Projects
 项目
 
-{t}promising{/t}
+** promising
 前景
 
-{t}Properties{/t}
+** Properties
 属性
 
-{t}Prospective client{/t}
+** Prospective client
 潜在客户
 
-{t}Public holiday{/t}
+** Public holiday
 
 
-{t}Purchased{/t}
+** Purchased
 购买
 
-{t}Question{/t}
+** Question
 问题
 
-{t}Queue{/t}
+** Queue
 队列
 
-{t}Quick add{/t}
+** Quick add
 
 
-{t}Quota{/t}
+** Quota
 限额
 
-{t}Quota (remaining){/t}
+** Quota (remaining)
 限额（剩余）
 
-{t}Quota [MB]{/t}
+** Quota [MB]
 限额[MB]
 
-{t}Quota limitation exceeded: %s{/t}
+** Quota limitation exceeded: %s
 %s：超过限额限制
 
-{t}R e g i s t e r{/t}
+** R e g i s t e r
 
 
-{t}Rating{/t}
+** Rating
 评分
 
-{t}Read{/t}
+** Read
 读取
 
-{t}read access{/t}
+** read access
 读取权限
 
-{t}Read access (groups){/t}
+** Read access (groups)
 读取权限（组）
 
-{t}Read access (users){/t}
+** Read access (users)
 读取权限（用户）
 
-{t}Read only in{/t}
+** Read only in
 
 
-{t}Read this page offline:{/t}
+** Read this page offline:
 
 
-{t}ready for repair{/t}
+** ready for repair
 准备好修理
 
-{t}ready for scrap{/t}
+** ready for scrap
 准备好报废
 
-{t}Real URL format in the CMS{/t}
+** Real URL format in the CMS
 CMS真实URL格式
 
-{t}Really apply rights to subfolders ?{/t}
+** Really apply rights to subfolders ?
 确认赋权到子目录？
 
-{t}Really apply the changes ?{/t}
+** Really apply the changes ?
 
 
-{t}Really delete ?{/t}
+** Really delete ?
 确认删除？
 
-{t}REALLY delete ALL datasets ?{/t}
+** REALLY delete ALL datasets ?
 确定删除所有数据集？
 
-{t}Really delete ALL subfolders ?{/t}
+** Really delete ALL subfolders ?
 确定删除所有子文件夹？
 
-{t}Really delete the dataset(s) ?{/t}
+** Really delete the dataset(s) ?
 确定删除数据集？
 
-{t}Really empty the folder ?{/t}
+** Really empty the folder ?
 确定清空文件夹？
 
-{t}Really overwrite existing dataset(s) ?{/t}
+** Really overwrite existing dataset(s) ?
 确定覆盖原有数据集？
 
-{t}Really run setup again ?{/t}
+** Really run setup again ?
 确定重新安装？
 
-{t}Really uninstall the module ?{/t}
+** Really uninstall the module ?
 
 
-{t}Rebuild search index{/t}
+** Rebuild search index
 重建搜索索引
 
-{t}Recent changes{/t}
+** Recent changes
 
 
-{t}Recipients{/t}
+** Recipients
 
 
-{t}Recommendation of affiliate{/t}
+** Recommendation of affiliate
 合并建议
 
-{t}Recurrence{/t}
+** Recurrence
 重复
 
-{t}Recurrences{/t}
+** Recurrences
 
 
-{t}red{/t}
+** red
 红色
 
-{t}Redirect to home directory{/t}
+** Redirect to home directory
 回到主目录
 
-{t}Reference{/t}
+** Reference
 
 
-{t}Refresh{/t}
+** Refresh
 
 
-{t}Refresh every x seconds{/t}
+** Refresh every x seconds
 每%s秒刷新一次
 
-{t}Regular{/t}
+** Regular
 定期
 
-{t}Reject{/t}
+** Reject
 
 
-{t}rejected{/t}
+** rejected
 拒绝
 
-{t}Relative formats{/t}
+** Relative formats
 
 
-{t}Relaunch Setup{/t}
+** Relaunch Setup
 重新安装
 
-{t}Relevance{/t}
+** Relevance
 相关
 
-{t}Reminder{/t}
+** Reminder
 提醒人
 
-{t}rename{/t}
+** rename
 
 
-{t}Rename folder{/t}
+** Rename folder
 文件夹改名
 
-{t}Repeat count{/t}
+** Repeat count
 重复计数
 
-{t}Repeat exclusions{/t}
+** Repeat exclusions
 重复排除
 
-{t}Repeat interval{/t}
+** Repeat interval
 重复间隔
 
-{t}Repeat until{/t}
+** Repeat until
 重复直到
 
-{t}Reply{/t}
+** Reply
 回复
 
-{t}Reply all{/t}
+** Reply all
 全部回复
 
-{t}Require admin access to set mountpoints{/t}
+** Require admin access to set mountpoints
 设置mountpoints需要admin权限
 
-{t}Required{/t}
+** Required
 
 
-{t}Required fields{/t}
+** Required fields
 
 
-{t}Reseller{/t}
+** Reseller
 代理商
 
-{t}reserved{/t}
+** reserved
 预留
 
-{t}Reset view{/t}
+** Reset view
 重置视图
 
-{t}Resource{/t}
+** Resource
 资源
 
-{t}Resources{/t}
+** Resources
 资源
 
-{t}Responsible{/t}
+** Responsible
 负责
 
-{t}Responsible (external){/t}
+** Responsible (external)
 负责（外部）
 
-{t}Responsible (internal){/t}
+** Responsible (internal)
 负责（内部）
 
-{t}Restore complete{/t}
+** Restore complete
 恢复结束
 
-{t}Restore here{/t}
+** Restore here
 恢复到这里
 
-{t}Restore only missing{/t}
+** Restore only missing
 仅恢复丢失
 
-{t}Restore only newer{/t}
+** Restore only newer
 仅恢复新的
 
-{t}Restore to origin{/t}
+** Restore to origin
 恢复到原始状态
 
-{t}Return receipt{/t}
+** Return receipt
 返回回执
 
-{t}right-aligned{/t}
+** right-aligned
 右对齐
 
-{t}Rights{/t}
+** Rights
 权限
 
-{t}Risks{/t}
+** Risks
 
 
-{t}Room name{/t}
+** Room name
 房间名称
 
-{t}Room number{/t}
+** Room number
 房间号码
 
-{t}Rooms{/t}
+** Rooms
 房间
 
-{t}Rows{/t}
+** Rows
 行
 
-{t}Run Setup again{/t}
+** Run Setup again
 再次执行安装
 
-{t}S a v e{/t}
+** S a v e
 保存
 
-{t}S a v e  a n d  E d i t{/t}
+** S a v e  a n d  E d i t
 
 
-{t}S a v e  a n d  g o  b a c k{/t}
+** S a v e  a n d  g o  b a c k
 保存并返回
 
-{t}Sa{/t}
+** Sa
 Sa
 
-{t}Salary{/t}
+** Salary
 
 
-{t}Salary per{/t}
+** Salary per
 
 
-{t}Sales promotion{/t}
+** Sales promotion
 促销
 
-{t}Sat{/t}
+** Sat
 六
 
-{t}Saturday{/t}
+** Saturday
 星期六
 
-{t}Scheduling{/t}
+** Scheduling
 行程安排
 
-{t}Schema{/t}
+** Schema
 架构
 
-{t}Schema data{/t}
+** Schema data
 架构数据
 
-{t}Schemafile not found. (%s){/t}
+** Schemafile not found. (%s)
 架构文件没找到。(%s)
 
-{t}School{/t}
+** School
 
 
-{t}scrapped{/t}
+** scrapped
 销毁
 
-{t}Search{/t}
+** Search
 搜索
 
-{t}Search by ID{/t}
+** Search by ID
 
 
-{t}second level support{/t}
+** second level support
 
 
-{t}Second manager{/t}
+** Second manager
 第二管理员
 
-{t}seconds{/t}
+** seconds
 
 
-{t}Secretary{/t}
+** Secretary
 秘书
 
-{t}Self registration{/t}
+** Self registration
 自注册
 
-{t}Self registration needs confirmation by an administrator.{/t}
+** Self registration needs confirmation by an administrator.
 
 
-{t}Send now{/t}
+** Send now
 
 
-{t}Sent{/t}
+** Sent
 
 
-{t}Sent reminders{/t}
+** Sent reminders
 发送提醒
 
-{t}Sep{/t}
+** Sep
 
 
-{t}Separate fields{/t}
+** Separate fields
 
 
-{t}Separate values{/t}
+** Separate values
 
 
-{t}Separator{/t}
+** Separator
 
 
-{t}Separators{/t}
+** Separators
 分隔符
 
-{t}September{/t}
+** September
 9月
 
-{t}Serial number{/t}
+** Serial number
 序列号
 
-{t}Server{/t}
+** Server
 服务器
 
-{t}Server does not support sorting{/t}
+** Server does not support sorting
 服务器不支持排序
 
-{t}Server-IP{/t}
+** Server-IP
 服务器IP
 
-{t}Service provider{/t}
+** Service provider
 服务提供者
 
-{t}Session name in cookie{/t}
+** Session name in cookie
 cookie中的会话名称
 
-{t}Session timeout{/t}
+** Session timeout
 会话超时
 
-{t}Sessions{/t}
+** Sessions
 会话
 
-{t}Settings{/t}
+** Settings
 
 
-{t}Setup{/t}
+** Setup
 安装
 
-{t}Setup needs a database-php-extension ! (%s){/t}
+** Setup needs a database-php-extension ! (%s)
 安装程序需要database-php-extension ! (%s)
 
-{t}Setup needs php with at least version %s !{/t}
+** Setup needs php with at least version %s !
 安装需要php最低版本%s!
 
-{t}Setup needs php-extension with name %s !{/t}
+** Setup needs php-extension with name %s !
 安装需要%s php-extension
 
-{t}Setup needs Simple Groupware with at least version %s !{/t}
+** Setup needs Simple Groupware with at least version %s !
 
 
-{t}Setup: setup-data written to %s.{/t}
+** Setup: setup-data written to %s.
 安装：安装数据写入%s。
 
-{t}Shapes{/t}
+** Shapes
 图形
 
-{t}Share{/t}
+** Share
 共享
 
-{t}Shared{/t}
+** Shared
 
 
-{t}Short links{/t}
+** Short links
 
 
-{t}Show{/t}
+** Show
 显示
 
-{t}Show all rules{/t}
+** Show all rules
 
 
-{t}Show archive{/t}
+** Show archive
 显示归档文件
 
-{t}Show details{/t}
+** Show details
 
 
-{t}Show folder description in content area{/t}
+** Show folder description in content area
 
 
-{t}Show password{/t}
+** Show password
 
 
-{t}Show quoted text{/t}
+** Show quoted text
 显示引用文本
 
-{t}Similar{/t}
+** Similar
 
 
-{t}Simple tables{/t}
+** Simple tables
 简单数据表
 
-{t}single{/t}
+** single
 单一
 
-{t}Single choice{/t}
+** Single choice
 
 
-{t}Size{/t}
+** Size
 尺寸
 
-{t}Size (children){/t}
+** Size (children)
 尺寸（下级）
 
-{t}Slow{/t}
+** Slow
 慢
 
-{t}small{/t}
+** small
 小
 
-{t}small text{/t}
+** small text
 小字体
 
-{t}smaller{/t}
+** smaller
 较小
 
-{t}SMTP not configured for %s{/t}
+** SMTP not configured for %s
 %s没有设置SMTP
 
-{t}Smtp-error %s: %s{/t}
+** Smtp-error %s: %s
 Smtp错误%s：%s
 
-{t}Software{/t}
+** Software
 软件
 
-{t}Solution{/t}
+** Solution
 解决方案
 
-{t}Solution type{/t}
+** Solution type
 方案类型
 
-{t}some text{/t}
+** some text
 
 
-{t}Source{/t}
+** Source
 
 
-{t}Source code{/t}
+** Source code
 源代码
 
-{t}Special leave{/t}
+** Special leave
 
 
-{t}Specification{/t}
+** Specification
 规范
 
-{t}Spreadsheet{/t}
+** Spreadsheet
 电子表格
 
-{t}SQL failed.{/t}
+** SQL failed.
 SQL失败。
 
-{t}SQL FAILED: %s{/t}
+** SQL FAILED: %s
 SQL失败：%s
 
-{t}Start scheduled{/t}
+** Start scheduled
 计划启动
 
-{t}Started{/t}
+** Started
 启动
 
-{t}starts with{/t}
+** starts with
 和启动
 
-{t}State{/t}
+** State
 状态
 
-{t}Static cache{/t}
+** Static cache
 统计缓存
 
-{t}Statistics{/t}
+** Statistics
 统计
 
-{t}Status{/t}
+** Status
 状态
 
-{t}Statuses{/t}
+** Statuses
 状态
 
-{t}Strategies{/t}
+** Strategies
 策略
 
-{t}Street{/t}
+** Street
 街道
 
-{t}Structure{/t}
+** Structure
 结构
 
-{t}Su{/t}
+** Su
 Su
 
-{t}Subfolder{/t}
+** Subfolder
 
 
-{t}Subfolders{/t}
+** Subfolders
 
 
-{t}subheading{/t}
+** subheading
 副标题
 
-{t}Subitem{/t}
+** Subitem
 子项目
 
-{t}Subject{/t}
+** Subject
 主题
 
-{t}Subjects{/t}
+** Subjects
 主题
 
-{t}Submit a patch{/t}
+** Submit a patch
 提交补丁
 
-{t}Subpages{/t}
+** Subpages
 
 
-{t}subscript{/t}
+** subscript
 标记
 
-{t}Subsistence costs{/t}
+** Subsistence costs
 生存费用
 
-{t}Sum{/t}
+** Sum
 
 
-{t}Summary{/t}
+** Summary
 概要
 
-{t}Sun{/t}
+** Sun
 日
 
-{t}Sunday{/t}
+** Sunday
 星期天
 
-{t}Superior{/t}
+** Superior
 最优先
 
-{t}superscript{/t}
+** superscript
 上标
 
-{t}Supplier{/t}
+** Supplier
 提供人
 
-{t}Suppliers{/t}
+** Suppliers
 提供人
 
-{t}Support{/t}
+** Support
 支持
 
-{t}Support request{/t}
+** Support request
 请求支持
 
-{t}Surveys{/t}
+** Surveys
 
 
-{t}Suspended{/t}
+** Suspended
 停止
 
-{t}Switch maintenance mode{/t}
+** Switch maintenance mode
 切换到维护模式
 
-{t}Sync4j remote delete items{/t}
+** Sync4j remote delete items
 同步远程删除项目
 
-{t}Syntax{/t}
+** Syntax
 
 
-{t}System{/t}
+** System
 系统
 
-{t}System command executed: %s{/t}
+** System command executed: %s
 
 
-{t}Tab{/t}
+** Tab
 
 
-{t}Table{/t}
+** Table
 数据表
 
-{t}Table sizes{/t}
+** Table sizes
 表大小
 
-{t}Table status{/t}
+** Table status
 表状态
 
-{t}Tables{/t}
+** Tables
 数据表
 
-{t}Take over{/t}
+** Take over
 
 
-{t}Take selection{/t}
+** Take selection
 
 
-{t}Task{/t}
+** Task
 
 
-{t}Task with ID %s{/t}
+** Task with ID %s
 
 
-{t}Tasks{/t}
+** Tasks
 任务
 
-{t}Tasks with responsible %s{/t}
+** Tasks with responsible %s
 
 
-{t}Template{/t}
+** Template
 模板
 
-{t}Templates{/t}
+** Templates
 模板
 
-{t}Temporary work{/t}
+** Temporary work
 
 
-{t}term{/t}
+** term
 期限
 
-{t}Text area{/t}
+** Text area
 
 
-{t}Text Document{/t}
+** Text Document
 文本文档
 
-{t}Text formatting rules{/t}
+** Text formatting rules
 文本格式化规则
 
-{t}Th{/t}
+** Th
 Th
 
-{t}Thanks for voting!{/t}
+** Thanks for voting!
 
 
-{t}The folder cannot be copied.{/t}
+** The folder cannot be copied.
 文件夹不能复制。
 
-{t}The folder cannot be deleted.{/t}
+** The folder cannot be deleted.
 文件夹不能删除。
 
-{t}The folder cannot be moved.{/t}
+** The folder cannot be moved.
 文件夹不能移动。
 
-{t}The new password is{/t}
+** The new password is
 新密码是
 
-{t}The url doesn't exist.{/t}
+** The url doesn't exist.
 url没找到
 
-{t}Theme{/t}
+** Theme
 主题
 
-{t}third level support{/t}
+** third level support
 
 
-{t}this file extension is not allowed{/t}
+** this file extension is not allowed
 此扩展名无效
 
-{t}Thu{/t}
+** Thu
 三
 
-{t}Thursday{/t}
+** Thursday
 星期三
 
-{t}Time and expenses{/t}
+** Time and expenses
 时间和费用
 
-{t}Time limit{/t}
+** Time limit
 
 
-{t}Time sheets{/t}
+** Time sheets
 时间表
 
-{t}Time zone{/t}
+** Time zone
 时区
 
-{t}timeout{/t}
+** timeout
 超时
 
-{t}Title{/t}
+** Title
 标题
 
-{t}To{/t}
+** To
 到
 
-{t}to be checked{/t}
+** to be checked
 等待检查
 
-{t}To continue installing Simple Groupware you must check the box under the license{/t}
+** To continue installing Simple Groupware you must check the box under the license
 必须选择许可证下面的选择框才能继续安装
 
-{t}Today{/t}
+** Today
 今天
 
-{t}Too many wrong logins. Please wait 15 minutes.{/t}
+** Too many wrong logins. Please wait 15 minutes.
 错误登录多次。等15分钟再试。
 
-{t}Total{/t}
+** Total
 总共
 
-{t}Trace{/t}
+** Trace
 追踪
 
-{t}Trade fair{/t}
+** Trade fair
 交易会
 
-{t}translations{/t}
+** translations
 翻译
 
-{t}Translations of the GNU GPL{/t}
+** Translations of the GNU GPL
 GNU GPL翻译
 
-{t}Transportation costs{/t}
+** Transportation costs
 运输成本
 
-{t}Trash{/t}
+** Trash
 回收站
 
-{t}Trash folder not found.{/t}
+** Trash folder not found.
 没找到回收站文件夹
 
-{t}Tree{/t}
+** Tree
 功能树
 
-{t}Trigger failed{/t}
+** Trigger failed
 触发失败
 
-{t}Tu{/t}
+** Tu
 Tu
 
-{t}Tue{/t}
+** Tue
 二
 
-{t}Tuesday{/t}
+** Tuesday
 星期二
 
-{t}Type{/t}
+** Type
 类型
 
-{t}U n i n s t a l l{/t}
+** U n i n s t a l l
 
 
-{t}unable to find %s{/t}
+** unable to find %s
 找不到%s
 
-{t}Unable to write to %s{/t}
+** Unable to write to %s
 不能写入%s
 
-{t}unconfirmed{/t}
+** unconfirmed
 未确认
 
-{t}Unconfirmed{/t}
+** Unconfirmed
 
 
-{t}underline{/t}
+** underline
 
 
-{t}Uninstall does not delete any data in the database.{/t}
+** Uninstall does not delete any data in the database.
 
 
-{t}uninterested{/t}
+** uninterested
 无关的
 
-{t}Unique{/t}
+** Unique
 
 
-{t}Unique with trash{/t}
+** Unique with trash
 
 
-{t}Unlock{/t}
+** Unlock
 解锁
 
-{t}Up{/t}
+** Up
 向上
 
-{t}Update{/t}
+** Update
 更新
 
-{t}Update Simple Groupware{/t}
+** Update Simple Groupware
 更新Simple Groupware
 
-{t}Updated{/t}
+** Updated
 更新
 
-{t}Updating schema %s from %s.{/t}
+** Updating schema %s from %s.
 更新架构%s从%s.
 
-{t}Upload failed{/t}
+** Upload failed
 上传失败
 
-{t}Uploaded files{/t}
+** Uploaded files
 上传文件
 
-{t}Uploading{/t}
+** Uploading
 
 
-{t}urgent{/t}
+** urgent
 紧急
 
-{t}URL{/t}
+** URL
 URL
 
-{t}Usage{/t}
+** Usage
 用途
 
-{t}USD{/t}
+** USD
 USD
 
-{t}Use APC for session storage{/t}
+** Use APC for session storage
 
 
-{t}Use Debian binaries (Warning: not latest versions){/t}
+** Use Debian binaries (Warning: not latest versions)
 Use Debian binaries (Warning: not latest versions)
 
-{t}Use LDAP Groups{/t}
+** Use LDAP Groups
 Use LDAP Groups
 
-{t}use mirror from{/t}
+** use mirror from
 
 
-{t}Use syslog() function for logging events{/t}
+** Use syslog() function for logging events
 
 
-{t}Use the mail() function for sending mails (insecure){/t}
+** Use the mail() function for sending mails (insecure)
 使用mail()函数发送邮件（不安全）
 
-{t}User{/t}
+** User
 用户
 
-{t}User not found.{/t}
+** User not found.
 
 
-{t}Username{/t}
+** Username
 用户名
 
-{t}Username must be different from the super administrator.{/t}
+** Username must be different from the super administrator.
 用户名不能与超级管理员相同。
 
-{t}Users{/t}
+** Users
 用户
 
-{t}V a l i d a t e{/t}
+** V a l i d a t e
 
 
-{t}V o t e !{/t}
+** V o t e !
 
 
-{t}Vacation{/t}
+** Vacation
 假期
 
-{t}Vacation days per year{/t}
+** Vacation days per year
 
 
-{t}Validating %s ...{/t}
+** Validating %s ...
 
 
-{t}validation failed{/t}
+** validation failed
 验证失败
 
-{t}Value{/t}
+** Value
 值
 
-{t}Value '%s' needs a group membership: %s{/t}
+** Value '%s' needs a group membership: %s
 
 
-{t}Variable{/t}
+** Variable
 变量
 
-{t}Variable already exists in table. (%s){/t}
+** Variable already exists in table. (%s)
 表中已经有此变量（%s)
 
-{t}Variable must be of type date (mm/dd/yyyy).{/t}
+** Variable must be of type date (mm/dd/yyyy).
 必须是日期变量（mm/dd/yyyy)。
 
-{t}Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).{/t}
+** Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).
 必须是日期时间变量 (mm/dd/yyyy hh:mm am/pm).
 
-{t}Variable must be of type float.{/t}
+** Variable must be of type float.
 必须是float变量。
 
-{t}Variable must be of type int and greater than 0.{/t}
+** Variable must be of type int and greater than 0.
 必须是大于0的整数。
 
-{t}Variable must be of type int.{/t}
+** Variable must be of type int.
 必须是整数。
 
-{t}Variable must be of type time (hh:mm am/pm).{/t}
+** Variable must be of type time (hh:mm am/pm).
 必须是时间变量 (hh:mm am/pm)。
 
-{t}Variables{/t}
+** Variables
 变量
 
-{t}Verbal recommendation{/t}
+** Verbal recommendation
 推荐操作
 
-{t}verified{/t}
+** verified
 验证
 
-{t}vertical{/t}
+** vertical
 垂直
 
-{t}very promising{/t}
+** very promising
 很有前途
 
-{t}View{/t}
+** View
 
 
-{t}View access (groups){/t}
+** View access (groups)
 
 
-{t}View access (users){/t}
+** View access (users)
 
 
-{t}Virus scanner{/t}
+** Virus scanner
 病毒扫描
 
-{t}Visibility{/t}
+** Visibility
 
 
-{t}Voice mail{/t}
+** Voice mail
 语音邮件
 
-{t}Vote{/t}
+** Vote
 
 
-{t}Voted by{/t}
+** Voted by
 
 
-{t}Waiting{/t}
+** Waiting
 等待
 
-{t}Warning{/t}
+** Warning
 警告
 
-{t}We{/t}
+** We
 我们
 
-{t}Web{/t}
+** Web
 Web
 
-{t}Web page{/t}
+** Web page
 
 
-{t}Wed{/t}
+** Wed
 三
 
-{t}Wednesday{/t}
+** Wednesday
 星期三
 
-{t}Week{/t}
+** Week
 周
 
-{t}Week start{/t}
+** Week start
 周开始
 
-{t}Weekend{/t}
+** Weekend
 周末
 
-{t}weekly{/t}
+** weekly
 每周
 
-{t}weeks{/t}
+** weeks
 周
 
-{t}Welcome to Simple Groupware!{/t}
+** Welcome to Simple Groupware!
 
 
-{t}white{/t}
+** white
 白色
 
-{t}widowed{/t}
+** widowed
 单独的
 
-{t}Width{/t}
+** Width
 
 
-{t}Wiki{/t}
+** Wiki
 Wiki
 
-{t}WikiStyles{/t}
+** WikiStyles
 Wiki样式表
 
-{t}won't fix{/t}
+** won't fix
 不修复
 
-{t}word{/t}
+** word
 
 
-{t}Workflow{/t}
+** Workflow
 
 
-{t}Working student{/t}
+** Working student
 
 
-{t}works as expected{/t}
+** works as expected
 需要工人
 
-{t}works for me{/t}
+** works for me
 为我工作
 
-{t}Workshop{/t}
+** Workshop
 工作室
 
-{t}Workspace{/t}
+** Workspace
 工作空间
 
-{t}write access{/t}
+** write access
 写权限
 
-{t}Write access (groups){/t}
+** Write access (groups)
 写权限（组）
 
-{t}Write access (users){/t}
+** Write access (users)
 写权限（用户）
 
-{t}Wrong database-version (%s). Please use at least %s !{/t}
+** Wrong database-version (%s). Please use at least %s !
 错误的数据库版本（%s）。请使用最新版本%s！
 
-{t}wrong directory{/t}
+** wrong directory
 错误目录
 
-{t}wrong password{/t}
+** wrong password
 密码错误
 
-{t}Year{/t}
+** Year
 年
 
-{t}yearly{/t}
+** yearly
 每年
 
-{t}years{/t}
+** years
 
 
-{t}yellow{/t}
+** yellow
 黄色
 
-{t}yes{/t}
+** yes
 是
 
-{t}You are not allowed to view this folder.{/t}
+** You are not allowed to view this folder.
 你无权查看此文件夹。
 
-{t}Your message was read on %s.{/t}
+** Your message was read on %s.
 你的消息在%s阅读。
 
-{t}Your session has timed out.{/t}
+** Your session has timed out.
 你的会话超时。
 
-{t}Zipcode{/t}
+** Zipcode
 邮编
 
-{t}{0} - {1} of {2}{/t}
+** {0} - {1} of {2}
 
 

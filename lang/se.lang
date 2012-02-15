@@ -3,3534 +3,3534 @@
  * @license GPLv2
  */
 
-{t}!_Copyright_Language_File{/t}
+** !_Copyright_Language_File
 Copyright (C) 2007 Lars Stavholm
 
-{t}!_Language{/t}
+** !_Language
 Svenska / Swedish
 
-{t}%s is not activated{/t}
+** %s is not activated
 %s är inte aktiverad
 
-{t}%s is not compiled / loaded into PHP.{/t}
+** %s is not compiled / loaded into PHP.
 %s är inte kompilerad / laddad i PHP.
 
-{t}%s M memory usage{/t}
+** %s M memory usage
 
 
-{t}%s not in database{/t}
+** %s not in database
 %s saknas i databasen
 
-{t}%s rows affected{/t}
+** %s rows affected
 
 
-{t}%s secs{/t}
+** %s secs
 %s sekunder
 
-{t}%s started editing this asset at %s{/t}
+** %s started editing this asset at %s
 %s påbörjade ändringen av denna tillgång vid %s
 
-{t}(for active directory username must be: username@domain){/t}
+** (for active directory username must be: username@domain)
 (för Active Directory måste användarnamnet vara på formen: användare@domän)
 
-{t}(un)Group{/t}
+** (un)Group
 (av)Gruppera
 
-{t}About{/t}
+** About
 Om
 
-{t}Absence{/t}
+** Absence
 
 
-{t}accepted{/t}
+** accepted
 accepterad
 
-{t}Access denied.{/t}
+** Access denied.
 Åtkomst nekad.
 
-{t}Access to this file has been denied.{/t}
+** Access to this file has been denied.
 Åtkomst till denna fil har blivt nekad.
 
-{t}Account{/t}
+** Account
 Konto
 
-{t}account of %s has expired{/t}
+** account of %s has expired
 Konto för %s har upphört
 
-{t}Accounting{/t}
+** Accounting
 Redovisning
 
-{t}Activate{/t}
+** Activate
 
 
-{t}Activated{/t}
+** Activated
 Aktiverad
 
-{t}active{/t}
+** active
 
 
-{t}Active{/t}
+** Active
 Aktiv
 
-{t}Ad{/t}
+** Ad
 Annons
 
-{t}Add{/t}
+** Add
 Lägg till
 
-{t}Add a special rule{/t}
+** Add a special rule
 
 
-{t}Add to offline folders{/t}
+** Add to offline folders
 
 
-{t}added line{/t}
+** added line
 rad tillagd
 
-{t}Address{/t}
+** Address
 Adress
 
-{t}admin access{/t}
+** admin access
 
 
-{t}Admin access (groups){/t}
+** Admin access (groups)
 Admin åtkomst (grupper)
 
-{t}Admin access (users){/t}
+** Admin access (users)
 Admin åtkomst (användare)
 
-{t}Admin Password{/t}
+** Admin Password
 Admin Lösenord
 
-{t}Admin Username{/t}
+** Admin Username
 Admin Användarnamn
 
-{t}Administration{/t}
+** Administration
 Administration
 
-{t}Advanced tables{/t}
+** Advanced tables
 
 
-{t}Affected user{/t}
+** Affected user
 Påverkad användare
 
-{t}Affiliate{/t}
+** Affiliate
 Förtroende
 
-{t}after{/t}
+** after
 
 
-{t}Agent{/t}
+** Agent
 Agent
 
-{t}Ajax Error{/t}
+** Ajax Error
 
 
-{t}All{/t}
+** All
 Alla
 
-{t}All day{/t}
+** All day
 Alla dagar
 
-{t}All events{/t}
+** All events
 Alla händelser
 
-{t}All finished tasks{/t}
+** All finished tasks
 
 
-{t}All pending tasks{/t}
+** All pending tasks
 
 
-{t}Allow custom values{/t}
+** Allow custom values
 
 
-{t}Allow disabled modules{/t}
+** Allow disabled modules
 
 
-{t}Already running latest release.{/t}
+** Already running latest release.
 Använder redan senaste version.
 
-{t}Already voted.{/t}
+** Already voted.
 
 
-{t}Amount{/t}
+** Amount
 Belopp
 
-{t}Anchor{/t}
+** Anchor
 Ankare
 
-{t}and{/t}
+** and
 och
 
-{t}Anniversary{/t}
+** Anniversary
 Årsdag
 
-{t}another page{/t}
+** another page
 
 
-{t}answered{/t}
+** answered
 svarade
 
-{t}Answers{/t}
+** Answers
 
 
-{t}Apache based (.htaccess, Basic, Digest, etc.){/t}
+** Apache based (.htaccess, Basic, Digest, etc.)
 Apache baserad (.htaccess, Basic, Digest, etc.)
 
-{t}Application title{/t}
+** Application title
 Applikationstitel
 
-{t}Apply rights to subfolders{/t}
+** Apply rights to subfolders
 Anbringa rättigheter till undermappar
 
-{t}Appointment{/t}
+** Appointment
 
 
-{t}Appointments{/t}
+** Appointments
 
 
-{t}Apprenticeship{/t}
+** Apprenticeship
 
 
-{t}Apr{/t}
+** Apr
 
 
-{t}April{/t}
+** April
 April
 
-{t}Archive{/t}
+** Archive
 
 
-{t}Archive deleted files{/t}
+** Archive deleted files
 Arkiv för borttagna filer
 
-{t}Asset{/t}
+** Asset
 
 
-{t}Asset marked as read-only.{/t}
+** Asset marked as read-only.
 Tillgång märkt som skrivskyddad
 
-{t}Assets{/t}
+** Assets
 Tillgångar
 
-{t}Assets (children){/t}
+** Assets (children)
 Tillgångar (barn)
 
-{t}Assets can be imported into multiple folders by adding the "Folder" column.{/t}
+** Assets can be imported into multiple folders by adding the "Folder" column.
 
 
-{t}Assets can be overwritten by adding the "Id" column.{/t}
+** Assets can be overwritten by adding the "Id" column.
 
 
-{t}assigned{/t}
+** assigned
 tilldelad
 
-{t}at least 20 characters{/t}
+** at least 20 characters
 
 
-{t}attach file{/t}
+** attach file
 
 
-{t}Attachment{/t}
+** Attachment
 Bifogad fil
 
-{t}Attachments{/t}
+** Attachments
 Bifogade filer
 
-{t}Attend{/t}
+** Attend
 
 
-{t}Aug{/t}
+** Aug
 
 
-{t}August{/t}
+** August
 Augusti
 
-{t}Authentication Mode{/t}
+** Authentication Mode
 Äkthetsbevisningsmetod
 
-{t}Author{/t}
+** Author
 
 
-{t}Automatically hide the menu{/t}
+** Automatically hide the menu
 
 
-{t}Automatically hide the tree{/t}
+** Automatically hide the tree
 
 
-{t}Average{/t}
+** Average
 
 
-{t}Average progress{/t}
+** Average progress
 
 
-{t}Avg length{/t}
+** Avg length
 Medellängd
 
-{t}Back{/t}
+** Back
 Tillbaka
 
-{t}Backup{/t}
+** Backup
 Säkerhetskopia
 
-{t}Backup current folder{/t}
+** Backup current folder
 Säkerhetskopia av aktuell mapp
 
-{t}Backups{/t}
+** Backups
 Säkerhetskopior
 
-{t}Basic editing{/t}
+** Basic editing
 
 
-{t}before{/t}
+** before
 
 
-{t}Before{/t}
+** Before
 
 
-{t}Begin{/t}
+** Begin
 Börja
 
-{t}big{/t}
+** big
 
 
-{t}big text{/t}
+** big text
 
 
-{t}bigger{/t}
+** bigger
 
 
-{t}Billing address{/t}
+** Billing address
 Fakturaadress
 
-{t}Birthday{/t}
+** Birthday
 Födelsedag
 
-{t}Birthdays{/t}
+** Birthdays
 Födelsedagarna
 
-{t}Blank{/t}
+** Blank
 Blank
 
-{t}blue{/t}
+** blue
 blå
 
-{t}bold{/t}
+** bold
 
 
-{t}bold italic{/t}
+** bold italic
 
 
-{t}Book{/t}
+** Book
 
 
-{t}booked{/t}
+** booked
 bokad
 
-{t}Booked{/t}
+** Booked
 Bokad
 
-{t}Booking number{/t}
+** Booking number
 bokningsnummer
 
-{t}Bookings{/t}
+** Bookings
 Bokningar
 
-{t}Bookmark{/t}
+** Bookmark
 
 
-{t}Bookmarks{/t}
+** Bookmarks
 Bokmärken
 
-{t}borrowed{/t}
+** borrowed
 lånade
 
-{t}Brand{/t}
+** Brand
 Märke
 
-{t}Brands{/t}
+** Brands
 Märken
 
-{t}Browser Compatibility{/t}
+** Browser Compatibility
 Webläsarkompatibilitet
 
-{t}Browser not supported{/t}
+** Browser not supported
 Webläsare inte supportad
 
-{t}Budget{/t}
+** Budget
 Budget
 
-{t}Bug{/t}
+** Bug
 Fel
 
-{t}bulleted{/t}
+** bulleted
 
 
-{t}Business{/t}
+** Business
 Affärsverksamhet
 
-{t}C a n c e l{/t}
+** C a n c e l
 
 
-{t}C O N T I N U E{/t}
+** C O N T I N U E
 F O R T S Ä T T
 
-{t}Cache output{/t}
+** Cache output
 Minnesutbyte
 
-{t}Caches{/t}
+** Caches
 Minnen
 
-{t}Calendar{/t}
+** Calendar
 Kalender
 
-{t}Cancel{/t}
+** Cancel
 
 
-{t}canceled{/t}
+** canceled
 upphävde
 
-{t}Canceled{/t}
+** Canceled
 Upphävde
 
-{t}Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.{/t}
+** Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.
 Kan inte anropa proc_open. Vänligen ta bort proc_open från disable_functions i php.ini och avaktivera safe_mode.
 
-{t}Cannot connect to database %s on %s.{/t}
+** Cannot connect to database %s on %s.
 Kan inte ansluta till databas %s på %s
 
-{t}Cannot create preview for %s{/t}
+** Cannot create preview for %s
 Kan inte skapa förhandsvisning för %s
 
-{t}Cannot read the file %s.{/t}
+** Cannot read the file %s.
 Kan inte läsa filen %s
 
-{t}Cardinality{/t}
+** Cardinality
 Huvudsakliga
 
-{t}Categories{/t}
+** Categories
 Kategorier
 
-{t}Category{/t}
+** Category
 Kategori
 
-{t}Cc{/t}
+** Cc
 Kopia
 
-{t}centered{/t}
+** centered
 
 
-{t}CEO{/t}
+** CEO
 VD
 
-{t}Change request{/t}
+** Change request
 Ändringsbegäran
 
-{t}Change settings{/t}
+** Change settings
 Ändra uppsättningar
 
-{t}Change Setup settings{/t}
+** Change Setup settings
 Ändra Setup-uppsättningar
 
-{t}Change summary{/t}
+** Change summary
 
 
-{t}Changed{/t}
+** Changed
 
 
-{t}changed line{/t}
+** changed line
 Ändrad rad
 
-{t}Changelog{/t}
+** Changelog
 Ändringslogg
 
-{t}Chat{/t}
+** Chat
 Chatta
 
-{t}Check DoS Attacks{/t}
+** Check DoS Attacks
 Kontrollera DoS Attacks
 
-{t}checked{/t}
+** checked
 kontrollerad
 
-{t}Checked{/t}
+** Checked
 Kontrollerad
 
-{t}Choices{/t}
+** Choices
 
 
-{t}CIO{/t}
+** CIO
 Informationsdirektör
 
-{t}City{/t}
+** City
 Stad
 
-{t}Clean{/t}
+** Clean
 Rensa
 
-{t}Clean Cache{/t}
+** Clean Cache
 Rensa minnet
 
-{t}Clear{/t}
+** Clear
 Töm
 
-{t}Clear Cache{/t}
+** Clear Cache
 Töm minnet
 
-{t}Clear Data{/t}
+** Clear Data
 
 
-{t}Clear grouping{/t}
+** Clear grouping
 
 
-{t}Client{/t}
+** Client
 Kund
 
-{t}Close{/t}
+** Close
 Stäng
 
-{t}Close session{/t}
+** Close session
 Stäng session
 
-{t}closed{/t}
+** closed
 stängd
 
-{t}Closed{/t}
+** Closed
 Stängd
 
-{t}CMS{/t}
+** CMS
 
 
-{t}CMS homepage title{/t}
+** CMS homepage title
 
 
-{t}Collapse text{/t}
+** Collapse text
 
 
-{t}Collapse tree{/t}
+** Collapse tree
 Komprimera träd
 
-{t}Color{/t}
+** Color
 Färg
 
-{t}Column{/t}
+** Column
 
 
-{t}Column name{/t}
+** Column name
 Kolumnnamn
 
-{t}Combination{/t}
+** Combination
 
 
-{t}Comma{/t}
+** Comma
 
 
-{t}Comma separated values{/t}
+** Comma separated values
 
 
-{t}Command{/t}
+** Command
 Kommando
 
-{t}Comment{/t}
+** Comment
 Kommentar
 
-{t}Comment files{/t}
+** Comment files
 Kommentarfiler
 
-{t}Companies{/t}
+** Companies
 Företagen
 
-{t}Company{/t}
+** Company
 Företag
 
-{t}Competition{/t}
+** Competition
 Konkurrens
 
-{t}Competitor{/t}
+** Competitor
 Konkurrent
 
-{t}Complete{/t}
+** Complete
 
 
-{t}completed{/t}
+** completed
 
 
-{t}Completed{/t}
+** Completed
 Avslutad
 
-{t}Component{/t}
+** Component
 Komponent
 
-{t}Compress output{/t}
+** Compress output
 Komprimera utdata
 
-{t}Confirm{/t}
+** Confirm
 
 
-{t}confirmed{/t}
+** confirmed
 bekräftad
 
-{t}Connection error: %s [%s]{/t}
+** Connection error: %s [%s]
 
 
-{t}Connection to database failed.{/t}
+** Connection to database failed.
 Anslutning till databas misslyckades
 
-{t}Console{/t}
+** Console
 
 
-{t}Console scripts{/t}
+** Console scripts
 
 
-{t}Consultant{/t}
+** Consultant
 Konsult
 
-{t}Contact{/t}
+** Contact
 Kontakt
 
-{t}Contact activities{/t}
+** Contact activities
 Kontaktaktivteter
 
-{t}Contact activity{/t}
+** Contact activity
 
 
-{t}Contact by{/t}
+** Contact by
 Kontaktad av
 
-{t}Contact groups{/t}
+** Contact groups
 Kontaktgrupp
 
-{t}Contact id{/t}
+** Contact id
 Kontakt id
 
-{t}Contact person{/t}
+** Contact person
 Kontaktperson
 
-{t}Contact user by{/t}
+** Contact user by
 Kontakta användare med
 
-{t}Contacts{/t}
+** Contacts
 Kontakter
 
-{t}contains{/t}
+** contains
 innehåll
 
-{t}Content{/t}
+** Content
 Innehåll
 
-{t}Continue{/t}
+** Continue
 Fortsätt
 
-{t}Contracts{/t}
+** Contracts
 
 
-{t}Copier{/t}
+** Copier
 Kopiator
 
-{t}Copy{/t}
+** Copy
 Kopiera
 
-{t}Cost center{/t}
+** Cost center
 Kostnadställe
 
-{t}Costs of accommodation{/t}
+** Costs of accommodation
 Kostnader för logi
 
-{t}Could not determine database-version.{/t}
+** Could not determine database-version.
 Kunde inte fastställa databasversion
 
-{t}Country{/t}
+** Country
 Land
 
-{t}Create new{/t}
+** Create new
 
 
-{t}Create new folder{/t}
+** Create new folder
 
 
-{t}Created{/t}
+** Created
 Skapad
 
-{t}Creating database failed.{/t}
+** Creating database failed.
 Skapande av databas misslyckandes.
 
-{t}current path{/t}
+** current path
 Aktuell sökväg
 
-{t}current time{/t}
+** current time
 
 
-{t}Curriculum vitae{/t}
+** Curriculum vitae
 Curriculum vitae
 
-{t}Custom schema{/t}
+** Custom schema
 
 
-{t}Customization rules\nfor modules based on sgsML{/t}
+** Customization rules\nfor modules based on sgsML
 
 
-{t}customizations{/t}
+** customizations
 
 
-{t}Customize{/t}
+** Customize
 
 
-{t}Cut{/t}
+** Cut
 Klipp ut
 
-{t}daily{/t}
+** daily
 dagligen
 
-{t}Data{/t}
+** Data
 Data
 
-{t}Data free{/t}
+** Data free
 Datafri
 
-{t}Data length{/t}
+** Data length
 Datalängd
 
-{t}Database{/t}
+** Database
 Databas
 
-{t}Database Hostname / IP{/t}
+** Database Hostname / IP
 Databas datornamn / IP
 
-{t}Database Name{/t}
+** Database Name
 Databasnamn
 
-{t}Database Password{/t}
+** Database Password
 Databaslösenord
 
-{t}Database size{/t}
+** Database size
 
 
-{t}Database status{/t}
+** Database status
 Databasstatus
 
-{t}Database type{/t}
+** Database type
 
 
-{t}Database User{/t}
+** Database User
 Databasanvändare
 
-{t}Database variables{/t}
+** Database variables
 Databasvariabler
 
-{t}Date{/t}
+** Date
 Datum
 
-{t}Day{/t}
+** Day
 Dag
 
-{t}Day begin{/t}
+** Day begin
 Startdag
 
-{t}Day end{/t}
+** Day end
 slutdag
 
-{t}days{/t}
+** days
 dagar
 
-{t}Deactivate{/t}
+** Deactivate
 
 
-{t}Deadline{/t}
+** Deadline
 slutpunkt
 
-{t}Debug{/t}
+** Debug
 Felsöka
 
-{t}Debug-dir{/t}
+** Debug-dir
 Felsök-dir
 
-{t}Dec{/t}
+** Dec
 
 
-{t}December{/t}
+** December
 December
 
-{t}Declining balance{/t}
+** Declining balance
 Sjunkande balans
 
-{t}Default{/t}
+** Default
 Förvald
 
-{t}Default function{/t}
+** Default function
 
 
-{t}Default theme{/t}
+** Default theme
 Förvald tema
 
-{t}Default values for assets{/t}
+** Default values for assets
 
 
-{t}definition for definition lists{/t}
+** definition for definition lists
 
 
-{t}Degree{/t}
+** Degree
 Grad
 
-{t}Delete{/t}
+** Delete
 Ta bort
 
-{t}Delete incl subfolders{/t}
+** Delete incl subfolders
 Ta bort inkl undermappar
 
-{t}deleted{/t}
+** deleted
 
 
-{t}deleted line{/t}
+** deleted line
 Ta bort rad
 
-{t}Delivery{/t}
+** Delivery
 
 
-{t}Demand{/t}
+** Demand
 Begära
 
-{t}Demo{/t}
+** Demo
 Demo
 
-{t}Demonstration folder{/t}
+** Demonstration folder
 
 
-{t}Department{/t}
+** Department
 Avdelning
 
-{t}Departments{/t}
+** Departments
 Avdelningar
 
-{t}Dependancies{/t}
+** Dependancies
 Beroenden
 
-{t}Description{/t}
+** Description
 Beskrivning
 
-{t}Description hint{/t}
+** Description hint
 
 
-{t}Description title{/t}
+** Description title
 
 
-{t}Description value{/t}
+** Description value
 
 
-{t}Desktop computer{/t}
+** Desktop computer
 Skrivbordsdator
 
-{t}Details{/t}
+** Details
 Detaljer
 
-{t}Device type{/t}
+** Device type
 Apparattyp
 
-{t}Device types{/t}
+** Device types
 Apparattyper
 
-{t}Diagram{/t}
+** Diagram
 
 
-{t}directory does not exist.{/t}
+** directory does not exist.
 Katalog existerar inte.
 
-{t}Directory is outside the allowed directory. (%s is outside %s){/t}
+** Directory is outside the allowed directory. (%s is outside %s)
 Katalog är utanför tillåtna katalogstrukturen. (%s är utanför %s)
 
-{t}disable{/t}
+** disable
 
 
-{t}Disable basic authentication{/t}
+** Disable basic authentication
 
 
-{t}Disable cut-copy-paste{/t}
+** Disable cut-copy-paste
 
 
-{t}Disabled{/t}
+** Disabled
 
 
-{t}Disabled modules{/t}
+** Disabled modules
 
 
-{t}Display{/t}
+** Display
 Visa
 
-{t}display filter{/t}
+** display filter
 Visningsfilter
 
-{t}Displayname{/t}
+** Displayname
 
 
-{t}displays{/t}
+** displays
 
 
-{t}Distributor{/t}
+** Distributor
 Distributör
 
-{t}Distributors{/t}
+** Distributors
 Distributörer
 
-{t}divorced{/t}
+** divorced
 skringrade
 
-{t}Documentation{/t}
+** Documentation
 Dokumentation
 
-{t}Documentation index{/t}
+** Documentation index
 
 
-{t}Domain{/t}
+** Domain
 Domän
 
-{t}Don't attend{/t}
+** Don't attend
 
 
-{t}Don't move old files to 'old/'{/t}
+** Don't move old files to 'old/'
 
 
-{t}Down{/t}
+** Down
 Ner
 
-{t}Download{/t}
+** Download
 Nerladda
 
-{t}Download example file{/t}
+** Download example file
 
 
-{t}Downloading extension list{/t}
+** Downloading extension list
 
 
-{t}Downloading update list{/t}
+** Downloading update list
 Nerladdningsuppdateringslista
 
-{t}Drag and drop files or URLs here.{/t}
+** Drag and drop files or URLs here.
 
 
-{t}duplicate{/t}
+** duplicate
 duplikat
 
-{t}Duration{/t}
+** Duration
 Varaktighet
 
-{t}E-mail{/t}
+** E-mail
 E-post
 
-{t}E-mail private{/t}
+** E-mail private
 E-post privat
 
-{t}E-mail program{/t}
+** E-mail program
 E-post program
 
-{t}e.g.{/t}
+** e.g.
 
 
-{t}Edit{/t}
+** Edit
 Redigera
 
-{t}Edit as new{/t}
+** Edit as new
 Redigera som ny
 
-{t}Edit rights{/t}
+** Edit rights
 Redigera rättigheter
 
-{t}Editable if hidden in all views{/t}
+** Editable if hidden in all views
 
 
-{t}Editor{/t}
+** Editor
 
 
-{t}Emphasis{/t}
+** Emphasis
 
 
-{t}Empty{/t}
+** Empty
 Töm
 
-{t}Empty folder{/t}
+** Empty folder
 Töm mappen
 
-{t}en{/t}
+** en
 se
 
-{t}Enable anonymous access{/t}
+** Enable anonymous access
 Tillåt anonym åtkomst
 
-{t}Enable anonymous CMS{/t}
+** Enable anonymous CMS
 
 
-{t}Enable automatic user creation{/t}
+** Enable automatic user creation
 Tillåt automatiskt skapande av användar
 
-{t}Enable external mail client for 'mailto:' links{/t}
+** Enable external mail client for 'mailto:' links
 Tillåt extern e-post klient för mailto: länkar
 
-{t}Enable self registration{/t}
+** Enable self registration
 
 
-{t}Enable Sync4j / Funambol{/t}
+** Enable Sync4j / Funambol
 
 
-{t}Enable WebDAV{/t}
+** Enable WebDAV
 
 
-{t}End{/t}
+** End
 Slut
 
-{t}engaged{/t}
+** engaged
 beställde
 
-{t}equal{/t}
+** equal
 lika
 
-{t}Error{/t}
+** Error
 Fel
 
-{t}Error doing request to xmlhttp{/t}
+** Error doing request to xmlhttp
 Fel vid begäran till xmlhttp
 
-{t}Error moving file{/t}
+** Error moving file
 Fel vid flyttning av fil
 
-{t}Error pasting asset{/t}
+** Error pasting asset
 Fel vid tilläggning av tillång
 
-{t}Error: no credentials{/t}
+** Error: no credentials
 Fel: inga identitetspapper
 
-{t}Events{/t}
+** Events
 Händelser
 
-{t}Example{/t}
+** Example
 
 
-{t}Example contacts{/t}
+** Example contacts
 Exempel kontakter
 
-{t}Example surveys can be found at:{/t}
+** Example surveys can be found at:
 
 
-{t}Example without mountpoint{/t}
+** Example without mountpoint
 Exempel utan anslutningspunkt
 
-{t}Examples{/t}
+** Examples
 
 
-{t}Execute{/t}
+** Execute
 
 
-{t}Expenses{/t}
+** Expenses
 Utgifter
 
-{t}Experimental{/t}
+** Experimental
 Experimental
 
-{t}Expires{/t}
+** Expires
 Gå ut
 
-{t}Expiry{/t}
+** Expiry
 Upphörande
 
-{t}Extended{/t}
+** Extended
 
 
-{t}Extensions{/t}
+** Extensions
 
 
-{t}Extracting files{/t}
+** Extracting files
 Extraherande filer
 
-{t}F j{/t}
+** F j
 F j
 
-{t}F j, Y{/t}
+** F j, Y
 F j, Y
 
-{t}Failed to create directory: %s{/t}
+** Failed to create directory: %s
 Misslyckades att skapa katalog: %s
 
-{t}Failed to write file to disk.{/t}
+** Failed to write file to disk.
 Misslyckades att skriva fil till disk.
 
-{t}Failed to write into %s{/t}
+** Failed to write into %s
 Misslyckades att skriva till %s
 
-{t}Family status{/t}
+** Family status
 Familjestatus
 
-{t}FAQ{/t}
+** FAQ
 FAQ
 
-{t}Favorites{/t}
+** Favorites
 Favoriter
 
-{t}Fax{/t}
+** Fax
 Fax
 
-{t}Fax private{/t}
+** Fax private
 
 
-{t}Feature request{/t}
+** Feature request
 Begärd egenskap
 
-{t}Feb{/t}
+** Feb
 
 
-{t}February{/t}
+** February
 Februari
 
-{t}Feed{/t}
+** Feed
 
 
-{t}female{/t}
+** female
 kvinnlig
 
-{t}Field{/t}
+** Field
 Fält
 
-{t}Field contains value{/t}
+** Field contains value
 
 
-{t}Field customization{/t}
+** Field customization
 
 
-{t}Field is equal to value{/t}
+** Field is equal to value
 
 
-{t}Fields{/t}
+** Fields
 
 
-{t}File{/t}
+** File
 Fil
 
-{t}file is too big. Please change upload_max_filesize, post_max_size in your php.ini{/t}
+** file is too big. Please change upload_max_filesize, post_max_size in your php.ini
 Filen är för stor: vänligen ändra upload_max_filesize, post_max_size i er php.ini
 
-{t}file is too big. Please upload a smaller one.{/t}
+** file is too big. Please upload a smaller one.
 Filen är för stor: vänligen ladda upp en mindre fil.
 
-{t}file not found in database.{/t}
+** file not found in database.
 Fil inte hittad i databasen.
 
-{t}file not found.{/t}
+** file not found.
 fil inte hittad.
 
-{t}file was uploaded partially.{/t}
+** file was uploaded partially.
 Fil var uppladdad delvis.
 
-{t}Filename must have the right extension. Valid extensions are %s{/t}
+** Filename must have the right extension. Valid extensions are %s
 Filnamn måste ha riktiga extension. Giltig extensioner är %s
 
-{t}Files{/t}
+** Files
 Filer
 
-{t}Filesystem{/t}
+** Filesystem
 Filsystem
 
-{t}Filter{/t}
+** Filter
 Filter
 
-{t}Find assets in multiple folders{/t}
+** Find assets in multiple folders
 
 
-{t}Finish scheduled{/t}
+** Finish scheduled
 Planerad avslut
 
-{t}Finished{/t}
+** Finished
 Avslutade
 
-{t}First in list{/t}
+** First in list
 Först i listam
 
-{t}first level support{/t}
+** first level support
 
 
-{t}First name{/t}
+** First name
 Förnamn
 
-{t}Fix paging bar to page bottom{/t}
+** Fix paging bar to page bottom
 
 
-{t}fixed{/t}
+** fixed
 Fixad
 
-{t}Flags{/t}
+** Flags
 Flagor
 
-{t}Flash plugin not installed.{/t}
+** Flash plugin not installed.
 
 
-{t}Folder{/t}
+** Folder
 Mapp
 
-{t}Folder already exists.{/t}
+** Folder already exists.
 
 
-{t}Folder created.{/t}
+** Folder created.
 
 
-{t}Folder has changed.{/t}
+** Folder has changed.
 
 
-{t}Folder icon{/t}
+** Folder icon
 
 
-{t}Folder not found.{/t}
+** Folder not found.
 
 
-{t}Folder refresh period{/t}
+** Folder refresh period
 
 
-{t}Folder structure{/t}
+** Folder structure
 
 
-{t}Folder structure created.{/t}
+** Folder structure created.
 Mappstruktur skapad.
 
-{t}Folder structure moved to trash.{/t}
+** Folder structure moved to trash.
 Mappstruktur flyttad till papperskorg.
 
-{t}Folder Type{/t}
+** Folder Type
 Mapptyp
 
-{t}Folder with ID %s{/t}
+** Folder with ID %s
 
 
-{t}Folders{/t}
+** Folders
 Mappar
 
-{t}for a new paragraph, use a blank line{/t}
+** for a new paragraph, use a blank line
 
 
-{t}Force SSL{/t}
+** Force SSL
 Force SSL
 
-{t}Form{/t}
+** Form
 
 
-{t}Forum{/t}
+** Forum
 Forum
 
-{t}Forward{/t}
+** Forward
 Framåt
 
-{t}Fr{/t}
+** Fr
 Fr
 
-{t}Free/busy{/t}
+** Free/busy
 Fri/Upptagen
 
-{t}Freelance{/t}
+** Freelance
 
 
-{t}Fri{/t}
+** Fri
 Fre
 
-{t}Friday{/t}
+** Friday
 
 
-{t}From{/t}
+** From
 Från
 
-{t}Full screen{/t}
+** Full screen
 
 
-{t}Full texts{/t}
+** Full texts
 
 
-{t}Full time{/t}
+** Full time
 
 
-{t}Full width{/t}
+** Full width
 full bredd
 
-{t}Fulltext index{/t}
+** Fulltext index
 
 
-{t}Funambol only works with MySQL and PostgreSQL.{/t}
+** Funambol only works with MySQL and PostgreSQL.
 
 
-{t}Function does not exist: %s{/t}
+** Function does not exist: %s
 Funktion existerar inte: %s
 
-{t}g:i a{/t}
+** g:i a
 G:i
 
-{t}Gender{/t}
+** Gender
 Sändare
 
-{t}General{/t}
+** General
 Allmänt
 
-{t}Generate{/t}
+** Generate
 Generera
 
-{t}Gifts{/t}
+** Gifts
 Gåvor
 
-{t}Give Feedback{/t}
+** Give Feedback
 Ge Feedback
 
-{t}GNU GPL Frequently Asked Questions{/t}
+** GNU GPL Frequently Asked Questions
 GNU GPL Frekventa Frågor
 
-{t}greater than{/t}
+** greater than
 större än
 
-{t}green{/t}
+** green
 grön
 
-{t}Group{/t}
+** Group
 
 
-{t}Group created.{/t}
+** Group created.
 
 
-{t}Group deactivated.{/t}
+** Group deactivated.
 
 
-{t}Groupname{/t}
+** Groupname
 Gruppnamn
 
-{t}Groups{/t}
+** Groups
 Grupper
 
-{t}hanging text{/t}
+** hanging text
 
 
-{t}Hardware{/t}
+** Hardware
 Hårdvara
 
-{t}Headers{/t}
+** Headers
 Sidhuvuden
 
-{t}heading{/t}
+** heading
 
 
-{t}headings{/t}
+** headings
 
 
-{t}Height{/t}
+** Height
 Höjd
 
-{t}Help{/t}
+** Help
 Hjälp
 
-{t}Helpdesk{/t}
+** Helpdesk
 Supportavdelning
 
-{t}Hidden in{/t}
+** Hidden in
 
 
-{t}Hidden in all views{/t}
+** Hidden in all views
 
 
-{t}Hide{/t}
+** Hide
 
 
-{t}hide in all views{/t}
+** hide in all views
 
 
-{t}hide in this view{/t}
+** hide in this view
 
 
-{t}History{/t}
+** History
 Historia
 
-{t}Holiday{/t}
+** Holiday
 Semester
 
-{t}Home{/t}
+** Home
 Hem
 
-{t}Home folder id{/t}
+** Home folder id
 
 
-{t}Home page in the CMS{/t}
+** Home page in the CMS
 
 
-{t}Homepage{/t}
+** Homepage
 Hemsida
 
-{t}horizontal line{/t}
+** horizontal line
 
 
-{t}Host{/t}
+** Host
 Värd
 
-{t}Hosts{/t}
+** Hosts
 Värdar
 
-{t}Hour{/t}
+** Hour
 
 
-{t}hours{/t}
+** hours
 timmar
 
-{t}Hours per week{/t}
+** Hours per week
 
 
-{t}HTML document{/t}
+** HTML document
 
 
-{t}HTML documents{/t}
+** HTML documents
 HTML dokument
 
-{t}http://www.pmwiki.org/PmWiki/{/t}
+** http://www.pmwiki.org/PmWiki/
 
 
-{t}Human resources{/t}
+** Human resources
 
 
-{t}I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2{/t}
+** I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2
 Jag accepterar GNU GENERAL PUBLIC LICENSE VERSION 2
 
-{t}I m p o r t{/t}
+** I m p o r t
 
 
-{t}I n s t a l l{/t}
+** I n s t a l l
 I n s t a l l e r a
 
-{t}Icon{/t}
+** Icon
 
 
-{t}Id{/t}
+** Id
 Id
 
-{t}Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
 
 
-{t}Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].
 
 
-{t}Ideas{/t}
+** Ideas
 Ide´er
 
-{t}If empty, the SMTP connection from the module users will be used.{/t}
+** If empty, the SMTP connection from the module users will be used.
 Om tom, SMTP anslutning från modellanvändaren vill bli använd.
 
-{t}If file system permissions are ok, please check the configurations of %s if present.{/t}
+** If file system permissions are ok, please check the configurations of %s if present.
 
 
-{t}if not autodetected with namingContexts{/t}
+** if not autodetected with namingContexts
 om inte autoupptäckt med namninnehållet
 
-{t}If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.{/t}
+** If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.
 
 
-{t}If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.{/t}
+** If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.
 Om användarnamn eller lösenord innehåller &quot;@&quot; karaktärer, byt ut dem mot &quot;%%&quot;.
 
-{t}Illness{/t}
+** Illness
 
 
-{t}Im-/Export{/t}
+** Im-/Export
 Im-/Export
 
-{t}Image{/t}
+** Image
 Bild
 
-{t}Images{/t}
+** Images
 
 
-{t}Imap-error: %s{/t}
+** Imap-error: %s
 Imap-error: %s
 
-{t}immediate{/t}
+** immediate
 ögonblicklig
 
-{t}Import{/t}
+** Import
 Import
 
-{t}In progress{/t}
+** In progress
 Aktiv
 
-{t}in repair{/t}
+** in repair
 i återställande
 
-{t}in stock{/t}
+** in stock
 i lager
 
-{t}Inactive{/t}
+** Inactive
 inaktiv
 
-{t}Include in RSS feed{/t}
+** Include in RSS feed
 
 
-{t}Include page{/t}
+** Include page
 
 
-{t}indent text{/t}
+** indent text
 
 
-{t}Index{/t}
+** Index
 Index
 
-{t}Index length{/t}
+** Index length
 Indexlängd
 
-{t}Index type{/t}
+** Index type
 Indextyp
 
-{t}Indexes{/t}
+** Indexes
 Indexen
 
-{t}Industry{/t}
+** Industry
 Industri
 
-{t}Info{/t}
+** Info
 Info
 
-{t}inheritance to subfolders without default values{/t}
+** inheritance to subfolders without default values
 
 
-{t}Input field{/t}
+** Input field
 
 
-{t}Input field height{/t}
+** Input field height
 
 
-{t}Insert{/t}
+** Insert
 Lägg till
 
-{t}inserted{/t}
+** inserted
 
 
-{t}Install default folder structure{/t}
+** Install default folder structure
 
 
-{t}Install demo folders{/t}
+** Install demo folders
 
 
-{t}Install minimal folder structure{/t}
+** Install minimal folder structure
 
 
-{t}installed{/t}
+** installed
 
 
-{t}insufficient folder rights{/t}
+** insufficient folder rights
 otillräkliga mapprättigheter
 
-{t}Internal recommendation{/t}
+** Internal recommendation
 Intern rekommandation
 
-{t}Intranet{/t}
+** Intranet
 
 
-{t}Intro{/t}
+** Intro
 Inledning
 
-{t}invalid{/t}
+** invalid
 ogiltig
 
-{t}Invalid file extensions{/t}
+** Invalid file extensions
 
 
-{t}Invalid schema mode '%s'{/t}
+** Invalid schema mode '%s'
 
 
-{t}Invalid security token{/t}
+** Invalid security token
 
 
-{t}Inventory{/t}
+** Inventory
 Inventarier
 
-{t}Inventory number{/t}
+** Inventory number
 Inventarinummer
 
-{t}Investor{/t}
+** Investor
 Investerare
 
-{t}Invoice{/t}
+** Invoice
 Faktura
 
-{t}italic{/t}
+** italic
 
 
-{t}Item created by %s at %s{/t}
+** Item created by %s at %s
 Post skapad av %s på %s
 
-{t}Item deleted by %s at %s{/t}
+** Item deleted by %s at %s
 Post borttagen av %s på %s
 
-{t}Item edited (%s) by %s at %s{/t}
+** Item edited (%s) by %s at %s
 Post redigerad (%s) av %s på %s
 
-{t}Item not found.{/t}
+** Item not found.
 Post inte hittad.
 
-{t}Item successfully created.{/t}
+** Item successfully created.
 Post framgångsrikt skapad.
 
-{t}Item successfully updated.{/t}
+** Item successfully updated.
 Post framgångsrikt uppdaterad.
 
-{t}Item(s) not found or access denied.{/t}
+** Item(s) not found or access denied.
 Post(er) saknas eller åtkomst nekad.
 
-{t}Jan{/t}
+** Jan
 
 
-{t}January{/t}
+** January
 Januari
 
-{t}Job description{/t}
+** Job description
 Jobbbeskrivning
 
-{t}Join lines{/t}
+** Join lines
 
 
-{t}Jul{/t}
+** Jul
 
 
-{t}July{/t}
+** July
 Juli
 
-{t}Jun{/t}
+** Jun
 
 
-{t}June{/t}
+** June
 Juni
 
-{t}Key{/t}
+** Key
 Nyckel
 
-{t}Key customer{/t}
+** Key customer
 Nyckelkund
 
-{t}Key name{/t}
+** Key name
 Nyckelnamn
 
-{t}Keywords{/t}
+** Keywords
 
 
-{t}Knowledge base{/t}
+** Knowledge base
 Kundskapsbas
 
-{t}L o g i n{/t}
+** L o g i n
 L o g g a  i n
 
-{t}l, F j, Y{/t}
+** l, F j, Y
 l, F j, Y
 
-{t}Last access{/t}
+** Last access
 Sista åtkomst
 
-{t}Last name{/t}
+** Last name
 Efternamn
 
-{t}LDAP anonymous connection failed.{/t}
+** LDAP anonymous connection failed.
 LDAP anonym anslutning misslyckades
 
-{t}LDAP attribute for group memberships{/t}
+** LDAP attribute for group memberships
 
 
-{t}LDAP attribute for rooms{/t}
+** LDAP attribute for rooms
 
 
-{t}LDAP attribute for usernames{/t}
+** LDAP attribute for usernames
 
 
-{t}LDAP connection to host %s failed.{/t}
+** LDAP connection to host %s failed.
 LDAP anslutning till värd %s misslyckades.
 
-{t}LDAP without anonymous access{/t}
+** LDAP without anonymous access
 LDAP utan anonym anslutning
 
-{t}LDAP: no base DN given{/t}
+** LDAP: no base DN given
 LDAP: ingen bas DN angiven
 
-{t}LDAP: no UID given{/t}
+** LDAP: no UID given
 
 
-{t}Leave of absence{/t}
+** Leave of absence
 
 
-{t}less promising{/t}
+** less promising
 mindre lovande
 
-{t}lesser than{/t}
+** lesser than
 mindre än
 
-{t}Letter{/t}
+** Letter
 Brev
 
-{t}Level{/t}
+** Level
 Nivå
 
-{t}License{/t}
+** License
 Licens
 
-{t}line{/t}
+** line
 
 
-{t}Line break{/t}
+** Line break
 
 
-{t}Link{/t}
+** Link
 Länk
 
-{t}Link restricted{/t}
+** Link restricted
 Länk begränsad
 
-{t}link text{/t}
+** link text
 
 
-{t}link to external page{/t}
+** link to external page
 
 
-{t}link to internal page{/t}
+** link to internal page
 
 
-{t}Links{/t}
+** Links
 
 
-{t}Lists{/t}
+** Lists
 
 
-{t}Load external images{/t}
+** Load external images
 
 
-{t}Location{/t}
+** Location
 Plats
 
-{t}Locations{/t}
+** Locations
 Platser
 
-{t}Lock{/t}
+** Lock
 Låst
 
-{t}Locked by{/t}
+** Locked by
 Låst av
 
-{t}Locking{/t}
+** Locking
 Låsning
 
-{t}login %s from %s with %s{/t}
+** login %s from %s with %s
 logga in %s från %s med %s
 
-{t}Login failed from %s.{/t}
+** Login failed from %s.
 Logga in misslyckades från %s.
 
-{t}Login/-out{/t}
+** Login/-out
 Logga in/ut
 
-{t}Logins{/t}
+** Logins
 Logga in
 
-{t}Logout{/t}
+** Logout
 
 
-{t}logout %s{/t}
+** logout %s
 logga ut %s
 
-{t}Lookup{/t}
+** Lookup
 Låsa upp
 
-{t}low{/t}
+** low
 låg
 
-{t}lowest{/t}
+** lowest
 lägst
 
-{t}M j{/t}
+** M j
 j M
 
-{t}M j, g:i a{/t}
+** M j, g:i a
 j M, G:i
 
-{t}M j, Y{/t}
+** M j, Y
 j M Y
 
-{t}m/d/Y{/t}
+** m/d/Y
 Y-m-d
 
-{t}m/d/Y g:i a{/t}
+** m/d/Y g:i a
 Y-m-d G:i
 
-{t}m/d/y g:i:s a{/t}
+** m/d/y g:i:s a
 y-m-d G:i:s
 
-{t}magenta{/t}
+** magenta
 magenta
 
-{t}mail footer{/t}
+** mail footer
 post-footer
 
-{t}Mail identities{/t}
+** Mail identities
 Postidentifierare
 
-{t}mail notification{/t}
+** mail notification
 e-post meddelande
 
-{t}mail reminder{/t}
+** mail reminder
 påminnelse via e-post
 
-{t}Main menu{/t}
+** Main menu
 Huvudmeny
 
-{t}Main page{/t}
+** Main page
 
 
-{t}Maintenance mode{/t}
+** Maintenance mode
 Underhållsläge
 
-{t}male{/t}
+** male
 manlig
 
-{t}Man-days{/t}
+** Man-days
 Man-dagar
 
-{t}Man-days planned{/t}
+** Man-days planned
 Plannerad man-dagar
 
-{t}Manage offline folders{/t}
+** Manage offline folders
 
 
-{t}Manager{/t}
+** Manager
 Chef
 
-{t}Manufacturer{/t}
+** Manufacturer
 Tillverkare
 
-{t}Mar{/t}
+** Mar
 
 
-{t}March{/t}
+** March
 Mars
 
-{t}Marketing event{/t}
+** Marketing event
 Marknadsevenemang
 
-{t}married{/t}
+** married
 gift
 
-{t}Maximize{/t}
+** Maximize
 Maximera
 
-{t}Maximum file size{/t}
+** Maximum file size
 
 
-{t}Maximum number of assets per page{/t}
+** Maximum number of assets per page
 
 
-{t}maximum number of files exceeded.{/t}
+** maximum number of files exceeded.
 maximum antal av filer överskridet.
 
-{t}May{/t}
+** May
 Maj
 
-{t}Media{/t}
+** Media
 Media
 
-{t}Meeting{/t}
+** Meeting
 Möten
 
-{t}Members{/t}
+** Members
 Medlem
 
-{t}Memory limit{/t}
+** Memory limit
 
 
-{t}Merge folders permanently{/t}
+** Merge folders permanently
 
 
-{t}Merged folders{/t}
+** Merged folders
 
 
-{t}Message{/t}
+** Message
 Meddelande
 
-{t}Messages{/t}
+** Messages
 
 
-{t}Milestone{/t}
+** Milestone
 
 
-{t}min{/t}
+** min
 min
 
-{t}Minimize{/t}
+** Minimize
 Minimera
 
-{t}minimum = 15 secs, 0 = disabled{/t}
+** minimum = 15 secs, 0 = disabled
 
 
-{t}Miscellaneous{/t}
+** Miscellaneous
 Blandad
 
-{t}missing a temporary folder.{/t}
+** missing a temporary folder.
 saknad temporär mapp.
 
-{t}missing field{/t}
+** missing field
 saknat fält
 
-{t}missing right: %s{/t}
+** missing right: %s
 saknad rättighet: %s
 
-{t}Mo{/t}
+** Mo
 Må
 
-{t}Mobile{/t}
+** Mobile
 Mobil
 
-{t}Model{/t}
+** Model
 Model
 
-{t}Modified{/t}
+** Modified
 Modiferad
 
-{t}Modified by{/t}
+** Modified by
 
 
-{t}Modifying database failed.{/t}
+** Modifying database failed.
 Modifering av databas misslyckades.
 
-{t}Module{/t}
+** Module
 Modul
 
-{t}Module disabled.{/t}
+** Module disabled.
 
 
-{t}Modules{/t}
+** Modules
 Moduler
 
-{t}Mon{/t}
+** Mon
 Mån
 
-{t}Monday{/t}
+** Monday
 
 
-{t}monospace{/t}
+** monospace
 
 
-{t}Month{/t}
+** Month
 Månad
 
-{t}monthly{/t}
+** monthly
 månatlig
 
-{t}months{/t}
+** months
 månader
 
-{t}More information about the GNU GPL{/t}
+** More information about the GNU GPL
 Mer information om GNU GPL
 
-{t}Mountpoint{/t}
+** Mountpoint
 Anslutningspunkt
 
-{t}Move{/t}
+** Move
 Flytta
 
-{t}Move to subfolder 'Archive'{/t}
+** Move to subfolder 'Archive'
 
 
-{t}Multiple{/t}
+** Multiple
 
 
-{t}Multiple choice{/t}
+** Multiple choice
 
 
-{t}My appointments{/t}
+** My appointments
 
 
-{t}My tasks{/t}
+** My tasks
 
 
-{t}Name{/t}
+** Name
 Namn
 
-{t}Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
 Namn får inte vara tom, liten bokstav, min 3 karatärer, max 128 innehållande [a-z0-9_-@.].
 
-{t}Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].{/t}
+** Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].
 
 
-{t}need feedback{/t}
+** need feedback
 behöver feedback
 
-{t}Network{/t}
+** Network
 Nätverk
 
-{t}Never expires{/t}
+** Never expires
 Aldrig löper ut
 
-{t}New{/t}
+** New
 Ny
 
-{t}New folder{/t}
+** New folder
 Ny mapp
 
-{t}News{/t}
+** News
 Nyheter
 
-{t}Next recurrences{/t}
+** Next recurrences
 
 
-{t}Nickname{/t}
+** Nickname
 Smeknamn
 
-{t}Nightwork{/t}
+** Nightwork
 
 
-{t}no{/t}
+** no
 nej
 
-{t}No dataset selected.{/t}
+** No dataset selected.
 Inget objekt valt.
 
-{t}No entries found.{/t}
+** No entries found.
 Inga objekt funna.
 
-{t}No file was uploaded{/t}
+** No file was uploaded
 
 
-{t}No line breaks{/t}
+** No line breaks
 
 
-{t}no result{/t}
+** no result
 
 
-{t}No search index{/t}
+** No search index
 
 
-{t}No sender specified.{/t}
+** No sender specified.
 Ingen sändare specificerad.
 
-{t}no username submitted{/t}
+** no username submitted
 inget användarnamn presenterad
 
-{t}No username/password.{/t}
+** No username/password.
 
 
-{t}No wrap{/t}
+** No wrap
 
 
-{t}Non unique{/t}
+** Non unique
 Inte unik
 
-{t}none{/t}
+** none
 ingen
 
-{t}normal{/t}
+** normal
 normal
 
-{t}Not allowed. Please log in as super administrator.{/t}
+** Not allowed. Please log in as super administrator.
 Inte tillåtet. Vänligen logga in som superadministratör.
 
-{t}not contains{/t}
+** not contains
 inget innehåll
 
-{t}not equal{/t}
+** not equal
 inte lika
 
-{t}Not in{/t}
+** Not in
 
 
-{t}Not in database{/t}
+** Not in database
 
 
-{t}not installed{/t}
+** not installed
 
 
-{t}Note{/t}
+** Note
 
 
-{t}Notebook{/t}
+** Notebook
 Notebook
 
-{t}Notes{/t}
+** Notes
 Anteckningar
 
-{t}Notificaiton sent to: %s{/t}
+** Notificaiton sent to: %s
 Tillkännagivande skickad till: %s
 
-{t}Notification{/t}
+** Notification
 Tillkännagivande
 
-{t}Notification summary{/t}
+** Notification summary
 
 
-{t}Notifications{/t}
+** Notifications
 
 
-{t}Nov{/t}
+** Nov
 
 
-{t}November{/t}
+** November
 November
 
-{t}Null{/t}
+** Null
 Tom
 
-{t}Number of employees{/t}
+** Number of employees
 Antal anställda
 
-{t}numbered{/t}
+** numbered
 
 
-{t}Objectives{/t}
+** Objectives
 Målen
 
-{t}Oct{/t}
+** Oct
 
 
-{t}October{/t}
+** October
 Oktober
 
-{t}of {0}{/t}
+** of {0}
 
 
-{t}offer{/t}
+** offer
 
 
-{t}Offer{/t}
+** Offer
 
 
-{t}Office{/t}
+** Office
 Kontor
 
-{t}Office program{/t}
+** Office program
 Kontorsprogram
 
-{t}Offices{/t}
+** Offices
 Kontoren
 
-{t}offline{/t}
+** offline
 offline
 
-{t}Offline folders{/t}
+** Offline folders
 
 
-{t}Offline reading{/t}
+** Offline reading
 
 
-{t}Ok{/t}
+** Ok
 Ok
 
-{t}one of{/t}
+** one of
 
 
-{t}online{/t}
+** online
 online
 
-{t}Only for this folder{/t}
+** Only for this folder
 
 
-{t}Only in{/t}
+** Only in
 
 
-{t}open{/t}
+** open
 
 
-{t}Open{/t}
+** Open
 Öppen
 
-{t}Operating system{/t}
+** Operating system
 Operativsystem
 
-{t}Operation not allowed. (Data loss protection){/t}
+** Operation not allowed. (Data loss protection)
 Operation inte tillåten. (Data förlorat skydd)
 
-{t}Optimize Tables{/t}
+** Optimize Tables
 Optimera Tabeller
 
-{t}Options{/t}
+** Options
 Optioner
 
-{t}or{/t}
+** or
 
 
-{t}or higher{/t}
+** or higher
 eller högre
 
-{t}orange{/t}
+** orange
 orange
 
-{t}Order size{/t}
+** Order size
 Mappstorlek
 
-{t}Organisation{/t}
+** Organisation
 Organisation
 
-{t}Organizer{/t}
+** Organizer
 Organisatör
 
-{t}Origin{/t}
+** Origin
 Ursprung
 
-{t}Original message{/t}
+** Original message
 Ursprungligt meddelande
 
-{t}Other{/t}
+** Other
 Annan
 
-{t}out of office{/t}
+** out of office
 inte på kontoret
 
-{t}Outline image{/t}
+** Outline image
 Vektorsbild
 
-{t}Output{/t}
+** Output
 Utdata
 
-{t}Output empty: %s{/t}
+** Output empty: %s
 
 
-{t}overlap{/t}
+** overlap
 Överlappande
 
-{t}Overtime{/t}
+** Overtime
 
 
-{t}Overtime compensation per hour{/t}
+** Overtime compensation per hour
 
 
-{t}Owner{/t}
+** Owner
 Ägare
 
-{t}Owner since{/t}
+** Owner since
 Ägare sen
 
-{t}Package from local file system (.tar.gz){/t}
+** Package from local file system (.tar.gz)
 Paket från lokalt filsystem (.tar.gz)
 
-{t}Packed{/t}
+** Packed
 Paketerad
 
-{t}Page{/t}
+** Page
 
 
-{t}Page last modified on{/t}
+** Page last modified on
 
 
-{t}Page name (URL){/t}
+** Page name (URL)
 
 
-{t}Page not found{/t}
+** Page not found
 
 
-{t}Page title{/t}
+** Page title
 
 
-{t}Pager{/t}
+** Pager
 Personsökare
 
-{t}Paid{/t}
+** Paid
 
 
-{t}Paid holidays{/t}
+** Paid holidays
 
 
-{t}Paragraphs{/t}
+** Paragraphs
 
 
-{t}parameters{/t}
+** parameters
 parametrar
 
-{t}Parameters{/t}
+** Parameters
 Parametrar
 
-{t}Parent folder{/t}
+** Parent folder
 
 
-{t}Parsing{/t}
+** Parsing
 Textanalys
 
-{t}Part time{/t}
+** Part time
 
 
-{t}Participants{/t}
+** Participants
 Deltagande
 
-{t}Participants (external){/t}
+** Participants (external)
 Deltagande (externt)
 
-{t}Participants (internal){/t}
+** Participants (internal)
 Deltagande (internt)
 
-{t}Password{/t}
+** Password
 Lösenord
 
-{t}Password expired. (password of %s has expired){/t}
+** Password expired. (password of %s has expired)
 Lösenord gått ut. (lösenord för %s har gått ut)
 
-{t}Password expires{/t}
+** Password expires
 Lösenord gått ut
 
-{t}Password must be not null, min 5 characters.{/t}
+** Password must be not null, min 5 characters.
 Lösenord får inte vara tomt. min 5 karaktärer.
 
-{t}password not confirmed.{/t}
+** password not confirmed.
 Lösenord inte bekräftat.
 
-{t}Passwords{/t}
+** Passwords
 Lösenorden
 
-{t}Paste{/t}
+** Paste
 Klistra in
 
-{t}Path{/t}
+** Path
 Sökväg
 
-{t}Pause{/t}
+** Pause
 
 
-{t}Payroll{/t}
+** Payroll
 
 
-{t}Permissions{/t}
+** Permissions
 Tillåtelser
 
-{t}Permissions added for: %s{/t}
+** Permissions added for: %s
 Tillåtelser tillagt för: %s
 
-{t}Personal{/t}
+** Personal
 Privat
 
-{t}Personal department{/t}
+** Personal department
 Personlig avdelning
 
-{t}Personal folders{/t}
+** Personal folders
 Privat mapp
 
-{t}Personal projects{/t}
+** Personal projects
 Privata projekt
 
-{t}Phone{/t}
+** Phone
 Telefon
 
-{t}Phone calls{/t}
+** Phone calls
 Telefonsamtal
 
-{t}Phone private{/t}
+** Phone private
 Privat telefon
 
-{t}Photo{/t}
+** Photo
 Foto
 
-{t}Photo gallery{/t}
+** Photo gallery
 Fotokalender
 
-{t}Planned{/t}
+** Planned
 Planerad
 
-{t}Please activate cookies.{/t}
+** Please activate cookies.
 Vänligen aktivera cookies.
 
-{t}Please choose Apache as Web-Server.{/t}
+** Please choose Apache as Web-Server.
 Vänligen välj Apache som Web-Server.
 
-{t}Please enable Javascript in your browser.{/t}
+** Please enable Javascript in your browser.
 
 
-{t}Please enter a valid url.{/t}
+** Please enter a valid url.
 Vänligen ange en giltig URL.
 
-{t}Please give read access to %s{/t}
+** Please give read access to %s
 Vänligen ge läsrättigheter till %s
 
-{t}Please give write access to %s{/t}
+** Please give write access to %s
 Vänligen ge skrivrättigheter till %s
 
-{t}Please give write access to %s and %s{/t}
+** Please give write access to %s and %s
 Vänligen ge skrivrättigheter till %s och %s
 
-{t}Please hit reload.{/t}
+** Please hit reload.
 Vänligen kör återladdning.
 
-{t}Please input a valid e-mail adress.{/t}
+** Please input a valid e-mail adress.
 Vänligen mata in en giltig e-post adress.
 
-{t}Please install 'tsearch2' for the PostgreSQL database.{/t}
+** Please install 'tsearch2' for the PostgreSQL database.
 Vänligen installera tsearch2 för PostgreSQL databasen.
 
-{t}Please install the php-extension with name '%s'.{/t}
+** Please install the php-extension with name '%s'.
 
 
-{t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}
+** Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !
 Vänligen modifiera er php.ini eller lägg till en .htaccess fil som ändrar %s till %s (aktuellt värde är %s)!
 
-{t}Please read the following license agreement. Use the scroll bar to view the rest of this agreement.{/t}
+** Please read the following license agreement. Use the scroll bar to view the rest of this agreement.
 Vänligen läs följande licens avtal. Använd rullningslist till att visa resten av detta avtal.
 
-{t}Please select a location.{/t}
+** Please select a location.
 
 
-{t}Please select a participant.{/t}
+** Please select a participant.
 
 
-{t}Please upload again.{/t}
+** Please upload again.
 Vänligen ladda upp igen.
 
-{t}Please wait ...{/t}
+** Please wait ...
 Vänligen vänta...
 
-{t}Pop3-error: %s{/t}
+** Pop3-error: %s
 Pop3-error: %s
 
-{t}Port{/t}
+** Port
 Port
 
-{t}Portal{/t}
+** Portal
 Portal
 
-{t}Position{/t}
+** Position
 Position
 
-{t}Positions{/t}
+** Positions
 Positioner
 
-{t}Post{/t}
+** Post
 Post
 
-{t}Practical training{/t}
+** Practical training
 
 
-{t}Preformatted block{/t}
+** Preformatted block
 
 
-{t}Prepend new field as{/t}
+** Prepend new field as
 
 
-{t}Prevent formatting{/t}
+** Prevent formatting
 
 
-{t}Preview{/t}
+** Preview
 Förhandsvisning
 
-{t}Price{/t}
+** Price
 Pris
 
-{t}Primary key{/t}
+** Primary key
 
 
-{t}Print{/t}
+** Print
 Skriv ut
 
-{t}Print all{/t}
+** Print all
 
 
-{t}Printer{/t}
+** Printer
 Skrivare
 
-{t}Priority{/t}
+** Priority
 Prioritet
 
-{t}Problem{/t}
+** Problem
 Problem
 
-{t}Processes{/t}
+** Processes
 Processer
 
-{t}Processing %s ...{/t}
+** Processing %s ...
 Bearbetning %s ...
 
-{t}Program is installed with language %s, please use a different url or run the setup again.{/t}
+** Program is installed with language %s, please use a different url or run the setup again.
 Programmet är installerat med språk %s, vänligen använd en annan url eller kör setup igen.
 
-{t}Progress{/t}
+** Progress
 Framsteg
 
-{t}Project{/t}
+** Project
 Projekt
 
-{t}Project files{/t}
+** Project files
 
 
-{t}Project tasks{/t}
+** Project tasks
 
 
-{t}Projects{/t}
+** Projects
 Projekten
 
-{t}promising{/t}
+** promising
 lovande
 
-{t}Properties{/t}
+** Properties
 
 
-{t}Prospective client{/t}
+** Prospective client
 Eventuell kund
 
-{t}Public holiday{/t}
+** Public holiday
 
 
-{t}Purchased{/t}
+** Purchased
 Inköpt
 
-{t}Question{/t}
+** Question
 Fråga
 
-{t}Queue{/t}
+** Queue
 Kö
 
-{t}Quick add{/t}
+** Quick add
 
 
-{t}Quota{/t}
+** Quota
 Kvot
 
-{t}Quota (remaining){/t}
+** Quota (remaining)
 Kvot (återstår)
 
-{t}Quota [MB]{/t}
+** Quota [MB]
 Kvot [MB]
 
-{t}Quota limitation exceeded: %s{/t}
+** Quota limitation exceeded: %s
 Kvotbegränsning öcerskriden: %s
 
-{t}R e g i s t e r{/t}
+** R e g i s t e r
 
 
-{t}Rating{/t}
+** Rating
 Ranking
 
-{t}Read{/t}
+** Read
 Läs
 
-{t}read access{/t}
+** read access
 läsrättighet
 
-{t}Read access (groups){/t}
+** Read access (groups)
 Läsrättighet (grupper)
 
-{t}Read access (users){/t}
+** Read access (users)
 Läsrättighet (användare)
 
-{t}Read only in{/t}
+** Read only in
 
 
-{t}Read this page offline:{/t}
+** Read this page offline:
 
 
-{t}ready for repair{/t}
+** ready for repair
 klar för reperation
 
-{t}ready for scrap{/t}
+** ready for scrap
 klar för kassera
 
-{t}Real URL format in the CMS{/t}
+** Real URL format in the CMS
 
 
-{t}Really apply rights to subfolders ?{/t}
+** Really apply rights to subfolders ?
 Verkligen applicera rättigheter till undermapp?
 
-{t}Really apply the changes ?{/t}
+** Really apply the changes ?
 
 
-{t}Really delete ?{/t}
+** Really delete ?
 Verkligen ta bort?
 
-{t}REALLY delete ALL datasets ?{/t}
+** REALLY delete ALL datasets ?
 VERKLIGEN ta bort ALLA valda objekt?
 
-{t}Really delete ALL subfolders ?{/t}
+** Really delete ALL subfolders ?
 Verkligen ta bort ALLA undermappar?
 
-{t}Really delete the dataset(s) ?{/t}
+** Really delete the dataset(s) ?
 Verkligen ta bort dataset(s)?
 
-{t}Really empty the folder ?{/t}
+** Really empty the folder ?
 Verkligen töma mappen?
 
-{t}Really overwrite existing dataset(s) ?{/t}
+** Really overwrite existing dataset(s) ?
 Verkligen skriva över existerande dataset(s)?
 
-{t}Really run setup again ?{/t}
+** Really run setup again ?
 Verkligen köra setup igen?
 
-{t}Really uninstall the module ?{/t}
+** Really uninstall the module ?
 
 
-{t}Rebuild search index{/t}
+** Rebuild search index
 Bygga om sökindex
 
-{t}Recent changes{/t}
+** Recent changes
 
 
-{t}Recipients{/t}
+** Recipients
 
 
-{t}Recommendation of affiliate{/t}
+** Recommendation of affiliate
 Rekommendation om ansluta
 
-{t}Recurrence{/t}
+** Recurrence
 Återkommande
 
-{t}Recurrences{/t}
+** Recurrences
 
 
-{t}red{/t}
+** red
 röd
 
-{t}Redirect to home directory{/t}
+** Redirect to home directory
 Omdirigera till hemkatalog
 
-{t}Reference{/t}
+** Reference
 
 
-{t}Refresh{/t}
+** Refresh
 
 
-{t}Refresh every x seconds{/t}
+** Refresh every x seconds
 
 
-{t}Regular{/t}
+** Regular
 
 
-{t}Reject{/t}
+** Reject
 
 
-{t}rejected{/t}
+** rejected
 förkastade
 
-{t}Relative formats{/t}
+** Relative formats
 
 
-{t}Relaunch Setup{/t}
+** Relaunch Setup
 Återstarta Setup
 
-{t}Relevance{/t}
+** Relevance
 
 
-{t}Reminder{/t}
+** Reminder
 Påminnelse
 
-{t}rename{/t}
+** rename
 
 
-{t}Rename folder{/t}
+** Rename folder
 Döpa om mappen
 
-{t}Repeat count{/t}
+** Repeat count
 Göra om beräkning
 
-{t}Repeat exclusions{/t}
+** Repeat exclusions
 Göra om gallringen
 
-{t}Repeat interval{/t}
+** Repeat interval
 Göra om intervallet
 
-{t}Repeat until{/t}
+** Repeat until
 Göra om tills
 
-{t}Reply{/t}
+** Reply
 Svara
 
-{t}Reply all{/t}
+** Reply all
 Svara alla
 
-{t}Require admin access to set mountpoints{/t}
+** Require admin access to set mountpoints
 Behöva admin rättighet till sätta anslutningspunkter
 
-{t}Required{/t}
+** Required
 
 
-{t}Required fields{/t}
+** Required fields
 
 
-{t}Reseller{/t}
+** Reseller
 Äterförsäljare
 
-{t}reserved{/t}
+** reserved
 Reserverad
 
-{t}Reset view{/t}
+** Reset view
 Återställatill förvald visning
 
-{t}Resource{/t}
+** Resource
 Tillgång
 
-{t}Resources{/t}
+** Resources
 Tillgångar
 
-{t}Responsible{/t}
+** Responsible
 Ansvarig
 
-{t}Responsible (external){/t}
+** Responsible (external)
 Ansvarig (externt)
 
-{t}Responsible (internal){/t}
+** Responsible (internal)
 Ansvarig (internt)
 
-{t}Restore complete{/t}
+** Restore complete
 Komplett återställa
 
-{t}Restore here{/t}
+** Restore here
 Återställ här
 
-{t}Restore only missing{/t}
+** Restore only missing
 
 
-{t}Restore only newer{/t}
+** Restore only newer
 Återställ endast aldrig
 
-{t}Restore to origin{/t}
+** Restore to origin
 Återställ till ursprunget
 
-{t}Return receipt{/t}
+** Return receipt
 Återkommskvitto
 
-{t}right-aligned{/t}
+** right-aligned
 
 
-{t}Rights{/t}
+** Rights
 Rättigheter
 
-{t}Risks{/t}
+** Risks
 
 
-{t}Room name{/t}
+** Room name
 Rumsnamn
 
-{t}Room number{/t}
+** Room number
 Rumsnummer
 
-{t}Rooms{/t}
+** Rooms
 Rum
 
-{t}Rows{/t}
+** Rows
 Rader
 
-{t}Run Setup again{/t}
+** Run Setup again
 Kör Setup igen
 
-{t}S a v e{/t}
+** S a v e
 S p a r a
 
-{t}S a v e  a n d  E d i t{/t}
+** S a v e  a n d  E d i t
 
 
-{t}S a v e  a n d  g o  b a c k{/t}
+** S a v e  a n d  g o  b a c k
 
 
-{t}Sa{/t}
+** Sa
 Lö
 
-{t}Salary{/t}
+** Salary
 
 
-{t}Salary per{/t}
+** Salary per
 
 
-{t}Sales promotion{/t}
+** Sales promotion
 Fäljningsfrämjande
 
-{t}Sat{/t}
+** Sat
 Lör
 
-{t}Saturday{/t}
+** Saturday
 
 
-{t}Scheduling{/t}
+** Scheduling
 Planering
 
-{t}Schema{/t}
+** Schema
 Schema
 
-{t}Schema data{/t}
+** Schema data
 Schemadata
 
-{t}Schemafile not found. (%s){/t}
+** Schemafile not found. (%s)
 Schemafil inte hittad. (%s)
 
-{t}School{/t}
+** School
 
 
-{t}scrapped{/t}
+** scrapped
 Skrapade
 
-{t}Search{/t}
+** Search
 Sök
 
-{t}Search by ID{/t}
+** Search by ID
 
 
-{t}second level support{/t}
+** second level support
 
 
-{t}Second manager{/t}
+** Second manager
 Vice direktör
 
-{t}seconds{/t}
+** seconds
 
 
-{t}Secretary{/t}
+** Secretary
 Sekreterare
 
-{t}Self registration{/t}
+** Self registration
 
 
-{t}Self registration needs confirmation by an administrator.{/t}
+** Self registration needs confirmation by an administrator.
 
 
-{t}Send now{/t}
+** Send now
 
 
-{t}Sent{/t}
+** Sent
 
 
-{t}Sent reminders{/t}
+** Sent reminders
 
 
-{t}Sep{/t}
+** Sep
 
 
-{t}Separate fields{/t}
+** Separate fields
 
 
-{t}Separate values{/t}
+** Separate values
 
 
-{t}Separator{/t}
+** Separator
 
 
-{t}Separators{/t}
+** Separators
 
 
-{t}September{/t}
+** September
 September
 
-{t}Serial number{/t}
+** Serial number
 Serienummer
 
-{t}Server{/t}
+** Server
 Server
 
-{t}Server does not support sorting{/t}
+** Server does not support sorting
 
 
-{t}Server-IP{/t}
+** Server-IP
 Server-IP
 
-{t}Service provider{/t}
+** Service provider
 Tjänsteleveratör
 
-{t}Session name in cookie{/t}
+** Session name in cookie
 
 
-{t}Session timeout{/t}
+** Session timeout
 Sessionstimeout
 
-{t}Sessions{/t}
+** Sessions
 Sessioner
 
-{t}Settings{/t}
+** Settings
 
 
-{t}Setup{/t}
+** Setup
 Setup
 
-{t}Setup needs a database-php-extension ! (%s){/t}
+** Setup needs a database-php-extension ! (%s)
 Setup behöver en database-php-extension ! (%s)
 
-{t}Setup needs php with at least version %s !{/t}
+** Setup needs php with at least version %s !
 Setup behöver php med lägst version %s !
 
-{t}Setup needs php-extension with name %s !{/t}
+** Setup needs php-extension with name %s !
 Setup behöver php-extension med namn %s !
 
-{t}Setup needs Simple Groupware with at least version %s !{/t}
+** Setup needs Simple Groupware with at least version %s !
 
 
-{t}Setup: setup-data written to %s.{/t}
+** Setup: setup-data written to %s.
 Setup: setup-data skrivits till %s.
 
-{t}Shapes{/t}
+** Shapes
 
 
-{t}Share{/t}
+** Share
 Delad
 
-{t}Shared{/t}
+** Shared
 
 
-{t}Short links{/t}
+** Short links
 
 
-{t}Show{/t}
+** Show
 Visa
 
-{t}Show all rules{/t}
+** Show all rules
 
 
-{t}Show archive{/t}
+** Show archive
 Visa arkiv
 
-{t}Show details{/t}
+** Show details
 
 
-{t}Show folder description in content area{/t}
+** Show folder description in content area
 
 
-{t}Show password{/t}
+** Show password
 
 
-{t}Show quoted text{/t}
+** Show quoted text
 Visa citerad text
 
-{t}Similar{/t}
+** Similar
 
 
-{t}Simple tables{/t}
+** Simple tables
 
 
-{t}single{/t}
+** single
 singel
 
-{t}Single choice{/t}
+** Single choice
 
 
-{t}Size{/t}
+** Size
 Storlek
 
-{t}Size (children){/t}
+** Size (children)
 Storlek (barn)
 
-{t}Slow{/t}
+** Slow
 Långsam
 
-{t}small{/t}
+** small
 
 
-{t}small text{/t}
+** small text
 
 
-{t}smaller{/t}
+** smaller
 
 
-{t}SMTP not configured for %s{/t}
+** SMTP not configured for %s
 SMTP inte konfigurad för %s
 
-{t}Smtp-error %s: %s{/t}
+** Smtp-error %s: %s
 Smtp-fel %s: %s
 
-{t}Software{/t}
+** Software
 Mjukvara
 
-{t}Solution{/t}
+** Solution
 Lösning
 
-{t}Solution type{/t}
+** Solution type
 Lösningstyp
 
-{t}some text{/t}
+** some text
 
 
-{t}Source{/t}
+** Source
 
 
-{t}Source code{/t}
+** Source code
 
 
-{t}Special leave{/t}
+** Special leave
 
 
-{t}Specification{/t}
+** Specification
 Specifikation
 
-{t}Spreadsheet{/t}
+** Spreadsheet
 Kalkylprogram
 
-{t}SQL failed.{/t}
+** SQL failed.
 SQL felade.
 
-{t}SQL FAILED: %s{/t}
+** SQL FAILED: %s
 SQL felade: %s
 
-{t}Start scheduled{/t}
+** Start scheduled
 Starta planering
 
-{t}Started{/t}
+** Started
 Startade
 
-{t}starts with{/t}
+** starts with
 starta med
 
-{t}State{/t}
+** State
 Län
 
-{t}Static cache{/t}
+** Static cache
 
 
-{t}Statistics{/t}
+** Statistics
 Statistik
 
-{t}Status{/t}
+** Status
 Status
 
-{t}Statuses{/t}
+** Statuses
 Status
 
-{t}Strategies{/t}
+** Strategies
 Strategierer
 
-{t}Street{/t}
+** Street
 Gata
 
-{t}Structure{/t}
+** Structure
 Struktur
 
-{t}Su{/t}
+** Su
 Sö
 
-{t}Subfolder{/t}
+** Subfolder
 
 
-{t}Subfolders{/t}
+** Subfolders
 
 
-{t}subheading{/t}
+** subheading
 
 
-{t}Subitem{/t}
+** Subitem
 Underpost
 
-{t}Subject{/t}
+** Subject
 Ämne
 
-{t}Subjects{/t}
+** Subjects
 
 
-{t}Submit a patch{/t}
+** Submit a patch
 Presentera en mindre rättelse
 
-{t}Subpages{/t}
+** Subpages
 
 
-{t}subscript{/t}
+** subscript
 
 
-{t}Subsistence costs{/t}
+** Subsistence costs
 Uppehälleskostnader
 
-{t}Sum{/t}
+** Sum
 
 
-{t}Summary{/t}
+** Summary
 Sammanfattande
 
-{t}Sun{/t}
+** Sun
 Sön
 
-{t}Sunday{/t}
+** Sunday
 
 
-{t}Superior{/t}
+** Superior
 Överordnad
 
-{t}superscript{/t}
+** superscript
 
 
-{t}Supplier{/t}
+** Supplier
 Leverantör
 
-{t}Suppliers{/t}
+** Suppliers
 Leverantörer
 
-{t}Support{/t}
+** Support
 Support
 
-{t}Support request{/t}
+** Support request
 Supportbegäran
 
-{t}Surveys{/t}
+** Surveys
 
 
-{t}Suspended{/t}
+** Suspended
 Suspenderade
 
-{t}Switch maintenance mode{/t}
+** Switch maintenance mode
 Byt underhållsmod
 
-{t}Sync4j remote delete items{/t}
+** Sync4j remote delete items
 Sync4j fjärr ta bort poster
 
-{t}Syntax{/t}
+** Syntax
 
 
-{t}System{/t}
+** System
 System
 
-{t}System command executed: %s{/t}
+** System command executed: %s
 
 
-{t}Tab{/t}
+** Tab
 
 
-{t}Table{/t}
+** Table
 Tabell
 
-{t}Table sizes{/t}
+** Table sizes
 Tabellstorlek
 
-{t}Table status{/t}
+** Table status
 Tabellstatus
 
-{t}Tables{/t}
+** Tables
 Tabeller
 
-{t}Take over{/t}
+** Take over
 
 
-{t}Take selection{/t}
+** Take selection
 
 
-{t}Task{/t}
+** Task
 
 
-{t}Task with ID %s{/t}
+** Task with ID %s
 
 
-{t}Tasks{/t}
+** Tasks
 Uppgifter
 
-{t}Tasks with responsible %s{/t}
+** Tasks with responsible %s
 
 
-{t}Template{/t}
+** Template
 
 
-{t}Templates{/t}
+** Templates
 Mallar
 
-{t}Temporary work{/t}
+** Temporary work
 
 
-{t}term{/t}
+** term
 
 
-{t}Text area{/t}
+** Text area
 
 
-{t}Text Document{/t}
+** Text Document
 Textdokument
 
-{t}Text formatting rules{/t}
+** Text formatting rules
 
 
-{t}Th{/t}
+** Th
 To
 
-{t}Thanks for voting!{/t}
+** Thanks for voting!
 
 
-{t}The folder cannot be copied.{/t}
+** The folder cannot be copied.
 
 
-{t}The folder cannot be deleted.{/t}
+** The folder cannot be deleted.
 
 
-{t}The folder cannot be moved.{/t}
+** The folder cannot be moved.
 
 
-{t}The new password is{/t}
+** The new password is
 
 
-{t}The url doesn't exist.{/t}
+** The url doesn't exist.
 Urlen finns inte.
 
-{t}Theme{/t}
+** Theme
 Tema
 
-{t}third level support{/t}
+** third level support
 
 
-{t}this file extension is not allowed{/t}
+** this file extension is not allowed
 denna filextension är inte tillåten
 
-{t}Thu{/t}
+** Thu
 Tor
 
-{t}Thursday{/t}
+** Thursday
 
 
-{t}Time and expenses{/t}
+** Time and expenses
 Tid och utgifter
 
-{t}Time limit{/t}
+** Time limit
 
 
-{t}Time sheets{/t}
+** Time sheets
 
 
-{t}Time zone{/t}
+** Time zone
 
 
-{t}timeout{/t}
+** timeout
 
 
-{t}Title{/t}
+** Title
 Titel
 
-{t}To{/t}
+** To
 Till
 
-{t}to be checked{/t}
+** to be checked
 kommer att kontrolleras
 
-{t}To continue installing Simple Groupware you must check the box under the license{/t}
+** To continue installing Simple Groupware you must check the box under the license
 För att forstätta installation av Simple Groupware måste du klicka i boxen under licenstexten
 
-{t}Today{/t}
+** Today
 Idag
 
-{t}Too many wrong logins. Please wait 15 minutes.{/t}
+** Too many wrong logins. Please wait 15 minutes.
 För många felaktiga inloggningar. Vänligen vänta 15 minuter.
 
-{t}Total{/t}
+** Total
 Total
 
-{t}Trace{/t}
+** Trace
 Spår
 
-{t}Trade fair{/t}
+** Trade fair
 Branschmässa
 
-{t}translations{/t}
+** translations
 översättning
 
-{t}Translations of the GNU GPL{/t}
+** Translations of the GNU GPL
 Översättning av GNU GPL
 
-{t}Transportation costs{/t}
+** Transportation costs
 Transportkostnader
 
-{t}Trash{/t}
+** Trash
 Skräp
 
-{t}Trash folder not found.{/t}
+** Trash folder not found.
 
 
-{t}Tree{/t}
+** Tree
 Träd
 
-{t}Trigger failed{/t}
+** Trigger failed
 Utlösare misslyckades
 
-{t}Tu{/t}
+** Tu
 Ti
 
-{t}Tue{/t}
+** Tue
 Tis
 
-{t}Tuesday{/t}
+** Tuesday
 
 
-{t}Type{/t}
+** Type
 Typ
 
-{t}U n i n s t a l l{/t}
+** U n i n s t a l l
 
 
-{t}unable to find %s{/t}
+** unable to find %s
 omöjligt att finna %s
 
-{t}Unable to write to %s{/t}
+** Unable to write to %s
 Omöjligt att skriva till %s
 
-{t}unconfirmed{/t}
+** unconfirmed
 obekräftad
 
-{t}Unconfirmed{/t}
+** Unconfirmed
 
 
-{t}underline{/t}
+** underline
 
 
-{t}Uninstall does not delete any data in the database.{/t}
+** Uninstall does not delete any data in the database.
 
 
-{t}uninterested{/t}
+** uninterested
 ointresserad
 
-{t}Unique{/t}
+** Unique
 
 
-{t}Unique with trash{/t}
+** Unique with trash
 
 
-{t}Unlock{/t}
+** Unlock
 Olåst
 
-{t}Up{/t}
+** Up
 Upp
 
-{t}Update{/t}
+** Update
 Uppdatera
 
-{t}Update Simple Groupware{/t}
+** Update Simple Groupware
 Uppdatera Simple Groupware
 
-{t}Updated{/t}
+** Updated
 Uppdaterad
 
-{t}Updating schema %s from %s.{/t}
+** Updating schema %s from %s.
 Uppdatera schema %s från %s.
 
-{t}Upload failed{/t}
+** Upload failed
 Uppladdning misslyckades
 
-{t}Uploaded files{/t}
+** Uploaded files
 Uppladdade filer
 
-{t}Uploading{/t}
+** Uploading
 
 
-{t}urgent{/t}
+** urgent
 bråskande
 
-{t}URL{/t}
+** URL
 URL
 
-{t}Usage{/t}
+** Usage
 Behandling
 
-{t}USD{/t}
+** USD
 USD
 
-{t}Use APC for session storage{/t}
+** Use APC for session storage
 
 
-{t}Use Debian binaries (Warning: not latest versions){/t}
+** Use Debian binaries (Warning: not latest versions)
 Använd Debian binärer (Varning: inte sista versionen)
 
-{t}Use LDAP Groups{/t}
+** Use LDAP Groups
 
 
-{t}use mirror from{/t}
+** use mirror from
 
 
-{t}Use syslog() function for logging events{/t}
+** Use syslog() function for logging events
 
 
-{t}Use the mail() function for sending mails (insecure){/t}
+** Use the mail() function for sending mails (insecure)
 Använd mail() funktion för att sända post (osäker)
 
-{t}User{/t}
+** User
 Användare
 
-{t}User not found.{/t}
+** User not found.
 
 
-{t}Username{/t}
+** Username
 Användarnamn
 
-{t}Username must be different from the super administrator.{/t}
+** Username must be different from the super administrator.
 Användarnamn får inte var samma som superadministratör.
 
-{t}Users{/t}
+** Users
 Användare
 
-{t}V a l i d a t e{/t}
+** V a l i d a t e
 
 
-{t}V o t e !{/t}
+** V o t e !
 
 
-{t}Vacation{/t}
+** Vacation
 Semester
 
-{t}Vacation days per year{/t}
+** Vacation days per year
 
 
-{t}Validating %s ...{/t}
+** Validating %s ...
 
 
-{t}validation failed{/t}
+** validation failed
 Validering misslyckades
 
-{t}Value{/t}
+** Value
 Värde
 
-{t}Value '%s' needs a group membership: %s{/t}
+** Value '%s' needs a group membership: %s
 
 
-{t}Variable{/t}
+** Variable
 Variabel
 
-{t}Variable already exists in table. (%s){/t}
+** Variable already exists in table. (%s)
 Variabel finns redan i tabellen. (%s)
 
-{t}Variable must be of type date (mm/dd/yyyy).{/t}
+** Variable must be of type date (mm/dd/yyyy).
 Variabel måste vara av datumtyp (yyyy-mm-dd).
 
-{t}Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).{/t}
+** Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).
 Variabel måste vara av datum/tidtyp (yyyy-mm-dd HH:mm).
 
-{t}Variable must be of type float.{/t}
+** Variable must be of type float.
 Variabel måste vara av flyttalstyp.
 
-{t}Variable must be of type int and greater than 0.{/t}
+** Variable must be of type int and greater than 0.
 Variabel måste vara av heltalstyp och större än 0.
 
-{t}Variable must be of type int.{/t}
+** Variable must be of type int.
 Variabel måste vara av heltalstyp.
 
-{t}Variable must be of type time (hh:mm am/pm).{/t}
+** Variable must be of type time (hh:mm am/pm).
 Variabel måste vara av tidstyp (HH:mm).
 
-{t}Variables{/t}
+** Variables
 Variabler
 
-{t}Verbal recommendation{/t}
+** Verbal recommendation
 Verbal rekommendation
 
-{t}verified{/t}
+** verified
 verifierad
 
-{t}vertical{/t}
+** vertical
 
 
-{t}very promising{/t}
+** very promising
 mycket lovande
 
-{t}View{/t}
+** View
 
 
-{t}View access (groups){/t}
+** View access (groups)
 
 
-{t}View access (users){/t}
+** View access (users)
 
 
-{t}Virus scanner{/t}
+** Virus scanner
 Viruscanner
 
-{t}Visibility{/t}
+** Visibility
 
 
-{t}Voice mail{/t}
+** Voice mail
 Röstpost
 
-{t}Vote{/t}
+** Vote
 
 
-{t}Voted by{/t}
+** Voted by
 
 
-{t}Waiting{/t}
+** Waiting
 Väntar
 
-{t}Warning{/t}
+** Warning
 Varning
 
-{t}We{/t}
+** We
 On
 
-{t}Web{/t}
+** Web
 Web
 
-{t}Web page{/t}
+** Web page
 
 
-{t}Wed{/t}
+** Wed
 Ons
 
-{t}Wednesday{/t}
+** Wednesday
 
 
-{t}Week{/t}
+** Week
 Vecka
 
-{t}Week start{/t}
+** Week start
 Veckostart
 
-{t}Weekend{/t}
+** Weekend
 
 
-{t}weekly{/t}
+** weekly
 Varje vecka
 
-{t}weeks{/t}
+** weeks
 veckor
 
-{t}Welcome to Simple Groupware!{/t}
+** Welcome to Simple Groupware!
 
 
-{t}white{/t}
+** white
 vit
 
-{t}widowed{/t}
+** widowed
 änka
 
-{t}Width{/t}
+** Width
 
 
-{t}Wiki{/t}
+** Wiki
 Wiki
 
-{t}WikiStyles{/t}
+** WikiStyles
 
 
-{t}won't fix{/t}
+** won't fix
 blev inte fixat
 
-{t}word{/t}
+** word
 
 
-{t}Workflow{/t}
+** Workflow
 
 
-{t}Working student{/t}
+** Working student
 
 
-{t}works as expected{/t}
+** works as expected
 arbetar som förväntat
 
-{t}works for me{/t}
+** works for me
 arbetar för mig
 
-{t}Workshop{/t}
+** Workshop
 Workshop
 
-{t}Workspace{/t}
+** Workspace
 Arbetsutrymme
 
-{t}write access{/t}
+** write access
 skrivrättighet
 
-{t}Write access (groups){/t}
+** Write access (groups)
 Skrivrättighet (grupper)
 
-{t}Write access (users){/t}
+** Write access (users)
 Skrivrättighet (användare)
 
-{t}Wrong database-version (%s). Please use at least %s !{/t}
+** Wrong database-version (%s). Please use at least %s !
 Felaktig databas-version (%s). Var snäll använd som lägst %s!
 
-{t}wrong directory{/t}
+** wrong directory
 felaktig katalog
 
-{t}wrong password{/t}
+** wrong password
 felaktigt lösenord
 
-{t}Year{/t}
+** Year
 År
 
-{t}yearly{/t}
+** yearly
 Årlig
 
-{t}years{/t}
+** years
 
 
-{t}yellow{/t}
+** yellow
 gul
 
-{t}yes{/t}
+** yes
 ja
 
-{t}You are not allowed to view this folder.{/t}
+** You are not allowed to view this folder.
 Du är inte tillåten till att visa denna mapp.
 
-{t}Your message was read on %s.{/t}
+** Your message was read on %s.
 Ditt meddelande var läst på %s.
 
-{t}Your session has timed out.{/t}
+** Your session has timed out.
 Din sessionstid är överskriden.
 
-{t}Zipcode{/t}
+** Zipcode
 Postnummer
 
-{t}{0} - {1} of {2}{/t}
+** {0} - {1} of {2}
 
 

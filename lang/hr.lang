@@ -3,3534 +3,3534 @@
  * @license GPLv2
  */
 
-{t}!_Copyright_Language_File{/t}
+** !_Copyright_Language_File
 Copyright (C) 2011 Dario Cikatić
 
-{t}!_Language{/t}
+** !_Language
 hrvatski / Croatian
 
-{t}%s is not activated{/t}
+** %s is not activated
 %s nije aktivan
 
-{t}%s is not compiled / loaded into PHP.{/t}
+** %s is not compiled / loaded into PHP.
 %s nisu kompajlirani / učitan u PHP.
 
-{t}%s M memory usage{/t}
+** %s M memory usage
 
 
-{t}%s not in database{/t}
+** %s not in database
 %s nisu u bazi podataka
 
-{t}%s rows affected{/t}
+** %s rows affected
 %s redaka utječe
 
-{t}%s secs{/t}
+** %s secs
 %s sekundi
 
-{t}%s started editing this asset at %s{/t}
+** %s started editing this asset at %s
 %s počeli su izmjenu ovog zadatka u %s
 
-{t}(for active directory username must be: username@domain){/t}
+** (for active directory username must be: username@domain)
 (za active directory username mora biti: username@domain)
 
-{t}(un)Group{/t}
+** (un)Group
 (ne) Grupa
 
-{t}About{/t}
+** About
 O programu
 
-{t}Absence{/t}
+** Absence
 
 
-{t}accepted{/t}
+** accepted
 prihvaćen
 
-{t}Access denied.{/t}
+** Access denied.
 Pristup je odbijen.
 
-{t}Access to this file has been denied.{/t}
+** Access to this file has been denied.
 Pristup ovoj datoteci nije dopušten.
 
-{t}Account{/t}
+** Account
 Račun
 
-{t}account of %s has expired{/t}
+** account of %s has expired
 račun %s je istekao
 
-{t}Accounting{/t}
+** Accounting
 Računovodstvo
 
-{t}Activate{/t}
+** Activate
 Uključiti
 
-{t}Activated{/t}
+** Activated
 Aktivirati
 
-{t}active{/t}
+** active
 
 
-{t}Active{/t}
+** Active
 Aktivnan
 
-{t}Ad{/t}
+** Ad
 Oglas (?Ad)
 
-{t}Add{/t}
+** Add
 Dodati
 
-{t}Add a special rule{/t}
+** Add a special rule
 
 
-{t}Add to offline folders{/t}
+** Add to offline folders
 Dodati za offline mape
 
-{t}added line{/t}
+** added line
 dodatne linije
 
-{t}Address{/t}
+** Address
 Adresa
 
-{t}admin access{/t}
+** admin access
 admin pristup
 
-{t}Admin access (groups){/t}
+** Admin access (groups)
 Administratorski pristup (grupa)
 
-{t}Admin access (users){/t}
+** Admin access (users)
 Administratorski pristup (korisnik)
 
-{t}Admin Password{/t}
+** Admin Password
 Administratorova lozinka
 
-{t}Admin Username{/t}
+** Admin Username
 Login administratora
 
-{t}Administration{/t}
+** Administration
 Održavanje
 
-{t}Advanced tables{/t}
+** Advanced tables
 Napredne postavke
 
-{t}Affected user{/t}
+** Affected user
 Potvrđeni korisnik
 
-{t}Affiliate{/t}
+** Affiliate
 Pripojiti
 
-{t}after{/t}
+** after
 nakon
 
-{t}Agent{/t}
+** Agent
 Agent
 
-{t}Ajax Error{/t}
+** Ajax Error
 Ajax greška
 
-{t}All{/t}
+** All
 Sve
 
-{t}All day{/t}
+** All day
 Cijeli dan
 
-{t}All events{/t}
+** All events
 Svi događaji
 
-{t}All finished tasks{/t}
+** All finished tasks
 Svi gotovi zadaci
 
-{t}All pending tasks{/t}
+** All pending tasks
 Svi zadaci u tijeku
 
-{t}Allow custom values{/t}
+** Allow custom values
 
 
-{t}Allow disabled modules{/t}
+** Allow disabled modules
 Dopusti isključene Module
 
-{t}Already running latest release.{/t}
+** Already running latest release.
 Otprije pokrenuta zadnja verzija.
 
-{t}Already voted.{/t}
+** Already voted.
 Već ste glasovali
 
-{t}Amount{/t}
+** Amount
 Iznos
 
-{t}Anchor{/t}
+** Anchor
 Sidro
 
-{t}and{/t}
+** and
 i
 
-{t}Anniversary{/t}
+** Anniversary
 Godišnjice
 
-{t}another page{/t}
+** another page
 druga stranica
 
-{t}answered{/t}
+** answered
 odgovoreno
 
-{t}Answers{/t}
+** Answers
 Odgovori
 
-{t}Apache based (.htaccess, Basic, Digest, etc.){/t}
+** Apache based (.htaccess, Basic, Digest, etc.)
 Spremljeno na Apache (.htaccess, Basic, Digest, etc.)
 
-{t}Application title{/t}
+** Application title
 Naziv programa
 
-{t}Apply rights to subfolders{/t}
+** Apply rights to subfolders
 Primjena prava na podmapu
 
-{t}Appointment{/t}
+** Appointment
 
 
-{t}Appointments{/t}
+** Appointments
 Imenovanja
 
-{t}Apprenticeship{/t}
+** Apprenticeship
 
 
-{t}Apr{/t}
+** Apr
 Tra
 
-{t}April{/t}
+** April
 Travanj (Apr.)
 
-{t}Archive{/t}
+** Archive
 
 
-{t}Archive deleted files{/t}
+** Archive deleted files
 Arhiva izbrisanih datoteka
 
-{t}Asset{/t}
+** Asset
 Događaj
 
-{t}Asset marked as read-only.{/t}
+** Asset marked as read-only.
 Događaj označen samo za čitanje.
 
-{t}Assets{/t}
+** Assets
 Događaji
 
-{t}Assets (children){/t}
+** Assets (children)
 Događaji (potomci)
 
-{t}Assets can be imported into multiple folders by adding the "Folder" column.{/t}
+** Assets can be imported into multiple folders by adding the "Folder" column.
 
 
-{t}Assets can be overwritten by adding the "Id" column.{/t}
+** Assets can be overwritten by adding the "Id" column.
 
 
-{t}assigned{/t}
+** assigned
 dodijeljen
 
-{t}at least 20 characters{/t}
+** at least 20 characters
 najmanje 20 znakova
 
-{t}attach file{/t}
+** attach file
 priložiti datoteku
 
-{t}Attachment{/t}
+** Attachment
 Prilog
 
-{t}Attachments{/t}
+** Attachments
 Privitci
 
-{t}Attend{/t}
+** Attend
 Prisustvuje
 
-{t}Aug{/t}
+** Aug
 Kol
 
-{t}August{/t}
+** August
 Kolovoz (Aug.)
 
-{t}Authentication Mode{/t}
+** Authentication Mode
 Mod odobravanja
 
-{t}Author{/t}
+** Author
 Autor
 
-{t}Automatically hide the menu{/t}
+** Automatically hide the menu
 Automatski sakriti izbornik
 
-{t}Automatically hide the tree{/t}
+** Automatically hide the tree
 Automatski sakriti stabla
 
-{t}Average{/t}
+** Average
 
 
-{t}Average progress{/t}
+** Average progress
 Prosječni napredak
 
-{t}Avg length{/t}
+** Avg length
 pros. dužina
 
-{t}Back{/t}
+** Back
 Natrag
 
-{t}Backup{/t}
+** Backup
 Backup
 
-{t}Backup current folder{/t}
+** Backup current folder
 Pohraniti ovu mapu
 
-{t}Backups{/t}
+** Backups
 Pohranjujem
 
-{t}Basic editing{/t}
+** Basic editing
 Osnovno uređivanje
 
-{t}before{/t}
+** before
 prije
 
-{t}Before{/t}
+** Before
 
 
-{t}Begin{/t}
+** Begin
 Početak
 
-{t}big{/t}
+** big
 velika
 
-{t}big text{/t}
+** big text
 veliki tekst
 
-{t}bigger{/t}
+** bigger
 veći
 
-{t}Billing address{/t}
+** Billing address
 Adresa isporuke računa
 
-{t}Birthday{/t}
+** Birthday
 Rođendan
 
-{t}Birthdays{/t}
+** Birthdays
 Rođendani
 
-{t}Blank{/t}
+** Blank
 Prazno
 
-{t}blue{/t}
+** blue
 modro
 
-{t}bold{/t}
+** bold
 podebljano
 
-{t}bold italic{/t}
+** bold italic
 podebljano kurziv
 
-{t}Book{/t}
+** Book
 Knjiga
 
-{t}booked{/t}
+** booked
 spojeno
 
-{t}Booked{/t}
+** Booked
 Rezervirano
 
-{t}Booking number{/t}
+** Booking number
 Oznaka rezervacije
 
-{t}Bookings{/t}
+** Bookings
 Rezervacije
 
-{t}Bookmark{/t}
+** Bookmark
 
 
-{t}Bookmarks{/t}
+** Bookmarks
 Favoriti
 
-{t}borrowed{/t}
+** borrowed
 posuđivano
 
-{t}Brand{/t}
+** Brand
 Naziv (marka)
 
-{t}Brands{/t}
+** Brands
 Nazivi
 
-{t}Browser Compatibility{/t}
+** Browser Compatibility
 Kompatibilni preglednik
 
-{t}Browser not supported{/t}
+** Browser not supported
 Preglednik nije podržan
 
-{t}Budget{/t}
+** Budget
 Proračun
 
-{t}Bug{/t}
+** Bug
 Pogreška
 
-{t}bulleted{/t}
+** bulleted
 grafički
 
-{t}Business{/t}
+** Business
 Posao
 
-{t}C a n c e l{/t}
+** C a n c e l
 O d u s t a n i
 
-{t}C O N T I N U E{/t}
+** C O N T I N U E
 N A S T A V I T I
 
-{t}Cache output{/t}
+** Cache output
 Skladište (cache) izlazno
 
-{t}Caches{/t}
+** Caches
 Brisanje
 
-{t}Calendar{/t}
+** Calendar
 Kalendar
 
-{t}Cancel{/t}
+** Cancel
 Odustani
 
-{t}canceled{/t}
+** canceled
 otkazano
 
-{t}Canceled{/t}
+** Canceled
 Otkazano
 
-{t}Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.{/t}
+** Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.
 Ne mogu pozvati proc_open. Ostranite, molim, proc_open iz disable_functions u datoteci php.ini i pokrenite safe_mode.
 
-{t}Cannot connect to database %s on %s.{/t}
+** Cannot connect to database %s on %s.
 Ne mogu se spojiti na databazu %s na %s.
 
-{t}Cannot create preview for %s{/t}
+** Cannot create preview for %s
 Ne mogu kreirati pogled za %s
 
-{t}Cannot read the file %s.{/t}
+** Cannot read the file %s.
 Ne mogu pročitati datoteku (%s).
 
-{t}Cardinality{/t}
+** Cardinality
 Obilježja
 
-{t}Categories{/t}
+** Categories
 Kategorije
 
-{t}Category{/t}
+** Category
 Kategorija
 
-{t}Cc{/t}
+** Cc
 Kopija Cc
 
-{t}centered{/t}
+** centered
 centrirana
 
-{t}CEO{/t}
+** CEO
 Šef (CEO)
 
-{t}Change request{/t}
+** Change request
 Promjena zahtjeva
 
-{t}Change settings{/t}
+** Change settings
 Promjena postavki
 
-{t}Change Setup settings{/t}
+** Change Setup settings
 Promjena setap postavki
 
-{t}Change summary{/t}
+** Change summary
 Promjena sažetka
 
-{t}Changed{/t}
+** Changed
 
 
-{t}changed line{/t}
+** changed line
 izmjenio liniju
 
-{t}Changelog{/t}
+** Changelog
 Zapis izmjena
 
-{t}Chat{/t}
+** Chat
 Chat (čavrljanje)
 
-{t}Check DoS Attacks{/t}
+** Check DoS Attacks
 Kontrola DoS napada
 
-{t}checked{/t}
+** checked
 kontrolirano
 
-{t}Checked{/t}
+** Checked
 Kontrolirao
 
-{t}Choices{/t}
+** Choices
 Izbori
 
-{t}CIO{/t}
+** CIO
 CIO
 
-{t}City{/t}
+** City
 Grad
 
-{t}Clean{/t}
+** Clean
 Očistiti
 
-{t}Clean Cache{/t}
+** Clean Cache
 Očistiti Ccache
 
-{t}Clear{/t}
+** Clear
 Brisanje
 
-{t}Clear Cache{/t}
+** Clear Cache
 Brisanje Cacha
 
-{t}Clear Data{/t}
+** Clear Data
 Brisanje podataka
 
-{t}Clear grouping{/t}
+** Clear grouping
 Brisanje grupa
 
-{t}Client{/t}
+** Client
 Klijent
 
-{t}Close{/t}
+** Close
 Zatvoriti
 
-{t}Close session{/t}
+** Close session
 Završiti sesiju
 
-{t}closed{/t}
+** closed
 zatvaranje
 
-{t}Closed{/t}
+** Closed
 Zatvoreno
 
-{t}CMS{/t}
+** CMS
 CSM
 
-{t}CMS homepage title{/t}
+** CMS homepage title
 CSM početni naslov
 
-{t}Collapse text{/t}
+** Collapse text
 Smanji tekst
 
-{t}Collapse tree{/t}
+** Collapse tree
 Sažimanje grane
 
-{t}Color{/t}
+** Color
 Boja
 
-{t}Column{/t}
+** Column
 
 
-{t}Column name{/t}
+** Column name
 Naziv stupca
 
-{t}Combination{/t}
+** Combination
 Kombinacija
 
-{t}Comma{/t}
+** Comma
 Zarez
 
-{t}Comma separated values{/t}
+** Comma separated values
 vrijednosti odvojene zarezom
 
-{t}Command{/t}
+** Command
 Naredba
 
-{t}Comment{/t}
+** Comment
 Komentar
 
-{t}Comment files{/t}
+** Comment files
 Komentiraj datoteke
 
-{t}Companies{/t}
+** Companies
 Poduzeća
 
-{t}Company{/t}
+** Company
 Poduzeće
 
-{t}Competition{/t}
+** Competition
 Konkurencija
 
-{t}Competitor{/t}
+** Competitor
 Konkurent
 
-{t}Complete{/t}
+** Complete
 Cijeli
 
-{t}completed{/t}
+** completed
 
 
-{t}Completed{/t}
+** Completed
 Završen
 
-{t}Component{/t}
+** Component
 Komponenta
 
-{t}Compress output{/t}
+** Compress output
 Stisnuti izlaz
 
-{t}Confirm{/t}
+** Confirm
 Potvrdi
 
-{t}confirmed{/t}
+** confirmed
 potvrdio
 
-{t}Connection error: %s [%s]{/t}
+** Connection error: %s [%s]
 
 
-{t}Connection to database failed.{/t}
+** Connection to database failed.
 Spajanje na bazu nije uspjelo.
 
-{t}Console{/t}
+** Console
 
 
-{t}Console scripts{/t}
+** Console scripts
 
 
-{t}Consultant{/t}
+** Consultant
 Konzultant
 
-{t}Contact{/t}
+** Contact
 Kontakt
 
-{t}Contact activities{/t}
+** Contact activities
 Kontakt aktiviran
 
-{t}Contact activity{/t}
+** Contact activity
 
 
-{t}Contact by{/t}
+** Contact by
 Kontakt za
 
-{t}Contact groups{/t}
+** Contact groups
 Grupa kontakta
 
-{t}Contact id{/t}
+** Contact id
 ID kontakta
 
-{t}Contact person{/t}
+** Contact person
 Osoba za kontakt
 
-{t}Contact user by{/t}
+** Contact user by
 Kontaktirati korisnika putem
 
-{t}Contacts{/t}
+** Contacts
 Kontakti
 
-{t}contains{/t}
+** contains
 sadrži
 
-{t}Content{/t}
+** Content
 Sadržaj
 
-{t}Continue{/t}
+** Continue
 Nastaviti
 
-{t}Contracts{/t}
+** Contracts
 
 
-{t}Copier{/t}
+** Copier
 Fotokopirni
 
-{t}Copy{/t}
+** Copy
 Kopirati
 
-{t}Cost center{/t}
+** Cost center
 Troškovi
 
-{t}Costs of accommodation{/t}
+** Costs of accommodation
 Troškovi smještaja
 
-{t}Could not determine database-version.{/t}
+** Could not determine database-version.
 Ne mogu definirati vrstu databaze.
 
-{t}Country{/t}
+** Country
 Država
 
-{t}Create new{/t}
+** Create new
 
 
-{t}Create new folder{/t}
+** Create new folder
 
 
-{t}Created{/t}
+** Created
 Kreirao
 
-{t}Creating database failed.{/t}
+** Creating database failed.
 Pogreška kod stvaranja databaze.
 
-{t}current path{/t}
+** current path
 trenutna putanja
 
-{t}current time{/t}
+** current time
 trenutno vrijeme
 
-{t}Curriculum vitae{/t}
+** Curriculum vitae
 Životopis
 
-{t}Custom schema{/t}
+** Custom schema
 Vlastita shema
 
-{t}Customization rules\nfor modules based on sgsML{/t}
+** Customization rules\nfor modules based on sgsML
 
 
-{t}customizations{/t}
+** customizations
 prilagodbe
 
-{t}Customize{/t}
+** Customize
 
 
-{t}Cut{/t}
+** Cut
 Odrezati
 
-{t}daily{/t}
+** daily
 dnevno
 
-{t}Data{/t}
+** Data
 Podaci
 
-{t}Data free{/t}
+** Data free
 Osloboditi podatke
 
-{t}Data length{/t}
+** Data length
 Dužina podataka
 
-{t}Database{/t}
+** Database
 Baza podataka
 
-{t}Database Hostname / IP{/t}
+** Database Hostname / IP
 Database Hostname / IP
 
-{t}Database Name{/t}
+** Database Name
 Naziv baze podataka
 
-{t}Database Password{/t}
+** Database Password
 Lozinka baze podataka
 
-{t}Database size{/t}
+** Database size
 
 
-{t}Database status{/t}
+** Database status
 Status baze podataka
 
-{t}Database type{/t}
+** Database type
 
 
-{t}Database User{/t}
+** Database User
 Korisnik baze podataka
 
-{t}Database variables{/t}
+** Database variables
 Varijable baze podataka
 
-{t}Date{/t}
+** Date
 Datum
 
-{t}Day{/t}
+** Day
 Dan
 
-{t}Day begin{/t}
+** Day begin
 Početni dan
 
-{t}Day end{/t}
+** Day end
 Završni dan
 
-{t}days{/t}
+** days
 dani
 
-{t}Deactivate{/t}
+** Deactivate
 Isključiti
 
-{t}Deadline{/t}
+** Deadline
 Krajni rok
 
-{t}Debug{/t}
+** Debug
 Ispraviti pogreške
 
-{t}Debug-dir{/t}
+** Debug-dir
 Ispraviti adresar
 
-{t}Dec{/t}
+** Dec
 Pro
 
-{t}December{/t}
+** December
 Prosinac (Dec.)
 
-{t}Declining balance{/t}
+** Declining balance
 Smanjenje bilance
 
-{t}Default{/t}
+** Default
 Dodijeljen
 
-{t}Default function{/t}
+** Default function
 
 
-{t}Default theme{/t}
+** Default theme
 Zadana tema
 
-{t}Default values for assets{/t}
+** Default values for assets
 Dodjeljena vrijednost za imovinu
 
-{t}definition for definition lists{/t}
+** definition for definition lists
 definicija za definicijske liste
 
-{t}Degree{/t}
+** Degree
 Stupanj
 
-{t}Delete{/t}
+** Delete
 Brisati
 
-{t}Delete incl subfolders{/t}
+** Delete incl subfolders
 Izbrisati uključujući podmape
 
-{t}deleted{/t}
+** deleted
 izbrisati
 
-{t}deleted line{/t}
+** deleted line
 brisanje linije
 
-{t}Delivery{/t}
+** Delivery
 Isporuka
 
-{t}Demand{/t}
+** Demand
 Pitanje
 
-{t}Demo{/t}
+** Demo
 Demo
 
-{t}Demonstration folder{/t}
+** Demonstration folder
 Demostracijska mapa
 
-{t}Department{/t}
+** Department
 Sektor
 
-{t}Departments{/t}
+** Departments
 Sektori
 
-{t}Dependancies{/t}
+** Dependancies
 Zavodi
 
-{t}Description{/t}
+** Description
 Opis
 
-{t}Description hint{/t}
+** Description hint
 
 
-{t}Description title{/t}
+** Description title
 
 
-{t}Description value{/t}
+** Description value
 
 
-{t}Desktop computer{/t}
+** Desktop computer
 Stolno računalo
 
-{t}Details{/t}
+** Details
 Detalji
 
-{t}Device type{/t}
+** Device type
 Tip uređaja
 
-{t}Device types{/t}
+** Device types
 Tipovi uređaja
 
-{t}Diagram{/t}
+** Diagram
 
 
-{t}directory does not exist.{/t}
+** directory does not exist.
 Mapa ne postoji.
 
-{t}Directory is outside the allowed directory. (%s is outside %s){/t}
+** Directory is outside the allowed directory. (%s is outside %s)
 Mapa je izvan dozvoljenog područja(%s je izvan %s).
 
-{t}disable{/t}
+** disable
 
 
-{t}Disable basic authentication{/t}
+** Disable basic authentication
 Onemogući osnovne provjere autentičnosti
 
-{t}Disable cut-copy-paste{/t}
+** Disable cut-copy-paste
 
 
-{t}Disabled{/t}
+** Disabled
 
 
-{t}Disabled modules{/t}
+** Disabled modules
 Onemogući module
 
-{t}Display{/t}
+** Display
 Prikaži
 
-{t}display filter{/t}
+** display filter
 prikaži filter
 
-{t}Displayname{/t}
+** Displayname
 
 
-{t}displays{/t}
+** displays
 prikaži
 
-{t}Distributor{/t}
+** Distributor
 Distributer
 
-{t}Distributors{/t}
+** Distributors
 Distributeri
 
-{t}divorced{/t}
+** divorced
 rastavljen
 
-{t}Documentation{/t}
+** Documentation
 Dokumentacija
 
-{t}Documentation index{/t}
+** Documentation index
 Indeks dokumentacije
 
-{t}Domain{/t}
+** Domain
 Domena
 
-{t}Don't attend{/t}
+** Don't attend
 ne pohađaju
 
-{t}Don't move old files to 'old/'{/t}
+** Don't move old files to 'old/'
 Nemojte pomicati stare datoteke na stare
 
-{t}Down{/t}
+** Down
 Dolje
 
-{t}Download{/t}
+** Download
 Preuzimanje
 
-{t}Download example file{/t}
+** Download example file
 
 
-{t}Downloading extension list{/t}
+** Downloading extension list
 Preuzimanje proširenja popisa
 
-{t}Downloading update list{/t}
+** Downloading update list
 Preuzeti listu nadogradnji
 
-{t}Drag and drop files or URLs here.{/t}
+** Drag and drop files or URLs here.
 Povucite i ispustite datoteke ili URL-ova ovdje.
 
-{t}duplicate{/t}
+** duplicate
 duplicirati
 
-{t}Duration{/t}
+** Duration
 Trajanje
 
-{t}E-mail{/t}
+** E-mail
 E-mail
 
-{t}E-mail private{/t}
+** E-mail private
 E-mail privatni
 
-{t}E-mail program{/t}
+** E-mail program
 E-mail program
 
-{t}e.g.{/t}
+** e.g.
 npr.
 
-{t}Edit{/t}
+** Edit
 Izmijeniti Edit
 
-{t}Edit as new{/t}
+** Edit as new
 Izmijeniti kao novu
 
-{t}Edit rights{/t}
+** Edit rights
 Izmijeniti dozvole
 
-{t}Editable if hidden in all views{/t}
+** Editable if hidden in all views
 
 
-{t}Editor{/t}
+** Editor
 Editor
 
-{t}Emphasis{/t}
+** Emphasis
 Naglasak
 
-{t}Empty{/t}
+** Empty
 Prazne
 
-{t}Empty folder{/t}
+** Empty folder
 Prazna mapa
 
-{t}en{/t}
+** en
 hr
 
-{t}Enable anonymous access{/t}
+** Enable anonymous access
 Omogućiti anonimni pristup
 
-{t}Enable anonymous CMS{/t}
+** Enable anonymous CMS
 Omogući anonimni CMS
 
-{t}Enable automatic user creation{/t}
+** Enable automatic user creation
 Omogućiti automatsko kreiranje korisnika
 
-{t}Enable external mail client for 'mailto:' links{/t}
+** Enable external mail client for 'mailto:' links
 Omogućiti vanjski mail klijent za odlazne poruke (mailto:)
 
-{t}Enable self registration{/t}
+** Enable self registration
 Omogući samo registracija
 
-{t}Enable Sync4j / Funambol{/t}
+** Enable Sync4j / Funambol
 Omogući Sync4j / Funambol
 
-{t}Enable WebDAV{/t}
+** Enable WebDAV
 
 
-{t}End{/t}
+** End
 Kraj
 
-{t}engaged{/t}
+** engaged
 priključen
 
-{t}equal{/t}
+** equal
 jednak
 
-{t}Error{/t}
+** Error
 Pogreška
 
-{t}Error doing request to xmlhttp{/t}
+** Error doing request to xmlhttp
 Pogreška kod zahtjeva za xmlhttp
 
-{t}Error moving file{/t}
+** Error moving file
 Pogreška kod preseljenja datoteke
 
-{t}Error pasting asset{/t}
+** Error pasting asset
 Pogreška spajanja aktive
 
-{t}Error: no credentials{/t}
+** Error: no credentials
 Pogreška: nemate akreditiv
 
-{t}Events{/t}
+** Events
 Događaji
 
-{t}Example{/t}
+** Example
 Primjer
 
-{t}Example contacts{/t}
+** Example contacts
 Primjer kontakta
 
-{t}Example surveys can be found at:{/t}
+** Example surveys can be found at:
 Primjer ankete mogu se pronaći na adresi:
 
-{t}Example without mountpoint{/t}
+** Example without mountpoint
 Primjer bez međutočke
 
-{t}Examples{/t}
+** Examples
 Primjeri
 
-{t}Execute{/t}
+** Execute
 Izvrši
 
-{t}Expenses{/t}
+** Expenses
 Izdaci
 
-{t}Experimental{/t}
+** Experimental
 Eksperimentalni
 
-{t}Expires{/t}
+** Expires
 Hitno
 
-{t}Expiry{/t}
+** Expiry
 Datum važenja
 
-{t}Extended{/t}
+** Extended
 
 
-{t}Extensions{/t}
+** Extensions
 Vrijedi do
 
-{t}Extracting files{/t}
+** Extracting files
 Dohvaćanje datoteka
 
-{t}F j{/t}
+** F j
 j F
 
-{t}F j, Y{/t}
+** F j, Y
 j F, Y
 
-{t}Failed to create directory: %s{/t}
+** Failed to create directory: %s
 Pogreška kod kreiranja mape: %s
 
-{t}Failed to write file to disk.{/t}
+** Failed to write file to disk.
 Pogreška kod snimanja datoteke na disk.
 
-{t}Failed to write into %s{/t}
+** Failed to write into %s
 Pogreška kod snimanja na %s
 
-{t}Family status{/t}
+** Family status
 Obiteljski status
 
-{t}FAQ{/t}
+** FAQ
 Najčešća pitanja
 
-{t}Favorites{/t}
+** Favorites
 Favoriti
 
-{t}Fax{/t}
+** Fax
 Fax
 
-{t}Fax private{/t}
+** Fax private
 
 
-{t}Feature request{/t}
+** Feature request
 Budući zahtjevi
 
-{t}Feb{/t}
+** Feb
 Velj
 
-{t}February{/t}
+** February
 Veljača (Feb.)
 
-{t}Feed{/t}
+** Feed
 Feed
 
-{t}female{/t}
+** female
 ženski
 
-{t}Field{/t}
+** Field
 Polje
 
-{t}Field contains value{/t}
+** Field contains value
 Polje sadrži vrijednost
 
-{t}Field customization{/t}
+** Field customization
 
 
-{t}Field is equal to value{/t}
+** Field is equal to value
 Polje je jednaka vrijednost
 
-{t}Fields{/t}
+** Fields
 
 
-{t}File{/t}
+** File
 Datoteka
 
-{t}file is too big. Please change upload_max_filesize, post_max_size in your php.ini{/t}
+** file is too big. Please change upload_max_filesize, post_max_size in your php.ini
 datoteka je prevelika. Molim nazovite administratora.
 
-{t}file is too big. Please upload a smaller one.{/t}
+** file is too big. Please upload a smaller one.
 datoteka je prevelika. Molim nazovite administratora.
 
-{t}file not found in database.{/t}
+** file not found in database.
 ne mogu pronaći datoteku u bazi.
 
-{t}file not found.{/t}
+** file not found.
 datoteka nije pronađena.
 
-{t}file was uploaded partially.{/t}
+** file was uploaded partially.
 datoteka je nadograđena djelomično.
 
-{t}Filename must have the right extension. Valid extensions are %s{/t}
+** Filename must have the right extension. Valid extensions are %s
 Naziv datoteke pogrešan. Ispravni nastavci su %s
 
-{t}Files{/t}
+** Files
 Datoteka
 
-{t}Filesystem{/t}
+** Filesystem
 Sustav pohrane
 
-{t}Filter{/t}
+** Filter
 Filter
 
-{t}Find assets in multiple folders{/t}
+** Find assets in multiple folders
 Nađi događaje u više mapa
 
-{t}Finish scheduled{/t}
+** Finish scheduled
 Završen plana
 
-{t}Finished{/t}
+** Finished
 Dovršen
 
-{t}First in list{/t}
+** First in list
 Prvi u listi
 
-{t}first level support{/t}
+** first level support
 prve razine podrške
 
-{t}First name{/t}
+** First name
 Ime
 
-{t}Fix paging bar to page bottom{/t}
+** Fix paging bar to page bottom
 Fix stranične bar na dnu stranice
 
-{t}fixed{/t}
+** fixed
 fiksne
 
-{t}Flags{/t}
+** Flags
 Zastava
 
-{t}Flash plugin not installed.{/t}
+** Flash plugin not installed.
 Flash nije instaliran plugin.
 
-{t}Folder{/t}
+** Folder
 Mapa
 
-{t}Folder already exists.{/t}
+** Folder already exists.
 Mapa već postoji.
 
-{t}Folder created.{/t}
+** Folder created.
 Mape stvorene.
 
-{t}Folder has changed.{/t}
+** Folder has changed.
 Mape su promijenjene.
 
-{t}Folder icon{/t}
+** Folder icon
 Ikone.
 
-{t}Folder not found.{/t}
+** Folder not found.
 Mapa nije pronađena.
 
-{t}Folder refresh period{/t}
+** Folder refresh period
 period osvježavanja.
 
-{t}Folder structure{/t}
+** Folder structure
 Struktura mapa.
 
-{t}Folder structure created.{/t}
+** Folder structure created.
 Kreirana struktura mape.
 
-{t}Folder structure moved to trash.{/t}
+** Folder structure moved to trash.
 Strukturu mapa baciti u otpad.
 
-{t}Folder Type{/t}
+** Folder Type
 Typ mape
 
-{t}Folder with ID %s{/t}
+** Folder with ID %s
 Maap sa ID %s
 
-{t}Folders{/t}
+** Folders
 Mape
 
-{t}for a new paragraph, use a blank line{/t}
+** for a new paragraph, use a blank line
 za novi stavak, koristiti prazan redak
 
-{t}Force SSL{/t}
+** Force SSL
 Pridružiti SSL
 
-{t}Form{/t}
+** Form
 
 
-{t}Forum{/t}
+** Forum
 Diskusija
 
-{t}Forward{/t}
+** Forward
 Proslijediti
 
-{t}Fr{/t}
+** Fr
 Pet
 
-{t}Free/busy{/t}
+** Free/busy
 Slobodno/zauzeto
 
-{t}Freelance{/t}
+** Freelance
 
 
-{t}Fri{/t}
+** Fri
 Pet
 
-{t}Friday{/t}
+** Friday
 Petak
 
-{t}From{/t}
+** From
 Od
 
-{t}Full screen{/t}
+** Full screen
 Cijeli ekran
 
-{t}Full texts{/t}
+** Full texts
 Puni tekst
 
-{t}Full time{/t}
+** Full time
 
 
-{t}Full width{/t}
+** Full width
 Cijela širina
 
-{t}Fulltext index{/t}
+** Fulltext index
 
 
-{t}Funambol only works with MySQL and PostgreSQL.{/t}
+** Funambol only works with MySQL and PostgreSQL.
 Funambol radi samo s MySQL i PostgreSQL.
 
-{t}Function does not exist: %s{/t}
+** Function does not exist: %s
 Funkcija ne postoji: %s
 
-{t}g:i a{/t}
+** g:i a
 G:i
 
-{t}Gender{/t}
+** Gender
 Roditelj
 
-{t}General{/t}
+** General
 Općenito
 
-{t}Generate{/t}
+** Generate
 Kreirati
 
-{t}Gifts{/t}
+** Gifts
 Pokloni
 
-{t}Give Feedback{/t}
+** Give Feedback
 Poslat odgovor
 
-{t}GNU GPL Frequently Asked Questions{/t}
+** GNU GPL Frequently Asked Questions
 GNU GPL Često postavljana pitanja
 
-{t}greater than{/t}
+** greater than
 veći nego
 
-{t}green{/t}
+** green
 zelena
 
-{t}Group{/t}
+** Group
 Grupe
 
-{t}Group created.{/t}
+** Group created.
 Grupe kreirane
 
-{t}Group deactivated.{/t}
+** Group deactivated.
 Grupe deaktivirane
 
-{t}Groupname{/t}
+** Groupname
 Naziv grupe
 
-{t}Groups{/t}
+** Groups
 Grupe
 
-{t}hanging text{/t}
+** hanging text
 dodatni tekst
 
-{t}Hardware{/t}
+** Hardware
 Hardware
 
-{t}Headers{/t}
+** Headers
 Zaglavlja
 
-{t}heading{/t}
+** heading
 naslov
 
-{t}headings{/t}
+** headings
 naslovi
 
-{t}Height{/t}
+** Height
 Visina
 
-{t}Help{/t}
+** Help
 Pomoć
 
-{t}Helpdesk{/t}
+** Helpdesk
 Helpdesk
 
-{t}Hidden in{/t}
+** Hidden in
 
 
-{t}Hidden in all views{/t}
+** Hidden in all views
 
 
-{t}Hide{/t}
+** Hide
 Sakriti
 
-{t}hide in all views{/t}
+** hide in all views
 
 
-{t}hide in this view{/t}
+** hide in this view
 
 
-{t}History{/t}
+** History
 Povijest
 
-{t}Holiday{/t}
+** Holiday
 Praznici
 
-{t}Home{/t}
+** Home
 Naslovnica
 
-{t}Home folder id{/t}
+** Home folder id
 Početna mapa id
 
-{t}Home page in the CMS{/t}
+** Home page in the CMS
 Početna stranica u CMS
 
-{t}Homepage{/t}
+** Homepage
 Naslovnica
 
-{t}horizontal line{/t}
+** horizontal line
 vodoravna linija
 
-{t}Host{/t}
+** Host
 Host
 
-{t}Hosts{/t}
+** Hosts
 Sajtovi
 
-{t}Hour{/t}
+** Hour
 
 
-{t}hours{/t}
+** hours
 sati
 
-{t}Hours per week{/t}
+** Hours per week
 
 
-{t}HTML document{/t}
+** HTML document
 
 
-{t}HTML documents{/t}
+** HTML documents
 HTML dokument
 
-{t}http://www.pmwiki.org/PmWiki/{/t}
+** http://www.pmwiki.org/PmWiki/
 
 
-{t}Human resources{/t}
+** Human resources
 
 
-{t}I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2{/t}
+** I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2
 Prihvaćam GNU GENERAL PUBLIC LICENSE VERSION 2
 
-{t}I m p o r t{/t}
+** I m p o r t
 
 
-{t}I n s t a l l{/t}
+** I n s t a l l
 I n s t a l a c i j a
 
-{t}Icon{/t}
+** Icon
 Ikona
 
-{t}Id{/t}
+** Id
 ID
 
-{t}Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
 Id ne može biti prazan, min 3 karaktera, max 128 karaktera [a-z0-9_-@.].
 
-{t}Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].
 Id ne može biti prazan, min 3 karaktera, max 128 karaktera [a-z0-9_-@.].
 
-{t}Ideas{/t}
+** Ideas
 Ideja
 
-{t}If empty, the SMTP connection from the module users will be used.{/t}
+** If empty, the SMTP connection from the module users will be used.
 Kod praznog pridruženo je SMTP spajanje koji koristi korisnik.
 
-{t}If file system permissions are ok, please check the configurations of %s if present.{/t}
+** If file system permissions are ok, please check the configurations of %s if present.
 
 
-{t}if not autodetected with namingContexts{/t}
+** if not autodetected with namingContexts
 ako nije automatski detektiran sa namingContexts
 
-{t}If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.{/t}
+** If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.
 ako korisnikova lozika sadrži znak &quot;:&quot;, zamjenit je sa &quot;==&quot;.
 
-{t}If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.{/t}
+** If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.
 ako korisnikova lozika sadrži znak &quot;@&quot;, zamjenit je sa &quot;%%&quot;.
 
-{t}Illness{/t}
+** Illness
 
 
-{t}Im-/Export{/t}
+** Im-/Export
 Im-/Export
 
-{t}Image{/t}
+** Image
 Slika
 
-{t}Images{/t}
+** Images
 Slike
 
-{t}Imap-error: %s{/t}
+** Imap-error: %s
 Imap-error: %s
 
-{t}immediate{/t}
+** immediate
 neposredno
 
-{t}Import{/t}
+** Import
 Uvoz
 
-{t}In progress{/t}
+** In progress
 U tijeku
 
-{t}in repair{/t}
+** in repair
 u popravku
 
-{t}in stock{/t}
+** in stock
 u skladištu
 
-{t}Inactive{/t}
+** Inactive
 Neaktivni
 
-{t}Include in RSS feed{/t}
+** Include in RSS feed
 Uključi u RSS
 
-{t}Include page{/t}
+** Include page
 Uključi straniu
 
-{t}indent text{/t}
+** indent text
 uvući tekst
 
-{t}Index{/t}
+** Index
 Index
 
-{t}Index length{/t}
+** Index length
 Dužina indeksa
 
-{t}Index type{/t}
+** Index type
 Tip indeksa
 
-{t}Indexes{/t}
+** Indexes
 Indeksiram
 
-{t}Industry{/t}
+** Industry
 Industrija
 
-{t}Info{/t}
+** Info
 Obavijesti
 
-{t}inheritance to subfolders without default values{/t}
+** inheritance to subfolders without default values
 baštinu podmapa bez default vrijednosti
 
-{t}Input field{/t}
+** Input field
 Polje unosa
 
-{t}Input field height{/t}
+** Input field height
 
 
-{t}Insert{/t}
+** Insert
 Umetnuti
 
-{t}inserted{/t}
+** inserted
 umetnut
 
-{t}Install default folder structure{/t}
+** Install default folder structure
 Instalacija zadanu strukturu mapa
 
-{t}Install demo folders{/t}
+** Install demo folders
 Instalacija demo mapa
 
-{t}Install minimal folder structure{/t}
+** Install minimal folder structure
 Uvesti minimalne strukture mapa
 
-{t}installed{/t}
+** installed
 instaliran
 
-{t}insufficient folder rights{/t}
+** insufficient folder rights
 nemate prava na mapi
 
-{t}Internal recommendation{/t}
+** Internal recommendation
 Interne preporuke
 
-{t}Intranet{/t}
+** Intranet
 Internet
 
-{t}Intro{/t}
+** Intro
 Uvod
 
-{t}invalid{/t}
+** invalid
 pogrešan
 
-{t}Invalid file extensions{/t}
+** Invalid file extensions
 
 
-{t}Invalid schema mode '%s'{/t}
+** Invalid schema mode '%s'
 Pogrešna shema mod %s
 
-{t}Invalid security token{/t}
+** Invalid security token
 Nevažeći sigurnosti token
 
-{t}Inventory{/t}
+** Inventory
 Inventar
 
-{t}Inventory number{/t}
+** Inventory number
 Broj inventara
 
-{t}Investor{/t}
+** Investor
 Investitor
 
-{t}Invoice{/t}
+** Invoice
 Račun
 
-{t}italic{/t}
+** italic
 kurziv
 
-{t}Item created by %s at %s{/t}
+** Item created by %s at %s
 Članak kreiran od %s (kým) u %s
 
-{t}Item deleted by %s at %s{/t}
+** Item deleted by %s at %s
 Članak izbrisan od %s u %s
 
-{t}Item edited (%s) by %s at %s{/t}
+** Item edited (%s) by %s at %s
 Članak izmjenjena od %s u %s %s
 
-{t}Item not found.{/t}
+** Item not found.
 Članak nije pronađen.
 
-{t}Item successfully created.{/t}
+** Item successfully created.
 Članak uspješno kreiran.
 
-{t}Item successfully updated.{/t}
+** Item successfully updated.
 Članak uspješno nadograđen.
 
-{t}Item(s) not found or access denied.{/t}
+** Item(s) not found or access denied.
 Članak nije pronađen ili nemate pravo pristupa.
 
-{t}Jan{/t}
+** Jan
 Sij
 
-{t}January{/t}
+** January
 Siječanj (Jan.)
 
-{t}Job description{/t}
+** Job description
 Opis posla
 
-{t}Join lines{/t}
+** Join lines
 Pridružene linije
 
-{t}Jul{/t}
+** Jul
 Srp
 
-{t}July{/t}
+** July
 Srpanj (Júl)
 
-{t}Jun{/t}
+** Jun
 Lip
 
-{t}June{/t}
+** June
 Lipanj (Jún)
 
-{t}Key{/t}
+** Key
 Ključ
 
-{t}Key customer{/t}
+** Key customer
 Korisnik ključa
 
-{t}Key name{/t}
+** Key name
 Naziv ključa
 
-{t}Keywords{/t}
+** Keywords
 Ključne riječi
 
-{t}Knowledge base{/t}
+** Knowledge base
 Baza znanja
 
-{t}L o g i n{/t}
+** L o g i n
 P r i j a v a
 
-{t}l, F j, Y{/t}
+** l, F j, Y
 l, j F, Y
 
-{t}Last access{/t}
+** Last access
 Zadnji pristup
 
-{t}Last name{/t}
+** Last name
 Prezime
 
-{t}LDAP anonymous connection failed.{/t}
+** LDAP anonymous connection failed.
 LDAP anonimna pogreška.
 
-{t}LDAP attribute for group memberships{/t}
+** LDAP attribute for group memberships
 LDAP atribut za skupinu članstva
 
-{t}LDAP attribute for rooms{/t}
+** LDAP attribute for rooms
 LDAP atribut za sobe
 
-{t}LDAP attribute for usernames{/t}
+** LDAP attribute for usernames
 LDAP atribut za korisničko ime
 
-{t}LDAP connection to host %s failed.{/t}
+** LDAP connection to host %s failed.
 LDAP spajanje na host %s pogreška.
 
-{t}LDAP without anonymous access{/t}
+** LDAP without anonymous access
 LDAP bez anonimnog pristupa
 
-{t}LDAP: no base DN given{/t}
+** LDAP: no base DN given
 LDAP: ne baze DN
 
-{t}LDAP: no UID given{/t}
+** LDAP: no UID given
 LDAP: bez UID
 
-{t}Leave of absence{/t}
+** Leave of absence
 
 
-{t}less promising{/t}
+** less promising
 izgubljena prava
 
-{t}lesser than{/t}
+** lesser than
 manje od
 
-{t}Letter{/t}
+** Letter
 Dopis
 
-{t}Level{/t}
+** Level
 Nivo
 
-{t}License{/t}
+** License
 Licenca
 
-{t}line{/t}
+** line
 
 
-{t}Line break{/t}
+** Line break
 Prekid linije
 
-{t}Link{/t}
+** Link
 Veza
 
-{t}Link restricted{/t}
+** Link restricted
 Veza ograničena
 
-{t}link text{/t}
+** link text
 povezani tekst
 
-{t}link to external page{/t}
+** link to external page
 link na vanjske stranice
 
-{t}link to internal page{/t}
+** link to internal page
 link na interne stranice
 
-{t}Links{/t}
+** Links
 Linkovi
 
-{t}Lists{/t}
+** Lists
 Popisi
 
-{t}Load external images{/t}
+** Load external images
 Učitaj vanjske slike
 
-{t}Location{/t}
+** Location
 Lokacija
 
-{t}Locations{/t}
+** Locations
 Lokacije
 
-{t}Lock{/t}
+** Lock
 Zaključaj
 
-{t}Locked by{/t}
+** Locked by
 Zaključano od
 
-{t}Locking{/t}
+** Locking
 Zaključavanje
 
-{t}login %s from %s with %s{/t}
+** login %s from %s with %s
 prijava %s za %s sa %s
 
-{t}Login failed from %s.{/t}
+** Login failed from %s.
 Neuspješna prijava zbog %s.
 
-{t}Login/-out{/t}
+** Login/-out
 Odjava
 
-{t}Logins{/t}
+** Logins
 Prijavljeni
 
-{t}Logout{/t}
+** Logout
 Odjava
 
-{t}logout %s{/t}
+** logout %s
 odjavljeni %s
 
-{t}Lookup{/t}
+** Lookup
 Pretraživanje
 
-{t}low{/t}
+** low
 nisko
 
-{t}lowest{/t}
+** lowest
 najniži
 
-{t}M j{/t}
+** M j
 j M
 
-{t}M j, g:i a{/t}
+** M j, g:i a
 j M, G:i
 
-{t}M j, Y{/t}
+** M j, Y
 j M, Y
 
-{t}m/d/Y{/t}
+** m/d/Y
 d.m. Y
 
-{t}m/d/Y g:i a{/t}
+** m/d/Y g:i a
 d.m. Y G:i
 
-{t}m/d/y g:i:s a{/t}
+** m/d/y g:i:s a
 d.m. Y G:i:s
 
-{t}magenta{/t}
+** magenta
 ljubičasta
 
-{t}mail footer{/t}
+** mail footer
 Potpis e-maila
 
-{t}Mail identities{/t}
+** Mail identities
 E-mail identitet
 
-{t}mail notification{/t}
+** mail notification
 e-mail upozoranje
 
-{t}mail reminder{/t}
+** mail reminder
 e-mail napomena
 
-{t}Main menu{/t}
+** Main menu
 Glavni izbornik
 
-{t}Main page{/t}
+** Main page
 Glavna stranica
 
-{t}Maintenance mode{/t}
+** Maintenance mode
 Mod održavanja
 
-{t}male{/t}
+** male
 muški
 
-{t}Man-days{/t}
+** Man-days
 Dan rada čovjeka
 
-{t}Man-days planned{/t}
+** Man-days planned
 Planiran praznik
 
-{t}Manage offline folders{/t}
+** Manage offline folders
 
 
-{t}Manager{/t}
+** Manager
 Manager
 
-{t}Manufacturer{/t}
+** Manufacturer
 proizvođač
 
-{t}Mar{/t}
+** Mar
 Ožu
 
-{t}March{/t}
+** March
 Ožujak (Marc)
 
-{t}Marketing event{/t}
+** Marketing event
 Marketiški događaj
 
-{t}married{/t}
+** married
 oženjen
 
-{t}Maximize{/t}
+** Maximize
 Povećaj
 
-{t}Maximum file size{/t}
+** Maximum file size
 
 
-{t}Maximum number of assets per page{/t}
+** Maximum number of assets per page
 Maksimalan broj događaja po stranici
 
-{t}maximum number of files exceeded.{/t}
+** maximum number of files exceeded.
 maksimalni broj datoteka je dostignut.
 
-{t}May{/t}
+** May
 Svi
 
-{t}Media{/t}
+** Media
 Medij
 
-{t}Meeting{/t}
+** Meeting
 Sastanak
 
-{t}Members{/t}
+** Members
 Članovi
 
-{t}Memory limit{/t}
+** Memory limit
 
 
-{t}Merge folders permanently{/t}
+** Merge folders permanently
 Spojiti mape trajno
 
-{t}Merged folders{/t}
+** Merged folders
 Spojene mape
 
-{t}Message{/t}
+** Message
 Poruka
 
-{t}Messages{/t}
+** Messages
 Poruke
 
-{t}Milestone{/t}
+** Milestone
 
 
-{t}min{/t}
+** min
 min
 
-{t}Minimize{/t}
+** Minimize
 Smanji
 
-{t}minimum = 15 secs, 0 = disabled{/t}
+** minimum = 15 secs, 0 = disabled
 minimum = 15 sek, 0 = isključeno
 
-{t}Miscellaneous{/t}
+** Miscellaneous
 Razno
 
-{t}missing a temporary folder.{/t}
+** missing a temporary folder.
 nedostaje privremena mapa.
 
-{t}missing field{/t}
+** missing field
 nedostaje polje
 
-{t}missing right: %s{/t}
+** missing right: %s
 nedostatna prava: %s
 
-{t}Mo{/t}
+** Mo
 Po
 
-{t}Mobile{/t}
+** Mobile
 Mobil
 
-{t}Model{/t}
+** Model
 Model
 
-{t}Modified{/t}
+** Modified
 Promjenjeno
 
-{t}Modified by{/t}
+** Modified by
 Promjenjeno od
 
-{t}Modifying database failed.{/t}
+** Modifying database failed.
 Modifikacija baze odgođena.
 
-{t}Module{/t}
+** Module
 Modul
 
-{t}Module disabled.{/t}
+** Module disabled.
 Modul isključen
 
-{t}Modules{/t}
+** Modules
 Moduli
 
-{t}Mon{/t}
+** Mon
 Po
 
-{t}Monday{/t}
+** Monday
 Ponedjeljak
 
-{t}monospace{/t}
+** monospace
 studio
 
-{t}Month{/t}
+** Month
 Mjesec
 
-{t}monthly{/t}
+** monthly
 mjesečno
 
-{t}months{/t}
+** months
 mjesec
 
-{t}More information about the GNU GPL{/t}
+** More information about the GNU GPL
 Više informacija o GNU GPL
 
-{t}Mountpoint{/t}
+** Mountpoint
 Točka montiranja
 
-{t}Move{/t}
+** Move
 Premjestiti
 
-{t}Move to subfolder 'Archive'{/t}
+** Move to subfolder 'Archive'
 
 
-{t}Multiple{/t}
+** Multiple
 Vičestruke
 
-{t}Multiple choice{/t}
+** Multiple choice
 Višestruki izbori
 
-{t}My appointments{/t}
+** My appointments
 Moja imenovanja
 
-{t}My tasks{/t}
+** My tasks
 Moji zadaci
 
-{t}Name{/t}
+** Name
 Naziv
 
-{t}Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
 Naziv ne može biti prazan, min tri znaka, max 128 znakova, od [a-z0-9_-@.].
 
-{t}Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].{/t}
+** Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].
 Naziv ne može biti prazan, min tri znaka,znakove od [a-z0-9-_.].
 
-{t}need feedback{/t}
+** need feedback
 potrebna povratna informacija
 
-{t}Network{/t}
+** Network
 Mreža
 
-{t}Never expires{/t}
+** Never expires
 Nikad ne ističe
 
-{t}New{/t}
+** New
 Novi
 
-{t}New folder{/t}
+** New folder
 Nova mapa
 
-{t}News{/t}
+** News
 Vijesti
 
-{t}Next recurrences{/t}
+** Next recurrences
 Slijedeći nastavak
 
-{t}Nickname{/t}
+** Nickname
 Nadimak
 
-{t}Nightwork{/t}
+** Nightwork
 
 
-{t}no{/t}
+** no
 ne
 
-{t}No dataset selected.{/t}
+** No dataset selected.
 Nema izabranog uređaja za prijenos podataka.
 
-{t}No entries found.{/t}
+** No entries found.
 Nema pronađenih prijava.
 
-{t}No file was uploaded{/t}
+** No file was uploaded
 Datoteka nije učitana
 
-{t}No line breaks{/t}
+** No line breaks
 Nema linije prekida
 
-{t}no result{/t}
+** no result
 nema rezultata
 
-{t}No search index{/t}
+** No search index
 
 
-{t}No sender specified.{/t}
+** No sender specified.
 Nema zadanih pošiljatelja.
 
-{t}no username submitted{/t}
+** no username submitted
 korisničko ime nije podržano
 
-{t}No username/password.{/t}
+** No username/password.
 
 
-{t}No wrap{/t}
+** No wrap
 
 
-{t}Non unique{/t}
+** Non unique
 Nije jedinstven
 
-{t}none{/t}
+** none
 nepostojeći
 
-{t}normal{/t}
+** normal
 uobičajen
 
-{t}Not allowed. Please log in as super administrator.{/t}
+** Not allowed. Please log in as super administrator.
 Nije dozvoljena. Prijavite se kao administrator.
 
-{t}not contains{/t}
+** not contains
 ne sadrži
 
-{t}not equal{/t}
+** not equal
 nije jednako
 
-{t}Not in{/t}
+** Not in
 
 
-{t}Not in database{/t}
+** Not in database
 
 
-{t}not installed{/t}
+** not installed
 
 
-{t}Note{/t}
+** Note
 Napomena
 
-{t}Notebook{/t}
+** Notebook
 Notes
 
-{t}Notes{/t}
+** Notes
 Napomene
 
-{t}Notificaiton sent to: %s{/t}
+** Notificaiton sent to: %s
 Napomena poslana: %s
 
-{t}Notification{/t}
+** Notification
 Obavijest
 
-{t}Notification summary{/t}
+** Notification summary
 Obavijest sažetak
 
-{t}Notifications{/t}
+** Notifications
 Obavijesti
 
-{t}Nov{/t}
+** Nov
 Stu
 
-{t}November{/t}
+** November
 Studeni (Nov.)
 
-{t}Null{/t}
+** Null
 Prazno
 
-{t}Number of employees{/t}
+** Number of employees
 Broj djelatnika
 
-{t}numbered{/t}
+** numbered
 numerirani
 
-{t}Objectives{/t}
+** Objectives
 Ciljevi
 
-{t}Oct{/t}
+** Oct
 Lis
 
-{t}October{/t}
+** October
 Listopad (Okt.)
 
-{t}of {0}{/t}
+** of {0}
 od {0}
 
-{t}offer{/t}
+** offer
 
 
-{t}Offer{/t}
+** Offer
 
 
-{t}Office{/t}
+** Office
 Ured
 
-{t}Office program{/t}
+** Office program
 Program iz sustava Office
 
-{t}Offices{/t}
+** Offices
 Uredi
 
-{t}offline{/t}
+** offline
 izvan sustava
 
-{t}Offline folders{/t}
+** Offline folders
 Vanmrežne mape
 
-{t}Offline reading{/t}
+** Offline reading
 
 
-{t}Ok{/t}
+** Ok
 U redu
 
-{t}one of{/t}
+** one of
 jedan
 
-{t}online{/t}
+** online
 online
 
-{t}Only for this folder{/t}
+** Only for this folder
 
 
-{t}Only in{/t}
+** Only in
 
 
-{t}open{/t}
+** open
 
 
-{t}Open{/t}
+** Open
 Otvoriti
 
-{t}Operating system{/t}
+** Operating system
 Operativni sustav
 
-{t}Operation not allowed. (Data loss protection){/t}
+** Operation not allowed. (Data loss protection)
 Operacija nije dozvoljena. (Zaštita od gubitka podataka)
 
-{t}Optimize Tables{/t}
+** Optimize Tables
 Optimizirajte Tablice
 
-{t}Options{/t}
+** Options
 Opcije
 
-{t}or{/t}
+** or
 ili
 
-{t}or higher{/t}
+** or higher
 ili veći
 
-{t}orange{/t}
+** orange
 narančast
 
-{t}Order size{/t}
+** Order size
 Red veličina
 
-{t}Organisation{/t}
+** Organisation
 Organizacija
 
-{t}Organizer{/t}
+** Organizer
 Organizator
 
-{t}Origin{/t}
+** Origin
 porijeklo
 
-{t}Original message{/t}
+** Original message
 Izvorna poruka
 
-{t}Other{/t}
+** Other
 Drugi
 
-{t}out of office{/t}
+** out of office
 izvan ureda
 
-{t}Outline image{/t}
+** Outline image
 Okvir slike
 
-{t}Output{/t}
+** Output
 Izlaz
 
-{t}Output empty: %s{/t}
+** Output empty: %s
 Izlaz prazan: %s
 
-{t}overlap{/t}
+** overlap
 preklapanje
 
-{t}Overtime{/t}
+** Overtime
 Prekovremeni
 
-{t}Overtime compensation per hour{/t}
+** Overtime compensation per hour
 
 
-{t}Owner{/t}
+** Owner
 Vlasník
 
-{t}Owner since{/t}
+** Owner since
 Vlasník od
 
-{t}Package from local file system (.tar.gz){/t}
+** Package from local file system (.tar.gz)
 paket od lokalnog datotečnog sustava (.tar.gz)
 
-{t}Packed{/t}
+** Packed
 Komprimirano
 
-{t}Page{/t}
+** Page
 Stranica
 
-{t}Page last modified on{/t}
+** Page last modified on
 Stranica je zadnji put izmijenjena
 
-{t}Page name (URL){/t}
+** Page name (URL)
 Naziv stranice (URL)
 
-{t}Page not found{/t}
+** Page not found
 
 
-{t}Page title{/t}
+** Page title
 Naslov stranice
 
-{t}Pager{/t}
+** Pager
 Stranica
 
-{t}Paid{/t}
+** Paid
 
 
-{t}Paid holidays{/t}
+** Paid holidays
 
 
-{t}Paragraphs{/t}
+** Paragraphs
 Odlomak
 
-{t}parameters{/t}
+** parameters
 parametar
 
-{t}Parameters{/t}
+** Parameters
 Parametri
 
-{t}Parent folder{/t}
+** Parent folder
 Nadređena mapa
 
-{t}Parsing{/t}
+** Parsing
 Rasčlanjivanje
 
-{t}Part time{/t}
+** Part time
 
 
-{t}Participants{/t}
+** Participants
 Sudionici
 
-{t}Participants (external){/t}
+** Participants (external)
 Sudionici (vanjski)
 
-{t}Participants (internal){/t}
+** Participants (internal)
 Sudionici (interni)
 
-{t}Password{/t}
+** Password
 Lozinka
 
-{t}Password expired. (password of %s has expired){/t}
+** Password expired. (password of %s has expired)
 Lozinka istekla. (lozinka %s istekla)
 
-{t}Password expires{/t}
+** Password expires
 Lozinka istekla
 
-{t}Password must be not null, min 5 characters.{/t}
+** Password must be not null, min 5 characters.
 Lozinka ne može biti prazna, min 5 znakova.
 
-{t}password not confirmed.{/t}
+** password not confirmed.
 lozinka nije potvrđena.
 
-{t}Passwords{/t}
+** Passwords
 Lozinke
 
-{t}Paste{/t}
+** Paste
 Zalijepiti
 
-{t}Path{/t}
+** Path
 Putanja
 
-{t}Pause{/t}
+** Pause
 Pauza
 
-{t}Payroll{/t}
+** Payroll
 
 
-{t}Permissions{/t}
+** Permissions
 Dozvole
 
-{t}Permissions added for: %s{/t}
+** Permissions added for: %s
 Dozvole dodane za: %s
 
-{t}Personal{/t}
+** Personal
 Osobni
 
-{t}Personal department{/t}
+** Personal department
 Osobni odjeljak
 
-{t}Personal folders{/t}
+** Personal folders
 Osobna mapa
 
-{t}Personal projects{/t}
+** Personal projects
 Osobni projekt
 
-{t}Phone{/t}
+** Phone
 Telefon
 
-{t}Phone calls{/t}
+** Phone calls
 Telefonski pozivi
 
-{t}Phone private{/t}
+** Phone private
 Privatni telefon
 
-{t}Photo{/t}
+** Photo
 Slika
 
-{t}Photo gallery{/t}
+** Photo gallery
 Fotogalerija
 
-{t}Planned{/t}
+** Planned
 Planirane
 
-{t}Please activate cookies.{/t}
+** Please activate cookies.
 Molim aktivirajte cookies.
 
-{t}Please choose Apache as Web-Server.{/t}
+** Please choose Apache as Web-Server.
 Izaberite Apache kao web server.
 
-{t}Please enable Javascript in your browser.{/t}
+** Please enable Javascript in your browser.
 Molimo omogućite JavaScript u Vašem pregledniku.
 
-{t}Please enter a valid url.{/t}
+** Please enter a valid url.
 Molim navedite važeću URL adresu.
 
-{t}Please give read access to %s{/t}
+** Please give read access to %s
 Dodajete prava čitanja za %s
 
-{t}Please give write access to %s{/t}
+** Please give write access to %s
 Dodajete prava pisanja za %s
 
-{t}Please give write access to %s and %s{/t}
+** Please give write access to %s and %s
 Dodajte prava pisanja na %s i %s
 
-{t}Please hit reload.{/t}
+** Please hit reload.
 Obnovite stranicu (reload).
 
-{t}Please input a valid e-mail adress.{/t}
+** Please input a valid e-mail adress.
 Upišite valjanu e_mail adresu.
 
-{t}Please install 'tsearch2' for the PostgreSQL database.{/t}
+** Please install 'tsearch2' for the PostgreSQL database.
 Instalirajte tsearch2 za PostgreSQL.
 
-{t}Please install the php-extension with name '%s'.{/t}
+** Please install the php-extension with name '%s'.
 Molim instalirati php-nastavak s nazivom %s.
 
-{t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}
+** Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !
 Molimo vas da promijenite svoj php.ini ili dodati .htaccess datoteku ostavke %s u %s (trenutna vrijednost %s) !
 
-{t}Please read the following license agreement. Use the scroll bar to view the rest of this agreement.{/t}
+** Please read the following license agreement. Use the scroll bar to view the rest of this agreement.
 Pročitajte cijelu licencu.
 
-{t}Please select a location.{/t}
+** Please select a location.
 Molimo odaberite lokaciju.
 
-{t}Please select a participant.{/t}
+** Please select a participant.
 Molimo odaberite sudionika.
 
-{t}Please upload again.{/t}
+** Please upload again.
 Molim obnovite naknadno.
 
-{t}Please wait ...{/t}
+** Please wait ...
 Pričekajte...radim...
 
-{t}Pop3-error: %s{/t}
+** Pop3-error: %s
 Pop3-error: %s
 
-{t}Port{/t}
+** Port
 Port
 
-{t}Portal{/t}
+** Portal
 Portal
 
-{t}Position{/t}
+** Position
 Pozicija
 
-{t}Positions{/t}
+** Positions
 Pozicije
 
-{t}Post{/t}
+** Post
 Pošta
 
-{t}Practical training{/t}
+** Practical training
 
 
-{t}Preformatted block{/t}
+** Preformatted block
 Formatiran blok
 
-{t}Prepend new field as{/t}
+** Prepend new field as
 
 
-{t}Prevent formatting{/t}
+** Prevent formatting
 Spriječiti oblikovanje
 
-{t}Preview{/t}
+** Preview
 Pregled
 
-{t}Price{/t}
+** Price
 Cijena
 
-{t}Primary key{/t}
+** Primary key
 
 
-{t}Print{/t}
+** Print
 Ispis
 
-{t}Print all{/t}
+** Print all
 Ispiši sve
 
-{t}Printer{/t}
+** Printer
 Pisač
 
-{t}Priority{/t}
+** Priority
 Prioritet
 
-{t}Problem{/t}
+** Problem
 Problem
 
-{t}Processes{/t}
+** Processes
 Proces
 
-{t}Processing %s ...{/t}
+** Processing %s ...
 Obrađujem %s ...
 
-{t}Program is installed with language %s, please use a different url or run the setup again.{/t}
+** Program is installed with language %s, please use a different url or run the setup again.
 Program je instaliran za jezik %s, izaberite drugi URL ili ponovite setup.
 
-{t}Progress{/t}
+** Progress
 Napredak
 
-{t}Project{/t}
+** Project
 Projekt
 
-{t}Project files{/t}
+** Project files
 Projektne datoteke
 
-{t}Project tasks{/t}
+** Project tasks
 Projektni događaji
 
-{t}Projects{/t}
+** Projects
 Projekti
 
-{t}promising{/t}
+** promising
 izgledan
 
-{t}Properties{/t}
+** Properties
 Prava
 
-{t}Prospective client{/t}
+** Prospective client
 Budući klijent
 
-{t}Public holiday{/t}
+** Public holiday
 
 
-{t}Purchased{/t}
+** Purchased
 Naručeno
 
-{t}Question{/t}
+** Question
 Pitanje
 
-{t}Queue{/t}
+** Queue
 Red
 
-{t}Quick add{/t}
+** Quick add
 Brzo dodavanje
 
-{t}Quota{/t}
+** Quota
 Kvota
 
-{t}Quota (remaining){/t}
+** Quota (remaining)
 Kvota (napomena)
 
-{t}Quota [MB]{/t}
+** Quota [MB]
 Kvota [MB]
 
-{t}Quota limitation exceeded: %s{/t}
+** Quota limitation exceeded: %s
 Prekoračeno ograničenje: %s
 
-{t}R e g i s t e r{/t}
+** R e g i s t e r
 R e g i s t e r
 
-{t}Rating{/t}
+** Rating
 Ocjena
 
-{t}Read{/t}
+** Read
 Pročitajte
 
-{t}read access{/t}
+** read access
 prava čitanja
 
-{t}Read access (groups){/t}
+** Read access (groups)
 Prava čitanja (grupa)
 
-{t}Read access (users){/t}
+** Read access (users)
 Pravo čitanja (korisnik)
 
-{t}Read only in{/t}
+** Read only in
 
 
-{t}Read this page offline:{/t}
+** Read this page offline:
 
 
-{t}ready for repair{/t}
+** ready for repair
 spremo za izmjenu
 
-{t}ready for scrap{/t}
+** ready for scrap
 spremno za popravak
 
-{t}Real URL format in the CMS{/t}
+** Real URL format in the CMS
 Stvarni URL format u CMS
 
-{t}Really apply rights to subfolders ?{/t}
+** Really apply rights to subfolders ?
 Želiš primijeniti prava i za podmape?
 
-{t}Really apply the changes ?{/t}
+** Really apply the changes ?
 Stvarno primijeniti izmjene?
 
-{t}Really delete ?{/t}
+** Really delete ?
 Potvrdite brisanje?
 
-{t}REALLY delete ALL datasets ?{/t}
+** REALLY delete ALL datasets ?
 PAŽNJA brišete cijelu bazu !!!!!!!!!!!?
 
-{t}Really delete ALL subfolders ?{/t}
+** Really delete ALL subfolders ?
 PAŽNJA brišete sve podmape !!!!!!!!!!!?
 
-{t}Really delete the dataset(s) ?{/t}
+** Really delete the dataset(s) ?
 PAŽNJA brišete dataset !!!!!!!!!!!?
 
-{t}Really empty the folder ?{/t}
+** Really empty the folder ?
 PAŽNJA praznite mapu !!!!!!!!!!!?
 
-{t}Really overwrite existing dataset(s) ?{/t}
+** Really overwrite existing dataset(s) ?
 PAŽNJA zamjeničete tekući dataset !!!!!!!!!!!?
 
-{t}Really run setup again ?{/t}
+** Really run setup again ?
 PAŽNJA pokrečete setup ponovo !!!!!!!!!!!?
 
-{t}Really uninstall the module ?{/t}
+** Really uninstall the module ?
 Stvarno deinstalirati modul?
 
-{t}Rebuild search index{/t}
+** Rebuild search index
 Ponovno stvaram indexe
 
-{t}Recent changes{/t}
+** Recent changes
 Nedavne promjene
 
-{t}Recipients{/t}
+** Recipients
 Primatelji
 
-{t}Recommendation of affiliate{/t}
+** Recommendation of affiliate
 Preporuka za pripojenje
 
-{t}Recurrence{/t}
+** Recurrence
 Ponavljanje
 
-{t}Recurrences{/t}
+** Recurrences
 Vračanje
 
-{t}red{/t}
+** red
 crvena
 
-{t}Redirect to home directory{/t}
+** Redirect to home directory
 Preusmjeriti na početnu mapu
 
-{t}Reference{/t}
+** Reference
 Reference
 
-{t}Refresh{/t}
+** Refresh
 Osvježi
 
-{t}Refresh every x seconds{/t}
+** Refresh every x seconds
 Osvježiti svakih x sekundi
 
-{t}Regular{/t}
+** Regular
 Redovito
 
-{t}Reject{/t}
+** Reject
 
 
-{t}rejected{/t}
+** rejected
 odbijeno
 
-{t}Relative formats{/t}
+** Relative formats
 Relativni format
 
-{t}Relaunch Setup{/t}
+** Relaunch Setup
 Ponovno pokrenuti setup
 
-{t}Relevance{/t}
+** Relevance
 Relevantnost
 
-{t}Reminder{/t}
+** Reminder
 Podsjetnik
 
-{t}rename{/t}
+** rename
 
 
-{t}Rename folder{/t}
+** Rename folder
 Preimenovati mapu
 
-{t}Repeat count{/t}
+** Repeat count
 Otpočeti brojač
 
-{t}Repeat exclusions{/t}
+** Repeat exclusions
 Ponoviti izuzeće
 
-{t}Repeat interval{/t}
+** Repeat interval
 Ponoviti interval
 
-{t}Repeat until{/t}
+** Repeat until
 Ponavljaj do
 
-{t}Reply{/t}
+** Reply
 Odgovor
 
-{t}Reply all{/t}
+** Reply all
 Odgovoriti svima
 
-{t}Require admin access to set mountpoints{/t}
+** Require admin access to set mountpoints
 Zahtjeva administratorska prava za postaviti međutočku
 
-{t}Required{/t}
+** Required
 
 
-{t}Required fields{/t}
+** Required fields
 
 
-{t}Reseller{/t}
+** Reseller
 Preprodavač
 
-{t}reserved{/t}
+** reserved
 rezervirano
 
-{t}Reset view{/t}
+** Reset view
 Obnoviti pogled
 
-{t}Resource{/t}
+** Resource
 Resurs
 
-{t}Resources{/t}
+** Resources
 Resursi
 
-{t}Responsible{/t}
+** Responsible
 Odgovornost
 
-{t}Responsible (external){/t}
+** Responsible (external)
 Odgovorna (vanjski)
 
-{t}Responsible (internal){/t}
+** Responsible (internal)
 Odgovorna (interni)
 
-{t}Restore complete{/t}
+** Restore complete
 Vratiti kompletno
 
-{t}Restore here{/t}
+** Restore here
 Vratiti ovdje
 
-{t}Restore only missing{/t}
+** Restore only missing
 Obnoviti samo nedostajuće
 
-{t}Restore only newer{/t}
+** Restore only newer
 Obnoviti samo novije
 
-{t}Restore to origin{/t}
+** Restore to origin
 Obnoviti na orginalne
 
-{t}Return receipt{/t}
+** Return receipt
 Odgovoriti pošiljatelju
 
-{t}right-aligned{/t}
+** right-aligned
 povratnica
 
-{t}Rights{/t}
+** Rights
 Prava
 
-{t}Risks{/t}
+** Risks
 Rizik
 
-{t}Room name{/t}
+** Room name
 Naziv sobe
 
-{t}Room number{/t}
+** Room number
 Broj sobe
 
-{t}Rooms{/t}
+** Rooms
 Sobe
 
-{t}Rows{/t}
+** Rows
 Redovi
 
-{t}Run Setup again{/t}
+** Run Setup again
 Pokrenite setup ponovo
 
-{t}S a v e{/t}
+** S a v e
 S n i m i t i
 
-{t}S a v e  a n d  E d i t{/t}
+** S a v e  a n d  E d i t
 
 
-{t}S a v e  a n d  g o  b a c k{/t}
+** S a v e  a n d  g o  b a c k
 S n i m i t i   i   p o v r a t a k
 
-{t}Sa{/t}
+** Sa
 Su
 
-{t}Salary{/t}
+** Salary
 
 
-{t}Salary per{/t}
+** Salary per
 
 
-{t}Sales promotion{/t}
+** Sales promotion
 Unaprijeđenje prodaje
 
-{t}Sat{/t}
+** Sat
 Ne
 
-{t}Saturday{/t}
+** Saturday
 Nedjelja
 
-{t}Scheduling{/t}
+** Scheduling
 Zakazivanje
 
-{t}Schema{/t}
+** Schema
 Schema
 
-{t}Schema data{/t}
+** Schema data
 Schema podataka
 
-{t}Schemafile not found. (%s){/t}
+** Schemafile not found. (%s)
 Schema datoteka nije pronađena. (%s)
 
-{t}School{/t}
+** School
 
 
-{t}scrapped{/t}
+** scrapped
 otpisano
 
-{t}Search{/t}
+** Search
 Traži
 
-{t}Search by ID{/t}
+** Search by ID
 Traži po ID
 
-{t}second level support{/t}
+** second level support
 drugi nivo podrške
 
-{t}Second manager{/t}
+** Second manager
 Drugi manadžer
 
-{t}seconds{/t}
+** seconds
 
 
-{t}Secretary{/t}
+** Secretary
 Tajnik
 
-{t}Self registration{/t}
+** Self registration
 Samo registracija
 
-{t}Self registration needs confirmation by an administrator.{/t}
+** Self registration needs confirmation by an administrator.
 Self registraciju treba potvrdu od strane administratora.
 
-{t}Send now{/t}
+** Send now
 Poslati sada
 
-{t}Sent{/t}
+** Sent
 Poslati
 
-{t}Sent reminders{/t}
+** Sent reminders
 Poslati podsjetnik
 
-{t}Sep{/t}
+** Sep
 Ruj
 
-{t}Separate fields{/t}
+** Separate fields
 Razdvoji polja
 
-{t}Separate values{/t}
+** Separate values
 Razdvoji vrijednosti
 
-{t}Separator{/t}
+** Separator
 
 
-{t}Separators{/t}
+** Separators
 Separatori
 
-{t}September{/t}
+** September
 Rujan (Sep.)
 
-{t}Serial number{/t}
+** Serial number
 Serijski broj
 
-{t}Server{/t}
+** Server
 Poslužitelj
 
-{t}Server does not support sorting{/t}
+** Server does not support sorting
 Poslužitelj ne podržava sortiranje
 
-{t}Server-IP{/t}
+** Server-IP
 IP poslužitelja
 
-{t}Service provider{/t}
+** Service provider
 ISP provajder
 
-{t}Session name in cookie{/t}
+** Session name in cookie
 Sjednica ime u kolačiću
 
-{t}Session timeout{/t}
+** Session timeout
 Sjednica zavešena
 
-{t}Sessions{/t}
+** Sessions
 Sjednica
 
-{t}Settings{/t}
+** Settings
 
 
-{t}Setup{/t}
+** Setup
 Postavke
 
-{t}Setup needs a database-php-extension ! (%s){/t}
+** Setup needs a database-php-extension ! (%s)
 Setap zahtjeva database-php-extension! (%s)
 
-{t}Setup needs php with at least version %s !{/t}
+** Setup needs php with at least version %s !
 Setup zahtjeva php verziju %s!
 
-{t}Setup needs php-extension with name %s !{/t}
+** Setup needs php-extension with name %s !
 Setup zahtjeva php-extension sa imenom %s!
 
-{t}Setup needs Simple Groupware with at least version %s !{/t}
+** Setup needs Simple Groupware with at least version %s !
 Postavljanje zahtjeva Simple Groupware s najmanje verzija %s !
 
-{t}Setup: setup-data written to %s.{/t}
+** Setup: setup-data written to %s.
 Setup: data snimljena do %s.
 
-{t}Shapes{/t}
+** Shapes
 Oblici
 
-{t}Share{/t}
+** Share
 Dijeljeno
 
-{t}Shared{/t}
+** Shared
 
 
-{t}Short links{/t}
+** Short links
 Kratki linkovi
 
-{t}Show{/t}
+** Show
 Prikazati
 
-{t}Show all rules{/t}
+** Show all rules
 
 
-{t}Show archive{/t}
+** Show archive
 Prikaži arhivu
 
-{t}Show details{/t}
+** Show details
 Prikaži detalje
 
-{t}Show folder description in content area{/t}
+** Show folder description in content area
 Pokaži mapu opis sadržaja u prostoru
 
-{t}Show password{/t}
+** Show password
 Prikaži lozinke
 
-{t}Show quoted text{/t}
+** Show quoted text
 Prikaži citirani tekst
 
-{t}Similar{/t}
+** Similar
 Slični
 
-{t}Simple tables{/t}
+** Simple tables
 Jednostavne strukture
 
-{t}single{/t}
+** single
 jedan
 
-{t}Single choice{/t}
+** Single choice
 Pojedinačni izbor
 
-{t}Size{/t}
+** Size
 Veličina
 
-{t}Size (children){/t}
+** Size (children)
 Veličina (potomci)
 
-{t}Slow{/t}
+** Slow
 Sporo
 
-{t}small{/t}
+** small
 mali
 
-{t}small text{/t}
+** small text
 smanjen tekst
 
-{t}smaller{/t}
+** smaller
 manji
 
-{t}SMTP not configured for %s{/t}
+** SMTP not configured for %s
 SMTP nije konfiguriran za %s
 
-{t}Smtp-error %s: %s{/t}
+** Smtp-error %s: %s
 Smtp-error %s: %s
 
-{t}Software{/t}
+** Software
 Software
 
-{t}Solution{/t}
+** Solution
 Rješenja
 
-{t}Solution type{/t}
+** Solution type
 Tip rješenja
 
-{t}some text{/t}
+** some text
 neki tekst
 
-{t}Source{/t}
+** Source
 Izvor
 
-{t}Source code{/t}
+** Source code
 Izvorni kod
 
-{t}Special leave{/t}
+** Special leave
 
 
-{t}Specification{/t}
+** Specification
 Specifikacije
 
-{t}Spreadsheet{/t}
+** Spreadsheet
 Tablica
 
-{t}SQL failed.{/t}
+** SQL failed.
 SQL pogreška.
 
-{t}SQL FAILED: %s{/t}
+** SQL FAILED: %s
 SQL POGREŠKA: %s
 
-{t}Start scheduled{/t}
+** Start scheduled
 Početak planiranja
 
-{t}Started{/t}
+** Started
 Započet
 
-{t}starts with{/t}
+** starts with
 započet sa
 
-{t}State{/t}
+** State
 Država
 
-{t}Static cache{/t}
+** Static cache
 Statični cache
 
-{t}Statistics{/t}
+** Statistics
 Statistika
 
-{t}Status{/t}
+** Status
 Status
 
-{t}Statuses{/t}
+** Statuses
 Statusi
 
-{t}Strategies{/t}
+** Strategies
 Strategija
 
-{t}Street{/t}
+** Street
 Ulica
 
-{t}Structure{/t}
+** Structure
 Struktura
 
-{t}Su{/t}
+** Su
 Ne
 
-{t}Subfolder{/t}
+** Subfolder
 
 
-{t}Subfolders{/t}
+** Subfolders
 Podmape
 
-{t}subheading{/t}
+** subheading
 podbroj
 
-{t}Subitem{/t}
+** Subitem
 Podtočke
 
-{t}Subject{/t}
+** Subject
 Predmet
 
-{t}Subjects{/t}
+** Subjects
 Ispitanici
 
-{t}Submit a patch{/t}
+** Submit a patch
 Poslati zakrpu
 
-{t}Subpages{/t}
+** Subpages
 Podstranica
 
-{t}subscript{/t}
+** subscript
 index
 
-{t}Subsistence costs{/t}
+** Subsistence costs
 Životni troška
 
-{t}Sum{/t}
+** Sum
 
 
-{t}Summary{/t}
+** Summary
 Sažetak
 
-{t}Sun{/t}
+** Sun
 Ne
 
-{t}Sunday{/t}
+** Sunday
 Nedjelja
 
-{t}Superior{/t}
+** Superior
 Nadređen
 
-{t}superscript{/t}
+** superscript
 eksponent
 
-{t}Supplier{/t}
+** Supplier
 Dobavljač
 
-{t}Suppliers{/t}
+** Suppliers
 Dobavljači
 
-{t}Support{/t}
+** Support
 Podrška
 
-{t}Support request{/t}
+** Support request
 Zahtjev za podrškom
 
-{t}Surveys{/t}
+** Surveys
 Pregledi
 
-{t}Suspended{/t}
+** Suspended
 Suspendiran
 
-{t}Switch maintenance mode{/t}
+** Switch maintenance mode
 Izabrati mod održavanja
 
-{t}Sync4j remote delete items{/t}
+** Sync4j remote delete items
 Sync4j remote brisanje polja
 
-{t}Syntax{/t}
+** Syntax
 Sintaksa
 
-{t}System{/t}
+** System
 System
 
-{t}System command executed: %s{/t}
+** System command executed: %s
 Systemsku naredbu izvršiti: %s
 
-{t}Tab{/t}
+** Tab
 
 
-{t}Table{/t}
+** Table
 Tablica
 
-{t}Table sizes{/t}
+** Table sizes
 Veličina tablice
 
-{t}Table status{/t}
+** Table status
 Status tablice
 
-{t}Tables{/t}
+** Tables
 Tablice
 
-{t}Take over{/t}
+** Take over
 uzmi preko
 
-{t}Take selection{/t}
+** Take selection
 Uzmi odabir
 
-{t}Task{/t}
+** Task
 
 
-{t}Task with ID %s{/t}
+** Task with ID %s
 Uzmi sa ID %s
 
-{t}Tasks{/t}
+** Tasks
 Zadaci
 
-{t}Tasks with responsible %s{/t}
+** Tasks with responsible %s
 Zadaci sa odgovornim %s
 
-{t}Template{/t}
+** Template
 Predložak
 
-{t}Templates{/t}
+** Templates
 Predlošci
 
-{t}Temporary work{/t}
+** Temporary work
 
 
-{t}term{/t}
+** term
 pojam
 
-{t}Text area{/t}
+** Text area
 Tekstualno područje
 
-{t}Text Document{/t}
+** Text Document
 Textualni dokument
 
-{t}Text formatting rules{/t}
+** Text formatting rules
 Pravila formatiranja teksta
 
-{t}Th{/t}
+** Th
 Če
 
-{t}Thanks for voting!{/t}
+** Thanks for voting!
 Hvala na glasovanju!
 
-{t}The folder cannot be copied.{/t}
+** The folder cannot be copied.
 Mapa ne mogu kopirati.
 
-{t}The folder cannot be deleted.{/t}
+** The folder cannot be deleted.
 Mape ne mogu izbristi.
 
-{t}The folder cannot be moved.{/t}
+** The folder cannot be moved.
 mape ne mogu premjestiti.
 
-{t}The new password is{/t}
+** The new password is
 Nova lozinka je
 
-{t}The url doesn't exist.{/t}
+** The url doesn't exist.
 URL ne postoji.
 
-{t}Theme{/t}
+** Theme
 Tema
 
-{t}third level support{/t}
+** third level support
 treći nivo podrške
 
-{t}this file extension is not allowed{/t}
+** this file extension is not allowed
 nije dozvoljen taj nastavak datoteke
 
-{t}Thu{/t}
+** Thu
 če
 
-{t}Thursday{/t}
+** Thursday
 Četvrtak
 
-{t}Time and expenses{/t}
+** Time and expenses
 Vrijeme i rashodi
 
-{t}Time limit{/t}
+** Time limit
 
 
-{t}Time sheets{/t}
+** Time sheets
 Vrijeme listova
 
-{t}Time zone{/t}
+** Time zone
 Vremenska zona
 
-{t}timeout{/t}
+** timeout
 vrijeme završetka
 
-{t}Title{/t}
+** Title
 Naslov
 
-{t}To{/t}
+** To
 Kome
 
-{t}to be checked{/t}
+** to be checked
 mora se provjeriti
 
-{t}To continue installing Simple Groupware you must check the box under the license{/t}
+** To continue installing Simple Groupware you must check the box under the license
 Za nastavak instalacije morate prihvatiti licencu.
 
-{t}Today{/t}
+** Today
 Danas
 
-{t}Too many wrong logins. Please wait 15 minutes.{/t}
+** Too many wrong logins. Please wait 15 minutes.
 Previše pogrešnih prijava. Pričekajte 15 minuta.
 
-{t}Total{/t}
+** Total
 Ukupno
 
-{t}Trace{/t}
+** Trace
 Slijediti
 
-{t}Trade fair{/t}
+** Trade fair
 Trh
 
-{t}translations{/t}
+** translations
 prijevod
 
-{t}Translations of the GNU GPL{/t}
+** Translations of the GNU GPL
 Prevod za GNU GPL
 
-{t}Transportation costs{/t}
+** Transportation costs
 Transportni troškovi
 
-{t}Trash{/t}
+** Trash
 Smeće
 
-{t}Trash folder not found.{/t}
+** Trash folder not found.
 Nema mape za smeće.
 
-{t}Tree{/t}
+** Tree
 Stablo
 
-{t}Trigger failed{/t}
+** Trigger failed
 Okidač (trigger) pogrešan
 
-{t}Tu{/t}
+** Tu
 Ut
 
-{t}Tue{/t}
+** Tue
 Uto
 
-{t}Tuesday{/t}
+** Tuesday
 Utorak
 
-{t}Type{/t}
+** Type
 Tip
 
-{t}U n i n s t a l l{/t}
+** U n i n s t a l l
 D e i n s t a l i r a t i
 
-{t}unable to find %s{/t}
+** unable to find %s
 Ne mogu pronaći %s
 
-{t}Unable to write to %s{/t}
+** Unable to write to %s
 Ne mogu pisati na %s
 
-{t}unconfirmed{/t}
+** unconfirmed
 nepotvrđen
 
-{t}Unconfirmed{/t}
+** Unconfirmed
 nepotvrđen
 
-{t}underline{/t}
+** underline
 podcrtati
 
-{t}Uninstall does not delete any data in the database.{/t}
+** Uninstall does not delete any data in the database.
 Deinstalacija nije izbrisala sve podatke u bazi podataka.
 
-{t}uninterested{/t}
+** uninterested
 nezainteresirani
 
-{t}Unique{/t}
+** Unique
 
 
-{t}Unique with trash{/t}
+** Unique with trash
 
 
-{t}Unlock{/t}
+** Unlock
 Otključano
 
-{t}Up{/t}
+** Up
 Gore
 
-{t}Update{/t}
+** Update
 Nadograditi
 
-{t}Update Simple Groupware{/t}
+** Update Simple Groupware
 Nadograditi Simple Groupware
 
-{t}Updated{/t}
+** Updated
 Ažurirano
 
-{t}Updating schema %s from %s.{/t}
+** Updating schema %s from %s.
 Schema nadogradnje %s za %s.
 
-{t}Upload failed{/t}
+** Upload failed
 Učitavanje prekinuto
 
-{t}Uploaded files{/t}
+** Uploaded files
 Nadograđene datoteke
 
-{t}Uploading{/t}
+** Uploading
 Učitavanje
 
-{t}urgent{/t}
+** urgent
 hitno
 
-{t}URL{/t}
+** URL
 URL
 
-{t}Usage{/t}
+** Usage
 Upotreba
 
-{t}USD{/t}
+** USD
 Dolar (USD)
 
-{t}Use APC for session storage{/t}
+** Use APC for session storage
 
 
-{t}Use Debian binaries (Warning: not latest versions){/t}
+** Use Debian binaries (Warning: not latest versions)
 Upotrijebite Debiana binaries (Pažnja: ne zadnju verziju)
 
-{t}Use LDAP Groups{/t}
+** Use LDAP Groups
 Koristiti LDAP grupe
 
-{t}use mirror from{/t}
+** use mirror from
 koristiti zrcalne iz
 
-{t}Use syslog() function for logging events{/t}
+** Use syslog() function for logging events
 Koristiti syslog() funkcije za logiranje događanja
 
-{t}Use the mail() function for sending mails (insecure){/t}
+** Use the mail() function for sending mails (insecure)
 Upotrebite e_mail() funkcije za slanje e-mailu
 
-{t}User{/t}
+** User
 Korisnik
 
-{t}User not found.{/t}
+** User not found.
 Korisnik nije pronađen.
 
-{t}Username{/t}
+** Username
 korisničko ime
 
-{t}Username must be different from the super administrator.{/t}
+** Username must be different from the super administrator.
 Ime prijave mora biti drukčije od administratora.
 
-{t}Users{/t}
+** Users
 Korisnik
 
-{t}V a l i d a t e{/t}
+** V a l i d a t e
 
 
-{t}V o t e !{/t}
+** V o t e !
 G l a s
 
-{t}Vacation{/t}
+** Vacation
 Praznici
 
-{t}Vacation days per year{/t}
+** Vacation days per year
 
 
-{t}Validating %s ...{/t}
+** Validating %s ...
 
 
-{t}validation failed{/t}
+** validation failed
 Pogreška kod provjere valjanosti
 
-{t}Value{/t}
+** Value
 Vrijednost
 
-{t}Value '%s' needs a group membership: %s{/t}
+** Value '%s' needs a group membership: %s
 Vrijednost %s treba članstvo u grupi: %s
 
-{t}Variable{/t}
+** Variable
 Promjenjiva
 
-{t}Variable already exists in table. (%s){/t}
+** Variable already exists in table. (%s)
 Promjenjiva već postoji u tablici. (%s)
 
-{t}Variable must be of type date (mm/dd/yyyy).{/t}
+** Variable must be of type date (mm/dd/yyyy).
 Promjenjiva mora biti tipa datumu (dd.mm.YYYY).
 
-{t}Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).{/t}
+** Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).
 Promjenjiva mora biti tipa datum vrijeme (dd.mm.YYYY HH:mm).
 
-{t}Variable must be of type float.{/t}
+** Variable must be of type float.
 Promjenjiva mora biti tipa float.
 
-{t}Variable must be of type int and greater than 0.{/t}
+** Variable must be of type int and greater than 0.
 Promjenjiva mora biti tip int i veča od 0.
 
-{t}Variable must be of type int.{/t}
+** Variable must be of type int.
 Promjenjiva mora biti tipa int.
 
-{t}Variable must be of type time (hh:mm am/pm).{/t}
+** Variable must be of type time (hh:mm am/pm).
 Promjenjiva mora biti tipa (HH:mm).
 
-{t}Variables{/t}
+** Variables
 Promjenjive
 
-{t}Verbal recommendation{/t}
+** Verbal recommendation
 Preporućeno
 
-{t}verified{/t}
+** verified
 Kontrolirano
 
-{t}vertical{/t}
+** vertical
 okomito
 
-{t}very promising{/t}
+** very promising
 vrlo izgledno
 
-{t}View{/t}
+** View
 Pogled
 
-{t}View access (groups){/t}
+** View access (groups)
 Priakži pristup (grupe)
 
-{t}View access (users){/t}
+** View access (users)
 Prikaži pristup (korisnici)
 
-{t}Virus scanner{/t}
+** Virus scanner
 Virus scanner
 
-{t}Visibility{/t}
+** Visibility
 
 
-{t}Voice mail{/t}
+** Voice mail
 Glasovna poruka
 
-{t}Vote{/t}
+** Vote
 Glasujte
 
-{t}Voted by{/t}
+** Voted by
 Glasujte za
 
-{t}Waiting{/t}
+** Waiting
 Čekaj
 
-{t}Warning{/t}
+** Warning
 Upozorenje
 
-{t}We{/t}
+** We
 Sr
 
-{t}Web{/t}
+** Web
 Web
 
-{t}Web page{/t}
+** Web page
 
 
-{t}Wed{/t}
+** Wed
 Sri
 
-{t}Wednesday{/t}
+** Wednesday
 Drijeda
 
-{t}Week{/t}
+** Week
 Tjedan
 
-{t}Week start{/t}
+** Week start
 Početak tjedna
 
-{t}Weekend{/t}
+** Weekend
 Kraj tjedna
 
-{t}weekly{/t}
+** weekly
 tjedno
 
-{t}weeks{/t}
+** weeks
 tjedan
 
-{t}Welcome to Simple Groupware!{/t}
+** Welcome to Simple Groupware!
 Dobrodošli u Simple Groupware!
 
-{t}white{/t}
+** white
 bijela
 
-{t}widowed{/t}
+** widowed
 napuštena
 
-{t}Width{/t}
+** Width
 
 
-{t}Wiki{/t}
+** Wiki
 Wiki
 
-{t}WikiStyles{/t}
+** WikiStyles
 
 
-{t}won't fix{/t}
+** won't fix
 neće biti popravljeno
 
-{t}word{/t}
+** word
 riječi
 
-{t}Workflow{/t}
+** Workflow
 
 
-{t}Working student{/t}
+** Working student
 
 
-{t}works as expected{/t}
+** works as expected
 obveze i očekivanja
 
-{t}works for me{/t}
+** works for me
 prebacite za mene(?)
 
-{t}Workshop{/t}
+** Workshop
 Radionica
 
-{t}Workspace{/t}
+** Workspace
 Radna površina
 
-{t}write access{/t}
+** write access
 pristup za pisanje
 
-{t}Write access (groups){/t}
+** Write access (groups)
 Prava pisanja (grupa)
 
-{t}Write access (users){/t}
+** Write access (users)
 Prava pisanja (korisnik)
 
-{t}Wrong database-version (%s). Please use at least %s !{/t}
+** Wrong database-version (%s). Please use at least %s !
 Pogrešna verzija databaze (%s). Molimo upotrebije kao posljednju %s!
 
-{t}wrong directory{/t}
+** wrong directory
 pogrešna adresa
 
-{t}wrong password{/t}
+** wrong password
 pogrešna lozinka
 
-{t}Year{/t}
+** Year
 Godina
 
-{t}yearly{/t}
+** yearly
 godišnje
 
-{t}years{/t}
+** years
 
 
-{t}yellow{/t}
+** yellow
 žuta
 
-{t}yes{/t}
+** yes
 da
 
-{t}You are not allowed to view this folder.{/t}
+** You are not allowed to view this folder.
 Niste ovlašteni da pregledate ove datoteke.
 
-{t}Your message was read on %s.{/t}
+** Your message was read on %s.
 Vaša poruka je pročitana u %s.
 
-{t}Your session has timed out.{/t}
+** Your session has timed out.
 Vaša sesija je istekla.
 
-{t}Zipcode{/t}
+** Zipcode
 Poštanski broj
 
-{t}{0} - {1} of {2}{/t}
+** {0} - {1} of {2}
 {0} - {1} od {2}
 

@@ -3,3534 +3,3534 @@
  * @license GPLv2
  */
 
-{t}!_Copyright_Language_File{/t}
+** !_Copyright_Language_File
 Copyright (C) 2008 SSSIE Ecocentre
 
-{t}!_Language{/t}
+** !_Language
 Український / Ukrainian
 
-{t}%s is not activated{/t}
+** %s is not activated
 %s не активований
 
-{t}%s is not compiled / loaded into PHP.{/t}
+** %s is not compiled / loaded into PHP.
 %s не скомпилирований / не завантажений в PHP.
 
-{t}%s M memory usage{/t}
+** %s M memory usage
 
 
-{t}%s not in database{/t}
+** %s not in database
 %s не є базой даних
 
-{t}%s rows affected{/t}
+** %s rows affected
 %s рядків задіяно
 
-{t}%s secs{/t}
+** %s secs
 %s сек.
 
-{t}%s started editing this asset at %s{/t}
+** %s started editing this asset at %s
 %s розпочав редактирувати цей розділ в %s
 
-{t}(for active directory username must be: username@domain){/t}
+** (for active directory username must be: username@domain)
 (для LDAP ім’я повинно бути у вигляді username@domain)
 
-{t}(un)Group{/t}
+** (un)Group
 (Раз)Згрупувати
 
-{t}About{/t}
+** About
 Про програму
 
-{t}Absence{/t}
+** Absence
 
 
-{t}accepted{/t}
+** accepted
 прийнято
 
-{t}Access denied.{/t}
+** Access denied.
 Доступ заборонено.
 
-{t}Access to this file has been denied.{/t}
+** Access to this file has been denied.
 Доступ до файлу заборонено.
 
-{t}Account{/t}
+** Account
 Обліковий запис
 
-{t}account of %s has expired{/t}
+** account of %s has expired
 Обліковий запис %s застарілий
 
-{t}Accounting{/t}
+** Accounting
 Обліковування
 
-{t}Activate{/t}
+** Activate
 
 
-{t}Activated{/t}
+** Activated
 Активований
 
-{t}active{/t}
+** active
 
 
-{t}Active{/t}
+** Active
 Активний
 
-{t}Ad{/t}
+** Ad
 Від
 
-{t}Add{/t}
+** Add
 Додати
 
-{t}Add a special rule{/t}
+** Add a special rule
 
 
-{t}Add to offline folders{/t}
+** Add to offline folders
 Додати до offline каталогу
 
-{t}added line{/t}
+** added line
 запис добавлено
 
-{t}Address{/t}
+** Address
 Адреса
 
-{t}admin access{/t}
+** admin access
 admin доступ
 
-{t}Admin access (groups){/t}
+** Admin access (groups)
 Адміністративний доступ (групи)
 
-{t}Admin access (users){/t}
+** Admin access (users)
 Адміністративний доступ (користувачі)
 
-{t}Admin Password{/t}
+** Admin Password
 Пароль адміністратора
 
-{t}Admin Username{/t}
+** Admin Username
 Ім’я адміністратора
 
-{t}Administration{/t}
+** Administration
 Адміністрування
 
-{t}Advanced tables{/t}
+** Advanced tables
 Просунуті таблиці
 
-{t}Affected user{/t}
+** Affected user
 Affected user
 
-{t}Affiliate{/t}
+** Affiliate
 Додати
 
-{t}after{/t}
+** after
 після
 
-{t}Agent{/t}
+** Agent
 Агент
 
-{t}Ajax Error{/t}
+** Ajax Error
 Ajax помилка
 
-{t}All{/t}
+** All
 Всі
 
-{t}All day{/t}
+** All day
 Всі дні
 
-{t}All events{/t}
+** All events
 Всі події
 
-{t}All finished tasks{/t}
+** All finished tasks
 
 
-{t}All pending tasks{/t}
+** All pending tasks
 
 
-{t}Allow custom values{/t}
+** Allow custom values
 
 
-{t}Allow disabled modules{/t}
+** Allow disabled modules
 
 
-{t}Already running latest release.{/t}
+** Already running latest release.
 Остання версія вже запущена.
 
-{t}Already voted.{/t}
+** Already voted.
 
 
-{t}Amount{/t}
+** Amount
 Кількість
 
-{t}Anchor{/t}
+** Anchor
 Якір
 
-{t}and{/t}
+** and
 і
 
-{t}Anniversary{/t}
+** Anniversary
 Річниця
 
-{t}another page{/t}
+** another page
 інша сторінка
 
-{t}answered{/t}
+** answered
 відповідь є
 
-{t}Answers{/t}
+** Answers
 
 
-{t}Apache based (.htaccess, Basic, Digest, etc.){/t}
+** Apache based (.htaccess, Basic, Digest, etc.)
 На основі Apache (.htaccess, Basic, Digest, etc.)
 
-{t}Application title{/t}
+** Application title
 Назва програми
 
-{t}Apply rights to subfolders{/t}
+** Apply rights to subfolders
 Примінити права к підкаталогам
 
-{t}Appointment{/t}
+** Appointment
 
 
-{t}Appointments{/t}
+** Appointments
 
 
-{t}Apprenticeship{/t}
+** Apprenticeship
 
 
-{t}Apr{/t}
+** Apr
 
 
-{t}April{/t}
+** April
 Квітень
 
-{t}Archive{/t}
+** Archive
 
 
-{t}Archive deleted files{/t}
+** Archive deleted files
 Архивні знищені файли
 
-{t}Asset{/t}
+** Asset
 
 
-{t}Asset marked as read-only.{/t}
+** Asset marked as read-only.
 Розділ відмічений як read-only.
 
-{t}Assets{/t}
+** Assets
 Розділи
 
-{t}Assets (children){/t}
+** Assets (children)
 Розділи (дочірні)
 
-{t}Assets can be imported into multiple folders by adding the "Folder" column.{/t}
+** Assets can be imported into multiple folders by adding the "Folder" column.
 
 
-{t}Assets can be overwritten by adding the "Id" column.{/t}
+** Assets can be overwritten by adding the "Id" column.
 
 
-{t}assigned{/t}
+** assigned
 прийнятий
 
-{t}at least 20 characters{/t}
+** at least 20 characters
 
 
-{t}attach file{/t}
+** attach file
 приєднай файл
 
-{t}Attachment{/t}
+** Attachment
 Вкладення
 
-{t}Attachments{/t}
+** Attachments
 Вкладення
 
-{t}Attend{/t}
+** Attend
 
 
-{t}Aug{/t}
+** Aug
 
 
-{t}August{/t}
+** August
 Серпень
 
-{t}Authentication Mode{/t}
+** Authentication Mode
 Режим авторизації
 
-{t}Author{/t}
+** Author
 Автор
 
-{t}Automatically hide the menu{/t}
+** Automatically hide the menu
 
 
-{t}Automatically hide the tree{/t}
+** Automatically hide the tree
 
 
-{t}Average{/t}
+** Average
 
 
-{t}Average progress{/t}
+** Average progress
 
 
-{t}Avg length{/t}
+** Avg length
 Середня довжина
 
-{t}Back{/t}
+** Back
 Назад
 
-{t}Backup{/t}
+** Backup
 Резервування
 
-{t}Backup current folder{/t}
+** Backup current folder
 Резервувати поточний каталог
 
-{t}Backups{/t}
+** Backups
 Резервні копії
 
-{t}Basic editing{/t}
+** Basic editing
 Базове редагування
 
-{t}before{/t}
+** before
 до того
 
-{t}Before{/t}
+** Before
 
 
-{t}Begin{/t}
+** Begin
 Початок
 
-{t}big{/t}
+** big
 великий
 
-{t}big text{/t}
+** big text
 великий текст
 
-{t}bigger{/t}
+** bigger
 більше
 
-{t}Billing address{/t}
+** Billing address
 Адреса рахунку
 
-{t}Birthday{/t}
+** Birthday
 День народження
 
-{t}Birthdays{/t}
+** Birthdays
 Дні народження
 
-{t}Blank{/t}
+** Blank
 Порожній
 
-{t}blue{/t}
+** blue
 блакитний
 
-{t}bold{/t}
+** bold
 жирний
 
-{t}bold italic{/t}
+** bold italic
 жирний курсив
 
-{t}Book{/t}
+** Book
 
 
-{t}booked{/t}
+** booked
 замовлений
 
-{t}Booked{/t}
+** Booked
 Замовлений
 
-{t}Booking number{/t}
+** Booking number
 Номер замовлення
 
-{t}Bookings{/t}
+** Bookings
 Портфель замовлень
 
-{t}Bookmark{/t}
+** Bookmark
 
 
-{t}Bookmarks{/t}
+** Bookmarks
 Закладки
 
-{t}borrowed{/t}
+** borrowed
 узятий у позику
 
-{t}Brand{/t}
+** Brand
 Бренд
 
-{t}Brands{/t}
+** Brands
 Бренди
 
-{t}Browser Compatibility{/t}
+** Browser Compatibility
 сумісність браузера
 
-{t}Browser not supported{/t}
+** Browser not supported
 Браузер не підтримується
 
-{t}Budget{/t}
+** Budget
 Бюджет
 
-{t}Bug{/t}
+** Bug
 Дефект
 
-{t}bulleted{/t}
+** bulleted
 bulleted
 
-{t}Business{/t}
+** Business
 Бізнес
 
-{t}C a n c e l{/t}
+** C a n c e l
 
 
-{t}C O N T I N U E{/t}
+** C O N T I N U E
 ПРОДОВЖИТИ
 
-{t}Cache output{/t}
+** Cache output
 Вихід кеша
 
-{t}Caches{/t}
+** Caches
 Кеши
 
-{t}Calendar{/t}
+** Calendar
 Календар
 
-{t}Cancel{/t}
+** Cancel
 
 
-{t}canceled{/t}
+** canceled
 Відмінений
 
-{t}Canceled{/t}
+** Canceled
 Відмінений
 
-{t}Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.{/t}
+** Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.
 Неможливо викликати proc_open. Убрати proc_open з disable_functions в php.ini та забороніти safe_mode.
 
-{t}Cannot connect to database %s on %s.{/t}
+** Cannot connect to database %s on %s.
 Неможливо з’єднатися з базою %s на %s.
 
-{t}Cannot create preview for %s{/t}
+** Cannot create preview for %s
 Неможливо утворити передперегляд для %s
 
-{t}Cannot read the file %s.{/t}
+** Cannot read the file %s.
 Неможливо прочитати файл %s.
 
-{t}Cardinality{/t}
+** Cardinality
 Множина
 
-{t}Categories{/t}
+** Categories
 Категорії
 
-{t}Category{/t}
+** Category
 Категорія
 
-{t}Cc{/t}
+** Cc
 Cc
 
-{t}centered{/t}
+** centered
 центровано
 
-{t}CEO{/t}
+** CEO
 CEO
 
-{t}Change request{/t}
+** Change request
 Змінити запит
 
-{t}Change settings{/t}
+** Change settings
 Змінити установки
 
-{t}Change Setup settings{/t}
+** Change Setup settings
 Змінити Setup установки
 
-{t}Change summary{/t}
+** Change summary
 Змінити підсумок
 
-{t}Changed{/t}
+** Changed
 
 
-{t}changed line{/t}
+** changed line
 змінено запис
 
-{t}Changelog{/t}
+** Changelog
 Лог змін
 
-{t}Chat{/t}
+** Chat
 Чат
 
-{t}Check DoS Attacks{/t}
+** Check DoS Attacks
 Перевірити атаку DoS
 
-{t}checked{/t}
+** checked
 перевірено
 
-{t}Checked{/t}
+** Checked
 Перевірено
 
-{t}Choices{/t}
+** Choices
 
 
-{t}CIO{/t}
+** CIO
 CIO
 
-{t}City{/t}
+** City
 Місто
 
-{t}Clean{/t}
+** Clean
 Відчистити
 
-{t}Clean Cache{/t}
+** Clean Cache
 Відчистити кеш
 
-{t}Clear{/t}
+** Clear
 Відчистити
 
-{t}Clear Cache{/t}
+** Clear Cache
 Відчистити кэш
 
-{t}Clear Data{/t}
+** Clear Data
 
 
-{t}Clear grouping{/t}
+** Clear grouping
 
 
-{t}Client{/t}
+** Client
 Клієнт
 
-{t}Close{/t}
+** Close
 Закрити
 
-{t}Close session{/t}
+** Close session
 Закрити сесію
 
-{t}closed{/t}
+** closed
 закрито
 
-{t}Closed{/t}
+** Closed
 Закрито
 
-{t}CMS{/t}
+** CMS
 CMS
 
-{t}CMS homepage title{/t}
+** CMS homepage title
 
 
-{t}Collapse text{/t}
+** Collapse text
 
 
-{t}Collapse tree{/t}
+** Collapse tree
 Згорнути дерево
 
-{t}Color{/t}
+** Color
 Колір
 
-{t}Column{/t}
+** Column
 
 
-{t}Column name{/t}
+** Column name
 Ім’я стовбчика
 
-{t}Combination{/t}
+** Combination
 
 
-{t}Comma{/t}
+** Comma
 
 
-{t}Comma separated values{/t}
+** Comma separated values
 
 
-{t}Command{/t}
+** Command
 Команда
 
-{t}Comment{/t}
+** Comment
 Коментарій
 
-{t}Comment files{/t}
+** Comment files
 Файл коментаря
 
-{t}Companies{/t}
+** Companies
 Компанії
 
-{t}Company{/t}
+** Company
 Компанія
 
-{t}Competition{/t}
+** Competition
 Конкуренція
 
-{t}Competitor{/t}
+** Competitor
 Конкурент
 
-{t}Complete{/t}
+** Complete
 
 
-{t}completed{/t}
+** completed
 
 
-{t}Completed{/t}
+** Completed
 Завершено.
 
-{t}Component{/t}
+** Component
 Компонент
 
-{t}Compress output{/t}
+** Compress output
 Стиснути висновок
 
-{t}Confirm{/t}
+** Confirm
 
 
-{t}confirmed{/t}
+** confirmed
 підтверджено
 
-{t}Connection error: %s [%s]{/t}
+** Connection error: %s [%s]
 
 
-{t}Connection to database failed.{/t}
+** Connection to database failed.
 Підключення до бази не вдалося.
 
-{t}Console{/t}
+** Console
 
 
-{t}Console scripts{/t}
+** Console scripts
 
 
-{t}Consultant{/t}
+** Consultant
 Консультант
 
-{t}Contact{/t}
+** Contact
 Контакт
 
-{t}Contact activities{/t}
+** Contact activities
 Активність контакту
 
-{t}Contact activity{/t}
+** Contact activity
 
 
-{t}Contact by{/t}
+** Contact by
 Контакт від
 
-{t}Contact groups{/t}
+** Contact groups
 Групи контактів
 
-{t}Contact id{/t}
+** Contact id
 Id контакту
 
-{t}Contact person{/t}
+** Contact person
 Персона контакту
 
-{t}Contact user by{/t}
+** Contact user by
 Контактуйте з користувачем через
 
-{t}Contacts{/t}
+** Contacts
 Контакти
 
-{t}contains{/t}
+** contains
 Включає
 
-{t}Content{/t}
+** Content
 вміст
 
-{t}Continue{/t}
+** Continue
 Продовжити
 
-{t}Contracts{/t}
+** Contracts
 
 
-{t}Copier{/t}
+** Copier
 Копір
 
-{t}Copy{/t}
+** Copy
 Копіювати
 
-{t}Cost center{/t}
+** Cost center
 Зведення цін
 
-{t}Costs of accommodation{/t}
+** Costs of accommodation
 Вартість проживання
 
-{t}Could not determine database-version.{/t}
+** Could not determine database-version.
 Неможливо визначити версію баз даних.
 
-{t}Country{/t}
+** Country
 Країна
 
-{t}Create new{/t}
+** Create new
 
 
-{t}Create new folder{/t}
+** Create new folder
 
 
-{t}Created{/t}
+** Created
 Утворене
 
-{t}Creating database failed.{/t}
+** Creating database failed.
 Не вдалося утворити базу даних
 
-{t}current path{/t}
+** current path
 поточний шлях
 
-{t}current time{/t}
+** current time
 
 
-{t}Curriculum vitae{/t}
+** Curriculum vitae
 Біографія
 
-{t}Custom schema{/t}
+** Custom schema
 
 
-{t}Customization rules\nfor modules based on sgsML{/t}
+** Customization rules\nfor modules based on sgsML
 
 
-{t}customizations{/t}
+** customizations
 налаштування
 
-{t}Customize{/t}
+** Customize
 
 
-{t}Cut{/t}
+** Cut
 Вирізувати
 
-{t}daily{/t}
+** daily
 щодня
 
-{t}Data{/t}
+** Data
 Дані
 
-{t}Data free{/t}
+** Data free
 Вільні дані
 
-{t}Data length{/t}
+** Data length
 Розмір даних
 
-{t}Database{/t}
+** Database
 База даних
 
-{t}Database Hostname / IP{/t}
+** Database Hostname / IP
 Database Hostname / IP
 
-{t}Database Name{/t}
+** Database Name
 Database Name
 
-{t}Database Password{/t}
+** Database Password
 Database Password
 
-{t}Database size{/t}
+** Database size
 
 
-{t}Database status{/t}
+** Database status
 Database status
 
-{t}Database type{/t}
+** Database type
 
 
-{t}Database User{/t}
+** Database User
 Database User
 
-{t}Database variables{/t}
+** Database variables
 Database variables
 
-{t}Date{/t}
+** Date
 Дата
 
-{t}Day{/t}
+** Day
 День
 
-{t}Day begin{/t}
+** Day begin
 Початок дня
 
-{t}Day end{/t}
+** Day end
 Кінець дня
 
-{t}days{/t}
+** days
 днів
 
-{t}Deactivate{/t}
+** Deactivate
 
 
-{t}Deadline{/t}
+** Deadline
 Кінцевий строк
 
-{t}Debug{/t}
+** Debug
 Наладка
 
-{t}Debug-dir{/t}
+** Debug-dir
 Debug-dir
 
-{t}Dec{/t}
+** Dec
 
 
-{t}December{/t}
+** December
 Грудень
 
-{t}Declining balance{/t}
+** Declining balance
 Пониження балансу
 
-{t}Default{/t}
+** Default
 за умовчанням
 
-{t}Default function{/t}
+** Default function
 
 
-{t}Default theme{/t}
+** Default theme
 Тема за умовчанням
 
-{t}Default values for assets{/t}
+** Default values for assets
 
 
-{t}definition for definition lists{/t}
+** definition for definition lists
 визначення до списку визначень
 
-{t}Degree{/t}
+** Degree
 ступінь
 
-{t}Delete{/t}
+** Delete
 Знищити
 
-{t}Delete incl subfolders{/t}
+** Delete incl subfolders
 Знищити с підкаталогами
 
-{t}deleted{/t}
+** deleted
 знищено
 
-{t}deleted line{/t}
+** deleted line
 запис знищено
 
-{t}Delivery{/t}
+** Delivery
 
 
-{t}Demand{/t}
+** Demand
 Запит
 
-{t}Demo{/t}
+** Demo
 Демо
 
-{t}Demonstration folder{/t}
+** Demonstration folder
 
 
-{t}Department{/t}
+** Department
 Відділ
 
-{t}Departments{/t}
+** Departments
 Відділи
 
-{t}Dependancies{/t}
+** Dependancies
 Залежності
 
-{t}Description{/t}
+** Description
 Опис
 
-{t}Description hint{/t}
+** Description hint
 
 
-{t}Description title{/t}
+** Description title
 
 
-{t}Description value{/t}
+** Description value
 
 
-{t}Desktop computer{/t}
+** Desktop computer
 Настільний комп’ютер
 
-{t}Details{/t}
+** Details
 Деталі
 
-{t}Device type{/t}
+** Device type
 Тип пристрою
 
-{t}Device types{/t}
+** Device types
 Типи пристроїв
 
-{t}Diagram{/t}
+** Diagram
 
 
-{t}directory does not exist.{/t}
+** directory does not exist.
 каталог не існує.
 
-{t}Directory is outside the allowed directory. (%s is outside %s){/t}
+** Directory is outside the allowed directory. (%s is outside %s)
 каталог не в допустимому каталозі. (%s вне %s)
 
-{t}disable{/t}
+** disable
 
 
-{t}Disable basic authentication{/t}
+** Disable basic authentication
 Заборонити основну автентифікацію
 
-{t}Disable cut-copy-paste{/t}
+** Disable cut-copy-paste
 
 
-{t}Disabled{/t}
+** Disabled
 
 
-{t}Disabled modules{/t}
+** Disabled modules
 
 
-{t}Display{/t}
+** Display
 Показати
 
-{t}display filter{/t}
+** display filter
 фільтр виводу
 
-{t}Displayname{/t}
+** Displayname
 
 
-{t}displays{/t}
+** displays
 displays
 
-{t}Distributor{/t}
+** Distributor
 Дистриб’ютор
 
-{t}Distributors{/t}
+** Distributors
 Дистриб’ютори
 
-{t}divorced{/t}
+** divorced
 розведений
 
-{t}Documentation{/t}
+** Documentation
 Документація
 
-{t}Documentation index{/t}
+** Documentation index
 Індекс документації
 
-{t}Domain{/t}
+** Domain
 Область
 
-{t}Don't attend{/t}
+** Don't attend
 
 
-{t}Don't move old files to 'old/'{/t}
+** Don't move old files to 'old/'
 
 
-{t}Down{/t}
+** Down
 Вниз
 
-{t}Download{/t}
+** Download
 Завантажити
 
-{t}Download example file{/t}
+** Download example file
 
 
-{t}Downloading extension list{/t}
+** Downloading extension list
 
 
-{t}Downloading update list{/t}
+** Downloading update list
 Список оновлення завантаження
 
-{t}Drag and drop files or URLs here.{/t}
+** Drag and drop files or URLs here.
 
 
-{t}duplicate{/t}
+** duplicate
 дублювати
 
-{t}Duration{/t}
+** Duration
 Тривалість
 
-{t}E-mail{/t}
+** E-mail
 E-mail
 
-{t}E-mail private{/t}
+** E-mail private
 Приватний E-mail
 
-{t}E-mail program{/t}
+** E-mail program
 E-mail програма
 
-{t}e.g.{/t}
+** e.g.
 напр.
 
-{t}Edit{/t}
+** Edit
 Редагувати
 
-{t}Edit as new{/t}
+** Edit as new
 Редагувати як новий
 
-{t}Edit rights{/t}
+** Edit rights
 Редагувати права
 
-{t}Editable if hidden in all views{/t}
+** Editable if hidden in all views
 
 
-{t}Editor{/t}
+** Editor
 Редактор
 
-{t}Emphasis{/t}
+** Emphasis
 Наголос
 
-{t}Empty{/t}
+** Empty
 Порожній
 
-{t}Empty folder{/t}
+** Empty folder
 Порожній каталог
 
-{t}en{/t}
+** en
 uk
 
-{t}Enable anonymous access{/t}
+** Enable anonymous access
 Дозволити гостьовий доступ
 
-{t}Enable anonymous CMS{/t}
+** Enable anonymous CMS
 Дозволити гостьовий CMS
 
-{t}Enable automatic user creation{/t}
+** Enable automatic user creation
 Дозволити автоматичне утворення користувачів
 
-{t}Enable external mail client for 'mailto:' links{/t}
+** Enable external mail client for 'mailto:' links
 Дозволити використовувати зовнішні почтові програми для mailto: посилань
 
-{t}Enable self registration{/t}
+** Enable self registration
 
 
-{t}Enable Sync4j / Funambol{/t}
+** Enable Sync4j / Funambol
 Дозволити Sync4j / Funambol
 
-{t}Enable WebDAV{/t}
+** Enable WebDAV
 
 
-{t}End{/t}
+** End
 Кінець
 
-{t}engaged{/t}
+** engaged
 зайнятий
 
-{t}equal{/t}
+** equal
 дорівнює
 
-{t}Error{/t}
+** Error
 Помилка
 
-{t}Error doing request to xmlhttp{/t}
+** Error doing request to xmlhttp
 Помилка запиту до xmlhttp
 
-{t}Error moving file{/t}
+** Error moving file
 Помилка переміщення файлу
 
-{t}Error pasting asset{/t}
+** Error pasting asset
 Помилка вставки розділу
 
-{t}Error: no credentials{/t}
+** Error: no credentials
 Помилка: нема мандату
 
-{t}Events{/t}
+** Events
 Події
 
-{t}Example{/t}
+** Example
 Приклад
 
-{t}Example contacts{/t}
+** Example contacts
 приклад контактів
 
-{t}Example surveys can be found at:{/t}
+** Example surveys can be found at:
 
 
-{t}Example without mountpoint{/t}
+** Example without mountpoint
 Приклад без монтування
 
-{t}Examples{/t}
+** Examples
 Приклади
 
-{t}Execute{/t}
+** Execute
 Виконати
 
-{t}Expenses{/t}
+** Expenses
 Висновки
 
-{t}Experimental{/t}
+** Experimental
 Експериментальний
 
-{t}Expires{/t}
+** Expires
 закінчилося
 
-{t}Expiry{/t}
+** Expiry
 Закінчення
 
-{t}Extended{/t}
+** Extended
 
 
-{t}Extensions{/t}
+** Extensions
 
 
-{t}Extracting files{/t}
+** Extracting files
 Виділення файлів
 
-{t}F j{/t}
+** F j
 j F
 
-{t}F j, Y{/t}
+** F j, Y
 j F, Y
 
-{t}Failed to create directory: %s{/t}
+** Failed to create directory: %s
 Не вдалося утворити каталог: %s
 
-{t}Failed to write file to disk.{/t}
+** Failed to write file to disk.
 Не вдалося записати файл на диск
 
-{t}Failed to write into %s{/t}
+** Failed to write into %s
 Не вдалося записати в %s
 
-{t}Family status{/t}
+** Family status
 Сімейне положення
 
-{t}FAQ{/t}
+** FAQ
 ЧАВО
 
-{t}Favorites{/t}
+** Favorites
 вибране
 
-{t}Fax{/t}
+** Fax
 Факс
 
-{t}Fax private{/t}
+** Fax private
 
 
-{t}Feature request{/t}
+** Feature request
 Запит нових можливостей
 
-{t}Feb{/t}
+** Feb
 
 
-{t}February{/t}
+** February
 Лютий
 
-{t}Feed{/t}
+** Feed
 
 
-{t}female{/t}
+** female
 жіночій
 
-{t}Field{/t}
+** Field
 Поле
 
-{t}Field contains value{/t}
+** Field contains value
 
 
-{t}Field customization{/t}
+** Field customization
 
 
-{t}Field is equal to value{/t}
+** Field is equal to value
 
 
-{t}Fields{/t}
+** Fields
 
 
-{t}File{/t}
+** File
 Файл
 
-{t}file is too big. Please change upload_max_filesize, post_max_size in your php.ini{/t}
+** file is too big. Please change upload_max_filesize, post_max_size in your php.ini
 файл занадто великий. Змініть upload_max_filesize, post_max_size у вашому php.ini
 
-{t}file is too big. Please upload a smaller one.{/t}
+** file is too big. Please upload a smaller one.
 файл занадто великий. Виберіть менший файл.
 
-{t}file not found in database.{/t}
+** file not found in database.
 файл не знайдений в базі даних.
 
-{t}file not found.{/t}
+** file not found.
 файл не знайдений.
 
-{t}file was uploaded partially.{/t}
+** file was uploaded partially.
 файл завантажений частково.
 
-{t}Filename must have the right extension. Valid extensions are %s{/t}
+** Filename must have the right extension. Valid extensions are %s
 Розширення файлу повинно бути вірним. Допустимі розширення %s
 
-{t}Files{/t}
+** Files
 Файли
 
-{t}Filesystem{/t}
+** Filesystem
 Файлова система
 
-{t}Filter{/t}
+** Filter
 Фільтр
 
-{t}Find assets in multiple folders{/t}
+** Find assets in multiple folders
 Знайти розділ у декількох каталогах
 
-{t}Finish scheduled{/t}
+** Finish scheduled
 Розклад завершено
 
-{t}Finished{/t}
+** Finished
 Завершено
 
-{t}First in list{/t}
+** First in list
 Перший у списку
 
-{t}first level support{/t}
+** first level support
 
 
-{t}First name{/t}
+** First name
 Ім’я
 
-{t}Fix paging bar to page bottom{/t}
+** Fix paging bar to page bottom
 
 
-{t}fixed{/t}
+** fixed
 улагоджено
 
-{t}Flags{/t}
+** Flags
 Прапорці
 
-{t}Flash plugin not installed.{/t}
+** Flash plugin not installed.
 
 
-{t}Folder{/t}
+** Folder
 Каталог
 
-{t}Folder already exists.{/t}
+** Folder already exists.
 Каталог вже існує.
 
-{t}Folder created.{/t}
+** Folder created.
 
 
-{t}Folder has changed.{/t}
+** Folder has changed.
 
 
-{t}Folder icon{/t}
+** Folder icon
 
 
-{t}Folder not found.{/t}
+** Folder not found.
 
 
-{t}Folder refresh period{/t}
+** Folder refresh period
 
 
-{t}Folder structure{/t}
+** Folder structure
 
 
-{t}Folder structure created.{/t}
+** Folder structure created.
 Створена структура каталогу.
 
-{t}Folder structure moved to trash.{/t}
+** Folder structure moved to trash.
 Структура каталогу переміщена у смітник.
 
-{t}Folder Type{/t}
+** Folder Type
 Тип каталогу
 
-{t}Folder with ID %s{/t}
+** Folder with ID %s
 
 
-{t}Folders{/t}
+** Folders
 Каталоги
 
-{t}for a new paragraph, use a blank line{/t}
+** for a new paragraph, use a blank line
 для нового абзацу, використовуйте порожній рядок
 
-{t}Force SSL{/t}
+** Force SSL
 Використати SSL
 
-{t}Form{/t}
+** Form
 
 
-{t}Forum{/t}
+** Forum
 Форум
 
-{t}Forward{/t}
+** Forward
 Вперед
 
-{t}Fr{/t}
+** Fr
 Пт
 
-{t}Free/busy{/t}
+** Free/busy
 Вільний/зайнятий
 
-{t}Freelance{/t}
+** Freelance
 
 
-{t}Fri{/t}
+** Fri
 Пят
 
-{t}Friday{/t}
+** Friday
 П’ятниця
 
-{t}From{/t}
+** From
 Від
 
-{t}Full screen{/t}
+** Full screen
 
 
-{t}Full texts{/t}
+** Full texts
 Повний текст
 
-{t}Full time{/t}
+** Full time
 
 
-{t}Full width{/t}
+** Full width
 На всю ширину
 
-{t}Fulltext index{/t}
+** Fulltext index
 
 
-{t}Funambol only works with MySQL and PostgreSQL.{/t}
+** Funambol only works with MySQL and PostgreSQL.
 Funambol працює лише з MySQL і PostgreSQL.
 
-{t}Function does not exist: %s{/t}
+** Function does not exist: %s
 Функція не існує: %s
 
-{t}g:i a{/t}
+** g:i a
 H:i
 
-{t}Gender{/t}
+** Gender
 Пол
 
-{t}General{/t}
+** General
 Загальний
 
-{t}Generate{/t}
+** Generate
 Генерувати
 
-{t}Gifts{/t}
+** Gifts
 Обдарованість
 
-{t}Give Feedback{/t}
+** Give Feedback
 Зворотній зв’язок
 
-{t}GNU GPL Frequently Asked Questions{/t}
+** GNU GPL Frequently Asked Questions
 GNU GPL Часті Запитання
 
-{t}greater than{/t}
+** greater than
 більше ніж
 
-{t}green{/t}
+** green
 зелений
 
-{t}Group{/t}
+** Group
 Група
 
-{t}Group created.{/t}
+** Group created.
 
 
-{t}Group deactivated.{/t}
+** Group deactivated.
 
 
-{t}Groupname{/t}
+** Groupname
 Ім’я групи
 
-{t}Groups{/t}
+** Groups
 Групи
 
-{t}hanging text{/t}
+** hanging text
 висячі рядки
 
-{t}Hardware{/t}
+** Hardware
 Апаратура
 
-{t}Headers{/t}
+** Headers
 Заголовки
 
-{t}heading{/t}
+** heading
 заголовок
 
-{t}headings{/t}
+** headings
 заголовки
 
-{t}Height{/t}
+** Height
 Висота
 
-{t}Help{/t}
+** Help
 Довідка
 
-{t}Helpdesk{/t}
+** Helpdesk
 Служба технічної підтримки
 
-{t}Hidden in{/t}
+** Hidden in
 
 
-{t}Hidden in all views{/t}
+** Hidden in all views
 
 
-{t}Hide{/t}
+** Hide
 
 
-{t}hide in all views{/t}
+** hide in all views
 
 
-{t}hide in this view{/t}
+** hide in this view
 
 
-{t}History{/t}
+** History
 Історія
 
-{t}Holiday{/t}
+** Holiday
 Свято
 
-{t}Home{/t}
+** Home
 Дім
 
-{t}Home folder id{/t}
+** Home folder id
 
 
-{t}Home page in the CMS{/t}
+** Home page in the CMS
 Домашня сторінка в CMS
 
-{t}Homepage{/t}
+** Homepage
 Домашня сторінка
 
-{t}horizontal line{/t}
+** horizontal line
 горизонтальна лінія
 
-{t}Host{/t}
+** Host
 Хост
 
-{t}Hosts{/t}
+** Hosts
 Хости
 
-{t}Hour{/t}
+** Hour
 
 
-{t}hours{/t}
+** hours
 Годин
 
-{t}Hours per week{/t}
+** Hours per week
 
 
-{t}HTML document{/t}
+** HTML document
 
 
-{t}HTML documents{/t}
+** HTML documents
 документ HTML
 
-{t}http://www.pmwiki.org/PmWiki/{/t}
+** http://www.pmwiki.org/PmWiki/
 http://www.pmwiki.org/PmWiki/
 
-{t}Human resources{/t}
+** Human resources
 
 
-{t}I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2{/t}
+** I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2
 Я приймаю GNU GENERAL PUBLIC LICENSE VERSION 2
 
-{t}I m p o r t{/t}
+** I m p o r t
 
 
-{t}I n s t a l l{/t}
+** I n s t a l l
 ВСТАНОВИТИ
 
-{t}Icon{/t}
+** Icon
 
 
-{t}Id{/t}
+** Id
 Ідентифікатор
 
-{t}Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
 Id повинен бути непустим, в нижньому регістрі, мінімум 3 и максимум 128 символів [a-z0-9_-@.].
 
-{t}Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].
 Id повинен бути непустим, мінімум 3 и максимум 128 символів [a-z0-9_@.].
 
-{t}Ideas{/t}
+** Ideas
 Ідеї
 
-{t}If empty, the SMTP connection from the module users will be used.{/t}
+** If empty, the SMTP connection from the module users will be used.
 Якщо пусто, буде використовуватись SMTP з’єднання модуля.
 
-{t}If file system permissions are ok, please check the configurations of %s if present.{/t}
+** If file system permissions are ok, please check the configurations of %s if present.
 
 
-{t}if not autodetected with namingContexts{/t}
+** if not autodetected with namingContexts
 якщо не визначилось с namingContexts
 
-{t}If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.{/t}
+** If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.
 
 
-{t}If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.{/t}
+** If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.
 Якщо ім’я користувача або пароль включає &quot;@&quot;, замініть їх на &quot;%%&quot;.
 
-{t}Illness{/t}
+** Illness
 
 
-{t}Im-/Export{/t}
+** Im-/Export
 Імпорт-Експорт
 
-{t}Image{/t}
+** Image
 Малюнок
 
-{t}Images{/t}
+** Images
 Зображення
 
-{t}Imap-error: %s{/t}
+** Imap-error: %s
 Помилка IMAP: %s
 
-{t}immediate{/t}
+** immediate
 Невідкладно
 
-{t}Import{/t}
+** Import
 Імпорт
 
-{t}In progress{/t}
+** In progress
 Виконується
 
-{t}in repair{/t}
+** in repair
 у відновленні
 
-{t}in stock{/t}
+** in stock
 в запасі
 
-{t}Inactive{/t}
+** Inactive
 Неактивний
 
-{t}Include in RSS feed{/t}
+** Include in RSS feed
 Include in RSS feed
 
-{t}Include page{/t}
+** Include page
 
 
-{t}indent text{/t}
+** indent text
 текст з відступом
 
-{t}Index{/t}
+** Index
 Індекс
 
-{t}Index length{/t}
+** Index length
 Довжина індексу
 
-{t}Index type{/t}
+** Index type
 Тип індексу
 
-{t}Indexes{/t}
+** Indexes
 Індекси
 
-{t}Industry{/t}
+** Industry
 Промисловість
 
-{t}Info{/t}
+** Info
 Інфо
 
-{t}inheritance to subfolders without default values{/t}
+** inheritance to subfolders without default values
 
 
-{t}Input field{/t}
+** Input field
 
 
-{t}Input field height{/t}
+** Input field height
 
 
-{t}Insert{/t}
+** Insert
 Вставити
 
-{t}inserted{/t}
+** inserted
 вставлено
 
-{t}Install default folder structure{/t}
+** Install default folder structure
 
 
-{t}Install demo folders{/t}
+** Install demo folders
 
 
-{t}Install minimal folder structure{/t}
+** Install minimal folder structure
 
 
-{t}installed{/t}
+** installed
 
 
-{t}insufficient folder rights{/t}
+** insufficient folder rights
 недостатні права для каталогу
 
-{t}Internal recommendation{/t}
+** Internal recommendation
 Внутрішня рекомендація
 
-{t}Intranet{/t}
+** Intranet
 
 
-{t}Intro{/t}
+** Intro
 Інтро
 
-{t}invalid{/t}
+** invalid
 недійсний
 
-{t}Invalid file extensions{/t}
+** Invalid file extensions
 
 
-{t}Invalid schema mode '%s'{/t}
+** Invalid schema mode '%s'
 
 
-{t}Invalid security token{/t}
+** Invalid security token
 
 
-{t}Inventory{/t}
+** Inventory
 Інвентар
 
-{t}Inventory number{/t}
+** Inventory number
 Інвентарній номер
 
-{t}Investor{/t}
+** Investor
 Інвестор
 
-{t}Invoice{/t}
+** Invoice
 Платіжка
 
-{t}italic{/t}
+** italic
 курсив
 
-{t}Item created by %s at %s{/t}
+** Item created by %s at %s
 Об’єкт утворений %s от %s
 
-{t}Item deleted by %s at %s{/t}
+** Item deleted by %s at %s
 Об’єкт знищений %s от %s
 
-{t}Item edited (%s) by %s at %s{/t}
+** Item edited (%s) by %s at %s
 Об’єкт (%s) відредагований %s от %s
 
-{t}Item not found.{/t}
+** Item not found.
 Об’єкт не знайдений
 
-{t}Item successfully created.{/t}
+** Item successfully created.
 Об’єкт успішно утворений.
 
-{t}Item successfully updated.{/t}
+** Item successfully updated.
 Об’єкт успішно змінено.
 
-{t}Item(s) not found or access denied.{/t}
+** Item(s) not found or access denied.
 Об’єкт(и) не знайдено або у доступі відмовлено.
 
-{t}Jan{/t}
+** Jan
 
 
-{t}January{/t}
+** January
 Січень
 
-{t}Job description{/t}
+** Job description
 Опис роботи
 
-{t}Join lines{/t}
+** Join lines
 Об’єднати рядки
 
-{t}Jul{/t}
+** Jul
 
 
-{t}July{/t}
+** July
 Липень
 
-{t}Jun{/t}
+** Jun
 
 
-{t}June{/t}
+** June
 Червень
 
-{t}Key{/t}
+** Key
 Ключ
 
-{t}Key customer{/t}
+** Key customer
 Ключовий заказник
 
-{t}Key name{/t}
+** Key name
 Ім’я ключа
 
-{t}Keywords{/t}
+** Keywords
 Ключові слова
 
-{t}Knowledge base{/t}
+** Knowledge base
 База знань
 
-{t}L o g i n{/t}
+** L o g i n
 ВХІД
 
-{t}l, F j, Y{/t}
+** l, F j, Y
 l, j F, Y
 
-{t}Last access{/t}
+** Last access
 Останній доступ
 
-{t}Last name{/t}
+** Last name
 Прізвище
 
-{t}LDAP anonymous connection failed.{/t}
+** LDAP anonymous connection failed.
 LDAP гостьове з’єднання не вдалося
 
-{t}LDAP attribute for group memberships{/t}
+** LDAP attribute for group memberships
 LDAP атрибут членства у групі
 
-{t}LDAP attribute for rooms{/t}
+** LDAP attribute for rooms
 LDAP атрибут простору
 
-{t}LDAP attribute for usernames{/t}
+** LDAP attribute for usernames
 LDAP атрибут імен користувачів
 
-{t}LDAP connection to host %s failed.{/t}
+** LDAP connection to host %s failed.
 LDAP з’єднання з хостом %s не вдалося.
 
-{t}LDAP without anonymous access{/t}
+** LDAP without anonymous access
 LDAP без гостьового доступу
 
-{t}LDAP: no base DN given{/t}
+** LDAP: no base DN given
 LDAP: не заданий DN
 
-{t}LDAP: no UID given{/t}
+** LDAP: no UID given
 
 
-{t}Leave of absence{/t}
+** Leave of absence
 
 
-{t}less promising{/t}
+** less promising
 що менш обіцяє
 
-{t}lesser than{/t}
+** lesser than
 менше ніж
 
-{t}Letter{/t}
+** Letter
 Лист
 
-{t}Level{/t}
+** Level
 Рівень
 
-{t}License{/t}
+** License
 Ліцензія
 
-{t}line{/t}
+** line
 
 
-{t}Line break{/t}
+** Line break
 Розрив рядка
 
-{t}Link{/t}
+** Link
 Посилання
 
-{t}Link restricted{/t}
+** Link restricted
 Посилання обмежено
 
-{t}link text{/t}
+** link text
 посилання на текст
 
-{t}link to external page{/t}
+** link to external page
 посилання на зовнішню сторінку
 
-{t}link to internal page{/t}
+** link to internal page
 посилання на внутрішню сторінку
 
-{t}Links{/t}
+** Links
 Посилання
 
-{t}Lists{/t}
+** Lists
 Списки
 
-{t}Load external images{/t}
+** Load external images
 
 
-{t}Location{/t}
+** Location
 Розташування
 
-{t}Locations{/t}
+** Locations
 Розташування
 
-{t}Lock{/t}
+** Lock
 Блокувати
 
-{t}Locked by{/t}
+** Locked by
 Заблоковано
 
-{t}Locking{/t}
+** Locking
 Блокування
 
-{t}login %s from %s with %s{/t}
+** login %s from %s with %s
 вхід %s с %s с %s
 
-{t}Login failed from %s.{/t}
+** Login failed from %s.
 Вхід невдалий с %s.
 
-{t}Login/-out{/t}
+** Login/-out
 Вхід/Вихід
 
-{t}Logins{/t}
+** Logins
 Сеанси
 
-{t}Logout{/t}
+** Logout
 
 
-{t}logout %s{/t}
+** logout %s
 вийшов %s
 
-{t}Lookup{/t}
+** Lookup
 Шукати
 
-{t}low{/t}
+** low
 низький
 
-{t}lowest{/t}
+** lowest
 самий низький
 
-{t}M j{/t}
+** M j
 j M
 
-{t}M j, g:i a{/t}
+** M j, g:i a
 j M H:i
 
-{t}M j, Y{/t}
+** M j, Y
 j M, Y
 
-{t}m/d/Y{/t}
+** m/d/Y
 d/m/Y
 
-{t}m/d/Y g:i a{/t}
+** m/d/Y g:i a
 d/m/Y H:i
 
-{t}m/d/y g:i:s a{/t}
+** m/d/y g:i:s a
 d/m/y H:i:s
 
-{t}magenta{/t}
+** magenta
 пурпурний
 
-{t}mail footer{/t}
+** mail footer
 підпис листа
 
-{t}Mail identities{/t}
+** Mail identities
 Списки розсилки
 
-{t}mail notification{/t}
+** mail notification
 почтове повідомлення
 
-{t}mail reminder{/t}
+** mail reminder
 почтове нагадування
 
-{t}Main menu{/t}
+** Main menu
 Головне меню
 
-{t}Main page{/t}
+** Main page
 
 
-{t}Maintenance mode{/t}
+** Maintenance mode
 Режим обслуговування
 
-{t}male{/t}
+** male
 чоловічий
 
-{t}Man-days{/t}
+** Man-days
 Людино-днів
 
-{t}Man-days planned{/t}
+** Man-days planned
 Людино-днів заплановано
 
-{t}Manage offline folders{/t}
+** Manage offline folders
 
 
-{t}Manager{/t}
+** Manager
 Менеджер
 
-{t}Manufacturer{/t}
+** Manufacturer
 Виробник
 
-{t}Mar{/t}
+** Mar
 
 
-{t}March{/t}
+** March
 Березень
 
-{t}Marketing event{/t}
+** Marketing event
 Продаж
 
-{t}married{/t}
+** married
 Одружений
 
-{t}Maximize{/t}
+** Maximize
 Розвернути
 
-{t}Maximum file size{/t}
+** Maximum file size
 
 
-{t}Maximum number of assets per page{/t}
+** Maximum number of assets per page
 
 
-{t}maximum number of files exceeded.{/t}
+** maximum number of files exceeded.
 перевищено максимальна кількість файлів
 
-{t}May{/t}
+** May
 Травень
 
-{t}Media{/t}
+** Media
 Медіа
 
-{t}Meeting{/t}
+** Meeting
 Зустріч
 
-{t}Members{/t}
+** Members
 Члени
 
-{t}Memory limit{/t}
+** Memory limit
 
 
-{t}Merge folders permanently{/t}
+** Merge folders permanently
 Приєднувати каталоги постійно
 
-{t}Merged folders{/t}
+** Merged folders
 Приєднані каталоги
 
-{t}Message{/t}
+** Message
 Повідомлення
 
-{t}Messages{/t}
+** Messages
 
 
-{t}Milestone{/t}
+** Milestone
 
 
-{t}min{/t}
+** min
 мін
 
-{t}Minimize{/t}
+** Minimize
 Звернути
 
-{t}minimum = 15 secs, 0 = disabled{/t}
+** minimum = 15 secs, 0 = disabled
 мінімум = 15 сек, 0 = заборонено
 
-{t}Miscellaneous{/t}
+** Miscellaneous
 Різне
 
-{t}missing a temporary folder.{/t}
+** missing a temporary folder.
 відсутній тимчасовий каталог.
 
-{t}missing field{/t}
+** missing field
 відсутнє поле
 
-{t}missing right: %s{/t}
+** missing right: %s
 відсутні права: %s
 
-{t}Mo{/t}
+** Mo
 Пн
 
-{t}Mobile{/t}
+** Mobile
 Мобільний
 
-{t}Model{/t}
+** Model
 Модель
 
-{t}Modified{/t}
+** Modified
 Змінений
 
-{t}Modified by{/t}
+** Modified by
 Modified by
 
-{t}Modifying database failed.{/t}
+** Modifying database failed.
 Змінення бази даних не вдалося.
 
-{t}Module{/t}
+** Module
 Модуль
 
-{t}Module disabled.{/t}
+** Module disabled.
 
 
-{t}Modules{/t}
+** Modules
 Модулі
 
-{t}Mon{/t}
+** Mon
 Пон
 
-{t}Monday{/t}
+** Monday
 Monday
 
-{t}monospace{/t}
+** monospace
 рівноширинний
 
-{t}Month{/t}
+** Month
 Місяць
 
-{t}monthly{/t}
+** monthly
 щомісячно
 
-{t}months{/t}
+** months
 місяців
 
-{t}More information about the GNU GPL{/t}
+** More information about the GNU GPL
 Детальніше про GNU GPL
 
-{t}Mountpoint{/t}
+** Mountpoint
 Монтування
 
-{t}Move{/t}
+** Move
 Перемістити
 
-{t}Move to subfolder 'Archive'{/t}
+** Move to subfolder 'Archive'
 
 
-{t}Multiple{/t}
+** Multiple
 
 
-{t}Multiple choice{/t}
+** Multiple choice
 
 
-{t}My appointments{/t}
+** My appointments
 Мої призначені зустрічі
 
-{t}My tasks{/t}
+** My tasks
 Мої завдання
 
-{t}Name{/t}
+** Name
 Ім’я
 
-{t}Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
 Ім’я повинно бути непустим, в нижньому регістрі, мінімум 3 и максимум 128 символів [a-z0-9_-@.].
 
-{t}Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].{/t}
+** Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].
 Ім’я повинно бути непустим, мінімум 3 и максимум 128 символів [a-zA-Z0-9-_.].
 
-{t}need feedback{/t}
+** need feedback
 потрібний зворотний зв’язок
 
-{t}Network{/t}
+** Network
 Мережа
 
-{t}Never expires{/t}
+** Never expires
 Ніколи не закінчується
 
-{t}New{/t}
+** New
 Новий
 
-{t}New folder{/t}
+** New folder
 Новий каталог
 
-{t}News{/t}
+** News
 Новини
 
-{t}Next recurrences{/t}
+** Next recurrences
 
 
-{t}Nickname{/t}
+** Nickname
 Видиме ім’я
 
-{t}Nightwork{/t}
+** Nightwork
 Нічна робота
 
-{t}no{/t}
+** no
 ні
 
-{t}No dataset selected.{/t}
+** No dataset selected.
 Дані не вибрані.
 
-{t}No entries found.{/t}
+** No entries found.
 Нічого не знайдено.
 
-{t}No file was uploaded{/t}
+** No file was uploaded
 
 
-{t}No line breaks{/t}
+** No line breaks
 
 
-{t}no result{/t}
+** no result
 нема результату
 
-{t}No search index{/t}
+** No search index
 
 
-{t}No sender specified.{/t}
+** No sender specified.
 Не заданий відправник
 
-{t}no username submitted{/t}
+** no username submitted
 не задано ім’я користувача
 
-{t}No username/password.{/t}
+** No username/password.
 
 
-{t}No wrap{/t}
+** No wrap
 
 
-{t}Non unique{/t}
+** Non unique
 Не унікальний
 
-{t}none{/t}
+** none
 нема
 
-{t}normal{/t}
+** normal
 нормальний
 
-{t}Not allowed. Please log in as super administrator.{/t}
+** Not allowed. Please log in as super administrator.
 Неможливо. Ввійдіть як адміністратор.
 
-{t}not contains{/t}
+** not contains
 не містить
 
-{t}not equal{/t}
+** not equal
 не рівний
 
-{t}Not in{/t}
+** Not in
 
 
-{t}Not in database{/t}
+** Not in database
 
 
-{t}not installed{/t}
+** not installed
 
 
-{t}Note{/t}
+** Note
 
 
-{t}Notebook{/t}
+** Notebook
 Записничок
 
-{t}Notes{/t}
+** Notes
 Примітки
 
-{t}Notificaiton sent to: %s{/t}
+** Notificaiton sent to: %s
 Повідомлення направлено до: %s
 
-{t}Notification{/t}
+** Notification
 сповіщення
 
-{t}Notification summary{/t}
+** Notification summary
 Підсумки повідомлень
 
-{t}Notifications{/t}
+** Notifications
 
 
-{t}Nov{/t}
+** Nov
 
 
-{t}November{/t}
+** November
 Листопад
 
-{t}Null{/t}
+** Null
 Недійсний
 
-{t}Number of employees{/t}
+** Number of employees
 Число робітників
 
-{t}numbered{/t}
+** numbered
 нумерований
 
-{t}Objectives{/t}
+** Objectives
 Целі
 
-{t}Oct{/t}
+** Oct
 
 
-{t}October{/t}
+** October
 Жовтень
 
-{t}of {0}{/t}
+** of {0}
 
 
-{t}offer{/t}
+** offer
 
 
-{t}Offer{/t}
+** Offer
 
 
-{t}Office{/t}
+** Office
 Офіс
 
-{t}Office program{/t}
+** Office program
 Офісна програма
 
-{t}Offices{/t}
+** Offices
 Офіси
 
-{t}offline{/t}
+** offline
 не підключений
 
-{t}Offline folders{/t}
+** Offline folders
 Offline каталоги
 
-{t}Offline reading{/t}
+** Offline reading
 
 
-{t}Ok{/t}
+** Ok
 Ок
 
-{t}one of{/t}
+** one of
 
 
-{t}online{/t}
+** online
 підключений
 
-{t}Only for this folder{/t}
+** Only for this folder
 
 
-{t}Only in{/t}
+** Only in
 
 
-{t}open{/t}
+** open
 
 
-{t}Open{/t}
+** Open
 Відкрити
 
-{t}Operating system{/t}
+** Operating system
 Операційна система
 
-{t}Operation not allowed. (Data loss protection){/t}
+** Operation not allowed. (Data loss protection)
 Операція не допустима. (Захист від втрати даних)
 
-{t}Optimize Tables{/t}
+** Optimize Tables
 Оптимізувати таблиці
 
-{t}Options{/t}
+** Options
 Налаштування
 
-{t}or{/t}
+** or
 або
 
-{t}or higher{/t}
+** or higher
 або вище
 
-{t}orange{/t}
+** orange
 рудий
 
-{t}Order size{/t}
+** Order size
 Розмір замовлення
 
-{t}Organisation{/t}
+** Organisation
 Організація
 
-{t}Organizer{/t}
+** Organizer
 Організатор
 
-{t}Origin{/t}
+** Origin
 Джерело
 
-{t}Original message{/t}
+** Original message
 Початкове повідомлення
 
-{t}Other{/t}
+** Other
 Інший
 
-{t}out of office{/t}
+** out of office
 поза офісом
 
-{t}Outline image{/t}
+** Outline image
 Контур малюнка
 
-{t}Output{/t}
+** Output
 Висновок
 
-{t}Output empty: %s{/t}
+** Output empty: %s
 
 
-{t}overlap{/t}
+** overlap
 перекриває
 
-{t}Overtime{/t}
+** Overtime
 Понаднормовий час
 
-{t}Overtime compensation per hour{/t}
+** Overtime compensation per hour
 
 
-{t}Owner{/t}
+** Owner
 Власник
 
-{t}Owner since{/t}
+** Owner since
 Власник с
 
-{t}Package from local file system (.tar.gz){/t}
+** Package from local file system (.tar.gz)
 Пакет з локальної файлової системи (.tar.gz)
 
-{t}Packed{/t}
+** Packed
 Запакований
 
-{t}Page{/t}
+** Page
 Сторінка
 
-{t}Page last modified on{/t}
+** Page last modified on
 
 
-{t}Page name (URL){/t}
+** Page name (URL)
 Ім’я сторінки (URL)
 
-{t}Page not found{/t}
+** Page not found
 Сторінка не знайдена
 
-{t}Page title{/t}
+** Page title
 Титул сторінки
 
-{t}Pager{/t}
+** Pager
 Пэйджер
 
-{t}Paid{/t}
+** Paid
 
 
-{t}Paid holidays{/t}
+** Paid holidays
 
 
-{t}Paragraphs{/t}
+** Paragraphs
 Абзаци
 
-{t}parameters{/t}
+** parameters
 параметри
 
-{t}Parameters{/t}
+** Parameters
 Параметри
 
-{t}Parent folder{/t}
+** Parent folder
 
 
-{t}Parsing{/t}
+** Parsing
 Парсінг
 
-{t}Part time{/t}
+** Part time
 
 
-{t}Participants{/t}
+** Participants
 Учасники
 
-{t}Participants (external){/t}
+** Participants (external)
 Учасники (зовнішнє)
 
-{t}Participants (internal){/t}
+** Participants (internal)
 Учасники (внутрішнє)
 
-{t}Password{/t}
+** Password
 Пароль
 
-{t}Password expired. (password of %s has expired){/t}
+** Password expired. (password of %s has expired)
 Строк дії пароля вийшов. (пароль %s застарілий)
 
-{t}Password expires{/t}
+** Password expires
 Строк дії пароля вийшов
 
-{t}Password must be not null, min 5 characters.{/t}
+** Password must be not null, min 5 characters.
 Пароль не повинен бути порожнім, и мінімум з 5 символів
 
-{t}password not confirmed.{/t}
+** password not confirmed.
 пароль не підтверджений
 
-{t}Passwords{/t}
+** Passwords
 Паролі
 
-{t}Paste{/t}
+** Paste
 Вставити
 
-{t}Path{/t}
+** Path
 Путь
 
-{t}Pause{/t}
+** Pause
 Пауза
 
-{t}Payroll{/t}
+** Payroll
 
 
-{t}Permissions{/t}
+** Permissions
 Дозвіл
 
-{t}Permissions added for: %s{/t}
+** Permissions added for: %s
 Дозволи додані до: %s
 
-{t}Personal{/t}
+** Personal
 Персональний
 
-{t}Personal department{/t}
+** Personal department
 Персональний відділ
 
-{t}Personal folders{/t}
+** Personal folders
 Персональні каталоги
 
-{t}Personal projects{/t}
+** Personal projects
 Персональні проекти
 
-{t}Phone{/t}
+** Phone
 Телефон
 
-{t}Phone calls{/t}
+** Phone calls
 Телефонні дзвінки
 
-{t}Phone private{/t}
+** Phone private
 Приватний телефон
 
-{t}Photo{/t}
+** Photo
 Фото
 
-{t}Photo gallery{/t}
+** Photo gallery
 Фотогалерея
 
-{t}Planned{/t}
+** Planned
 Заплановано
 
-{t}Please activate cookies.{/t}
+** Please activate cookies.
 Активуйте cookies.
 
-{t}Please choose Apache as Web-Server.{/t}
+** Please choose Apache as Web-Server.
 Виберіть Apache в якості Web-сервера.
 
-{t}Please enable Javascript in your browser.{/t}
+** Please enable Javascript in your browser.
 
 
-{t}Please enter a valid url.{/t}
+** Please enter a valid url.
 Введіть правильний url.
 
-{t}Please give read access to %s{/t}
+** Please give read access to %s
 Надайте доступ на читання до %s
 
-{t}Please give write access to %s{/t}
+** Please give write access to %s
 Дайте права на запис для %s
 
-{t}Please give write access to %s and %s{/t}
+** Please give write access to %s and %s
 Дайте права на запис для %s и %s
 
-{t}Please hit reload.{/t}
+** Please hit reload.
 Перезавантажить сторінку
 
-{t}Please input a valid e-mail adress.{/t}
+** Please input a valid e-mail adress.
 Введіть діючий e-mail
 
-{t}Please install 'tsearch2' for the PostgreSQL database.{/t}
+** Please install 'tsearch2' for the PostgreSQL database.
 Встановіть tsearch2 для PostgreSQL бази даних.
 
-{t}Please install the php-extension with name '%s'.{/t}
+** Please install the php-extension with name '%s'.
 
 
-{t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}
+** Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !
 Змініть ваш php.ini або додайте .htaccess файл с змінами %s на %s (поточне значення %s) !
 
-{t}Please read the following license agreement. Use the scroll bar to view the rest of this agreement.{/t}
+** Please read the following license agreement. Use the scroll bar to view the rest of this agreement.
 Прочитайте ліцензійне узгодження. Використовуйте смугу прокрутки для перегляду всієї угоди.
 
-{t}Please select a location.{/t}
+** Please select a location.
 
 
-{t}Please select a participant.{/t}
+** Please select a participant.
 Виберіть учасника.
 
-{t}Please upload again.{/t}
+** Please upload again.
 Завантажте знову.
 
-{t}Please wait ...{/t}
+** Please wait ...
 Зачекайте...
 
-{t}Pop3-error: %s{/t}
+** Pop3-error: %s
 Помилка POP3: %s
 
-{t}Port{/t}
+** Port
 Порт
 
-{t}Portal{/t}
+** Portal
 Портал
 
-{t}Position{/t}
+** Position
 Позиція
 
-{t}Positions{/t}
+** Positions
 Позиції
 
-{t}Post{/t}
+** Post
 Почтовий адрес
 
-{t}Practical training{/t}
+** Practical training
 
 
-{t}Preformatted block{/t}
+** Preformatted block
 Попередньо форматований блок
 
-{t}Prepend new field as{/t}
+** Prepend new field as
 
 
-{t}Prevent formatting{/t}
+** Prevent formatting
 Запобігти форматування
 
-{t}Preview{/t}
+** Preview
 Передперегляд
 
-{t}Price{/t}
+** Price
 Прайс
 
-{t}Primary key{/t}
+** Primary key
 
 
-{t}Print{/t}
+** Print
 Друк
 
-{t}Print all{/t}
+** Print all
 Друкувати все
 
-{t}Printer{/t}
+** Printer
 Принтер
 
-{t}Priority{/t}
+** Priority
 Пріоритет
 
-{t}Problem{/t}
+** Problem
 Проблема
 
-{t}Processes{/t}
+** Processes
 Процеси
 
-{t}Processing %s ...{/t}
+** Processing %s ...
 Обробка %s ...
 
-{t}Program is installed with language %s, please use a different url or run the setup again.{/t}
+** Program is installed with language %s, please use a different url or run the setup again.
 Програма встановлена з мовою %s, використайте інше url або запустіть установку заново.
 
-{t}Progress{/t}
+** Progress
 Прогрес
 
-{t}Project{/t}
+** Project
 Проект
 
-{t}Project files{/t}
+** Project files
 Файли проекту
 
-{t}Project tasks{/t}
+** Project tasks
 Задачі проекту
 
-{t}Projects{/t}
+** Projects
 Проекти
 
-{t}promising{/t}
+** promising
 обіцяючий
 
-{t}Properties{/t}
+** Properties
 Властивості
 
-{t}Prospective client{/t}
+** Prospective client
 Очікуваний клієнт
 
-{t}Public holiday{/t}
+** Public holiday
 
 
-{t}Purchased{/t}
+** Purchased
 Сплачено
 
-{t}Question{/t}
+** Question
 Питання
 
-{t}Queue{/t}
+** Queue
 Черга
 
-{t}Quick add{/t}
+** Quick add
 
 
-{t}Quota{/t}
+** Quota
 Квота
 
-{t}Quota (remaining){/t}
+** Quota (remaining)
 Квота (залишалась)
 
-{t}Quota [MB]{/t}
+** Quota [MB]
 Квота [MB]
 
-{t}Quota limitation exceeded: %s{/t}
+** Quota limitation exceeded: %s
 Перевищена квота: %s
 
-{t}R e g i s t e r{/t}
+** R e g i s t e r
 
 
-{t}Rating{/t}
+** Rating
 Рейтинг
 
-{t}Read{/t}
+** Read
 Читати
 
-{t}read access{/t}
+** read access
 права на читання
 
-{t}Read access (groups){/t}
+** Read access (groups)
 Права на читання (групи)
 
-{t}Read access (users){/t}
+** Read access (users)
 Права на читання (користувачі)
 
-{t}Read only in{/t}
+** Read only in
 
 
-{t}Read this page offline:{/t}
+** Read this page offline:
 
 
-{t}ready for repair{/t}
+** ready for repair
 готовий до відновлення
 
-{t}ready for scrap{/t}
+** ready for scrap
 готовий до знищення
 
-{t}Real URL format in the CMS{/t}
+** Real URL format in the CMS
 Реальний URL формат у CMS
 
-{t}Really apply rights to subfolders ?{/t}
+** Really apply rights to subfolders ?
 Дійсно примінити права до підкаталогів?
 
-{t}Really apply the changes ?{/t}
+** Really apply the changes ?
 
 
-{t}Really delete ?{/t}
+** Really delete ?
 Дійсно знищити?
 
-{t}REALLY delete ALL datasets ?{/t}
+** REALLY delete ALL datasets ?
 Дійсно знищити ВСІ дані?
 
-{t}Really delete ALL subfolders ?{/t}
+** Really delete ALL subfolders ?
 Дійсно знищити ВСІ підкаталоги?
 
-{t}Really delete the dataset(s) ?{/t}
+** Really delete the dataset(s) ?
 Дійсно знищити дані?
 
-{t}Really empty the folder ?{/t}
+** Really empty the folder ?
 Дійсно очистити каталог?
 
-{t}Really overwrite existing dataset(s) ?{/t}
+** Really overwrite existing dataset(s) ?
 Дійсно переписати існуючі дані?
 
-{t}Really run setup again ?{/t}
+** Really run setup again ?
 Дійсно запустити установку заново?
 
-{t}Really uninstall the module ?{/t}
+** Really uninstall the module ?
 
 
-{t}Rebuild search index{/t}
+** Rebuild search index
 Перестроїти індекси
 
-{t}Recent changes{/t}
+** Recent changes
 
 
-{t}Recipients{/t}
+** Recipients
 
 
-{t}Recommendation of affiliate{/t}
+** Recommendation of affiliate
 Рекомендації до прийому
 
-{t}Recurrence{/t}
+** Recurrence
 Повернення
 
-{t}Recurrences{/t}
+** Recurrences
 
 
-{t}red{/t}
+** red
 Червоний
 
-{t}Redirect to home directory{/t}
+** Redirect to home directory
 Перейти на домашній каталог
 
-{t}Reference{/t}
+** Reference
 
 
-{t}Refresh{/t}
+** Refresh
 
 
-{t}Refresh every x seconds{/t}
+** Refresh every x seconds
 Оновлювати кожних x секунд
 
-{t}Regular{/t}
+** Regular
 Регулярне
 
-{t}Reject{/t}
+** Reject
 
 
-{t}rejected{/t}
+** rejected
 відкинуто
 
-{t}Relative formats{/t}
+** Relative formats
 
 
-{t}Relaunch Setup{/t}
+** Relaunch Setup
 Перезапустити установку
 
-{t}Relevance{/t}
+** Relevance
 Доречність
 
-{t}Reminder{/t}
+** Reminder
 Нагадування
 
-{t}rename{/t}
+** rename
 
 
-{t}Rename folder{/t}
+** Rename folder
 Перейменувати каталог
 
-{t}Repeat count{/t}
+** Repeat count
 Кількість повторів
 
-{t}Repeat exclusions{/t}
+** Repeat exclusions
 Виключення повторів
 
-{t}Repeat interval{/t}
+** Repeat interval
 Інтервал повтору
 
-{t}Repeat until{/t}
+** Repeat until
 Повторяти до
 
-{t}Reply{/t}
+** Reply
 Відповісти
 
-{t}Reply all{/t}
+** Reply all
 Відповісти всім
 
-{t}Require admin access to set mountpoints{/t}
+** Require admin access to set mountpoints
 Вимагається admin доступ до mountpoints
 
-{t}Required{/t}
+** Required
 
 
-{t}Required fields{/t}
+** Required fields
 
 
-{t}Reseller{/t}
+** Reseller
 Реселлер
 
-{t}reserved{/t}
+** reserved
 зарезервовано
 
-{t}Reset view{/t}
+** Reset view
 Відновити вид
 
-{t}Resource{/t}
+** Resource
 Ресурс
 
-{t}Resources{/t}
+** Resources
 Ресурси
 
-{t}Responsible{/t}
+** Responsible
 Відповідальний
 
-{t}Responsible (external){/t}
+** Responsible (external)
 Відповідальний (зовнішній)
 
-{t}Responsible (internal){/t}
+** Responsible (internal)
 Відповідальний (внутрішній)
 
-{t}Restore complete{/t}
+** Restore complete
 Відновлення завершено
 
-{t}Restore here{/t}
+** Restore here
 Відновити тут
 
-{t}Restore only missing{/t}
+** Restore only missing
 Відновити тільки загублені
 
-{t}Restore only newer{/t}
+** Restore only newer
 Відновити тільки нові
 
-{t}Restore to origin{/t}
+** Restore to origin
 Відновити оригінал
 
-{t}Return receipt{/t}
+** Return receipt
 Повідомлення про вручення
 
-{t}right-aligned{/t}
+** right-aligned
 вирівняно праворуч
 
-{t}Rights{/t}
+** Rights
 Права
 
-{t}Risks{/t}
+** Risks
 
 
-{t}Room name{/t}
+** Room name
 Найменування приміщення
 
-{t}Room number{/t}
+** Room number
 Номер приміщення
 
-{t}Rooms{/t}
+** Rooms
 Приміщення
 
-{t}Rows{/t}
+** Rows
 Строки
 
-{t}Run Setup again{/t}
+** Run Setup again
 Запустіть установку заново
 
-{t}S a v e{/t}
+** S a v e
 ЗБЕРЕГТИ
 
-{t}S a v e  a n d  E d i t{/t}
+** S a v e  a n d  E d i t
 
 
-{t}S a v e  a n d  g o  b a c k{/t}
+** S a v e  a n d  g o  b a c k
 Зберегти і повернутися
 
-{t}Sa{/t}
+** Sa
 Сб
 
-{t}Salary{/t}
+** Salary
 
 
-{t}Salary per{/t}
+** Salary per
 
 
-{t}Sales promotion{/t}
+** Sales promotion
 Рух продаж
 
-{t}Sat{/t}
+** Sat
 Суб
 
-{t}Saturday{/t}
+** Saturday
 Субота
 
-{t}Scheduling{/t}
+** Scheduling
 Складання розкладу
 
-{t}Schema{/t}
+** Schema
 Схема
 
-{t}Schema data{/t}
+** Schema data
 Дані схеми
 
-{t}Schemafile not found. (%s){/t}
+** Schemafile not found. (%s)
 Файл схеми не знайдено. (%s)
 
-{t}School{/t}
+** School
 
 
-{t}scrapped{/t}
+** scrapped
 зламано
 
-{t}Search{/t}
+** Search
 Пошук
 
-{t}Search by ID{/t}
+** Search by ID
 
 
-{t}second level support{/t}
+** second level support
 
 
-{t}Second manager{/t}
+** Second manager
 Другий менеджер
 
-{t}seconds{/t}
+** seconds
 
 
-{t}Secretary{/t}
+** Secretary
 Секретар
 
-{t}Self registration{/t}
+** Self registration
 Самореєстрація
 
-{t}Self registration needs confirmation by an administrator.{/t}
+** Self registration needs confirmation by an administrator.
 
 
-{t}Send now{/t}
+** Send now
 
 
-{t}Sent{/t}
+** Sent
 
 
-{t}Sent reminders{/t}
+** Sent reminders
 Надіслане нагадування
 
-{t}Sep{/t}
+** Sep
 
 
-{t}Separate fields{/t}
+** Separate fields
 
 
-{t}Separate values{/t}
+** Separate values
 
 
-{t}Separator{/t}
+** Separator
 
 
-{t}Separators{/t}
+** Separators
 Розділитель
 
-{t}September{/t}
+** September
 Вересень
 
-{t}Serial number{/t}
+** Serial number
 Порядковий номер
 
-{t}Server{/t}
+** Server
 Сервер
 
-{t}Server does not support sorting{/t}
+** Server does not support sorting
 Сервер не підтримує сортування
 
-{t}Server-IP{/t}
+** Server-IP
 Сервер IP
 
-{t}Service provider{/t}
+** Service provider
 Поставщик послуг
 
-{t}Session name in cookie{/t}
+** Session name in cookie
 Ім’я сесії у cookie
 
-{t}Session timeout{/t}
+** Session timeout
 Таймаут сесії
 
-{t}Sessions{/t}
+** Sessions
 Сесії
 
-{t}Settings{/t}
+** Settings
 
 
-{t}Setup{/t}
+** Setup
 Установка
 
-{t}Setup needs a database-php-extension ! (%s){/t}
+** Setup needs a database-php-extension ! (%s)
 Установка потребує database-php-extension ! (%s)
 
-{t}Setup needs php with at least version %s !{/t}
+** Setup needs php with at least version %s !
 Установка потребує php версії не нижче %s !
 
-{t}Setup needs php-extension with name %s !{/t}
+** Setup needs php-extension with name %s !
 Установка потребує розширення php %s !
 
-{t}Setup needs Simple Groupware with at least version %s !{/t}
+** Setup needs Simple Groupware with at least version %s !
 
 
-{t}Setup: setup-data written to %s.{/t}
+** Setup: setup-data written to %s.
 Установка: дані записані в %s.
 
-{t}Shapes{/t}
+** Shapes
 Обриси
 
-{t}Share{/t}
+** Share
 Загальні ресурси
 
-{t}Shared{/t}
+** Shared
 
 
-{t}Short links{/t}
+** Short links
 
 
-{t}Show{/t}
+** Show
 Показати
 
-{t}Show all rules{/t}
+** Show all rules
 
 
-{t}Show archive{/t}
+** Show archive
 Показати архів
 
-{t}Show details{/t}
+** Show details
 
 
-{t}Show folder description in content area{/t}
+** Show folder description in content area
 
 
-{t}Show password{/t}
+** Show password
 
 
-{t}Show quoted text{/t}
+** Show quoted text
 Показати текст в лапках
 
-{t}Similar{/t}
+** Similar
 
 
-{t}Simple tables{/t}
+** Simple tables
 Прості таблиці
 
-{t}single{/t}
+** single
 одиночний
 
-{t}Single choice{/t}
+** Single choice
 
 
-{t}Size{/t}
+** Size
 Розмір
 
-{t}Size (children){/t}
+** Size (children)
 Розмір (потомки)
 
-{t}Slow{/t}
+** Slow
 Повільно
 
-{t}small{/t}
+** small
 малий
 
-{t}small text{/t}
+** small text
 малий текст
 
-{t}smaller{/t}
+** smaller
 менше
 
-{t}SMTP not configured for %s{/t}
+** SMTP not configured for %s
 SMTP не налаштований для %s
 
-{t}Smtp-error %s: %s{/t}
+** Smtp-error %s: %s
 Помилка SMTP: %s
 
-{t}Software{/t}
+** Software
 Програмне забезпечення
 
-{t}Solution{/t}
+** Solution
 Рішення
 
-{t}Solution type{/t}
+** Solution type
 Тип рішення
 
-{t}some text{/t}
+** some text
 
 
-{t}Source{/t}
+** Source
 
 
-{t}Source code{/t}
+** Source code
 Вихідний код
 
-{t}Special leave{/t}
+** Special leave
 
 
-{t}Specification{/t}
+** Specification
 Специфікація
 
-{t}Spreadsheet{/t}
+** Spreadsheet
 Електронна таблиця
 
-{t}SQL failed.{/t}
+** SQL failed.
 SQL не виконано.
 
-{t}SQL FAILED: %s{/t}
+** SQL FAILED: %s
 SQL НЕ ВИКОНАНО: %s
 
-{t}Start scheduled{/t}
+** Start scheduled
 Старт внесено в розклад
 
-{t}Started{/t}
+** Started
 Запущено
 
-{t}starts with{/t}
+** starts with
 починається з
 
-{t}State{/t}
+** State
 Регіон
 
-{t}Static cache{/t}
+** Static cache
 Статичний кеш
 
-{t}Statistics{/t}
+** Statistics
 Статистика
 
-{t}Status{/t}
+** Status
 Статус
 
-{t}Statuses{/t}
+** Statuses
 Статуси
 
-{t}Strategies{/t}
+** Strategies
 Стратегії
 
-{t}Street{/t}
+** Street
 Вулиця
 
-{t}Structure{/t}
+** Structure
 Структура
 
-{t}Su{/t}
+** Su
 Вс
 
-{t}Subfolder{/t}
+** Subfolder
 
 
-{t}Subfolders{/t}
+** Subfolders
 
 
-{t}subheading{/t}
+** subheading
 підзаголовки
 
-{t}Subitem{/t}
+** Subitem
 Підоб’єкт
 
-{t}Subject{/t}
+** Subject
 Тема
 
-{t}Subjects{/t}
+** Subjects
 Теми
 
-{t}Submit a patch{/t}
+** Submit a patch
 Вислати заплатку
 
-{t}Subpages{/t}
+** Subpages
 
 
-{t}subscript{/t}
+** subscript
 підрядковий
 
-{t}Subsistence costs{/t}
+** Subsistence costs
 Прожиткова вартість
 
-{t}Sum{/t}
+** Sum
 
 
-{t}Summary{/t}
+** Summary
 Підсумок
 
-{t}Sun{/t}
+** Sun
 Нед
 
-{t}Sunday{/t}
+** Sunday
 Неділя
 
-{t}Superior{/t}
+** Superior
 Начальник
 
-{t}superscript{/t}
+** superscript
 надрядковий
 
-{t}Supplier{/t}
+** Supplier
 Поставщик
 
-{t}Suppliers{/t}
+** Suppliers
 Поставщики
 
-{t}Support{/t}
+** Support
 Підтримка
 
-{t}Support request{/t}
+** Support request
 Запит на підтримку
 
-{t}Surveys{/t}
+** Surveys
 
 
-{t}Suspended{/t}
+** Suspended
 Призупинено
 
-{t}Switch maintenance mode{/t}
+** Switch maintenance mode
 Переключити режим обслуговування
 
-{t}Sync4j remote delete items{/t}
+** Sync4j remote delete items
 Sync4j віддалене знищення
 
-{t}Syntax{/t}
+** Syntax
 
 
-{t}System{/t}
+** System
 Система
 
-{t}System command executed: %s{/t}
+** System command executed: %s
 
 
-{t}Tab{/t}
+** Tab
 
 
-{t}Table{/t}
+** Table
 Таблиця
 
-{t}Table sizes{/t}
+** Table sizes
 Розмір таблиці
 
-{t}Table status{/t}
+** Table status
 Стан таблиці
 
-{t}Tables{/t}
+** Tables
 Таблиці
 
-{t}Take over{/t}
+** Take over
 
 
-{t}Take selection{/t}
+** Take selection
 
 
-{t}Task{/t}
+** Task
 
 
-{t}Task with ID %s{/t}
+** Task with ID %s
 
 
-{t}Tasks{/t}
+** Tasks
 Задача
 
-{t}Tasks with responsible %s{/t}
+** Tasks with responsible %s
 
 
-{t}Template{/t}
+** Template
 Шаблон
 
-{t}Templates{/t}
+** Templates
 Шаблони
 
-{t}Temporary work{/t}
+** Temporary work
 
 
-{t}term{/t}
+** term
 строк
 
-{t}Text area{/t}
+** Text area
 
 
-{t}Text Document{/t}
+** Text Document
 Текстовий документ
 
-{t}Text formatting rules{/t}
+** Text formatting rules
 Правила форматування тексту
 
-{t}Th{/t}
+** Th
 Чт
 
-{t}Thanks for voting!{/t}
+** Thanks for voting!
 
 
-{t}The folder cannot be copied.{/t}
+** The folder cannot be copied.
 
 
-{t}The folder cannot be deleted.{/t}
+** The folder cannot be deleted.
 Каталог на може бути знищений
 
-{t}The folder cannot be moved.{/t}
+** The folder cannot be moved.
 Каталог на може бути переміщений.
 
-{t}The new password is{/t}
+** The new password is
 Новий пароль є
 
-{t}The url doesn't exist.{/t}
+** The url doesn't exist.
 url не існує
 
-{t}Theme{/t}
+** Theme
 Оформлення
 
-{t}third level support{/t}
+** third level support
 
 
-{t}this file extension is not allowed{/t}
+** this file extension is not allowed
 дане розширення файлу недопустимо.
 
-{t}Thu{/t}
+** Thu
 Ні
 
-{t}Thursday{/t}
+** Thursday
 Четвер
 
-{t}Time and expenses{/t}
+** Time and expenses
 Час и затрати
 
-{t}Time limit{/t}
+** Time limit
 
 
-{t}Time sheets{/t}
+** Time sheets
 Табель
 
-{t}Time zone{/t}
+** Time zone
 Часовий пояс
 
-{t}timeout{/t}
+** timeout
 таймаут
 
-{t}Title{/t}
+** Title
 Заголовок
 
-{t}To{/t}
+** To
 Кому
 
-{t}to be checked{/t}
+** to be checked
 буде перевірено
 
-{t}To continue installing Simple Groupware you must check the box under the license{/t}
+** To continue installing Simple Groupware you must check the box under the license
 для продовження інсталяції Simple Groupware ви повинні встановити прапорець під ліцензією
 
-{t}Today{/t}
+** Today
 Сьогодні
 
-{t}Too many wrong logins. Please wait 15 minutes.{/t}
+** Too many wrong logins. Please wait 15 minutes.
 Занадто багато неправильних входжень. Чекайте 15 хвилин.
 
-{t}Total{/t}
+** Total
 Всього
 
-{t}Trace{/t}
+** Trace
 Слід
 
-{t}Trade fair{/t}
+** Trade fair
 Ярмарок
 
-{t}translations{/t}
+** translations
 переклади
 
-{t}Translations of the GNU GPL{/t}
+** Translations of the GNU GPL
 Переклади GNU GPL
 
-{t}Transportation costs{/t}
+** Transportation costs
 Вартіст транспортування
 
-{t}Trash{/t}
+** Trash
 Корзина
 
-{t}Trash folder not found.{/t}
+** Trash folder not found.
 Каталог-смітник не знайдено
 
-{t}Tree{/t}
+** Tree
 Дерево
 
-{t}Trigger failed{/t}
+** Trigger failed
 Переключення тригеру не вдалося
 
-{t}Tu{/t}
+** Tu
 Вв
 
-{t}Tue{/t}
+** Tue
 Ввт
 
-{t}Tuesday{/t}
+** Tuesday
 Вівторок
 
-{t}Type{/t}
+** Type
 Тип
 
-{t}U n i n s t a l l{/t}
+** U n i n s t a l l
 
 
-{t}unable to find %s{/t}
+** unable to find %s
 Неможливо знайти %s
 
-{t}Unable to write to %s{/t}
+** Unable to write to %s
 Неможливо записати в %s
 
-{t}unconfirmed{/t}
+** unconfirmed
 непідтверджено
 
-{t}Unconfirmed{/t}
+** Unconfirmed
 
 
-{t}underline{/t}
+** underline
 
 
-{t}Uninstall does not delete any data in the database.{/t}
+** Uninstall does not delete any data in the database.
 
 
-{t}uninterested{/t}
+** uninterested
 нецікавий
 
-{t}Unique{/t}
+** Unique
 
 
-{t}Unique with trash{/t}
+** Unique with trash
 
 
-{t}Unlock{/t}
+** Unlock
 Розблокувати
 
-{t}Up{/t}
+** Up
 Уверх
 
-{t}Update{/t}
+** Update
 Поновити
 
-{t}Update Simple Groupware{/t}
+** Update Simple Groupware
 Оновити Simple Groupware
 
-{t}Updated{/t}
+** Updated
 Поновлено
 
-{t}Updating schema %s from %s.{/t}
+** Updating schema %s from %s.
 Поновлення схеми %s з %s.
 
-{t}Upload failed{/t}
+** Upload failed
 Завантаження не вдалося
 
-{t}Uploaded files{/t}
+** Uploaded files
 Завантажені файли
 
-{t}Uploading{/t}
+** Uploading
 
 
-{t}urgent{/t}
+** urgent
 невідкладний
 
-{t}URL{/t}
+** URL
 URL
 
-{t}Usage{/t}
+** Usage
 Використання
 
-{t}USD{/t}
+** USD
 USD
 
-{t}Use APC for session storage{/t}
+** Use APC for session storage
 
 
-{t}Use Debian binaries (Warning: not latest versions){/t}
+** Use Debian binaries (Warning: not latest versions)
 Використання бінарні файли Debian (Попередження: не найновіші версії)
 
-{t}Use LDAP Groups{/t}
+** Use LDAP Groups
 Використати Групи LDAP
 
-{t}use mirror from{/t}
+** use mirror from
 
 
-{t}Use syslog() function for logging events{/t}
+** Use syslog() function for logging events
 
 
-{t}Use the mail() function for sending mails (insecure){/t}
+** Use the mail() function for sending mails (insecure)
 Використання функції mail() для відправки пошти (небезпечно)
 
-{t}User{/t}
+** User
 Використовувати
 
-{t}User not found.{/t}
+** User not found.
 
 
-{t}Username{/t}
+** Username
 Ім’я користувача
 
-{t}Username must be different from the super administrator.{/t}
+** Username must be different from the super administrator.
 Ім’я користувача не повинно співпадати з адміністратором.
 
-{t}Users{/t}
+** Users
 Користувачі
 
-{t}V a l i d a t e{/t}
+** V a l i d a t e
 
 
-{t}V o t e !{/t}
+** V o t e !
 
 
-{t}Vacation{/t}
+** Vacation
 Відпустка
 
-{t}Vacation days per year{/t}
+** Vacation days per year
 
 
-{t}Validating %s ...{/t}
+** Validating %s ...
 
 
-{t}validation failed{/t}
+** validation failed
 перевірка невдала
 
-{t}Value{/t}
+** Value
 Значення
 
-{t}Value '%s' needs a group membership: %s{/t}
+** Value '%s' needs a group membership: %s
 
 
-{t}Variable{/t}
+** Variable
 Змінна
 
-{t}Variable already exists in table. (%s){/t}
+** Variable already exists in table. (%s)
 Змінна уже існує в таблиці. (%s)
 
-{t}Variable must be of type date (mm/dd/yyyy).{/t}
+** Variable must be of type date (mm/dd/yyyy).
 Змінна повинна бути типу (дати (dd/mm/yyyy).
 
-{t}Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).{/t}
+** Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).
 Змінна повинна бути типу дати-часу (dd/mm/yyyy HH:mm).
 
-{t}Variable must be of type float.{/t}
+** Variable must be of type float.
 Змінна повинна бути дійсного типу.
 
-{t}Variable must be of type int and greater than 0.{/t}
+** Variable must be of type int and greater than 0.
 Змінна повинна бути цілого типу и більше 0.
 
-{t}Variable must be of type int.{/t}
+** Variable must be of type int.
 Змінна повинна бути цілого типу.
 
-{t}Variable must be of type time (hh:mm am/pm).{/t}
+** Variable must be of type time (hh:mm am/pm).
 Змінна повинна бути типу часу (hh:mm am/pm).
 
-{t}Variables{/t}
+** Variables
 Змінні
 
-{t}Verbal recommendation{/t}
+** Verbal recommendation
 усні рекомендації
 
-{t}verified{/t}
+** verified
 перевірений
 
-{t}vertical{/t}
+** vertical
 вертикальний
 
-{t}very promising{/t}
+** very promising
 багатообіцяючий
 
-{t}View{/t}
+** View
 
 
-{t}View access (groups){/t}
+** View access (groups)
 
 
-{t}View access (users){/t}
+** View access (users)
 
 
-{t}Virus scanner{/t}
+** Virus scanner
 Сканер вирусів
 
-{t}Visibility{/t}
+** Visibility
 
 
-{t}Voice mail{/t}
+** Voice mail
 Голосова пошта
 
-{t}Vote{/t}
+** Vote
 
 
-{t}Voted by{/t}
+** Voted by
 
 
-{t}Waiting{/t}
+** Waiting
 Очікування
 
-{t}Warning{/t}
+** Warning
 Попередження
 
-{t}We{/t}
+** We
 Ср
 
-{t}Web{/t}
+** Web
 Веб
 
-{t}Web page{/t}
+** Web page
 
 
-{t}Wed{/t}
+** Wed
 Сер
 
-{t}Wednesday{/t}
+** Wednesday
 Середа
 
-{t}Week{/t}
+** Week
 Тиждень
 
-{t}Week start{/t}
+** Week start
 Початок тижня
 
-{t}Weekend{/t}
+** Weekend
 Вихідні
 
-{t}weekly{/t}
+** weekly
 щотижня
 
-{t}weeks{/t}
+** weeks
 тижнів
 
-{t}Welcome to Simple Groupware!{/t}
+** Welcome to Simple Groupware!
 
 
-{t}white{/t}
+** white
 білий
 
-{t}widowed{/t}
+** widowed
 одинокий
 
-{t}Width{/t}
+** Width
 
 
-{t}Wiki{/t}
+** Wiki
 Вікі
 
-{t}WikiStyles{/t}
+** WikiStyles
 WikiStyles
 
-{t}won't fix{/t}
+** won't fix
 
 
-{t}word{/t}
+** word
 
 
-{t}Workflow{/t}
+** Workflow
 
 
-{t}Working student{/t}
+** Working student
 
 
-{t}works as expected{/t}
+** works as expected
 робота як очікувалось
 
-{t}works for me{/t}
+** works for me
 робота для мене
 
-{t}Workshop{/t}
+** Workshop
 Робоча площадка
 
-{t}Workspace{/t}
+** Workspace
 Робоче місце
 
-{t}write access{/t}
+** write access
 доступ на запис
 
-{t}Write access (groups){/t}
+** Write access (groups)
 Доступ на запис (групи)
 
-{t}Write access (users){/t}
+** Write access (users)
 Доступ на запис (користувачі)
 
-{t}Wrong database-version (%s). Please use at least %s !{/t}
+** Wrong database-version (%s). Please use at least %s !
 Невірний номер версії бази даних (%s). Використовуйте версію не нижче %s !
 
-{t}wrong directory{/t}
+** wrong directory
 невірний каталог
 
-{t}wrong password{/t}
+** wrong password
 невірний пароль
 
-{t}Year{/t}
+** Year
 Рік
 
-{t}yearly{/t}
+** yearly
 щорічно
 
-{t}years{/t}
+** years
 
 
-{t}yellow{/t}
+** yellow
 жовтий
 
-{t}yes{/t}
+** yes
 так
 
-{t}You are not allowed to view this folder.{/t}
+** You are not allowed to view this folder.
 Вам не дозволено проглядати цей каталог.
 
-{t}Your message was read on %s.{/t}
+** Your message was read on %s.
 Ваше повідомлення було прочитано %s.
 
-{t}Your session has timed out.{/t}
+** Your session has timed out.
 Час вашої сесії вичерпаний.
 
-{t}Zipcode{/t}
+** Zipcode
 Zip код
 
-{t}{0} - {1} of {2}{/t}
+** {0} - {1} of {2}
 
 

@@ -3,3534 +3,3534 @@
  * @license GPLv2
  */
 
-{t}!_Copyright_Language_File{/t}
+** !_Copyright_Language_File
 Copyright (C) 2008 Carlos Zenteno / Manuel Ciprián, (C) 2010 Juan Ramón Molina Menor, (C) 2011 Nacho Pacheco
 
-{t}!_Language{/t}
+** !_Language
 Español / Spanish
 
-{t}%s is not activated{/t}
+** %s is not activated
 %s no se ha activado
 
-{t}%s is not compiled / loaded into PHP.{/t}
+** %s is not compiled / loaded into PHP.
 %s no se ha compilado o cargado en PHP.
 
-{t}%s M memory usage{/t}
+** %s M memory usage
 %s M de memoria usados
 
-{t}%s not in database{/t}
+** %s not in database
 %s no existe en la base de datos
 
-{t}%s rows affected{/t}
+** %s rows affected
 %s filas afectadas
 
-{t}%s secs{/t}
+** %s secs
 %s seg.
 
-{t}%s started editing this asset at %s{/t}
+** %s started editing this asset at %s
 %s inició la edición de este registro a las %s
 
-{t}(for active directory username must be: username@domain){/t}
+** (for active directory username must be: username@domain)
 (el nombre de usuario de Active Directory debe ser: usuario@dominio)
 
-{t}(un)Group{/t}
+** (un)Group
 (Des)Agrupar
 
-{t}About{/t}
+** About
 Acerca de
 
-{t}Absence{/t}
+** Absence
 
 
-{t}accepted{/t}
+** accepted
 aceptado
 
-{t}Access denied.{/t}
+** Access denied.
 Acceso denegado.
 
-{t}Access to this file has been denied.{/t}
+** Access to this file has been denied.
 El acceso a este archivo fue denegado.
 
-{t}Account{/t}
+** Account
 Cuenta
 
-{t}account of %s has expired{/t}
+** account of %s has expired
 La cuenta de %s ha expirado
 
-{t}Accounting{/t}
+** Accounting
 Contabilidad
 
-{t}Activate{/t}
+** Activate
 Activar
 
-{t}Activated{/t}
+** Activated
 Activado
 
-{t}active{/t}
+** active
 
 
-{t}Active{/t}
+** Active
 Activo
 
-{t}Ad{/t}
+** Ad
 Anuncio
 
-{t}Add{/t}
+** Add
 Añadir
 
-{t}Add a special rule{/t}
+** Add a special rule
 Añade una regla especial
 
-{t}Add to offline folders{/t}
+** Add to offline folders
 Añadir a los directorios en modo sin conexión
 
-{t}added line{/t}
+** added line
 línea añadida
 
-{t}Address{/t}
+** Address
 Dirección
 
-{t}admin access{/t}
+** admin access
 acceso de administrador
 
-{t}Admin access (groups){/t}
+** Admin access (groups)
 Acceso de administrador (grupos)
 
-{t}Admin access (users){/t}
+** Admin access (users)
 Acceso de administrador (usuarios)
 
-{t}Admin Password{/t}
+** Admin Password
 Contraseña del administrador
 
-{t}Admin Username{/t}
+** Admin Username
 Nombre de usuario del administrador
 
-{t}Administration{/t}
+** Administration
 Administración
 
-{t}Advanced tables{/t}
+** Advanced tables
 Tablas avanzadas
 
-{t}Affected user{/t}
+** Affected user
 Usuario afectado
 
-{t}Affiliate{/t}
+** Affiliate
 Afiliado
 
-{t}after{/t}
+** after
 después
 
-{t}Agent{/t}
+** Agent
 Agente
 
-{t}Ajax Error{/t}
+** Ajax Error
 Error Ajax
 
-{t}All{/t}
+** All
 Todos
 
-{t}All day{/t}
+** All day
 Todo el día
 
-{t}All events{/t}
+** All events
 Todos los eventos
 
-{t}All finished tasks{/t}
+** All finished tasks
 Todas las tareas terminadas
 
-{t}All pending tasks{/t}
+** All pending tasks
 Todas las tareas pendientes
 
-{t}Allow custom values{/t}
+** Allow custom values
 Permite valores personalizados
 
-{t}Allow disabled modules{/t}
+** Allow disabled modules
 Permite módulos deshabilitados
 
-{t}Already running latest release.{/t}
+** Already running latest release.
 Ya estás ejecutando la última versión.
 
-{t}Already voted.{/t}
+** Already voted.
 Ya votaste.
 
-{t}Amount{/t}
+** Amount
 Cantidad
 
-{t}Anchor{/t}
+** Anchor
 Ancla
 
-{t}and{/t}
+** and
 y
 
-{t}Anniversary{/t}
+** Anniversary
 Aniversario
 
-{t}another page{/t}
+** another page
 otra página
 
-{t}answered{/t}
+** answered
 contestado
 
-{t}Answers{/t}
+** Answers
 Respuestas
 
-{t}Apache based (.htaccess, Basic, Digest, etc.){/t}
+** Apache based (.htaccess, Basic, Digest, etc.)
 Basado en Apache (.htaccess, Basic, Digest, etc.)
 
-{t}Application title{/t}
+** Application title
 Título de la aplicación
 
-{t}Apply rights to subfolders{/t}
+** Apply rights to subfolders
 Aplicar privilegios a subdirectorios
 
-{t}Appointment{/t}
+** Appointment
 Cita
 
-{t}Appointments{/t}
+** Appointments
 Citas
 
-{t}Apprenticeship{/t}
+** Apprenticeship
 
 
-{t}Apr{/t}
+** Apr
 Abr
 
-{t}April{/t}
+** April
 Abril
 
-{t}Archive{/t}
+** Archive
 
 
-{t}Archive deleted files{/t}
+** Archive deleted files
 Guardar archivos borrados
 
-{t}Asset{/t}
+** Asset
 Elemento
 
-{t}Asset marked as read-only.{/t}
+** Asset marked as read-only.
 Elemento marcado como de sólo lectura.
 
-{t}Assets{/t}
+** Assets
 Elementos
 
-{t}Assets (children){/t}
+** Assets (children)
 Elementos (descendientes)
 
-{t}Assets can be imported into multiple folders by adding the "Folder" column.{/t}
+** Assets can be imported into multiple folders by adding the "Folder" column.
 Los elementos se pueden importar en varios directorios añadiendo la columna `Folder`.
 
-{t}Assets can be overwritten by adding the "Id" column.{/t}
+** Assets can be overwritten by adding the "Id" column.
 Los elementos se pueden sobrescribir añadiendo la columna `Id`.
 
-{t}assigned{/t}
+** assigned
 asignado
 
-{t}at least 20 characters{/t}
+** at least 20 characters
 como mínimo 20 caracteres
 
-{t}attach file{/t}
+** attach file
 adjuntar archivo
 
-{t}Attachment{/t}
+** Attachment
 Adjunto
 
-{t}Attachments{/t}
+** Attachments
 Adjuntos
 
-{t}Attend{/t}
+** Attend
 Participar
 
-{t}Aug{/t}
+** Aug
 Ago
 
-{t}August{/t}
+** August
 Agosto
 
-{t}Authentication Mode{/t}
+** Authentication Mode
 Modo de autentificación
 
-{t}Author{/t}
+** Author
 Autor
 
-{t}Automatically hide the menu{/t}
+** Automatically hide the menu
 Esconder el menú automáticamente
 
-{t}Automatically hide the tree{/t}
+** Automatically hide the tree
 Esconder el árbol automáticamente
 
-{t}Average{/t}
+** Average
 Promedio
 
-{t}Average progress{/t}
+** Average progress
 Progreso medio
 
-{t}Avg length{/t}
+** Avg length
 Longitud promedio
 
-{t}Back{/t}
+** Back
 Regresar
 
-{t}Backup{/t}
+** Backup
 Respaldo
 
-{t}Backup current folder{/t}
+** Backup current folder
 Respaldar el directorio actual
 
-{t}Backups{/t}
+** Backups
 Respaldos
 
-{t}Basic editing{/t}
+** Basic editing
 Edición básica
 
-{t}before{/t}
+** before
 antes
 
-{t}Before{/t}
+** Before
 Antes
 
-{t}Begin{/t}
+** Begin
 Inicio
 
-{t}big{/t}
+** big
 grande
 
-{t}big text{/t}
+** big text
 texto grande
 
-{t}bigger{/t}
+** bigger
 más grande
 
-{t}Billing address{/t}
+** Billing address
 Dirección de facturación
 
-{t}Birthday{/t}
+** Birthday
 Cumpleaños
 
-{t}Birthdays{/t}
+** Birthdays
 Cumpleaños
 
-{t}Blank{/t}
+** Blank
 En blanco
 
-{t}blue{/t}
+** blue
 azul
 
-{t}bold{/t}
+** bold
 negrita
 
-{t}bold italic{/t}
+** bold italic
 negrita itálica
 
-{t}Book{/t}
+** Book
 Libro
 
-{t}booked{/t}
+** booked
 reservado
 
-{t}Booked{/t}
+** Booked
 Reservado
 
-{t}Booking number{/t}
+** Booking number
 Número de reserva
 
-{t}Bookings{/t}
+** Bookings
 Reservas
 
-{t}Bookmark{/t}
+** Bookmark
 Marcador
 
-{t}Bookmarks{/t}
+** Bookmarks
 Marcadores
 
-{t}borrowed{/t}
+** borrowed
 prestado
 
-{t}Brand{/t}
+** Brand
 Marca
 
-{t}Brands{/t}
+** Brands
 Marcas
 
-{t}Browser Compatibility{/t}
+** Browser Compatibility
 Compatibilidad con navegador
 
-{t}Browser not supported{/t}
+** Browser not supported
 Navegador no compatible
 
-{t}Budget{/t}
+** Budget
 Presupuesto
 
-{t}Bug{/t}
+** Bug
 Error
 
-{t}bulleted{/t}
+** bulleted
 con viñetas
 
-{t}Business{/t}
+** Business
 Negocio
 
-{t}C a n c e l{/t}
+** C a n c e l
 A n u l a r
 
-{t}C O N T I N U E{/t}
+** C O N T I N U E
 C O N T I N U A R
 
-{t}Cache output{/t}
+** Cache output
 Salida a caché
 
-{t}Caches{/t}
+** Caches
 Cachés
 
-{t}Calendar{/t}
+** Calendar
 Calendario
 
-{t}Cancel{/t}
+** Cancel
 Anular
 
-{t}canceled{/t}
+** canceled
 anulado
 
-{t}Canceled{/t}
+** Canceled
 Anulado
 
-{t}Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.{/t}
+** Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.
 No se ha podido llamar a `proc_open`. Quita `proc_open` de `disable_functions` en php.ini y desactiva `safe_mode`.
 
-{t}Cannot connect to database %s on %s.{/t}
+** Cannot connect to database %s on %s.
 No se ha podido conectar con la base de datos %s en %s.
 
-{t}Cannot create preview for %s{/t}
+** Cannot create preview for %s
 No se ha podido crear una vista previa de %s
 
-{t}Cannot read the file %s.{/t}
+** Cannot read the file %s.
 No se ha podido leer el archivo %s.
 
-{t}Cardinality{/t}
+** Cardinality
 Cardinalidad
 
-{t}Categories{/t}
+** Categories
 Categorías
 
-{t}Category{/t}
+** Category
 Categoría
 
-{t}Cc{/t}
+** Cc
 Cc
 
-{t}centered{/t}
+** centered
 centrado
 
-{t}CEO{/t}
+** CEO
 Presidente
 
-{t}Change request{/t}
+** Change request
 Cambiar petición
 
-{t}Change settings{/t}
+** Change settings
 Cambiar opciones
 
-{t}Change Setup settings{/t}
+** Change Setup settings
 Cambiar opciones de configuración
 
-{t}Change summary{/t}
+** Change summary
 Cambiar resúmen
 
-{t}Changed{/t}
+** Changed
 Cambiado
 
-{t}changed line{/t}
+** changed line
 línea cambiada
 
-{t}Changelog{/t}
+** Changelog
 Registro de cambios
 
-{t}Chat{/t}
+** Chat
 Charla
 
-{t}Check DoS Attacks{/t}
+** Check DoS Attacks
 Comprobar ataques de DoS
 
-{t}checked{/t}
+** checked
 comprobado
 
-{t}Checked{/t}
+** Checked
 Comprobado
 
-{t}Choices{/t}
+** Choices
 Opciones
 
-{t}CIO{/t}
+** CIO
 Jefe tecnológico
 
-{t}City{/t}
+** City
 Ciudad
 
-{t}Clean{/t}
+** Clean
 Limpieza
 
-{t}Clean Cache{/t}
+** Clean Cache
 Limpiar caché
 
-{t}Clear{/t}
+** Clear
 Limpiar
 
-{t}Clear Cache{/t}
+** Clear Cache
 Limpiar caché
 
-{t}Clear Data{/t}
+** Clear Data
 Limpiar datos
 
-{t}Clear grouping{/t}
+** Clear grouping
 Limpiar agrupación
 
-{t}Client{/t}
+** Client
 Cliente
 
-{t}Close{/t}
+** Close
 Cerrar
 
-{t}Close session{/t}
+** Close session
 Cerrar sesión
 
-{t}closed{/t}
+** closed
 cerrado
 
-{t}Closed{/t}
+** Closed
 Cerrado
 
-{t}CMS{/t}
+** CMS
 SAC
 
-{t}CMS homepage title{/t}
+** CMS homepage title
 Título de la página inicial del SAC
 
-{t}Collapse text{/t}
+** Collapse text
 Replegar texto
 
-{t}Collapse tree{/t}
+** Collapse tree
 Replegar árbol
 
-{t}Color{/t}
+** Color
 Color
 
-{t}Column{/t}
+** Column
 Columna
 
-{t}Column name{/t}
+** Column name
 Nombre de columna
 
-{t}Combination{/t}
+** Combination
 Combinación
 
-{t}Comma{/t}
+** Comma
 Coma
 
-{t}Comma separated values{/t}
+** Comma separated values
 Valores separados por comas
 
-{t}Command{/t}
+** Command
 Orden
 
-{t}Comment{/t}
+** Comment
 Comentario
 
-{t}Comment files{/t}
+** Comment files
 Archivos de comentarios
 
-{t}Companies{/t}
+** Companies
 Compañías
 
-{t}Company{/t}
+** Company
 Compañía
 
-{t}Competition{/t}
+** Competition
 Competencia
 
-{t}Competitor{/t}
+** Competitor
 Competidor
 
-{t}Complete{/t}
+** Complete
 Completo
 
-{t}completed{/t}
+** completed
 
 
-{t}Completed{/t}
+** Completed
 Completado
 
-{t}Component{/t}
+** Component
 Componente
 
-{t}Compress output{/t}
+** Compress output
 Comprimir salida
 
-{t}Confirm{/t}
+** Confirm
 Confirmar
 
-{t}confirmed{/t}
+** confirmed
 confirmado
 
-{t}Connection error: %s [%s]{/t}
+** Connection error: %s [%s]
 Error de conexión: %s [%s]
 
-{t}Connection to database failed.{/t}
+** Connection to database failed.
 Falló la conexión con la base de datos.
 
-{t}Console{/t}
+** Console
 Consola
 
-{t}Console scripts{/t}
+** Console scripts
 Guiones de consola
 
-{t}Consultant{/t}
+** Consultant
 Consultor
 
-{t}Contact{/t}
+** Contact
 Contacto
 
-{t}Contact activities{/t}
+** Contact activities
 Actividades de contactos
 
-{t}Contact activity{/t}
+** Contact activity
 Actividad de contacto
 
-{t}Contact by{/t}
+** Contact by
 Contacto por
 
-{t}Contact groups{/t}
+** Contact groups
 Grupos de contactos
 
-{t}Contact id{/t}
+** Contact id
 ID de contacto
 
-{t}Contact person{/t}
+** Contact person
 Persona de contacto
 
-{t}Contact user by{/t}
+** Contact user by
 Contactar usuario por
 
-{t}Contacts{/t}
+** Contacts
 Contactos
 
-{t}contains{/t}
+** contains
 contiene
 
-{t}Content{/t}
+** Content
 Contenido
 
-{t}Continue{/t}
+** Continue
 Continuar
 
-{t}Contracts{/t}
+** Contracts
 
 
-{t}Copier{/t}
+** Copier
 Copiadora
 
-{t}Copy{/t}
+** Copy
 Copiar
 
-{t}Cost center{/t}
+** Cost center
 Centro de costes
 
-{t}Costs of accommodation{/t}
+** Costs of accommodation
 Gastos de alojamiento
 
-{t}Could not determine database-version.{/t}
+** Could not determine database-version.
 No se ha podido determinar la versión de la base de datos.
 
-{t}Country{/t}
+** Country
 País
 
-{t}Create new{/t}
+** Create new
 Crear nuevo
 
-{t}Create new folder{/t}
+** Create new folder
 
 
-{t}Created{/t}
+** Created
 Creado
 
-{t}Creating database failed.{/t}
+** Creating database failed.
 Falló la creación de la base de datos.
 
-{t}current path{/t}
+** current path
 ruta actual
 
-{t}current time{/t}
+** current time
 hora actual
 
-{t}Curriculum vitae{/t}
+** Curriculum vitae
 Curriculum vitae
 
-{t}Custom schema{/t}
+** Custom schema
 Esquema personalizado
 
-{t}Customization rules\nfor modules based on sgsML{/t}
+** Customization rules\nfor modules based on sgsML
 Personalización de reglas\npara módulos basados en sgsML
 
-{t}customizations{/t}
+** customizations
 personalizaciones
 
-{t}Customize{/t}
+** Customize
 Perzonalizar
 
-{t}Cut{/t}
+** Cut
 Cortar
 
-{t}daily{/t}
+** daily
 diario
 
-{t}Data{/t}
+** Data
 Datos
 
-{t}Data free{/t}
+** Data free
 Sin datos
 
-{t}Data length{/t}
+** Data length
 Longitud de datos
 
-{t}Database{/t}
+** Database
 Base de datos
 
-{t}Database Hostname / IP{/t}
+** Database Hostname / IP
 Nombre de servidor / IP de la BD
 
-{t}Database Name{/t}
+** Database Name
 Nombre de la BD
 
-{t}Database Password{/t}
+** Database Password
 Contraseña de la BD
 
-{t}Database size{/t}
+** Database size
 Tamaño de la BD
 
-{t}Database status{/t}
+** Database status
 Estado de la BD
 
-{t}Database type{/t}
+** Database type
 Tipo de la BD
 
-{t}Database User{/t}
+** Database User
 Usuario de la BD
 
-{t}Database variables{/t}
+** Database variables
 Variables de la BD
 
-{t}Date{/t}
+** Date
 Fecha
 
-{t}Day{/t}
+** Day
 Día
 
-{t}Day begin{/t}
+** Day begin
 Inicio de jornada
 
-{t}Day end{/t}
+** Day end
 Fin de jornada
 
-{t}days{/t}
+** days
 Días
 
-{t}Deactivate{/t}
+** Deactivate
 Desactivar
 
-{t}Deadline{/t}
+** Deadline
 Plazo
 
-{t}Debug{/t}
+** Debug
 Depurar
 
-{t}Debug-dir{/t}
+** Debug-dir
 Directorio para depurar
 
-{t}Dec{/t}
+** Dec
 Dic
 
-{t}December{/t}
+** December
 Diciembre
 
-{t}Declining balance{/t}
+** Declining balance
 Balance a la baja
 
-{t}Default{/t}
+** Default
 Predeterminado
 
-{t}Default function{/t}
+** Default function
 Función predeterminada
 
-{t}Default theme{/t}
+** Default theme
 Tema predeterminado
 
-{t}Default values for assets{/t}
+** Default values for assets
 Valores predeterminados para activos
 
-{t}definition for definition lists{/t}
+** definition for definition lists
 definición para listas de definición
 
-{t}Degree{/t}
+** Degree
 Grados
 
-{t}Delete{/t}
+** Delete
 Borrar
 
-{t}Delete incl subfolders{/t}
+** Delete incl subfolders
 Borrar incluso subdirectorios
 
-{t}deleted{/t}
+** deleted
 borrado
 
-{t}deleted line{/t}
+** deleted line
 línea borrada
 
-{t}Delivery{/t}
+** Delivery
 Entregar
 
-{t}Demand{/t}
+** Demand
 Demanda
 
-{t}Demo{/t}
+** Demo
 Demo
 
-{t}Demonstration folder{/t}
+** Demonstration folder
 Directorio de demostración
 
-{t}Department{/t}
+** Department
 Departamento
 
-{t}Departments{/t}
+** Departments
 Departamentos
 
-{t}Dependancies{/t}
+** Dependancies
 Dependencias
 
-{t}Description{/t}
+** Description
 Descripción
 
-{t}Description hint{/t}
+** Description hint
 Recordatorio de la descripción
 
-{t}Description title{/t}
+** Description title
 Título de la descripción
 
-{t}Description value{/t}
+** Description value
 Valor de la descripción
 
-{t}Desktop computer{/t}
+** Desktop computer
 Computadora
 
-{t}Details{/t}
+** Details
 Detalles
 
-{t}Device type{/t}
+** Device type
 Tipo de dispositivo
 
-{t}Device types{/t}
+** Device types
 Tipos de dispositivo
 
-{t}Diagram{/t}
+** Diagram
 Diagrama
 
-{t}directory does not exist.{/t}
+** directory does not exist.
 el directorio no existe.
 
-{t}Directory is outside the allowed directory. (%s is outside %s){/t}
+** Directory is outside the allowed directory. (%s is outside %s)
 El directorio está fuera de los directorios permitidos. (%s está fuera de %s)
 
-{t}disable{/t}
+** disable
 deshabilitar
 
-{t}Disable basic authentication{/t}
+** Disable basic authentication
 Deshabilitar autentificación básica
 
-{t}Disable cut-copy-paste{/t}
+** Disable cut-copy-paste
 Deshabilitar cortar-copiar-pegar
 
-{t}Disabled{/t}
+** Disabled
 Deshabilitado
 
-{t}Disabled modules{/t}
+** Disabled modules
 Módulos dehabiidatos
 
-{t}Display{/t}
+** Display
 Mostrar
 
-{t}display filter{/t}
+** display filter
 filtro para las vistas
 
-{t}Displayname{/t}
+** Displayname
 Nombre dispositivo
 
-{t}displays{/t}
+** displays
 vistas
 
-{t}Distributor{/t}
+** Distributor
 Distribuidor
 
-{t}Distributors{/t}
+** Distributors
 Distribuidores
 
-{t}divorced{/t}
+** divorced
 divorciado
 
-{t}Documentation{/t}
+** Documentation
 Documentación
 
-{t}Documentation index{/t}
+** Documentation index
 Indice de documentación
 
-{t}Domain{/t}
+** Domain
 Dominio
 
-{t}Don't attend{/t}
+** Don't attend
 Participar
 
-{t}Don't move old files to 'old/'{/t}
+** Don't move old files to 'old/'
 No desplazar archivos antiguos a `old/`
 
-{t}Down{/t}
+** Down
 Abajo
 
-{t}Download{/t}
+** Download
 Bajar
 
-{t}Download example file{/t}
+** Download example file
 Bajar archivo de ejemplo
 
-{t}Downloading extension list{/t}
+** Downloading extension list
 Descargando lista de extensiones
 
-{t}Downloading update list{/t}
+** Downloading update list
 Descargando lista de actualizaciones
 
-{t}Drag and drop files or URLs here.{/t}
+** Drag and drop files or URLs here.
 Arrastra y suelta archivos o URLs aquí.
 
-{t}duplicate{/t}
+** duplicate
 duplicado
 
-{t}Duration{/t}
+** Duration
 Duración
 
-{t}E-mail{/t}
+** E-mail
 Correo electrónico
 
-{t}E-mail private{/t}
+** E-mail private
 Correo electrónico privado
 
-{t}E-mail program{/t}
+** E-mail program
 Programa de correo electrónico
 
-{t}e.g.{/t}
+** e.g.
 p.e.
 
-{t}Edit{/t}
+** Edit
 Editar
 
-{t}Edit as new{/t}
+** Edit as new
 Editar como nuevo
 
-{t}Edit rights{/t}
+** Edit rights
 Editar privilegios
 
-{t}Editable if hidden in all views{/t}
+** Editable if hidden in all views
 Editable si está oculto en todas las vistas
 
-{t}Editor{/t}
+** Editor
 Editor
 
-{t}Emphasis{/t}
+** Emphasis
 Énfasis
 
-{t}Empty{/t}
+** Empty
 Vacío
 
-{t}Empty folder{/t}
+** Empty folder
 Vaciar directorio
 
-{t}en{/t}
+** en
 es
 
-{t}Enable anonymous access{/t}
+** Enable anonymous access
 Habilitar acceso anónimo
 
-{t}Enable anonymous CMS{/t}
+** Enable anonymous CMS
 Habilitar anónimo en SAC
 
-{t}Enable automatic user creation{/t}
+** Enable automatic user creation
 Habilitar creación automática de usuarios
 
-{t}Enable external mail client for 'mailto:' links{/t}
+** Enable external mail client for 'mailto:' links
 Habilitar cliente de correo externo para enlaces `mailto`:
 
-{t}Enable self registration{/t}
+** Enable self registration
 Habilitar autoinscripción
 
-{t}Enable Sync4j / Funambol{/t}
+** Enable Sync4j / Funambol
 Habilitar Sync4j / Funambol
 
-{t}Enable WebDAV{/t}
+** Enable WebDAV
 Habilitar WebDAV
 
-{t}End{/t}
+** End
 Fin
 
-{t}engaged{/t}
+** engaged
 ocupado
 
-{t}equal{/t}
+** equal
 igual
 
-{t}Error{/t}
+** Error
 Error
 
-{t}Error doing request to xmlhttp{/t}
+** Error doing request to xmlhttp
 Error en la petición a xmlhttp
 
-{t}Error moving file{/t}
+** Error moving file
 Error al mover el archivo
 
-{t}Error pasting asset{/t}
+** Error pasting asset
 Error al pegar el elemento
 
-{t}Error: no credentials{/t}
+** Error: no credentials
 Error: no hay credenciales
 
-{t}Events{/t}
+** Events
 Eventos
 
-{t}Example{/t}
+** Example
 Ejemplo
 
-{t}Example contacts{/t}
+** Example contacts
 Contactos de ejemplo
 
-{t}Example surveys can be found at:{/t}
+** Example surveys can be found at:
 Se pueden encontrar ejemplos de encuestas en:
 
-{t}Example without mountpoint{/t}
+** Example without mountpoint
 Ejemplo sin punto de montaje
 
-{t}Examples{/t}
+** Examples
 Ejemplos
 
-{t}Execute{/t}
+** Execute
 Ejecutar
 
-{t}Expenses{/t}
+** Expenses
 Gastos
 
-{t}Experimental{/t}
+** Experimental
 Experimental
 
-{t}Expires{/t}
+** Expires
 Expira
 
-{t}Expiry{/t}
+** Expiry
 Vencimiento
 
-{t}Extended{/t}
+** Extended
 Extendido
 
-{t}Extensions{/t}
+** Extensions
 Extensiones
 
-{t}Extracting files{/t}
+** Extracting files
 Extrayendo archivos
 
-{t}F j{/t}
+** F j
 j \d\e F
 
-{t}F j, Y{/t}
+** F j, Y
 j \d\e F \d\e Y
 
-{t}Failed to create directory: %s{/t}
+** Failed to create directory: %s
 Falló la creación del directorio: %s
 
-{t}Failed to write file to disk.{/t}
+** Failed to write file to disk.
 Falló la escritura del archivo en disco
 
-{t}Failed to write into %s{/t}
+** Failed to write into %s
 Fallo al escribir en %s
 
-{t}Family status{/t}
+** Family status
 Situación familiar
 
-{t}FAQ{/t}
+** FAQ
 Preg. Frec.
 
-{t}Favorites{/t}
+** Favorites
 Favoritos
 
-{t}Fax{/t}
+** Fax
 Fax
 
-{t}Fax private{/t}
+** Fax private
 
 
-{t}Feature request{/t}
+** Feature request
 Solicitud de característica
 
-{t}Feb{/t}
+** Feb
 Feb
 
-{t}February{/t}
+** February
 Febrero
 
-{t}Feed{/t}
+** Feed
 Flujo
 
-{t}female{/t}
+** female
 mujer
 
-{t}Field{/t}
+** Field
 Campo
 
-{t}Field contains value{/t}
+** Field contains value
 El campo contiene el valor
 
-{t}Field customization{/t}
+** Field customization
 Personalización del campo
 
-{t}Field is equal to value{/t}
+** Field is equal to value
 El campo es idéntico al valor
 
-{t}Fields{/t}
+** Fields
 Campos
 
-{t}File{/t}
+** File
 Archivo
 
-{t}file is too big. Please change upload_max_filesize, post_max_size in your php.ini{/t}
+** file is too big. Please change upload_max_filesize, post_max_size in your php.ini
 el archivo es demasiado grande. Cambia `upload_max_filesize` y `post_max_size` en tu `php.ini`
 
-{t}file is too big. Please upload a smaller one.{/t}
+** file is too big. Please upload a smaller one.
 el archivo es demasiado grande. Sube uno más pequeño.
 
-{t}file not found in database.{/t}
+** file not found in database.
 archivo no encontrado en la base de datos.
 
-{t}file not found.{/t}
+** file not found.
 archivo no encontrado.
 
-{t}file was uploaded partially.{/t}
+** file was uploaded partially.
 el archivo fue subido parcialmente.
 
-{t}Filename must have the right extension. Valid extensions are %s{/t}
+** Filename must have the right extension. Valid extensions are %s
 El nombre del archivo debe tener la extensión correcta. Las extensiones válidas son %s.
 
-{t}Files{/t}
+** Files
 Archivos
 
-{t}Filesystem{/t}
+** Filesystem
 Sistema de archivos
 
-{t}Filter{/t}
+** Filter
 Filtro
 
-{t}Find assets in multiple folders{/t}
+** Find assets in multiple folders
 Buscar elementos en múltiples directorios
 
-{t}Finish scheduled{/t}
+** Finish scheduled
 Fin programado
 
-{t}Finished{/t}
+** Finished
 Terminado
 
-{t}First in list{/t}
+** First in list
 Primero en la lista
 
-{t}first level support{/t}
+** first level support
 Apoyo de primer nivel
 
-{t}First name{/t}
+** First name
 Nombre propio
 
-{t}Fix paging bar to page bottom{/t}
+** Fix paging bar to page bottom
 Fijar barra de paginación a la parte inferior
 
-{t}fixed{/t}
+** fixed
 arreglado
 
-{t}Flags{/t}
+** Flags
 Etiquetas
 
-{t}Flash plugin not installed.{/t}
+** Flash plugin not installed.
 Complemento flash no instalado.
 
-{t}Folder{/t}
+** Folder
 Directorio
 
-{t}Folder already exists.{/t}
+** Folder already exists.
 El directorio ya existe.
 
-{t}Folder created.{/t}
+** Folder created.
 Directorio creado.
 
-{t}Folder has changed.{/t}
+** Folder has changed.
 El directorio ha cambiado.
 
-{t}Folder icon{/t}
+** Folder icon
 Icono del directorio
 
-{t}Folder not found.{/t}
+** Folder not found.
 Directorio no encontrado
 
-{t}Folder refresh period{/t}
+** Folder refresh period
 Lapso de refresco del directorio
 
-{t}Folder structure{/t}
+** Folder structure
 Estructura del directorio
 
-{t}Folder structure created.{/t}
+** Folder structure created.
 Estructura del directorio creada.
 
-{t}Folder structure moved to trash.{/t}
+** Folder structure moved to trash.
 Estructura del directorio movida a la papelera.
 
-{t}Folder Type{/t}
+** Folder Type
 Tipo de directorio
 
-{t}Folder with ID %s{/t}
+** Folder with ID %s
 Durectorio con ID %s
 
-{t}Folders{/t}
+** Folders
 Directorios
 
-{t}for a new paragraph, use a blank line{/t}
+** for a new paragraph, use a blank line
 para un párrafo nuevo, usa una línea en blanco
 
-{t}Force SSL{/t}
+** Force SSL
 Forzar SSL
 
-{t}Form{/t}
+** Form
 Formulario
 
-{t}Forum{/t}
+** Forum
 Foro
 
-{t}Forward{/t}
+** Forward
 Adelante
 
-{t}Fr{/t}
+** Fr
 Vi
 
-{t}Free/busy{/t}
+** Free/busy
 Libre/ocupado
 
-{t}Freelance{/t}
+** Freelance
 
 
-{t}Fri{/t}
+** Fri
 Vie
 
-{t}Friday{/t}
+** Friday
 Viernes
 
-{t}From{/t}
+** From
 Desde
 
-{t}Full screen{/t}
+** Full screen
 Pantalla completa
 
-{t}Full texts{/t}
+** Full texts
 Textos completos
 
-{t}Full time{/t}
+** Full time
 
 
-{t}Full width{/t}
+** Full width
 Ancho total
 
-{t}Fulltext index{/t}
+** Fulltext index
 Índice de texto completo
 
-{t}Funambol only works with MySQL and PostgreSQL.{/t}
+** Funambol only works with MySQL and PostgreSQL.
 Funambol solo funciona con MySQL y PostgreSQL.
 
-{t}Function does not exist: %s{/t}
+** Function does not exist: %s
 La función no existe: %s
 
-{t}g:i a{/t}
+** g:i a
 G:i
 
-{t}Gender{/t}
+** Gender
 Género
 
-{t}General{/t}
+** General
 General
 
-{t}Generate{/t}
+** Generate
 Generar
 
-{t}Gifts{/t}
+** Gifts
 Regalos
 
-{t}Give Feedback{/t}
+** Give Feedback
 Dar retroalimentación
 
-{t}GNU GPL Frequently Asked Questions{/t}
+** GNU GPL Frequently Asked Questions
 Preguntas frecuentes sobre GNU GPL
 
-{t}greater than{/t}
+** greater than
 mayor que
 
-{t}green{/t}
+** green
 verde
 
-{t}Group{/t}
+** Group
 Grupo
 
-{t}Group created.{/t}
+** Group created.
 Grupo creado.
 
-{t}Group deactivated.{/t}
+** Group deactivated.
 Grupo desactivado.
 
-{t}Groupname{/t}
+** Groupname
 Nombre de grupo
 
-{t}Groups{/t}
+** Groups
 Grupos
 
-{t}hanging text{/t}
+** hanging text
 sangría francesa
 
-{t}Hardware{/t}
+** Hardware
 Hardware
 
-{t}Headers{/t}
+** Headers
 Cabeceras
 
-{t}heading{/t}
+** heading
 encabezado
 
-{t}headings{/t}
+** headings
 encabezados
 
-{t}Height{/t}
+** Height
 Altura
 
-{t}Help{/t}
+** Help
 Ayuda
 
-{t}Helpdesk{/t}
+** Helpdesk
 Escritorio de Ayuda
 
-{t}Hidden in{/t}
+** Hidden in
 Oculto en
 
-{t}Hidden in all views{/t}
+** Hidden in all views
 Oculto en todas las vistas
 
-{t}Hide{/t}
+** Hide
 Ocultar
 
-{t}hide in all views{/t}
+** hide in all views
 Ocultar en todas las vistas
 
-{t}hide in this view{/t}
+** hide in this view
 Ocultar en esta vista
 
-{t}History{/t}
+** History
 Historia
 
-{t}Holiday{/t}
+** Holiday
 Festivo
 
-{t}Home{/t}
+** Home
 Inicio
 
-{t}Home folder id{/t}
+** Home folder id
 ID del directorio inicial
 
-{t}Home page in the CMS{/t}
+** Home page in the CMS
 Página inicial en SAC
 
-{t}Homepage{/t}
+** Homepage
 Página inicial
 
-{t}horizontal line{/t}
+** horizontal line
 línea horizontal
 
-{t}Host{/t}
+** Host
 Servidor
 
-{t}Hosts{/t}
+** Hosts
 Servidores
 
-{t}Hour{/t}
+** Hour
 
 
-{t}hours{/t}
+** hours
 horas
 
-{t}Hours per week{/t}
+** Hours per week
 
 
-{t}HTML document{/t}
+** HTML document
 Documento HTML
 
-{t}HTML documents{/t}
+** HTML documents
 Documentos HTML
 
-{t}http://www.pmwiki.org/PmWiki/{/t}
+** http://www.pmwiki.org/PmWiki/
 http://www.pmwiki.org/PmWikiEs/
 
-{t}Human resources{/t}
+** Human resources
 
 
-{t}I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2{/t}
+** I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2
 Acepto la licencia pública general GNU versión 2.
 
-{t}I m p o r t{/t}
+** I m p o r t
 I m p o r t a r
 
-{t}I n s t a l l{/t}
+** I n s t a l l
 I n s t a l a r
 
-{t}Icon{/t}
+** Icon
 Icono
 
-{t}Id{/t}
+** Id
 Id
 
-{t}Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
 El Id no debe ser nulo, en minúsculas, min. 3 caracteres y máx. 128 conteniendo [a-z0-9_-@.].
 
-{t}Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].
 El Id no debe ser nulo, min. 3 caracteres, máx. 128 conteniendo [a-z0-9_-@.].
 
-{t}Ideas{/t}
+** Ideas
 Ideas
 
-{t}If empty, the SMTP connection from the module users will be used.{/t}
+** If empty, the SMTP connection from the module users will be used.
 La conexión SMTP del módulo de usuarios será utilizada si ésta está vacía.
 
-{t}If file system permissions are ok, please check the configurations of %s if present.{/t}
+** If file system permissions are ok, please check the configurations of %s if present.
 Si los privilegios del sistema de archivos están bien, por favor compueba si está presente la configuración de %s.
 
-{t}if not autodetected with namingContexts{/t}
+** if not autodetected with namingContexts
 si no se autodetectó con namingContexts
 
-{t}If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.{/t}
+** If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.
 Si el nombre de usuario o la contraseña contienen el carácter &quot;:&quot;, reemplázalo con &quot;==&quot;.
 
-{t}If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.{/t}
+** If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.
 Si el nombre de usuario o la contraseña contienen el signo &quot;@&quot;, cámbialo por &quot;%%&quot;.
 
-{t}Illness{/t}
+** Illness
 
 
-{t}Im-/Export{/t}
+** Im-/Export
 Im/Exportar
 
-{t}Image{/t}
+** Image
 Imagen
 
-{t}Images{/t}
+** Images
 Imágenes
 
-{t}Imap-error: %s{/t}
+** Imap-error: %s
 Imap-error: %s
 
-{t}immediate{/t}
+** immediate
 inmediato
 
-{t}Import{/t}
+** Import
 Importar
 
-{t}In progress{/t}
+** In progress
 En progreso
 
-{t}in repair{/t}
+** in repair
 en reparación
 
-{t}in stock{/t}
+** in stock
 en almacén
 
-{t}Inactive{/t}
+** Inactive
 Inactivo
 
-{t}Include in RSS feed{/t}
+** Include in RSS feed
 Incluir en RSS feed
 
-{t}Include page{/t}
+** Include page
 Incluir página
 
-{t}indent text{/t}
+** indent text
 sangrar texto
 
-{t}Index{/t}
+** Index
 Índice
 
-{t}Index length{/t}
+** Index length
 Longitud del índice
 
-{t}Index type{/t}
+** Index type
 Tipo de índice
 
-{t}Indexes{/t}
+** Indexes
 Índices
 
-{t}Industry{/t}
+** Industry
 Industria
 
-{t}Info{/t}
+** Info
 Información
 
-{t}inheritance to subfolders without default values{/t}
+** inheritance to subfolders without default values
 hereda a subdirectorios sin valores predetermiados
 
-{t}Input field{/t}
+** Input field
 Campo de entrada
 
-{t}Input field height{/t}
+** Input field height
 Altura del campo de entrada
 
-{t}Insert{/t}
+** Insert
 Insertar
 
-{t}inserted{/t}
+** inserted
 insertado
 
-{t}Install default folder structure{/t}
+** Install default folder structure
 Instalar estructura de directorios predeterminada
 
-{t}Install demo folders{/t}
+** Install demo folders
 Instalar directorios de demostración
 
-{t}Install minimal folder structure{/t}
+** Install minimal folder structure
 Instalar estructura de directorios mínima
 
-{t}installed{/t}
+** installed
 instalado
 
-{t}insufficient folder rights{/t}
+** insufficient folder rights
 Insuficientes privilegios de directorio
 
-{t}Internal recommendation{/t}
+** Internal recommendation
 Recomendación interna
 
-{t}Intranet{/t}
+** Intranet
 Intranet
 
-{t}Intro{/t}
+** Intro
 Introducción
 
-{t}invalid{/t}
+** invalid
 no válido
 
-{t}Invalid file extensions{/t}
+** Invalid file extensions
 Extensiones de archivo no válidas
 
-{t}Invalid schema mode '%s'{/t}
+** Invalid schema mode '%s'
 El modo de esquema %s no es válido
 
-{t}Invalid security token{/t}
+** Invalid security token
 La credencial de seguridad no es válida
 
-{t}Inventory{/t}
+** Inventory
 Inventario
 
-{t}Inventory number{/t}
+** Inventory number
 Número de inventario
 
-{t}Investor{/t}
+** Investor
 Inversor
 
-{t}Invoice{/t}
+** Invoice
 Factura
 
-{t}italic{/t}
+** italic
 cursiva
 
-{t}Item created by %s at %s{/t}
+** Item created by %s at %s
 Elemento creado por %s el %s
 
-{t}Item deleted by %s at %s{/t}
+** Item deleted by %s at %s
 Elemento borrado por %s el %s
 
-{t}Item edited (%s) by %s at %s{/t}
+** Item edited (%s) by %s at %s
 Elemento editado (%s) por %s el %s
 
-{t}Item not found.{/t}
+** Item not found.
 Elemento no encontrado.
 
-{t}Item successfully created.{/t}
+** Item successfully created.
 Elemento creado.
 
-{t}Item successfully updated.{/t}
+** Item successfully updated.
 Elemento actualizado.
 
-{t}Item(s) not found or access denied.{/t}
+** Item(s) not found or access denied.
 Elemento(s) no encontrado(s) o acceso denegado.
 
-{t}Jan{/t}
+** Jan
 Ene
 
-{t}January{/t}
+** January
 Enero
 
-{t}Job description{/t}
+** Job description
 Descripción del trabajo
 
-{t}Join lines{/t}
+** Join lines
 Juntar líneas
 
-{t}Jul{/t}
+** Jul
 Jul
 
-{t}July{/t}
+** July
 Julio
 
-{t}Jun{/t}
+** Jun
 Jun
 
-{t}June{/t}
+** June
 Junio
 
-{t}Key{/t}
+** Key
 Clave
 
-{t}Key customer{/t}
+** Key customer
 Cliente clave
 
-{t}Key name{/t}
+** Key name
 Nombre de la clave
 
-{t}Keywords{/t}
+** Keywords
 Palabras clave
 
-{t}Knowledge base{/t}
+** Knowledge base
 Base de conocimientos
 
-{t}L o g i n{/t}
+** L o g i n
 A c c e d e r
 
-{t}l, F j, Y{/t}
+** l, F j, Y
 l, j \d\e F \d\e Y
 
-{t}Last access{/t}
+** Last access
 Último acceso
 
-{t}Last name{/t}
+** Last name
 Apellido
 
-{t}LDAP anonymous connection failed.{/t}
+** LDAP anonymous connection failed.
 Falló la conexión LDAP anónima.
 
-{t}LDAP attribute for group memberships{/t}
+** LDAP attribute for group memberships
 Atributo LDAP para membresías de grupo
 
-{t}LDAP attribute for rooms{/t}
+** LDAP attribute for rooms
 Atributo LDAP para cuartos
 
-{t}LDAP attribute for usernames{/t}
+** LDAP attribute for usernames
 Atributo LDAP para nombres de usuario
 
-{t}LDAP connection to host %s failed.{/t}
+** LDAP connection to host %s failed.
 Falló la conexión LDAP con el servidor %s.
 
-{t}LDAP without anonymous access{/t}
+** LDAP without anonymous access
 Sin acceso LDAP anónimo
 
-{t}LDAP: no base DN given{/t}
+** LDAP: no base DN given
 LDAP: no se dió DN base
 
-{t}LDAP: no UID given{/t}
+** LDAP: no UID given
 LDAP: no se dió UID
 
-{t}Leave of absence{/t}
+** Leave of absence
 
 
-{t}less promising{/t}
+** less promising
 menos prometedor
 
-{t}lesser than{/t}
+** lesser than
 menor que
 
-{t}Letter{/t}
+** Letter
 Letra
 
-{t}Level{/t}
+** Level
 Nivel
 
-{t}License{/t}
+** License
 Licencia
 
-{t}line{/t}
+** line
 línea
 
-{t}Line break{/t}
+** Line break
 Salto de línea
 
-{t}Link{/t}
+** Link
 Enlace
 
-{t}Link restricted{/t}
+** Link restricted
 Enlace restringido
 
-{t}link text{/t}
+** link text
 texto del enlace
 
-{t}link to external page{/t}
+** link to external page
 enlace a página externa
 
-{t}link to internal page{/t}
+** link to internal page
 enlace a página interna
 
-{t}Links{/t}
+** Links
 Enlaces
 
-{t}Lists{/t}
+** Lists
 Listas
 
-{t}Load external images{/t}
+** Load external images
 Cargar imágenes externas
 
-{t}Location{/t}
+** Location
 Lugar
 
-{t}Locations{/t}
+** Locations
 Lugares
 
-{t}Lock{/t}
+** Lock
 Bloquear
 
-{t}Locked by{/t}
+** Locked by
 Bloqueado por
 
-{t}Locking{/t}
+** Locking
 Bloqueos
 
-{t}login %s from %s with %s{/t}
+** login %s from %s with %s
 acceso %s desde %s con %s
 
-{t}Login failed from %s.{/t}
+** Login failed from %s.
 Falló el acceso desde %s.
 
-{t}Login/-out{/t}
+** Login/-out
 Salir
 
-{t}Logins{/t}
+** Logins
 Accesos
 
-{t}Logout{/t}
+** Logout
 Salir
 
-{t}logout %s{/t}
+** logout %s
 Salir de %s
 
-{t}Lookup{/t}
+** Lookup
 Buscar
 
-{t}low{/t}
+** low
 bajo
 
-{t}lowest{/t}
+** lowest
 el más bajo
 
-{t}M j{/t}
+** M j
 j M
 
-{t}M j, g:i a{/t}
+** M j, g:i a
 j M, G:i a
 
-{t}M j, Y{/t}
+** M j, Y
 j \d\e M \d\e Y
 
-{t}m/d/Y{/t}
+** m/d/Y
 d.m.Y
 
-{t}m/d/Y g:i a{/t}
+** m/d/Y g:i a
 d.m.Y G:i
 
-{t}m/d/y g:i:s a{/t}
+** m/d/y g:i:s a
 d.m.y G:i:s
 
-{t}magenta{/t}
+** magenta
 violeta
 
-{t}mail footer{/t}
+** mail footer
 pie del mensaje
 
-{t}Mail identities{/t}
+** Mail identities
 Identidades de correo
 
-{t}mail notification{/t}
+** mail notification
 notificación de correo
 
-{t}mail reminder{/t}
+** mail reminder
 recordatorio de correo
 
-{t}Main menu{/t}
+** Main menu
 Menú principal
 
-{t}Main page{/t}
+** Main page
 Página principal
 
-{t}Maintenance mode{/t}
+** Maintenance mode
 Modo de mantenimiento
 
-{t}male{/t}
+** male
 hombre
 
-{t}Man-days{/t}
+** Man-days
 Días-hombre
 
-{t}Man-days planned{/t}
+** Man-days planned
 Días-hombre previstos
 
-{t}Manage offline folders{/t}
+** Manage offline folders
 
 
-{t}Manager{/t}
+** Manager
 Responsable
 
-{t}Manufacturer{/t}
+** Manufacturer
 Fabricante
 
-{t}Mar{/t}
+** Mar
 Mar
 
-{t}March{/t}
+** March
 Marzo
 
-{t}Marketing event{/t}
+** Marketing event
 Acontecimiento de mercadotecnia
 
-{t}married{/t}
+** married
 casado
 
-{t}Maximize{/t}
+** Maximize
 Maximizar
 
-{t}Maximum file size{/t}
+** Maximum file size
 Tamaño máximo de archivo
 
-{t}Maximum number of assets per page{/t}
+** Maximum number of assets per page
 Número máximo de elementos por página
 
-{t}maximum number of files exceeded.{/t}
+** maximum number of files exceeded.
 número máximo de archivos superado.
 
-{t}May{/t}
+** May
 Mayo
 
-{t}Media{/t}
+** Media
 Medio
 
-{t}Meeting{/t}
+** Meeting
 Reunión
 
-{t}Members{/t}
+** Members
 Miembros
 
-{t}Memory limit{/t}
+** Memory limit
 Límite de memoria
 
-{t}Merge folders permanently{/t}
+** Merge folders permanently
 Combinar directorios permanentemente
 
-{t}Merged folders{/t}
+** Merged folders
 Directorios combinados
 
-{t}Message{/t}
+** Message
 Mensaje
 
-{t}Messages{/t}
+** Messages
 Mensajes
 
-{t}Milestone{/t}
+** Milestone
 Hito
 
-{t}min{/t}
+** min
 min
 
-{t}Minimize{/t}
+** Minimize
 Minimizar
 
-{t}minimum = 15 secs, 0 = disabled{/t}
+** minimum = 15 secs, 0 = disabled
 mínimo = 15 seg, 0 = deshabilitado
 
-{t}Miscellaneous{/t}
+** Miscellaneous
 Misceláneo
 
-{t}missing a temporary folder.{/t}
+** missing a temporary folder.
 falta un directorio temporal.
 
-{t}missing field{/t}
+** missing field
 falta un campo
 
-{t}missing right: %s{/t}
+** missing right: %s
 falta el privilegio %s
 
-{t}Mo{/t}
+** Mo
 Lu
 
-{t}Mobile{/t}
+** Mobile
 Móvil
 
-{t}Model{/t}
+** Model
 Modelo
 
-{t}Modified{/t}
+** Modified
 Modificado
 
-{t}Modified by{/t}
+** Modified by
 Modificado por
 
-{t}Modifying database failed.{/t}
+** Modifying database failed.
 Falló la modificación de la base de datos.
 
-{t}Module{/t}
+** Module
 Módulo
 
-{t}Module disabled.{/t}
+** Module disabled.
 Módulo deshabilitado
 
-{t}Modules{/t}
+** Modules
 Módulos
 
-{t}Mon{/t}
+** Mon
 Lun
 
-{t}Monday{/t}
+** Monday
 Lunes
 
-{t}monospace{/t}
+** monospace
 monoespacio
 
-{t}Month{/t}
+** Month
 Mes
 
-{t}monthly{/t}
+** monthly
 mensual
 
-{t}months{/t}
+** months
 meses
 
-{t}More information about the GNU GPL{/t}
+** More information about the GNU GPL
 Más información sobre GNU GPL
 
-{t}Mountpoint{/t}
+** Mountpoint
 Punto de montaje
 
-{t}Move{/t}
+** Move
 Mover
 
-{t}Move to subfolder 'Archive'{/t}
+** Move to subfolder 'Archive'
 
 
-{t}Multiple{/t}
+** Multiple
 Múltiple
 
-{t}Multiple choice{/t}
+** Multiple choice
 Opciones múltiples
 
-{t}My appointments{/t}
+** My appointments
 Mis citas
 
-{t}My tasks{/t}
+** My tasks
 Mis tareas
 
-{t}Name{/t}
+** Name
 Nombre
 
-{t}Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
 El nombre no puede ser nulo o contener mayúsculas y debe tener entre 3 y 128 caracteres [a-z0-9_-@.].
 
-{t}Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].{/t}
+** Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].
 El nombre no puede ser nulo y debe tener entre 3 y 128 caracteres [a-zA-Z0-9-_.].
 
-{t}need feedback{/t}
+** need feedback
 necesita retroalimentación
 
-{t}Network{/t}
+** Network
 Red
 
-{t}Never expires{/t}
+** Never expires
 Nunca expira
 
-{t}New{/t}
+** New
 Nuevo
 
-{t}New folder{/t}
+** New folder
 Nuevo directorio
 
-{t}News{/t}
+** News
 Noticias
 
-{t}Next recurrences{/t}
+** Next recurrences
 Siguientes recurrencias
 
-{t}Nickname{/t}
+** Nickname
 Alias
 
-{t}Nightwork{/t}
+** Nightwork
 Trabajo nocturno
 
-{t}no{/t}
+** no
 no
 
-{t}No dataset selected.{/t}
+** No dataset selected.
 No se seleccionó un conjunto de datos.
 
-{t}No entries found.{/t}
+** No entries found.
 No se encontraron entradas.
 
-{t}No file was uploaded{/t}
+** No file was uploaded
 No se subió ningún archivo
 
-{t}No line breaks{/t}
+** No line breaks
 Sin saltos de línea
 
-{t}no result{/t}
+** no result
 no hay resultado
 
-{t}No search index{/t}
+** No search index
 No hay índice de búsqueda
 
-{t}No sender specified.{/t}
+** No sender specified.
 No se especificó remitente.
 
-{t}no username submitted{/t}
+** no username submitted
 No se envió el nombre de usuario
 
-{t}No username/password.{/t}
+** No username/password.
 
 
-{t}No wrap{/t}
+** No wrap
 No envolver
 
-{t}Non unique{/t}
+** Non unique
 No único
 
-{t}none{/t}
+** none
 ninguno
 
-{t}normal{/t}
+** normal
 normal
 
-{t}Not allowed. Please log in as super administrator.{/t}
+** Not allowed. Please log in as super administrator.
 No permitido. Debes acceder como superadministrador.
 
-{t}not contains{/t}
+** not contains
 no contiene
 
-{t}not equal{/t}
+** not equal
 no es igual
 
-{t}Not in{/t}
+** Not in
 No en
 
-{t}Not in database{/t}
+** Not in database
 No está en la base de datos
 
-{t}not installed{/t}
+** not installed
 
 
-{t}Note{/t}
+** Note
 Nota
 
-{t}Notebook{/t}
+** Notebook
 Libro de notas
 
-{t}Notes{/t}
+** Notes
 Notas
 
-{t}Notificaiton sent to: %s{/t}
+** Notificaiton sent to: %s
 Notificación enviada a: %s
 
-{t}Notification{/t}
+** Notification
 Notificación
 
-{t}Notification summary{/t}
+** Notification summary
 Resumen de la notificación
 
-{t}Notifications{/t}
+** Notifications
 Notificaciones
 
-{t}Nov{/t}
+** Nov
 Nov
 
-{t}November{/t}
+** November
 Noviembre
 
-{t}Null{/t}
+** Null
 Nulo
 
-{t}Number of employees{/t}
+** Number of employees
 Número de empleados
 
-{t}numbered{/t}
+** numbered
 numerado
 
-{t}Objectives{/t}
+** Objectives
 Objetivos
 
-{t}Oct{/t}
+** Oct
 Oct
 
-{t}October{/t}
+** October
 Octubre
 
-{t}of {0}{/t}
+** of {0}
 de
 
-{t}offer{/t}
+** offer
 
 
-{t}Offer{/t}
+** Offer
 
 
-{t}Office{/t}
+** Office
 Oficina
 
-{t}Office program{/t}
+** Office program
 Programa de oficina
 
-{t}Offices{/t}
+** Offices
 Oficinas
 
-{t}offline{/t}
+** offline
 sin conexión
 
-{t}Offline folders{/t}
+** Offline folders
 Directorios en modo sin conexión
 
-{t}Offline reading{/t}
+** Offline reading
 
 
-{t}Ok{/t}
+** Ok
 Aceptar
 
-{t}one of{/t}
+** one of
 uno de
 
-{t}online{/t}
+** online
 en línea
 
-{t}Only for this folder{/t}
+** Only for this folder
 Sólo para este directorio
 
-{t}Only in{/t}
+** Only in
 Sólo en
 
-{t}open{/t}
+** open
 
 
-{t}Open{/t}
+** Open
 Abierto
 
-{t}Operating system{/t}
+** Operating system
 Sistema operativo
 
-{t}Operation not allowed. (Data loss protection){/t}
+** Operation not allowed. (Data loss protection)
 Operación no permitida. (Protección contra pérdida de datos)
 
-{t}Optimize Tables{/t}
+** Optimize Tables
 Optimizar tablas
 
-{t}Options{/t}
+** Options
 Opciones
 
-{t}or{/t}
+** or
 o
 
-{t}or higher{/t}
+** or higher
 o superior
 
-{t}orange{/t}
+** orange
 anaranjado
 
-{t}Order size{/t}
+** Order size
 Tamaño del pedido
 
-{t}Organisation{/t}
+** Organisation
 Organización
 
-{t}Organizer{/t}
+** Organizer
 Organizador
 
-{t}Origin{/t}
+** Origin
 Origen
 
-{t}Original message{/t}
+** Original message
 Mensaje original
 
-{t}Other{/t}
+** Other
 Otro
 
-{t}out of office{/t}
+** out of office
 fuera de la oficina
 
-{t}Outline image{/t}
+** Outline image
 Imagen de contorno
 
-{t}Output{/t}
+** Output
 Salida
 
-{t}Output empty: %s{/t}
+** Output empty: %s
 Salida vacía: %s
 
-{t}overlap{/t}
+** overlap
 solapada
 
-{t}Overtime{/t}
+** Overtime
 Tiempo extra
 
-{t}Overtime compensation per hour{/t}
+** Overtime compensation per hour
 
 
-{t}Owner{/t}
+** Owner
 Propietario
 
-{t}Owner since{/t}
+** Owner since
 Propietario desde
 
-{t}Package from local file system (.tar.gz){/t}
+** Package from local file system (.tar.gz)
 Empaca desde el sistema de archivos local (.tar.gz)
 
-{t}Packed{/t}
+** Packed
 Empacado
 
-{t}Page{/t}
+** Page
 Página
 
-{t}Page last modified on{/t}
+** Page last modified on
 Página modificada el
 
-{t}Page name (URL){/t}
+** Page name (URL)
 Nombre de la página (URL)
 
-{t}Page not found{/t}
+** Page not found
 Página no encontrada
 
-{t}Page title{/t}
+** Page title
 Título de la página
 
-{t}Pager{/t}
+** Pager
 Paginador
 
-{t}Paid{/t}
+** Paid
 
 
-{t}Paid holidays{/t}
+** Paid holidays
 
 
-{t}Paragraphs{/t}
+** Paragraphs
 Párrafos
 
-{t}parameters{/t}
+** parameters
 parámetros
 
-{t}Parameters{/t}
+** Parameters
 Parámetros
 
-{t}Parent folder{/t}
+** Parent folder
 Directorio superior
 
-{t}Parsing{/t}
+** Parsing
 Análisis
 
-{t}Part time{/t}
+** Part time
 
 
-{t}Participants{/t}
+** Participants
 Participantes
 
-{t}Participants (external){/t}
+** Participants (external)
 Participantes (externos)
 
-{t}Participants (internal){/t}
+** Participants (internal)
 Participantes (internos)
 
-{t}Password{/t}
+** Password
 Contraseña
 
-{t}Password expired. (password of %s has expired){/t}
+** Password expired. (password of %s has expired)
 La contraseña de %s ha expirado.
 
-{t}Password expires{/t}
+** Password expires
 La contraseña expira
 
-{t}Password must be not null, min 5 characters.{/t}
+** Password must be not null, min 5 characters.
 La contraseña no puede ser nula. Mínimo 5 caracteres.
 
-{t}password not confirmed.{/t}
+** password not confirmed.
 Contraseña no confirmada.
 
-{t}Passwords{/t}
+** Passwords
 Contraseñas
 
-{t}Paste{/t}
+** Paste
 Pegar
 
-{t}Path{/t}
+** Path
 Ruta
 
-{t}Pause{/t}
+** Pause
 Pausa
 
-{t}Payroll{/t}
+** Payroll
 
 
-{t}Permissions{/t}
+** Permissions
 Privilegios
 
-{t}Permissions added for: %s{/t}
+** Permissions added for: %s
 Privilegios añadidos para: %s
 
-{t}Personal{/t}
+** Personal
 Personal
 
-{t}Personal department{/t}
+** Personal department
 Departamento personal
 
-{t}Personal folders{/t}
+** Personal folders
 Directorios personales
 
-{t}Personal projects{/t}
+** Personal projects
 Proyectos personales
 
-{t}Phone{/t}
+** Phone
 Teléfono
 
-{t}Phone calls{/t}
+** Phone calls
 Llamadas telefónicas
 
-{t}Phone private{/t}
+** Phone private
 Teléfono privado
 
-{t}Photo{/t}
+** Photo
 Foto
 
-{t}Photo gallery{/t}
+** Photo gallery
 Galería de fotos
 
-{t}Planned{/t}
+** Planned
 Planeado
 
-{t}Please activate cookies.{/t}
+** Please activate cookies.
 Por favor, activa las `cookies`.
 
-{t}Please choose Apache as Web-Server.{/t}
+** Please choose Apache as Web-Server.
 Por favor, elige Apache como servidor web.
 
-{t}Please enable Javascript in your browser.{/t}
+** Please enable Javascript in your browser.
 Por favor, activa Javascript en tu navegador.
 
-{t}Please enter a valid url.{/t}
+** Please enter a valid url.
 Introduce un URL válido.
 
-{t}Please give read access to %s{/t}
+** Please give read access to %s
 Por favor, da acceso de lectura a %s
 
-{t}Please give write access to %s{/t}
+** Please give write access to %s
 Por favor, da acceso de escritura a %s
 
-{t}Please give write access to %s and %s{/t}
+** Please give write access to %s and %s
 Por favor, da acceso de escritura a %s y %s
 
-{t}Please hit reload.{/t}
+** Please hit reload.
 Por favor, haz clic en recargar.
 
-{t}Please input a valid e-mail adress.{/t}
+** Please input a valid e-mail adress.
 Por favor, introduce una dirección de correo válida.
 
-{t}Please install 'tsearch2' for the PostgreSQL database.{/t}
+** Please install 'tsearch2' for the PostgreSQL database.
 Por favor, instala `tsearch2` para la base de datos PostgreSQL.
 
-{t}Please install the php-extension with name '%s'.{/t}
+** Please install the php-extension with name '%s'.
 Por favor, instala la extensión de php llamada %s.
 
-{t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}
+** Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !
 Por favor, modifica tu php.ini o añade un archivo .htaccess cambiando el valor %s por %s (el valor actual es %s).
 
-{t}Please read the following license agreement. Use the scroll bar to view the rest of this agreement.{/t}
+** Please read the following license agreement. Use the scroll bar to view the rest of this agreement.
 Por favor, lee la licencia. Usa la barra de desplazamiento para leer el resto del documento.
 
-{t}Please select a location.{/t}
+** Please select a location.
 Por favor selecciona un país.
 
-{t}Please select a participant.{/t}
+** Please select a participant.
 Por favor, selecciona un participante.
 
-{t}Please upload again.{/t}
+** Please upload again.
 Por favor, súbelo otra vez.
 
-{t}Please wait ...{/t}
+** Please wait ...
 Por favor, espera...
 
-{t}Pop3-error: %s{/t}
+** Pop3-error: %s
 error Pop3: %s
 
-{t}Port{/t}
+** Port
 Puerto
 
-{t}Portal{/t}
+** Portal
 Portal
 
-{t}Position{/t}
+** Position
 Cargo
 
-{t}Positions{/t}
+** Positions
 Cargos
 
-{t}Post{/t}
+** Post
 Enviar
 
-{t}Practical training{/t}
+** Practical training
 
 
-{t}Preformatted block{/t}
+** Preformatted block
 Bloque preformateado
 
-{t}Prepend new field as{/t}
+** Prepend new field as
 Prefija nuevo campo cómo
 
-{t}Prevent formatting{/t}
+** Prevent formatting
 Prevenir formateo
 
-{t}Preview{/t}
+** Preview
 Previsualizar
 
-{t}Price{/t}
+** Price
 Precio
 
-{t}Primary key{/t}
+** Primary key
 Clave primaria
 
-{t}Print{/t}
+** Print
 Imprimir
 
-{t}Print all{/t}
+** Print all
 Imprimir todo
 
-{t}Printer{/t}
+** Printer
 Impresora
 
-{t}Priority{/t}
+** Priority
 Prioridad
 
-{t}Problem{/t}
+** Problem
 Problema
 
-{t}Processes{/t}
+** Processes
 Procesos
 
-{t}Processing %s ...{/t}
+** Processing %s ...
 Procesando %s ...
 
-{t}Program is installed with language %s, please use a different url or run the setup again.{/t}
+** Program is installed with language %s, please use a different url or run the setup again.
 El programa está instalado con el idioma %s, por favor usa un URL diferente o ejecuta de nuevo la instalación.
 
-{t}Progress{/t}
+** Progress
 Progreso
 
-{t}Project{/t}
+** Project
 Proyecto
 
-{t}Project files{/t}
+** Project files
 Archivos del proyecto
 
-{t}Project tasks{/t}
+** Project tasks
 Tareas del proyecto
 
-{t}Projects{/t}
+** Projects
 Proyectos
 
-{t}promising{/t}
+** promising
 prometedor
 
-{t}Properties{/t}
+** Properties
 Propiedades
 
-{t}Prospective client{/t}
+** Prospective client
 Cliente interesado
 
-{t}Public holiday{/t}
+** Public holiday
 
 
-{t}Purchased{/t}
+** Purchased
 Comprado
 
-{t}Question{/t}
+** Question
 Pregunta
 
-{t}Queue{/t}
+** Queue
 Fila
 
-{t}Quick add{/t}
+** Quick add
 Añadir rápidamente
 
-{t}Quota{/t}
+** Quota
 Cuota
 
-{t}Quota (remaining){/t}
+** Quota (remaining)
 Cuota (resto)
 
-{t}Quota [MB]{/t}
+** Quota [MB]
 Cuota [MB]
 
-{t}Quota limitation exceeded: %s{/t}
+** Quota limitation exceeded: %s
 Límite de cuota excedido: %s
 
-{t}R e g i s t e r{/t}
+** R e g i s t e r
 R e g i s t r a r
 
-{t}Rating{/t}
+** Rating
 Posición
 
-{t}Read{/t}
+** Read
 Leer
 
-{t}read access{/t}
+** read access
 acceso de lectura
 
-{t}Read access (groups){/t}
+** Read access (groups)
 Acceso de lectura (grupos)
 
-{t}Read access (users){/t}
+** Read access (users)
 Acceso de lectura (usuarios)
 
-{t}Read only in{/t}
+** Read only in
 Sólo lectura en
 
-{t}Read this page offline:{/t}
+** Read this page offline:
 
 
-{t}ready for repair{/t}
+** ready for repair
 listo para reparar
 
-{t}ready for scrap{/t}
+** ready for scrap
 listo para cortar
 
-{t}Real URL format in the CMS{/t}
+** Real URL format in the CMS
 Formato real de URL en SAC
 
-{t}Really apply rights to subfolders ?{/t}
+** Really apply rights to subfolders ?
 ¿Estás seguro de querer aplicar privilegios a los subdirectorios?
 
-{t}Really apply the changes ?{/t}
+** Really apply the changes ?
 ¿Estás seguro de querer aplicar los cambios?
 
-{t}Really delete ?{/t}
+** Really delete ?
 ¿Estás seguro de que lo quieres borrar?
 
-{t}REALLY delete ALL datasets ?{/t}
+** REALLY delete ALL datasets ?
 ¿Estás seguro de borrar todos los registros?
 
-{t}Really delete ALL subfolders ?{/t}
+** Really delete ALL subfolders ?
 ¿Estás seguro de borrar todos los subdirectorios?
 
-{t}Really delete the dataset(s) ?{/t}
+** Really delete the dataset(s) ?
 ¿Estás seguro de borrar el/los registro(s)?
 
-{t}Really empty the folder ?{/t}
+** Really empty the folder ?
 ¿Estás seguro de vaciar el directorio?
 
-{t}Really overwrite existing dataset(s) ?{/t}
+** Really overwrite existing dataset(s) ?
 ¿Estás seguro de querer sobreescribir los datos?
 
-{t}Really run setup again ?{/t}
+** Really run setup again ?
 ¿Estás seguro de querer ejecutar de nuevo la instalación?
 
-{t}Really uninstall the module ?{/t}
+** Really uninstall the module ?
 ¿Estás seguro de querer desinstalar el módulo?
 
-{t}Rebuild search index{/t}
+** Rebuild search index
 Reconstruir índice de búsqueda
 
-{t}Recent changes{/t}
+** Recent changes
 Cambios recientes
 
-{t}Recipients{/t}
+** Recipients
 Destinatarios
 
-{t}Recommendation of affiliate{/t}
+** Recommendation of affiliate
 Recomendación de afiliado
 
-{t}Recurrence{/t}
+** Recurrence
 Repetición
 
-{t}Recurrences{/t}
+** Recurrences
 Recurrencias
 
-{t}red{/t}
+** red
 rojo
 
-{t}Redirect to home directory{/t}
+** Redirect to home directory
 Llévame a la página de inicio
 
-{t}Reference{/t}
+** Reference
 Referencia
 
-{t}Refresh{/t}
+** Refresh
 Refrescar
 
-{t}Refresh every x seconds{/t}
+** Refresh every x seconds
 Refrescar cada x segundos
 
-{t}Regular{/t}
+** Regular
 Regular
 
-{t}Reject{/t}
+** Reject
 
 
-{t}rejected{/t}
+** rejected
 denegado
 
-{t}Relative formats{/t}
+** Relative formats
 Formatos relativos
 
-{t}Relaunch Setup{/t}
+** Relaunch Setup
 Reiniciar instalación
 
-{t}Relevance{/t}
+** Relevance
 Importancia
 
-{t}Reminder{/t}
+** Reminder
 Recordatorio
 
-{t}rename{/t}
+** rename
 renombrar
 
-{t}Rename folder{/t}
+** Rename folder
 Renombrar directorio
 
-{t}Repeat count{/t}
+** Repeat count
 Nº de veces
 
-{t}Repeat exclusions{/t}
+** Repeat exclusions
 Excepciones
 
-{t}Repeat interval{/t}
+** Repeat interval
 Intervalo
 
-{t}Repeat until{/t}
+** Repeat until
 Repetir hasta
 
-{t}Reply{/t}
+** Reply
 Responder
 
-{t}Reply all{/t}
+** Reply all
 Responder a todos
 
-{t}Require admin access to set mountpoints{/t}
+** Require admin access to set mountpoints
 Requerir acceso de admin para configurar puntos de montaje
 
-{t}Required{/t}
+** Required
 Obligatorio
 
-{t}Required fields{/t}
+** Required fields
 Campos obligatorios
 
-{t}Reseller{/t}
+** Reseller
 Revendedor
 
-{t}reserved{/t}
+** reserved
 reservado
 
-{t}Reset view{/t}
+** Reset view
 Reiniciar vista
 
-{t}Resource{/t}
+** Resource
 Recurso
 
-{t}Resources{/t}
+** Resources
 Recursos
 
-{t}Responsible{/t}
+** Responsible
 Responsable
 
-{t}Responsible (external){/t}
+** Responsible (external)
 Responsable (externo)
 
-{t}Responsible (internal){/t}
+** Responsible (internal)
 Responsable (interno)
 
-{t}Restore complete{/t}
+** Restore complete
 Restauración completa
 
-{t}Restore here{/t}
+** Restore here
 Restaurar aquí
 
-{t}Restore only missing{/t}
+** Restore only missing
 Restaurar sólo los faltantes
 
-{t}Restore only newer{/t}
+** Restore only newer
 Restaurar sólo los más nuevos
 
-{t}Restore to origin{/t}
+** Restore to origin
 Restaurar el original
 
-{t}Return receipt{/t}
+** Return receipt
 Recibo
 
-{t}right-aligned{/t}
+** right-aligned
 alineado a la derecha
 
-{t}Rights{/t}
+** Rights
 Privilegios
 
-{t}Risks{/t}
+** Risks
 Riesgos
 
-{t}Room name{/t}
+** Room name
 Nombre de sala
 
-{t}Room number{/t}
+** Room number
 Número de sala
 
-{t}Rooms{/t}
+** Rooms
 Salas
 
-{t}Rows{/t}
+** Rows
 Filas
 
-{t}Run Setup again{/t}
+** Run Setup again
 Ejecutar instalación de nuevo
 
-{t}S a v e{/t}
+** S a v e
 G u a r d a r
 
-{t}S a v e  a n d  E d i t{/t}
+** S a v e  a n d  E d i t
 G u a r d a r  y  E d i t a r
 
-{t}S a v e  a n d  g o  b a c k{/t}
+** S a v e  a n d  g o  b a c k
 G u a r d a r  y  r e g r e s a r
 
-{t}Sa{/t}
+** Sa
 Sá
 
-{t}Salary{/t}
+** Salary
 
 
-{t}Salary per{/t}
+** Salary per
 
 
-{t}Sales promotion{/t}
+** Sales promotion
 Promoción de ventas
 
-{t}Sat{/t}
+** Sat
 Sáb
 
-{t}Saturday{/t}
+** Saturday
 Sábado
 
-{t}Scheduling{/t}
+** Scheduling
 Planificación
 
-{t}Schema{/t}
+** Schema
 Esquema
 
-{t}Schema data{/t}
+** Schema data
 Esquema de datos
 
-{t}Schemafile not found. (%s){/t}
+** Schemafile not found. (%s)
 Archivo de esquema no encontrado. (%s)
 
-{t}School{/t}
+** School
 
 
-{t}scrapped{/t}
+** scrapped
 desechado
 
-{t}Search{/t}
+** Search
 Buscar
 
-{t}Search by ID{/t}
+** Search by ID
 Buscar por ID
 
-{t}second level support{/t}
+** second level support
 Apoyo de segundo nivel
 
-{t}Second manager{/t}
+** Second manager
 Segundo gerente
 
-{t}seconds{/t}
+** seconds
 segundos
 
-{t}Secretary{/t}
+** Secretary
 Secretaria
 
-{t}Self registration{/t}
+** Self registration
 Auto registro
 
-{t}Self registration needs confirmation by an administrator.{/t}
+** Self registration needs confirmation by an administrator.
 La autoinscripción requiere confirmación de un administrador.
 
-{t}Send now{/t}
+** Send now
 Enviar ahora
 
-{t}Sent{/t}
+** Sent
 Enviado
 
-{t}Sent reminders{/t}
+** Sent reminders
 Recordatorios enviados
 
-{t}Sep{/t}
+** Sep
 Sep
 
-{t}Separate fields{/t}
+** Separate fields
 Separar campos
 
-{t}Separate values{/t}
+** Separate values
 Separar valores
 
-{t}Separator{/t}
+** Separator
 Separador
 
-{t}Separators{/t}
+** Separators
 Separadores
 
-{t}September{/t}
+** September
 Septiembre
 
-{t}Serial number{/t}
+** Serial number
 Número de serie
 
-{t}Server{/t}
+** Server
 Servidor
 
-{t}Server does not support sorting{/t}
+** Server does not support sorting
 El servidor no puede ordenar
 
-{t}Server-IP{/t}
+** Server-IP
 Servidor-IP
 
-{t}Service provider{/t}
+** Service provider
 Proveedor del servicio
 
-{t}Session name in cookie{/t}
+** Session name in cookie
 Nombre de sesión en la cookie
 
-{t}Session timeout{/t}
+** Session timeout
 Se terminó el tiempo de la sesión
 
-{t}Sessions{/t}
+** Sessions
 Sesiones
 
-{t}Settings{/t}
+** Settings
 
 
-{t}Setup{/t}
+** Setup
 Configuración
 
-{t}Setup needs a database-php-extension ! (%s){/t}
+** Setup needs a database-php-extension ! (%s)
 ¡La configuración necesita una extensión php de base de datos! (%s)
 
-{t}Setup needs php with at least version %s !{/t}
+** Setup needs php with at least version %s !
 ¡La configuración necesita como mínimo la versión %s de php!
 
-{t}Setup needs php-extension with name %s !{/t}
+** Setup needs php-extension with name %s !
 ¡La configuración necesita la extensión %s de php!
 
-{t}Setup needs Simple Groupware with at least version %s !{/t}
+** Setup needs Simple Groupware with at least version %s !
 ¡La configuración necesita como mínimo la versión %s de Simple Groupware!
 
-{t}Setup: setup-data written to %s.{/t}
+** Setup: setup-data written to %s.
 Configuración: Datos de configuración escritos en %s.
 
-{t}Shapes{/t}
+** Shapes
 Formas
 
-{t}Share{/t}
+** Share
 Compartir
 
-{t}Shared{/t}
+** Shared
 Compartido
 
-{t}Short links{/t}
+** Short links
 Enlaces cortos
 
-{t}Show{/t}
+** Show
 Mostrar
 
-{t}Show all rules{/t}
+** Show all rules
 Muestra todas las reglas
 
-{t}Show archive{/t}
+** Show archive
 Mostrar archivo
 
-{t}Show details{/t}
+** Show details
 Mostrar detalles
 
-{t}Show folder description in content area{/t}
+** Show folder description in content area
 Mostrar descripción del directorio en el área de contenido
 
-{t}Show password{/t}
+** Show password
 Mostrar contraseña
 
-{t}Show quoted text{/t}
+** Show quoted text
 Mostrar texto citado
 
-{t}Similar{/t}
+** Similar
 Similar
 
-{t}Simple tables{/t}
+** Simple tables
 Tablas simples
 
-{t}single{/t}
+** single
 soltero
 
-{t}Single choice{/t}
+** Single choice
 Opción única
 
-{t}Size{/t}
+** Size
 Tamaño
 
-{t}Size (children){/t}
+** Size (children)
 Tamaño (descendientes)
 
-{t}Slow{/t}
+** Slow
 Ralentización
 
-{t}small{/t}
+** small
 pequeño
 
-{t}small text{/t}
+** small text
 texto pequeño
 
-{t}smaller{/t}
+** smaller
 más pequeño
 
-{t}SMTP not configured for %s{/t}
+** SMTP not configured for %s
 SMTP no configurado para %s
 
-{t}Smtp-error %s: %s{/t}
+** Smtp-error %s: %s
 Error smtp %s: %s
 
-{t}Software{/t}
+** Software
 Programa
 
-{t}Solution{/t}
+** Solution
 Solución
 
-{t}Solution type{/t}
+** Solution type
 Tipo de solución
 
-{t}some text{/t}
+** some text
 texto cualquiera
 
-{t}Source{/t}
+** Source
 Fuente
 
-{t}Source code{/t}
+** Source code
 Código fuente
 
-{t}Special leave{/t}
+** Special leave
 
 
-{t}Specification{/t}
+** Specification
 Especificación
 
-{t}Spreadsheet{/t}
+** Spreadsheet
 Hoja de cálculo
 
-{t}SQL failed.{/t}
+** SQL failed.
 Fallo SQL.
 
-{t}SQL FAILED: %s{/t}
+** SQL FAILED: %s
 FALLO SQL: %s
 
-{t}Start scheduled{/t}
+** Start scheduled
 Inicio programado
 
-{t}Started{/t}
+** Started
 Iniciado
 
-{t}starts with{/t}
+** starts with
 comienza con
 
-{t}State{/t}
+** State
 Estado
 
-{t}Static cache{/t}
+** Static cache
 Cache estático
 
-{t}Statistics{/t}
+** Statistics
 Estadísticas
 
-{t}Status{/t}
+** Status
 Estado
 
-{t}Statuses{/t}
+** Statuses
 Estados
 
-{t}Strategies{/t}
+** Strategies
 Estrategias
 
-{t}Street{/t}
+** Street
 Calle
 
-{t}Structure{/t}
+** Structure
 Estructura
 
-{t}Su{/t}
+** Su
 Do
 
-{t}Subfolder{/t}
+** Subfolder
 
 
-{t}Subfolders{/t}
+** Subfolders
 Subdirectorios
 
-{t}subheading{/t}
+** subheading
 subencabezado
 
-{t}Subitem{/t}
+** Subitem
 Sub artículo
 
-{t}Subject{/t}
+** Subject
 Asunto
 
-{t}Subjects{/t}
+** Subjects
 Asuntos
 
-{t}Submit a patch{/t}
+** Submit a patch
 Enviar un parche
 
-{t}Subpages{/t}
+** Subpages
 Subpáginas
 
-{t}subscript{/t}
+** subscript
 subíndice
 
-{t}Subsistence costs{/t}
+** Subsistence costs
 Gastos de estancia
 
-{t}Sum{/t}
+** Sum
 Res
 
-{t}Summary{/t}
+** Summary
 Resumen
 
-{t}Sun{/t}
+** Sun
 Dom
 
-{t}Sunday{/t}
+** Sunday
 Domingo
 
-{t}Superior{/t}
+** Superior
 Superior
 
-{t}superscript{/t}
+** superscript
 superíndice
 
-{t}Supplier{/t}
+** Supplier
 Proveedor
 
-{t}Suppliers{/t}
+** Suppliers
 Proveedores
 
-{t}Support{/t}
+** Support
 Asistencia
 
-{t}Support request{/t}
+** Support request
 Petición de asistencia
 
-{t}Surveys{/t}
+** Surveys
 Encuestas
 
-{t}Suspended{/t}
+** Suspended
 Suspendido
 
-{t}Switch maintenance mode{/t}
+** Switch maintenance mode
 Cambiar modo de mantenimiento
 
-{t}Sync4j remote delete items{/t}
+** Sync4j remote delete items
 Borrado remoto de elementos Sync4j
 
-{t}Syntax{/t}
+** Syntax
 Sintaxis
 
-{t}System{/t}
+** System
 Sistema
 
-{t}System command executed: %s{/t}
+** System command executed: %s
 Comando de sistema ejecutado: %s
 
-{t}Tab{/t}
+** Tab
 Tabulación
 
-{t}Table{/t}
+** Table
 Tabla
 
-{t}Table sizes{/t}
+** Table sizes
 Tamaño de la tabla
 
-{t}Table status{/t}
+** Table status
 Estado de la tabla
 
-{t}Tables{/t}
+** Tables
 Tablas
 
-{t}Take over{/t}
+** Take over
 Hacerse cargo
 
-{t}Take selection{/t}
+** Take selection
 Seleccionar
 
-{t}Task{/t}
+** Task
 Tarea
 
-{t}Task with ID %s{/t}
+** Task with ID %s
 Tarea con ID %s
 
-{t}Tasks{/t}
+** Tasks
 Tareas
 
-{t}Tasks with responsible %s{/t}
+** Tasks with responsible %s
 Tareas cuyo responsable es %s
 
-{t}Template{/t}
+** Template
 Plantilla
 
-{t}Templates{/t}
+** Templates
 Plantillas
 
-{t}Temporary work{/t}
+** Temporary work
 
 
-{t}term{/t}
+** term
 término
 
-{t}Text area{/t}
+** Text area
 Área de texto
 
-{t}Text Document{/t}
+** Text Document
 Documento de texto
 
-{t}Text formatting rules{/t}
+** Text formatting rules
 Reglas de formateo de texto
 
-{t}Th{/t}
+** Th
 Ju
 
-{t}Thanks for voting!{/t}
+** Thanks for voting!
 ¡Gracias por votar!
 
-{t}The folder cannot be copied.{/t}
+** The folder cannot be copied.
 El directorio no se puede copiar.
 
-{t}The folder cannot be deleted.{/t}
+** The folder cannot be deleted.
 El directorio no se puede borrar.
 
-{t}The folder cannot be moved.{/t}
+** The folder cannot be moved.
 El directorio no se puede mover.
 
-{t}The new password is{/t}
+** The new password is
 La nueva contraseña es
 
-{t}The url doesn't exist.{/t}
+** The url doesn't exist.
 La URL no existe.
 
-{t}Theme{/t}
+** Theme
 Tema
 
-{t}third level support{/t}
+** third level support
 asistencia de tercer nivel
 
-{t}this file extension is not allowed{/t}
+** this file extension is not allowed
 no se permite esta extensión de archivo
 
-{t}Thu{/t}
+** Thu
 Jue
 
-{t}Thursday{/t}
+** Thursday
 Jueves
 
-{t}Time and expenses{/t}
+** Time and expenses
 Tiempo y gastos
 
-{t}Time limit{/t}
+** Time limit
 Tíempo límite
 
-{t}Time sheets{/t}
+** Time sheets
 Hojas de tiempo
 
-{t}Time zone{/t}
+** Time zone
 Franja horaria
 
-{t}timeout{/t}
+** timeout
 fuera de tiempo
 
-{t}Title{/t}
+** Title
 Título
 
-{t}To{/t}
+** To
 Para
 
-{t}to be checked{/t}
+** to be checked
 has de comprobar
 
-{t}To continue installing Simple Groupware you must check the box under the license{/t}
+** To continue installing Simple Groupware you must check the box under the license
 Para continuar instalando Simple Groupware debes confirmar que aceptas la licencia (en la parte de abajo)
 
-{t}Today{/t}
+** Today
 Hoy
 
-{t}Too many wrong logins. Please wait 15 minutes.{/t}
+** Too many wrong logins. Please wait 15 minutes.
 Demasiados accesos erróneos. Por favor, espera 15 minutos.
 
-{t}Total{/t}
+** Total
 Total
 
-{t}Trace{/t}
+** Trace
 Traza
 
-{t}Trade fair{/t}
+** Trade fair
 Feria de muestras
 
-{t}translations{/t}
+** translations
 traducciones
 
-{t}Translations of the GNU GPL{/t}
+** Translations of the GNU GPL
 Traducciones de la GNU GPL
 
-{t}Transportation costs{/t}
+** Transportation costs
 Gastos de desplazamiento
 
-{t}Trash{/t}
+** Trash
 Papelera
 
-{t}Trash folder not found.{/t}
+** Trash folder not found.
 El directorio de la papelera no se ha encontrado.
 
-{t}Tree{/t}
+** Tree
 Árbol
 
-{t}Trigger failed{/t}
+** Trigger failed
 Falló el disparador
 
-{t}Tu{/t}
+** Tu
 Ma
 
-{t}Tue{/t}
+** Tue
 Mar
 
-{t}Tuesday{/t}
+** Tuesday
 Martes
 
-{t}Type{/t}
+** Type
 Tipo
 
-{t}U n i n s t a l l{/t}
+** U n i n s t a l l
 D e s i n s t a l a r
 
-{t}unable to find %s{/t}
+** unable to find %s
 no se pudo encontrar %s
 
-{t}Unable to write to %s{/t}
+** Unable to write to %s
 No se pudo escribir en %s
 
-{t}unconfirmed{/t}
+** unconfirmed
 no confirmado
 
-{t}Unconfirmed{/t}
+** Unconfirmed
 No confirmado
 
-{t}underline{/t}
+** underline
 subrayado
 
-{t}Uninstall does not delete any data in the database.{/t}
+** Uninstall does not delete any data in the database.
 La desinstalación no borra información de la base de datos.
 
-{t}uninterested{/t}
+** uninterested
 no interesado
 
-{t}Unique{/t}
+** Unique
 Único
 
-{t}Unique with trash{/t}
+** Unique with trash
 Único con basura
 
-{t}Unlock{/t}
+** Unlock
 Desbloquear
 
-{t}Up{/t}
+** Up
 Arriba
 
-{t}Update{/t}
+** Update
 Actualizar
 
-{t}Update Simple Groupware{/t}
+** Update Simple Groupware
 Actualizar Simple Groupware
 
-{t}Updated{/t}
+** Updated
 Actualizado
 
-{t}Updating schema %s from %s.{/t}
+** Updating schema %s from %s.
 Actualizando el esquema %s a partir de %s.
 
-{t}Upload failed{/t}
+** Upload failed
 Falló la subida de archivos
 
-{t}Uploaded files{/t}
+** Uploaded files
 Archivos subidos
 
-{t}Uploading{/t}
+** Uploading
 Subiendo
 
-{t}urgent{/t}
+** urgent
 urgente
 
-{t}URL{/t}
+** URL
 URL
 
-{t}Usage{/t}
+** Usage
 Uso
 
-{t}USD{/t}
+** USD
 USD
 
-{t}Use APC for session storage{/t}
+** Use APC for session storage
 
 
-{t}Use Debian binaries (Warning: not latest versions){/t}
+** Use Debian binaries (Warning: not latest versions)
 Usa los binarios de Debian (Precaución: no las últimas versiones)
 
-{t}Use LDAP Groups{/t}
+** Use LDAP Groups
 Usa grupos LDAP
 
-{t}use mirror from{/t}
+** use mirror from
 usa espejo en
 
-{t}Use syslog() function for logging events{/t}
+** Use syslog() function for logging events
 Usa la función syslog() para registrar eventos
 
-{t}Use the mail() function for sending mails (insecure){/t}
+** Use the mail() function for sending mails (insecure)
 Usa la función mail() para el envío de correo electrónico (no seguro)
 
-{t}User{/t}
+** User
 Usuario
 
-{t}User not found.{/t}
+** User not found.
 No se encuentra el usuario.
 
-{t}Username{/t}
+** Username
 Usuario
 
-{t}Username must be different from the super administrator.{/t}
+** Username must be different from the super administrator.
 El nombre de usuario debe ser diferente del superadministrador.
 
-{t}Users{/t}
+** Users
 Usuarios
 
-{t}V a l i d a t e{/t}
+** V a l i d a t e
 V a l i d a r
 
-{t}V o t e !{/t}
+** V o t e !
 ¡ V o t a r !
 
-{t}Vacation{/t}
+** Vacation
 Vacaciones
 
-{t}Vacation days per year{/t}
+** Vacation days per year
 
 
-{t}Validating %s ...{/t}
+** Validating %s ...
 Validando %s...
 
-{t}validation failed{/t}
+** validation failed
 Falló la validación
 
-{t}Value{/t}
+** Value
 Valor
 
-{t}Value '%s' needs a group membership: %s{/t}
+** Value '%s' needs a group membership: %s
 Es necesario que el valor `%s` sea miembro del grupo: %s
 
-{t}Variable{/t}
+** Variable
 Variable
 
-{t}Variable already exists in table. (%s){/t}
+** Variable already exists in table. (%s)
 La variable ya existe en la tabla. (%s)
 
-{t}Variable must be of type date (mm/dd/yyyy).{/t}
+** Variable must be of type date (mm/dd/yyyy).
 La variable debe ser de tipo fecha (mm/dd/yyyy).
 
-{t}Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).{/t}
+** Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).
 La variable debe ser de tipo fecha/hora (mm/dd/yyyy hh:mm am/pm).
 
-{t}Variable must be of type float.{/t}
+** Variable must be of type float.
 La variable debe ser de tipo punto flotante.
 
-{t}Variable must be of type int and greater than 0.{/t}
+** Variable must be of type int and greater than 0.
 La variable debe ser de tipo entero y mayor que cero.
 
-{t}Variable must be of type int.{/t}
+** Variable must be of type int.
 La variable debe ser de tipo entero.
 
-{t}Variable must be of type time (hh:mm am/pm).{/t}
+** Variable must be of type time (hh:mm am/pm).
 La variable debe ser de tipo hora (hh:mm am/pm).
 
-{t}Variables{/t}
+** Variables
 Variables
 
-{t}Verbal recommendation{/t}
+** Verbal recommendation
 Recomendación verbal
 
-{t}verified{/t}
+** verified
 verificado
 
-{t}vertical{/t}
+** vertical
 vertical
 
-{t}very promising{/t}
+** very promising
 muy prometedor
 
-{t}View{/t}
+** View
 Ver
 
-{t}View access (groups){/t}
+** View access (groups)
 Acceso de vista (grupos)
 
-{t}View access (users){/t}
+** View access (users)
 Acceso de vista (usuarios)
 
-{t}Virus scanner{/t}
+** Virus scanner
 Anti virus
 
-{t}Visibility{/t}
+** Visibility
 Visibilidad
 
-{t}Voice mail{/t}
+** Voice mail
 Correo de voz
 
-{t}Vote{/t}
+** Vote
 Voto
 
-{t}Voted by{/t}
+** Voted by
 Votado por
 
-{t}Waiting{/t}
+** Waiting
 Esperando
 
-{t}Warning{/t}
+** Warning
 Advertencia
 
-{t}We{/t}
+** We
 Mi
 
-{t}Web{/t}
+** Web
 Web
 
-{t}Web page{/t}
+** Web page
 Página Web
 
-{t}Wed{/t}
+** Wed
 Mié
 
-{t}Wednesday{/t}
+** Wednesday
 Miércoles
 
-{t}Week{/t}
+** Week
 Semana
 
-{t}Week start{/t}
+** Week start
 Inicio de semana
 
-{t}Weekend{/t}
+** Weekend
 Fin de semana
 
-{t}weekly{/t}
+** weekly
 semanal
 
-{t}weeks{/t}
+** weeks
 semanas
 
-{t}Welcome to Simple Groupware!{/t}
+** Welcome to Simple Groupware!
 ¡Bienvenido a Simple Groupware!
 
-{t}white{/t}
+** white
 blanco
 
-{t}widowed{/t}
+** widowed
 viudo
 
-{t}Width{/t}
+** Width
 Ancho
 
-{t}Wiki{/t}
+** Wiki
 Wiki
 
-{t}WikiStyles{/t}
+** WikiStyles
 WikiStyles
 
-{t}won't fix{/t}
+** won't fix
 no será arreglado
 
-{t}word{/t}
+** word
 palabra
 
-{t}Workflow{/t}
+** Workflow
 
 
-{t}Working student{/t}
+** Working student
 
 
-{t}works as expected{/t}
+** works as expected
 funciona como se supone
 
-{t}works for me{/t}
+** works for me
 a mí me funciona
 
-{t}Workshop{/t}
+** Workshop
 Seminario
 
-{t}Workspace{/t}
+** Workspace
 Espacio de trabajo
 
-{t}write access{/t}
+** write access
 acceso de escritura
 
-{t}Write access (groups){/t}
+** Write access (groups)
 Acceso de escritura (grupos)
 
-{t}Write access (users){/t}
+** Write access (users)
 Acceso de escritura (usuarios)
 
-{t}Wrong database-version (%s). Please use at least %s !{/t}
+** Wrong database-version (%s). Please use at least %s !
 Versión de base de datos errónea (%s). Como mínimo usa %s.
 
-{t}wrong directory{/t}
+** wrong directory
 directorio erróneo
 
-{t}wrong password{/t}
+** wrong password
 contraseña errónea
 
-{t}Year{/t}
+** Year
 Año
 
-{t}yearly{/t}
+** yearly
 anual
 
-{t}years{/t}
+** years
 
 
-{t}yellow{/t}
+** yellow
 amarillo
 
-{t}yes{/t}
+** yes
 si
 
-{t}You are not allowed to view this folder.{/t}
+** You are not allowed to view this folder.
 No tienes los suficientes privilegios para ver este directorio.
 
-{t}Your message was read on %s.{/t}
+** Your message was read on %s.
 Tu mensaje fue leído el %s.
 
-{t}Your session has timed out.{/t}
+** Your session has timed out.
 Ha terminado el tiempo de tu sesión.
 
-{t}Zipcode{/t}
+** Zipcode
 Códgo postal
 
-{t}{0} - {1} of {2}{/t}
+** {0} - {1} of {2}
 {0} - {1} de {2}
 

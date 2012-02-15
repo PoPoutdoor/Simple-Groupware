@@ -3,3239 +3,3239 @@
  * @license GPLv2
  */
 
-{t}!_Copyright_Language_File{/t}
+** !_Copyright_Language_File
 Copyright (C) 2011 Kurt Klippel
 
-{t}!_Language{/t}
+** !_Language
 Suomi / Finnish
 
-{t}%s is not activated{/t}
+** %s is not activated
 %s ei aktivoitu
 
-{t}%s is not compiled / loaded into PHP.{/t}
+** %s is not compiled / loaded into PHP.
 %s ei käännety / ei ladattu PHP:hen
 
-{t}%s not in database{/t}
+** %s not in database
 %s ei tietokannassa
 
-{t}%s rows affected{/t}
+** %s rows affected
 Koske %s riviä
 
-{t}%s secs{/t}
+** %s secs
 %s Sek.
 
-{t}%s started editing this asset at %s{/t}
+** %s started editing this asset at %s
 %s aloiti %s tämän tietuen käsittely
 
-{t}(for active directory username must be: username@domain){/t}
+** (for active directory username must be: username@domain)
 (Active Directory vaadi käyttäjänimen muodossa käyttäjä@domain)
 
-{t}(un)Group{/t}
+** (un)Group
 Ryhmittä
 
-{t}first level support{/t}
+** first level support
 1. tason tuki
 
-{t}second level support{/t}
+** second level support
 2. tason tuki
 
-{t}third level support{/t}
+** third level support
 3. tason tuki
 
-{t}About{/t}
+** About
 Simple Groupwarestä
 
-{t}accepted{/t}
+** accepted
 Hyväksytty
 
-{t}Access denied.{/t}
+** Access denied.
 Käyttö ei mahdollista.
 
-{t}Access to this file has been denied.{/t}
+** Access to this file has been denied.
 Tämän tiedoston käyttö estetty.
 
-{t}Account{/t}
+** Account
 Tili
 
-{t}account of %s has expired{/t}
+** account of %s has expired
  %s :n tili on vanhentunut
 
-{t}Accounting{/t}
+** Accounting
 Kirjanpito
 
-{t}Activate{/t}
+** Activate
 Aktivointi
 
-{t}Activated{/t}
+** Activated
 Aktivoitu
 
-{t}Active{/t}
+** Active
 Aktiivi
 
-{t}Ad{/t}
+** Ad
 Näytä
 
-{t}Add{/t}
+** Add
 Lisää
 
-{t}Add to offline folders{/t}
+** Add to offline folders
 Lisätä Offline- kansioihiin
 
-{t}added line{/t}
+** added line
 lisätty rivi
 
-{t}Address{/t}
+** Address
 Osoite
 
-{t}admin access{/t}
+** admin access
 Adminkäyttö
 
-{t}Admin access (groups){/t}
+** Admin access (groups)
 Adminkäyttö (Ryhmät)
 
-{t}Admin access (users){/t}
+** Admin access (users)
 Adminkäyttö (Käyttäjät)
 
-{t}Admin Password{/t}
+** Admin Password
 Admin Salasana
 
-{t}Admin Username{/t}
+** Admin Username
 Admin Käyttäjänimi
 
-{t}Administration{/t}
+** Administration
 Hallinta
 
-{t}Advanced tables{/t}
+** Advanced tables
 Laajenetut Taulukot
 
-{t}Affected user{/t}
+** Affected user
 kyseinen Käyttäjä
 
-{t}Affiliate{/t}
+** Affiliate
 Partneri
 
-{t}after{/t}
+** after
 Jälkeen
 
-{t}Agent{/t}
+** Agent
 Käsittelijä
 
-{t}Ajax Error{/t}
+** Ajax Error
 Ajax-virhe
 
-{t}All{/t}
+** All
 Kaikki
 
-{t}All day{/t}
+** All day
 Koko päivä
 
-{t}All events{/t}
+** All events
 Kaikki Tapahtumat
 
-{t}All finished tasks{/t}
+** All finished tasks
 Kaikki valmiit tehtävät
 
-{t}All pending tasks{/t}
+** All pending tasks
 Kaikki keskeneräiset tehtävät
 
-{t}Allow disabled modules{/t}
+** Allow disabled modules
 Salli deaktivoitut modulit
 
-{t}Already running latest release.{/t}
+** Already running latest release.
 Uusin versio on jo käyttössä
 
-{t}Already voted.{/t}
+** Already voted.
 Olet jo äänestynyt.
 
-{t}Amount{/t}
+** Amount
 Summa
 
-{t}Anchor{/t}
+** Anchor
 Ankkuri
 
-{t}and{/t}
+** and
 ja
 
-{t}Anniversary{/t}
+** Anniversary
 Vuosipäivä
 
-{t}another page{/t}
+** another page
 toinen sivu
 
-{t}answered{/t}
+** answered
 vastattu
 
-{t}Answers{/t}
+** Answers
 Vastaukset
 
-{t}Apache based (.htaccess, Basic, Digest, etc.){/t}
+** Apache based (.htaccess, Basic, Digest, etc.)
 Apache pohjainen (.htaccess, Basic, Digest, usw.)
 
-{t}Appointments{/t}
+** Appointments
 Tapaamiset
 
-{t}Application title{/t}
+** Application title
 Ohjelman nimi
 
-{t}Apply rights to subfolders{/t}
+** Apply rights to subfolders
 Käyttä oikeudet alikansiossa
 
-{t}Apr{/t}
+** Apr
 Hu
 
-{t}April{/t}
+** April
 Huuhtikuu
 
-{t}Archive deleted files{/t}
+** Archive deleted files
 Poistetut tiedostot arkistoitaan
 
-{t}Asset{/t}
+** Asset
 Tietue
 
-{t}Asset marked as read-only.{/t}
+** Asset marked as read-only.
 Tietue merkattu kirjoitussuojatuksi.
 
-{t}Assets{/t}
+** Assets
 Tietuet
 
-{t}Assets (children){/t}
+** Assets (children)
 Tietuet (Alikansioita)
 
-{t}assigned{/t}
+** assigned
 osoitettu
 
-{t}at least 20 characters{/t}
+** at least 20 characters
 vähintään 20 merkkiä
 
-{t}attach file{/t}
+** attach file
 tiedosto liittäminen
 
-{t}Attachment{/t}
+** Attachment
 Liitetiedosto
 
-{t}Attachments{/t}
+** Attachments
 Liitetiedostot
 
-{t}Attend{/t}
+** Attend
 Osallistua
 
-{t}Aug{/t}
+** Aug
 Elo
 
-{t}August{/t}
+** August
 Elokuu
 
-{t}Authentication Mode{/t}
+** Authentication Mode
 Tunnistustapa
 
-{t}Author{/t}
+** Author
 Tekijä
 
-{t}Automatically hide the menu{/t}
+** Automatically hide the menu
 Piilota menu automaattisesti
 
-{t}Automatically hide the tree{/t}
+** Automatically hide the tree
 Piilota kansiorakenne automaattisesti
 
-{t}Average progress{/t}
+** Average progress
 Keskimääräinen edistys
 
-{t}Avg length{/t}
+** Avg length
 Keskim. pituus 
 
-{t}Back{/t}
+** Back
 Takaisin
 
-{t}Backup{/t}
+** Backup
 Varmuuskopio
 
-{t}Backup current folder{/t}
+** Backup current folder
 Varmuuskopioi tämän kansion
 
-{t}Backups{/t}
+** Backups
 Varmuuskopiot
 
-{t}Basic editing{/t}
+** Basic editing
 Editoinin perusteet
 
-{t}before{/t}
+** before
 ennen
 
-{t}Begin{/t}
+** Begin
 Alku
 
-{t}big{/t}
+** big
 iso
 
-{t}big text{/t}
+** big text
 Iso teksti
 
-{t}bigger{/t}
+** bigger
 isompi
 
-{t}Billing address{/t}
+** Billing address
 Laskutusosoite
 
-{t}Birthday{/t}
+** Birthday
 Syntymäpäivä
 
-{t}Birthdays{/t}
+** Birthdays
 Syntymäpäivät
 
-{t}Blank{/t}
+** Blank
 Tyhjä
 
-{t}blue{/t}
+** blue
 sininen
 
-{t}bold{/t}
+** bold
 lihavoitu
 
-{t}bold italic{/t}
+** bold italic
 lihavoitu kursiivi
 
-{t}booked{/t}
+** booked
 varattu
 
-{t}Booked{/t}
+** Booked
 Varattu
 
-{t}Booking number{/t}
+** Booking number
 Varausnumero
 
-{t}Bookings{/t}
+** Bookings
 Tilauksia
 
-{t}Bookmarks{/t}
+** Bookmarks
 Kirjamerkkit
 
-{t}borrowed{/t}
+** borrowed
 lainattu
 
-{t}Brand{/t}
+** Brand
 Merkki
 
-{t}Brands{/t}
+** Brands
 Merkkit
 
-{t}Browser Compatibility{/t}
+** Browser Compatibility
 Selaimen yhteensopivuus
 
-{t}Browser not supported{/t}
+** Browser not supported
 Selain ei tuettu
 
-{t}Budget{/t}
+** Budget
 Budjetti
 
-{t}Bug{/t}
+** Bug
 Vika
 
-{t}bulleted{/t}
+** bulleted
 Listaus
 
-{t}Business{/t}
+** Business
 Yritys
 
-{t}C a n c e l{/t}
+** C a n c e l
 H y l k ä ä 
 
-{t}C O N T I N U E{/t}
+** C O N T I N U E
 J A T K A A
 
-{t}Cache output{/t}
+** Cache output
 Tallenna output välimuistiin
 
-{t}Caches{/t}
+** Caches
 Välimuisti
 
-{t}Calendar{/t}
+** Calendar
 Kalenteri
 
-{t}canceled{/t}
+** canceled
 Peruutettu
 
-{t}Canceled{/t}
+** Canceled
 Peruutettu
 
-{t}Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.{/t}
+** Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.
 Proc_open ei voi käynnistä. Poista proc_open paikasta disable_functions php.ini tiedostossa ja deaktivoi safe_mode.
 
-{t}Cannot connect to database %s on %s.{/t}
+** Cannot connect to database %s on %s.
 Yhteys tietokantaan %s osoiteesa %s ei onnistunut.
 
-{t}Cannot create preview for %s{/t}
+** Cannot create preview for %s
 Esikatselu %s muodossa ei onnistunut
 
-{t}Cannot read the file %s.{/t}
+** Cannot read the file %s.
 Tiedosto %s ei saa luettu.
 
-{t}Cardinality{/t}
+** Cardinality
 Kardinaliteetti
 
-{t}Categories{/t}
+** Categories
 Kategoriat
 
-{t}Category{/t}
+** Category
 Kategoria
 
-{t}Cc{/t}
+** Cc
 Kopio
 
-{t}centered{/t}
+** centered
 Keskitetty
 
-{t}CEO{/t}
+** CEO
 Toimitusjohtaja
 
-{t}Change request{/t}
+** Change request
 Muutoshakemus
 
-{t}Change settings{/t}
+** Change settings
 Muuttaa asetukset
 
-{t}Change Setup settings{/t}
+** Change Setup settings
 Muuttaa Setup asetukset
 
-{t}Change summary{/t}
+** Change summary
 Muutoksen yhteenveto
 
-{t}changed line{/t}
+** changed line
 muutettu rivi
 
-{t}Changelog{/t}
+** Changelog
 Changelog
 
-{t}Chat{/t}
+** Chat
 Chat
 
-{t}Check DoS Attacks{/t}
+** Check DoS Attacks
 DoS- hyökäyksien valvonta
 
-{t}checked{/t}
+** checked
 Tarkistettu
 
-{t}Checked{/t}
+** Checked
 Tarkistettu
 
-{t}Choices{/t}
+** Choices
 Valintamahdollisuudet
 
-{t}CIO{/t}
+** CIO
 Technologian johtaja
 
-{t}City{/t}
+** City
 Kaupunki
 
-{t}Clean{/t}
+** Clean
 Siivota
 
-{t}Clean Cache{/t}
+** Clean Cache
 Siivota välimuistin 
 
-{t}Clear{/t}
+** Clear
 Poista kaikki!
 
-{t}Clear Cache{/t}
+** Clear Cache
 Tyhjentä välimuistin
 
-{t}Clear Data{/t}
+** Clear Data
 Datan poisto
 
-{t}Clear grouping{/t}
+** Clear grouping
 Ryhmitelyn poisto
 
-{t}Client{/t}
+** Client
 Asiakas
 
-{t}Close{/t}
+** Close
 Lopeta
 
-{t}Close session{/t}
+** Close session
 Lopeta istuntoa
 
-{t}closed{/t}
+** closed
 lopetettu
 
-{t}Closed{/t}
+** Closed
 Loppuun käsitelty
 
-{t}CMS{/t}
+** CMS
 CMS
 
-{t}CMS homepage title{/t}
+** CMS homepage title
 Kotisivun nimi (CMS)
 
-{t}Collapse text{/t}
+** Collapse text
 pienenä teksti
 
-{t}Collapse tree{/t}
+** Collapse tree
 pienenä hakemistopuu
 
-{t}Color{/t}
+** Color
 Väri
 
-{t}Column name{/t}
+** Column name
 Saraken nimi
 
-{t}Combination{/t}
+** Combination
 Yhdistelmä
 
-{t}Comma{/t}
+** Comma
 Komma
 
-{t}Comma separated values{/t}
+** Comma separated values
 Pikulla erotetut arvot
 
-{t}Command{/t}
+** Command
 komento
 
-{t}Comment{/t}
+** Comment
 Huomautus
 
-{t}Comment files{/t}
+** Comment files
 Huomautus tiedostot
 
-{t}Companies{/t}
+** Companies
 Yritykset
 
-{t}Company{/t}
+** Company
 Yritys
 
-{t}Competition{/t}
+** Competition
 Kilpailu
 
-{t}Competitor{/t}
+** Competitor
 Kilpailija
 
-{t}Completed{/t}
+** Completed
 Päätetty
 
-{t}Component{/t}
+** Component
 Komponentti
 
-{t}Compress output{/t}
+** Compress output
 Pakkaa output
 
-{t}confirmed{/t}
+** confirmed
 vahvistettu
 
-{t}connection failed{/t}
+** connection failed
 Yhteys epäonnistui
 
-{t}Connection to database failed.{/t}
+** Connection to database failed.
 Yhteys tietokantaan epäonnistui.
 
-{t}Consultant{/t}
+** Consultant
 Konsultti
 
-{t}Contact{/t}
+** Contact
 Kontaktit
 
-{t}Contact activities{/t}
+** Contact activities
 Kontakti toiminta 
 
-{t}Contact by{/t}
+** Contact by
 Yhteydenotto: 
 
-{t}Contact groups{/t}
+** Contact groups
 Sidosryhmät
 
-{t}Contact id{/t}
+** Contact id
 Yhteys ID
 
-{t}Contact person{/t}
+** Contact person
 Yhteyshenkilö 
 
-{t}Contact user by{/t}
+** Contact user by
 Ota yhteys käyttäjälle per 
 
-{t}Contacts{/t}
+** Contacts
 Kontaktit
 
-{t}contains{/t}
+** contains
 sisältää
 
-{t}Content{/t}
+** Content
 Sisältö
 
-{t}Continue{/t}
+** Continue
 Jatkaa
 
-{t}Copier{/t}
+** Copier
 Kopiokone
 
-{t}Copy{/t}
+** Copy
 Kopioi
 
-{t}Cost center{/t}
+** Cost center
 Kustannuspaikat
 
-{t}Costs of accommodation{/t}
+** Costs of accommodation
 Majoituskustannukset
 
-{t}Could not determine database-version.{/t}
+** Could not determine database-version.
 ei voitu määrittää tietokanta-version.
 
-{t}Country{/t}
+** Country
 Maakunta
 
-{t}Created{/t}
+** Created
 Luotu 
 
-{t}Creating database failed.{/t}
+** Creating database failed.
 Tietokantaan luominen epäonnistui. 
 
-{t}current path{/t}
+** current path
 nykynen polku
 
-{t}current time{/t}
+** current time
 nykynen aika
 
-{t}Curriculum vitae{/t}
+** Curriculum vitae
 Ansioluettelo 
 
-{t}Custom schema{/t}
+** Custom schema
 Mukautettu Malli
 
-{t}customizations{/t}
+** customizations
 räätälöinnit 
 
-{t}Cut{/t}
+** Cut
 Leikkaa 
 
-{t}daily{/t}
+** daily
 päivittäin
 
-{t}Data{/t}
+** Data
 Data
 
-{t}Data free{/t}
+** Data free
 Data vapaa
 
-{t}Data length{/t}
+** Data length
 Datan pituus
 
-{t}Database{/t}
+** Database
 Tietokanta
 
-{t}Database Hostname / IP{/t}
+** Database Hostname / IP
 Tietokantapalvelimen nimi / IP
 
-{t}Database Name{/t}
+** Database Name
 Tietokannan nimi
 
-{t}Database Password{/t}
+** Database Password
 Tietokannan salasana
 
-{t}Database processes{/t}
+** Database processes
 Tietokanta prosessit
 
-{t}Database status{/t}
+** Database status
 Tietokannan tila
 
-{t}Database User{/t}
+** Database User
 Tietokannan käyttäjänimi
 
-{t}Database variables{/t}
+** Database variables
 Tietokannan muuttujat
 
-{t}Date{/t}
+** Date
 Päiväys
 
-{t}Day{/t}
+** Day
 Päivä
 
-{t}Day begin{/t}
+** Day begin
 Päivän alku
 
-{t}Day end{/t}
+** Day end
 Päivän loppu
 
-{t}days{/t}
+** days
 Päiviä
 
-{t}Db{/t}
+** Db
 Db
 
-{t}db-folder{/t}
+** db-folder
 db-kansio
 
-{t}Deactivate{/t}
+** Deactivate
 Deaktivoita
 
-{t}Deadline{/t}
+** Deadline
 Määräaika
 
-{t}Debug{/t}
+** Debug
 Debug
 
-{t}Debug-dir{/t}
+** Debug-dir
 Debug-kansio
-{t}Dec{/t}
+** Dec
 Dez
 
-{t}December{/t}
+** December
 Joulukuu
 
-{t}Declining balance{/t}
+** Declining balance
 Loppuarvo
 
-{t}Default{/t}
+** Default
 Oletus
 
-{t}Default theme{/t}
+** Default theme
 Vakioteema
 
-{t}Default values for assets{/t}
+** Default values for assets
 Oletusarvot tietuella
 
-{t}definition for definition lists{/t}
+** definition for definition lists
 määritelmän: määritelmä luettelot
 
-{t}Degree{/t}
+** Degree
 tutkinto
 
-{t}Delete{/t}
+** Delete
 Poista
 
-{t}Delete incl subfolders{/t}
+** Delete incl subfolders
 Poista sis. alikansiot
 
-{t}deleted{/t}
+** deleted
 poistettu
 
-{t}deleted line{/t}
+** deleted line
 poistettu rivi
 
-{t}Demand{/t}
+** Demand
 Pyynntö
 
-{t}Demo{/t}
+** Demo
 Demo
 
-{t}Demonstration folder{/t}
+** Demonstration folder
 Esittelykansio
 
-{t}Department{/t}
+** Department
 Osasto
 
-{t}Departments{/t}
+** Departments
 Osastot
 
-{t}Dependancies{/t}
+** Dependancies
 Riipuvuudet
 
-{t}Description{/t}
+** Description
 Kuvaus
 
-{t}Desktop computer{/t}
+** Desktop computer
 Desktop-Tietokone
 
-{t}Details{/t}
+** Details
 Yksityiskohdat
 
-{t}Device type{/t}
+** Device type
 Laji
 
-{t}Device types{/t}
+** Device types
 Lajit
 
-{t}directory does not exist.{/t}
+** directory does not exist.
 Kansio ei ole.
 
-{t}Directory is outside the allowed directory. (%s is outside %s){/t}
+** Directory is outside the allowed directory. (%s is outside %s)
 Kansio ei sallittuun. (%s ei kuulu %s)
 
-{t}Disable basic authentication{/t}
+** Disable basic authentication
 Deaktivoi Basic authentication 
 
-{t}Disabled modules{/t}
+** Disabled modules
 Deaktivoitut Modulit
 
-{t}Display{/t}
+** Display
 Näytä
 
-{t}display filter{/t}
+** display filter
 Näyttö suodatin
 
-{t}displays{/t}
+** displays
 Näytä
 
-{t}Distributor{/t}
+** Distributor
 Toimittaja 
 
-{t}Distributors{/t}
+** Distributors
 Toimittajat
 
-{t}divorced{/t}
+** divorced
 geschieden
 
-{t}Documentation{/t}
+** Documentation
 Doku
 
-{t}Documentation index{/t}
+** Documentation index
 Doku-Index
 
-{t}Domain{/t}
+** Domain
 Domain
 
-{t}Don't attend{/t}
+** Don't attend
 Ei osallistu
 
-{t}Don't move old files to 'old/'{/t}
+** Don't move old files to 'old/'
 Vanhat tiedostot ei siiretään kansioon 'old/'
 
-{t}Down{/t}
+** Down
 Alas
 
-{t}Download{/t}
+** Download
 Lataa
 
-{t}Downloading extension list{/t}
+** Downloading extension list
 Lataa laajenus lista
 
-{t}Downloading update list{/t}
+** Downloading update list
 Lataa päivitys lista
 
-{t}Drag and drop files or URLs here.{/t}
+** Drag and drop files or URLs here.
 Tähän voi pudottaa tiedostot.
 
-{t}duplicate{/t}
+** duplicate
 Kaksoiskappale
 
-{t}Duration{/t}
+** Duration
 Kesto
 
-{t}E-mail{/t}
+** E-mail
 E-Mail
 
-{t}E-mail private{/t}
+** E-mail private
 E-Mail yksityinen
 
-{t}E-mail program{/t}
+** E-mail program
 E-Mail Ohjelma
 
-{t}e.g.{/t}
+** e.g.
 esim. 
 
-{t}Edit{/t}
+** Edit
 Muokkaa
 
-{t}Edit as new{/t}
+** Edit as new
 Muokkaa uutena
 
-{t}Edit rights{/t}
+** Edit rights
 Muokkaa oikeuksia
 
-{t}Editor{/t}
+** Editor
 Editor
 
-{t}Emphasis{/t}
+** Emphasis
 Korostus
 
-{t}Empty{/t}
+** Empty
 tyhjä
 
-{t}Empty folder{/t}
+** Empty folder
 Tyhjäntä kansio
 
-{t}en{/t}
+** en
 fin
 
-{t}Enable anonymous access{/t}
+** Enable anonymous access
 Salli nimetön käyttö
 
-{t}Enable anonymous CMS{/t}
+** Enable anonymous CMS
 Salli nimetön CMS käyttö
 
-{t}Enable automatic user creation{/t}
+** Enable automatic user creation
 Luo käyttäjä automaattisesti
 
-{t}Enable external mail client for 'mailto:' links{/t}
+** Enable external mail client for 'mailto:' links
 Aktivoi ulkoinen E-Mail- ohjelma mailto:-likkiä varten
 
-{t}Enable self registration{/t}
+** Enable self registration
 Aktivoi itse rekisteröinti
 
-{t}Enable Sync4j / Funambol{/t}
+** Enable Sync4j / Funambol
 aktivoi Sync4j / Funambol.
 
-{t}Enable WebDAV file locking scripts{/t}
+** Enable WebDAV file locking scripts
 aktivoi Skriptit WebDAV-Tiedosto lukitusta varten.
 
-{t}End{/t}
+** End
 Loppu
 
-{t}engaged{/t}
+** engaged
 kihlattu
 
-{t}equal{/t}
+** equal
 sama
 
-{t}Error{/t}
+** Error
 Vika
 
-{t}Error doing request to xmlhttp{/t}
+** Error doing request to xmlhttp
 Vika xmlhttp-kyselyssä
 
-{t}Error moving file{/t}
+** Error moving file
 Vika tiedoston siirrossa
 
-{t}Error pasting asset{/t}
+** Error pasting asset
 Vika tietuen liittämisessä
 
-{t}Error: no credentials{/t}
+** Error: no credentials
 Vika: ei käyttäjätunnus
 
-{t}Events{/t}
+** Events
 Tapahtumat
 
-{t}Example{/t}
+** Example
 Tapahtumat
 
-{t}Example contacts{/t}
+** Example contacts
 Esimerkkikontaktit
 
-{t}Example surveys can be found at:{/t}
+** Example surveys can be found at:
 Esimerkkikyselyt löytyy:
 
-{t}Example without mountpoint{/t}
+** Example without mountpoint
 Esimerkki ilman liitospiste
 
-{t}Examples{/t}
+** Examples
 Esimerkit
 
-{t}Execute{/t}
+** Execute
 Suorittaa
 
-{t}Expenses{/t}
+** Expenses
 Päivärahat
 
-{t}Experimental{/t}
+** Experimental
 Kokeellinen
 
-{t}Expires{/t}
+** Expires
 Vanhenee 
 
-{t}Expiry{/t}
+** Expiry
 viimeinen
 
-{t}Extensions{/t}
+** Extensions
 Laajennokset
 
-{t}Extracting files{/t}
+** Extracting files
 Pura tiedostoja
 
-{t}F j{/t}
+** F j
 j. F
 
-{t}F j, Y{/t}
+** F j, Y
 j. F Y
 
-{t}Failed to create directory: %s{/t}
+** Failed to create directory: %s
 Virhe kansion luomisessa: %s
 
-{t}Failed to write file to disk.{/t}
+** Failed to write file to disk.
 Tiedosto ei voitu tallenta kovalevylle.
 
-{t}Failed to write into %s{/t}
+** Failed to write into %s
 Kirjoitus epäonnistui osaksi %s
 
-{t}Family status{/t}
+** Family status
 Siviilisääty
 
-{t}FAQ{/t}
+** FAQ
 FAQ
 
-{t}Favorites{/t}
+** Favorites
 Suosikit
 
-{t}Fax{/t}
+** Fax
 Faksi
 
-{t}Feature request{/t}
+** Feature request
 Ominaisuuspyyntö
 
-{t}Feb{/t}
+** Feb
 Hel
 
-{t}February{/t}
+** February
 Helmikuu
 
-{t}Feed{/t}
+** Feed
 Syöte
 
-{t}female{/t}
+** female
 Nainen
 
-{t}Field{/t}
+** Field
 Kenttä
 
-{t}Field contains value{/t}
+** Field contains value
 Kenttä sisältää arvo
 
-{t}Field is equal to value{/t}
+** Field is equal to value
 Kenttä on sama arvo
 
-{t}File{/t}
+** File
 Tiedosto
 
-{t}file is too big. Please change upload_max_filesize, post_max_size in your php.ini{/t}
+** file is too big. Please change upload_max_filesize, post_max_size in your php.ini
 tiedosto on liian suuri. Muuta arvot upload_max_filesize, post_max_size  php.ini :ssa
 
-{t}file is too big. Please upload a smaller one.{/t}
+** file is too big. Please upload a smaller one.
 tiedosto on liian suuri. Toista prosessi pienempi tiedosto.
 
-{t}File locked.{/t}
+** File locked.
 Tiedosto lukittu.
 
-{t}file not found in database.{/t}
+** file not found in database.
 Tiedostoa ei löytynyt tietokannasta.
 
-{t}file not found.{/t}
+** file not found.
 Tiedostoa ei löydy.
 
-{t}File unlocked.{/t}
+** File unlocked.
 Tiedosto auki.
 
-{t}file was uploaded partially.{/t}
+** file was uploaded partially.
 tiedosto on vain osittain ladattu.
 
-{t}Filename must have the right extension. Valid extensions are %s{/t}
+** Filename must have the right extension. Valid extensions are %s
 Tiedoston tulee olla voimassa oleva tiedostopääte (%s).
 
-{t}Files{/t}
+** Files
 Tiedostot
 
-{t}Filesystem{/t}
+** Filesystem
 Tiedostojärjestelmä 
 
-{t}Filter{/t}
+** Filter
 Suodatin
 
-{t}Find assets in multiple folders{/t}
+** Find assets in multiple folders
 Etsi tietoa usesita kansioista
 
-{t}Finish scheduled{/t}
+** Finish scheduled
 Päättymisaika
 
-{t}Finished{/t}
+** Finished
 Valmiit
 
-{t}First in list{/t}
+** First in list
 Luettelossa ensimmäisenä
 
-{t}First name{/t}
+** First name
 Etunimi
 
-{t}Fix paging bar to page bottom{/t}
+** Fix paging bar to page bottom
 Lukita sivujenhallintapalkki alareunassa
 
-{t}fixed{/t}
+** fixed
 korjattu
 
-{t}Flags{/t}
+** Flags
 Liput
 
-{t}Flash plugin not installed.{/t}
+** Flash plugin not installed.
 Flash plugin ei ole asennettu.
 
-{t}Folder{/t}
+** Folder
 Kansio
 
-{t}Folder already exists.{/t}
+** Folder already exists.
 Kansio on jo olemassa.
 
-{t}Folder has changed.{/t}
+** Folder has changed.
 Kansio muutettu.
 
-{t}Folder icon{/t}
+** Folder icon
 Kansion kuvaketta
 
-{t}Folder not found.{/t}
+** Folder not found.
 Kansio ei löydy.
 
-{t}Folder refresh period{/t}
+** Folder refresh period
 Aikaväli kansion päivitksen
 
-{t}Folder structure{/t}
+** Folder structure
 Kansiorakenne
 
-{t}Folder structure created.{/t}
+** Folder structure created.
 Kansiorakenne luotu.
 
-{t}Folder structure moved to trash.{/t}
+** Folder structure moved to trash.
 Kansiorakenne siirretty roskakoriin.
 
-{t}Folder Type{/t}
+** Folder Type
 Kansion tyyppi
 
-{t}Folder with ID %s{/t}
+** Folder with ID %s
 Kansio missä ID %s
 
-{t}Folders{/t}
+** Folders
 Kansiot
 
-{t}for a new paragraph, use a blank line{/t}
+** for a new paragraph, use a blank line
 Käyttä tyhjä rivi uuden kappaleen.
 
-{t}Force SSL{/t}
+** Force SSL
 pakota SSL
 
-{t}Forum{/t}
+** Forum
 Foorumi
 
-{t}Forward{/t}
+** Forward
 Välitä
 
-{t}Fr{/t}
+** Fr
 Pe
 
-{t}Free/busy{/t}
+** Free/busy
 Vapaa/varattu
 
-{t}Fri{/t}
+** Fri
 Pe
 
-{t}Friday{/t}
+** Friday
 Perjantai
 
-{t}From{/t}
+** From
 Lähettäjä
 
-{t}Full screen{/t}
+** Full screen
 Koko näyttö
 
-{t}Full texts{/t}
+** Full texts
 Koko teksti
 
-{t}Full width{/t}
+** Full width
 Kokonaisleveys
 
-{t}Funambol only works with MySQL and PostgreSQL.{/t}
+** Funambol only works with MySQL and PostgreSQL.
 Funambol toimii vain MySQL ja PostgreSQL :n yhteydessä.
 
-{t}Function does not exist: %s{/t}
+** Function does not exist: %s
 Toiminto %s ei ole olemassa.
 
-{t}g:i a{/t}
+** g:i a
 G:i
 
-{t}Gender{/t}
+** Gender
 Sukupuoli
 
-{t}General{/t}
+** General
 Yleinen
 
-{t}Generate{/t}
+** Generate
 Luo
 
-{t}Gifts{/t}
+** Gifts
 Lahjat
 
-{t}Give Feedback{/t}
+** Give Feedback
 Anna palautetta
 
-{t}GNU GPL Frequently Asked Questions{/t}
+** GNU GPL Frequently Asked Questions
 Usein kysyttyjä kysymyksiä GNU GPL
 
-{t}greater than{/t}
+** greater than
 isompi kun
 
-{t}green{/t}
+** green
 vihreä
 
-{t}Group{/t}
+** Group
 Ryhmä
 
-{t}Groupname{/t}
+** Groupname
 Ryhmän nimi
 
-{t}Groups{/t}
+** Groups
 Ryhmät
 
-{t}hanging text{/t}
+** hanging text
 roikkuva teksti
 
-{t}Hardware{/t}
+** Hardware
 Hardware
 
-{t}Headers{/t}
+** Headers
 Viestin otsake
 
-{t}heading{/t}
+** heading
 Otsikko 
 
-{t}headings{/t}
+** headings
 Otsikkot
 
-{t}Height{/t}
+** Height
 Korkeus
 
-{t}Help{/t}
+** Help
 Ohje
 
-{t}Helpdesk{/t}
+** Helpdesk
 Helpdesk
 
-{t}History{/t}
+** History
 Historia
 
-{t}Holiday{/t}
+** Holiday
 Pyhäpäivä
 
-{t}Home{/t}
+** Home
 Koti
 
-{t}Home folder id{/t}
+** Home folder id
 Aloitus kansion ID.
 
-{t}Home page in the CMS{/t}
+** Home page in the CMS
 Aloitussivu CMS 
 
-{t}Homepage{/t}
+** Homepage
 Kotisivu
 
-{t}horizontal line{/t}
+** horizontal line
 Vaakaviiva
 
-{t}Host{/t}
+** Host
 Server
 
-{t}Hosts{/t}
+** Hosts
 Serverit
 
-{t}hours{/t}
+** hours
 tuntia
 
-{t}HTML documents{/t}
+** HTML documents
 HTML asiakirjat
 
-{t}http://www.pmwiki.org/PmWiki/{/t}
+** http://www.pmwiki.org/PmWiki/
 http://www.pmwiki.org/wiki/PmWikiFi/PmWikiFi
 
-{t}I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2{/t}
+** I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2
 I Hyväsyn GNU GENERAL PUBLIC LICENSE VERSION 2
 
-{t}I n s t a l l{/t}
+** I n s t a l l
 A s e n ta
 
-{t}Icon{/t}
+** Icon
 Ikoni
 
-{t}Id{/t}
+** Id
 ID
 
-{t}Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
 ID ei saa olla tyhjä, ja pitäisi olla vähintään 3 ja enintään. 128 pieniä kirjaimia [a-z0-9_-@.].
 
-{t}Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].
 ID ei saa olla tyhjä, ja pitäisi olla vähintään 3 ja enintään. 128 merkkiä ovat mukana [a-z0-9_-@.].
 
-{t}Ideas{/t}
+** Ideas
 Ideat
 
-{t}If empty, the SMTP connection from the module users will be used.{/t}
+** If empty, the SMTP connection from the module users will be used.
 Jos tyhjä SMTP yhteys käyttäjän moduulista käytetään.
 
-{t}if not autodetected with namingContexts{/t}
+** if not autodetected with namingContexts
 jos ei tunnistetaan automaattisesti namingContexts kautta
 
-{t}If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.{/t}
+** If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.
 Jos käyttäjätunnuksessa tai salasanassa on &quot;:&quot; merkki, korvaa &quot;==&quot; merkkille.
 
-{t}If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.{/t}
+** If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.
 Jos käyttäjätunnuksessa tai salasanassa on &quot;@&quot; merkki, korvaa &quot;%%&quot; merkkille.
 
-{t}Im-/Export{/t}
+** Im-/Export
 Tuo / Vie
 
-{t}Image{/t}
+** Image
 Kuva
 
-{t}Images{/t}
+** Images
 Kuvat
 
-{t}Imap-conn-error: %s{/t}
+** Imap-conn-error: %s
 Imap-conn-virhe: %s
 
-{t}Imap-error: %s{/t}
+** Imap-error: %s
 Imap-virhe: %s
 
-{t}immediate{/t}
+** immediate
 Heti
 
-{t}Import{/t}
+** Import
 Tuo
 
-{t}In progress{/t}
+** In progress
 Käynnissä
 
-{t}in repair{/t}
+** in repair
 Huollossa
 
-{t}in stock{/t}
+** in stock
 Varastossa
 
-{t}Inactive{/t}
+** Inactive
 Toimeton
 
-{t}Include in RSS feed{/t}
+** Include in RSS feed
 Sisällytä RSS-syöte
 
-{t}Include page{/t}
+** Include page
 sisälyttä sivua
 
-{t}indent text{/t}
+** indent text
 Tekstin sisennys
 
-{t}Index{/t}
+** Index
 Index
 
-{t}Index length{/t}
+** Index length
 Indexin pituus
 
-{t}Index type{/t}
+** Index type
 Indexin tyyppi
 
-{t}Indexes{/t}
+** Indexes
 Indexit
 
-{t}Industry{/t}
+** Industry
 Toimiala
 
-{t}Info{/t}
+** Info
 Info
 
-{t}Input field{/t}
+** Input field
 Syötö kenttä
 
-{t}Insert{/t}
+** Insert
 Luo
 
-{t}inserted{/t}
+** inserted
 lisätty
 
-{t}Install default folder structure{/t}
+** Install default folder structure
 Asenna oletuskansion rakenne
 
-{t}Install demo folders{/t}
+** Install demo folders
 Asenna demo kansiot
 
-{t}Install minimal folder structure{/t}
+** Install minimal folder structure
 Asenna minimaalinen kansiorakenne 
 
-{t}installed{/t}
+** installed
 asennettu
 
-{t}insufficient folder rights{/t}
+** insufficient folder rights
 Riittämätön käyttöoikeudet
 
-{t}Internal recommendation{/t}
+** Internal recommendation
 Sisäinen suositus
 
-{t}Intro{/t}
+** Intro
 Johdanto
 
-{t}invalid{/t}
+** invalid
 virheellinen
 
-{t}Invalid schema mode '%s'{/t}
+** Invalid schema mode '%s'
 Virheellinen kaava-mode '%s'
 
-{t}Invalid security token{/t}
+** Invalid security token
 Virheellinen suojausominaisuus
 
-{t}Inventory{/t}
+** Inventory
 Inventaario
 
-{t}Inventory number{/t}
+** Inventory number
 Inventario no.
 
-{t}Investor{/t}
+** Investor
 Sijoittaja
 
-{t}Invoice{/t}
+** Invoice
 Kuitti
 
-{t}italic{/t}
+** italic
 kursivoitu
 
-{t}Item created by %s at %s{/t}
+** Item created by %s at %s
 Kohde luotu %s pvm. %s
 
-{t}Item deleted by %s at %s{/t}
+** Item deleted by %s at %s
 Kohde poistettu %s pvm. %s
 
-{t}Item edited (%s) by %s at %s{/t}
+** Item edited (%s) by %s at %s
 Kohde muutettu %s pvm. %s
 
-{t}Item not found.{/t}
+** Item not found.
 Kohdetta ei löytynyt
 
-{t}Item successfully created.{/t}
+** Item successfully created.
 Kohde luotu.
 
-{t}Item successfully updated.{/t}
+** Item successfully updated.
 Kohde onnistuneesti päivitetty.
 
-{t}Item(s) not found or access denied.{/t}
+** Item(s) not found or access denied.
 Kohde (kohteitä) ei löydy tai pääsy evätty.
 
 
-{t}Jan{/t}
+** Jan
 Tam
 
-{t}January{/t}
+** January
 Tammikuu
 
-{t}Job description{/t}
+** Job description
 Toimenkuva
 
-{t}Join lines{/t}
+** Join lines
 Yhdistä rivit
 
-{t}Jul{/t}
+** Jul
 Hei
 
-{t}July{/t}
+** July
 Heinäkuu
 
-{t}Jun{/t}
+** Jun
 Kes
 
-{t}June{/t}
+** June
 Kesäkuu
 
-{t}Key{/t}
+** Key
 Avain
 
-{t}Key customer{/t}
+** Key customer
 Avainasiakas
 
-{t}Key name{/t}
+** Key name
 Avain nimi
 
-{t}Keywords{/t}
+** Keywords
 Hakusanat
 
-{t}Knowledge base{/t}
+** Knowledge base
 Knowledge base
 
-{t}L o g i n{/t}
+** L o g i n
 L o g i n
 
-{t}l, F j, Y{/t}
+** l, F j, Y
 l, j. F Y
 
-{t}Last access{/t}
+** Last access
 Edellinen vierailu
 
-{t}Last name{/t}
+** Last name
 Sukunimi
 
-{t}LDAP anonymous connection failed.{/t}
+** LDAP anonymous connection failed.
 anonyymi LDAP-yhteys palvelimeen epäonnistui.
 
-{t}LDAP attribute for group memberships{/t}
+** LDAP attribute for group memberships
 LDAP-attribuutti Ryhmäjäsenyydelle
 
-{t}LDAP attribute for rooms{/t}
+** LDAP attribute for rooms
 LDAP-Attribuutti tiloihin 
 
-{t}LDAP attribute for usernames{/t}
+** LDAP attribute for usernames
 LDAP-attribuutti käyttäjätunnuksille
 
-{t}LDAP connection to host %s failed.{/t}
+** LDAP connection to host %s failed.
 LDAP-yhteyden palvelimeen %s epäonnistui.
 
-{t}LDAP without anonymous access{/t}
+** LDAP without anonymous access
 Anonyymi LDAP-yhteys ei käytetään
 
-{t}LDAP: no base DN given{/t}
+** LDAP: no base DN given
 LDAP: base DN ei määritelty.
 
-{t}LDAP: no UID given{/t}
+** LDAP: no UID given
 LDAP: ei annetaan UID 
 
-{t}less promising{/t}
+** less promising
 vähemmän todennäkinen
 
-{t}lesser than{/t}
+** lesser than
 pienempi kuin
 
-{t}Letter{/t}
+** Letter
 Kirje
 
-{t}Level{/t}
+** Level
 Taso
 
-{t}License{/t}
+** License
 Lisenssi
 
-{t}line{/t}
+** line
 Rivi
 
-{t}Line break{/t}
+** Line break
 Rivinvaihto
 
-{t}Link{/t}
+** Link
 Vite
 
-{t}Link restricted{/t}
+** Link restricted
 Linkki on lukittu
 
-{t}link text{/t}
+** link text
 Linkin teksti
 
-{t}link to external page{/t}
+** link to external page
 Linki ulkopuolisille sivustolle
 
-{t}link to internal page{/t}
+** link to internal page
 Linki sisäsille sivulle
 
-{t}Links{/t}
+** Links
 Linkit
 
-{t}Lists{/t}
+** Lists
 Listat
 
-{t}Load external images{/t}
+** Load external images
 Lataa ulkopuoliset kuvat
 
-{t}Location{/t}
+** Location
 Paikka
 
-{t}Locations{/t}
+** Locations
 Paikat
 
-{t}Lock{/t}
+** Lock
 Lukita
 
-{t}Locked by{/t}
+** Locked by
 Lukittu:
 
-{t}Locking{/t}
+** Locking
 Lukita
 
-{t}login %s from %s with %s{/t}
+** login %s from %s with %s
 kirjautuminen osoitteesta %s von %s mit %s
 
-{t}Login failed from %s.{/t}
+** Login failed from %s.
 Kirjautuminen epäonnistui %s.
 
-{t}Login/-out{/t}
+** Login/-out
 Login/Logout
 
-{t}Logins{/t}
+** Logins
 Logins
 
-{t}Logout{/t}
+** Logout
 Logout
 
-{t}logout %s{/t}
+** logout %s
 Logout %s
 
-{t}Lookup{/t}
+** Lookup
 Haetaan
 
-{t}low{/t}
+** low
 alhainen
 
-{t}lowest{/t}
+** lowest
 alin
 
-{t}M j{/t}
+** M j
 j. M
 
-{t}M j, g:i a{/t}
+** M j, g:i a
 j. M, G:i
 
-{t}M j, Y{/t}
+** M j, Y
 j. M Y
 
-{t}m/d/Y{/t}
+** m/d/Y
 d.m.Y
 
-{t}m/d/Y g:i a{/t}
+** m/d/Y g:i a
 d.m.Y G:i
 
-{t}m/d/y g:i:s a{/t}
+** m/d/y g:i:s a
 d.m.y G:i:s
 
-{t}magenta{/t}
+** magenta
 violetti
 
-{t}mail footer{/t}
+** mail footer
 E-Mail alatunniste
 
-{t}Mail identities{/t}
+** Mail identities
 E-Mail identiteettit
 
-{t}mail notification{/t}
+** mail notification
 E-Mail ilmoitus
 
-{t}mail reminder{/t}
+** mail reminder
 E-Mail muistutus
 
-{t}Main menu{/t}
+** Main menu
 Päävalikko
 
-{t}Maintenance mode{/t}
+** Maintenance mode
 Yläpitotila
 
-{t}male{/t}
+** male
 Mies
 
-{t}Man-days{/t}
+** Man-days
 Työpäivät
 
-{t}Man-days planned{/t}
+** Man-days planned
 suunniteltut työpäivät
 
-{t}Manager{/t}
+** Manager
 Toimitusjohtaja
 
-{t}Manufacturer{/t}
+** Manufacturer
 Valmistaja
 
-{t}Mar{/t}
+** Mar
 Maa
 
-{t}March{/t}
+** March
 Maaliskuu
 
-{t}Marketing event{/t}
+** Marketing event
 Markkinointitapahtuma
 
-{t}married{/t}
+** married
 naimisissa
 
-{t}Maximize{/t}
+** Maximize
 Maximoida
 
-{t}Maximum number of assets per page{/t}
+** Maximum number of assets per page
 Enimmäismäärä tietuetta per sivu
 
-{t}maximum number of files exceeded.{/t}
+** maximum number of files exceeded.
 tiedostojen enimmäismäärä ylittynyt.
 
-{t}May{/t}
+** May
 Toukokuu
 
-{t}Media{/t}
+** Media
 Lehdistö
 
-{t}Meeting{/t}
+** Meeting
 Kokous
 
-{t}Members{/t}
+** Members
 Jäsenet
 
-{t}Merge folders permanently{/t}
+** Merge folders permanently
 Yhdistä kansioita pysyvästi
 
-{t}Merged folders{/t}
+** Merged folders
 Yhdistettyt kansiot
 
-{t}Message{/t}
+** Message
 Viesti
 
-{t}Messages{/t}
+** Messages
 Viestit
 
-{t}Milestone{/t}
+** Milestone
 Virstanpylväs
 
-{t}min{/t}
+** min
 min
 
-{t}Minimize{/t}
+** Minimize
 Minimoida
 
-{t}minimum = 15 secs, 0 = disabled{/t}
+** minimum = 15 secs, 0 = disabled
 Pienin = 15 sekuntia, 0 = pois käytöstä 
 
-{t}Miscellaneous{/t}
+** Miscellaneous
 Sekalainen
 
-{t}missing a temporary folder.{/t}
+** missing a temporary folder.
 Temp kansio puuttuu.
 
-{t}missing field{/t}
+** missing field
 Puuttuva kenttä
 
-{t}missing right: %s{/t}
+** missing right: %s
 Puuttuvat oikeudet: %s
 
-{t}Mo{/t}
+** Mo
 Ma
 
-{t}Mobile{/t}
+** Mobile
 Kännykkä
 
-{t}Model{/t}
+** Model
 Malli
 
-{t}Modified{/t}
+** Modified
 Muutettu
 
-{t}Modified by{/t}
+** Modified by
 Muutettu käyttäjältä 
 
-{t}Modifying database failed.{/t}
+** Modifying database failed.
 muutos tietokantaan epäonnistui.
 
-{t}Module{/t}
+** Module
 Moduuli
 
-{t}Module disabled.{/t}
+** Module disabled.
 Moduuli pois käytöstä.
 
-{t}Modules{/t}
+** Modules
 Moduulit
 
-{t}Mon{/t}
+** Mon
 Ma
 
-{t}Monday{/t}
+** Monday
 Maanantai
 
-{t}monospace{/t}
+** monospace
 kiinteä merkkin leveys
 
-{t}Month{/t}
+** Month
 Kuukausi
 
-{t}monthly{/t}
+** monthly
 Kuukausittain
 
-{t}months{/t}
+** months
 Kuukautta
 
-{t}More information about the GNU GPL{/t}
+** More information about the GNU GPL
 Lisätietoa GNU GPL :stä
 
-{t}Mountpoint{/t}
+** Mountpoint
 Liittämispiste
 
-{t}Move{/t}
+** Move
 Siirä
 
-{t}Multiple{/t}
+** Multiple
 Useitä
 
-{t}Multiple choice{/t}
+** Multiple choice
 Monivalinta
 
-{t}My appointments{/t}
+** My appointments
 Oma aikataulu
 
-{t}My tasks{/t}
+** My tasks
 Omat tehtävät
 
-{t}Name{/t}
+** Name
 Nimi
 
-{t}Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].{/t}
+** Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
 Nimi ei voi olla tyhjä, ja pitäisi olla vähintään 3 ja enintään. 128 pieniä kirjaimia [a-z0-9_-@.].
 
-{t}Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].{/t}
+** Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].
 Nimi ei voi olla tyhjä, ja pitäisi olla vähintään 3 kirjainta [a-zA-Z0-9-_.].
 
-{t}need feedback{/t}
+** need feedback
 Palaute tarvitaan
 
-{t}Network{/t}
+** Network
 Verkko
 
-{t}Never expires{/t}
+** Never expires
 Ei vanhenee koskaan
 
-{t}New{/t}
+** New
 Uusi
 
-{t}New folder{/t}
+** New folder
 Uusi Kansio
 
-{t}News{/t}
+** News
 Uutiset
 
-{t}Nickname{/t}
+** Nickname
 Lempinimi
 
-{t}Nightwork{/t}
+** Nightwork
 Yötyö
 
-{t}no{/t}
+** no
 ei
 
-{t}No dataset selected.{/t}
+** No dataset selected.
 Tietue ei valittu.
 
-{t}No entries found.{/t}
+** No entries found.
 Ei hakutuloksia
 
-{t}No file was uploaded{/t}
+** No file was uploaded
 Tiedostoa ei ladattu.
 
-{t}No line breaks{/t}
+** No line breaks
 Ei rivinvaihdot
 
-{t}no result{/t}
+** no result
 Ei tulosta
 
-{t}No sender specified.{/t}
+** No sender specified.
 Lähettäjä puuttuu. 
 
-{t}no username submitted{/t}
+** no username submitted
 Käyttäjätunnus puuttu.
 
-{t}Non unique{/t}
+** Non unique
 Ei yksinselitteinen
 
-{t}none{/t}
+** none
 ei mitään
 
-{t}normal{/t}
+** normal
 normaali
 
-{t}Not allowed. Please log in as super administrator.{/t}
+** Not allowed. Please log in as super administrator.
 Ei sallitu. Kirjaudu sisään Administraatorina.
 
-{t}not contains{/t}
+** not contains
 ei sisällä
 
-{t}not equal{/t}
+** not equal
 ei sama
 
-{t}Note{/t}
+** Note
 Huomautus
 
-{t}Notebook{/t}
+** Notebook
 Läppäri
 
-{t}Notes{/t}
+** Notes
 Muistiinpanoja
 
-{t}Notificaiton sent to: %s{/t}
+** Notificaiton sent to: %s
 Ilmoitus lähetetty osoitteeseen:%s
 
-{t}Notification{/t}
+** Notification
 Ilmoitus
 
-{t}Notification summary{/t}
+** Notification summary
 Ilmoituksen yhteenveto 
 
-{t}Nov{/t}
+** Nov
 Mar
 
-{t}November{/t}
+** November
 Marraskuu
 
-{t}Null{/t}
+** Null
 Tyhjä
 
-{t}Number of employees{/t}
+** Number of employees
 Henkilöstön määrä
 
-{t}numbered{/t}
+** numbered
 Luettelo
 
-{t}Objectives{/t}
+** Objectives
 Tavoitteet
 
-{t}Oct{/t}
+** Oct
 Lok
 
-{t}October{/t}
+** October
 Lokakuu
 
-{t}of {0}{/t}
+** of {0}
 {0} :sta
 
-{t}Office{/t}
+** Office
 Sivupiste
 
-{t}Office program{/t}
+** Office program
 Office-ohjelma
 
-{t}Offices{/t}
+** Offices
 Sivupisteet
 
-{t}offline{/t}
+** offline
 offline
 
-{t}Offline folders{/t}
+** Offline folders
 Offline-Kansiot
 
-{t}Offline sync{/t}
+** Offline sync
 Offline-syncronointi
 
-{t}Ok{/t}
+** Ok
 Ok
 
-{t}one of{/t}
+** one of
 yksi /
 
-{t}online{/t}
+** online
 online
 
-{t}Open{/t}
+** Open
 Keskeneräiset
 
-{t}Operating system{/t}
+** Operating system
 Käyttöjärjestelmä
 
-{t}Operation not allowed. (Data loss protection){/t}
+** Operation not allowed. (Data loss protection)
 Toiminto ei ole sallittu. (Suojaus tietojen menetyksestä)
 
-{t}Optimize Tables{/t}
+** Optimize Tables
 Optimoi taulukot
 
-{t}Options{/t}
+** Options
 Optiot
 
-{t}or{/t}
+** or
 tai
 
-{t}or higher{/t}
+** or higher
 tai isompi
 
-{t}orange{/t}
+** orange
 oranssi
 
-{t}Order size{/t}
+** Order size
 Tilauksen koko
 
-{t}Organisation{/t}
+** Organisation
 Yritys
 
-{t}Organizer{/t}
+** Organizer
 Vastuuhenkilö
 
-{t}Origin{/t}
+** Origin
 Alkuperä
 
-{t}Original message{/t}
+** Original message
 Alkuperäinen viesti
 
-{t}Other{/t}
+** Other
 Muut
 
-{t}out of office{/t}
+** out of office
 ei paikkalla
 
-{t}Outline image{/t}
+** Outline image
 Hahmottelu (Piirros)
 
-{t}Output{/t}
+** Output
 output
 
-{t}Output empty: %s{/t}
+** Output empty: %s
 Output tyhjä: %s
 
-{t}overlap{/t}
+** overlap
 Päällekkäisyys
 
-{t}Overtime{/t}
+** Overtime
 Ylityö
 
-{t}Owner{/t}
+** Owner
 Omistaja
 
-{t}Owner since{/t}
+** Owner since
 Omistaja alkaen
 
-{t}Package from local file system (.tar.gz){/t}
+** Package from local file system (.tar.gz)
 Paketti paikallisestä tiedostojärjestelmästä (. tar.gz)
 
-{t}Package information{/t}
+** Package information
 Package information
 
-{t}Packed{/t}
+** Packed
 Pakattu
 
-{t}Page{/t}
+** Page
 Sivu
 
-{t}Page last modified on{/t}
+** Page last modified on
 Sivu viimeksi muutettu: 
 
-{t}Page name (URL){/t}
+** Page name (URL)
 Sivun nimi (URL)
 
-{t}Page not found{/t}
+** Page not found
 Sivua ei löydy
 
-{t}Page title{/t}
+** Page title
 Sivun otsikko
 
-{t}Pager{/t}
+** Pager
 Hakulaite
 
-{t}Paragraphs{/t}
+** Paragraphs
 Kappaleet
 
-{t}parameters{/t}
+** parameters
 parametrit
 
-{t}Parameters{/t}
+** Parameters
 Parametrit
 
-{t}Parent folder{/t}
+** Parent folder
 Yläkansio
 
-{t}Parsing{/t}
+** Parsing
 Analysoida
 
-{t}Participants{/t}
+** Participants
 Osallistujat
 
-{t}Participants (external){/t}
+** Participants (external)
 Osallistujat (ulkoinen)
 
-{t}Participants (internal){/t}
+** Participants (internal)
 Osallistujat (sisäinen)
 
-{t}Password{/t}
+** Password
 Salasana
 
-{t}Password expired. (password of %s has expired){/t}
+** Password expired. (password of %s has expired)
 DSalasana vanhentunut (Käyttäjä %s)
 
-{t}Password expires{/t}
+** Password expires
 salasana vanhenee: 
 
-{t}Password must be not null, min 5 characters.{/t}
+** Password must be not null, min 5 characters.
 Salasana ei saa olla tyhjä ( min. 5 merkkiä )
 
-{t}password not confirmed.{/t}
+** password not confirmed.
 Salasana ei ole vahvistettu.
 
-{t}Passwords{/t}
+** Passwords
 Salasanat
 
-{t}Paste{/t}
+** Paste
 Liittä
 
-{t}Path{/t}
+** Path
 Polku
 
-{t}Pause{/t}
+** Pause
 Tauko
 
-{t}Permissions{/t}
+** Permissions
 Oikeudet
 
-{t}Permissions added for: %s{/t}
+** Permissions added for: %s
 Oikeudet lisätään: %s
 
-{t}Personal{/t}
+** Personal
 Yksityinen
 
-{t}Personal department{/t}
+** Personal department
 Yksityinen alue
 
-{t}Personal folders{/t}
+** Personal folders
 Yksityiset kansiot
 
-{t}Personal projects{/t}
+** Personal projects
 Henkilökohtaiset hankkeet
 
-{t}Phone{/t}
+** Phone
 Puhelin
 
-{t}Phone calls{/t}
+** Phone calls
 Puhelinsoitot
 
-{t}Phone private{/t}
+** Phone private
 Yksitynen puhelin 
 
-{t}Photo{/t}
+** Photo
 Valokuvat
 
-{t}Photo gallery{/t}
+** Photo gallery
 Valokuvat
 
-{t}Planned{/t}
+** Planned
 Suunniteltu
 
-{t}Please activate cookies.{/t}
+** Please activate cookies.
 Aktivoi evästeet.
 
-{t}Please choose a different URL, not 127.0.0.1 or localhost. (important for synchronization, replication){/t}
+** Please choose a different URL, not 127.0.0.1 or localhost. (important for synchronization, replication)
 Valitse eri URL ei 127.0.0.1 tai localhost. (Tärkeää synkronointia ja replikointia varten)
 
-{t}Please choose Apache as Web-Server.{/t}
+** Please choose Apache as Web-Server.
 Valitse Apache WWW-palvelimeksi.
 
-{t}Please enable Javascript in your browser.{/t}
+** Please enable Javascript in your browser.
 Salli JavaScript selaimessasi..
 
-{t}Please enter a valid url.{/t}
+** Please enter a valid url.
 Anna kelvollinen URL-osoite.
 
-{t}Please give read access to %s{/t}
+** Please give read access to %s
 Anna lukuoikeus kohteesseen %s
 
-{t}Please give write access to %s{/t}
+** Please give write access to %s
 Anna kirjoitusoikeudet kohteesseen %s
 
-{t}Please give write access to %s and %s{/t}
+** Please give write access to %s and %s
 Anna kirjoitusoikeudet kohteesseen %s ja %s
 
-{t}Please hit reload.{/t}
+** Please hit reload.
 Paina päivitysnappi.
 
-{t}Please input a valid e-mail adress.{/t}
+** Please input a valid e-mail adress.
 Anna voimassa oleva sähköpostiosoite.
 
-{t}Please install 'tsearch2' for the PostgreSQL database.{/t}
+** Please install 'tsearch2' for the PostgreSQL database.
 Asenna "tsearch2" PostgreSQL-Tietokanta ohjelman varten.
 
-{t}Please install the php-extension with name '%s'.{/t}
+** Please install the php-extension with name '%s'.
 Asenna PHP-Laajennos %s.
 
-{t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}
+** Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !
 Muokkaa php.ini tiedoston tai lisätä. htaccess-tiedostoa muuttamalla asetusta "%s " "%s" (nykyinen arvo on '%s')!
 
-{t}Please read the following license agreement. Use the scroll bar to view the rest of this agreement.{/t}
+** Please read the following license agreement. Use the scroll bar to view the rest of this agreement.
 Lue lisenssisopimus. Käytä vierityspalkkia nähdäksesi loput tästä sopimuksesta.
 
-{t}Please select a location.{/t}
+** Please select a location.
 Valitse sijainti.
 
-{t}Please select a participant.{/t}
+** Please select a participant.
 Valitse osallistuja. 
 
-{t}Please upload again.{/t}
+** Please upload again.
 Lähetä uudelleen.
 
-{t}Please wait ...{/t}
+** Please wait ...
 Odota hetki ...
 
-{t}Pop3-conn-error: %s{/t}
+** Pop3-conn-error: %s
 Pop3-conn-virhe: %s
 
-{t}Pop3-error: %s{/t}
+** Pop3-error: %s
 Pop3-Virhe: %s
 
-{t}Port{/t}
+** Port
 Portti
 
-{t}Portal{/t}
+** Portal
 Portaali
 
-{t}Position{/t}
+** Position
 Asemaa
 
-{t}Positions{/t}
+** Positions
 Asemat
 
-{t}Post{/t}
+** Post
 Posti
 
-{t}Preformatted block{/t}
+** Preformatted block
 Esimuotoiltu lohko
 
-{t}Prevent formatting{/t}
+** Prevent formatting
 Ei muotoilu
 
-{t}Preview{/t}
+** Preview
 Esikatselu
 
-{t}Price{/t}
+** Price
 Hinta
 
-{t}Print{/t}
+** Print
 Tulosta
 
-{t}Print all{/t}
+** Print all
 Tulosta kaikki
 
-{t}Printer{/t}
+** Printer
 Tulostin
 
-{t}Priority{/t}
+** Priority
 Prioriteetti
 
-{t}Problem{/t}
+** Problem
 Ongelma
 
-{t}Processes{/t}
+** Processes
 Prosessit
 
-{t}Processing %s ...{/t}
+** Processing %s ...
 Käsittelen %s ...
 
-{t}Program is installed with language %s, please use a different url or run the setup again.{/t}
+** Program is installed with language %s, please use a different url or run the setup again.
 Ohjelma on asennettu kielellä %s, käytä eri url- tai suorita asennus uudelleen. 
 
-{t}Progress{/t}
+** Progress
 Edistminen
 
-{t}Project{/t}
+** Project
 Projekti
 
-{t}Project files{/t}
+** Project files
 Hanken tiedostot
 
-{t}Project tasks{/t}
+** Project tasks
 Hanken tehtävät
 
-{t}Projects{/t}
+** Projects
 Hankkeet
 
-{t}promising{/t}
+** promising
 lupaava
 
-{t}Properties{/t}
+** Properties
 Ominaisuudet
 
-{t}Prospective client{/t}
+** Prospective client
 Kiinostunnut asiakas
 
-{t}Purchased{/t}
+** Purchased
 Ostettu
 
-{t}Question{/t}
+** Question
 Kysymys
 
-{t}Queue{/t}
+** Queue
 Jono
 
-{t}Quick add{/t}
+** Quick add
 Pikalisäys
 
-{t}Quota{/t}
+** Quota
 Kiintiö
 
-{t}Quota (remaining){/t}
+** Quota (remaining)
 kiintiö (jäljellä)
 
-{t}Quota [MB]{/t}
+** Quota [MB]
 Kiintiö [MB]
 
-{t}Quota limitation exceeded: %s{/t}
+** Quota limitation exceeded: %s
 Kiintiö ylittyy: %s
 
-{t}R e g i s t e r{/t}
+** R e g i s t e r
 R e k i s t e r ö i d y
 
-{t}Rating{/t}
+** Rating
 Arvostelu
 
-{t}Read{/t}
+** Read
 Luettu
 
-{t}read access{/t}
+** read access
 Lukuoikeus
 
-{t}Read access (groups){/t}
+** Read access (groups)
 Lukuoikeus (Ryhmät)
 
-{t}Read access (users){/t}
+** Read access (users)
 Lukuoikeus (Käyttäjät)
 
-{t}ready for repair{/t}
+** ready for repair
 Valmis korjattavaksi
 
-{t}ready for scrap{/t}
+** ready for scrap
 Romutettava
 
-{t}Real URL format in the CMS{/t}
+** Real URL format in the CMS
 Real URL muoto CMS:een
 
-{t}Really apply rights to subfolders ?{/t}
+** Really apply rights to subfolders ?
 Käytetäänkö oikeuksia alikansioihin ?
 
-{t}Really apply the changes ?{/t}
+** Really apply the changes ?
 Tallennetaanko muutokset ?
 
-{t}Really delete ?{/t}
+** Really delete ?
 Haluatko todella poistaa ?
 
-{t}REALLY delete ALL datasets ?{/t}
+** REALLY delete ALL datasets ?
 Poistetaanko KAIKKI tietuetta ?
 
-{t}Really delete ALL subfolders ?{/t}
+** Really delete ALL subfolders ?
 Poistetaanko KAIKKI alikansioita ?
 
-{t}Really delete the dataset(s) ?{/t}
+** Really delete the dataset(s) ?
 Poistetaanko tietuetta ?
 
-{t}Really empty the folder ?{/t}
+** Really empty the folder ?
 Tyhjenetäänko kansion ?
 
-{t}Really overwrite existing dataset(s) ?{/t}
+** Really overwrite existing dataset(s) ?
 Korvataanko nykyset tietuet ?
 
-{t}Really run setup again ?{/t}
+** Really run setup again ?
 Ajetaanko Setup uudestaan?
 
-{t}Really uninstall the module ?{/t}
+** Really uninstall the module ?
 Poistetaanko moduulin?
 
-{t}Rebuild search index{/t}
+** Rebuild search index
 Rakentaa hakuindeksin uudestaan
 
-{t}Recent changes{/t}
+** Recent changes
 Viimeiset muutokset
 
-{t}Recommendation of affiliate{/t}
+** Recommendation of affiliate
 Ulkoinen suositus
 
-{t}Recurrence{/t}
+** Recurrence
 Toisto
 
-{t}red{/t}
+** red
 punainen
 
-{t}Redirect to home directory{/t}
+** Redirect to home directory
 Uudelleenohjataan kotikansioon
 
-{t}Refresh{/t}
+** Refresh
 Päivitä
 
-{t}Refresh every x seconds{/t}
+** Refresh every x seconds
 Päivitä joka x sekunti 
 
-{t}Regular{/t}
+** Regular
 Säännöllinen
 
-{t}rejected{/t}
+** rejected
 Hylätty
 
-{t}Relative formats{/t}
+** Relative formats
 Suhteellisiä formaatteja 
 
-{t}Relaunch Setup{/t}
+** Relaunch Setup
 Aloita asennus uudelleen
 
-{t}Relevance{/t}
+** Relevance
 Relevanssi
 
-{t}Reminder{/t}
+** Reminder
 Muistutus
 
-{t}Rename folder{/t}
+** Rename folder
 Nimeä kansio uudelleen
 
-{t}Repeat count{/t}
+** Repeat count
 Toistojen määrä
 
-{t}Repeat exclusions{/t}
+** Repeat exclusions
 Toistojen poikkeukset
 
-{t}Repeat interval{/t}
+** Repeat interval
 Toistojen väli 
 
-{t}Repeat until{/t}
+** Repeat until
 Toista, kunnes 
 
-{t}Reply{/t}
+** Reply
 Vastaa
 
-{t}Reply all{/t}
+** Reply all
 Vastaa kaikille
 
-{t}Require admin access to set mountpoints{/t}
+** Require admin access to set mountpoints
 Edellyttä ADMIN oikeuksia liitospisteiden asentamiseen
 
-{t}Reseller{/t}
+** Reseller
 Jälleenmyyjä
 
-{t}reserved{/t}
+** reserved
 varattu
 
-{t}Reset view{/t}
+** Reset view
 Palauta näkymä
 
-{t}Resource{/t}
+** Resource
 Resurssi
 
-{t}Resources{/t}
+** Resources
 Resurssit
 
-{t}Responsible{/t}
+** Responsible
 Vastuussa
 
-{t}Responsible (external){/t}
+** Responsible (external)
 Vastuussa (ulkoinen)
 
-{t}Responsible (internal){/t}
+** Responsible (internal)
 Vastuussa (sisäinen)
 
-{t}Restore complete{/t}
+** Restore complete
 Palautaminen valmis
 
-{t}Restore here{/t}
+** Restore here
 Valitse palauta
 
-{t}Restore only missing{/t}
+** Restore only missing
 Palauta vain puuttuvat
 
-{t}Restore only newer{/t}
+** Restore only newer
 Palauta vain uudet
 
-{t}Restore to origin{/t}
+** Restore to origin
 Palauta alkuperänen
 
-{t}Return receipt{/t}
+** Return receipt
 Lukuilmoitus
 
-{t}right-aligned{/t}
+** right-aligned
 tasattu oikealle
 
-{t}Rights{/t}
+** Rights
 Oikeuksia
 
-{t}Risks{/t}
+** Risks
 Riskit
 
-{t}Room name{/t}
+** Room name
 Chatin nimi
 
-{t}Room number{/t}
+** Room number
 Huone No:
 
-{t}Rooms{/t}
+** Rooms
 Huoneitä
 
-{t}Rows{/t}
+** Rows
 Rivit
 
-{t}Run Setup again{/t}
+** Run Setup again
 Suorita asennusohjelma uudelleen
 
-{t}Running mail reminder for %s{/t}
+** Running mail reminder for %s
 Aloita e-mail muistutuksen: %s
 
-{t}S a v e{/t}
+** S a v e
 T a l l e n n a
 
-{t}S a v e  a n d  g o  b a c k{/t}
+** S a v e  a n d  g o  b a c k
 T a l l e n n a   j a   t a k a i s i n
 
-{t}Sa{/t}
+** Sa
 La
 
-{t}Sales promotion{/t}
+** Sales promotion
 Myynnin edistäminen
 
-{t}Sat{/t}
+** Sat
 La
 
-{t}Saturday{/t}
+** Saturday
 Lauantai
 
-{t}Scheduling{/t}
+** Scheduling
 Aikataulu 
 
-{t}Schema{/t}
+** Schema
 Malli
 
-{t}Schema data{/t}
+** Schema data
 Malli tiedot
 
-{t}Schemafile not found. (%s){/t}
+** Schemafile not found. (%s)
 Malli Tiedostoa ei löydy (%s)
 
-{t}scrapped{/t}
+** scrapped
 romutettu
 
-{t}Search{/t}
+** Search
 Haku
 
-{t}Search by ID{/t}
+** Search by ID
 Hae ID:n kansa
 
-{t}Second manager{/t}
+** Second manager
 Sivuliiken varajohtaja
 
-{t}Secretary{/t}
+** Secretary
 Sihteeri
 
-{t}Self registration{/t}
+** Self registration
 Itse rekisteröinti
 
-{t}Self registration needs confirmation by an administrator.{/t}
+** Self registration needs confirmation by an administrator.
 Itse rekisteröinti vaatii vahvistuksen ylläpitäjältä.
 
-{t}Sent reminders{/t}
+** Sent reminders
 Lähetetyt muistutukset
 
-{t}Sep{/t}
+** Sep
 Syy
 
-{t}Separate fields{/t}
+** Separate fields
 Erotaa kentät
 
-{t}Separate values{/t}
+** Separate values
 Erotaa arvot
 
-{t}Separators{/t}
+** Separators
 Erottimet
 
-{t}September{/t}
+** September
 Syyskuu
 
-{t}Serial number{/t}
+** Serial number
 Sarjanumero
 
-{t}Server{/t}
+** Server
 Palvelin
 
-{t}Server does not support sorting{/t}
+** Server does not support sorting
 Palvelin ei tue lajittelua
 
-{t}Server-IP{/t}
+** Server-IP
 Palvelin-IP
 
-{t}Service provider{/t}
+** Service provider
 Palveluntarjoaja 
 
-{t}Session name in cookie{/t}
+** Session name in cookie
 Istunnon nimi evästeessä
 
-{t}Session timeout{/t}
+** Session timeout
 Istunnon aikakatkaisu
 
-{t}Sessions{/t}
+** Sessions
 Istunnot
 
-{t}Setup{/t}
+** Setup
 Asennus
 
-{t}Setup needs a database-php-extension ! (%s){/t}
+** Setup needs a database-php-extension ! (%s)
 Asennukseen tarvitaan PHP tietokanta laajennus! (%s)
 
-{t}Setup needs php with at least version %s !{/t}
+** Setup needs php with at least version %s !
 Asennus vaatii vähintään PHP %s !
 
-{t}Setup needs php-extension with name %s !{/t}
+** Setup needs php-extension with name %s !
 Asennukseen tarvitaan PHP laajennus nimellä %s !
 
-{t}Setup needs Simple Groupware with at least version %s !{/t}
+** Setup needs Simple Groupware with at least version %s !
 Asennus vaatii vähintään 'Simple Groupware' %s !
 
-{t}Setup: setup-data written to %s.{/t}
+** Setup: setup-data written to %s.
 Asennus: setup data kirjoitetaan %s .
 
-{t}Shapes{/t}
+** Shapes
 Muotoja
 
-{t}Share{/t}
+** Share
 Share
 
-{t}Short links{/t}
+** Short links
 Lyhyt Linkit
 
-{t}Show{/t}
+** Show
 Näytä
 
-{t}Show archive{/t}
+** Show archive
 Näytä arkisto
 
-{t}Show details{/t}
+** Show details
 Näytä yksityskohdat
 
-{t}Show folder description in content area{/t}
+** Show folder description in content area
 Näytä kansiokuvaus sisältöaluella
 
-{t}Show password{/t}
+** Show password
 Näytä salasana
 
-{t}Show quoted text{/t}
+** Show quoted text
 Näytä lainattu teksti
 
-{t}Similar{/t}
+** Similar
 Samankaltaisia
 
-{t}Simple tables{/t}
+** Simple tables
 Yksinkertaisia taulukoita
 
-{t}single{/t}
+** single
 yksin
 
-{t}Single choice{/t}
+** Single choice
 Yksinkertainen valinta
 
-{t}Size{/t}
+** Size
 Koko
 
-{t}Size (children){/t}
+** Size (children)
 Koko (alikansiot)
 
-{t}Slow{/t}
+** Slow
 Viive
 
-{t}small{/t}
+** small
 Pieni
 
-{t}small text{/t}
+** small text
 Pieni teksti
 
-{t}smaller{/t}
+** smaller
 Pienempi
 
-{t}SMTP not configured for %s{/t}
+** SMTP not configured for %s
 SMTP ole määritetty %s 
 
-{t}Smtp-error %s: %s{/t}
+** Smtp-error %s: %s
 Smtp virhe %s: %s
 
-{t}Software{/t}
+** Software
 Software
 
-{t}Solution{/t}
+** Solution
 Ratkaisu
 
-{t}Solution type{/t}
+** Solution type
 Ratkaisun tyyppi
 
-{t}some text{/t}
+** some text
 jotain teksti
 
-{t}Source{/t}
+** Source
 Lähdekoodi
 
-{t}Source code{/t}
+** Source code
 Lähdekoodi
 
-{t}Specification{/t}
+** Specification
 Spesifikaatio
 
-{t}Spreadsheet{/t}
+** Spreadsheet
 Taulukkolaskenta
 
-{t}SQL failed.{/t}
+** SQL failed.
 SQL virhe.
 
-{t}SQL FAILED: %s{/t}
+** SQL FAILED: %s
 SQL virhe: %s
 
-{t}Start scheduled{/t}
+** Start scheduled
 Aloituspäivä
 
-{t}Start synchronization{/t}
+** Start synchronization
 Käynnistä synkronointi
 
-{t}Started{/t}
+** Started
 Aloitettu
 
-{t}starts with{/t}
+** starts with
 alkaa
 
-{t}State{/t}
+** State
 Valtio
 
-{t}Static cache{/t}
+** Static cache
 Staattinen välimuisti
 
-{t}Statistics{/t}
+** Statistics
 Tilastot
 
-{t}Status{/t}
+** Status
 Tila
 
-{t}Status reset to: %s{/t}
+** Status reset to: %s
 Tila palautettu: %s
 
-{t}Statuses{/t}
+** Statuses
 Tilat
 
-{t}Strategies{/t}
+** Strategies
 Strategiat
 
-{t}Street{/t}
+** Street
 Katu
 
-{t}Structure{/t}
+** Structure
 Rakenne
 
-{t}Su{/t}
+** Su
 Su
 
-{t}Subfolders{/t}
+** Subfolders
 Alikansio
 
-{t}subheading{/t}
+** subheading
 Alaotsikko
 
-{t}Subitem{/t}
+** Subitem
 Subelement
 
-{t}Subject{/t}
+** Subject
 Aihe
 
-{t}Subjects{/t}
+** Subjects
 Aiheet
 
-{t}Submit a patch{/t}
+** Submit a patch
 Lähetä ohjelman korjaus
 
-{t}subscript{/t}
+** subscript
 Alaindeksi
 
-{t}Subsistence costs{/t}
+** Subsistence costs
 Ruokailukulut
 
-{t}Summary{/t}
+** Summary
 Yhteenveto
 
-{t}Sun{/t}
+** Sun
 Su
 
-{t}Sunday{/t}
+** Sunday
 Suunnuntai
 
-{t}Superior{/t}
+** Superior
 Pomo
 
-{t}superscript{/t}
+** superscript
 Yläindeksi
 
-{t}Supplier{/t}
+** Supplier
 Toimittaja
 
-{t}Suppliers{/t}
+** Suppliers
 Toimittajat
 
-{t}Support{/t}
+** Support
 Tuki
 
-{t}Support request{/t}
+** Support request
 Tukipyyntö
 
-{t}Surveys{/t}
+** Surveys
 Kyselyt
 
-{t}Suspended{/t}
+** Suspended
 Siiretty
 
-{t}Switch maintenance mode{/t}
+** Switch maintenance mode
 Vaihtaa ylläpitotila
 
-{t}Sync attachments{/t}
+** Sync attachments
 Synkronoi liitetiedostoja
 
-{t}Sync4j remote delete items{/t}
+** Sync4j remote delete items
 Sync4j poistaa kohteita etänä
 
-{t}Syntax{/t}
+** Syntax
 Syntaksi
 
-{t}System{/t}
+** System
 Järjestelmä
 
-{t}System command executed: %s{/t}
+** System command executed: %s
 Järjestelmän komennon: %s suoritettu
 
-{t}Table{/t}
+** Table
 Taulukko
 
-{t}Table sizes{/t}
+** Table sizes
 Taulukon koot
 
-{t}Table status{/t}
+** Table status
 Taulukon tila
 
-{t}Tables{/t}
+** Tables
 Taulukot
 
-{t}Take over{/t}
+** Take over
 Käyttä
 
-{t}Take selection{/t}
+** Take selection
 Käyttä valinta
 
-{t}Task with ID %s{/t}
+** Task with ID %s
 Tehtävä No: %s
 
-{t}Tasks{/t}
+** Tasks
 Tehtävät
 
-{t}Tasks with responsible %s{/t}
+** Tasks with responsible %s
 %s:n tehtävät
 
-{t}Template{/t}
+** Template
 Malli
 
-{t}Templates{/t}
+** Templates
 Mallit
 
-{t}term{/t}
+** term
 Käsite
 
-{t}Text area{/t}
+** Text area
 Teksti alue
 
-{t}Text Document{/t}
+** Text Document
 Teksti asiakirja
 
-{t}Text formatting rules{/t}
+** Text formatting rules
 Tekstin muotoilun säännöt
 
-{t}Th{/t}
+** Th
 To
 
-{t}Thanks for voting!{/t}
+** Thanks for voting!
 Kiitos äänestyksestä!
 
-{t}The folder cannot be copied.{/t}
+** The folder cannot be copied.
 Kansiota ei voitu kopioida.
 
-{t}The folder cannot be deleted.{/t}
+** The folder cannot be deleted.
 Kansiota ei voitu poista.
 
-{t}The folder cannot be moved.{/t}
+** The folder cannot be moved.
 Kansiota ei voitu siirtää.
 
-{t}The new password is{/t}
+** The new password is
 Usi salasana
 
-{t}The url doesn't exist.{/t}
+** The url doesn't exist.
 URL ei ole olemassa.
 
-{t}Theme{/t}
+** Theme
 Layout
 
-{t}this file extension is not allowed{/t}
+** this file extension is not allowed
 Tämä tiedostopääte on kielletty
 
-{t}Thu{/t}
+** Thu
 To
 
-{t}Thursday{/t}
+** Thursday
 Torstai
 
-{t}Time{/t}
+** Time
 Aika
 
-{t}Time and expenses{/t}
+** Time and expenses
 Palkkalaskema
 
-{t}Time sheets{/t}
+** Time sheets
 Ajankäyttölomakkeet
 
-{t}Time zone{/t}
+** Time zone
 Aikavyöhyke
 
-{t}timeout{/t}
+** timeout
 Aikaylitys
 
-{t}Title{/t}
+** Title
 Titel
 
-{t}To{/t}
+** To
 Vast.
 
-{t}to be checked{/t}
+** to be checked
 tarkistattava
 
-{t}To continue installing Simple Groupware you must check the box under the license{/t}
+** To continue installing Simple Groupware you must check the box under the license
 Voit jatkaa Simple Groupwaren asennusta kun rastitat lisenssin alle olevan kentän
 
-{t}Today{/t}
+** Today
 Tänään
 
-{t}Too many wrong logins. Please wait 15 minutes.{/t}
+** Too many wrong logins. Please wait 15 minutes.
 Liian monta väärää kirjautumisia. Odota 15 minuuttia.
 
-{t}Total{/t}
+** Total
 Yhteensä
 
-{t}Trace{/t}
+** Trace
 Jäljet
 
-{t}Trade fair{/t}
+** Trade fair
 Messut
 
-{t}translations{/t}
+** translations
 Käännökset
 
-{t}Translations of the GNU GPL{/t}
+** Translations of the GNU GPL
 GNU GPL :n Käännökset
 
-{t}Transportation costs{/t}
+** Transportation costs
 Matkakulut
 
-{t}Trash{/t}
+** Trash
 Roskakori
 
-{t}Trash folder not found.{/t}
+** Trash folder not found.
 Roskakori kansio ei löytynyt.
 
-{t}Tree{/t}
+** Tree
 Puunäkymä
 
-{t}Trigger failed{/t}
+** Trigger failed
 Trigger epäonnistui.
 
-{t}Tu{/t}
+** Tu
 Ti
 
-{t}Tue{/t}
+** Tue
 Ti
 
-{t}Tuesday{/t}
+** Tuesday
 Tiistai
 
-{t}Type{/t}
+** Type
 Tyyppi
 
-{t}U n i n s t a l l{/t}
+** U n i n s t a l l
 D e i n s t a l l
 
-{t}unable to find %s{/t}
+** unable to find %s
 %s ei löydy
 
-{t}Unable to write to %s{/t}
+** Unable to write to %s
 Ei voitu kirjoittaa %s
 
-{t}unconfirmed{/t}
+** unconfirmed
 Vahvistamaton
 
-{t}Unconfirmed{/t}
+** Unconfirmed
 Vahvistamaton
 
-{t}underline{/t}
+** underline
 Alleviivaus
 
-{t}Uninstall does not delete any data in the database.{/t}
+** Uninstall does not delete any data in the database.
 Uninstall ei poista mitään tietoja tietokannasta.
 
-{t}uninterested{/t}
+** uninterested
 ei kiinnostunut
 
-{t}Unlock{/t}
+** Unlock
 Avata
 
-{t}Up{/t}
+** Up
 Ylös
 
-{t}Update{/t}
+** Update
 Päivitä
 
-{t}Update Simple Groupware{/t}
+** Update Simple Groupware
 päivitä Simple Groupware
 
-{t}Updated{/t}
+** Updated
 Päivitetty
 
-{t}Updating schema %s from %s.{/t}
+** Updating schema %s from %s.
 Päivitä schema %s kohteesta %s.
 
-{t}Upload failed{/t}
+** Upload failed
 Lataus ei onnistunut
 
-{t}Uploaded files{/t}
+** Uploaded files
 Ladatut tiedostot
 
-{t}Uploading{/t}
+** Uploading
 Lataaminen
 
-{t}urgent{/t}
+** urgent
 kiireellinnen
 
-{t}URL{/t}
+** URL
 URL
 
-{t}Usage{/t}
+** Usage
 Käyttö
 
-{t}USD{/t}
+** USD
 EUR
 
-{t}Use Debian binaries (Warning: not latest versions){/t}
+** Use Debian binaries (Warning: not latest versions)
 Käytä Debian binäärit (Varoitus: ei viimeisimmät versiot) 
 
-{t}Use LDAP Groups{/t}
+** Use LDAP Groups
 käytä LDAP Ryhmät
 
-{t}Use syslog() function for logging events{/t}
+** Use syslog() function for logging events
 Käytä syslog() funktiota tapahtumien kirjaamiseen
 
-{t}Use the mail() function for sending mails (insecure){/t}
+** Use the mail() function for sending mails (insecure)
 Käytä mail() funktio sähköpostiviestejän lähettämiseen (ei turvallinen)
 
-{t}User{/t}
+** User
 Käyttäjä
 
-{t}User not found.{/t}
+** User not found.
 Käyttäjä ei löytynyt.
 
-{t}Username{/t}
+** Username
 Käyttäjätunnus
 
-{t}Username must be different from the super administrator.{/t}
+** Username must be different from the super administrator.
 Käyttäjänimi ei voi olla sama kuin super ADMIN.
 
-{t}Users{/t}
+** Users
 Käyttäjät
 
-{t}V o t e !{/t}
+** V o t e !
 Ä ä n e s t ä !
 
-{t}Vacation{/t}
+** Vacation
 Loma
 
-{t}validation failed{/t}
+** validation failed
 Tarkistus epäonnistui 
 
-{t}Value{/t}
+** Value
 Arvo
 
-{t}Variable{/t}
+** Variable
 Muuttuja
 
-{t}Variable already exists in table. (%s){/t}
+** Variable already exists in table. (%s)
 Muuttuja on jo tietokannassa. (%s)
 
-{t}Variable must be of type date (mm/dd/yyyy).{/t}
+** Variable must be of type date (mm/dd/yyyy).
 Muuttuja täytyy olla muodossa: dd.mm.yyyy
 
-{t}Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).{/t}
+** Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).
 Muuttuja täytyy olla muodossa: dd.mm.yyyy HH:mm
 
-{t}Variable must be of type float.{/t}
+** Variable must be of type float.
 Anna kelvollinen liukuluku.
 
-{t}Variable must be of type int and greater than 0.{/t}
+** Variable must be of type int and greater than 0.
 Muuttuja täytyy olla kokonaisluku ja yli 0.
 
-{t}Variable must be of type int.{/t}
+** Variable must be of type int.
 Muuttuja täytyy olla kokonaisluku.
 
-{t}Variable must be of type time (hh:mm am/pm).{/t}
+** Variable must be of type time (hh:mm am/pm).
 Muuttuja täytyy olla muodossa: HH:mm
 
-{t}Variables{/t}
+** Variables
 Muuttujat
 
-{t}Verbal recommendation{/t}
+** Verbal recommendation
 Suullinen suositus
 
-{t}verified{/t}
+** verified
 Tarkistettu
 
-{t}vertical{/t}
+** vertical
 vertikal
 
-{t}very promising{/t}
+** very promising
 erittäin lupaava
 
-{t}View{/t}
+** View
 Näytä
 
-{t}View access (groups){/t}
+** View access (groups)
 Pääsy katseluun (Ryhmät)
 
-{t}View access (users){/t}
+** View access (users)
 Pääsy katseluun (Käyttäjät)
 
-{t}Virus scanner{/t}
+** Virus scanner
 Virus skanneri
 
-{t}Voice mail{/t}
+** Voice mail
 Puheposti laatikko
 
-{t}Vote{/t}
+** Vote
 Äänestä
 
-{t}Voted by{/t}
+** Voted by
 Äänestetty: 
 
-{t}Waiting{/t}
+** Waiting
 Odottaa
 
-{t}Warning{/t}
+** Warning
 Varoitus
 
-{t}We{/t}
+** We
 Ke
 
-{t}Web{/t}
+** Web
 Web
 
-{t}Wed{/t}
+** Wed
 Ke
 
-{t}Wednesday{/t}
+** Wednesday
 Keskivikko
 
-{t}Week{/t}
+** Week
 Viikko
 
-{t}Week start{/t}
+** Week start
 Viikon alku
 
-{t}Weekend{/t}
+** Weekend
 Viikonloppu
 
-{t}weekly{/t}
+** weekly
 viikoittain
 
-{t}weeks{/t}
+** weeks
 Viikkoja
 
-{t}Welcome to Simple Groupware!{/t}
+** Welcome to Simple Groupware!
 Tervetuloa 'Simple Groupware'ssa!
 
-{t}white{/t}
+** white
 valkoinen
 
-{t}widowed{/t}
+** widowed
 leski
 
-{t}Wiki{/t}
+** Wiki
 Wiki
 
-{t}WikiStyles{/t}
+** WikiStyles
 Wiki-tyylinen
 
-{t}won't fix{/t}
+** won't fix
 Ei korjata
 
-{t}word{/t}
+** word
 Sana
 
-{t}works as expected{/t}
+** works as expected
 toimii odotetulla tavalla
 
-{t}works for me{/t}
+** works for me
 toimii minulla
 
-{t}Workshop{/t}
+** Workshop
 Seminaari
 
-{t}Workspace{/t}
+** Workspace
 Työtila
 
-{t}write access{/t}
+** write access
 Kirjoitusoikeus
 
-{t}Write access (groups){/t}
+** Write access (groups)
 Kirjoitusoikeus (Ryhmät)
 
-{t}Write access (users){/t}
+** Write access (users)
 Kirjoitusoikeus (Käyttäjät)
 
-{t}Wrong database-version (%s). Please use at least %s !{/t}
+** Wrong database-version (%s). Please use at least %s !
 Väärä tietokanta versio (%s). Käytä vähintään %s !
 
-{t}wrong directory{/t}
+** wrong directory
 väärä kansio
 
-{t}wrong password{/t}
+** wrong password
 väärä salasana
 
-{t}Year{/t}
+** Year
 Vuosi
 
-{t}yearly{/t}
+** yearly
 vuosittain
 
-{t}yellow{/t}
+** yellow
 keltainen
 
-{t}yes{/t}
+** yes
 kyllä
 
-{t}You are not allowed to view this folder.{/t}
+** You are not allowed to view this folder.
 Sinulla ei ole oikeutta katsoa tätä kansiota.
 
-{t}You can go offline now.{/t}
+** You can go offline now.
 Voit mennä offline nyt
 
-{t}Your message was read on %s.{/t}
+** Your message was read on %s.
 Viestisi on luettu %s.
 
-{t}Your session has timed out.{/t}
+** Your session has timed out.
 Istunto on vanhentunut.
 
-{t}Zipcode{/t}
+** Zipcode
 Postinumero
 
-{t}{0} - {1} of {2}{/t}
+** {0} - {1} of {2}
 {0} - {1} / {2}
 
-{t}Book{/t}
+** Book
 Tilaa
 
-{t}Cancel{/t}
+** Cancel
 Peruuta
 
-{t}Complete{/t}
+** Complete
 Käsittele loppuun
 
-{t}Confirm{/t}
+** Confirm
 Vahvista
 
-{t}db-folder{/t}
+** db-folder
 db-hakemisto
 
-{t}Delivery{/t}
+** Delivery
 Toimitus
 
-{t}Folder created.{/t}
+** Folder created.
 Kansio luotu
 
-{t}Group created.{/t}
+** Group created.
 Ryhmä luotu
 
-{t}Group deactivated.{/t}
+** Group deactivated.
 Ryhmä deaktivoitu
 
-{t}Hide{/t}
+** Hide
 Piilota
 
-{t}inheritance to subfolders without default values{/t}
+** inheritance to subfolders without default values
 Periminen alikansioihin ilman oletusarvot 
 
-{t}Intranet{/t}
+** Intranet
 Intranet
 
-{t}Main page{/t}
+** Main page
 Etusivu
 
-{t}Next recurrences{/t}
+** Next recurrences
 Seuraavat toistot
 
-{t}Notifications{/t}
+** Notifications
 Ilmoitukset
 
-{t}Recipients{/t}
+** Recipients
 Saajat
 
-{t}Recurrences{/t}
+** Recurrences
 Toistoja
 
-{t}Reference{/t}
+** Reference
 Referenssi
 
-{t}Running mail reminder for %s{/t}
+** Running mail reminder for %s
 Lähetä sähköposti muistutus %s 
 
-{t}Send now{/t}
+** Send now
 Lähetä nyt
 
-{t}Sent{/t}
+** Sent
 Lähetetty
 
-{t}Status reset to: %s{/t}
+** Status reset to: %s
 Tila palautettu: %s
 
-{t}Subpages{/t}
+** Subpages
 Alasivut
 
-{t}use mirror from{/t}
+** use mirror from
 Käyttä mirrot palvelin 
 
-{t}Value '%s' needs a group membership: %s{/t}
+** Value '%s' needs a group membership: %s
 Arvo %s vaatii ryhmän jäsenyyden: %s 
 
-{t}Gantt{/t}
+** Gantt
 Gantt kaavio
