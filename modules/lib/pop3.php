@@ -40,7 +40,7 @@ static function select($path,$fields,$where,$order,$limit,$vars,$mfolder) {
 	      case "id": $row[$field] = $path."/?".md5($msg_uid); break;
 	      case "folder": $row[$field] = $path; break;
   		  case "searchcontent": $row[$field] = $data["subject"]." ".$data["from"]; break;
-		  case "subject": $row[$field] = !empty($data["subject"])?$data["subject"]:"- {t}Empty{/t} -"; break;
+		  case "subject": $row[$field] = !empty($data["subject"])?$data["subject"]:"- ".t("Empty")." -"; break;
 	 	  case "efrom": $row[$field] = isset($data["from"])?$data["from"]:""; break;
 	      case "eto": $row[$field] = isset($data["to"])?$data["to"]:""; break;
   		  case "cc": $row[$field] = isset($data["cc"])?$data["cc"]:""; break;
