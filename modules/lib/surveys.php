@@ -70,11 +70,11 @@ static function choices($var, $args, $data) {
 
   if (empty($data["qtype"]["data"][0])) {
     if (!$has_choices) return t("Thanks for voting!");
-    return <<<EOT
-	  <input class="surveys submit bold" type="button" value="{t}V o t e !{/t}" style="margin:0px;" onclick="
-		ajax('lib_surveys::ajax_store_vote', [tfolder, form_values('.surveys')], locate_folder);"/>
+    return '
+	  <input class="surveys submit bold" type="button" value="'.t("V o t e !").'" style="margin:0px;" onclick="
+		ajax(\'lib_surveys::ajax_store_vote\', [tfolder, form_values(\'.surveys\')], locate_folder);"/>
 	  </form>
-EOT;
+	';
   }
   $var = modify::htmlquote($var);
   $id = modify::htmlquote($data["_id"]);
