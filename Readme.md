@@ -14,7 +14,7 @@ Also support, updates and documentation are available for free.
 
 Simple Groupwre Homepage: http://www.simple-groupware.de
 
-Other Links:
+Important pages:
 
 - Installation Instructions: http://www.simple-groupware.de/cms/Installation
 - Update Instructions: http://www.simple-groupware.de/cms/Update
@@ -28,12 +28,12 @@ Other Links:
 
 Changelog:
 
-- see docs/Changelog.txt
+- see [docs/Changelog.txt](https://github.com/simplegroupware/Simple-Groupware/blob/master/docs/Changelog.txt)
 
 Contributions:
 
-- see docs/Contributions.txt
+- see [docs/Contributions.txt](https://github.com/simplegroupware/Simple-Groupware/blob/master/docs/Contributions.txt)
 
 License:
 
-- see License.txt
+- see [License.txt](https://github.com/simplegroupware/Simple-Groupware/blob/master/License.txt)
