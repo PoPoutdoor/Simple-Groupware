@@ -27,10 +27,13 @@ Other Links:
 - Why Open Source? http://www.simple-groupware.de/cms/Why-Open-Source
 
 Changelog:
+
 - see docs/Changelog.txt
 
 Contributions:
+
 - see docs/Contributions.txt
 
 License:
+
 - see License.txt
