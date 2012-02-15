@@ -247,6 +247,13 @@ License: GNU Lesser General Public License
 License Url: http://www.opensource.org/licenses/lgpl-2.1.php
 Homepage: http://tinymce.moxiecode.com/
 
+Coustard Font (02/15/12)
+------------------------
+Author: Vernon Adams
+License: SIL Open Font License, 1.1
+License Url: http://scripts.sil.org/OFL
+Homepage: http://www.google.com/webfonts/specimen/Coustard
+
 Ext JS Library (3.2.1, 09/15/10)
 --------------------------------
 Copyright (c) 2006-2010 Ext JS, Inc. (licensing § extjs.com)
