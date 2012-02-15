@@ -72,7 +72,7 @@ static function select($path,$fields,$where,$order,$limit,$vars,$mfolder) {
 private static function _parse($file) {
   if (($data = sys_cache_get("vcard_".sha1($file)))) return $data;
   if (($message = sys_allowedpath(dirname($file)))) {
-    sys_warning(sprintf("{t}Cannot read the file %s.{/t} %s",$file,$message));
+    sys_warning(t("Cannot read the file %s. %s"),$file,$message));
     return array();
   }
   if (!($data = @file_get_contents($file))) {
@@ -97,7 +97,7 @@ private static function _parse($file) {
 	  $rows[] = $row;
 	}
   } else {
-    sys_warning(t("Cannot read the file %s.",$file));
+    sys_warning(t("Cannot read the file %s. %s",$file,""));
 	return array();
   }
   sys_cache_set("vcard_".sha1($file),$rows,VCARD_CACHE);

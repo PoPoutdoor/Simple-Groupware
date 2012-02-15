@@ -48,7 +48,7 @@ static function select($path,$fields,$where,$order,$limit,$vars,$mfolder) {
 private static function _get_data($file) {
   if (($data = sys_cache_get("bookmarks_".sha1($file)))) return $data;
   if (($message = sys_allowedpath(dirname($file)))) {
-    sys_warning(sprintf("{t}Cannot read the file %s.{/t} %s",$file,$message));
+    sys_warning(t("Cannot read the file %s. %s",$file,$message));
     return array();
   }
   if (!($data = @file_get_contents($file))) {

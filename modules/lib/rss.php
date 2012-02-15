@@ -54,7 +54,7 @@ private static function _get_link($item) {
 private static function _parse($file) {
   if (($data = sys_cache_get("rss_".sha1($file)))) return $data;
   if (($message = sys_allowedpath(dirname($file)))) {
-    sys_warning(sprintf("{t}Cannot read the file %s.{/t} %s",$file,$message));
+    sys_warning(t("Cannot read the file %s. %s"),$file,$message));
     return array();
   }
   if (!($data = @file_get_contents($file))) {

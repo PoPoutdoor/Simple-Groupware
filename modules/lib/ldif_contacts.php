@@ -84,7 +84,7 @@ static function select($path,$fields,$where,$order,$limit,$vars,$mfolder) {
 private static function _parse($file) {
   if (($data = sys_cache_get("ldif_".sha1($file)))) return $data;
   if (($message = sys_allowedpath(dirname($file)))) {
-    sys_warning(sprintf("{t}Cannot read the file %s.{/t} %s",$file,$message));
+    sys_warning(t("Cannot read the file %s. %s"),$file,$message));
     return array();
   }
   $rows = array();
@@ -104,7 +104,7 @@ private static function _parse($file) {
 	}
     fclose($handle);
   } else {
-    sys_warning(t("Cannot read the file %s.",$file));
+    sys_warning(t("Cannot read the file %s. %s",$file,""));
 	return array();
   }
   sys_cache_set("ldif_".sha1($file),$rows,LDIF_CACHE);

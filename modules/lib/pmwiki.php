@@ -103,7 +103,7 @@ function _parse_pmwiki_file($pagefile) {
 	}
 	fclose($fp);
   } else {
-	sys_warning(t("Cannot read the file %s.",$pagefile));
+	sys_warning(t("Cannot read the file %s. %s",$pagefile,""));
   }
   return $page;
 }
