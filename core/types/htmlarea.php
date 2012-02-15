@@ -73,5 +73,4 @@ static function render_value($value, $unused, $unused2, $smarty) {
 static function export_as_html() {
   return true;
 }
-
 }
