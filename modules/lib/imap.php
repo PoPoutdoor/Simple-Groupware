@@ -61,7 +61,7 @@ static function select($path,$fields,$where,$order,$limit,$vars,$mfolder) {
 	      case "id": $row[$field] = $path."/?".$datas[$key]["uidl"]; break;
 	      case "folder": $row[$field] = $path; break;
   		  case "searchcontent": $row[$field] = $data["subject"]." ".$data["from"]; break;
-		  case "subject": $row[$field] = !empty($data["subject"])?$data["subject"]:"- {t}Empty{/t} -"; break;
+		  case "subject": $row[$field] = !empty($data["subject"])?$data["subject"]:"- ".t("Empty")." -"; break;
 	 	  case "efrom": $row[$field] = isset($data["from"])?$data["from"]:""; break;
 	      case "eto": $row[$field] = isset($data["to"])?$data["to"]:""; break;
   		  case "cc": $row[$field] = isset($data["cc"])?$data["cc"]:""; break;
@@ -140,7 +140,7 @@ static function delete($path,$where,$vars,$mfolder) {
 
   if (!$imap = self::_connect($mfolder)) return "error";
   if (PEAR::isError($result = $imap->selectMailbox($imap_path))) {
-    exit(sprintf("[5] {t}Connection error: %s [%s]{/t}", $result->getMessage(), "IMAP"));
+    exit(t("Connection error: %s [%s]", $result->getMessage(), "IMAP"));
   }
   $id = substr($vars["id"],strpos($vars["id"],"/?")+2);  
   if (PEAR::isError($ids = $imap->search("UID ".$id))) {
@@ -360,13 +360,13 @@ private static function _connect($mfolder) {
 	
 	if (!$creds["port"]) $creds["port"] = 143;
 	if ($creds["ssl"] and !extension_loaded("openssl")) {
-	  sys_warning(sprintf("[0] {t}%s is not compiled / loaded into PHP.{/t}","OpenSSL"));
+	  sys_warning(t("%s is not compiled / loaded into PHP.","OpenSSL"));
 	  return false;
 	}
 
 	$imap = new Net_IMAP();
 	if (PEAR::isError($result = $imap->connect(($creds["ssl"]?$creds["ssl"]."://".$creds["server"]:$creds["server"]), $creds["port"]))) {
-	  sys_warning(sprintf("[1] {t}Connection error: %s [%s]{/t}", $result->getMessage(), "IMAP"));
+	  sys_warning(t("Connection error: %s [%s]", $result->getMessage(), "IMAP"));
 	  return false;
 	}
 	if (PEAR::isError($ret = $imap->login(self::_quote($creds["username"]), self::_quote($creds["password"])))) {
@@ -580,7 +580,7 @@ private static function _get_datas_sort($mfolder,$imap_path,$cid,$order,$s_limit
 	    return array();
 	  }
 	  if (!sys_strbegins($order,"created")) {
-	    sys_warning(sprintf("{t}Imap-error: %s{/t}","{t}Server does not support sorting{/t}"));
+	    sys_warning(t("Imap-error: %s",t("Server does not support sorting")));
 	  }
 	  if ($order=="created asc") rsort($ids); else sort($ids);
 	} else {
@@ -593,7 +593,7 @@ private static function _get_datas_sort($mfolder,$imap_path,$cid,$order,$s_limit
 	if (isset($vars["search"])) _asset_process_pages(count($ids));
   } else if (!in_array("SORT",self::_get_capabilities($mfolder))) {
 	if (!sys_strbegins($order,"created")) {
-	  sys_warning(sprintf("{t}Imap-error: %s{/t}","{t}Server does not support sorting{/t}"));
+	  sys_warning(t("Imap-error: %s",t("Server does not support sorting")));
 	}
 	if ($order=="created asc") {
       $ids = range($s_limit[0]+1,$s_limit[0]+$s_limit[1]);
