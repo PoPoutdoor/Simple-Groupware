@@ -10,9 +10,9 @@
     <folder name="{t}E-mail{/t}" type="emails">
     </folder>
     <folder name="{t}Calendar{/t}" type="calendar">
-      <folder type="blank" name="{t}Import{/t} iCalendar" mountpoint="icalendar:../import/example_icalendar.ics">
+      <folder type="blank" name="{t}Import{/t} iCalendar" mountpoint="icalendar:import/example_icalendar.ics">
       </folder>
-      <folder type="blank" name="{t}Import{/t} Outlook CSV {t}Calendar{/t}" mountpoint="csv_calendar:../import/example_calendar.csv">
+      <folder type="blank" name="{t}Import{/t} Outlook CSV {t}Calendar{/t}" mountpoint="csv_calendar:import/example_calendar.csv">
       </folder>
       <folder name="{t}Locations{/t}" type="locations">
       </folder>
@@ -34,13 +34,13 @@
 	  </assets>
       <folder name="{t}Companies{/t}" type="companies">
       </folder>
-      <folder type="blank" name="{t}Import{/t} Outlook CSV {t}Contacts{/t}" mountpoint="csv_contacts:../import/example_contacts.csv">
+      <folder type="blank" name="{t}Import{/t} Outlook CSV {t}Contacts{/t}" mountpoint="csv_contacts:import/example_contacts.csv">
       </folder>
-      <folder type="blank" name="{t}Import{/t} vCard" mountpoint="vcard:../import/example_contacts.vcf">
+      <folder type="blank" name="{t}Import{/t} vCard" mountpoint="vcard:import/example_contacts.vcf">
       </folder>
-      <folder type="blank" name="{t}Import{/t} LDIF" mountpoint="ldif_contacts:../import/example.ldif">
+      <folder type="blank" name="{t}Import{/t} LDIF" mountpoint="ldif_contacts:import/example.ldif">
       </folder>
-      <folder type="blank" name="{t}Import{/t} XML {t}Contacts{/t}" mountpoint="xml:../import/example.xml">
+      <folder type="blank" name="{t}Import{/t} XML {t}Contacts{/t}" mountpoint="xml:import/example.xml">
       </folder>
       <folder name="{t}Contact groups{/t}" type="contactgroups">
       </folder>
@@ -50,7 +50,7 @@
     <folder name="{t}Tasks{/t}" type="tasks">
     </folder>
     <folder name="{t}Files{/t}" type="files">
-      <folder type="blank" name="{t}Import{/t}" mountpoint="fs:../import/">
+      <folder type="blank" name="{t}Import{/t}" mountpoint="fs:import/">
       </folder>
     </folder>
     <folder name="{t}Notes{/t}" type="notes">
@@ -73,9 +73,9 @@
       <folder type="blank" name="heise.de (German)" mountpoint="rss:http://www.heise.de/newsticker/heise-atom.xml">
       </folder>
     </folder>
-    <folder name="{t}Surveys{/t}" type="surveys" description="{t}Example surveys can be found at:{/t} http://www.createsurvey.com/demo/templates.html" data="../import/data_surveys.xml">
+    <folder name="{t}Surveys{/t}" type="surveys" description="{t}Example surveys can be found at:{/t} http://www.createsurvey.com/demo/templates.html" data="import/data_surveys.xml">
     </folder>
-    <folder name="{t}Portal{/t}" type="portal" data="../import/data_news.xml">
+    <folder name="{t}Portal{/t}" type="portal" data="import/data_news.xml">
     </folder>
     <folder name="{t}Photo gallery{/t}" type="gallery">
     </folder>
@@ -86,11 +86,11 @@
     <folder name="{t}Forum{/t}" type="forum">
     </folder>
     <folder name="{t}Bookmarks{/t}" type="bookmarks">
-      <folder type="blank" name="{t}Import{/t} Firefox {t}Bookmarks{/t}" mountpoint="bookmarks:../import/bookmarks.html">
+      <folder type="blank" name="{t}Import{/t} Firefox {t}Bookmarks{/t}" mountpoint="bookmarks:import/bookmarks.html">
       </folder>
     </folder>
-    <folder name="{t}CMS{/t}" type="cms" data="../import/data_cms.xml">
-      <folder type="blank" name="{t}Import{/t}" mountpoint="pmwiki:../import/pmwiki_cms/">
+    <folder name="{t}CMS{/t}" type="cms" data="import/data_cms.xml">
+      <folder type="blank" name="{t}Import{/t}" mountpoint="pmwiki:import/pmwiki_cms/">
       </folder>
     </folder>
     <folder name="{t}Intranet{/t}" type="intranet">
@@ -245,10 +245,10 @@
     </folder>
     <folder name="{t}Database variables{/t}" type="sys_nodb_variables">
     </folder>
-    <folder name="{t}Debug{/t}" anchor="debug" mountpoint="fs:../simple_cache/debug/">
+    <folder name="{t}Debug{/t}" anchor="debug" mountpoint="fs:simple_cache/debug/">
     </folder>
     <folder name="{t}Trash{/t}" type="blank" anchor="trash">
-      <folder name="{t}Files{/t}" mountpoint="fs:../simple_store/trash/">
+      <folder name="{t}Files{/t}" mountpoint="fs:simple_store/trash/">
       </folder>
     </folder>
   </folder>

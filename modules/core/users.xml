@@ -32,7 +32,7 @@
   <folder name="{t}Notes{/t}" type="notes" anchor="notes_@username@">
   </folder>
   <folder name="{t}Files{/t}" type="files">
-    <folder name="{t}Import{/t}" mountpoint="fs:../simple_store/home/@username@/">
+    <folder name="{t}Import{/t}" mountpoint="fs:simple_store/home/@username@/">
     </folder>
   </folder>
   <folder name="{t}Photo gallery{/t}" type="gallery">

@@ -116,10 +116,10 @@
     </folder>
     <folder name="{t}Database variables{/t}" type="sys_nodb_variables">
     </folder>
-    <folder name="{t}Debug{/t}" anchor="debug" mountpoint="fs:../simple_cache/debug/">
+    <folder name="{t}Debug{/t}" anchor="debug" mountpoint="fs:simple_cache/debug/">
     </folder>
     <folder name="{t}Trash{/t}" type="blank" anchor="trash">
-      <folder name="{t}Files{/t}" mountpoint="fs:../simple_store/trash/">
+      <folder name="{t}Files{/t}" mountpoint="fs:simple_store/trash/">
       </folder>
     </folder>
   </folder>
