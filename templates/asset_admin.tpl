@@ -69,7 +69,7 @@
 <div style="margin-bottom:30px;">
 <div class="bold">{t}Setup{/t}</div>
 <hr>
-<a href="index.php?action_sys=edit_setup">{t}Change Setup settings{/t}</a> |
+<a href="config.php">{t}Change Setup settings{/t}</a> |
 <a href="index.php?action_sys=clear_setup&token={""|modify::get_form_token}" onclick="return confirm('{t}Really run setup again ?{/t}');">{t}Run Setup again{/t}</a> |
 <a href="index.php?action_sys=maintenance&token={""|modify::get_form_token}" onclick="return confirm('{t}Really apply the changes ?{/t}');">{t}Switch maintenance mode{/t}</a> |
 <a href="index.php?find=folder|simple_sys_tree|1|ftype=sys_custom_fields">{t}Field customization{/t}</a><br>
