@@ -21,12 +21,12 @@ static function build_customizing($file) {
 
 static function customize_replace($file,$code_remove,$code_new) {
   echo $file.":<br/>Replace:<br/>".nl2br(modify::htmlquote($code_remove))."<br/><br/>with:<br/>".nl2br(modify::htmlquote($code_new))."<br/><br/>\n";
-  $data = file_get_contents("../bin/".$file);
+  $data = file_get_contents("bin/".$file);
   if (strpos($data,$code_remove)===false) {
 	throw new Exception("code not found in: ".$file." Code: ".$code_remove);
   }
   $data = str_replace($code_remove,$code_new,$data);
-  file_put_contents("../bin/".$file,$data);
+  file_put_contents("bin/".$file,$data);
 }
 
 static function out($str="",$nl=true,$exit=false) {
@@ -54,29 +54,6 @@ static function get_config_old($key, $full=false, $default="") {
   return $default;
 }
 
-private static function _get_lang_strings($language) {
-  $lang_file = "lang/".basename($language).".lang";
-  $data = @file_get_contents($lang_file);
-  $data .= @file_get_contents("../".$lang_file);
-  $data .= @file_get_contents(SIMPLE_EXT.$lang_file);
-  
-  $unicode = false;
-  $lang_strings = array();
-  if ($data!="") {
-    $data = explode("{t"."}",$data);
-    if (ord($data[0])==239) $unicode = true; // BOM
-    foreach ($data as $elem) {
-      if ($elem!="") {
-  	    $elem = explode("{/t"."}",$elem);
-	    $elem[0] = trim($elem[0]);
-	    if (isset($elem[1])) $elem[1] = trim($elem[1]);
-	    if (!empty($elem[1])) {
-	      if (!$unicode) $elem[1] = utf8_encode($elem[1]);
-	      $lang_strings[$elem[0]] = htmlspecialchars($elem[1],ENT_QUOTES,"UTF-8");
-  } } } }
-  return $lang_strings;
-}
-
 static function dirs_create_htaccess($dirname) {
   if (!file_exists($dirname.".htaccess")) {
     if (!@file_put_contents($dirname.".htaccess", "Order deny,allow\nDeny from all\n", LOCK_EX)) {
@@ -95,7 +72,7 @@ static function error($msg,$id=0) {
   self::$errors[] = array($msg,$id);
 }
 
-static function display_errors($exit) {
+static function display_errors($phpinfo=false) {
   $err = "";
   $msg = "";
   foreach (self::$errors as $message) {
@@ -119,19 +96,19 @@ static function display_errors($exit) {
 	<br>
 	</center>
   ';
-  if ($exit) exit();
-  phpinfo();
+  if ($phpinfo) phpinfo();
+  exit();
 }
 
 static function dirs_create_default_folders() {
   setup::dirs_create_htaccess(SIMPLE_STORE."/");
-  setup::dirs_create_htaccess("../old/");
   setup::dirs_create_dir(SIMPLE_EXT);
   setup::dirs_create_dir(SIMPLE_STORE."/home");
   setup::dirs_create_dir(SIMPLE_STORE."/backup");
   setup::dirs_create_dir(SIMPLE_STORE."/syncml");
   setup::dirs_create_dir(SIMPLE_STORE."/trash");
   setup::dirs_create_dir(SIMPLE_STORE."/cron");
+  setup::dirs_create_dir(SIMPLE_STORE."/old");
 
   $empty_dir = array(
     SIMPLE_STORE."/locking",
