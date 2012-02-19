@@ -143,14 +143,13 @@ function trans($content) {
   return preg_replace_callback("!\{t\}([^\{]+)\{/t\}!", "t", $content);
 }
 
-function t($str, $addon=null) {
+function t($str) {
   static $strings = array();
   if (is_array($str) and isset($str[1])) $str = $str[1]; // preg_callback
   if (LANG!="en") {
 	if ($strings===null) $strings = APC ? get_lang_apc() : get_lang();
 	if (isset($strings[$str])) $str = $strings[$str];
   }
-  if ($addon!=null) return sprintf($str, array_slice(func_get_args(),1));
   return $str;
 }
 
@@ -3133,11 +3132,11 @@ function sys_custom($file) {
 }
 
 function sys_trans($file, $class) {
-  $cache_file = SIMPLE_CACHE."/lang/".basename($class)."_".LANG."_".filemtime($file).".php";
+  $cache_file = SIMPLE_CACHE."/lang/".basename($class)."_".LANG."_".filemtime($file)."_".filemtime("lang/".LANG.".lang").".php";
   if (!file_exists($cache_file)) {
 	file_put_contents($cache_file, trans(file_get_contents($file)));
+	if (DEBUG and empty($_REQUEST["iframe"])) echo "reload lang ".$class;
   }
-  if (DEBUG and empty($_REQUEST["iframe"])) echo "reload lang ".$class;
   return $cache_file;
 }
 
