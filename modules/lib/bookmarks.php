@@ -48,11 +48,11 @@ static function select($path,$fields,$where,$order,$limit,$vars,$mfolder) {
 private static function _get_data($file) {
   if (($data = sys_cache_get("bookmarks_".sha1($file)))) return $data;
   if (($message = sys_allowedpath(dirname($file)))) {
-    sys_warning(t("Cannot read the file %s. %s",$file,$message));
+    sys_warning(sprintf("{t}Cannot read the file %s. %s{/t}",$file,$message));
     return array();
   }
   if (!($data = @file_get_contents($file))) {
-    sys_warning(t("The url doesn't exist.")." (".$file.")");
+    sys_warning("{t}The url doesn't exist.{/t} (".$file.")");
   	return array();
   }
   preg_match_all("!(?:<h3.*?>(.*?)</h3>|<dd>(.*?)\n|<a href=\"(.*?)\".*?(?:add_date=\"(.*?)\".*?>|>)(.*?)</a>)!msi",$data,$matches);

@@ -10,7 +10,7 @@
 class lib_rss extends lib_default {
 
 static function get_dirs($path, $parent, $recursive) {
-  return array(array("id"=>$path,"lft"=>1,"rgt"=>2,"flevel"=>0,"ftitle"=>t("News"),
+  return array(array("id"=>$path,"lft"=>1,"rgt"=>2,"flevel"=>0,"ftitle"=>"{t}News{/t}",
   	"ftype"=>"sys_nodb_rss","ffcount"=>0));
 }
 
@@ -54,25 +54,25 @@ private static function _get_link($item) {
 private static function _parse($file) {
   if (($data = sys_cache_get("rss_".sha1($file)))) return $data;
   if (($message = sys_allowedpath(dirname($file)))) {
-    sys_warning(t("Cannot read the file %s. %s"),$file,$message));
+    sys_warning(sprintf("{t}Cannot read the file %s. %s{/t}",$file,$message));
     return array();
   }
   if (!($data = @file_get_contents($file))) {
-    sys_warning(t("The url doesn't exist.")." (".$file.")");
+    sys_warning("{t}The url doesn't exist.{/t} (".$file.")");
   	return array();
   }
   if (strpos(strtolower(substr($data,0,100)),"<?xml")===false) { // find RSS in website
     if (preg_match("/rss[^>]+?href=\"(.*?)\"/i",$data,$match)) {
 	  $file = $match[1];
 	  if (!($data = @file_get_contents($file))) {
-	    sys_warning(t("The url doesn't exist.")." (".$file.")");
+	    sys_warning("{t}The url doesn't exist.{/t} (".$file.")");
   	    return array();
   } } }
   try {
     $xml = @new SimpleXMLElement($data);
   }
   catch (Exception $e) {
-    sys_warning(t("Error").": ".$file." ".$e->getMessage());
+    sys_warning("{t}Error{/t}: ".$file." ".$e->getMessage());
     return array();
   }
   if (!is_object($xml)) return array();

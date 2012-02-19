@@ -25,7 +25,7 @@ static function count($path,$where,$vars,$mfolder) {
     }
     closedir($handle);
   } else {
-    sys_warning(t("Access denied."));
+    sys_warning("{t}Access denied.{/t}");
   }
   return $files;
 }
@@ -79,27 +79,27 @@ static function select($path,$fields,$where,$order,$limit,$vars,$mfolder) {
 static function rename_folder($title,$path,$mfolder) {
   $newpath = dirname($path)."/".$title;
   if (sys_allowedpath($path)!="" or @is_dir($newpath) or file_exists($newpath)) return "";
-  if (!@rename($path,$newpath)) exit(t("Access denied."));
+  if (!@rename($path,$newpath)) exit("{t}Access denied.{/t}");
   if (is_dir($newpath)) return "ok"; else return "";
 }
 
 static function create_folder($title,$parent,$mfolder) {
   $newpath = $parent.$title."/";
   if (sys_allowedpath($parent)!="" or is_dir($newpath) or file_exists($newpath)) return "";
-  if (!sys_mkdir($newpath)) exit(t("Access denied."));
+  if (!sys_mkdir($newpath)) exit("{t}Access denied.{/t}");
   if (is_dir($newpath)) return "ok"; else return "";
 }
 
 static function delete_folder($path,$mfolder) {
   if (sys_allowedpath($path)!="" or !is_dir($path)) return "";
   dirs_delete_all($path);
-  if (file_exists($path)) exit(t("Access denied."));
+  if (file_exists($path)) exit("{t}Access denied.{/t}");
   if (!file_exists($path)) return "ok"; else return "";
 }
 
 static function delete($path,$where,$vars,$mfolder) {
   if (empty($vars["id"]) or sys_allowedpath(dirname($vars["id"]))!="" or !file_exists($vars["id"])) return "error";
-  if (!@unlink($vars["id"])) exit(t("Access denied."));
+  if (!@unlink($vars["id"])) exit("{t}Access denied.{/t}");
   if (file_exists($vars["id"].".meta")) @unlink($vars["id"].".meta");
   if (!file_exists($vars["id"])) return ""; else return "error";
 }
@@ -115,7 +115,7 @@ static function update($path,$data,$where,$vars,$mfolder) {
   if ($source!="" and $source!=$target and !is_dir($source) and file_exists($source)) {
     if (file_exists($target)) @unlink($target);
 	if (file_exists($source.".meta")) @rename($source.".meta", $target.".meta");
-    if (!@rename($source, $target)) return t("Access denied.");
+    if (!@rename($source, $target)) return "{t}Access denied.{/t}";
   }
   self::_set_meta($data,$target);
   return "";
@@ -127,8 +127,8 @@ static function insert($path,$data,$mfolder) {
   foreach ($sources as $source) {
     $target = $path.modify::basename($source);
     if (is_dir($source) or !file_exists($source)) continue;
-    if (file_exists($target)) return t("Access denied.");
-	if ($source!=$target and !rename($source, $target)) return t("Access denied.");
+    if (file_exists($target)) return "{t}Access denied.{/t}";
+	if ($source!=$target and !rename($source, $target)) return "{t}Access denied.{/t}";
 	self::_set_meta($data,$target);
   }
   return "";

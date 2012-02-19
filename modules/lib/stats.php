@@ -27,7 +27,7 @@ static function select($folder,$fields,$where,$order,$limit,$vars,$mfolder) {
   $today = $_SESSION[$tname]["_".$folder]["today"];
   $today_arr = sys_getdate($today);
   
-  $weekdays = array(t("Su"),t("Mo"),t("Tu"),t("We"),t("Th"),t("Fr"),t("Sa"));
+  $weekdays = array("{t}Su{/t}","{t}Mo{/t}","{t}Tu{/t}","{t}We{/t}","{t}Th{/t}","{t}Fr{/t}","{t}Sa{/t}");
   $weekstart = $_SESSION[$tname]["_".$folder]["weekstart"];
   $t_today = date::$today;
   $t_then = date::$then;

@@ -15,14 +15,14 @@ static function insert($path,$data,$mfolder,$sendtofrom=true,$use_mail_function=
   @set_time_limit(300); // 5min.
   $from = "";
   $creds = sys_credentials($mfolder);
-  if ($creds["server"]=="" and !$use_mail_function) return t("Error: no credentials");
+  if ($creds["server"]=="" and !$use_mail_function) return "{t}Error: no credentials{/t}";
   if ($creds["options"]!="") {
     foreach (explode("|",$creds["options"]) as $option) {
 	  if (strpos($option,"@")) $from = $option; else $data["name"] = $option;
     }
   }
   if (!$creds["port"]) $creds["port"] = 25;
-  if ($creds["ssl"] and !extension_loaded("openssl")) return t("%s is not compiled / loaded into PHP.","OpenSSL");
+  if ($creds["ssl"] and !extension_loaded("openssl")) return sprintf("{t}%s is not compiled / loaded into PHP.{/t}","OpenSSL");
   if (empty($data["message"])) $data["message"] = "";
   
   $ctype = "text/plain";
@@ -106,26 +106,26 @@ static function insert($path,$data,$mfolder,$sendtofrom=true,$use_mail_function=
   if ($use_mail_function) {
     array_shift($headers);
     if (!mail(implode(", ",$rcpt),$data["subject"],($data["attachment"]?$email["body"]:$message),implode("\r\n",$headers))) {
-	  return t("Smtp-error %s: %s","mail()","error");
+	  return sprintf("{t}Smtp-error %s: %s{/t}","mail()","error");
     }
   } else {
     $smtp = new Net_SMTP($creds["ssl"]?(strtolower($creds["ssl"])."://".$creds["server"]):$creds["server"],$creds["port"]);
     if (PEAR::isError($e = $smtp->connect(10))) {
-	  return t("Smtp-error %s: %s","conn",$e->getMessage());
+	  return sprintf("{t}Smtp-error %s: %s{/t}","conn",$e->getMessage());
     }
     if ($creds["username"]!="" and !empty($smtp->_esmtp['AUTH']) and PEAR::isError($e = $smtp->auth($creds["username"], $creds["password"]))) {
-	  return t("Smtp-error %s: %s","auth",$e->getMessage());
+	  return sprintf("{t}Smtp-error %s: %s{/t}","auth",$e->getMessage());
     }
     if (PEAR::isError($e = $smtp->mailFrom($from))) {
-	  return t("Smtp-error %s: %s","from",$e->getMessage()." [".$from."]");
+	  return sprintf("{t}Smtp-error %s: %s{/t}","from",$e->getMessage()." [".$from."]");
     }
     foreach ($rcpt as $to) {
       if (PEAR::isError($e = $smtp->rcptTo($to))) {
-	    return t("Smtp-error %s: %s","to",$e->getMessage()." [".$to."]");
+	    return sprintf("{t}Smtp-error %s: %s{/t}","to",$e->getMessage()." [".$to."]");
       }
     }
     if (PEAR::isError($e = $smtp->data(implode("\r\n",$headers)."\r\n\r\n".(!empty($data["attachment"])?$email["body"]:$message)))) {
-	  return t("Smtp-error %s: %s","data",$e->getMessage());
+	  return sprintf("{t}Smtp-error %s: %s{/t}","data",$e->getMessage());
     }
     $smtp->disconnect();
   }

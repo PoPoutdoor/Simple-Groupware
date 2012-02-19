@@ -72,11 +72,11 @@ static function select($path,$fields,$where,$order,$limit,$vars,$mfolder) {
 private static function _parse($file) {
   if (($data = sys_cache_get("vcard_".sha1($file)))) return $data;
   if (($message = sys_allowedpath(dirname($file)))) {
-    sys_warning(t("Cannot read the file %s. %s"),$file,$message));
+    sys_warning(sprintf("{t}Cannot read the file %s. %s{/t}",$file,$message));
     return array();
   }
   if (!($data = @file_get_contents($file))) {
-    sys_warning(t("The url doesn't exist.")." (".$file.")");
+    sys_warning("{t}The url doesn't exist.{/t} (".$file.")");
   	return array();
   }
   if (!class_exists("Contact_Vcard_Parse",false)) require("lib/vcard/Contact_Vcard_Parse.php");
@@ -97,7 +97,7 @@ private static function _parse($file) {
 	  $rows[] = $row;
 	}
   } else {
-    sys_warning(t("Cannot read the file %s. %s",$file,""));
+    sys_warning(sprintf("{t}Cannot read the file %s. %s{/t}",$file,""));
 	return array();
   }
   sys_cache_set("vcard_".sha1($file),$rows,VCARD_CACHE);

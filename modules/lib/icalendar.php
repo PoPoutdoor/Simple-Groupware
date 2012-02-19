@@ -50,13 +50,13 @@ private static function _array_flat($arr) {
 private static function _parse($file) {
   if (($data = sys_cache_get("icalendar_".sha1($file)))) return $data;
   if (($message = sys_allowedpath(dirname($file)))) {
-    sys_warning(t("Cannot read the file %s. %s",$file,$message));
+    sys_warning(sprintf("{t}Cannot read the file %s. %s{/t}",$file,$message));
     return array();
   }
 
   $rows = array();
   if (!$handle = fopen($file, "rb")) {
-    sys_warning(t("Cannot read the file %s. %s",$file,""));
+    sys_warning(sprintf("{t}Cannot read the file %s. %s{/t}",$file,""));
 	return array();
   }
   $i = 0;

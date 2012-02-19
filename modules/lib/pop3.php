@@ -40,7 +40,7 @@ static function select($path,$fields,$where,$order,$limit,$vars,$mfolder) {
 	      case "id": $row[$field] = $path."/?".md5($msg_uid); break;
 	      case "folder": $row[$field] = $path; break;
   		  case "searchcontent": $row[$field] = $data["subject"]." ".$data["from"]; break;
-		  case "subject": $row[$field] = !empty($data["subject"])?$data["subject"]:"- ".t("Empty")." -"; break;
+		  case "subject": $row[$field] = !empty($data["subject"])?$data["subject"]:"- {t}Empty{/t} -"; break;
 	 	  case "efrom": $row[$field] = isset($data["from"])?$data["from"]:""; break;
 	      case "eto": $row[$field] = isset($data["to"])?$data["to"]:""; break;
   		  case "cc": $row[$field] = isset($data["cc"])?$data["cc"]:""; break;
@@ -154,7 +154,7 @@ static function delete($path,$where,$vars,$mfolder) {
   foreach ($datas as $data) {
     if ($vars["id"]==$path."/?".md5($data["uidl"])) {
   	  if (PEAR::isError($result = $pop3->deleteMsg($data["msg_id"]))) {
-	    exit(t("Pop3-error: %s",$result->getMessage()));
+	    exit(sprintf("{t}Pop3-error: %s{/t}",$result->getMessage()));
 	  }
 	  break;
     }
@@ -184,16 +184,16 @@ private static function _connect($mfolder) {
   
 	if (!$creds["port"]) $creds["port"] = 110;
 	if ($creds["ssl"] and !extension_loaded("openssl")) {
-	  sys_warning(t("%s is not compiled / loaded into PHP.","OpenSSL"));
+	  sys_warning(sprintf("{t}%s is not compiled / loaded into PHP.{/t}","OpenSSL"));
 	  return false;
 	}
 	$pop3 = new Net_POP3();
 	if (PEAR::isError($result = $pop3->connect(($creds["ssl"]?$creds["ssl"]."://".$creds["server"]:$creds["server"]), $creds["port"]))) {
-	  sys_warning(t("Connection error: %s [%s]", $result->getMessage(), "POP3"));
+	  sys_warning(sprintf("{t}Connection error: %s [%s]{/t}", $result->getMessage(), "POP3"));
 	  return false;
 	}
 	if (PEAR::isError($ret = $pop3->login($creds["username"], $creds["password"], "USER"))) {
-	  sys_warning(t("Pop3-error: %s",$ret->getMessage()));
+	  sys_warning(sprintf("{t}Pop3-error: %s{/t}",$ret->getMessage()));
 	  return false;
 	}
 	$cache[$mfolder] = $pop3;

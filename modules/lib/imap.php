@@ -61,7 +61,7 @@ static function select($path,$fields,$where,$order,$limit,$vars,$mfolder) {
 	      case "id": $row[$field] = $path."/?".$datas[$key]["uidl"]; break;
 	      case "folder": $row[$field] = $path; break;
   		  case "searchcontent": $row[$field] = $data["subject"]." ".$data["from"]; break;
-		  case "subject": $row[$field] = !empty($data["subject"])?$data["subject"]:"- ".t("Empty")." -"; break;
+		  case "subject": $row[$field] = !empty($data["subject"])?$data["subject"]:"- {t}Empty{/t} -"; break;
 	 	  case "efrom": $row[$field] = isset($data["from"])?$data["from"]:""; break;
 	      case "eto": $row[$field] = isset($data["to"])?$data["to"]:""; break;
   		  case "cc": $row[$field] = isset($data["cc"])?$data["cc"]:""; break;
@@ -140,11 +140,11 @@ static function delete($path,$where,$vars,$mfolder) {
 
   if (!$imap = self::_connect($mfolder)) return "error";
   if (PEAR::isError($result = $imap->selectMailbox($imap_path))) {
-    exit(t("Connection error: %s [%s]", $result->getMessage(), "IMAP"));
+    exit(sprintf("{t}Connection error: %s [%s]{/t}", $result->getMessage(), "IMAP"));
   }
   $id = substr($vars["id"],strpos($vars["id"],"/?")+2);  
   if (PEAR::isError($ids = $imap->search("UID ".$id))) {
-    exit(t("Imap-error: %s",$ids->getMessage()." [1]"));
+    exit(sprintf("{t}Imap-error: %s{/t} [1]",$ids->getMessage()));
   }
   if (!is_array($ids) or count($ids)==0) return "";
 
@@ -157,13 +157,13 @@ static function delete($path,$where,$vars,$mfolder) {
 	    $imap->createMailbox("INBOX".$imap->delimiter."Trash");
 		sys_cache_remove("imap_boxes_".md5($path.serialize(sys_credentials($mfolder))));
 		if (PEAR::isError($result = $imap->copyMessages("INBOX".$imap->delimiter."Trash", $ids[0]))) {
-	      exit(t("Imap-error: %s",$result->getMessage()." [2]"));
+	      exit(sprintf("{t}Imap-error: %s{/t} [2]",$result->getMessage()));
   } } } }
   if (PEAR::isError($result = $imap->deleteMsg($ids[0]))) {
-	exit(t("Imap-error: %s",$result->getMessage()." [3]"));
+	exit(sprintf("{t}Imap-error: %s{/t} [3]",$result->getMessage()));
   }
   if (PEAR::isError($result = $imap->cmdExpunge())) {
-	exit(t("Imap-error: %s",$result->getMessage()." [4]"));
+	exit(sprintf("{t}Imap-error: %s{/t} [4]",$result->getMessage()));
   }
   sys_cache_remove("imap_count_".md5($path.serialize(sys_credentials($mfolder))));
   if ($dest_path!="") sys_cache_remove("imap_count_".md5($dest_path.serialize(sys_credentials($mfolder))));
@@ -197,27 +197,27 @@ static function update($path,$data,$where,$vars,$mfolder) {
   }
 
   if (PEAR::isError($result = $imap->selectMailbox($source_path))) {
-    sys_warning(t("Connection error: %s [%s]", $result->getMessage(), "IMAP"));
+    sys_warning(sprintf("{t}Connection error: %s [%s]{/t}", $result->getMessage(), "IMAP"));
 	return "error";
   }
   
   if (PEAR::isError($ids = $imap->search("UID ".$id))) {
-    sys_warning(t("Imap-error: %s",$ids->getMessage()." [5]"));
+    sys_warning(sprintf("{t}Imap-error: %s{/t} [5]",$ids->getMessage()));
 	return "error";
   }
   if (!is_array($ids) or count($ids)==0) return "";
 
   if (PEAR::isError($result = $imap->copyMessages($imap_path, $ids[0]))) {
-    sys_warning(t("Imap-error: %s",$result->getMessage()." [6]"));
+    sys_warning(sprintf("{t}Imap-error: %s{/t} [6]",$result->getMessage()));
     return "error";
   }
   if (PEAR::isError($result = $imap->deleteMsg($ids[0]))) {
-    sys_warning(t("Imap-error: %s",$result->getMessage()." [7]"));
+    sys_warning(sprintf("{t}Imap-error: %s{/t} [7]",$result->getMessage()));
     return "error";
   }
 
   if (PEAR::isError($result = $imap->cmdExpunge())) {
-    sys_warning(t("Imap-error: %s",$result->getMessage()." [8]"));
+    sys_warning(sprintf("{t}Imap-error: %s{/t} [8]",$result->getMessage()));
 	return "error";
   }
   $cid = serialize(sys_credentials($mfolder));
@@ -227,7 +227,7 @@ static function update($path,$data,$where,$vars,$mfolder) {
 }
 
 static function insert($path,$data,$mfolder) {
-  if (empty($data["efrom"]) or $data["efrom"]=="none") return t("No sender specified.");
+  if (empty($data["efrom"]) or $data["efrom"]=="none") return "{t}No sender specified.{/t}";
 
   $imap_path = substr($path,strpos($path,"/")+1,-1);
   if ($imap_path=="") return "error".$path;
@@ -236,7 +236,7 @@ static function insert($path,$data,$mfolder) {
   @set_time_limit(120); // 2min
 
   if (PEAR::isError($result = $imap->selectMailbox($imap_path))) {
-    sys_warning(t("Connection error: %s [%s]", $result->getMessage(), "IMAP"));
+    sys_warning(sprintf("{t}Connection error: %s [%s]{/t}", $result->getMessage(), "IMAP"));
 	return "error";
   }
   
@@ -292,7 +292,7 @@ static function insert($path,$data,$mfolder) {
   $message = str_replace(array("\n","\r\r\n"),"\r\n",$message); // rfc822 compliance
 
   if (PEAR::isError($result = $imap->appendMessage($message))) {
-    sys_log_message_alert("php", t("Imap-error: %s",$result->getMessage()." [9]"));
+    sys_log_message_alert("php", sprintf("{t}Imap-error: %s{/t} [9]",$result->getMessage()));
 	return "error";
   }
   sys_cache_remove("imap_count_".md5($path.serialize(sys_credentials($mfolder))));
@@ -309,12 +309,12 @@ static function rename_folder($title,$path,$mfolder) {
   if (!PEAR::isError($imap->selectMailbox($imap_path_new))) return "";
 
   if (PEAR::isError($result = $imap->renameMailbox($imap_path, $imap_path_new))) {
-	return t("Imap-error: %s",$result->getMessage()." [10]");
+	return sprintf("{t}Imap-error: %s{/t} [10]",$result->getMessage());
   }
   sys_cache_remove("imap_boxes_".md5(dirname($path)."/".serialize(sys_credentials($mfolder))));
   
   if (PEAR::isError($exists = $imap->selectMailbox($imap_path_new))) {
-	return t("Imap-error: %s",$exists->getMessage()." [11]");
+	return sprintf("{t}Imap-error: %s{/t} [11]",$exists->getMessage());
   }
   return "ok";
 }
@@ -326,12 +326,12 @@ static function create_folder($title,$parent,$mfolder) {
   if (!PEAR::isError($imap->selectMailbox($imap_path))) return "";
 
   if (PEAR::isError($result = $imap->createMailbox($imap_path)) or PEAR::isError($result = $imap->subscribeMailbox($imap_path))) {
-    return t("Imap-error: %s",$result->getMessage()." [12]");
+    return sprintf("{t}Imap-error: %s{/t} [12]",$result->getMessage());
   }
   sys_cache_remove("imap_boxes_".md5($parent.serialize(sys_credentials($mfolder))));
 
   if (PEAR::isError($exists = $imap->selectMailbox($imap_path))) {
-    return t("Imap-error: %s",$exists->getMessage()." [13]");
+    return sprintf("{t}Imap-error: %s{/t} [13]",$exists->getMessage());
   }
   return "ok";
 }
@@ -342,7 +342,7 @@ static function delete_folder($path,$mfolder) {
   if (!$imap = self::_connect($mfolder)) return "error";
 
   if (PEAR::isError($result = $imap->deleteMailbox($imap_path))) {
-	return t("Imap-error: %s",$result->getMessage()." [14]");
+	return sprintf("{t}Imap-error: %s{/t} [14]",$result->getMessage());
   }
   sys_cache_remove("imap_boxes_".md5(dirname($path)."/".serialize(sys_credentials($mfolder))));
   if (PEAR::isError($imap->selectMailbox($imap_path))) return "ok";
@@ -360,17 +360,17 @@ private static function _connect($mfolder) {
 	
 	if (!$creds["port"]) $creds["port"] = 143;
 	if ($creds["ssl"] and !extension_loaded("openssl")) {
-	  sys_warning(t("%s is not compiled / loaded into PHP.","OpenSSL"));
+	  sys_warning(sprintf("{t}%s is not compiled / loaded into PHP.{/t}","OpenSSL"));
 	  return false;
 	}
 
 	$imap = new Net_IMAP();
 	if (PEAR::isError($result = $imap->connect(($creds["ssl"]?$creds["ssl"]."://".$creds["server"]:$creds["server"]), $creds["port"]))) {
-	  sys_warning(t("Connection error: %s [%s]", $result->getMessage(), "IMAP"));
+	  sys_warning(sprintf("{t}Connection error: %s [%s]{/t}", $result->getMessage(), "IMAP"));
 	  return false;
 	}
 	if (PEAR::isError($ret = $imap->login(self::_quote($creds["username"]), self::_quote($creds["password"])))) {
-	  sys_warning(t("Imap-error: %s",$ret->getMessage()." [15]"));
+	  sys_warning(sprintf("{t}Imap-error: %s{/t} [15]",$ret->getMessage()));
 	  return false;
 	}
 	self::$cache[$mfolder] = $imap;
@@ -430,7 +430,7 @@ private static function _encodeHeaders($input) {
 
 private static function _get_mailboxes($imap,$path) {
   if (PEAR::isError($boxes = $imap->getMailboxes($path,3))) {
-    sys_log_message_alert("php", t("Imap-error: %s",$boxes->getMessage()." [16]"));
+    sys_log_message_alert("php", sprintf("{t}Imap-error: %s{/t} [16]",$boxes->getMessage()));
 	return array();
   }
   $delimiter = $imap->delimiter;
@@ -446,7 +446,7 @@ private static function _get_mailboxes_subscribed($imap,$path,$cid) {
   $delimiter = $imap->delimiter;
   if (!$boxes = sys_cache_get($cid) and !is_array($boxes)) {
 	if (PEAR::isError($boxes = $imap->getMailboxesSubscribed())) {
-	  sys_log_message_alert("php", t("Imap-error: %s",$boxes->getMessage()." [17]"));
+	  sys_log_message_alert("php", sprintf("{t}Imap-error: %s{/t} [17]",$boxes->getMessage()));
 	  return array();
 	}
     if (count($boxes)>0) natcasesort($boxes);
@@ -576,24 +576,24 @@ private static function _get_datas_sort($mfolder,$imap_path,$cid,$order,$s_limit
 	
 	if (!in_array("SORT",self::_get_capabilities($mfolder))) {
 	  if (PEAR::isError($ids = $imap->search($search))) {
-	    sys_warning(t("Imap-error: %s",$ids->getMessage()." [18]"));
+	    sys_warning(sprintf("{t}Imap-error: %s{/t} [18]",$ids->getMessage()));
 	    return array();
 	  }
 	  if (!sys_strbegins($order,"created")) {
-	    sys_warning(t("Imap-error: %s",t("Server does not support sorting")));
+	    sys_warning(sprintf("{t}Imap-error: %s{/t}","{t}Server does not support sorting{/t}"));
 	  }
 	  if ($order=="created asc") rsort($ids); else sort($ids);
 	} else {
       $query = self::_get_sort_query($order);
 	  if (PEAR::isError($ids = $imap->sort($query,$search))) {
-	    sys_warning(t("Imap-error: %s",$ids->getMessage()." [19]"));
+	    sys_warning(sprintf("{t}Imap-error: %s{/t} [19]",$ids->getMessage()));
 	    return array();
 	  }
 	}
 	if (isset($vars["search"])) _asset_process_pages(count($ids));
   } else if (!in_array("SORT",self::_get_capabilities($mfolder))) {
 	if (!sys_strbegins($order,"created")) {
-	  sys_warning(t("Imap-error: %s",t("Server does not support sorting")));
+	  sys_warning(sprintf("{t}Imap-error: %s{/t}","{t}Server does not support sorting{/t}"));
 	}
 	if ($order=="created asc") {
       $ids = range($s_limit[0]+1,$s_limit[0]+$s_limit[1]);
@@ -603,7 +603,7 @@ private static function _get_datas_sort($mfolder,$imap_path,$cid,$order,$s_limit
   } else {
     $query = self::_get_sort_query($order);
 	if (PEAR::isError($ids = $imap->sort($query))) {
-	  sys_warning(t("Imap-error: %s",$ids->getMessage()." [20]"));
+	  sys_warning(sprintf("{t}Imap-error: %s{/t} [20]",$ids->getMessage()));
 	  return array();
 	}
   }

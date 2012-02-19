@@ -18,7 +18,7 @@ static function count($path,$where,$vars,$mfolder) {
 	  $count++;
 	}
   } else {
-    sys_warning(t("Access denied."));
+    sys_warning("{t}Access denied.{/t}");
   }
   return $count;
 }
@@ -62,7 +62,7 @@ static function select($path,$fields,$where,$order,$limit,$vars,$mfolder) {
 	    if (strpos($mkey,":")) {
 		  $mkey_arr = explode(":",$mkey);
 		  if ($mkey_arr[0]=="author") {
-	    	$meta["history"] .= "\n".t("Item edited (%s) by %s at %s",t("Content"),$mval,sys_tdate("m/d/y g:i:s a",$mkey_arr[1]))."\n\n";
+	    	$meta["history"] .= "\n".sprintf("{t}Item edited (%s) by %s at %s{/t}\n","{t}Content{/t}",$mval,sys_date("{t}m/d/y g:i:s a{/t}",$mkey_arr[1]))."\n";
 		  }
 		  if ($mkey_arr[0]=="diff") $meta["history"] .= $mval."\n";
 		  if ($mkey_arr[0]=="csum") $meta["history"] .= "Change summary: ".$mval."\n";
@@ -103,7 +103,7 @@ function _parse_pmwiki_file($pagefile) {
 	}
 	fclose($fp);
   } else {
-	sys_warning(t("Cannot read the file %s. %s",$pagefile,""));
+	sys_warning(sprintf("{t}Cannot read the file %s. %s{/t}",$pagefile,""));
   }
   return $page;
 }
