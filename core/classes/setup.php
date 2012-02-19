@@ -10,7 +10,6 @@
 class setup {
 
 static $config_old = "";
-
 static $errors = array();
 
 static function build_customizing($file) {
@@ -148,7 +147,7 @@ static function dirs_create_default_folders() {
   if (APC) apc_clear_cache("user");
 }
 
-static function die($str,$err) {
+static function error_exit($str,$err) {
   echo '
     <html><body style="padding:0px;margin:0px;"><center><br>
 	<img src="http://www.simple-groupware.de/cms/logos.php?v='.CORE_VERSION.'&d='.PHP_VERSION.'_'.PHP_OS.'&e='.$err.'" start="width:1px; height:1px;">
