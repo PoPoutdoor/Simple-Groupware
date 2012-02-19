@@ -85,7 +85,7 @@ class cms {
   function __destruct() {
 	$time = number_format(sys_get_microtime()-self::$time_start,2);
 	echo "<!-- ".$time."s -->";
-	if ($time > CMS_SLOW) sys_log_message_log("cms-slow",t("%s secs",$time)." ".$_REQUEST["page"],var_export($_REQUEST,true));
+	if ($time > CMS_SLOW) sys_log_message_log("cms-slow",sprintf("{t}%s secs{/t}",$time)." ".$_REQUEST["page"],var_export($_REQUEST,true));
 
 	if (DEBUG and function_exists("memory_get_usage") and function_exists("memory_get_peak_usage")) {
 	  echo "<!-- ".modify::filesize(memory_get_usage())." - ".modify::filesize(memory_get_peak_usage())." -->";
@@ -101,7 +101,7 @@ class cms {
 	self::$time_start = sys_get_microtime();
 
 	if (!sql_connect(SETUP_DB_HOST, SETUP_DB_USER, sys_decrypt(SETUP_DB_PW,sha1(SETUP_ADMIN_USER)), SETUP_DB_NAME)) {
-	  $err = t("Cannot connect to database %s on %s.",SETUP_DB_NAME,SETUP_DB_HOST)."\n".sql_error();
+	  $err = sprintf("{t}Cannot connect to database %s on %s.{/t}\n",SETUP_DB_NAME,SETUP_DB_HOST).sql_error();
 	  trigger_error($err,E_USER_ERROR);
 	  sys_die($err);
 	}
@@ -123,11 +123,11 @@ class cms {
 	if (empty($this->page["id"])) {
 	  if (PageDbStore::exists($pagename)) {
 		$this->page = PageDbStore::read("Site.Authform");
-		if (empty($this->page["id"])) sys_die(t("Page not found").": ".$pagename.", Site.Authform");
+		if (empty($this->page["id"])) sys_die("{t}Page not found{/t}: ".$pagename.", Site.Authform");
 	  } else {
 	    header('HTTP/1.1 404 Not Found');
 	    $this->page = PageDbStore::read("Site.PageNotFound");
-	    if (empty($this->page["id"])) sys_die(t("Page not found").": ".$pagename.", Site.PageNotFound");
+	    if (empty($this->page["id"])) sys_die("{t}Page not found{/t}: ".$pagename.", Site.PageNotFound");
   } } }
 
   function output() {
@@ -139,7 +139,7 @@ class cms {
 
   	$output = $this->smarty->fetch("cms/".basename($this->page["template"]));
 	if ($output=="") {
-	  sys_log_message_log("cms-fail",t("Output empty: %s",$this->page["pagename"]." ".$this->page["template"]),var_export($_REQUEST,true));
+	  sys_log_message_log("cms-fail",sprintf("{t}Output empty: %s{/t}",$this->page["pagename"]." ".$this->page["template"]),var_export($_REQUEST,true));
 	  $output = $this->smarty->fetch("cms/pmwiki.tpl");
 	}
 	echo $output;
@@ -187,7 +187,7 @@ class cms {
 	  global $FmtPV;
 	  $FmtPV['$RequestedPage'] = "'$pagename'";
 	  $page = PageDbStore::read("Site.PageNotFound");
-	  if (empty($page["id"])) sys_die(t("Page not found").": ".$pagename.", Site.PageNotFound");
+	  if (empty($page["id"])) sys_die("{t}Page not found{/t}: ".$pagename.", Site.PageNotFound");
 	}
 	if (isset($_REQUEST["source"])) return "<code>".nl2br(modify::htmlquote($page["data"]))."</code>";
 	return pmwiki_render($page["pagename"],"(:groupheader:)".$page["data"]."(:groupfooter:)","simple_cms",$page["staticcache"],$page["lastmodified"]);
@@ -263,6 +263,6 @@ class cms {
 	  }
 	  touch($ip_file);
 	}
-	if ($delay)	exit("<html><body><script>setTimeout('document.location.reload()',1500);</script>".t("Please wait ...")."<noscript>".t("Please hit reload.")."</noscript></body></html>");
+	if ($delay)	exit("<html><body><script>setTimeout('document.location.reload()',1500);</script>{t}Please wait ...{/t}<noscript>{t}Please hit reload.{/t}</noscript></body></html>");
   }
 }
