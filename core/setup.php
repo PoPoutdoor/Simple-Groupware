@@ -42,12 +42,12 @@ $core_compress_output = !DEBUG;
 if (strpos(PHP_OS,"WIN")!==false) $sep = ";"; else $sep = ":";
 $include_path = explode($sep,ini_get("include_path"));
 if (!in_array(".",$include_path)) {
-  setup::die(sprintf("{t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}","include_path",".".$sep.implode($sep,$include_path),ini_get("include_path")),1);
+  setup::error_exit(sprintf("{t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}","include_path",".".$sep.implode($sep,$include_path),ini_get("include_path")),1);
 }
 
 $phpversion = "5.2.0";
 if (version_compare(PHP_VERSION, $phpversion, "<")) {
-  setup::die(sprintf("{t}Setup needs php with at least version %s !{/t} (".PHP_VERSION.")",$phpversion),3);
+  setup::error_exit(sprintf("{t}Setup needs php with at least version %s !{/t} (".PHP_VERSION.")",$phpversion),3);
 }
 if (version_compare(PHP_VERSION,'5.3','>') and !ini_get('date.timezone')) {
   date_default_timezone_set(@date_default_timezone_get());
@@ -427,47 +427,8 @@ function install() {
   }
   setup::out(sprintf("{t}Processing %s ...{/t}","schema updates"));
 
-  // 0.730
-  $status = array("{t}completed{/t}"=>"completed","{t}confirmed{/t}"=>"confirmed","{t}booked{/t}"=>"booked", "{t}canceled{/t}"=>"canceled");
-  sgsml_parser::table_column_translate("simple_timesheets", "status", $status);
-  sgsml_parser::table_column_translate("simple_expenses", "status", $status);
-
-  // completed=0 && status=unconfirmed -> status=open
-  // completed=1 && status=unconfirmed -> status=completed
-  if (sgsml_parser::table_column_exists("simple_timesheets","completed")) {
-	db_update("simple_timesheets",array("status"=>"open"),array("completed=0", "status=@status@"),array("status"=>"{t}unconfirmed{/t}"),array("no_defaults"=>1));
-	db_update("simple_timesheets",array("status"=>"completed"),array("completed=1", "status=@status@"),array("status"=>"{t}unconfirmed{/t}"),array("no_defaults"=>1));
-  }
-  if (sgsml_parser::table_column_exists("simple_expenses","completed")) {
-	db_update("simple_expenses",array("status"=>"open"),array("completed=0", "status=@status@"),array("status"=>"{t}unconfirmed{/t}"),array("no_defaults"=>1));
-	db_update("simple_expenses",array("status"=>"completed"),array("completed=1", "status=@status@"),array("status"=>"{t}unconfirmed{/t}"),array("no_defaults"=>1));
-  }
+  change_database_pre();
   
-  // 0.662
-  $priority = array("{t}lowest{/t}"=>"1", "{t}low{/t}"=>"2", "{t}normal{/t}"=>"3", "{t}urgent{/t}"=>"4", "{t}immediate{/t}"=>"5");
-  sgsml_parser::table_column_translate("simple_calendar", "priority", $priority);
-  sgsml_parser::table_column_translate("simple_tasks", "priority", $priority);
-  sgsml_parser::table_column_translate("simple_helpdesk", "priority", $priority);
-  sgsml_parser::table_column_translate("simple_projects", "priority", $priority);
-
-  // 0.658
-  if (!sgsml_parser::table_column_rename("simple_emails","attachments","attachment")) setup::error("rename[10]: ".sql_error(),1152);
-  if (!sgsml_parser::table_column_rename("simple_helpdesk","attachments","attachment")) setup::error("rename[9]: ".sql_error(),1153);
-
-  // 0.400
-  if (!sgsml_parser::table_column_rename("simple_projects","started","begin")) setup::error("rename[8]: ".sql_error(),152);
-  if (!sgsml_parser::table_column_rename("simple_projects","finished","ending")) setup::error("rename[7]: ".sql_error(),153);
-
-  // 0.220
-  if (!sgsml_parser::table_column_rename("simple_gallery","title","filename")) setup::error("rename[5]: ".sql_error(),52);
-  if (!sgsml_parser::table_column_rename("simple_gallery","attachment","filedata")) setup::error("rename[6]: ".sql_error(),53);
-
-  // 0.219
-  if (!sgsml_parser::table_column_rename("simple_calendar","end","ending")) setup::error("rename[1]: ".sql_error(),54);
-  if (!sgsml_parser::table_column_rename("simple_contactactivities","end","ending")) setup::error("rename[2]: ".sql_error(),55);
-  if (!sgsml_parser::table_column_rename("simple_tasks","end","ending")) setup::error("rename[3]: ".sql_error(),56);
-  if (!sgsml_parser::table_rename("simple_sys_chat","simple_sys_chat2")) setup::error("rename[4]: ".sql_error(),57);
-
   if (count(setup::$errors)>0) setup::display_errors(true);
 
   // 0.720
@@ -498,135 +459,16 @@ function install() {
 	  if (($msg = db_query($data))) setup::error("funambol.sql [pgsql]: ".$msg." ".sql_error(),101);
 	}
   }
-
-  // change ftype, 0.646
-  db_update("simple_sys_tree",array("ftype"=>"replace(ftype,'sys_nosql_','sys_nodb_')"),array("ftype like 'sys_nosql_%'"),array(),array("quote"=>false));
   
-  // change anchor for rooms, 0.310
-  db_update("simple_sys_tree",array("anchor"=>"locations"),array("ftype='locations'","flevel=2","ftitle='{t}Rooms{/t}'"),array());
-
-  // change anchor for demo, debug folder, workspace, organisation, 0.292
-  db_update("simple_sys_tree",array("anchor"=>"demo"),array("ftype='blank'","flevel=1","ftitle='{t}Demo{/t}'"),array());
-  db_update("simple_sys_tree",array("anchor"=>"debug"),array("ftype='blank'","flevel=2","ftitle='{t}Debug{/t}'"),array());
-  db_update("simple_sys_tree",array("anchor"=>"workspace"),array("ftype='blank'","flevel=0"),array());
-  db_update("simple_sys_tree",array("anchor"=>"organisation"),array("ftype='blank'","flevel=1","ftitle='{t}Organisation{/t}'"),array());
-  db_update("simple_sys_tree",array("anchor"=>"system"),array("ftype='sys_nodb_admin'","flevel=1","ftitle='{t}System{/t}'"),array());
-
-  // remove sys_nodb_processes 0.721
-  db_update("simple_sys_tree",array("ftype"=>"blank"),array("ftype='sys_nodb_processes'"),array());
-  
-  // 0.664
-  if (!file_exists(SIMPLE_STORE."/setup_emails")) {
-	setup::out(sprintf("{t}Processing %s ...{/t}","emails message"));
-	$rows = db_select("simple_emails","*",array("message_html='' and message!=''"),"","");
-	if (is_array($rows) and count($rows)>0) {
-	  foreach ($rows as $row) trigger::createemail($row["id"],$row);
-	}
-	touch(SIMPLE_STORE."/setup_emails");
-  }
-
-  // change System folder to administration menu, 0.242
-  db_update("simple_sys_tree",array("ftype"=>"sys_nodb_admin"),array("anchor=@anchor@"),array("anchor"=>"system"));
+  change_database_post();
 
   setup::out(sprintf("{t}Processing %s ...{/t}","sessions"));
   db_delete("simple_sys_session",array(),array());
 
-  // 0.704
-  if (!file_exists(SIMPLE_STORE."/setup_notify")) {
-    $notifications = array(
-	  "simple_tasks"=>"closed='0'",
-	  "simple_contacts"=>"birthday!=''",
-	  "simple_contactactivities"=>"finished='0'",
-	  "simple_sys_users"=>"activated='1'",
-	);
-	foreach ($notifications as $table=>$where) {
-	  setup::out(sprintf("{t}Processing %s ...{/t}",$table));
-	  $rows = db_select($table,"*",array($where,"notification!=''"),"","");
-	  if (!is_array($rows) or count($rows)==0) continue;
-	  foreach ($rows as $row) trigger::notify($row["id"],$row,array(),$table);
-	}
-	touch(SIMPLE_STORE."/setup_notify");
-  }
-
-  if (!file_exists(SIMPLE_STORE."/setup_duration")) {
-	setup::out(sprintf("{t}Processing %s ...{/t}","tasks duration"));
-	$rows = db_select("simple_tasks","*",array(),"","");
-	if (is_array($rows) and count($rows)>0) {
-	  foreach ($rows as $row) trigger::duration($row["id"],$row,false,"simple_tasks");
-	}
-
-	setup::out(sprintf("{t}Processing %s ...{/t}","projects duration"));
-	$rows = db_select("simple_projects","*",array(),"","");
-	if (is_array($rows) and count($rows)>0) {
-	  foreach ($rows as $row) trigger::createeditproject($row["id"],$row);
-	}
-	touch(SIMPLE_STORE."/setup_duration");
-  }
-
-  setup::out(sprintf("{t}Processing %s ...{/t}","appointments"));
-  $rows = db_select("simple_calendar","*",array(),"","");
-  if (is_array($rows) and count($rows)>0) {
-	foreach ($rows as $row) trigger::calcappointment($row["id"],$row,null,"simple_calendar");
-  }
-
-  setup::out(sprintf("{t}Processing %s ...{/t}","folder structure"));
-  $count = db_select_value("simple_sys_tree","id",array());
-  if (empty($count)) {
-	$folders = "modules/core/folders.xml";
-	if (!empty($_REQUEST["folders"]) and file_exists(sys_custom($_REQUEST["folders"]))) {
-	  $folders = $_REQUEST["folders"];
-	}
-	if (SETUP_DB_TYPE=="sqlite") {
-	  sql_query("begin");
-	  folders::create_default_folders($folders,0,true);
-	  sql_query("commit");
-	} else {
-	  folders::create_default_folders($folders,0,true);
-	}
-  }
-
-  setup::out(sprintf("{t}Processing %s ...{/t}","default groups"));
-  $groups = array("admin_calendar","admin_news","admin_projects","admin_bookmarks","admin_contacts",
-				  "admin_inventory","admin_helpdesk","admin_organisation","admin_files","admin_payroll",
-				  "admin_surveys","admin_hr","admin_intranet","users_self_registration");
-  foreach ($groups as $group) trigger::creategroup($group);
-
-  $parent = folder_from_path("^system");
-  if (!empty($parent)) {
-    $row_id = folder_from_path("!sys_nodb_backups");
-    if (empty($row_id)) {
-	  folders::create("{t}Backups{/t}","sys_nodb_backups","",$parent,false);
-    }
-    $row_id = folder_from_path("^trash");
-    if (empty($row_id)) {
-	  folders::create("{t}Trash{/t}","blank","",$parent,false,array("anchor"=>"trash"));
-    }
-    $row_id = folder_from_path("!sys_notifications");
-    if (empty($row_id)) {
-	  folders::create("{t}Notifications{/t}","sys_notifications","{t}Delivery{/t}: cron.php",$parent,false);
-    }
-    $row_id = folder_from_path("^customize");
-    if (empty($row_id)) {
-	  folders::create("{t}Customize{/t}","blank","",$parent,false,array("anchor"=>"customize"));
-    }
-    $row_id = folder_from_path("!sys_console");
-    if (empty($row_id)) {
-	  $id = folders::create("{t}Console{/t}","sys_console","",$parent,false,array());
-	  folders::import_data("modules/core/data_console.xml", $id);
-    }
-  }
+  database_triggers();
   
-  $parent = folder_from_path("^customize");
-  $row_id = folder_from_path("!sys_custom_fields");
-  if (empty($row_id) and !empty($parent)) {
-	folders::create("{t}Fields{/t}","sys_custom_fields","{t}Customization rules\nfor modules based on sgsML{/t}",$parent,false);
-  }
-  $parent = folder_from_path("^workspace");
-  $row_id = folder_from_path("^extensions");
-  if (!empty($parent) and empty($row_id)) {
-	folders::create("{t}Extensions{/t}","blank","",$parent,false,array("anchor"=>"extensions"));
-  }
-
+  database_folders();
+  
   setup::out(sprintf("{t}Processing %s ...{/t}","config.php"));
 
   $vars_static = array(
@@ -713,4 +555,177 @@ function install() {
   } else sys_die("cannot write to: ".SIMPLE_STORE."/config.php");
 
   db_optimize_tables();
+}
+
+function change_database_pre() {
+  // 0.730
+  $status = array("{t}completed{/t}"=>"completed","{t}confirmed{/t}"=>"confirmed","{t}booked{/t}"=>"booked", "{t}canceled{/t}"=>"canceled");
+  sgsml_parser::table_column_translate("simple_timesheets", "status", $status);
+  sgsml_parser::table_column_translate("simple_expenses", "status", $status);
+
+  // completed=0 && status=unconfirmed -> status=open
+  // completed=1 && status=unconfirmed -> status=completed
+  if (sgsml_parser::table_column_exists("simple_timesheets","completed")) {
+	db_update("simple_timesheets",array("status"=>"open"),array("completed=0", "status=@status@"),array("status"=>"{t}unconfirmed{/t}"),array("no_defaults"=>1));
+	db_update("simple_timesheets",array("status"=>"completed"),array("completed=1", "status=@status@"),array("status"=>"{t}unconfirmed{/t}"),array("no_defaults"=>1));
+  }
+  if (sgsml_parser::table_column_exists("simple_expenses","completed")) {
+	db_update("simple_expenses",array("status"=>"open"),array("completed=0", "status=@status@"),array("status"=>"{t}unconfirmed{/t}"),array("no_defaults"=>1));
+	db_update("simple_expenses",array("status"=>"completed"),array("completed=1", "status=@status@"),array("status"=>"{t}unconfirmed{/t}"),array("no_defaults"=>1));
+  }
+  
+  // 0.662
+  $priority = array("{t}lowest{/t}"=>"1", "{t}low{/t}"=>"2", "{t}normal{/t}"=>"3", "{t}urgent{/t}"=>"4", "{t}immediate{/t}"=>"5");
+  sgsml_parser::table_column_translate("simple_calendar", "priority", $priority);
+  sgsml_parser::table_column_translate("simple_tasks", "priority", $priority);
+  sgsml_parser::table_column_translate("simple_helpdesk", "priority", $priority);
+  sgsml_parser::table_column_translate("simple_projects", "priority", $priority);
+
+  // 0.658
+  if (!sgsml_parser::table_column_rename("simple_emails","attachments","attachment")) setup::error("rename[10]: ".sql_error(),1152);
+  if (!sgsml_parser::table_column_rename("simple_helpdesk","attachments","attachment")) setup::error("rename[9]: ".sql_error(),1153);
+
+  // 0.400
+  if (!sgsml_parser::table_column_rename("simple_projects","started","begin")) setup::error("rename[8]: ".sql_error(),152);
+  if (!sgsml_parser::table_column_rename("simple_projects","finished","ending")) setup::error("rename[7]: ".sql_error(),153);
+
+  // 0.220
+  if (!sgsml_parser::table_column_rename("simple_gallery","title","filename")) setup::error("rename[5]: ".sql_error(),52);
+  if (!sgsml_parser::table_column_rename("simple_gallery","attachment","filedata")) setup::error("rename[6]: ".sql_error(),53);
+
+  // 0.219
+  if (!sgsml_parser::table_column_rename("simple_calendar","end","ending")) setup::error("rename[1]: ".sql_error(),54);
+  if (!sgsml_parser::table_column_rename("simple_contactactivities","end","ending")) setup::error("rename[2]: ".sql_error(),55);
+  if (!sgsml_parser::table_column_rename("simple_tasks","end","ending")) setup::error("rename[3]: ".sql_error(),56);
+  if (!sgsml_parser::table_rename("simple_sys_chat","simple_sys_chat2")) setup::error("rename[4]: ".sql_error(),57);
+}
+
+function change_database_post() {
+  // change ftype, 0.646
+  db_update("simple_sys_tree",array("ftype"=>"replace(ftype,'sys_nosql_','sys_nodb_')"),array("ftype like 'sys_nosql_%'"),array(),array("quote"=>false));
+  
+  // change anchor for rooms, 0.310
+  db_update("simple_sys_tree",array("anchor"=>"locations"),array("ftype='locations'","flevel=2","ftitle='{t}Rooms{/t}'"),array());
+
+  // change anchor for demo, debug folder, workspace, organisation, 0.292
+  db_update("simple_sys_tree",array("anchor"=>"demo"),array("ftype='blank'","flevel=1","ftitle='{t}Demo{/t}'"),array());
+  db_update("simple_sys_tree",array("anchor"=>"debug"),array("ftype='blank'","flevel=2","ftitle='{t}Debug{/t}'"),array());
+  db_update("simple_sys_tree",array("anchor"=>"workspace"),array("ftype='blank'","flevel=0"),array());
+  db_update("simple_sys_tree",array("anchor"=>"organisation"),array("ftype='blank'","flevel=1","ftitle='{t}Organisation{/t}'"),array());
+  db_update("simple_sys_tree",array("anchor"=>"system"),array("ftype='sys_nodb_admin'","flevel=1","ftitle='{t}System{/t}'"),array());
+
+  // remove sys_nodb_processes 0.721
+  db_update("simple_sys_tree",array("ftype"=>"blank"),array("ftype='sys_nodb_processes'"),array());
+  
+  // change System folder to administration menu, 0.242
+  db_update("simple_sys_tree",array("ftype"=>"sys_nodb_admin"),array("anchor=@anchor@"),array("anchor"=>"system"));
+}
+
+function database_triggers() {
+   // 0.664
+  if (!file_exists(SIMPLE_STORE."/setup_emails")) {
+	setup::out(sprintf("{t}Processing %s ...{/t}","emails message"));
+	$rows = db_select("simple_emails","*",array("message_html='' and message!=''"),"","");
+	if (is_array($rows) and count($rows)>0) {
+	  foreach ($rows as $row) trigger::createemail($row["id"],$row);
+	}
+	touch(SIMPLE_STORE."/setup_emails");
+  }
+
+ // 0.704
+  if (!file_exists(SIMPLE_STORE."/setup_notify")) {
+    $notifications = array(
+	  "simple_tasks"=>"closed='0'",
+	  "simple_contacts"=>"birthday!=''",
+	  "simple_contactactivities"=>"finished='0'",
+	  "simple_sys_users"=>"activated='1'",
+	);
+	foreach ($notifications as $table=>$where) {
+	  setup::out(sprintf("{t}Processing %s ...{/t}",$table));
+	  $rows = db_select($table,"*",array($where,"notification!=''"),"","");
+	  if (!is_array($rows) or count($rows)==0) continue;
+	  foreach ($rows as $row) trigger::notify($row["id"],$row,array(),$table);
+	}
+	touch(SIMPLE_STORE."/setup_notify");
+  }
+
+  if (!file_exists(SIMPLE_STORE."/setup_duration")) {
+	setup::out(sprintf("{t}Processing %s ...{/t}","tasks duration"));
+	$rows = db_select("simple_tasks","*",array(),"","");
+	if (is_array($rows) and count($rows)>0) {
+	  foreach ($rows as $row) trigger::duration($row["id"],$row,false,"simple_tasks");
+	}
+
+	setup::out(sprintf("{t}Processing %s ...{/t}","projects duration"));
+	$rows = db_select("simple_projects","*",array(),"","");
+	if (is_array($rows) and count($rows)>0) {
+	  foreach ($rows as $row) trigger::createeditproject($row["id"],$row);
+	}
+	touch(SIMPLE_STORE."/setup_duration");
+  }
+
+  setup::out(sprintf("{t}Processing %s ...{/t}","appointments"));
+  $rows = db_select("simple_calendar","*",array(),"","");
+  if (is_array($rows) and count($rows)>0) {
+	foreach ($rows as $row) trigger::calcappointment($row["id"],$row,null,"simple_calendar");
+  }
+  
+  setup::out(sprintf("{t}Processing %s ...{/t}","default groups"));
+  $groups = array("admin_calendar","admin_news","admin_projects","admin_bookmarks","admin_contacts",
+				  "admin_inventory","admin_helpdesk","admin_organisation","admin_files","admin_payroll",
+				  "admin_surveys","admin_hr","admin_intranet","users_self_registration");
+  foreach ($groups as $group) trigger::creategroup($group);
+}
+
+function database_folders() {
+  setup::out(sprintf("{t}Processing %s ...{/t}","folder structure"));
+  $count = db_select_value("simple_sys_tree","id",array());
+  if (empty($count)) {
+	$folders = "modules/core/folders.xml";
+	if (!empty($_REQUEST["folders"]) and file_exists(sys_custom($_REQUEST["folders"]))) {
+	  $folders = $_REQUEST["folders"];
+	}
+	if (SETUP_DB_TYPE=="sqlite") {
+	  sql_query("begin");
+	  folders::create_default_folders($folders,0,true);
+	  sql_query("commit");
+	} else {
+	  folders::create_default_folders($folders,0,true);
+	}
+  }
+
+  $parent = folder_from_path("^system");
+  if (!empty($parent)) {
+    $row_id = folder_from_path("!sys_nodb_backups");
+    if (empty($row_id)) {
+	  folders::create("{t}Backups{/t}","sys_nodb_backups","",$parent,false);
+    }
+    $row_id = folder_from_path("^trash");
+    if (empty($row_id)) {
+	  folders::create("{t}Trash{/t}","blank","",$parent,false,array("anchor"=>"trash"));
+    }
+    $row_id = folder_from_path("!sys_notifications");
+    if (empty($row_id)) {
+	  folders::create("{t}Notifications{/t}","sys_notifications","{t}Delivery{/t}: cron.php",$parent,false);
+    }
+    $row_id = folder_from_path("^customize");
+    if (empty($row_id)) {
+	  folders::create("{t}Customize{/t}","blank","",$parent,false,array("anchor"=>"customize"));
+    }
+    $row_id = folder_from_path("!sys_console");
+    if (empty($row_id)) {
+	  $id = folders::create("{t}Console{/t}","sys_console","",$parent,false,array());
+	  folders::import_data("modules/core/data_console.xml", $id);
+    }
+  }
+  $parent = folder_from_path("^customize");
+  $row_id = folder_from_path("!sys_custom_fields");
+  if (empty($row_id) and !empty($parent)) {
+	folders::create("{t}Fields{/t}","sys_custom_fields","{t}Customization rules\nfor modules based on sgsML{/t}",$parent,false);
+  }
+  $parent = folder_from_path("^workspace");
+  $row_id = folder_from_path("^extensions");
+  if (!empty($parent) and empty($row_id)) {
+	folders::create("{t}Extensions{/t}","blank","",$parent,false,array("anchor"=>"extensions"));
+  }
 }
