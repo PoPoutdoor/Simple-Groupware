@@ -13,7 +13,7 @@
   
   if (ini_get("register_globals")) pre_dropglobals();
   header("Content-Type: text/html; charset=utf-8");
-  define("SIMPLE_STORE","../simple_store");
+  define("SIMPLE_STORE","simple_store");
   @include(SIMPLE_STORE."/config.php");
   if (!defined("CORE_VERSION") or CORE_VERSION_config!=CORE_VERSION) {
     if (defined("CORE_VERSION")) {
