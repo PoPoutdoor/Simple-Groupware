@@ -63,12 +63,11 @@ function call(func, params, callback, params_callback) {
 		result = JSON.parse(result);
 		cache[func][cache_id] = result;
 		callback(result, params_callback);
-	  } else sys_alert(t("Error")+": "+func+" "+xmlhttp.status+" "+xmlhttp.statusText+" "+result);
+	    } else alert("{t}Error{/t}: "+func+" "+xmlhttp.status+" "+xmlhttp.statusText+" "+result);
 	} catch (e) {
 	  if (result.length==0) return;
-	  alert(t("Error")+": "+e+" "+result+" "+func);
-	}
-  }
+	      alert("{t}Error{/t} : "+e+" "+result+" "+func);
+  } }
   xmlhttp.send(null);
 }
 
