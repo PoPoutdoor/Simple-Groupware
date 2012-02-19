@@ -6,7 +6,7 @@
  * @license GPLv2
  */
 
-ar hpane = 0;
+var hpane = 0;
 var vpane = 0;
 var pane = 0.52;
 var pane2 = 0.27;
@@ -47,11 +47,11 @@ var re = /tree_scroll_pos=(.*?)&tree_width=(.*?)&pane=(.*?)&pane2=(.*?)~/;
 if ((m = re.exec(document.cookie))) {
   tree_scroll_pos = m[1];
   tree_width = m[2];
-  if (tree_width <= tree_min) { tree_width = tree_min + 6; }
+  if (tree_width <= tree_min) tree_width = tree_min + 6;
   pane = m[3];
   pane2 = m[4];
 } else {
-  if (screen_width>1024) { tree_width = 250; }
+  if (screen_width>1024) tree_width = 250;
 }
 window.onbeforeunload = function(){
   if (form_changed(getObj("asset_form"))) return "";
@@ -74,9 +74,7 @@ function getElementsByClassName(name) {
   }
   return a;
 }
-function t(str) {
-  return str;
-}
+
 function hide_layout() {
   if (sys.menu_autohide) {
 	top_menu(false);
@@ -170,7 +168,7 @@ function drop_tree(event) {
     if (!rights.write_folder) mode = "copy";
     ajax("asset_ccp",[params["folder"], params["view"], params["items"], attr(this, "rel"), mode], locate_folder);
   }
-  if (type=="folder" && confirm(t("Really apply the changes ?"))) {
+  if (type=="folder" && confirm("{t}Really apply the changes ?{/t}")) {
     ajax("folder_ccp",[params["items"], attr(this, "rel"), mode], locate_folder);
   }
 }
@@ -329,7 +327,6 @@ function bind_drop_tree() {
 	};
   }
 }
-
 
 function ______G_E_N_E_R_A_L______() {}
 
@@ -653,7 +650,7 @@ function locate_folder(folder) {
   locate("index.php?folder="+folder); // unicode: no escape
 }
 function alert_ok(data) {
-  sys_alert(t("Item successfully created."));
+  sys_alert("{t}Item successfully created.{/t}");
 }
 function search() {
   var url = "index.php?folder="+escape(tfolder)+"&view=search&module="+val("search_module")+"&search="+val("search_query");
@@ -699,9 +696,8 @@ function has_flash() {
   try {
 	if (new ActiveXObject("ShockwaveFlash.ShockwaveFlash")) return;
   } catch (e) {}
-  document.write(t("Flash plugin not installed."));
+  document.write("{t}Flash plugin not installed.{/t}");
 }
-
 
 function ______I_N_I_T______() {}
 
@@ -722,10 +718,10 @@ function notify(str, warn) {
   if (str=="") return;
   if (sys.menu_autohide) {
 	set_attr("notification2", "class", "tabstyle"+(warn?" red":""));
-	set_html("notification2", t("Notification")+": "+str);
+	set_html("notification2", "{t}Notification{/t}: "+str);
   } else {
 	set_attr("notification", "class", "menu_notification"+(warn?" red":""));
-	set_html("notification", t("Notification")+": "+str);
+	set_html("notification", "{t}Notification{/t}: "+str);
   }
 }
 
@@ -733,8 +729,8 @@ function refreshit() {
   if (iframe || popup || schema_mode) return;
   ajax("folder_has_changed", [tfolder, sys_time], function(result) {
 	if (result) {
-	  notify(t("Folder has changed.")+" <a href='index.php?folder="+escape(tfolder)+"&view="+tview+"'>("+t("Refresh")+")</a>");
-	  document.title = "("+t("Changed")+") "+document.title;
+	  notify("{t}Folder has changed.{/t} <a href='index.php?folder="+escape(tfolder)+"&view="+tview+"'>({t}Refresh{/t})</a>");
+	  document.title = "({t}Changed{/t}) "+document.title;
 	} else {
 	  refresh_timer = setTimeout(refreshit, sys.folder_refresh*1000);
 	}
@@ -807,7 +803,6 @@ function resizeit() {
   }
 }
 
-
 function ______O_T_H_E_R_S______() {}
 
 function switch_wrap(field_w, event) {
@@ -874,12 +869,12 @@ function file_func(operation, id, field, subitem) {
 }
 
 function searchbox(obj) {
-  if (obj.value==t("Search") obj.value = "";
-  if (obj.value==t("Other") obj.value = "";
+  if (obj.value=="{t}Search{/t}") obj.value = "";
+  if (obj.value=="{t}Other{/t}") obj.value = "";
 }
 
 function searchbox2(obj) {
-  if (obj.value=="") obj.value = t("Search");
+  if (obj.value=="") obj.value = "{t}Search{/t}";
 }
 
 function ______G_U_I__G_R_I_D______() {}
@@ -933,7 +928,7 @@ function asset_action(mode, timeout) {
 
 function asset_form_selected() {
   if (assets_get_selected(false)=="") {
-    sys_alert(t("No dataset selected."));
+    sys_alert("{t}No dataset selected.{/t}");
 	return false;
   }
   return true;
@@ -1125,7 +1120,6 @@ function tree_categories() {
   });
 }
 
-
 function ______G_U_I__C_A_L_E_N_D_A_R______() {}
 
 var calendars = [];
@@ -1139,14 +1133,12 @@ function calendar(obj_target,time,callback) {
   this.target = obj_target;
   this.time_comp = time;
   this.year_scroll = true;
-  this.date_format = t("m/d/Y");
-  this.time_format = t("g:i a");
-  this.str_today = t("Today");
-  this.str_close = t("Close");
-  this.ARR_MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-  this.ARR_WEEKDAYS = ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"];
-  for (var i=0;i<12;i++) this.ARR_MONTHS[i] = t(this.ARR_MONTHS[i]);
-  for (var i=0;i<7;i++) this.ARR_WEEKDAYS[i] = t(this.ARR_WEEKDAYS[i]);
+  this.date_format = "{t}m/d/Y{/t}";
+  this.time_format = "{t}g:i a{/t}";
+  this.str_today = "{t}Today{/t}";
+  this.str_close = "{t}Close{/t}";
+  this.ARR_MONTHS = ["{t}January{/t}", "{t}February{/t}", "{t}March{/t}", "{t}April{/t}", "{t}May{/t}", "{t}June{/t}", "{t}July{/t}", "{t}August{/t}", "{t}September{/t}", "{t}October{/t}", "{t}November{/t}", "{t}December{/t}"];
+  this.ARR_WEEKDAYS = ["{t}Su{/t}", "{t}Mo{/t}", "{t}Tu{/t}", "{t}We{/t}", "{t}Th{/t}", "{t}Fr{/t}", "{t}Sa{/t}"];
   this.NUM_WEEKSTART = cal_firstday;
   this.id = calendars.length;
   calendars[this.id] = this;
@@ -1165,7 +1157,6 @@ function calendar_changed() {
   var url = "../../../index.php?today="+val("datebox");
   locate(url);
 }
-
 
 function ______G_U_I__M_O_U_N_T_P_O_I_N_T______() {}
 
@@ -1246,7 +1237,6 @@ function mountpoint_show(proto) {
   }
 }
 
-
 function ______G_U_I__P_R_E_V_I_E_W__P_A_N_E______() {}
 
 function show_pane() {
@@ -1323,7 +1313,6 @@ function resize_pane(event) {
   return false;
 }
 
-
 function ______A_J_A_X______() {}
 
 function asset_update(data, id) {
@@ -1335,7 +1324,7 @@ function asset_update(data, id) {
 }
 
 function asset_update_confirm(data, id, message) {
-  if (typeof(message)=="undefined") message = t("Really apply the changes ?");
+  if (typeof(message)=="undefined") message = "{t}Really apply the changes ?{/t}";
   if (confirm(message)) asset_update(data, id);
 }
 
@@ -1347,8 +1336,8 @@ var prompt_value = "";
 function asset_insert_prompt(fields, field_names) {
   fields = fields.split("|");
   field_names = field_names.split("|");
-  var info = "\n\n"+t("Line break")+": \\n\n"+t("Comma")+": \\k\n"+t("Separate fields")+": ,\n"+t("Separate values")+": |\n\n";
-  prompt_value = prompt(t("Quick add")+": "+field_names.join(", ")+info, prompt_value);
+  var info = "\n\n{t}Line break{/t}: \\n\n{t}Comma{/t}: \\k\n{t}Separate fields{/t}: ,\n{t}Separate values{/t}: |\n\n";
+  prompt_value = prompt("{t}Quick add{/t}: "+field_names.join(", ")+info, prompt_value);
   var data = {};
   var values = prompt_value.split(",");
   for (var i=0; i<values.length; i++) {
@@ -1380,7 +1369,7 @@ function ajax(func, params, callback, timeout) {
   var timer = setTimeout(function() {
 	timer = null;
 	xmlhttp.abort();
-	sys_alert(t("Error doing request to xmlhttp")+": "+t("timeout")+" "+func);
+	sys_alert("{t}Error doing request to xmlhttp{/t}: {t}timeout{/t} "+func);
   }, timeout);
   var image = get_loading(func);
   var loading = setTimeout(function() { show(image); }, 750);
@@ -1395,13 +1384,13 @@ function ajax(func, params, callback, timeout) {
 	    if (xmlhttp.status==0 && result=="") return;
 		if (xmlhttp.status==200 && result!="") {
 	      if (callback!=null) callback(JSON.parse(result));
-	    } else sys_alert(t("Ajax Error")+": "+func+" "+xmlhttp.status+" "+xmlhttp.statusText+"\n"+(result!=""?result:t("no result")));
+	    } else sys_alert("{t}Ajax Error{/t}: "+func+" "+xmlhttp.status+" "+xmlhttp.statusText+"\n"+(result!=""?result:"{t}no result{/t}"));
 	  } catch (e) {
 		if (result.length > 0) {
 		  if (e == "SyntaxError: parseJSON") e = "";
 		  if (e) error = e.name+": "+e.message; else error = "";
 		  if (!debug) trace = "\n"+JSON.stringify(e); else trace = "";
-		  sys_alert(t("Error")+": "+error+"\n"+result+"\n"+func+trace);
+		  sys_alert("{t}Error{/t}: "+error+"\n"+result+"\n"+func+trace);
   } } } }
   xmlhttp.send(JSON.stringify(params));
 }
@@ -1424,12 +1413,12 @@ function ajax_binary(func, file, params, callback, callback_progress) {
 		if (xmlhttp.status==200 && result!="") {
 		  var js = JSON.parse(result);
 	      if (callback!=null) callback(js);
-	    } else sys_alert(t("Ajax Error")+": "+func+" "+xmlhttp.status+" "+xmlhttp.statusText+"\n"+(result!=""?result:t("no result")));
+	    } else sys_alert("{t}Ajax Error{/t}: "+func+" "+xmlhttp.status+" "+xmlhttp.statusText+"\n"+(result!=""?result:"{t}no result{/t}"));
 	  } catch (e) {
 		if (result.length > 0) {
 		  if (e == "SyntaxError: parseJSON") e = "";
 		  if (e) error = e.name+": "+e.message; else error = "";
-		  sys_alert(t("Error")+": "+error+"\n"+result+"\n"+func);
+		  sys_alert("{t}Error{/t}: "+error+"\n"+result+"\n"+func);
   } } } }
   xmlhttp.send(file);
 }
@@ -1465,7 +1454,6 @@ function textarea_autosize(event) {
   call_autosize[this.id]++;
   setTimeout(function(){ call_autosize[this.id] = 0; }, 2500);
 }
-
 
 function ______M_E_N_U______() {}
 
@@ -1542,21 +1530,21 @@ function smenu_history() {
 	  if (hist[i][2]!="" && hist[i][2]!="display") title += " &nbsp;("+hist[i][2]+")";
       smenuitem(title,"locate('index.php?folder="+escape(hist[i][1])+"&view="+hist[i][2]+"')");
     }
-  } else smenuitem(t("Empty"),"");
+  } else smenuitem("{t}Empty{/t}","");
 }
 function smenu_hr() {
   smenu_buffer += '<tr><td><div style="margin-top:3px; margin-bottom:3px; border-top: 1px solid '+css_conf.color_light_grey+';"><none></div></td></tr>';
 }
 function folder_delete() {
-  if (confirm(t("Really delete ?")) && confirm(t("Really delete ALL subfolders ?"))) {
+  if (confirm("{t}Really delete ?{/t}") && confirm("{t}Really delete ALL subfolders ?{/t}")) {
     ajax("folder_delete", [tfolder], locate_folder);
   }
 }
 function tree_applyrights() {
-  if (confirm(t("Really apply rights to subfolders ?"))) {
+  if (confirm("{t}Really apply rights to subfolders ?{/t}")) {
     ajax("folder_applyrights", [tfolder], function(data) {
-      if (data) sys_alert(t("Item successfully updated."));
-	    else sys_alert(t("Item not found."));
+      if (data) sys_alert("{t}Item successfully updated.{/t}");
+	    else sys_alert("{t}Item not found.{/t}");
     });
   }
 }
@@ -1566,32 +1554,32 @@ function drawmenu() {
   mbuffer += '<a class="sgslogo" href="index.php?folder=1"><img src="'+css_conf.logo+'"></a>';
   mbuffer += '<table id="menutable" cellspacing="2" cellpadding="0" onmouseout="menuclose();" onmouseover="menuopen(this);"><tr>';
   if (sys.username!="anonymous") {
-    menubutton("<img src='ext/icons/home.gif' title='"+t("Home")+"'/>","locate('"+sys.home+"')", "h");
+    menubutton("<img src='ext/icons/home.gif' title='{t}Home{/t}'/>","locate('"+sys.home+"')", "h");
   }
-  menuitem(t("Main menu"));
+  menuitem("{t}Main menu{/t}");
   smenu_begin();
-  smenuitem(t("Print"),"neWin('index.php?print=1')");
-  smenuitem(t("Print all"),"neWin('index.php?print=1&print_all=1')");
+  smenuitem("{t}Print{/t}","neWin('index.php?print=1')");
+  smenuitem("{t}Print all{/t}","neWin('index.php?print=1&print_all=1')");
   smenu_hr();
-  if (tree_visible) smenuitem(t("Minimize"),"sWin('index.php?tree=minimize')");
-	else smenuitem(t("Maximize"),"sWin('index.php?tree=maximize')");
+  if (tree_visible) smenuitem("{t}Minimize{/t}","sWin('index.php?tree=minimize')");
+	else smenuitem("{t}Maximize{/t}","sWin('index.php?tree=maximize')");
   smenu_hr();
-  smenuitem(t("Collapse tree"),"sWin('index.php?tree=closeall')");
-  smenuitem(t("Reset view"),"sWin('index.php?reset_view=true')");
-  smenuitem(t("Close session"),"sWin('index.php?logout&session_clean')");
+  smenuitem("{t}Collapse tree{/t}","sWin('index.php?tree=closeall')");
+  smenuitem("{t}Reset view{/t}","sWin('index.php?reset_view=true')");
+  smenuitem("{t}Close session{/t}","sWin('index.php?logout&session_clean')");
   smenu_hr();
-  smenuitem(t("Offline reading"),"locate('offline.php')");
+  smenuitem("{t}Offline sync{/t}","locate('offline.php')");
   smenu_end();
 
   if (sys.username!="anonymous" && !sys.is_superadmin) {
-	menuitem(t("Create new"));
+	menuitem("{t}Create new{/t}");
     smenu_begin();
 	var quick_create = {
-	  emails:t("E-mail"), calendar:t("Appointment"), tasks:t("Task"),
-	  contactactivities:t("Contact activity"), contacts:t("Contact"),
-	  passwords:t("Password"), bookmarks:t("Bookmark"), notes:t("Note"),
-	  files:t("File"), gallery:t("Photo"), spreadsheets:t("Spreadsheet"),
-	  graphviz:t("Diagram"), htmldocs:t("HTML document"), cms:t("Web page")
+	  emails:"{t}E-mail{/t}", calendar:"{t}Appointment{/t}", tasks:"{t}Task{/t}",
+	  contactactivities:"{t}Contact activity{/t}", contacts:"{t}Contact{/t}",
+	  passwords:"{t}Password{/t}", bookmarks:"{t}Bookmark{/t}", notes:"{t}Note{/t}",
+	  files:"{t}File{/t}", gallery:"{t}Photo{/t}", spreadsheets:"{t}Spreadsheet{/t}",
+	  graphviz:"{t}Diagram{/t}", htmldocs:"{t}HTML document{/t}", cms:"{t}Web page{/t}"
 	}
 	for (var type in quick_create) {
 	  if (sys.disabled_modules[type]) continue;
@@ -1600,73 +1588,72 @@ function drawmenu() {
 	  smenuitem(icon+quick_create[type],"sWin('index.php?folder=^home_"+sys.username+"/!"+type+"&view=new')");
 	}
 	smenu_hr();
-	smenuitem(t("Subfolder"),"tree_folder_options(1)");
+	smenuitem("{t}Subfolder{/t}","tree_folder_options(1)");
     smenu_end();
   }
   
-  menuitem(t("Folder"));
+  menuitem("{t}Folder{/t}");
   smenu_begin();
   if (sys.username!="anonymous" && !sys.is_superadmin) {
-	smenuitem(t("Add to offline folders"),"ajax('folder_add_offline',[tfolder,tview,tfolder_name],alert_ok);");
+	smenuitem("{t}Add to offline folders{/t}","ajax('folder_add_offline',[tfolder,tview,tfolder_name],alert_ok);");
   }
   if (sys.is_superadmin) {
-    smenuitem(t("Backup current folder"),"sWin('index.php?action_sys=backup');");
+    smenuitem("{t}Backup current folder{/t}","sWin('index.php?action_sys=backup');");
   }
   if (rights.write_folder && isdbfolder) {
 	smenu_hr();
-	smenuitem(t("Move")+": "+t("Up"),"ajax('folder_moveup',[tfolder],locate_folder)");
-	smenuitem(t("Move")+": "+t("Down"),"ajax('folder_movedown',[tfolder],locate_folder)");
+	smenuitem("{t}Move{/t}: {t}Up{/t}","ajax('folder_moveup',[tfolder],locate_folder)");
+	smenuitem("{t}Move{/t}: {t}Down{/t}","ajax('folder_movedown',[tfolder],locate_folder)");
   }
   if (!no_folder_operations && rights.write_folder) {
 	if (isdbfolder) {
 	  smenu_hr();
-	  smenuitem(t("Cut"),"ajax('folder_cut',[tfolder],null)");
-	  smenuitem(t("Copy"),"ajax('folder_copy',[tfolder],null)");
-	  smenuitem(t("Paste"),"ajax('folder_paste',[tfolder],locate_folder,30000)");
+	  smenuitem("{t}Cut{/t}","ajax('folder_cut',[tfolder],null)");
+	  smenuitem("{t}Copy{/t}","ajax('folder_copy',[tfolder],null)");
+	  smenuitem("{t}Paste{/t}","ajax('folder_paste',[tfolder],locate_folder,30000)");
 	}
 	smenu_hr();
-	smenuitem(t("Delete incl subfolders"),"folder_delete()");
+	smenuitem("{t}Delete incl subfolders{/t}","folder_delete()");
   }
   if (rights.admin && isdbfolder) {
 	smenu_hr();
-	smenuitem(t("Rights")+": "+t("Show"),"sWin('index.php?view=rights')");
-	smenuitem(t("Rights")+": "+t("Edit"),"sWin('index.php?view=rights_edit')","0");
-	smenuitem(t("Apply rights to subfolders"),"tree_applyrights()");
+	smenuitem("{t}Rights{/t}: {t}Show{/t}","sWin('index.php?view=rights')");
+	smenuitem("{t}Rights{/t}: {t}Edit{/t}","sWin('index.php?view=rights_edit')","0");
+	smenuitem("{t}Apply rights to subfolders{/t}","tree_applyrights()");
   }
   if (rights.write_folder && isdbfolder) {
 	smenu_hr();
-	smenuitem(t("Merge folders permanently"),"tree_categories()");
+	smenuitem("{t}Merge folders permanently{/t}","tree_categories()");
   }
   if (!no_folder_operations && rights.write_folder) {
 	smenu_hr();
-	smenuitem(t("Create new folder"),"tree_folder_options(1)");
-	smenuitem(t("Rename folder"),"tree_folder_options(0)");
+	smenuitem("{t}Create new folder{/t}","tree_folder_options(1)");
+	smenuitem("{t}Rename folder{/t}","tree_folder_options(0)");
   }
-  smenu_hr();
   if (!no_folder_operations && isdbfolder && ((rights.write_folder && !sys.mountpoint_admin) || rights.admin_folder)) {
-	smenuitem(t("Mountpoint"),"tree_folder_mountpoint()");
+	smenuitem("{t}Mountpoint{/t}","tree_folder_mountpoint()");
   }
-  smenuitem(t("Info"),"tree_folder_info()");
+  smenuitem("{t}Info{/t}","tree_folder_info()");
   smenu_end();
 
-  menuitem(t("History"));
+  menuitem("{t}History{/t}");
   smenu_begin();
   smenu_history();
   smenu_end();
 
-  menuitem(t("Im-/Export"));
+  menuitem("{t}Im-/Export{/t}");
   smenu_begin();
   if (rights.write) {
-	smenuitem(t("Import"),"sWin('import.php?folder="+escape(tfolder)+"')");
+	smenuitem("{t}Import{/t}","sWin('import.php?folder="+escape(tfolder)+"')");
 	smenu_hr();
   }
   smenuitem("Simple Spreadsheet","neWin('index.php?export=sss')");
-  smenuitem("ExtJS "+t("Table"),"neWin('ext/lib/extjs/index.php?title='+escape(tfolder_name)+'&items='+assets_get_selected(true).join(','))");
+  smenuitem("ExtJS {t}Table{/t}","neWin('ext/lib/extjs/index.php?title='+escape(tfolder_name)+'&items='+assets_get_selected(true).join(','))");
   smenuitem("HTML","neWin('index.php?export=html')");
-  smenuitem("HTML ("+t("vertical")+")","neWin('index.php?export=html_vertical')");
+  smenuitem("HTML ({t}vertical{/t})","neWin('index.php?export=html_vertical')");
   smenuitem("CSV","sWin('index.php?export=csv')");
-  smenuitem(t("Spreadsheet"),"sWin('index.php?export=calc')");
-  smenuitem(t("Text Document"),"sWin('index.php?export=writer')");
+  smenuitem("{t}Spreadsheet{/t}","sWin('index.php?export=calc')");
+  smenuitem("{t}Text Document{/t}","sWin('index.php?export=writer')");
   smenuitem("XML","sWin('index.php?export=xml')");
   smenuitem("RSS","sWin('index.php?export=rss')");
   smenuitem("iCalendar","sWin('index.php?export=icalendar')");
@@ -1674,7 +1661,7 @@ function drawmenu() {
   smenuitem("LDIF","sWin('index.php?export=ldif')");
   smenu_end();
 
-  menuitem(t("Theme"));
+  menuitem("{t}Theme{/t}");
   smenu_begin();
   var styles = {
 	core:"core", core_tree_icons:"core tree icons",	contrast:"contrast", water:"water", lake:"lake",
@@ -1690,14 +1677,14 @@ function drawmenu() {
 
   if (sys.username!="anonymous") {
 	if (sys.is_superadmin) {
-	  menubutton(t("Settings"),"locate('index.php?action_sys=edit_setup')");
+	  menubutton("{t}Settings{/t}","locate('confg.php')");
 	} else {
-	  menubutton(t("Settings"),"locate('index.php?find=asset|simple_sys_users|1|username="+sys.username+"&view=changepwd')");
+	  menubutton("{t}Settings{/t}","locate('index.php?find=asset|simple_sys_users|1|username="+sys.username+"&view=changepwd')");
 	}
   } 
-  menubutton(t("Help"),"nWin('cms.php?page=Help')");
+  menubutton("{t}Help{/t}","nWin('cms.php?page=Help')");
 
-  menubutton(t("Login/-out")+" <img src='ext/icons/logout.gif' title='"+t("Login/-out")+"' style='vertical-align:top;'/>","sWin('index.php?logout')", "l");
+  menubutton("{t}Login/-out{/t} <img src='ext/icons/logout.gif' title='{t}Login/-out{/t}' style='vertical-align:top;'/>","sWin('index.php?logout')", "l");
   mbuffer += '<td><span id="notification"></span></td>';
   mbuffer += "</tr></table></div>"+smenu_buffer;
   getObj("menu").innerHTML = mbuffer;
