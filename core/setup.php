@@ -28,7 +28,7 @@ define("DB_SLOW",0.5);
 define("LANG","en");
 
 define("NOW",time());
-define("DEBUG",true);
+define("DEBUG",false);
 define("DEBUG_SQL",false);
 define("FORCE_SSL",false);
 define("APC",false);
@@ -40,12 +40,12 @@ define("VIRUS_SCANNER","");
 if (strpos(PHP_OS,"WIN")!==false) $sep = ";"; else $sep = ":";
 $include_path = explode($sep,ini_get("include_path"));
 if (!in_array(".",$include_path)) {
-  setup::error_exit(sprintf("{t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}","include_path",".".$sep.implode($sep,$include_path),ini_get("include_path")),1);
+  setup_exit(sprintf("{t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}","include_path",".".$sep.implode($sep,$include_path),ini_get("include_path")),1);
 }
 
 $phpversion = "5.2.0";
 if (version_compare(PHP_VERSION, $phpversion, "<")) {
-  setup::error_exit(sprintf("{t}Setup needs php with at least version %s !{/t} (".PHP_VERSION.")",$phpversion),3);
+  setup_exit(sprintf("{t}Setup needs php with at least version %s !{/t} (".PHP_VERSION.")",$phpversion),3);
 }
 if (version_compare(PHP_VERSION,'5.3','>') and !ini_get('date.timezone')) {
   date_default_timezone_set(@date_default_timezone_get());
@@ -75,179 +75,13 @@ define("SMTP_REMINDER",setup::get_config_old("SMTP_REMINDER",false,""));
 
 if (!isset($_SERVER["SERVER_ADDR"]) or $_SERVER["SERVER_ADDR"]=="") $_SERVER["SERVER_ADDR"]="127.0.0.1";
 
-setup::build_customizing(SIMPLE_CUSTOM."customize.php");
+// TODO change
+// setup::build_customizing(SIMPLE_CUSTOM."customize.php");
 setup::dirs_create_default_folders();
 if (isset($_REQUEST["install"]) and isset($_REQUEST["accept_gpl"]) and $_REQUEST["accept_gpl"]=="yes") {
   install();
 } else {
-  show_form($databases);
-}
-
-function show_form($databases) {
-  $globals = ini_get("register_globals");
-  $mb_string = !in_array("mbstring",get_loaded_extensions());
-  
-  echo '
-    <html><head>
-	<title>Simple Groupware & CMS</title>
-	<style>
-		body, h2, img, div, table.data,a {
-		  background-color: #FFFFFF; color: #666666; font-size: 13px; font-family: Arial, Helvetica, Verdana, sans-serif;
-		}
-		a,input,select { color: #0000FF; }
-		input {
-		  font-size: 11px; background-color: #F5F5F5; border: 1px solid #AAAAAA; height: 18px;
-		  vertical-align: middle; padding-left: 5px; padding-right: 5px; border-radius: 10px;
-		}
-		.logo {
-		  border-radius:10px; border:1px solid #AAAAAA; width:532px; height:300px;
-		}
-		.logo_image { width:512px; height:280px; }
-		select { font-size: 11px; background-color: #F5F5F5; border: 1px solid #AAAAAA;	}
-		input:focus { border: 1px solid #FF0000; }
-		.checkbox,.radio { border: 0px; background-color: transparent; }
-		.submit { color: #0000FF; background-color: #FFFFFF; width: 230px; font-weight: bold; }
-		table.data td,table.data td.data { padding-left: 5px; padding-right: 5px; }
-		table.data tr.fields td { color: #FFFFFF; background-color: #B6BDD2; padding: 2px; }
-		#sgs_logo { width: 100%; height: 98%; background-color: #FFFFFF; -moz-transition:opacity 3s; -webkit-transition:opacity 3s; -o-transition:opacity 3s; }
-		.logo_table { color:#FFFFFF; background-image:url(ext/images/sgs_logo_bg.jpg); width:512px; height:280px; border-radius:5px; }
-		.font {
-			text-shadow: -1px -1px 0px #101010, 1px 1px 0px #505050;
-			font-family: Coustard, serif;
-		}
-		@font-face {
-		  font-family:"Coustard";
-		  src:local("Coustard"), url("ext/images/coustard.woff") format("woff");
-		}
-	</style>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<script>
-	function opacity() {
-	  getObj("sgs_logo").style.opacity = 1;
-	  setTimeout(activate,3000);
-	}
-	function getObj(id) {
-	  return document.getElementById(id);
-	}
-	function activate() {
-	  getObj("sgs_logo").style.display="none";
-	  getObj("setup").style.display="";
-	}
-	function change_input_type(id,checked) {
-	  var obj = getObj(id);
-	  obj.type = checked ? "text":"password";
-	}
-	function change_db_type(obj) {
-	  var val = obj.options ? (obj.options[obj.selectedIndex].value) : obj.value;
-	  var ids = ["db_host_row", "db_user_row", "db_pw_row"];
-	  for (var i=0; i<ids.length; i++) {
-		getObj(ids[i]).style.display = (val == "sqlite") ? "none" : "";
-	  }
-	}
-	</script>
-    </head>
-    <body onload="'.((empty($_REQUEST["install"]))?'opacity();':'activate();').'">
-
-	<img src="http://www.simple-groupware.de/cms/logos.php?v='.CORE_VERSION.'&d='.PHP_VERSION.'_'.PHP_OS.'" style="width:1px; height:1px;">
-    <div id="sgs_logo" style="'.(!empty($_REQUEST["install"])?"display:none;":"").'opacity:0;" onclick="activate();">
-    <table style="width:100%; height:95%;"><tr><td align="center">
-      <table><tr><td align="right">
-      <table class="logo">
-	    <tr><td align="center" valign="middle">
-		  <table class="logo_table">
-		  <tr style="height:45px;"><td colspan="2" align="center" valign="top" class="font" style="font-size:80%"><b>Simple Groupware Solutions</b></td></tr>
-		  <tr><td colspan="2" align="center" class="font" style="font-size:170%;"><b>Simple Groupware<br>'.CORE_VERSION_STRING.'</b></td></tr>
-		  <tr style="height:50px;">
-			<td valign="bottom" style="font-size:80%">Photo from<br><b>Axel Kristinsson</b></td>
-			<td align="right" valign="bottom" style="font-size:80%">Thomas Bley<br><b>(C) 2002-2012</b></b></td>
-		  </tr>
-		  </table>
-	    </td></tr>
-      </table>
-      </td></tr></table>
-    </td></tr></table>
-    </div>
-    <div id="setup" style="display:none;">
-    <div style="border-bottom: 1px solid black; letter-spacing: 2px; font-size: 18px; font-weight: bold;">Simple Groupware '.CORE_VERSION_STRING.'</div>
-    <br>
-	<div style="color:#ff0000; margin-left:6px;"><b>
-	'.($globals?sprintf("{t}Warning{/t}: {t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}<br><br>","register_globals","0",$globals):"").'
-	'.($mb_string?sprintf("{t}Warning{/t}: {t}Please install the php-extension with name '%s'.{/t}<br><br>","mbstring"):"").'
-	'.((isset($_REQUEST["install"]) and empty($_REQUEST["accept_gpl"]))?"&nbsp;=&gt; {t}To continue installing Simple Groupware you must check the box under the license{/t}<br><br>":"").'
-	</b></div>
-	<form action="index.php" method="post">
-	<table class="data">
-	<tr id="db_host_row">
-	  <td><label for="db_host">{t}Database Hostname / IP{/t}</label></td>
-	  <td><input type="Text" value="localhost" size="30" maxlength="50" name="db_host" id="db_host"></td>
-	</tr>
-	<tr id="db_user_row">
-	  <td><label for="db_user">{t}Database User{/t}</label></td>
-	  <td><input type="Text" value="root" size="30" maxlength="50" name="db_user" id="db_user"></td>
-	</tr>
-	<tr id="db_pw_row">
-	  <td><label for="db_pw">{t}Database Password{/t}</label></td>
-	  <td><input type="text" value="" size="30" maxlength="50" name="db_pw" id="db_pw"></td>
-	</tr>
-	<tr>
-	  <td><label for="db_name">{t}Database Name{/t}</label></td>
-	  <td><input type="Text" value="sgs_'.CORE_VERSION.'" size="30" maxlength="50" name="db_name" id="db_name" required="true"></td>
-	</tr>
-	<tr>
-	  <td><label for="db_type">{t}Database{/t}</label></td>
-	  <td>
-  ';
-  if (count($databases)>1) {
-    echo '<select name="db_type" id="db_type" onchange="change_db_type(this);">';
-    foreach ($databases as $key=>$val) echo '<option value="'.$key.'"> '.$val[0];
-    echo '</select>';
-  }	else {
-    foreach ($databases as $key=>$val) echo '<input type="hidden" name="db_type" id="db_type" value="'.$key.'"> '.$val[0];
-  }
-  echo '
-	  <script>change_db_type(getObj("db_type"));</script>
-	  </td>
-	</tr>
-	<tr>
-	  <td><label for="admin_user">{t}Admin Username{/t}</label></td>
-	  <td><input type="text" value="admin" size="30" maxlength="50" name="admin_user" id="admin_user" required="true"></td>
-	</tr>
-	<tr>
-	  <td><label for="admin_pw">{t}Admin Password{/t}</label></td>
-	  <td><input type="text" value="" size="30" maxlength="50" name="admin_pw" id="admin_pw" required="true"></td>
-	</tr>
-	<tr>
-	  <td><label for="folders">{t}Folder structure{/t}</label></td>
-	  <td>
-		<select name="folders" id="folders">
-		  '.(is_dir("import/")?'<option value="modules/core/folders.xml">{t}Install demo folders{/t}':'').'
-		  <option value="modules/core/folders_small.xml">{t}Install default folder structure{/t}
-		  <option value="modules/core/folders_minimal.xml">{t}Install minimal folder structure{/t}
-		</select>
-	  </td>
-	</tr>
-	</table>
-    <div style="border-bottom: 1px solid black;">&nbsp;</div>
-	<h2>GNU GPL {t}License{/t} Version 2</h2>
-	<h4>
-	<a href="http://www.gnu.org/copyleft/gpl.html" target="_blank">{t}More information about the GNU GPL{/t}</a><br>
-	<a href="http://www.gnu.org/licenses/translations.html" target="_blank">{t}Translations of the GNU GPL{/t}</a><br> 
-	<a href="http://www.gnu.org/licenses/gpl-faq.html" target="_blank">{t}GNU GPL Frequently Asked Questions{/t}</a>
-	<br>
-	</h4>
-	<font color="#ff0000">*** {t}To continue installing Simple Groupware you must check the box under the license{/t} ***</font><br><br>
-	{t}Please read the following license agreement. Use the scroll bar to view the rest of this agreement.{/t}<br>
-    <div style="border-bottom: 1px solid black;">&nbsp;</div>
-	<pre>'.trim(file_get_contents("LICENSE.txt")).'</pre>
-    <div style="border-bottom: 1px solid black;">&nbsp;</div>
-	<br>
-	<div style="border: 2px solid #FF0000; width:400px;">&nbsp; <input onclick="if (this.checked) this.parentNode.style.border=\'2px solid #00A000\'; else this.parentNode.style.border=\'2px solid #FF0000\';" type="Checkbox" class="checkbox" name="accept_gpl" id="accept_gpl" value="yes" style="margin: 0px;" accesskey="a" required="true"> <label for="accept_gpl">{t}I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2{/t}</label></div>
-	<br><br>
-	<input type="submit" name="install" value="{t}I n s t a l l{/t}" class="submit" style="width:400px;"><br><br>
-	</form>
-    <div style="border-top: 1px solid black;">Powered by Simple Groupware, Copyright (C) 2002-2012 by Thomas Bley.</div>
-	</div></body></html>
-  ';
+  setup::show_form($databases, !empty($_REQUEST["install"]), !empty($_REQUEST["accept_gpl"]));
 }
 
 function install($databases) {
@@ -405,9 +239,9 @@ function install($databases) {
 	"SMTP_NOTIFICATION"=>"'Simple Groupware {t}Notification{/t}'",
 	"CORE_COMPRESS_OUTPUT"=>"true", "CORE_OUTPUT_CACHE"=>"false",
 	"APC_SESSION"=>"false","MENU_AUTOHIDE"=>"false","TREE_AUTOHIDE"=>"false","FIXED_FOOTER"=>"false","FDESC_IN_CONTENT"=>"false",
-	"CMS_HOMEPAGE"=>"'HomePage'", "CMS_REAL_URL"=>"''", "DEBUG"=>(DEBUG?"true":"false"),
+	"CMS_HOMEPAGE"=>"'HomePage'", "CMS_REAL_URL"=>"''", "DEBUG"=>"false",
 	"SIMPLE_CACHE"=>"'".SIMPLE_CACHE."'", "SIMPLE_CUSTOM"=>"'".SIMPLE_CUSTOM."'", "SIMPLE_IMPORT"=>"'import/'",
-	"SIMPLE_EXT"=>"'".SIMPLE_EXT."'", "TIMEZONE"=>"''", "ASSET_PAGE_LIMIT"=>"100",
+	"SIMPLE_EXT"=>"'ext/'", "TIMEZONE"=>"''", "ASSET_PAGE_LIMIT"=>"100",
 	"SYSTEM_SLOW"=>"2", "DB_SLOW"=>"0.5", "CMS_SLOW"=>"2", "CHMOD_DIR"=>"777", "CHMOD_FILE"=>"666",
 	"INVALID_EXTENSIONS"=>"'386,adb,ade,asd,asf,asp,asx,bas,bat,bin,cab,ceo,cgi,chm,cmd,com,cpl,crt,csc,dat,dbx,dll,drv,".
 		"ema,eml,exe,fon,hlp,hta,hto,htt,img,inf,isp,jse,jsp,ins,lnk,mbx,mda,mdt,mdx,mdw,mdz,mht,".
@@ -666,4 +500,21 @@ function database_folders() {
   if (!empty($parent) and empty($row_id)) {
 	folders::create("{t}Extensions{/t}","blank","",$parent,false,array("anchor"=>"extensions"));
   }
+}
+
+function setup_exit($str,$err) {
+  echo '
+    <html><body><center>
+	<img src="http://www.simple-groupware.de/cms/logos.php?v='.CORE_VERSION.'&d='.PHP_VERSION.'_'.PHP_OS.'&e='.$err.'" start="width:1px; height:1px;">
+    <div style="border-bottom: 1px solid black; letter-spacing: 2px; font-size: 18px; font-weight: bold;">Simple Groupware '.CORE_VERSION_STRING.' - Setup</div>
+	<br><div>{t}Error{/t}:</div>
+	<error>'.htmlspecialchars($str, ENT_QUOTES).'</error><br><br>
+	<div><a href="index.php">{t}Relaunch Setup{/t}</a></div>
+	<br><hr>
+	<a href="http://www.simple-groupware.de/cms/Main/Installation" target="_blank">Installation manual</a>
+	<hr><br>
+  ';
+  phpinfo();
+  echo '</body></html>';
+  exit;
 }
