@@ -23,16 +23,12 @@ static function form_render_value($name, $value) {
 	</script>
 EOT;
 
-  $pv = t("Preview");
-  $ex = t("Examples");
-  $sh = t("Shapes");
-  $doc = t("Documentation");
   $output = $init.<<<EOT
     <div style="padding-bottom:1px;">
-	<input type="button" value="{$pv}" onclick="graphviz_open_preview('{$name}'); getObj('{$name}').focus();">&nbsp;
-	<input type="button" value="{$ex}" onclick="nWin('http://graphviz.org/Gallery.php');">&nbsp;
-	<input type="button" value="{$sh}" onclick="nWin('http://graphviz.org/doc/info/shapes.html');">&nbsp;
-	<input type="button" value="{$doc}" onclick="nWin('http://graphviz.org/pdf/dotguide.pdf');">
+	<input type="button" value="{t}Preview{/t}" onclick="graphviz_open_preview('{$name}'); getObj('{$name}').focus();">&nbsp;
+	<input type="button" value="{t}Examples{/t}" onclick="nWin('http://graphviz.org/Gallery.php');">&nbsp;
+	<input type="button" value="{t}Shapes{/t}" onclick="nWin('http://graphviz.org/doc/info/shapes.html');">&nbsp;
+	<input type="button" value="{t}Documentation{/t}" onclick="nWin('http://graphviz.org/pdf/dotguide.pdf');">
 	</div>
 	<textarea name="{$name}" id="{$name}" style="width:100%; height:64px;">{$value}</textarea>
 	<img id="{$name}_preview" src="about:blank" style="display:none;"/>

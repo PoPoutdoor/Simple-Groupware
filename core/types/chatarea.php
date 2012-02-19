@@ -13,7 +13,6 @@ static function render_value() {
   $id = uniqid();
   $smarty = func_get_arg(3);
   $roomname = modify::htmlquote($smarty->data_item["roomname"]["data"][0]);
-  $ok = t("Ok");
 
   static $init = false;
   if ($init === false) $init = <<<EOT
@@ -41,7 +40,7 @@ static function render_value() {
 			  obj.appendChild(elem);
 			  obj.scrollTop = obj.scrollHeight + obj.offsetHeight + elem.offsetHeight;
 			} else if (obj.innerHTML == "") {
-			  obj.innerHTML = remove_trans("{$ok}...");
+			  obj.innerHTML = "{t}Ok{/t}...";
 			}
 			if (reload) setTimeout(function(){ chat_load(id,room,true); },2500);
 		  });
@@ -59,11 +58,9 @@ static function render_value() {
 	<input type="hidden" id="last_{$id}" value="0">
 EOT;
 
-  $clear = t("Clear");
-  $archive = t("Show archive");
   $output = $init.<<<EOT
-	  <input type="button" onclick="set_html('room_{$id}','');" value="{$clear}">&nbsp;
-	  <input type="Checkbox" class="checkbox" id="archive_{$id}" onclick="chat_archive('{$id}','{$roomname}');" style="margin:0px;"> {$archive}<br>
+	  <input type="button" onclick="set_html('room_{$id}','');" value="{t}Clear{/t}">&nbsp;
+	  <input type="Checkbox" class="checkbox" id="archive_{$id}" onclick="chat_archive('{$id}','{$roomname}');" style="margin:0px;"> {t}Show archive{/t}<br>
       <div class="chat" id="room_{$id}"></div>
 	  <script>chat_load('{$id}','{$roomname}',true);</script>
 EOT;

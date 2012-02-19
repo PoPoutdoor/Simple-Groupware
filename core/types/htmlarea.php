@@ -30,12 +30,11 @@ static function form_render_value($name, $value, $smarty) {
 		}
 	</script>
 EOT;
-  $pv = t("Preview");
-  $ed = t("Editor");
+
   if ($smarty->sys["browser"]["is_mobile"]) {
 	$output = $init.<<<EOT
     <div style="padding-bottom:2px;">
-	  <input type="button" value="{$pv}" onclick="htmlarea_preview('{$name}');">&nbsp;
+	  <input type="button" value="{t}Preview{/t}" onclick="htmlarea_preview('{$name}');">&nbsp;
 	  <input type="button" value="+" onclick="resize_obj('{$name}_iframe',120); resize_obj('{$name}',120);">&nbsp;
       <input type="button" value="&ndash;" onclick="resize_obj('{$name}_iframe',-120); resize_obj('{$name}',-120);"><br>
 	</div>
@@ -47,8 +46,8 @@ EOT;
 
 	$output = $init.<<<EOT
     <div style="padding-bottom:2px;">
-	  <input type="button" value="{$pv}" onclick="htmlarea_preview('{$name}');">&nbsp;
-	  <input type="button" value="HTML / {$ed}" onclick="showhide('{$name}'); showhide('{$name}_iframe');">&nbsp;
+	  <input type="button" value="{t}Preview{/t}" onclick="htmlarea_preview('{$name}');">&nbsp;
+	  <input type="button" value="HTML / {t}Editor{/t}" onclick="showhide('{$name}'); showhide('{$name}_iframe');">&nbsp;
 	  <input type="button" value="+" onclick="resize_obj('{$name}_iframe',120); resize_obj('{$name}',120);">&nbsp;
       <input type="button" value="&ndash;" onclick="resize_obj('{$name}_iframe',-120); resize_obj('{$name}',-120);"><br>
 	</div>

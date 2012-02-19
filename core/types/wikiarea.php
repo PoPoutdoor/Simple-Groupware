@@ -20,12 +20,10 @@ static function form_render_value($name, $value) {
 		}
 	</script>
 EOT;
-  $pv = t("Preview");
-  $tf = t("Text formatting rules");
   $output = $init.<<<EOT
 	<div style="margin-bottom:1px;">
-	  <input type="button" value="{$pv}" onclick="wikiarea_preview('{$name}'); getObj('{$name}').focus();">&nbsp;
-	  <input type="button" value="{$tf}" onclick="nWin('http://pear.reversefold.com/dokuwiki/text_wiki:samplepage');">
+	  <input type="button" value="{t}Preview{/t}" onclick="wikiarea_preview('{$name}'); getObj('{$name}').focus();">&nbsp;
+	  <input type="button" value="{t}Text formatting rules{/t}" onclick="nWin('http://pear.reversefold.com/dokuwiki/text_wiki:samplepage');">
 	</div>
 	<textarea name="{$name}" id="{$name}" style="width:100%; height:64px;">{$value}</textarea>
 	<div class="wikibody">
@@ -50,7 +48,7 @@ static function render_page($str) {
 }
 
 static function ajax_wikiarea_render_preview($data) {
-  return "<b>".t("Preview").":</b><br/><br/>".modify::htmlfield(self::render_page($data));
+  return "<b>{t}Preview{/t}:</b><br/><br/>".modify::htmlfield(self::render_page($data));
 }
 
 static function export_as_html() {

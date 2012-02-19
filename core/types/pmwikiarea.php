@@ -137,7 +137,7 @@ EOT;
 	</div>
 EOT;
   $init = "";
-  return trans($output);
+  return $output;
 }
 
 static function render_value($value, $value_raw, $preview, $unused) {
@@ -145,13 +145,13 @@ static function render_value($value, $value_raw, $preview, $unused) {
 	$id = uniqid();
 	$value = modify::htmlfield(modify::htmlunquote($value),true,true);
     $value_raw = modify::nl2br($value_raw);
-	$sc = t("Source code");
+
     return <<<EOT
 	  <div class="wikibody">
 		<div id="html_{$id}" style="padding:8px;">{$value}</div>
 		<div id="data_{$id}" style="display:none; padding:8px;">{$value_raw}</div>
 	  </div>
-	  <input type="button" value="{$sc} / HTML" onclick="showhide('data_{$id}'); showhide('html_{$id}');" style="margin-bottom:1px;">
+	  <input type="button" value="{t}Source code{/t} / HTML" onclick="showhide('data_{$id}'); showhide('html_{$id}');" style="margin-bottom:1px;">
 EOT;
   }
   return modify::nl2br($value_raw);
@@ -178,7 +178,7 @@ static function ajax_render_preview($text, $pagename, $title, $table) {
   if (empty($text)) return "";
   if ($title=="") $title = $pagename;
   if (($pos = strpos($title,"."))) $title = substr($title,$pos+1);
-  return t("Preview")."<br/><br/><h1 class='pagetitle'>".modify::htmlquote($title)."</h1>".
+  return "{t}Preview{/t}"."<br/><br/><h1 class='pagetitle'>".modify::htmlquote($title)."</h1>".
   		 "<div id='wikitext'>".modify::htmlfield(pmwiki_render($pagename,"(:groupheader:)".$text."(:groupfooter:)",$table))."</div>";
 }
 
