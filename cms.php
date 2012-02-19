@@ -12,7 +12,7 @@ $base_dir = dirname($_SERVER["SCRIPT_NAME"]);
 error_reporting(E_ALL);
 
 header("Content-Type: text/html; charset=utf-8");
-define("SIMPLE_STORE","../simple_store");
+define("SIMPLE_STORE","simple_store");
 @include(SIMPLE_STORE."/config.php");
 if (!defined("SETUP_DB_HOST")) {
   header("HTTP/1.0 503 Service Temporarily Unavailable");
