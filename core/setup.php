@@ -18,13 +18,14 @@ header("Pragma: no-cache");
 define("CORE_VERSION","0_744");
 define("CORE_VERSION_STRING","0.744");
 define("CORE_SGSML_VERSION","4_44");
-define("SIMPLE_CACHE","../simple_cache/");
-define("SIMPLE_CUSTOM","../custom/");
-define("SIMPLE_EXT","../ext/");
+define("SIMPLE_CACHE","simple_cache/");
+define("SIMPLE_CUSTOM","custom/");
+define("SIMPLE_EXT","ext/");
 define("USE_SYSLOG_FUNCTION",0);
 define("CHMOD_DIR",777);
 define("CHMOD_FILE",666);
 define("DB_SLOW",0.5);
+define("LANG","en");
 
 define("NOW",time());
 define("DEBUG",true);
@@ -87,7 +88,7 @@ if (file_exists($old_file) and filemtime($old_file)>time()-86400) {
   setup::$config_old = str_replace("\r","",file_get_contents($old_file));
   
   $_REQUEST["auto_update"] = true;
-  if (is_dir("../bin/core") or DEBUG) $_REQUEST["install"] = "yes";
+  if (is_dir("bin/core") or DEBUG) $_REQUEST["install"] = "yes";
   $_REQUEST["accept_gpl"] = "yes";
   $_REQUEST["lang"] = setup::get_config_old("LANG");
   $_REQUEST["admin_user"] = setup::get_config_old("SETUP_ADMIN_USER");
@@ -123,16 +124,16 @@ if (!is_writable(SIMPLE_CACHE."/") or !is_writable(SIMPLE_STORE."/")) {
   $message .= sprintf("\n{t}If file system permissions are ok, please check the configurations of %s if present.{/t}", "SELinux, suPHP, Suhosin");
   setup::error($message,8);
 }
-if (!is_writable("../bin/")) setup::error(sprintf("[2] {t}Please give write access to %s{/t}","../bin/"),9);
-if (!DEBUG and !is_writable("../bin/index.php")) setup::error(sprintf("[3] {t}Please give write access to %s{/t}","../bin/index.php"),10);
-if (!is_readable("../lang/")) setup::error(sprintf("[4] {t}Please give read access to %s{/t}","../lang/"),11);
-if (is_dir("../import") and !is_readable("../import/")) setup::error(sprintf("[5] {t}Please give read access to %s{/t}","../import/"),111);
+if (!is_writable("bin/")) setup::error(sprintf("[2] {t}Please give write access to %s{/t}","bin/"),9);
+if (!DEBUG and !is_writable("bin/index.php")) setup::error(sprintf("[3] {t}Please give write access to %s{/t}","bin/index.php"),10);
+if (!is_readable("lang/")) setup::error(sprintf("[4] {t}Please give read access to %s{/t}","lang/"),11);
+if (is_dir("import/") and !is_readable("import/")) setup::error(sprintf("[5] {t}Please give read access to %s{/t}","import/"),111);
 
 if (count(setup::$errors)>0) {
   setup::display_errors(false);
 } else {
   $lang_dir = "lang/";
-  if (!is_dir($lang_dir)) $lang_dir = "../lang/";
+  if (!is_dir($lang_dir)) $lang_dir = "lang/";
   if (DEBUG and !isset($_REQUEST["install"]) and !isset($_REQUEST["lang"])) {
 	echo "
 	  <html><head><title>Simple Groupware & CMS</title>
@@ -177,7 +178,7 @@ if (count(setup::$errors)>0) {
   if (DEBUG and !isset($_REQUEST["install"]) and $_REQUEST["lang"]!="dev") {
 	setup::out("Building customizations<br>");
 	setup::build_customizing(SIMPLE_CUSTOM."customize.php");
-	setup::out('<br><a href="../bin/index.php">Continue</a>',false);
+	setup::out('<br><a href="bin/index.php">Continue</a>',false);
     if (function_exists("memory_get_usage") and function_exists("memory_get_peak_usage")) {
 	  setup::out("<!-- ".modify::filesize(memory_get_usage())." - ".modify::filesize(memory_get_peak_usage())." -->",false);
 	}
@@ -326,7 +327,7 @@ function show_form() {
 	  <td><label for="folders">{t}Folder structure{/t}</label></td>
 	  <td>
 		<select name="folders" id="folders">
-		  '.(is_dir("../import")?'<option value="modules/core/folders.xml">{t}Install demo folders{/t}':'').'
+		  '.(is_dir("import/")?'<option value="modules/core/folders.xml">{t}Install demo folders{/t}':'').'
 		  <option value="modules/core/folders_small.xml">{t}Install default folder structure{/t}
 		  <option value="modules/core/folders_minimal.xml">{t}Install minimal folder structure{/t}
 		</select>
@@ -513,7 +514,7 @@ function install() {
 	"CORE_OUTPUT_CACHE"=>($GLOBALS["core_output_cache"]?"true":"false"),
 	"APC_SESSION"=>"false","MENU_AUTOHIDE"=>"false","TREE_AUTOHIDE"=>"false","FIXED_FOOTER"=>"false","FDESC_IN_CONTENT"=>"false",
 	"CMS_HOMEPAGE"=>"'HomePage'", "CMS_REAL_URL"=>"''", "DEBUG"=>(DEBUG?"true":"false"),
-	"SIMPLE_CACHE"=>"'".SIMPLE_CACHE."'", "SIMPLE_CUSTOM"=>"'".SIMPLE_CUSTOM."'", "SIMPLE_IMPORT"=>"'../import/'",
+	"SIMPLE_CACHE"=>"'".SIMPLE_CACHE."'", "SIMPLE_CUSTOM"=>"'".SIMPLE_CUSTOM."'", "SIMPLE_IMPORT"=>"'import/'",
 	"SIMPLE_EXT"=>"'".SIMPLE_EXT."'", "TIMEZONE"=>"''", "ASSET_PAGE_LIMIT"=>"100",
 	"SYSTEM_SLOW"=>"2", "DB_SLOW"=>"0.5", "CMS_SLOW"=>"2", "CHMOD_DIR"=>"777", "CHMOD_FILE"=>"666",
 	"INVALID_EXTENSIONS"=>"'386,adb,ade,asd,asf,asp,asx,bas,bat,bin,cab,ceo,cgi,chm,cmd,com,cpl,crt,csc,dat,dbx,dll,drv,".
