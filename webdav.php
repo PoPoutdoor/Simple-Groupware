@@ -86,7 +86,7 @@ if ($content_length > 20*1024*1024) { // filesize > 20M
   exit;
 }
 
-define("SIMPLE_STORE","../simple_store");
+define("SIMPLE_STORE","simple_store");
 @include(SIMPLE_STORE."/config.php");
 if (!defined("SETUP_DB_HOST")) exit;
 if (!ENABLE_WEBDAV) {
