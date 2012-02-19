@@ -20,9 +20,16 @@ class build {
 	const MB = 1048576;
 
 	public function __construct($archives=true, $manuals=true) {
+	$matches = array();
+	preg_match_all("!\*\* ([^\n]+)\n([^\n]+)!", file_get_contents("../lang/de.lang"), $matches);
+	$strings = array_combine($matches[1], $matches[2]);
+
+file_put_contents("de.js", json_encode($strings));
+exit;
+
 		$this->translationMaster();
 		$this->validateTranslation("de");
-	
+
 		$this->sysCheck();
 		
 		$dir = $this->git();
