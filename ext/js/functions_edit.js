@@ -21,11 +21,10 @@ function generate_password(field) {
   for (i=0;i<8;i++) {
     temp += keys.charAt(Math.floor(Math.random()*keys.length));
   }
-  sys_alert(t("The new password is")+": " + temp);
+  sys_alert("{t}The new password is{/t}: " + temp);
   getObj(field).value = temp;
   getObj(field+"_confirm").value = temp;
 }
-
 
 function ______O_T_H_E_R_S______() {}
 
@@ -67,14 +66,14 @@ function handle_upload(item_name, max_file_size, max_file_count, files, input_id
   }
 	  
   if (max_file_count!="" && file_count + files.length > max_file_count) {
-	sys_alert(t("Upload failed")+": "+t("maximum number of files exceeded.")+" ("+max_file_count+")");
+	sys_alert("{t}Upload failed{/t}: {t}maximum number of files exceeded.{/t} ("+max_file_count+")");
 	return false;
   }
   for (var i = 0; i < files.length; i++) {
     var file = files[i];
 	max_file_size = max_file_size.replace("M", "000000");
 	if (max_file_size > 0 && file.size > max_file_size) {
-	  sys_alert(t("Upload failed")+": "+t("file is too big. Please upload a smaller one."));
+	  sys_alert("{t}Upload failed{/t}: {t}file is too big. Please upload a smaller one.{/t}");
 	  return false;
 	}
 	var callback = function(result) {
@@ -82,7 +81,7 @@ function handle_upload(item_name, max_file_size, max_file_count, files, input_id
 	  var elem = document.createElement('div');
 	  elem.innerHTML+='<input type="hidden" name="'+item_name+'[]" style="width:45%;" value="'+result.tmp_path+'">';
 	  elem.innerHTML+='<input type="input" readonly="true" style="width:38%;" value=" '+result.basename+' ('+result.filesize+')">';
-	  elem.innerHTML+='&nbsp;<a href="#" onclick="set_html(\''+id+'\',\'\'); return false;"><img src="ext/icons/empty.gif" title="'+t("Delete")+'"></a><br>';
+	  elem.innerHTML+='&nbsp;<a href="#" onclick="set_html(\''+id+'\',\'\'); return false;"><img src="ext/icons/empty.gif" title="{t}Delete{/t}"></a><br>';
 	  elem.style.paddingTop="2px";
 	  elem.id=id;
 	  getObj(item_name+"_div3").appendChild(elem);
@@ -94,7 +93,7 @@ function handle_upload(item_name, max_file_size, max_file_count, files, input_id
 	  ajax_binary("upload_file", file, [file.name], callback, function(event) {
 		if (!event.lengthComputable) return;
 		var percentage = Math.round((event.loaded * 100) / event.total);
-		set_html(item_name+"_progress", (percentage!=100) ? "<br>"+t("Uploading")+": "+file.name+": "+percentage+"%" : "");
+		set_html(item_name+"_progress", (percentage!=100) ? "<br>{t}Uploading{/t}: "+file.name+": "+percentage+"%" : "");
 	  });
 	}
   }
@@ -114,7 +113,7 @@ function form_submit(form) {
     if (obj[i].type=="password") {
 	  var id = obj[i].id;
 	  if (id.indexOf("_confirm")==-1 && getObj(id+"_confirm").value!=obj[i].value) {
-		sys_alert(attr(id+"_confirm","rel")+": "+t("password not confirmed."));
+		sys_alert(attr(id+"_confirm","rel")+": {t}password not confirmed.{/t}");
 		return false;
   } } }
   obj = form.getElementsByTagName("select");
@@ -148,7 +147,7 @@ function show_freebusy(prefix) {
     }
 	getObj("pane").src="index.php?folder="+escape(tfolder)+"&view=freebusy&markdate=day&iframe=2&find=folders|simple_sys_tree||anchor="+escape(cals)+"&today="+today;
 	change_tab('tab','general');
-  } else sys_alert(t("Please select a participant."));
+  } else sys_alert("{t}Please select a participant.{/t}");
 }
 
 function show_freebusy_location(prefix) {
@@ -156,7 +155,7 @@ function show_freebusy_location(prefix) {
   var locs = val(prefix+"location");
   if (locs) {
 	getObj("pane").src="index.php?folder=1&view=freebusy&markdate=day&iframe=2&find=assets|simple_calendar||location="+escape(locs)+"&today="+today;
-  } else sys_alert(t("Please select a location."));
+  } else sys_alert("{t}Please select a location.{/t}");
 }
 
 function ______G_U_I__L_O_O_K_U_P_S______() {}
@@ -252,7 +251,7 @@ function search_data(id, page) {
   }
 
   var value = val(id + "_custom"); // inputbox
-  if (value==t("Search")) value = "";
+  if (value=="{t}Search{/t}") value = "";
 
   ajax("search_data", [val(id + "_ticket"), value, page], function(data) {
 	if (page==1) hide(id + "_prev"); else show(id + "_prev");
