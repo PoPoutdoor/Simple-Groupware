@@ -58,9 +58,9 @@ class import extends Spreadsheet_Excel_Reader {
 	if (empty($result)) { // validate
 	  $this->out(".");
 	} else if (is_array($result)) {
-	  $message = t("line")." ".$line." ".self::err_to_str($result);
+	  $message = sprintf("{t}line{/t} %s: %s", $line, self::err_to_str($result));
 	  $this->_errors[] = $message;
-	  $this->out("<span style='color:red; font-weight:bold;'>".t("Error").":</span> ".modify::htmlquote($message).", ");
+	  $this->out("<span style='color:red; font-weight:bold;'>{t}Error{/t}:</span> ".modify::htmlquote($message).", ");
 	} else {
 	  $this->out("#".$line.": ".modify::htmlquote($result).", ");
 	}
@@ -97,13 +97,13 @@ class import extends Spreadsheet_Excel_Reader {
 	if (empty($error) or !is_array($error)) return "";
 	$result = array();
 	foreach ($error as $field) {
-	  foreach ($field as $error) $result[] = t("Column")." \"".$error[0]."\": ".$error[1];
+	  foreach ($field as $error) $result[] = "{t}Column{/t} \"".$error[0]."\": ".$error[1];
 	}
 	return implode(", ", $result);
   }
   
   static function get_fields($sgsml) {
-	$fields = array("id"=>t("Id"), "folder"=>t("Folder"));
+	$fields = array("id"=>"{t}Id{/t}", "folder"=>"{t}Folder{/t}");
 	$view = $sgsml->view;
 	foreach ($sgsml->current_fields as $name=>$field) {
 	  if (isset($field["READONLYIN"][$view]) or isset($field["READONLYIN"]["all"])) continue;
