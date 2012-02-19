@@ -102,7 +102,7 @@ if (ini_get("magic_quotes_gpc")!==false and get_magic_quotes_gpc()) modify::stri
 
 if (!sql_connect(SETUP_DB_HOST, SETUP_DB_USER, sys_decrypt(SETUP_DB_PW,sha1(SETUP_ADMIN_USER)), SETUP_DB_NAME)) {
   header("HTTP/1.1 503 Service Unavailable");
-  $err = t("Cannot connect to database %s on %s.",SETUP_DB_NAME,SETUP_DB_HOST)."\n".sql_error();
+  $err = sprintf("{t}Cannot connect to database %s on %s.{/t}\n",SETUP_DB_NAME,SETUP_DB_HOST).sql_error();
   trigger_error($err,E_USER_ERROR);
   exit($err);
 }

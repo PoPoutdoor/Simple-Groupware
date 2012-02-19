@@ -55,7 +55,7 @@ $row_filename = ajax::file_download($folder, @$_REQUEST["view"], @$_REQUEST["ite
 $filename = modify::basename($row_filename);
 $ext = substr(modify::getfileext($filename),0,3);
 if (in_array($ext,$bad_extensions))	{
-  sys_error(t("Access to this file has been denied.")." (".t("this file extension is not allowed").")","403 Forbidden");
+  sys_error("{t}Access to this file has been denied.{/t} ({t}this file extension is not allowed{/t})","403 Forbidden");
 }
 
 if ($dispo=="inline" and !in_array($ext,$inline_extensions)) $dispo="attachment";
