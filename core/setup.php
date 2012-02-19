@@ -37,9 +37,6 @@ define("INDEX_LIMIT",16384);
 define("FILE_TEXT_CACHE",15552000);
 define("VIRUS_SCANNER","");
 
-$core_output_cache = !DEBUG;
-$core_compress_output = !DEBUG;
-
 if (strpos(PHP_OS,"WIN")!==false) $sep = ";"; else $sep = ":";
 $include_path = explode($sep,ini_get("include_path"));
 if (!in_array(".",$include_path)) {
@@ -56,41 +53,14 @@ if (version_compare(PHP_VERSION,'5.3','>') and !ini_get('date.timezone')) {
 
 require("core/functions.php");
 
-$extensions = array("xml", "gd", "pcre", "session", "zlib", "SimpleXML");
-
-$db_extensions = array("MySQL"=>"mysql", "PostgreSQL"=>"pgsql", "SQLite"=>"pdo_sqlite");
-
-$GLOBALS["db_min_version"]["mysql"] = "5.00";
-$GLOBALS["db_min_version"]["pgsql"] = "8.36";
-$GLOBALS["db_min_version"]["sqlite"] = "3.00";
-
-$on = array("1", "on", "On");
-$off = array("0", "off", "Off", "");
-$settings = array(
-	"safe_mode" => $off, "file_uploads" => $on, "zlib.output_compression" => $off,
-	"session.auto_start" => $off, "magic_quotes_runtime" => $off, "display_errors" => $on
-);
-
-if (strpos(php_uname("m"),"64")) $memorylimit = 24000000; else $memorylimit = 16000000;
-
-if (!empty($_SERVER["SERVER_SOFTWARE"]) and !preg_match("/Apache|nginx|IIS/", $_SERVER["SERVER_SOFTWARE"])) {
-  setup::error("{t}Please choose Apache as Web-Server.{/t} (".$_SERVER["SERVER_SOFTWARE"].")","2".$_SERVER["SERVER_SOFTWARE"]);
-}
-
-$memory = ini_get("memory_limit");
-if (!empty($memory)) {
-  $memory = (int)str_replace("m","000000",strtolower($memory));
-  if ($memory < $memorylimit) setup::error(sprintf("{t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}","memory_limit",str_replace("000000","M",$memorylimit),ini_get("memory_limit")),4);
-}
+$databases = validate_system();
 
 $old_file = SIMPLE_STORE."/config_old.php";
 if (file_exists($old_file) and filemtime($old_file)>time()-86400) {
   setup::$config_old = str_replace("\r","",file_get_contents($old_file));
   
   $_REQUEST["auto_update"] = true;
-  if (is_dir("bin/core") or DEBUG) $_REQUEST["install"] = "yes";
   $_REQUEST["accept_gpl"] = "yes";
-  $_REQUEST["lang"] = setup::get_config_old("LANG");
   $_REQUEST["admin_user"] = setup::get_config_old("SETUP_ADMIN_USER");
   $_REQUEST["admin_pw"] = setup::get_config_old("SETUP_ADMIN_PW");
   $_REQUEST["db_type"] = setup::get_config_old("SETUP_DB_TYPE");
@@ -103,95 +73,17 @@ if (file_exists($old_file) and filemtime($old_file)>time()-86400) {
 define("USE_DEBIAN_BINARIES",setup::get_config_old("USE_DEBIAN_BINARIES",false,0));
 define("SMTP_REMINDER",setup::get_config_old("SMTP_REMINDER",false,""));
 
-$sys_extensions = get_loaded_extensions();
-foreach($extensions as $key => $key2) if (!in_array($key2, $sys_extensions)) setup::error(sprintf("{t}Setup needs php-extension with name %s !{/t}",$key2),"5".$key2);
-
-$GLOBALS["databases"] = array();
-foreach ($db_extensions as $key => $key2) {
-  if (in_array($key2, $sys_extensions)) $GLOBALS["databases"][$key] = str_replace("pdo_","",$key2);
-}
-if (count($GLOBALS["databases"])==0) setup::error(sprintf("{t}Setup needs a database-php-extension ! (%s){/t}",implode(", ",$db_extensions)),6);
-
-foreach ($settings as $setting => $values) {
-  if (!in_array(ini_get($setting), $values)) setup::error(sprintf("{t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}",$setting,$values[0],ini_get($setting)),"7".$setting);
-}
-
 if (!isset($_SERVER["SERVER_ADDR"]) or $_SERVER["SERVER_ADDR"]=="") $_SERVER["SERVER_ADDR"]="127.0.0.1";
 
-clearstatcache();
-if (!is_writable(SIMPLE_CACHE."/") or !is_writable(SIMPLE_STORE."/")) {
-  $message = sprintf("[1] {t}Please give write access to %s and %s{/t}",SIMPLE_CACHE."/",SIMPLE_STORE."/");
-  $message .= sprintf("\n{t}If file system permissions are ok, please check the configurations of %s if present.{/t}", "SELinux, suPHP, Suhosin");
-  setup::error($message,8);
-}
-if (!is_writable("bin/")) setup::error(sprintf("[2] {t}Please give write access to %s{/t}","bin/"),9);
-if (!DEBUG and !is_writable("bin/index.php")) setup::error(sprintf("[3] {t}Please give write access to %s{/t}","bin/index.php"),10);
-if (!is_readable("lang/")) setup::error(sprintf("[4] {t}Please give read access to %s{/t}","lang/"),11);
-if (is_dir("import/") and !is_readable("import/")) setup::error(sprintf("[5] {t}Please give read access to %s{/t}","import/"),111);
-
-if (count(setup::$errors)>0) {
-  setup::display_errors(false);
+setup::build_customizing(SIMPLE_CUSTOM."customize.php");
+setup::dirs_create_default_folders();
+if (isset($_REQUEST["install"]) and isset($_REQUEST["accept_gpl"]) and $_REQUEST["accept_gpl"]=="yes") {
+  install();
 } else {
-  $lang_dir = "lang/";
-  if (!is_dir($lang_dir)) $lang_dir = "lang/";
-  if (DEBUG and !isset($_REQUEST["install"]) and !isset($_REQUEST["lang"])) {
-	echo "
-	  <html><head><title>Simple Groupware & CMS</title>
-	  <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
-	  </head><body><center>
-	  <h2>Simple Groupware & CMS ".CORE_VERSION_STRING."</h2><hr>
-	  <table style='width:500px;'><tr><td>
-	  <a href='index.php?lang=en'>English</a><br><br>
-	";
-    $handle=opendir($lang_dir);
-    while (($file = readdir($handle))) {
-      if ($file!="." and $file!=".." and !sys_strbegins($file,"master") and strpos($file,".lang")>0) {
-	    $file_data = file_get_contents($lang_dir.$file);
-		$match = array();
-	    preg_match("|{t}!_Language{/t}\n(.*?)\n|",$file_data,$match);
-	    if (!empty($match[1])) $lang_str = $match[1]; else $lang_str = "unknown (".$file.")";
-        if (ord($file_data[0])!=239) $lang_str = utf8_encode($lang_str);
-	    $files[$lang_str] = $file;
-	  }
-	}
-	closedir($handle);
-	asort($files);
-	$i=0;
-	foreach ($files as $lang_str=>$file) {
-	  $i++;
-	  echo "<a href='index.php?lang=".str_replace(".lang","",$file)."'>".$lang_str."</a><br><br>";
-	  if ($i == ceil(count($files)/2)) echo "</td><td valign='top' align='right'>";
-	}
-	echo "
-	  <a href='index.php?lang=dev'>Developer</a>
-	  </td></tr></table>
-	  <hr>
-	  <img src='http://www.simple-groupware.de/cms/logos.php?v=".CORE_VERSION."&d=".PHP_VERSION."_".PHP_OS."' style='width:1px; height:1px;'>
-	  <a href='http://www.simple-groupware.de/cms/Main/Installation' target='_blank'>Installation manual</a> / 
-	  <a href='http://www.simple-groupware.de/cms/Main/Update' target='_blank'>Update manual</a><hr>
-	  <a href='http://www.simple-groupware.de/cms/Main/Documentation' target='_blank'>Documentation</a> / 
-	  <a href='http://www.simple-groupware.de/cms/Main/FAQ' target='_blank'>FAQ</a><hr>
-	  </center>
-	  </body></html>";
-	exit;
-  }
-  if (DEBUG and !isset($_REQUEST["install"]) and $_REQUEST["lang"]!="dev") {
-	setup::out("Building customizations<br>");
-	setup::build_customizing(SIMPLE_CUSTOM."customize.php");
-	setup::out('<br><a href="bin/index.php">Continue</a>',false);
-    if (function_exists("memory_get_usage") and function_exists("memory_get_peak_usage")) {
-	  setup::out("<!-- ".modify::filesize(memory_get_usage())." - ".modify::filesize(memory_get_peak_usage())." -->",false);
-	}
-	exit;
-  } else {
-    setup::dirs_create_default_folders();
-    if (isset($_REQUEST["install"]) and isset($_REQUEST["accept_gpl"]) and $_REQUEST["accept_gpl"]=="yes") {
-      install();
-    } else {
-      show_form();
-} } }
+  show_form($databases);
+}
 
-function show_form() {
+function show_form($databases) {
   $globals = ini_get("register_globals");
   $mb_string = !in_array("mbstring",get_loaded_extensions());
   
@@ -256,6 +148,7 @@ function show_form() {
     </head>
     <body onload="'.((empty($_REQUEST["install"]))?'opacity();':'activate();').'">
 
+	<img src="http://www.simple-groupware.de/cms/logos.php?v='.CORE_VERSION.'&d='.PHP_VERSION.'_'.PHP_OS.'" style="width:1px; height:1px;">
     <div id="sgs_logo" style="'.(!empty($_REQUEST["install"])?"display:none;":"").'opacity:0;" onclick="activate();">
     <table style="width:100%; height:95%;"><tr><td align="center">
       <table><tr><td align="right">
@@ -304,12 +197,12 @@ function show_form() {
 	  <td><label for="db_type">{t}Database{/t}</label></td>
 	  <td>
   ';
-  if (count($GLOBALS["databases"])>1) {
+  if (count($databases)>1) {
     echo '<select name="db_type" id="db_type" onchange="change_db_type(this);">';
-    foreach ($GLOBALS["databases"] as $key=>$key2) echo '<option value="'.$key2.'"> '.$key;
+    foreach ($databases as $key=>$val) echo '<option value="'.$key.'"> '.$val[0];
     echo '</select>';
   }	else {
-    foreach ($GLOBALS["databases"] as $key=>$key2) echo '<input type="hidden" name="db_type" id="db_type" value="'.$key2.'"> '.$key;
+    foreach ($databases as $key=>$val) echo '<input type="hidden" name="db_type" id="db_type" value="'.$key.'"> '.$val[0];
   }
   echo '
 	  <script>change_db_type(getObj("db_type"));</script>
@@ -357,7 +250,7 @@ function show_form() {
   ';
 }
 
-function install() {
+function install($databases) {
   echo '
     <html>
     <head>
@@ -398,17 +291,17 @@ function install() {
 
   if (!@sql_connect($_REQUEST["db_host"], $_REQUEST["db_user"], $_REQUEST["db_pw"], $_REQUEST["db_name"])) {
     if (!sql_connect($_REQUEST["db_host"], $_REQUEST["db_user"], $_REQUEST["db_pw"])) setup::error("{t}Connection to database failed.{/t}\n".sql_error(),35);
-    if (empty(sys::$db)) setup::display_errors(true);
+    if (empty(sys::$db)) setup::display_errors();
 	if (!sgsml_parser::create_database($_REQUEST["db_name"])) setup::error("{t}Creating database failed.{/t}\n".sql_error(),36);
   }
   if (!sql_connect($_REQUEST["db_host"], $_REQUEST["db_user"], $_REQUEST["db_pw"], $_REQUEST["db_name"]) or empty(sys::$db)) {
     setup::error("{t}Connection to database failed.{/t}\n".sql_error(),37);
-	setup::display_errors(true);
+	setup::display_errors();
   }
 
   if (!$version = sgsml_parser::sql_version()) setup::error(sprintf("{t}Could not determine database-version.{/t}"),38);
-  $database_version_min_int = (int)substr(str_replace(".","",$GLOBALS["db_min_version"][SETUP_DB_TYPE]),0,3);
-  if ($version < $database_version_min_int) setup::error(sprintf("{t}Wrong database-version (%s). Please use at least %s !{/t}",$version,$GLOBALS["db_min_version"][SETUP_DB_TYPE]),"20".SETUP_DB_TYPE);
+  $database_min = (int)substr(str_replace(".","",$databases[SETUP_DB_TYPE]),0,3);
+  if ($version < $database_min) setup::error(sprintf("{t}Wrong database-version (%s). Please use at least %s !{/t}",$version,$databases[SETUP_DB_TYPE]),"20".SETUP_DB_TYPE);
 
   if (sgsml_parser::table_column_exists("simple_sys_tree","id")) {
     echo '<img src="http://www.simple-groupware.de/cms/logo.php?v='.CORE_VERSION.$_REQUEST["language"].'&u=1&p='.PHP_VERSION.'_'.PHP_OS.'&d='.SETUP_DB_TYPE.$version.'" style="width:1px; height:1px;">';
@@ -426,7 +319,7 @@ function install() {
 
   change_database_pre();
   
-  if (count(setup::$errors)>0) setup::display_errors(true);
+  if (count(setup::$errors)>0) setup::display_errors();
 
   // 0.720
   if (sgsml_parser::table_column_exists("simple_sys_custom_fields","id")) {
@@ -510,8 +403,7 @@ function install() {
 	"SMTP_FOOTER"=>"'Sent with Simple Groupware http://www.simple-groupware.de/'",
 	"SMTP_REMINDER"=>"'Simple Groupware {t}Reminder{/t}'",
 	"SMTP_NOTIFICATION"=>"'Simple Groupware {t}Notification{/t}'",
-	"CORE_COMPRESS_OUTPUT"=>($GLOBALS["core_compress_output"]?"true":"false"),
-	"CORE_OUTPUT_CACHE"=>($GLOBALS["core_output_cache"]?"true":"false"),
+	"CORE_COMPRESS_OUTPUT"=>"true", "CORE_OUTPUT_CACHE"=>"false",
 	"APC_SESSION"=>"false","MENU_AUTOHIDE"=>"false","TREE_AUTOHIDE"=>"false","FIXED_FOOTER"=>"false","FDESC_IN_CONTENT"=>"false",
 	"CMS_HOMEPAGE"=>"'HomePage'", "CMS_REAL_URL"=>"''", "DEBUG"=>(DEBUG?"true":"false"),
 	"SIMPLE_CACHE"=>"'".SIMPLE_CACHE."'", "SIMPLE_CUSTOM"=>"'".SIMPLE_CUSTOM."'", "SIMPLE_IMPORT"=>"'import/'",
@@ -552,6 +444,55 @@ function install() {
   } else sys_die("cannot write to: ".SIMPLE_STORE."/config.php");
 
   db_optimize_tables();
+}
+
+function validate_system() {
+  $extensions = array("xml", "gd", "pcre", "session", "zlib", "SimpleXML");
+  $db_extensions = array("mysql"=>array("MySQL", "5.00"), "pgsql"=>array("PostgreSQL", "8.36"), "pdo_sqlite"=>array("SQLite", "3.00"));
+
+  $on = array("1", "on", "On");
+  $off = array("0", "off", "Off", "");
+  $settings = array(
+	"safe_mode" => $off, "file_uploads" => $on, "zlib.output_compression" => $off,
+	"session.auto_start" => $off, "magic_quotes_runtime" => $off, "display_errors" => $on
+  );
+  $memorylimit = 24000000;
+
+  if (!empty($_SERVER["SERVER_SOFTWARE"]) and !preg_match("/Apache|nginx|IIS/", $_SERVER["SERVER_SOFTWARE"])) {
+	setup::error("{t}Please choose Apache as Web-Server.{/t} (".$_SERVER["SERVER_SOFTWARE"].")","2".$_SERVER["SERVER_SOFTWARE"]);
+  }
+
+  $memory = ini_get("memory_limit");
+  if (!empty($memory)) {
+	$memory = (int)str_replace("m","000000",strtolower($memory));
+	if ($memory < $memorylimit) setup::error(sprintf("{t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}","memory_limit",str_replace("000000","M",$memorylimit),ini_get("memory_limit")),4);
+  }
+
+  $sys_extensions = get_loaded_extensions();
+  foreach($extensions as $key2) if (!in_array($key2, $sys_extensions)) setup::error(sprintf("{t}Setup needs php-extension with name %s !{/t}",$key2),"5".$key2);
+
+  $databases = array();
+  foreach ($db_extensions as $key => $vals) {
+	if (in_array($key, $sys_extensions)) $databases[str_replace("pdo_","",$key)] = $vals;
+  }
+  if (count($databases)==0) setup::error(sprintf("{t}Setup needs a database-php-extension ! (%s){/t}",implode(", ",array_keys($db_extensions))),6);
+
+  foreach ($settings as $setting => $values) {
+	if (!in_array(ini_get($setting), $values)) setup::error(sprintf("{t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}",$setting,$values[0],ini_get($setting)),"7".$setting);
+  }
+
+  clearstatcache();
+  if (!is_writable(SIMPLE_CACHE."/") or !is_writable(SIMPLE_STORE."/")) {
+	$message = sprintf("[1] {t}Please give write access to %s and %s{/t}",SIMPLE_CACHE."/",SIMPLE_STORE."/");
+	$message .= sprintf("\n{t}If file system permissions are ok, please check the configurations of %s if present.{/t}", "SELinux, suPHP, Suhosin");
+	setup::error($message,8);
+  }
+  if (!is_writable("ext/cache/")) setup::error(sprintf("[2] {t}Please give write access to %s{/t}","ext/cache/"),9);
+  if (!is_readable("lang/")) setup::error(sprintf("[4] {t}Please give read access to %s{/t}","lang/"),11);
+  if (is_dir("import/") and !is_readable("import/")) setup::error(sprintf("[5] {t}Please give read access to %s{/t}","import/"),111);
+
+  if (count(setup::$errors)>0) setup::display_errors(true);
+  return $databases;
 }
 
 function change_database_pre() {
