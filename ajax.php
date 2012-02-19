@@ -11,7 +11,7 @@ define("MAIN_SCRIPT",basename($_SERVER["PHP_SELF"]));
 define("NOCONTENT",true);
 error_reporting(E_ALL);
 
-define("SIMPLE_STORE","../simple_store");
+define("SIMPLE_STORE","simple_store");
 @include(SIMPLE_STORE."/config.php");
 if (!defined("SETUP_DB_HOST")) exit;
 
