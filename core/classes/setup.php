@@ -81,7 +81,7 @@ private static function _get_lang_strings($language) {
 static function dirs_create_htaccess($dirname) {
   if (!file_exists($dirname.".htaccess")) {
     if (!@file_put_contents($dirname.".htaccess", "Order deny,allow\nDeny from all\n", LOCK_EX)) {
-	  setup::error(t("Please give write access to %s",$dirname),25);
+	  setup::error(sprintf("{t}Please give write access to %s{/t}",$dirname),25);
     }
   }
   dirs_create_index_htm($dirname);
@@ -103,15 +103,15 @@ static function display_errors($exit) {
     $msg .= str_replace("\n","<br>",modify::htmlquote($message[0]))."<br>";
 	$err .= $message[1]."_";
   }
-  $output = '
+  echo '
     <br>
     <center>
 	<img src="http://www.simple-groupware.de/cms/logos.php?v='.CORE_VERSION.'&d='.PHP_VERSION.'_'.PHP_OS.'&e='.$err.'" start="width:1px; height:1px;">
     <div style="border-bottom: 1px solid black; letter-spacing: 2px; font-size: 18px; font-weight: bold;">Simple Groupware Setup</div>
-	<br>'.t("Error").':<br>
+	<br>{t}Error{/t}:<br>
 	<error>'.$msg.'</error>
 	<br><br>
-	<a href="index.php">'.t("Relaunch Setup").'</a><br><br>
+	<a href="index.php">{t}Relaunch Setup{/t}</a><br><br>
 	<hr>
 	<a href="http://www.simple-groupware.de/cms/Main/Installation" target="_blank">Installation manual</a> / 
 	<a href="http://www.simple-groupware.de/cms/Main/Update" target="_blank">Update manual</a><hr>
@@ -124,4 +124,47 @@ static function display_errors($exit) {
   phpinfo();
 }
 
+static function dirs_create_default_folders() {
+  setup::dirs_create_htaccess(SIMPLE_STORE."/");
+  setup::dirs_create_htaccess("../old/");
+  setup::dirs_create_dir(SIMPLE_EXT);
+  setup::dirs_create_dir(SIMPLE_STORE."/home");
+  setup::dirs_create_dir(SIMPLE_STORE."/backup");
+  setup::dirs_create_dir(SIMPLE_STORE."/syncml");
+  setup::dirs_create_dir(SIMPLE_STORE."/trash");
+  setup::dirs_create_dir(SIMPLE_STORE."/cron");
+
+  $empty_dir = array(
+    SIMPLE_STORE."/locking",
+	SIMPLE_CACHE, SIMPLE_CACHE."/debug", SIMPLE_CACHE."/imap", SIMPLE_CACHE."/pop3",
+	SIMPLE_CACHE."/ip", SIMPLE_CACHE."/artichow", SIMPLE_CACHE."/output",
+	SIMPLE_CACHE."/schema", SIMPLE_CACHE."/schema_data", SIMPLE_CACHE."/smarty",
+	SIMPLE_CACHE."/thumbs", SIMPLE_CACHE."/upload", SIMPLE_CACHE."/backup",
+	SIMPLE_CACHE."/preview", SIMPLE_CACHE."/cifs", SIMPLE_CACHE."/gdocs", SIMPLE_CACHE."/cms"
+	SIMPLE_CACHE."/lang", "/ext/cache",
+  );
+  foreach ($empty_dir as $dir) dirs_create_empty_dir($dir);
+  setup::dirs_create_htaccess(SIMPLE_CACHE."/");
+  if (APC) apc_clear_cache("user");
+}
+
+static function die($str,$err) {
+  echo '
+    <html><body style="padding:0px;margin:0px;"><center><br>
+	<img src="http://www.simple-groupware.de/cms/logos.php?v='.CORE_VERSION.'&d='.PHP_VERSION.'_'.PHP_OS.'&e='.$err.'" start="width:1px; height:1px;">
+    <div style="border-bottom: 1px solid black; letter-spacing: 2px; font-size: 18px; font-weight: bold;">Simple Groupware Setup</div>
+	<br>{t}Error{/t}:<br>
+	<error>'.htmlspecialchars($str, ENT_QUOTES).'</error>
+	<br><br>
+	<a href="index.php">{t}Relaunch Setup{/t}</a>
+	<br><br><hr>
+	<a href="http://www.simple-groupware.de/cms/Main/Installation" target="_blank">Installation manual</a> / 
+	<a href="http://www.simple-groupware.de/cms/Main/Update" target="_blank">Update manual</a><hr>
+	<a href="http://www.simple-groupware.de/cms/Main/Documentation" target="_blank">Documentation</a> / 
+	<a href="http://www.simple-groupware.de/cms/Main/FAQ" target="_blank">FAQ</a><hr><br>
+  ';
+  phpinfo();
+  echo '</center></body></html>';
+  exit;
+}
 }
