@@ -326,11 +326,7 @@ function show_form() {
 	  <td><label for="folders">{t}Folder structure{/t}</label></td>
 	  <td>
 		<select name="folders" id="folders">
-  ';
-  if (is_dir("../import")) {
-	echo '<option value="modules/core/folders.xml">{t}Install demo folders{/t}';
-  }
-  echo '
+		  '.(is_dir("../import")?'<option value="modules/core/folders.xml">{t}Install demo folders{/t}':'').'
 		  <option value="modules/core/folders_small.xml">{t}Install default folder structure{/t}
 		  <option value="modules/core/folders_minimal.xml">{t}Install minimal folder structure{/t}
 		</select>
