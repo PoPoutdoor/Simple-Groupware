@@ -12,7 +12,7 @@
   <view name="details" displayname="{t}Details{/t}">
   </view>
   
-  <singlebutton views="all" name="calendar" displayname="{t}Calendar{/t}" onclick="locate('index.php?find=assets|simple_calendar||location=@locationname@&amp;view=display&amp;markdate=week&amp;begin=today');" icon="../modules/calendar.png" />
+  <singlebutton views="all" name="calendar" displayname="{t}Calendar{/t}" onclick="locate('index.php?find=assets|simple_calendar||location=@locationname@&amp;view=display&amp;markdate=week&amp;begin=today');" icon="modules/calendar.png" />
 
   <field name="locationname" displayname="{t}Location{/t}" simple_type="text" is_unique="true" required="true">
     <readonlyin views="edit"/>
