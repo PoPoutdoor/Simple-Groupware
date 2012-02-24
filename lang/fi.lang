@@ -782,8 +782,8 @@ Domain
 ** Don't attend
 Ei osallistu
 
-** Don't move old files to 'old/'
-Vanhat tiedostot ei siiretään kansioon 'old/'
+** Don't move old files to '%s'
+Vanhat tiedostot ei siiretään kansioon '%s'
 
 ** Down
 Alas

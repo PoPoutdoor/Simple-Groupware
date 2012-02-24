@@ -885,8 +885,8 @@ Dominio
 ** Don't attend
 Participar
 
-** Don't move old files to 'old/'
-No desplazar archivos antiguos a `old/`
+** Don't move old files to '%s'
+No desplazar archivos antiguos a `%s`
 
 ** Down
 Abajo

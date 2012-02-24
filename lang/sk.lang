@@ -885,8 +885,8 @@ Doména
 ** Don't attend
 Nestaraj sa
 
-** Don't move old files to 'old/'
-Nepresúvaj staré súbory do old/
+** Don't move old files to '%s'
+Nepresúvaj staré súbory do '%s'
 
 ** Down
 Dolu

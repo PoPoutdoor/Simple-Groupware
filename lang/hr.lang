@@ -885,7 +885,7 @@ Domena
 ** Don't attend
 ne pohađaju
 
-** Don't move old files to 'old/'
+** Don't move old files to '%s'
 Nemojte pomicati stare datoteke na stare
 
 ** Down

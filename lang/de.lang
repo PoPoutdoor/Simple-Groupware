@@ -885,8 +885,8 @@ Domäne
 ** Don't attend
 Nicht teilnehmen
 
-** Don't move old files to 'old/'
-Alte Dateien nicht nach old/ verschieben
+** Don't move old files to '%s'
+Alte Dateien nicht nach '%s' verschieben
 
 ** Down
 Abwärts

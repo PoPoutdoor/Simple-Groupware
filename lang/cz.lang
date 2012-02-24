@@ -885,8 +885,8 @@ Doména
 ** Don't attend
 Nezúčastnit se
 
-** Don't move old files to 'old/'
-Nepřesunout původní soubory do `old/`
+** Don't move old files to '%s'
+Nepřesunout původní soubory do `%s`
 
 ** Down
 Dolů

@@ -885,8 +885,8 @@ Domínio
 ** Don't attend
 Não assistir
 
-** Don't move old files to 'old/'
-Não mova ficheiros antigos para `old/`
+** Don't move old files to '%s'
+Não mova ficheiros antigos para `%s`
 
 ** Down
 Baixo
