@@ -109,9 +109,9 @@ Disk usage: <b>{""|admin::disk_stats}</b>
 <div style="margin-bottom:10px;">
 <div class="bold">Simple Groupware {$sys.version_str}</div>
 <hr>
-<a href="../docs/about.html" target="_blank">{t}About{/t}</a> |
-<a href="LICENSE.txt" target="_blank">{t}License{/t}</a> |
-<a href="../docs/Changelog.txt" target="_blank">{t}Changelog{/t}</a>
+<a href="docs/Contributions.txt" target="_blank">{t}Contributions{/t}</a> |
+<a href="License.txt" target="_blank">{t}License{/t}</a> |
+<a href="docs/Changelog.txt" target="_blank">{t}Changelog{/t}</a>
 <br><br>
 <a href="http://www.simple-groupware.de" target="_blank">Simple Groupware Homepage</a> |
 <a href="http://sourceforge.net/projects/simplgroup/" target="_blank">Sourceforge</a> |
