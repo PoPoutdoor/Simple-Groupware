@@ -73,7 +73,9 @@ $mirror_id = "sourceforge";
 if (!empty($_REQUEST["mirror"]) and in_array($_REQUEST["mirror"],array_keys($mirrors))) $mirror_id = $_REQUEST["mirror"];
 $mirror = $mirrors[$mirror_id];
 
-$folders = array("../","../old/","../docs/","../lang/","../import/","../src/","../bin/");
+$move_folders = array("build/", "core/", "docs/", "ext/", "import/", "lang/", "lib/", "templates/", "tools/", "modules/");
+
+$folders = array_merge(array("./", SIMPLE_STORE."/old/"), $move_folders);
 foreach ($folders as $folder) {
   if (is_dir($folder) and !is_writable($folder)) setup::out_exit(sprintf("{t}Please give write access to %s{/t}",$folder));
 }
@@ -195,27 +197,23 @@ if (!is_array($file_list) or !isset($file_list[0]["filename"]) or !is_dir($temp_
 foreach ($file_list as $file) sys_chmod($temp_folder.$file["filename"]);
 @unlink($target);
 
-chdir("../old/");
-
-$base = "../";
 setup::out(sprintf("{t}Processing %s ...{/t}","{t}Folders{/t}"));
-$folders = array("src","bin","lang","import","docs");
-foreach ($folders as $folder) {
-  if (file_exists($base.$folder."/") and !file_exists($base."old/".$folder."_".CORE_VERSION."/")) {
+foreach ($move_folders as $folder) {
+  if (is_dir($folder) and !file_exists(SIMPLE_STORE."/old/".rtrim($folder,"/")."_".CORE_VERSION."/")) {
     if (!empty($_REQUEST["nobackup"])) {
-	  dirs_delete_all($base.$folder."/");
+	  dirs_delete_all($folder);
 	} else {
-	  rename($base.$folder."/",$base."old/".$folder."_".CORE_VERSION."/");
+	  rename($folder,SIMPLE_STORE."/old/".rtrim($folder,"/")."_".CORE_VERSION."/");
 } } }
-if (is_dir($base."src/") or is_dir($base."bin/")) sys_die("{t}Error{/t}: rename [4]");
+if (is_dir("core/")) sys_die("{t}Error{/t}: rename [4]");
 
 $source_folder = $temp_folder.$file_list[0]["filename"];
-foreach ($folders as $folder) {
-  if (is_dir($source_folder.$folder."/") and !is_dir($base.$folder."/")) {
-    rename($source_folder.$folder."/",$base.$folder."/");
+foreach (scandir($source_folder) as $folder) {
+  if ($folder[0]!="." and is_dir($source_folder.$folder) and !is_dir($folder)) {
+    rename($source_folder.$folder,$folder);
   }
 }
-if (!is_dir($base."src/") or !is_dir($base."bin/")) sys_die("{t}Error{/t}: rename [5]");
+if (!is_dir($base."src/")) sys_die("{t}Error{/t}: rename [5]");
 
 dirs_delete_all($source_folder);
 
@@ -223,16 +221,11 @@ setup::out(sprintf("{t}Processing %s ...{/t}","config.php"));
 
 $old = SIMPLE_STORE."/config_old.php";
 if (file_exists($old)) rename($old,SIMPLE_STORE."/config_".time().".php");
-rename(SIMPLE_STORE."/config.php",$old);
+rename(SIMPLE_STORE."/config.php", $old);
 touch($old);
 
-chdir("../bin/");
-setup::out(sprintf("{t}Processing %s ...{/t}","{t}customizations{/t}"));
-setup::build_customizing(SIMPLE_CUSTOM."customize.php");
-
-$dir = opendir(SIMPLE_EXT);
-while (($file=readdir($dir))) {
-  if ($file!="." and $file!=".." and file_exists(SIMPLE_EXT.$file."/update.php")) {
+foreach (scandir(SIMPLE_EXT) as $file) {
+  if ($file[0]!="." and is_dir(SIMPLE_EXT.$file) and file_exists(SIMPLE_EXT.$file."/update.php")) {
     setup::out(sprintf("{t}Processing %s ...{/t}",SIMPLE_EXT.$file."/update.php"));
 	require(SIMPLE_EXT.$file."/update.php");
   }
