@@ -75,6 +75,8 @@ $mirror = $mirrors[$mirror_id];
 
 $move_folders = array("build/", "core/", "docs/", "ext/", "import/", "lang/", "lib/", "templates/", "tools/", "modules/");
 
+// TODO optimize
+sys_mkdir(SIMPLE_STORE."/old/");
 $folders = array_merge(array("./", SIMPLE_STORE."/old/"), $move_folders);
 foreach ($folders as $folder) {
   if (is_dir($folder) and !is_writable($folder)) setup::out_exit(sprintf("{t}Please give write access to %s{/t}",$folder));
@@ -148,7 +150,7 @@ if ((empty($_REQUEST["release"]) and empty($_REQUEST["cfile"])) or !sys_validate
 
   setup::out("<form method='POST'><input type='hidden' name='token' value='".modify::get_form_token()."'><input type='text' name='cfile' value='/tmp/SimpleGroupware_0.xyz.tar.gz' style='width:300px;'>&nbsp;<input type='submit' class='submit' value='{t}I n s t a l l{/t}'><br>");
 
-  setup::out("<input type='checkbox' name='nobackup' value='1' onchange='change_links(this.checked);'/> {t}Don't move old files to 'old/'{/t}</form>");
+  setup::out("<input type='checkbox' name='nobackup' value='1' onchange='change_links(this.checked);'/> ".sprintf("{t}Don't move old files to '%s'{/t}", SIMPLE_STORE."/old/")."</form>");
   setup::out_exit('<div style="border-top: 1px solid black;">Powered by Simple Groupware, Copyright (C) 2002-2012 by Thomas Bley.</div></div></body></html>');
 } else if (!empty($_REQUEST["cfile"])) {
   $source = $_REQUEST["cfile"];
@@ -199,12 +201,13 @@ foreach ($file_list as $file) sys_chmod($temp_folder.$file["filename"]);
 
 setup::out(sprintf("{t}Processing %s ...{/t}","{t}Folders{/t}"));
 foreach ($move_folders as $folder) {
-  if (is_dir($folder) and !file_exists(SIMPLE_STORE."/old/".rtrim($folder,"/")."_".CORE_VERSION."/")) {
-    if (!empty($_REQUEST["nobackup"])) {
-	  dirs_delete_all($folder);
-	} else {
-	  rename($folder,SIMPLE_STORE."/old/".rtrim($folder,"/")."_".CORE_VERSION."/");
-} } }
+  if (!is_dir($folder)) continue;
+  if (!empty($_REQUEST["nobackup"])) {
+	dirs_delete_all($folder);
+  } else if (!file_exists(SIMPLE_STORE."/old/".rtrim($folder,"/")."_".CORE_VERSION."/")) {
+	rename($folder,SIMPLE_STORE."/old/".rtrim($folder,"/")."_".CORE_VERSION."/");
+  }
+}
 if (is_dir("core/")) sys_die("{t}Error{/t}: rename [4]");
 
 $source_folder = $temp_folder.$file_list[0]["filename"];
@@ -213,7 +216,7 @@ foreach (scandir($source_folder) as $folder) {
     rename($source_folder.$folder,$folder);
   }
 }
-if (!is_dir($base."src/")) sys_die("{t}Error{/t}: rename [5]");
+if (!is_dir("core/")) sys_die("{t}Error{/t}: rename [5]");
 
 dirs_delete_all($source_folder);
 
