@@ -23,7 +23,7 @@ if (preg_match("!^(https?|ftp)://!i",$url)) {
   header("Location: http://".$url);
 } else if (preg_match("/([\S]*?@[\S]+|mailto:[\S]+)/",$url,$match)) {
   $url = str_replace(array("mailto:","(",")"),"",$match[1]);
-  if (strpos(file_get_contents("../../simple_store/config.php"),"'ENABLE_EXT_MAILCLIENT',true")) {
+  if (strpos(file_get_contents("../simple_store/config.php"),"'ENABLE_EXT_MAILCLIENT',true")) {
     echo "<script>document.location='mailto:".$url."';window.close();</script>";
   } else {
 	$url = "../index.php?onecategory=1&find=folder|simple_sys_tree|1|ftype=emails&view=new&eto=".$url;
