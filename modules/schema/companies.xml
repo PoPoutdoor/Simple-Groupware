@@ -11,7 +11,7 @@
   </view>
   <view name="details" displayname="{t}Details{/t}">
   </view>
-  <singlebutton views="display|details" name="contacts" displayname="{t}Contacts{/t}" onclick="locate('index.php?view=display&amp;find=assets|simple_contacts||company=@companyname@');" icon="../modules/contacts.png" />
+  <singlebutton views="display|details" name="contacts" displayname="{t}Contacts{/t}" onclick="locate('index.php?view=display&amp;find=assets|simple_contacts||company=@companyname@');" icon="modules/contacts.png" />
 
   <field name="companyname" displayname="{t}Company{/t}" simple_type="text" is_unique="true" required="true">
     <linktext views="display" value="#index.php?view=details&amp;iframe=1&amp;item[]=@id@"/>
