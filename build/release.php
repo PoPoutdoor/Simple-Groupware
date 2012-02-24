@@ -17,16 +17,7 @@ new build(true, false);
 
 class build {
 
-	const MB = 1048576;
-
 	public function __construct($archives=true, $manuals=true) {
-	$matches = array();
-	preg_match_all("!\*\* ([^\n]+)\n([^\n]+)!", file_get_contents("../lang/de.lang"), $matches);
-	$strings = array_combine($matches[1], $matches[2]);
-
-file_put_contents("de.js", json_encode($strings));
-exit;
-
 		$this->translationMaster();
 		$this->validateTranslation("de");
 
@@ -40,15 +31,15 @@ exit;
 
 		if ($archives) {
 			$file = "SimpleGroupware_{$version}.tar";
-			$this->tar($dir, $file, 5*self::MB);
-			$this->gzip($file, 3*self::MB);
+			$this->tar($dir, $file, 5*1048576);
+			$this->gzip($file, 3*1048576);
 
 			$file = "SimpleGroupware_no_demo_data_{$version}.tar";
-			$this->tar($dir, $file, 5*self::MB, "import");
-			$this->gzip($file, 3*self::MB);
+			$this->tar($dir, $file, 5*1048576, "import");
+			$this->gzip($file, 3*1048576);
 
 			$file = "SimpleGroupware_{$version}.zip";
-			$this->zip($dir, $file, 3*self::MB);
+			$this->zip($dir, $file, 3*1048576);
 		}
 		if ($manuals) {
 			$pdf = $dir."/SimpleGroupwareManual_{$version}.pdf";
