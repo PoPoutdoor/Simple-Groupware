@@ -7,7 +7,7 @@
  *}
 <html>
 <head>
-  <link media="all" href="images.php?css_style=core&{$smarty.const.CORE_VERSION}" rel="stylesheet" type="text/css" />
+  <link media="all" href="ext/cache/core_core_firefox.css?{$smarty.const.CORE_VERSION}" rel="stylesheet" type="text/css" />
   <script type="text/javascript" src="ext/lib/json/json.js"></script>
   <script type="text/javascript" src="ext/js/functions_sql.js?{$smarty.const.CORE_VERSION}"></script>
   <style>
