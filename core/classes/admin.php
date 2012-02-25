@@ -133,7 +133,7 @@ static function process_action_sys() {
 	  break;
 	case "clear_setup":
 	  if (!sys_validate_token()) sys_die("{t}Invalid security token{/t}");
-  	  @unlink(SIMPLE_STORE."/config.php");
+  	  @unlink("simple_store/config.php");
 	  @unlink(SIMPLE_STORE."/config_old.php");
 	  header("Location: index.php");
 	  exit;
