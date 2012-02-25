@@ -8,7 +8,7 @@
  */
 
   define("MAIN_SCRIPT",basename($_SERVER["PHP_SELF"]));
-  define("CORE_VERSION_config","0_744");
+  define("CORE_VERSION_config","0_800");
   error_reporting(E_ALL);
   
   if (ini_get("register_globals")) pre_dropglobals();
