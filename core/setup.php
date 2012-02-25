@@ -123,12 +123,12 @@ function install($databases) {
 
   if (!@sql_connect($_REQUEST["db_host"], $_REQUEST["db_user"], $_REQUEST["db_pw"], $_REQUEST["db_name"])) {
     if (!sql_connect($_REQUEST["db_host"], $_REQUEST["db_user"], $_REQUEST["db_pw"])) setup::error_add("{t}Connection to database failed.{/t}\n".sql_error(),35);
-    if (empty(sys::$db)) setup::display_errors();
+    if (empty(sys::$db)) setup::errors_show();
 	if (!sgsml_parser::create_database($_REQUEST["db_name"])) setup::error_add("{t}Creating database failed.{/t}\n".sql_error(),36);
   }
   if (!sql_connect($_REQUEST["db_host"], $_REQUEST["db_user"], $_REQUEST["db_pw"], $_REQUEST["db_name"]) or empty(sys::$db)) {
     setup::error_add("{t}Connection to database failed.{/t}\n".sql_error(),37);
-	setup::display_errors();
+	setup::errors_show();
   }
 
   if (!$version = sgsml_parser::sql_version()) setup::error_add(sprintf("{t}Could not determine database-version.{/t}"),38);
@@ -151,7 +151,7 @@ function install($databases) {
 
   change_database_pre();
   
-  if (count(setup::$errors)>0) setup::display_errors();
+  if (count(setup::$errors)>0) setup::errors_show();
 
   // 0.720
   if (sgsml_parser::table_column_exists("simple_sys_custom_fields","id")) {
@@ -323,7 +323,7 @@ function validate_system() {
   if (!is_readable("lang/")) setup::error_add(sprintf("[4] {t}Please give read access to %s{/t}","lang/"),11);
   if (is_dir("import/") and !is_readable("import/")) setup::error_add(sprintf("[5] {t}Please give read access to %s{/t}","import/"),111);
 
-  if (count(setup::$errors)>0) setup::display_errors(true);
+  if (count(setup::$errors)>0) setup::errors_show(true);
   return $databases;
 }
 
