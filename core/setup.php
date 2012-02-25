@@ -57,8 +57,6 @@ $databases = validate_system();
 
 $old_file = SIMPLE_STORE."/config_old.php";
 if (file_exists($old_file) and filemtime($old_file)>time()-86400) {
-  setup::$config_old = str_replace("\r","",file_get_contents($old_file));
-  
   $_REQUEST["auto_update"] = true;
   $_REQUEST["accept_gpl"] = "yes";
   $_REQUEST["admin_user"] = setup::get_config_old("SETUP_ADMIN_USER");
