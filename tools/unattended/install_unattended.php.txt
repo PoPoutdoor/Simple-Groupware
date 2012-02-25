@@ -27,7 +27,7 @@ echo "\n";
 if (count($argv)<10) {
   echo "Usage:\n";
   echo "php -d register_argc_argv=1 -q install_unattended.php.txt <url> <lang-code> <admin-user> <admin-pw> <db-type> <db-host> <db-name> <db-user> <db-pw> <demo-data>\n\n";
-  echo "url = http://<your-server>/<your-sgs-dir>/src/index.php
+  echo "url = http://<your-server>/<your-sgs-dir>/index.php
 lang-code = ar, cz, cn, da, de, en, enUK, es, fr, gr, hr, hu, idn, it, nl, pl, ptBR, ru, se, sk, tr, uk
 admin-user = super administrator username
 admin-pw = super administrator password

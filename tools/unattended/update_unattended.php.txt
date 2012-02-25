@@ -27,7 +27,7 @@ echo "\n";
 if (count($argv)<5) {
   echo "Usage:\n";
   echo "php -d register_argc_argv=1 -q update_unattended.php.txt <url> <admin-user> <admin-pw> <release> <no-backup>\n\n";
-  echo "url = http://<your-server>/<your-sgs-dir>/src/index.php
+  echo "url = http://<your-server>/<your-sgs-dir>/index.php
 admin-user = super administrator username
 admin-pw = super administrator password
 release = e.g. 0.659 or latest
