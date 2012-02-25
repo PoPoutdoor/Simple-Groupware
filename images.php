@@ -18,50 +18,9 @@ define("SIMPLE_STORE","simple_store");
 if (!defined("SETUP_DB_HOST")) exit;
 @ignore_user_abort(0);
 
-$file_conf = sys_custom("templates/css/core_css.conf");
-$file_css = sys_custom("templates/css/core.css");
-
-if (!empty($_REQUEST["css_style"])) {
-  if (empty($_REQUEST["browser"])) $_REQUEST["browser"] = "firefox";
-  predownload($file_conf,filemtime($file_css).$_REQUEST["css_style"]);
-  require("lib/smarty/Smarty.class.php");
-  $smarty = new Smarty();
-  $smarty->compile_dir = SIMPLE_CACHE."/smarty";
-  $smarty->template_dir = dirname($file_css);
-  $smarty->config_dir = dirname($file_conf);
-  $smarty->security = true;
-  $smarty->left_delimiter = "<";
-  $smarty->right_delimiter = ">";
-  $smarty->assign("style",basename($_REQUEST["css_style"]));
-  $smarty->assign("browser",$_REQUEST["browser"]);
-  $output = $smarty->fetch("core.css");
-  
-  if ($_REQUEST["browser"]=="safari") {
-	$from = array(
-	  "/-moz-linear-gradient\(top,([^,]+),([^\)]+)\);/i",
-	);
-	$to = array(
-	  "-webkit-gradient(linear, left top, left bottom, from(\\1), to(\\2));",
-	);
-	$output = preg_replace($from,$to,$output);
-  }
-  if ($_REQUEST["browser"]=="opera" or $_REQUEST["browser"]=="msie") {
-	$output = preg_replace("/^.*(-moz-)/m","",$output);
-  }
-  if ($_REQUEST["browser"]=="msie") {
-	$output = preg_replace("/max-height:([^;]+)px;/","height:expression(this.scrollHeight>\\1?'\\1px':'auto');",$output);
-	$from = array(
-	  "/linear-gradient\(top,\s?([^,]+),\s?([^\)]+)\);/i",
-	);
-	$to = array(
-	  "filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='\\1',endColorstr='\\2');",
-	);
-	$output = preg_replace($from,$to,$output);
-  }
-  download($file_conf,"text/css",$output,true);
-}
 
 if (!empty($_REQUEST["image"])) {
+  $file_conf = sys_custom("templates/css/core_css.conf");
   $image = basename($_REQUEST["image"]);
   if (!empty($_REQUEST["color"])) $newcolor = $_REQUEST["color"]; else $newcolor = "";
 
@@ -95,21 +54,6 @@ if (isset($_REQUEST["search"])) {
 </OpenSearchDescription>';
   exit;
 }
-
-/*
-if (isset($_REQUEST["process"])) {
-  $dir = "ext/";
-  if (($dh = opendir($dir))) {
-    while (($file = readdir($dh)) !== false) {
-	  if (!is_dir($dir.$file) and $file!="." and $file!="..") {
-	    if (filesize($dir.$file)<10*1024) {
-	      echo "\n\"".$file."\",\"".((base64_encode(file_get_contents($dir.$file))))."\",\n\n";
-    } } }
-    closedir($dh);
-  }  
-  exit("\n\n @\n\n");
-}
-*/
 
 function sys_custom($file) {
   if (file_exists(SIMPLE_CUSTOM.$file)) return SIMPLE_CUSTOM.$file;
@@ -182,4 +126,5 @@ function download($filename,$mimetype,$output,$show) {
   } else {
     if ($output=="") $output = file_get_contents($filename);
 	exit($output);
-} }
+  }
+}
