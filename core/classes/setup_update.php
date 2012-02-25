@@ -52,7 +52,7 @@ static function change_database_pre() {
   if (!sgsml_parser::table_rename("simple_sys_chat","simple_sys_chat2")) setup::error_add("rename[4]: ".sql_error(),57);
   
   // process funambol schema views on sgs update
-  if (update::get_config_old("SYNC4J",false,0) == "1") {
+  if (self::get_config_old("SYNC4J",false,0) == "1") {
     setup::out(sprintf("{t}Processing %s ...{/t}","Funambol schema"));
 	if (SETUP_DB_TYPE=="mysql") {
 	  $data = preg_replace("!/\*.+?\*/!s","",file_get_contents("tools/funambolv7_syncML/mysql/funambol.sql"));
