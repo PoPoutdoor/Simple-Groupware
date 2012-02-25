@@ -173,12 +173,8 @@ function install($databases) {
   setup_update::database_folders();
   
   setup::out(sprintf("{t}Processing %s ...{/t}","config.php"));
-
-  $vars_static = array(
-	"CORE_VERSION"=>"'".CORE_VERSION."'",
-	"CORE_VERSION_STRING"=>"'".CORE_VERSION_STRING."'",
-	"CORE_SGSML_VERSION"=>"'".CORE_SGSML_VERSION."'",
-	"SETUP_DB_TYPE"=>"'".SETUP_DB_TYPE."'",
+  $vars = array(
+	"SETUP_DB_TYPE"=>"'".$_REQUEST["db_type"]."'",
 	"SETUP_DB_HOST"=>"'".$_REQUEST["db_host"]."'",
 	"SETUP_DB_NAME"=>"'".$_REQUEST["db_name"]."'",
 	"SETUP_DB_USER"=>"'".$_REQUEST["db_user"]."'",
@@ -186,29 +182,7 @@ function install($databases) {
 	"SETUP_ADMIN_USER"=>"'".$_REQUEST["admin_user"]."'",
 	"SETUP_ADMIN_PW"=>"'".(isset($_REQUEST["auto_update"])?$_REQUEST["admin_pw"]:sha1($_REQUEST["admin_pw"]))."'",
   );
-  $out = array();
-  $out[] = "<?"."php";
-  foreach ($vars_static as $key=>$var) $out[] = "define('".$key."',".$var.");";
-
-  $vars = setup::config_defaults();
-  foreach ($vars as $key=>$var) {
-	$var = setup_update::get_config_old($key,true,$var);
-	$out[] = "define('".$key."',".$var.");";
-  }
-  $out[] = "if (TIMEZONE!='') date_default_timezone_set(TIMEZONE);\n".
-		   "  elseif (version_compare(PHP_VERSION,'5.3','>') and !ini_get('date.timezone')) date_default_timezone_set(@date_default_timezone_get());";
-  $out[] = "if (!ini_get('display_errors')) @ini_set('display_errors','1');";
-  $out[] = "define('NOW',time());";
-  $lang = setup_update::get_config_old("lang",true,"'en'");
-  $out[] = "define('LANG',".$lang.");";
-  $out[] = "define('APC',function_exists('apc_store') and ini_get('apc.enabled'));";
-
-  file_put_contents(SIMPLE_STORE."/config.php", implode("\n",$out), LOCK_EX);
-  if (!file_exists(SIMPLE_STORE."/config.php") or filesize(SIMPLE_STORE."/config.php")==0) {
-	sys_die("cannot write to: ".SIMPLE_STORE."/config.php");
-  }
-  chmod(SIMPLE_STORE."/config.php", 0600);
-  sys_log_message_log("info",sprintf("{t}Setup: setup-data written to %s.{/t}",SIMPLE_STORE."/config.php"));
+  setup::save_config($vars);
   setup::install_footer();
   db_optimize_tables();
 }
