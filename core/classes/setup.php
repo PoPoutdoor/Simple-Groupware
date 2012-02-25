@@ -165,7 +165,7 @@ static function show_form($databases, $install, $accept_gpl) {
 	<div style="color:#ff0000; margin-left:6px;"><b>
 	'.($globals?sprintf("{t}Warning{/t}: {t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}<br><br>","register_globals","0",$globals):"").'
 	'.($mb_string?sprintf("{t}Warning{/t}: {t}Please install the php-extension with name '%s'.{/t}<br><br>","mbstring"):"").'
-	'.($install and !$accept_gpl)?"&nbsp;=&gt; {t}To continue installing Simple Groupware you must check the box under the license{/t}<br><br>":"").'
+	'.(($install and !$accept_gpl)?"&nbsp;=&gt; {t}To continue installing Simple Groupware you must check the box under the license{/t}<br><br>":"").'
 	</b></div>
 	<form action="index.php" method="post">
 	<table class="data">
