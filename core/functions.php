@@ -51,10 +51,11 @@ class sys {
 
 	$files = array("functions.js", "functions_edit.js", "functions_sql.js");
 	foreach ($files as $file) {
-	  $cache_file = "ext/cache/".$file."_".LANG."_".filemtime("templates/js/".$file).".js";
+	  $cache_file = "ext/cache/".substr($file,0,-3)."_".LANG.".js";
 	  if (file_exists($cache_file)) continue;
 	  file_put_contents($cache_file, trans(file_get_contents("templates/js/".$file)));
-	  if (DEBUG and empty($_REQUEST["iframe"])) echo "reload js ".$class;
+	  
+	  if (DEBUG and empty($_REQUEST["iframe"])) echo "reload js";
 	}
 	
 	// set up smarty
@@ -68,11 +69,14 @@ class sys {
 	self::$smarty->compile_check = false;
 
 	$browsers = array("firefox", "safari", "msie", "opera");
-	foreach ($browsers as $browser) {
-	  $cache_file = "ext/cache/core_".$browser."_".filemtime("templates/css/core.css").".css";
-	  if (file_exists($cache_file)) continue;
-	  file_put_contents($cache_file, trans(self::build_css($browser)));
-	  if (DEBUG and empty($_REQUEST["iframe"])) echo "reload js ".$class;
+	$themes = array("core", "rtl", "core_tree_icons", "contrast", "lake", "paradise", "earth", "water", "beach", "desert", "nature", "sunset", "blackwhite");
+	foreach ($themes as $theme) {
+	  foreach ($browsers as $browser) {
+		$cache_file = "ext/cache/core_".$theme."_".$browser.".css";
+		if (file_exists($cache_file)) continue;
+		file_put_contents($cache_file, self::build_css($theme, $browser));
+		if (DEBUG and empty($_REQUEST["iframe"])) echo "reload css";
+	  }
 	}
 
 	// set up database
@@ -86,20 +90,17 @@ class sys {
 	login_handle_login();
   }
   
-  static function build_css($browser) {
-	  self::$smarty->left_delimiter = "<";
-	  self::$smarty->right_delimiter = ">";
-	  self::$smarty->assign("style",basename($_REQUEST["css_style"]));
-	  self::$smarty->assign("browser",$browser);
-	  $output = self::$smarty->fetch("core.css");
+  static function build_css($theme, $browser) {
+	  $smarty = clone self::$smarty;
+	  $smarty->left_delimiter = "<";
+	  $smarty->right_delimiter = ">";
+	  $smarty->assign("style", $theme);
+	  $smarty->assign("browser", $browser);
+	  $output = $smarty->fetch("css/core.css");
 	  
 	  if ($browser=="safari") {
-		$from = array(
-		  "/-moz-linear-gradient\(top,([^,]+),([^\)]+)\);/i",
-		);
-		$to = array(
-		  "-webkit-gradient(linear, left top, left bottom, from(\\1), to(\\2));",
-		);
+		$from = "/-moz-linear-gradient\(top,([^,]+),([^\)]+)\);/i";
+		$to = "-webkit-gradient(linear, left top, left bottom, from(\\1), to(\\2));";
 		$output = preg_replace($from,$to,$output);
 	  }
 	  if ($browser=="opera" or $browser=="msie") {
@@ -107,12 +108,8 @@ class sys {
 	  }
 	  if ($browser=="msie") {
 		$output = preg_replace("/max-height:([^;]+)px;/","height:expression(this.scrollHeight>\\1?'\\1px':'auto');",$output);
-		$from = array(
-		  "/linear-gradient\(top,\s?([^,]+),\s?([^\)]+)\);/i",
-		);
-		$to = array(
-		  "filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='\\1',endColorstr='\\2');",
-		);
+		$from = "/linear-gradient\(top,\s?([^,]+),\s?([^\)]+)\);/i";
+		$to = "filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='\\1',endColorstr='\\2');";
 		$output = preg_replace($from,$to,$output);
 	  }
 	  return $output;
@@ -164,6 +161,16 @@ function __autoload($class) {
 
 function trans($content) {
   return preg_replace_callback("!\{t\}([^\{]+)\{/t\}!", "t", $content);
+}
+
+function t($str) {
+  static $strings = array();
+  if (is_array($str) and isset($str[1])) $str = $str[1]; // preg_callback
+  if (LANG!="en") {
+	if ($strings===null) $strings = APC ? get_lang_apc() : get_lang();
+	if (isset($strings[$str])) $str = $strings[$str];
+  }
+  return $str;
 }
 
 function ______A_S_S_E_T______() {}
@@ -2806,7 +2813,7 @@ function sys_contains($haystick, $needle) {
 
 function sys_die($str,$str2="",$pre=false) {
   echo "<html><body style='padding:0px;margin:0px;'><center>";
-  if (sys::$alert) echo nl2br(modify::quote(implode("<br>",sys::$alert)))."<br><br>";
+  if (sys::$alert) echo nl2br(modify::htmlquote(implode("<br>",sys::$alert)))."<br><br>";
   echo "<table style='width: 600px;'>";
   echo "<tr><td align='center' style='border-bottom: 1px solid black; letter-spacing: 2px; font-size: 18px; font-weight: bold;'>Simple Groupware & CMS</td></tr>";
   echo "<tr><td align='center' style='border-bottom: 1px solid black;'>".modify::htmlquote($str)."</td></tr>";
