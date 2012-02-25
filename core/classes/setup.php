@@ -48,12 +48,12 @@ static function save_config($vars) {
   $out[] = "define('LANG',".$lang.");";
   $out[] = "define('APC',function_exists('apc_store') and ini_get('apc.enabled'));";
 
-  file_put_contents(SIMPLE_STORE."/config.php", implode("\n",$out), LOCK_EX);
-  if (!file_exists(SIMPLE_STORE."/config.php") or filesize(SIMPLE_STORE."/config.php")==0) {
-	sys_die("cannot write to: ".SIMPLE_STORE."/config.php");
+  file_put_contents("simple_store/config.php", implode("\n",$out), LOCK_EX);
+  if (!file_exists("simple_store/config.php") or filesize("simple_store/config.php")==0) {
+	sys_die("cannot write to: simple_store/config.php");
   }
-  chmod(SIMPLE_STORE."/config.php", 0600);
-  sys_log_message_log("info",sprintf("{t}Setup: setup-data written to %s.{/t}",SIMPLE_STORE."/config.php"));
+  chmod("simple_store/config.php", 0600);
+  sys_log_message_log("info",sprintf("{t}Setup: setup-data written to %s.{/t}","simple_store/config.php"));
 }
 
 static function validate_system() {
@@ -139,8 +139,8 @@ static function config_defaults() {
 	"CORE_COMPRESS_OUTPUT"=>"true", "CORE_OUTPUT_CACHE"=>"false",
 	"APC_SESSION"=>"false","MENU_AUTOHIDE"=>"false","TREE_AUTOHIDE"=>"false","FIXED_FOOTER"=>"false","FDESC_IN_CONTENT"=>"false",
 	"CMS_HOMEPAGE"=>"'HomePage'", "CMS_REAL_URL"=>"''", "DEBUG"=>"false",
-	"SIMPLE_CACHE"=>"'".SIMPLE_CACHE."'", "SIMPLE_CUSTOM"=>"'".SIMPLE_CUSTOM."'", "SIMPLE_IMPORT"=>"'import/'",
-	"SIMPLE_EXT"=>"'ext/'", "TIMEZONE"=>"''", "ASSET_PAGE_LIMIT"=>"100",
+	"SIMPLE_CACHE"=>"'".SIMPLE_CACHE."'", "SIMPLE_STORE"=>"'".SIMPLE_STORE."'", "SIMPLE_CUSTOM"=>"'".SIMPLE_CUSTOM."'",
+	"SIMPLE_IMPORT"=>"'import/'", "SIMPLE_EXT"=>"'ext/'", "TIMEZONE"=>"''", "ASSET_PAGE_LIMIT"=>"100",
 	"SYSTEM_SLOW"=>"2", "DB_SLOW"=>"0.5", "CMS_SLOW"=>"2", "CHMOD_DIR"=>"777", "CHMOD_FILE"=>"666",
 	"INVALID_EXTENSIONS"=>"'386,adb,ade,asd,asf,asp,asx,bas,bat,bin,cab,ceo,cgi,chm,cmd,com,cpl,crt,csc,dat,dbx,dll,drv,".
 		"ema,eml,exe,fon,hlp,hta,hto,htt,img,inf,isp,jse,jsp,ins,lnk,mbx,mda,mdt,mdx,mdw,mdz,mht,".
