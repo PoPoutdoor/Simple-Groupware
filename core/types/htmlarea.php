@@ -20,7 +20,7 @@ static function form_render_value($name, $value, $smarty) {
 		function htmlarea_preview(field) {
 		  var data = getObj(field).value;
 		  var field_frame = open_window("","preview",700,480);
-		  field_frame.document.write("<html><head><link media='all' href='images.php?css_style=core' rel='stylesheet' type='text/css' /></head><body>");
+		  field_frame.document.write("<html><head><link media='all' href='ext/cache/core_core_firefox.css' rel='stylesheet' type='text/css' /></head><body>");
 		  field_frame.document.write("<table class='data' style='height:100%;'><tr><td valign='top'>"+data+"</td></tr></table></body></html>");
 		  field_frame.document.close();
 		}
