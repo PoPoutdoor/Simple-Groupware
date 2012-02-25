@@ -9,7 +9,6 @@
 
 class setup {
 
-static $config_old = "";
 static $errors = array();
 
 static function build_customizing($file) {
@@ -42,8 +41,12 @@ static function out_exit($str) {
 }
 
 static function get_config_old($key, $full=false, $default="") {
-  $config_old = self::$config_old;
-  if (($pos = strpos($config_old,"define('".$key."',"))) {
+  static $config_old = null;
+  if ($config_old===null) {
+	$old_file = SIMPLE_STORE."/config_old.php";
+	if (file_exists($old_file)) $config_old = str_replace("\r","",file_get_contents($old_file));
+  }
+  if ($config_old===null and ($pos = strpos($config_old,"define('".$key."',"))) {
 	$pos = $pos+strlen($key)+10;
 	$end = strpos($config_old,"\n",$pos)-$pos-2;
 	$result = substr($config_old,$pos,$end);
@@ -57,7 +60,7 @@ static function get_config_old($key, $full=false, $default="") {
 static function dirs_create_htaccess($dirname) {
   if (!file_exists($dirname.".htaccess")) {
     if (!@file_put_contents($dirname.".htaccess", "Order deny,allow\nDeny from all\n", LOCK_EX)) {
-	  setup::error(sprintf("{t}Please give write access to %s{/t}",$dirname),25);
+	  self::error(sprintf("{t}Please give write access to %s{/t}",$dirname),25);
     }
   }
   dirs_create_index_htm($dirname);
@@ -240,14 +243,14 @@ static function show_form($databases, $install, $accept_gpl) {
 }
 
 static function dirs_create_default_folders() {
-  setup::dirs_create_htaccess(SIMPLE_STORE."/");
-  setup::dirs_create_dir(SIMPLE_EXT);
-  setup::dirs_create_dir(SIMPLE_STORE."/home");
-  setup::dirs_create_dir(SIMPLE_STORE."/backup");
-  setup::dirs_create_dir(SIMPLE_STORE."/syncml");
-  setup::dirs_create_dir(SIMPLE_STORE."/trash");
-  setup::dirs_create_dir(SIMPLE_STORE."/cron");
-  setup::dirs_create_dir(SIMPLE_STORE."/old");
+  self::dirs_create_htaccess(SIMPLE_STORE."/");
+  self::dirs_create_dir(SIMPLE_EXT);
+  self::dirs_create_dir(SIMPLE_STORE."/home");
+  self::dirs_create_dir(SIMPLE_STORE."/backup");
+  self::dirs_create_dir(SIMPLE_STORE."/syncml");
+  self::dirs_create_dir(SIMPLE_STORE."/trash");
+  self::dirs_create_dir(SIMPLE_STORE."/cron");
+  self::dirs_create_dir(SIMPLE_STORE."/old");
 
   $empty_dir = array(
     SIMPLE_STORE."/locking",
@@ -259,7 +262,7 @@ static function dirs_create_default_folders() {
 	SIMPLE_CACHE."/lang", "/ext/cache",
   );
   foreach ($empty_dir as $dir) dirs_create_empty_dir($dir);
-  setup::dirs_create_htaccess(SIMPLE_CACHE."/");
+  self::dirs_create_htaccess(SIMPLE_CACHE."/");
   if (APC) apc_clear_cache("user");
 }
 
