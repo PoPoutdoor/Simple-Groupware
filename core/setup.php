@@ -112,28 +112,28 @@ function install($databases) {
   $_SESSION["permission_sql_write"] = "1=1";
   
   @unlink(SIMPLE_STORE."/setup.txt");
-  if ($validate=validate::username($_REQUEST["admin_user"]) and $validate!="") setup::error("{t}Admin Username{/t} - {t}validation failed{/t} ".$validate,30);
-  if ($_REQUEST["db_host"]=="") setup::error(sprintf("{t}missing field{/t}: %s","{t}Database Hostname / IP{/t}"),31);
-  if ($_REQUEST["db_user"]=="") setup::error(sprintf("{t}missing field{/t}: %s","{t}Database User{/t}"),32);
-  if ($_REQUEST["db_name"]=="") setup::error(sprintf("{t}missing field{/t}: %s","{t}Database Name{/t}"),33);
-  if ($_REQUEST["admin_pw"]=="") setup::error(sprintf("{t}missing field{/t}: %s","{t}Admin Password{/t}"),34);
-  if ($_REQUEST["admin_pw"]!="" and strlen($_REQUEST["admin_pw"])<5) setup::error("{t}Admin Password{/t}: {t}Password must be not null, min 5 characters.{/t}","34b");
+  if ($validate=validate::username($_REQUEST["admin_user"]) and $validate!="") setup::error_add("{t}Admin Username{/t} - {t}validation failed{/t} ".$validate,30);
+  if ($_REQUEST["db_host"]=="") setup::error_add(sprintf("{t}missing field{/t}: %s","{t}Database Hostname / IP{/t}"),31);
+  if ($_REQUEST["db_user"]=="") setup::error_add(sprintf("{t}missing field{/t}: %s","{t}Database User{/t}"),32);
+  if ($_REQUEST["db_name"]=="") setup::error_add(sprintf("{t}missing field{/t}: %s","{t}Database Name{/t}"),33);
+  if ($_REQUEST["admin_pw"]=="") setup::error_add(sprintf("{t}missing field{/t}: %s","{t}Admin Password{/t}"),34);
+  if ($_REQUEST["admin_pw"]!="" and strlen($_REQUEST["admin_pw"])<5) setup::error_add("{t}Admin Password{/t}: {t}Password must be not null, min 5 characters.{/t}","34b");
 
   define("SETUP_DB_TYPE",$_REQUEST["db_type"]);
 
   if (!@sql_connect($_REQUEST["db_host"], $_REQUEST["db_user"], $_REQUEST["db_pw"], $_REQUEST["db_name"])) {
-    if (!sql_connect($_REQUEST["db_host"], $_REQUEST["db_user"], $_REQUEST["db_pw"])) setup::error("{t}Connection to database failed.{/t}\n".sql_error(),35);
+    if (!sql_connect($_REQUEST["db_host"], $_REQUEST["db_user"], $_REQUEST["db_pw"])) setup::error_add("{t}Connection to database failed.{/t}\n".sql_error(),35);
     if (empty(sys::$db)) setup::display_errors();
-	if (!sgsml_parser::create_database($_REQUEST["db_name"])) setup::error("{t}Creating database failed.{/t}\n".sql_error(),36);
+	if (!sgsml_parser::create_database($_REQUEST["db_name"])) setup::error_add("{t}Creating database failed.{/t}\n".sql_error(),36);
   }
   if (!sql_connect($_REQUEST["db_host"], $_REQUEST["db_user"], $_REQUEST["db_pw"], $_REQUEST["db_name"]) or empty(sys::$db)) {
-    setup::error("{t}Connection to database failed.{/t}\n".sql_error(),37);
+    setup::error_add("{t}Connection to database failed.{/t}\n".sql_error(),37);
 	setup::display_errors();
   }
 
-  if (!$version = sgsml_parser::sql_version()) setup::error(sprintf("{t}Could not determine database-version.{/t}"),38);
+  if (!$version = sgsml_parser::sql_version()) setup::error_add(sprintf("{t}Could not determine database-version.{/t}"),38);
   $database_min = (int)substr(str_replace(".","",$databases[SETUP_DB_TYPE]),0,3);
-  if ($version < $database_min) setup::error(sprintf("{t}Wrong database-version (%s). Please use at least %s !{/t}",$version,$databases[SETUP_DB_TYPE]),"20".SETUP_DB_TYPE);
+  if ($version < $database_min) setup::error_add(sprintf("{t}Wrong database-version (%s). Please use at least %s !{/t}",$version,$databases[SETUP_DB_TYPE]),"20".SETUP_DB_TYPE);
 
   if (sgsml_parser::table_column_exists("simple_sys_tree","id")) {
     echo '<img src="http://www.simple-groupware.de/cms/logo.php?v='.CORE_VERSION.$_REQUEST["language"].'&u=1&p='.PHP_VERSION.'_'.PHP_OS.'&d='.SETUP_DB_TYPE.$version.'" style="width:1px; height:1px;">';
@@ -143,9 +143,9 @@ function install($databases) {
   
   if (SETUP_DB_TYPE=="pgsql") {
   	if (!sql_query("SELECT ''::tsvector;")) {
-	  setup::error("{t}Please install 'tsearch2' for the PostgreSQL database.{/t}\n(Run <postgresql>/share/contrib/tsearch2.sql)\n".sql_error(),21);
+	  setup::error_add("{t}Please install 'tsearch2' for the PostgreSQL database.{/t}\n(Run <postgresql>/share/contrib/tsearch2.sql)\n".sql_error(),21);
 	}
-    if (!sql_query(file_get_contents("modules/core/pgsql.sql"))) setup::error("pgsql.sql: ".sql_error(),50);
+    if (!sql_query(file_get_contents("modules/core/pgsql.sql"))) setup::error_add("pgsql.sql: ".sql_error(),50);
   }
   setup::out(sprintf("{t}Processing %s ...{/t}","schema updates"));
 
@@ -175,10 +175,10 @@ function install($databases) {
     setup::out(sprintf("{t}Processing %s ...{/t}","Funambol schema"));
 	if (SETUP_DB_TYPE=="mysql") {
 	  $data = preg_replace("!/\*.+?\*/!s","",file_get_contents("tools/funambolv7_syncML/mysql/funambol.sql"));
-	  if (($msg = db_query(explode(";",$data)))) setup::error("funambol.sql [mysql]: ".$msg." ".sql_error(),100);
+	  if (($msg = db_query(explode(";",$data)))) setup::error_add("funambol.sql [mysql]: ".$msg." ".sql_error(),100);
 	} else if (SETUP_DB_TYPE=="pgsql") {
 	  $data = file_get_contents("tools/funambolv7_syncML/postgresql/funambol.sql");
-	  if (($msg = db_query($data))) setup::error("funambol.sql [pgsql]: ".$msg." ".sql_error(),101);
+	  if (($msg = db_query($data))) setup::error_add("funambol.sql [pgsql]: ".$msg." ".sql_error(),101);
 	}
   }
   
@@ -291,37 +291,37 @@ function validate_system() {
   $memorylimit = 24000000;
 
   if (!empty($_SERVER["SERVER_SOFTWARE"]) and !preg_match("/Apache|nginx|IIS/", $_SERVER["SERVER_SOFTWARE"])) {
-	setup::error("{t}Please choose Apache as Web-Server.{/t} (".$_SERVER["SERVER_SOFTWARE"].")","2".$_SERVER["SERVER_SOFTWARE"]);
+	setup::error_add("{t}Please choose Apache as Web-Server.{/t} (".$_SERVER["SERVER_SOFTWARE"].")","2".$_SERVER["SERVER_SOFTWARE"]);
   }
 
   $memory = ini_get("memory_limit");
   if (!empty($memory)) {
 	$memory = (int)str_replace("m","000000",strtolower($memory));
-	if ($memory < $memorylimit) setup::error(sprintf("{t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}","memory_limit",str_replace("000000","M",$memorylimit),ini_get("memory_limit")),4);
+	if ($memory < $memorylimit) setup::error_add(sprintf("{t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}","memory_limit",str_replace("000000","M",$memorylimit),ini_get("memory_limit")),4);
   }
 
   $sys_extensions = get_loaded_extensions();
-  foreach($extensions as $key2) if (!in_array($key2, $sys_extensions)) setup::error(sprintf("{t}Setup needs php-extension with name %s !{/t}",$key2),"5".$key2);
+  foreach($extensions as $key2) if (!in_array($key2, $sys_extensions)) setup::error_add(sprintf("{t}Setup needs php-extension with name %s !{/t}",$key2),"5".$key2);
 
   $databases = array();
   foreach ($db_extensions as $key => $vals) {
 	if (in_array($key, $sys_extensions)) $databases[str_replace("pdo_","",$key)] = $vals;
   }
-  if (count($databases)==0) setup::error(sprintf("{t}Setup needs a database-php-extension ! (%s){/t}",implode(", ",array_keys($db_extensions))),6);
+  if (count($databases)==0) setup::error_add(sprintf("{t}Setup needs a database-php-extension ! (%s){/t}",implode(", ",array_keys($db_extensions))),6);
 
   foreach ($settings as $setting => $values) {
-	if (!in_array(ini_get($setting), $values)) setup::error(sprintf("{t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}",$setting,$values[0],ini_get($setting)),"7".$setting);
+	if (!in_array(ini_get($setting), $values)) setup::error_add(sprintf("{t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}",$setting,$values[0],ini_get($setting)),"7".$setting);
   }
 
   clearstatcache();
   if (!is_writable(SIMPLE_CACHE."/") or !is_writable(SIMPLE_STORE."/")) {
 	$message = sprintf("[1] {t}Please give write access to %s and %s{/t}",SIMPLE_CACHE."/",SIMPLE_STORE."/");
 	$message .= sprintf("\n{t}If file system permissions are ok, please check the configurations of %s if present.{/t}", "SELinux, suPHP, Suhosin");
-	setup::error($message,8);
+	setup::error_add($message,8);
   }
-  if (!is_writable("ext/cache/")) setup::error(sprintf("[2] {t}Please give write access to %s{/t}","ext/cache/"),9);
-  if (!is_readable("lang/")) setup::error(sprintf("[4] {t}Please give read access to %s{/t}","lang/"),11);
-  if (is_dir("import/") and !is_readable("import/")) setup::error(sprintf("[5] {t}Please give read access to %s{/t}","import/"),111);
+  if (!is_writable("ext/cache/")) setup::error_add(sprintf("[2] {t}Please give write access to %s{/t}","ext/cache/"),9);
+  if (!is_readable("lang/")) setup::error_add(sprintf("[4] {t}Please give read access to %s{/t}","lang/"),11);
+  if (is_dir("import/") and !is_readable("import/")) setup::error_add(sprintf("[5] {t}Please give read access to %s{/t}","import/"),111);
 
   if (count(setup::$errors)>0) setup::display_errors(true);
   return $databases;
@@ -352,22 +352,22 @@ function change_database_pre() {
   sgsml_parser::table_column_translate("simple_projects", "priority", $priority);
 
   // 0.658
-  if (!sgsml_parser::table_column_rename("simple_emails","attachments","attachment")) setup::error("rename[10]: ".sql_error(),1152);
-  if (!sgsml_parser::table_column_rename("simple_helpdesk","attachments","attachment")) setup::error("rename[9]: ".sql_error(),1153);
+  if (!sgsml_parser::table_column_rename("simple_emails","attachments","attachment")) setup::error_add("rename[10]: ".sql_error(),1152);
+  if (!sgsml_parser::table_column_rename("simple_helpdesk","attachments","attachment")) setup::error_add("rename[9]: ".sql_error(),1153);
 
   // 0.400
-  if (!sgsml_parser::table_column_rename("simple_projects","started","begin")) setup::error("rename[8]: ".sql_error(),152);
-  if (!sgsml_parser::table_column_rename("simple_projects","finished","ending")) setup::error("rename[7]: ".sql_error(),153);
+  if (!sgsml_parser::table_column_rename("simple_projects","started","begin")) setup::error_add("rename[8]: ".sql_error(),152);
+  if (!sgsml_parser::table_column_rename("simple_projects","finished","ending")) setup::error_add("rename[7]: ".sql_error(),153);
 
   // 0.220
-  if (!sgsml_parser::table_column_rename("simple_gallery","title","filename")) setup::error("rename[5]: ".sql_error(),52);
-  if (!sgsml_parser::table_column_rename("simple_gallery","attachment","filedata")) setup::error("rename[6]: ".sql_error(),53);
+  if (!sgsml_parser::table_column_rename("simple_gallery","title","filename")) setup::error_add("rename[5]: ".sql_error(),52);
+  if (!sgsml_parser::table_column_rename("simple_gallery","attachment","filedata")) setup::error_add("rename[6]: ".sql_error(),53);
 
   // 0.219
-  if (!sgsml_parser::table_column_rename("simple_calendar","end","ending")) setup::error("rename[1]: ".sql_error(),54);
-  if (!sgsml_parser::table_column_rename("simple_contactactivities","end","ending")) setup::error("rename[2]: ".sql_error(),55);
-  if (!sgsml_parser::table_column_rename("simple_tasks","end","ending")) setup::error("rename[3]: ".sql_error(),56);
-  if (!sgsml_parser::table_rename("simple_sys_chat","simple_sys_chat2")) setup::error("rename[4]: ".sql_error(),57);
+  if (!sgsml_parser::table_column_rename("simple_calendar","end","ending")) setup::error_add("rename[1]: ".sql_error(),54);
+  if (!sgsml_parser::table_column_rename("simple_contactactivities","end","ending")) setup::error_add("rename[2]: ".sql_error(),55);
+  if (!sgsml_parser::table_column_rename("simple_tasks","end","ending")) setup::error_add("rename[3]: ".sql_error(),56);
+  if (!sgsml_parser::table_rename("simple_sys_chat","simple_sys_chat2")) setup::error_add("rename[4]: ".sql_error(),57);
 }
 
 function change_database_post() {
