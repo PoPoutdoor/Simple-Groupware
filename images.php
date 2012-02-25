@@ -13,7 +13,7 @@ error_reporting(E_ALL);
 if (ini_get("register_globals")) {
   foreach (array_keys($GLOBALS) as $key) if (!in_array($key,array("GLOBALS","_REQUEST","_SERVER"))) unset($GLOBALS[$key]);
 }
-define("SIMPLE_STORE","../simple_store");
+define("SIMPLE_STORE","simple_store");
 @include(SIMPLE_STORE."/config.php");
 if (!defined("SETUP_DB_HOST")) exit;
 @ignore_user_abort(0);
