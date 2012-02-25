@@ -7,7 +7,7 @@
  * @license GPLv2
  */
 
-class update {
+class setup_update {
 
 static function change_database_pre() {
   // 0.730
