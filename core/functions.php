@@ -1377,10 +1377,10 @@ function ______D_I_R_S______() {}
 
 function dirs_create_index_htm($path) {
   foreach (array("index.htm","index.html") as $file) {
-    if (!file_exists($path.$file)) {
-	  if (!@file_put_contents($path.$file, "{t}You are not allowed to view this folder.{/t}", LOCK_EX)) {
-	    sys_die(sprintf("{t}Unable to write to %s{/t}",$path.$file));
-} } } }
+    if (file_exists($path.$file)) continue;
+	if (!@file_put_contents($path.$file, "{t}You are not allowed to view this folder.{/t}", LOCK_EX)) {
+	  sys_die(sprintf("{t}Unable to write to %s{/t}",$path.$file));
+} } }
 
 function dirs_delete_all($path,$olderthan=0,$remove=true) {
   $my_dir = opendir($path);
