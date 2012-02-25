@@ -77,7 +77,7 @@ if (!isset($_SERVER["SERVER_ADDR"]) or $_SERVER["SERVER_ADDR"]=="") $_SERVER["SE
 // setup::build_customizing(SIMPLE_CUSTOM."customize.php");
 setup::dirs_create_default_folders();
 if (isset($_REQUEST["install"]) and isset($_REQUEST["accept_gpl"]) and $_REQUEST["accept_gpl"]=="yes") {
-  install();
+  install($databases);
 } else {
   setup::show_form($databases, !empty($_REQUEST["install"]), !empty($_REQUEST["accept_gpl"]));
 }
