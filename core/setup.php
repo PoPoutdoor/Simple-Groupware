@@ -19,6 +19,7 @@ define("CORE_VERSION","0_800");
 define("CORE_VERSION_STRING","0.800");
 define("CORE_SGSML_VERSION","5_00");
 define("SIMPLE_CACHE","simple_cache/");
+define("SIMPLE_STORE","simple_store/");
 define("SIMPLE_CUSTOM","custom/");
 define("SIMPLE_EXT","ext/");
 define("USE_SYSLOG_FUNCTION",0);
