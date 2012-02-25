@@ -13,13 +13,12 @@
   
   if (ini_get("register_globals")) pre_dropglobals();
   header("Content-Type: text/html; charset=utf-8");
-  define("SIMPLE_STORE","simple_store");
-  @include(SIMPLE_STORE."/config.php");
+  @include("simple_store/config.php");
   if (!defined("CORE_VERSION") or CORE_VERSION_config!=CORE_VERSION) {
     if (defined("CORE_VERSION")) {
 	  $old = SIMPLE_STORE."/config_old.php";
 	  if (file_exists($old)) rename($old,SIMPLE_STORE."/config_".time().".php");
-	  rename(SIMPLE_STORE."/config.php",$old);
+	  rename("simple_store/config.php",$old);
 	  touch($old);
 	  header("Location: index.php");
 	} else require("core/setup.php");
