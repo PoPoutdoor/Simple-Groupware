@@ -224,7 +224,7 @@ setup::out(sprintf("{t}Processing %s ...{/t}","config.php"));
 
 $old = SIMPLE_STORE."/config_old.php";
 if (file_exists($old)) rename($old,SIMPLE_STORE."/config_".time().".php");
-rename(SIMPLE_STORE."/config.php", $old);
+rename("simple_store/config.php", $old);
 touch($old);
 
 foreach (scandir(SIMPLE_EXT) as $file) {
