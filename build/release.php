@@ -12,6 +12,7 @@
 // TODO remove index.htm?
 // TODO version without demo data
 // TODO add phpdoc
+// TODO check if all module icons are available
 
 new build(true, false);
 
