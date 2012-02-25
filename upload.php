@@ -199,7 +199,7 @@ function _upload_create_file($db_path, $target_lnk, $path, $filename) {
 	  while (!feof($fp)) fwrite($ft,fread($fp,8192));
 	  fclose($fp);
 	  fclose($ft);
-	  $a_id = sql_genID("simple_files")*100+$_SESSION["serverid"];
+	  $a_id = sql_genID("simple_files")*100;
 	  $data = array(
 		"id"=>$a_id, "folder"=>$id, "dsize"=>filesize($target),
 		"filedata"=>"|".$target."|", "filename"=>$filename,

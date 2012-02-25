@@ -150,7 +150,7 @@ static function creategroup($name) {
   $folder = folder_from_path("!sys_groups");
   
   if (empty($row_id) and !empty($folder)) {
-	$id = sql_genID("simple_sys_groups")*100+$_SESSION["serverid"];
+	$id = sql_genID("simple_sys_groups")*100;
     $data = array("id"=>$id, "groupname"=>$name, "activated"=>1, "folder"=>$folder);
     $error_sql = db_insert("simple_sys_groups",$data);
 	if ($error_sql=="") {
@@ -436,7 +436,7 @@ private static function _createlocation($name) {
   $folder = folder_from_path("^locations");
 
   if (empty($row_id) and !empty($folder)) {
-	$id = sql_genID("simple_locations")*100+$_SESSION["serverid"];
+	$id = sql_genID("simple_locations")*100;
     $data = array("id"=>$id, "locationname"=>$name, "folder"=>$folder);
     $error_sql = db_insert("simple_locations",$data);
 	if ($error_sql=="") {

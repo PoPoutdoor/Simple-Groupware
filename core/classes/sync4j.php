@@ -172,7 +172,7 @@ public static function import_createedit($tfolder, $module, $username, $lastsync
 		$error_sql = db_update($table_dest,$data,array("id=@id@"),array("id"=>$id));
 		$count_update++;
 	  } else { // new
-	    $id = sql_genID($table_dest)*100+$_SESSION["serverid"];
+	    $id = sql_genID($table_dest)*100;
 		$row["id"] = $id;
 		$row["folder"] = $tfolder;
 		$row["dsize"] = 0;

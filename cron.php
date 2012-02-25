@@ -31,7 +31,6 @@ $lock_file = SIMPLE_STORE."/cron/lock_cron";
 $_SESSION["username"] = "cron";
 $_SESSION["password"] = "";
 $_SESSION["groups"] = array();
-$_SESSION["serverid"] = 1;
 $_SESSION["permission_sql"] = "1=1";
 
 $cron_conf = trigger::sendmail_getconn("cron", "");

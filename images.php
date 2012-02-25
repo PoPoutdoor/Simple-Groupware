@@ -18,8 +18,8 @@ define("SIMPLE_STORE","simple_store");
 if (!defined("SETUP_DB_HOST")) exit;
 @ignore_user_abort(0);
 
-$file_conf = sys_custom("templates/core_css.conf");
-$file_css = sys_custom("templates/core.css");
+$file_conf = sys_custom("templates/css/core_css.conf");
+$file_css = sys_custom("templates/css/core.css");
 
 if (!empty($_REQUEST["css_style"])) {
   if (empty($_REQUEST["browser"])) $_REQUEST["browser"] = "firefox";

@@ -66,7 +66,7 @@ static function create($ftitle,$ftype,$fdescription,$parent,$first,$optional=arr
         db_update("simple_sys_tree",array("rgt"=>"rgt+".$children_count),array("rgt>=@left@"),array("left"=>$left),array("quote"=>false, "no_defaults"=>true));
 	    db_update("simple_sys_tree",array("lft"=>"lft+".$children_count),array("lft>=@left@"),array("left"=>$left),array("quote"=>false, "no_defaults"=>true));
 	  }
-      $id = sql_genID("simple_sys_tree")*100+$_SESSION["serverid"];
+      $id = sql_genID("simple_sys_tree")*100;
 	  $data = array(
 	    "lft"=>$left, "rgt"=>$right, "ftitle"=>$ftitle, "ftype"=>$ftype, "fdescription"=>$fdescription, "id"=>$id, "folder"=>$id, "flevel"=>$level, "parent"=>$parent,
 		"fquota"=>0, "history"=>sprintf("{t}Item created by %s at %s{/t}",$_SESSION["username"],sys_date("{t}m/d/y g:i:s a{/t}"))

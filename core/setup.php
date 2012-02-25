@@ -86,7 +86,6 @@ function install($databases) {
   setup::install_header();
   
   $_SESSION["groups"] = array();
-  $_SESSION["serverid"] = 1;
   $_SESSION["username"] = "setup";
   $_SESSION["password"] = "";
   $_SESSION["permission_sql"] = "1=1";

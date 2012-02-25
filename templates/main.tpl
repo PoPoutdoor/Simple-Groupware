@@ -12,7 +12,7 @@
 {if $iframe}<base target="_blank">{/if}
 <title>{$folder.name} - {$t.views[$t.view].DISPLAYNAME|default:$t.view} - {if !$tree.visible}{$sys.username} - {/if}{$sys.app_title}</title>
 {* You are not allowed to remove or alter the copyright. *}
-<!-- 
+<!--
 	This website is brought to you by Simple Groupware
 	Simple Groupware is an open source Groupware and Web Application Framework created by Thomas Bley and licensed under GNU GPL v2.
 	Simple Groupware is copyright 2002-2012 by Thomas Bley.	Extensions and translations are copyright of their respective owners.
@@ -21,7 +21,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="generator" content="Simple Groupware  {$sys.version_str}" />
 <meta name="viewport" content="initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0;" />
-<link media="all" href="images_php?css_style={$sys_style}&browser={$sys.browser.name}&{$smarty.const.CORE_VERSION}" rel="stylesheet" type="text/css" />
+<link media="all" href="ext/cache/core_{$sys_style}_{$sys.browser.name}.css?{$smarty.const.CORE_VERSION}" rel="stylesheet" type="text/css" />
 {if $t.load_css}<link media="all" href="{$t.load_css}" rel="stylesheet" type="text/css" />{/if}
 {if $t.load_js}<script type="text/javascript" src="{$t.load_js}"></script>{/if}
 {if !$iframe}
@@ -73,7 +73,7 @@
 {if ($sys.browser.name neq "firefox" || $sys.browser.ver lt 35) && ($sys.browser.name neq "safari" || $sys.browser.ver lt 530)}
   <script type="text/javascript" src="ext/lib/json/json.js"></script>
 {/if}
-<script type="text/javascript" src="ext/js/functions.js?{$smarty.const.CORE_VERSION}"></script>
+<script type="text/javascript" src="ext/cache/functions_{$smarty.const.LANG}_{"templates/js/functions.js"|filemtime}.js"></script>
 </head>
 <body {if $print eq 1}onload="window.print();"{/if} onresize="resizeit();">
 

@@ -8,7 +8,6 @@ sys_nodb_backups|{t}Backups{/t}
 sys_console|{t}Console{/t}
 sys_events|{t}Events{/t}
 sys_custom_fields|{t}Field customization{/t}
-sys_hosts|{t}Hosts{/t}
 sys_nodb_modules|{t}Modules{/t}
 sys_notifications|{t}Notifications{/t}
 sys_search|{t}Search{/t}

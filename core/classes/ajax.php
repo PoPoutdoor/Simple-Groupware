@@ -280,7 +280,7 @@ static function chat_add($folder, $room, $message) {
   $count = db_select_value("simple_chat","id",$where,array("room"=>$room,"folder"=>$folder));
   if (empty($count)) exit("{t}Access denied.{/t}");
   
-  $id = sql_genID("simple_sys_chat2")*100+$_SESSION["serverid"];
+  $id = sql_genID("simple_sys_chat2")*100;
   return db_insert("simple_sys_chat2", array("id"=>$id, "room"=>$room, "message"=>$message, "bgcolor"=>substr(sha1($_SESSION["username"]),0,6)));
 }
 
@@ -301,7 +301,7 @@ static function folder_add_offline($folder,$view,$folder_name) {
   $duplicate = db_select_value("simple_offline","id",array("folder=@folder@","url=@url@"),array("url"=>$url,"folder"=>$offline_folder));
   if (!empty($duplicate)) return;
 
-  $id = sql_genID("simple_offline")*100+$_SESSION["serverid"];
+  $id = sql_genID("simple_offline")*100;
   $data = array("id"=>$id, "url"=>$url, "folder"=>$offline_folder, "bookmarkname"=>$folder_name);
 
   $error_sql = db_insert("simple_offline",$data);

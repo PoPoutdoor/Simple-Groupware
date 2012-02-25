@@ -46,8 +46,16 @@ class sys {
 		  if (!is_array($val2)) $_REQUEST[$key][$val2] = $val2;
 	} } }
 
-	// refresh smarty cache?
+	// refresh smarty cache
 	if (DEBUG) debug_check_tpl();
+
+	$files = array("functions.js", "functions_edit.js", "functions_sql.js");
+	foreach ($files as $file) {
+	  $cache_file = "ext/cache/".$file."_".LANG."_".filemtime("templates/js/".$file).".js";
+	  if (file_exists($cache_file)) continue;
+	  file_put_contents($cache_file, trans(file_get_contents("templates/js/".$file)));
+	  if (DEBUG and empty($_REQUEST["iframe"])) echo "reload js ".$class;
+	}
 	
 	// set up smarty
 	self::$smarty = new Smarty;
@@ -56,8 +64,16 @@ class sys {
 	if (isset($_REQUEST["print"])) self::$smarty->assign("print",$_REQUEST["print"]);
 	self::$smarty->compile_dir = SIMPLE_CACHE."/smarty";
 	self::$smarty->template_dir = "templates";
-	self::$smarty->config_dir = "templates";
+	self::$smarty->config_dir = "templates/css";
 	self::$smarty->compile_check = false;
+
+	$browsers = array("firefox", "safari", "msie", "opera");
+	foreach ($browsers as $browser) {
+	  $cache_file = "ext/cache/core_".$browser."_".filemtime("templates/css/core.css").".css";
+	  if (file_exists($cache_file)) continue;
+	  file_put_contents($cache_file, trans(self::build_css($browser)));
+	  if (DEBUG and empty($_REQUEST["iframe"])) echo "reload js ".$class;
+	}
 
 	// set up database
 	if (!sql_connect(SETUP_DB_HOST, SETUP_DB_USER, sys_decrypt(SETUP_DB_PW,sha1(SETUP_ADMIN_USER)), SETUP_DB_NAME)) {
@@ -68,6 +84,38 @@ class sys {
 
 	// verify credentials
 	login_handle_login();
+  }
+  
+  static function build_css($browser) {
+	  self::$smarty->left_delimiter = "<";
+	  self::$smarty->right_delimiter = ">";
+	  self::$smarty->assign("style",basename($_REQUEST["css_style"]));
+	  self::$smarty->assign("browser",$browser);
+	  $output = self::$smarty->fetch("core.css");
+	  
+	  if ($browser=="safari") {
+		$from = array(
+		  "/-moz-linear-gradient\(top,([^,]+),([^\)]+)\);/i",
+		);
+		$to = array(
+		  "-webkit-gradient(linear, left top, left bottom, from(\\1), to(\\2));",
+		);
+		$output = preg_replace($from,$to,$output);
+	  }
+	  if ($browser=="opera" or $browser=="msie") {
+		$output = preg_replace("/^.*(-moz-)/m","",$output);
+	  }
+	  if ($browser=="msie") {
+		$output = preg_replace("/max-height:([^;]+)px;/","height:expression(this.scrollHeight>\\1?'\\1px':'auto');",$output);
+		$from = array(
+		  "/linear-gradient\(top,\s?([^,]+),\s?([^\)]+)\);/i",
+		);
+		$to = array(
+		  "filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='\\1',endColorstr='\\2');",
+		);
+		$output = preg_replace($from,$to,$output);
+	  }
+	  return $output;
   }
 
   static function shutdown() {
@@ -85,7 +133,7 @@ class sys {
 	  foreach ($msgs as $msg) {
 		if ($msg=="") continue;
 		$vars = unserialize($msg);
-		sys_log_message($vars[0],$vars[1],$vars[2],$vars[3],$vars[4],true,$vars[5]);
+		sys_log_message($vars[0],$vars[1],$vars[2],$vars[3],true,$vars[4]);
 	  }
 	} else if ($size>0) {
 	  sys_die("{t}The error logfile cannot be processed, too large:{/t} ".SIMPLE_CACHE."/debug/error.txt");
@@ -93,31 +141,6 @@ class sys {
 
 	// logging
 	sys_log_stat("pages",1);
-  }
-  
-  function get_lang_apc() {
-	$strings = apc_fetch(LANG);
-	if (empty($strings)) {
-	  $matches = array();
-	  preg_match_all("!\*\* ([^\n]+)\n([^\n]+)!", file_get_contents("h:/github/sgs/lang/".LANG.".lang"), $matches);
-	  $strings = array_combine($matches[1], $matches[2]);
-	  apc_store(LANG, $strings, 60);
-	}
-	return $strings;
-  }
-
-  function get_lang() {
-	$cache_file = SIMPLE_CACHE."/lang/".LANG.".ser";
-	if (file_exists($cache_file) and filemtime($cache_file)>time()) {
-	  return unserialize(file_get_contents($cache_file));
-	}
-	$matches = array();
-	preg_match_all("!\*\* ([^\n]+)\n([^\n]+)!", file_get_contents("h:/github/sgs/lang/".LANG.".lang"), $matches);
-	$strings = array_combine($matches[1], $matches[2]);
-
-	file_put_contents($cache_file, serialize($strings), LOCK_EX);
-	touch($cache_file, 60+time());
-	return $strings;
   }
 }
 
@@ -141,16 +164,6 @@ function __autoload($class) {
 
 function trans($content) {
   return preg_replace_callback("!\{t\}([^\{]+)\{/t\}!", "t", $content);
-}
-
-function t($str) {
-  static $strings = array();
-  if (is_array($str) and isset($str[1])) $str = $str[1]; // preg_callback
-  if (LANG!="en") {
-	if ($strings===null) $strings = APC ? get_lang_apc() : get_lang();
-	if (isset($strings[$str])) $str = $strings[$str];
-  }
-  return $str;
 }
 
 function ______A_S_S_E_T______() {}
@@ -817,7 +830,7 @@ function db_notification_add($reference, $to, $subject, $message, $delivery, $re
 	$delivery = is_array($recurrence) ? array_shift($recurrence) : strtotime($recurrence, $delivery);
 	$counter++;
   }
-  $id = sql_genID("simple_sys_notifications")*100+$_SESSION["serverid"];
+  $id = sql_genID("simple_sys_notifications")*100;
   $data = array(
     "id"=>$id, "eto"=>$to, "reference"=>$reference, "subject"=>$subject, "message"=>$message, "delivery"=>(int)$delivery,
 	"recurrence"=>is_array($recurrence) ? "|".implode("|", $recurrence)."|" : $recurrence, "category"=>"email", "sent"=>0
@@ -1309,13 +1322,12 @@ function debug_handler($errno, $errstr, $errfile, $errline) {
   $err = "Php ".(isset($errortype[$errno])?$errortype[$errno]:$errno).": ".sys_date("{t}m/d/y g:i:s a{/t}")." ".$errstr." ".$errfile." ".$errline;
 
   if (isset($_SESSION["username"])) $username = $_SESSION["username"]; else $username = "anonymous";
-  if (isset($_SESSION["serverid"])) $serverid = $_SESSION["serverid"]; else $serverid = "1";
 
   if ($errno!=E_USER_ERROR or error_reporting()!=E_ALL) {
     echo nl2br($err)."\n";
     if (DEBUG) echo sys_backtrace()."\n";
   }
-  sys_log_message("php-fail",$err,sys_backtrace()."\n\$_REQUEST: ".print_r($_REQUEST,true),$username,$serverid,false);
+  sys_log_message("php-fail",$err,sys_backtrace()."\n\$_REQUEST: ".print_r($_REQUEST,true),$username,false);
 }
 
 function debug_file($var,$file="debug.txt") {
@@ -1330,15 +1342,15 @@ function debug_file($var,$file="debug.txt") {
  */
 function debug_check_tpl() {
   $lastmod = filemtime(SIMPLE_CACHE."/smarty");
-  $folders = array("templates/","templates/helper/",SIMPLE_CUSTOM."templates/",SIMPLE_CUSTOM."templates/helper/");
+  $folders = array("templates/","templates/helper/","templates/js/",SIMPLE_CUSTOM."templates/",SIMPLE_CUSTOM."templates/helper/",SIMPLE_CUSTOM."templates/js/");
   foreach ($folders as $folder) {
     if (!is_dir($folder)) continue;
     foreach (scandir($folder) as $file) {
-      if ($file[0]==".") continue;
-	  if (filemtime($folder.$file)>$lastmod or filemtime($folder)>$lastmod) {
-	    dirs_create_empty_dir(SIMPLE_CACHE."/smarty");
-	    break;
-} } } }
+      if ($file[0]=="." or filemtime($folder.$file)<=$lastmod) continue;
+	  dirs_create_empty_dir(SIMPLE_CACHE."/smarty");
+	  dirs_create_empty_dir("ext/cache");
+	  return;
+} } }
 
 function debug_sql($var,$errmsg) {
   if (DEBUG) echo "<error>DEBUG ".$errmsg." ".$var."</error><br>";
@@ -1817,15 +1829,6 @@ function _build_merge_folders($tfolders, $tfolder, $view, $write=false) {
 
 function ______L_O_G_I_N______() {}
 
-function _login_get_serverid() {
-  $serverid = db_select_value("simple_sys_hosts","serverid","hostip=@hostip@",array("hostip"=>$_SERVER["SERVER_ADDR"]));
-  if (empty($serverid)) {
-    $serverid = sql_genID("simple_sys_hosts");
-    db_insert("simple_sys_hosts",array("serverid"=>$serverid, "hostip"=>$_SERVER["SERVER_ADDR"]));
-  }
-  return $serverid;
-}
-
 function _login_get_remoteaddr() {
   if (isset($_SERVER["HTTP_CLIENT_IP"])) $ip = $_SERVER["HTTP_CLIENT_IP"];
     else if (isset($_SERVER["HTTP_X_FORWARDED_FOR"])) $ip = $_SERVER["HTTP_X_FORWARDED_FOR"];
@@ -1866,7 +1869,6 @@ function _login_session_destroy($id) {
 }
 
 function login_anonymous_session() {
-  $_SESSION["serverid"] = _login_get_serverid();
   $_SESSION["username"] = "anonymous";
   $_SESSION["password"] = "";
   if (!isset($_SESSION["history"])) $_SESSION["history"] = array();
@@ -3132,7 +3134,7 @@ function sys_custom($file) {
 }
 
 function sys_trans($file, $class) {
-  $cache_file = SIMPLE_CACHE."/lang/".basename($class)."_".LANG."_".filemtime($file)."_".filemtime("lang/".LANG.".lang").".php";
+  $cache_file = SIMPLE_CACHE."/lang/".basename($class)."_".LANG."_".filemtime($file).".php";
   if (!file_exists($cache_file)) {
 	sys_mkdir(SIMPLE_CACHE."/lang/");
 	file_put_contents($cache_file, trans(file_get_contents($file)));
@@ -3223,24 +3225,21 @@ function sys_array_combine($array_keys, $array_values) {
 function sys_log_stat($action,$weight) {
   if (empty($_SESSION["username"])) return;
   if ($weight==0) return;
-  db_insert("simple_sys_stats",array("id"=>sql_genID("simple_sys_stats")*100+$_SESSION["serverid"],"username"=>$_SESSION["username"], "loghour"=>sys_date("H"), "logday"=>sys_date("d"), "logweek"=>sys_date("W"), "logweekpart"=>floor((sys_date("w")*24+sys_date("H")+1)/6), "action"=>$action, "uri"=>substr(_sys_request_uri(),0,250),"weight"=>$weight),array("delay"=>true));
+  db_insert("simple_sys_stats",array("id"=>sql_genID("simple_sys_stats")*100,"username"=>$_SESSION["username"], "loghour"=>sys_date("H"), "logday"=>sys_date("d"), "logweek"=>sys_date("W"), "logweekpart"=>floor((sys_date("w")*24+sys_date("H")+1)/6), "action"=>$action, "uri"=>substr(_sys_request_uri(),0,250),"weight"=>$weight),array("delay"=>true));
 }
 
 function sys_log_message_alert($component,$message) {
   sys_alert($message);
-  sys_log_message($component,$message,"","","",false);
+  sys_log_message($component,$message,"","",false);
 }
 
 function sys_log_message_log($component,$message,$message_trace="") {
-  sys_log_message($component,$message,$message_trace,"","",false);
+  sys_log_message($component,$message,$message_trace,"",false);
 }
 
-function sys_log_message($component,$message,$message_trace,$username,$serverid,$forcedb,$time=0) {
+function sys_log_message($component,$message,$message_trace,$username,$forcedb,$time=0) {
   if ($username=="") {
     if (isset($_SESSION["username"])) $username = $_SESSION["username"]; else $username = "anonymous";
-  }
-  if ($serverid=="") {
-    if (isset($_SESSION["serverid"])) $serverid = $_SESSION["serverid"]; else $serverid = "1";
   }
   if (USE_SYSLOG_FUNCTION) {
 	syslog(LOG_WARNING, $_SERVER["SERVER_NAME"]." (".$_SERVER["SERVER_ADDR"].") ".$component.", user: ".
@@ -3248,7 +3247,7 @@ function sys_log_message($component,$message,$message_trace,$username,$serverid,
 	return;
   }
   if ($forcedb and defined("SETUP_DB_HOST") and !empty(sys::$db) and (is_resource(sys::$db) or is_object(sys::$db))) {
-    $id = sql_genID("simple_sys_events")*100+$serverid;
+    $id = sql_genID("simple_sys_events")*100;
     $row = db_select_first("simple_sys_tree","id","ftype=@ftype@","lft asc",array("ftype"=>"sys_events"));
     if (!empty($row["id"])) {
 	  $error_sql = db_insert("simple_sys_events",array("created"=>$time,"servername"=>$_SERVER["SERVER_NAME"],"serverip"=>$_SERVER["SERVER_ADDR"],"username"=>$username,"id"=>$id,"component"=>$component,"message"=>$message,"message_trace"=>$message_trace));
@@ -3259,7 +3258,7 @@ function sys_log_message($component,$message,$message_trace,$username,$serverid,
 	  }
 	}
   } else {
-    $out = serialize(array($component,str_replace(array("\n","\r"),"",$message),str_replace(array("\n","\r"),"",nl2br($message_trace)),$username,$serverid,NOW));
+    $out = serialize(array($component,str_replace(array("\n","\r"),"",$message),str_replace(array("\n","\r"),"",nl2br($message_trace)),$username,NOW));
 
 	// current directory is changed in destructor
 	chdir(dirname(__FILE__)."/../");

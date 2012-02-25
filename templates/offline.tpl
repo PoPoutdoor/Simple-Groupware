@@ -10,7 +10,7 @@
   <title>{$sys.app_title} - {t}Offline folders{/t}</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="generator" content="Simple Groupware" />
-  <link media="all" href="images_php?css_style={$sys.style}&browser={$sys.browser.name}&{$smarty.const.CORE_VERSION}" rel="stylesheet" type="text/css" />
+  <link media="all" href="ext/cache/core_{$sys.style}_{$sys.browser.name}.css?{$smarty.const.CORE_VERSION}" rel="stylesheet" type="text/css" />
   <script>
     {literal}
 	function update_status() {
@@ -37,7 +37,7 @@
 	}
     {/literal}
   </script>
-  <script type="text/javascript" src="ext/js/functions.js?{$smarty.const.CORE_VERSION}"></script>
+  <script type="text/javascript" src="ext/cache/functions_{$smarty.const.LANG}_{"templates/js/functions.js"|filemtime}.js"></script>
   <style>body {ldelim}margin:10px;{rdelim}</style>
 </head>
 <body onload="update_status();">

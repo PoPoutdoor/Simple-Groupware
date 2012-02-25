@@ -350,7 +350,7 @@ private function _save(array &$data, $id=-1) {
   if (($result = $this->_validate($rdata,$id))) return $result;
   
   if ($insert) {
-	$id = sql_genID($this->tname)*100+$_SESSION["serverid"];
+	$id = sql_genID($this->tname)*100;
 	$sql_data = array("id"=>$id,"dsize"=>0,"history"=>sprintf("{t}Item created by %s at %s{/t}\n",$_SESSION["username"],sys_date("{t}m/d/y g:i:s a{/t}")));
   } else {
     $sql_data = array("dsize"=>0,"history"=>sprintf("{t}Item edited (%s) by %s at %s{/t}\n","@fields@",$_SESSION["username"],sys_date("{t}m/d/y g:i:s a{/t}")));

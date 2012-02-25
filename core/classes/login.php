@@ -299,7 +299,6 @@ static function process_login($username,$password="") {
       db_insert("simple_sys_session",array("expiry"=>NOW+LOGIN_TIMEOUT,"id"=>$id));
 	}
   }
-  $_SESSION["serverid"] = _login_get_serverid();
   $_SESSION["username"] = $username;
   if ($password!="") $_SESSION["password"] = sys_encrypt($password,$id);
   
@@ -398,7 +397,6 @@ static function create_user($username, $data=array()) {
     $_SESSION["permission_sql"] = "1=1";
     $_SESSION["permission_sql_read"] = "1=1";
 	$_SESSION["groups"] = array();
-    $_SESSION["serverid"] = _login_get_serverid();
   }
   $row_id = db_select_value("simple_sys_users","id","username=@username@",array("username"=>$username));
   if (!empty($row_id)) return;

@@ -441,7 +441,7 @@ private static function _restore($filename) {
 	    if (self::$_restore_missing) {
           $data["id"] = $id;
 	    } else {
-          $data["id"] = sql_genID($table)*100 + $_SESSION["serverid"];
+          $data["id"] = sql_genID($table)*100;
 	    }
 	    self::_out("{t}Insert{/t}: ".$table.": ".$data["id"]);
         $error = db_insert($table,$data);

@@ -16,7 +16,7 @@
 	Simple Groupware is copyright 2002-2012 by Thomas Bley.	Extensions and translations are copyright of their respective owners.
 	More information and documentation at http://www.simple-groupware.de/
 -->
-<link media="all" href="images_php?css_style={$sys.style}&browser={$sys.browser.name}&{$smarty.const.CORE_VERSION}" rel="stylesheet" type="text/css" />
+<link media="all" href="ext/cache/core_{$sys.style}_{$sys.browser.name}.css?{$smarty.const.CORE_VERSION}" rel="stylesheet" type="text/css" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="generator" content="Simple Groupware {$sys.version_str}" />
 <meta name="viewport" content="initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0;" />
