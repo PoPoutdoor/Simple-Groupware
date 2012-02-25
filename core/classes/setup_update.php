@@ -69,7 +69,10 @@ static function change_database_pre() {
 	$rows = db_select("simple_sys_custom_fields","*","activated=1","","");
 	if (is_array($rows) and count($rows)>0) {
 	  foreach ($rows as $row) sgsml_customizer::trigger_build_field($row["id"], $row, null, "simple_sys_custom_fields");
-} } }
+	}
+  }
+  setup::errors_show();
+}
 
 static function change_database_post() {
   // change ftype, 0.646

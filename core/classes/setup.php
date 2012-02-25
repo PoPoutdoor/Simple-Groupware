@@ -28,6 +28,73 @@ static function customize_replace($file,$code_remove,$code_new) {
   file_put_contents($file, str_replace($code_remove,$code_new,$data));
 }
 
+static function config_defaults() {
+  $session_name = md5("simple_session_".CORE_VERSION.__DIR__);
+  return array(
+	"APP_TITLE"=>"'Simple Groupware & CMS'",
+	"CMS_TITLE"=>"'PmWiki & Simple Groupware'",
+	"SETUP_ADMIN_USER2"=>"''", "SETUP_ADMIN_PW2"=>"''",
+	"SETUP_AUTH"=>"'sql'", "SETUP_AUTH_AUTOCREATE"=>"0",
+	"SETUP_AUTH_DOMAIN"=>"''", "SETUP_AUTH_DOMAIN_GDATA"=>"''", "SETUP_AUTH_DOMAIN_IMAP"=>"''",
+	"SETUP_AUTH_LDAP_USER"=>"''", "SETUP_AUTH_LDAP_PW"=>"''", "SETUP_AUTH_BASE_DN"=>"''", "SETUP_AUTH_LDAP_UID"=>"'uid'",
+	"SETUP_AUTH_LDAP_MEMBEROF"=>"'memberOf'", "SETUP_AUTH_LDAP_ROOM"=>"''",	"SETUP_AUTH_LDAP_GROUPS"=>"0",
+	"SETUP_AUTH_HOSTNAME_LDAP"=>"''", "SETUP_AUTH_HOSTNAME_IMAP"=>"''",
+	"SETUP_AUTH_HOSTNAME_SMTP"=>"''", "SETUP_AUTH_HOSTNAME_NTLM"=>"''", "SETUP_AUTH_NTLM_SHARE"=>"''", "SETUP_AUTH_NTLM_SSO"=>"0", 
+	"CHECK_DOS"=>"1", "FORCE_SSL"=>"0", "ENABLE_WEBDAV"=>"1",
+	"ENABLE_ANONYMOUS"=>"1", "ENABLE_ANONYMOUS_CMS"=>"1", "DISABLE_BASIC_AUTH"=>"0", "MOUNTPOINT_REQUIRE_ADMIN"=>"0", 
+	"SELF_REGISTRATION"=>"0", "SELF_REGISTRATION_CONFIRM"=>"0", "DISABLED_MODULES"=>"''",
+	"ENABLE_EXT_MAILCLIENT"=>"0", "USE_DEBIAN_BINARIES"=>"0", "USE_MAIL_FUNCTION"=>"0", "USE_SYSLOG_FUNCTION"=>"0",
+	"DEBUG_SQL"=>"false", "DEBUG_IMAP"=>"false", "DEBUG_POP3"=>"false", "DEBUG_JS"=>"false", 
+	"DEBUG_SMTP"=>"false", "DEBUG_JAVA"=>"false", "DEBUG_WEBDAV"=>"false",
+	"LOCKING"=>"900", "FOLDER_REFRESH"=>"5", "LOGIN_TIMEOUT"=>"7200", "SESSION_NAME"=>"'".$session_name."'", "DEFAULT_STYLE"=>"'core'",
+	"WEEKSTART"=>"0", "OUTPUT_CACHE"=>"86400", "CSV_CACHE"=>"300", "LDIF_CACHE"=>"300", "BOOKMARKS_CACHE"=>"300", "ICALENDAR_CACHE"=>"300",
+	"RSS_CACHE"=>"600", "VCARD_CACHE"=>"300", "XML_CACHE"=>"300",
+	"IMAP_CACHE"=>"300", "IMAP_LIST_CACHE"=>"30", "IMAP_MAIL_CACHE"=>"15552000",
+	"POP3_LIST_CACHE"=>"30", "POP3_MAIL_CACHE"=>"15552000",
+	"GDOCS_CACHE"=>"300", "GDOCS_LIST_CACHE"=>"30", "GDOCS_PREVIEW_LIMIT"=>"5242880", "CIFS_PREVIEW_LIMIT"=>"10485760",
+	"FILE_TEXT_LIMIT"=>"2000", "FILE_TEXT_CACHE"=>"15552000", "CMS_CACHE"=>"86400", "LDAP_LIST_CACHE"=>"120", "INDEX_LIMIT"=>"16384",
+	"VIRUS_SCANNER"=>"''", "VIRUS_SCANNER_PARAMS"=>"''", "VIRUS_SCANNER_DISPLAY"=>"''",
+	"SYNC4J_REMOTE_DELETE"=>"0", "SYNC4J"=>"0", "ARCHIVE_DELETED_FILES"=>"1",
+	"SMTP_FOOTER"=>"'Sent with Simple Groupware http://www.simple-groupware.de/'",
+	"SMTP_REMINDER"=>"'Simple Groupware {t}Reminder{/t}'",
+	"SMTP_NOTIFICATION"=>"'Simple Groupware {t}Notification{/t}'",
+	"CORE_COMPRESS_OUTPUT"=>"true", "CORE_OUTPUT_CACHE"=>"false",
+	"APC_SESSION"=>"false","MENU_AUTOHIDE"=>"false","TREE_AUTOHIDE"=>"false","FIXED_FOOTER"=>"false","FDESC_IN_CONTENT"=>"false",
+	"CMS_HOMEPAGE"=>"'HomePage'", "CMS_REAL_URL"=>"''", "DEBUG"=>"false",
+	"SIMPLE_CACHE"=>"'".SIMPLE_CACHE."'", "SIMPLE_CUSTOM"=>"'".SIMPLE_CUSTOM."'", "SIMPLE_IMPORT"=>"'import/'",
+	"SIMPLE_EXT"=>"'ext/'", "TIMEZONE"=>"''", "ASSET_PAGE_LIMIT"=>"100",
+	"SYSTEM_SLOW"=>"2", "DB_SLOW"=>"0.5", "CMS_SLOW"=>"2", "CHMOD_DIR"=>"777", "CHMOD_FILE"=>"666",
+	"INVALID_EXTENSIONS"=>"'386,adb,ade,asd,asf,asp,asx,bas,bat,bin,cab,ceo,cgi,chm,cmd,com,cpl,crt,csc,dat,dbx,dll,drv,".
+		"ema,eml,exe,fon,hlp,hta,hto,htt,img,inf,isp,jse,jsp,ins,lnk,mbx,mda,mdt,mdx,mdw,mdz,mht,".
+		"msc,msg,msi,mso,mst,msp,obj,ocx,oft,ole,ovl,ovr,php,pif,pl,prf,pst,reg,rm,rtf,scr,scs,sct,shb,".
+		"shm,shs,sht,sys,tbb,tbi,uin,vb,vbe,vbs,vbx,vsw,vxd,wab,wsc,wsf,wsh,xl,xla,xsd'",
+  );
+}
+
+static function dirs_create_default_folders() {
+  self::dirs_create_htaccess(SIMPLE_STORE."/");
+  self::dirs_create_dir(SIMPLE_EXT);
+  self::dirs_create_dir(SIMPLE_STORE."/home");
+  self::dirs_create_dir(SIMPLE_STORE."/backup");
+  self::dirs_create_dir(SIMPLE_STORE."/syncml");
+  self::dirs_create_dir(SIMPLE_STORE."/trash");
+  self::dirs_create_dir(SIMPLE_STORE."/cron");
+  self::dirs_create_dir(SIMPLE_STORE."/old");
+
+  $empty_dir = array(
+    SIMPLE_STORE."/locking",
+	SIMPLE_CACHE, SIMPLE_CACHE."/debug", SIMPLE_CACHE."/imap", SIMPLE_CACHE."/pop3",
+	SIMPLE_CACHE."/ip", SIMPLE_CACHE."/artichow", SIMPLE_CACHE."/output",
+	SIMPLE_CACHE."/schema", SIMPLE_CACHE."/schema_data", SIMPLE_CACHE."/smarty",
+	SIMPLE_CACHE."/thumbs", SIMPLE_CACHE."/upload", SIMPLE_CACHE."/backup",
+	SIMPLE_CACHE."/preview", SIMPLE_CACHE."/cifs", SIMPLE_CACHE."/gdocs", SIMPLE_CACHE."/cms",
+	SIMPLE_CACHE."/lang", "/ext/cache",
+  );
+  foreach ($empty_dir as $dir) dirs_create_empty_dir($dir);
+  self::dirs_create_htaccess(SIMPLE_CACHE."/");
+  if (APC) apc_clear_cache("user");
+}
+
 static function out($str="",$nl=true,$exit=false) {
   echo $str;
   if ($nl) echo "<br>\n";
@@ -38,23 +105,6 @@ static function out($str="",$nl=true,$exit=false) {
 
 static function out_exit($str) {
   self::out($str,false,true);
-}
-
-static function get_config_old($key, $full=false, $default="") {
-  static $config_old = null;
-  if ($config_old===null) {
-	$old_file = SIMPLE_STORE."/config_old.php";
-	if (file_exists($old_file)) $config_old = str_replace("\r","",file_get_contents($old_file));
-  }
-  if ($config_old===null and ($pos = strpos($config_old,"define('".$key."',"))) {
-	$pos = $pos+strlen($key)+10;
-	$end = strpos($config_old,"\n",$pos)-$pos-2;
-	$result = substr($config_old,$pos,$end);
-	if (!$full) $result = trim($result,"'\"");
-	if ($key=="INVALID_EXTENSIONS") $result = str_replace(",url,", ",", $result);
-	return $result;
-  }
-  return $default;
 }
 
 static function dirs_create_htaccess($dirname) {
@@ -71,8 +121,34 @@ static function dirs_create_dir($dirname) {
   dirs_create_index_htm($dirname."/");
 }
 
-static function error_add($msg,$id=0) {
-  self::$errors[] = array($msg,$id);
+static function install_header() {
+  echo '
+    <html>
+    <head>
+	<title>Simple Groupware & CMS</title>
+	<style>
+		body, h2, img, div, table.data, a { background-color: #FFFFFF; color: #666666; font-size: 13px; font-family: Arial, Helvetica, Verdana, sans-serif; }
+		a,input { color: #0000FF; }
+		input {
+		  font-size: 11px; background-color: #F5F5F5; border: 1px solid #AAAAAA; height: 18px; vertical-align: middle;
+		  padding-left: 5px; padding-right: 5px; border-radius: 10px;
+		}
+		.submit { color: #0000FF; background-color: #FFFFFF; width: 230px; font-weight: bold; }
+	</style>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    </head>
+    <body>
+    <div style="border-bottom: 1px solid black; letter-spacing: 2px; font-size: 18px; font-weight: bold;">Simple Groupware '.CORE_VERSION_STRING.'</div>
+	<br>
+  ';
+}
+
+static function install_footer() {
+  self::out('<br><a href="index.php">{t}C O N T I N U E{/t}</a><br><finished>');
+  if (function_exists("memory_get_usage") and function_exists("memory_get_peak_usage")) {
+	self::out("<!-- ".modify::filesize(memory_get_usage())." - ".modify::filesize(memory_get_peak_usage())." -->",false);
+  }
+  self::out('<div style="border-top: 1px solid black;">Powered by Simple Groupware, Copyright (C) 2002-2012 by Thomas Bley.</div></div></body></html>',false);
 }
 
 static function show_form($databases, $install, $accept_gpl) {
@@ -242,31 +318,12 @@ static function show_form($databases, $install, $accept_gpl) {
   ';
 }
 
-static function dirs_create_default_folders() {
-  self::dirs_create_htaccess(SIMPLE_STORE."/");
-  self::dirs_create_dir(SIMPLE_EXT);
-  self::dirs_create_dir(SIMPLE_STORE."/home");
-  self::dirs_create_dir(SIMPLE_STORE."/backup");
-  self::dirs_create_dir(SIMPLE_STORE."/syncml");
-  self::dirs_create_dir(SIMPLE_STORE."/trash");
-  self::dirs_create_dir(SIMPLE_STORE."/cron");
-  self::dirs_create_dir(SIMPLE_STORE."/old");
-
-  $empty_dir = array(
-    SIMPLE_STORE."/locking",
-	SIMPLE_CACHE, SIMPLE_CACHE."/debug", SIMPLE_CACHE."/imap", SIMPLE_CACHE."/pop3",
-	SIMPLE_CACHE."/ip", SIMPLE_CACHE."/artichow", SIMPLE_CACHE."/output",
-	SIMPLE_CACHE."/schema", SIMPLE_CACHE."/schema_data", SIMPLE_CACHE."/smarty",
-	SIMPLE_CACHE."/thumbs", SIMPLE_CACHE."/upload", SIMPLE_CACHE."/backup",
-	SIMPLE_CACHE."/preview", SIMPLE_CACHE."/cifs", SIMPLE_CACHE."/gdocs", SIMPLE_CACHE."/cms",
-	SIMPLE_CACHE."/lang", "/ext/cache",
-  );
-  foreach ($empty_dir as $dir) dirs_create_empty_dir($dir);
-  self::dirs_create_htaccess(SIMPLE_CACHE."/");
-  if (APC) apc_clear_cache("user");
+static function error_add($msg,$id=0) {
+  self::$errors[] = array($msg,$id);
 }
 
 static function errors_show($phpinfo=false) {
+  if (count(self::$errors)==0) return;
   $err = "";
   $msg = "";
   foreach (self::$errors as $message) {
