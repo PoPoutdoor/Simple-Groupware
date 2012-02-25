@@ -86,8 +86,7 @@ if ($content_length > 20*1024*1024) { // filesize > 20M
   exit;
 }
 
-define("SIMPLE_STORE","simple_store");
-@include(SIMPLE_STORE."/config.php");
+@include("simple_store/config.php");
 if (!defined("SETUP_DB_HOST")) exit;
 if (!ENABLE_WEBDAV) {
   header("HTTP/1.1 403 Forbidden");
