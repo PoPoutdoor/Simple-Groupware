@@ -18,9 +18,9 @@
   <tab name="address" displayname="{t}Address{/t}" />
   <tab name="miscellaneous" displayname="{t}Miscellaneous{/t}" />  
   <tab name="other" displayname="{t}Other{/t}" />
-  <singlebutton views="display|details" name="calendar" displayname="{t}Appointments{/t}" onclick="locate('index.php?view=display&amp;find=assets|simple_calendar||participants_ext~¦@contactid@¦&amp;markdate=all');" icon="modules/calendar.png" />
-  <singlebutton views="display|details" name="tasks" displayname="{t}Tasks{/t}" onclick="locate('index.php?view=all&amp;find=assets|simple_tasks||responsibles_ext~¦@contactid@¦');" icon="modules/tasks.png" />
-  <singlebutton views="display|details" name="contactactivities" displayname="{t}Contact activities{/t}" onclick="locate('index.php?view=all&amp;find=assets|simple_contactactivities||contactid=@contactid@');" icon="modules/contactactivities.png" />
+  <singlebutton views="display|details" name="calendar" displayname="{t}Appointments{/t}" onclick="locate('index.php?view=display&amp;find=assets|simple_calendar||participants_ext~¦@contactid@¦&amp;markdate=all');" icon="../modules/calendar.png" />
+  <singlebutton views="display|details" name="tasks" displayname="{t}Tasks{/t}" onclick="locate('index.php?view=all&amp;find=assets|simple_tasks||responsibles_ext~¦@contactid@¦');" icon="../modules/tasks.png" />
+  <singlebutton views="display|details" name="contactactivities" displayname="{t}Contact activities{/t}" onclick="locate('index.php?view=all&amp;find=assets|simple_contactactivities||contactid=@contactid@');" icon="../modules/contactactivities.png" />
   
   <field name="lastname" displayname="{t}Last name{/t}" simple_type="text" required="true" simple_default_function="fillcontact|lastname">
     <linktext views="display" value="#index.php?view=details&amp;iframe=1&amp;item[]=@id@"/>
