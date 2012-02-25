@@ -31,7 +31,7 @@ static function file_get_contents($file,$schema,$custom_schema) {
     self::_merge_simplexml($obj, new SimpleXMLElement($custom_schema));
 	$content = $obj->asXml();
   }
-  return trans(str_replace(array("../modules/","modules/",$content));
+  return trans(str_replace(array("../modules/","modules/",$content)));
 }
 
 static function parse_schema($data,$tname,$cache_time,$cache_file) {
