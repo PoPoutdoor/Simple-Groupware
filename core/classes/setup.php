@@ -51,8 +51,9 @@ static function validate_system() {
   }
 
   $sys_extensions = get_loaded_extensions();
-  foreach($extensions as $key) if (!in_array($key2, $sys_extensions)) setup::error_add(sprintf("{t}Setup needs php-extension with name %s !{/t}",$key),"5".$key);
-
+  foreach($extensions as $key) {
+	if (!in_array($key, $sys_extensions)) setup::error_add(sprintf("{t}Setup needs php-extension with name %s !{/t}",$key),"5".$key);
+  }
   $databases = array();
   foreach ($db_extensions as $key => $vals) {
 	if (in_array($key, $sys_extensions)) $databases[str_replace("pdo_","",$key)] = $vals;
