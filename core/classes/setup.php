@@ -60,7 +60,7 @@ static function get_config_old($key, $full=false, $default="") {
 static function dirs_create_htaccess($dirname) {
   if (!file_exists($dirname.".htaccess")) {
     if (!@file_put_contents($dirname.".htaccess", "Order deny,allow\nDeny from all\n", LOCK_EX)) {
-	  self::error(sprintf("{t}Please give write access to %s{/t}",$dirname),25);
+	  self::error_add(sprintf("{t}Please give write access to %s{/t}",$dirname),25);
     }
   }
   dirs_create_index_htm($dirname);
@@ -71,7 +71,7 @@ static function dirs_create_dir($dirname) {
   dirs_create_index_htm($dirname."/");
 }
 
-static function error($msg,$id=0) {
+static function error_add($msg,$id=0) {
   self::$errors[] = array($msg,$id);
 }
 
@@ -266,7 +266,7 @@ static function dirs_create_default_folders() {
   if (APC) apc_clear_cache("user");
 }
 
-static function display_errors($phpinfo=false) {
+static function errors_show($phpinfo=false) {
   $err = "";
   $msg = "";
   foreach (self::$errors as $message) {
