@@ -10,8 +10,7 @@
 define("MAIN_SCRIPT",basename($_SERVER["PHP_SELF"]));
 
 error_reporting(E_ALL);
-define("SIMPLE_STORE","simple_store");
-@include(SIMPLE_STORE."/config.php");
+@include("simple_store/config.php");
 if (!defined("SETUP_DB_HOST")) exit;
 
 require("core/functions.php");
