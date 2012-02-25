@@ -3134,6 +3134,7 @@ function sys_custom($file) {
 function sys_trans($file, $class) {
   $cache_file = SIMPLE_CACHE."/lang/".basename($class)."_".LANG."_".filemtime($file)."_".filemtime("lang/".LANG.".lang").".php";
   if (!file_exists($cache_file)) {
+	sys_mkdir(SIMPLE_CACHE."/lang/");
 	file_put_contents($cache_file, trans(file_get_contents($file)));
 	if (DEBUG and empty($_REQUEST["iframe"])) echo "reload lang ".$class;
   }
