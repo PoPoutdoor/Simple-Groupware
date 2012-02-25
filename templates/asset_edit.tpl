@@ -5,7 +5,7 @@
  * @copyright Copyright (C) 2002-2012 by Thomas Bley
  * @license GPLv2
  *}
-<script type="text/javascript" src="ext/js/functions_edit.js?{$smarty.const.CORE_VERSION}"></script>
+<script type="text/javascript" src="ext/cache/functions_edit_{$smarty.const.LANG}.js?{$smarty.const.CORE_VERSION}"></script>
 {strip}
 {if $t.rights.write}
 <form method="post" action="index.php?" enctype="multipart/form-data" onsubmit="window.onbeforeunload=null; return form_submit(this);" id="asset_form" name="asset_form">

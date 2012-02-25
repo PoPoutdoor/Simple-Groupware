@@ -37,7 +37,7 @@
 	}
     {/literal}
   </script>
-  <script type="text/javascript" src="ext/cache/functions_{$smarty.const.LANG}_{"templates/js/functions.js"|filemtime}.js"></script>
+  <script type="text/javascript" src="ext/cache/functions_{$smarty.const.LANG}.js?{$smarty.const.CORE_VERSION}"></script>
   <style>body {ldelim}margin:10px;{rdelim}</style>
 </head>
 <body onload="update_status();">

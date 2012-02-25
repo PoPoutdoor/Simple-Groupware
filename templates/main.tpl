@@ -73,7 +73,7 @@
 {if ($sys.browser.name neq "firefox" || $sys.browser.ver lt 35) && ($sys.browser.name neq "safari" || $sys.browser.ver lt 530)}
   <script type="text/javascript" src="ext/lib/json/json.js"></script>
 {/if}
-<script type="text/javascript" src="ext/cache/functions_{$smarty.const.LANG}_{"templates/js/functions.js"|filemtime}.js"></script>
+<script type="text/javascript" src="ext/cache/functions_{$smarty.const.LANG}.js?{$smarty.const.CORE_VERSION}"></script>
 </head>
 <body {if $print eq 1}onload="window.print();"{/if} onresize="resizeit();">
 
