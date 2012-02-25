@@ -28,6 +28,34 @@ static function customize_replace($file,$code_remove,$code_new) {
   file_put_contents($file, str_replace($code_remove,$code_new,$data));
 }
 
+static function save_config($vars) {
+  $out = array();
+  $out[] = "<?"."php";
+  $out[] = "define('CORE_VERSION','".CORE_VERSION."');";
+  $out[] = "define('CORE_VERSION_STRING','".CORE_VERSION_STRING."');";
+  $out[] = "define('CORE_SGSML_VERSION','".CORE_SGSML_VERSION."');";
+  foreach ($vars as $key=>$var) $out[] = "define('".$key."',".$var.");";
+
+  foreach (self::config_defaults() as $key=>$var) {
+	$var = setup_update::get_config_old($key,true,$var);
+	$out[] = "define('".$key."',".$var.");";
+  }
+  $out[] = "if (TIMEZONE!='') date_default_timezone_set(TIMEZONE);\n".
+		   "  elseif (version_compare(PHP_VERSION,'5.3','>') and !ini_get('date.timezone')) date_default_timezone_set(@date_default_timezone_get());";
+  $out[] = "if (!ini_get('display_errors')) @ini_set('display_errors','1');";
+  $out[] = "define('NOW',time());";
+  $lang = setup_update::get_config_old("lang",true,"'en'");
+  $out[] = "define('LANG',".$lang.");";
+  $out[] = "define('APC',function_exists('apc_store') and ini_get('apc.enabled'));";
+
+  file_put_contents(SIMPLE_STORE."/config.php", implode("\n",$out), LOCK_EX);
+  if (!file_exists(SIMPLE_STORE."/config.php") or filesize(SIMPLE_STORE."/config.php")==0) {
+	sys_die("cannot write to: ".SIMPLE_STORE."/config.php");
+  }
+  chmod(SIMPLE_STORE."/config.php", 0600);
+  sys_log_message_log("info",sprintf("{t}Setup: setup-data written to %s.{/t}",SIMPLE_STORE."/config.php"));
+}
+
 static function validate_system() {
   $extensions = array("xml", "gd", "pcre", "session", "zlib", "SimpleXML");
   $db_extensions = array("mysql"=>array("MySQL", "5.00"), "pgsql"=>array("PostgreSQL", "8.36"), "pdo_sqlite"=>array("SQLite", "3.00"));
@@ -41,39 +69,39 @@ static function validate_system() {
   $memorylimit = 24000000;
 
   if (!empty($_SERVER["SERVER_SOFTWARE"]) and !preg_match("/Apache|nginx|IIS/", $_SERVER["SERVER_SOFTWARE"])) {
-	setup::error_add("{t}Please choose Apache as Web-Server.{/t} (".$_SERVER["SERVER_SOFTWARE"].")","2".$_SERVER["SERVER_SOFTWARE"]);
+	self::error_add("{t}Please choose Apache as Web-Server.{/t} (".$_SERVER["SERVER_SOFTWARE"].")","2".$_SERVER["SERVER_SOFTWARE"]);
   }
 
   $memory = ini_get("memory_limit");
   if (!empty($memory)) {
 	$memory = (int)str_replace("m","000000",strtolower($memory));
-	if ($memory < $memorylimit) setup::error_add(sprintf("{t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}","memory_limit",str_replace("000000","M",$memorylimit),ini_get("memory_limit")),4);
+	if ($memory < $memorylimit) self::error_add(sprintf("{t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}","memory_limit",str_replace("000000","M",$memorylimit),ini_get("memory_limit")),4);
   }
 
   $sys_extensions = get_loaded_extensions();
   foreach($extensions as $key) {
-	if (!in_array($key, $sys_extensions)) setup::error_add(sprintf("{t}Setup needs php-extension with name %s !{/t}",$key),"5".$key);
+	if (!in_array($key, $sys_extensions)) self::error_add(sprintf("{t}Setup needs php-extension with name %s !{/t}",$key),"5".$key);
   }
   $databases = array();
   foreach ($db_extensions as $key => $vals) {
 	if (in_array($key, $sys_extensions)) $databases[str_replace("pdo_","",$key)] = $vals;
   }
-  if (count($databases)==0) setup::error_add(sprintf("{t}Setup needs a database-php-extension ! (%s){/t}",implode(", ",array_keys($db_extensions))),6);
+  if (count($databases)==0) self::error_add(sprintf("{t}Setup needs a database-php-extension ! (%s){/t}",implode(", ",array_keys($db_extensions))),6);
 
   foreach ($settings as $setting => $values) {
-	if (!in_array(ini_get($setting), $values)) setup::error_add(sprintf("{t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}",$setting,$values[0],ini_get($setting)),"7".$setting);
+	if (!in_array(ini_get($setting), $values)) self::error_add(sprintf("{t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}",$setting,$values[0],ini_get($setting)),"7".$setting);
   }
 
   clearstatcache();
   if (!is_writable(SIMPLE_CACHE."/") or !is_writable(SIMPLE_STORE."/")) {
 	$message = sprintf("[1] {t}Please give write access to %s and %s{/t}",SIMPLE_CACHE."/",SIMPLE_STORE."/");
 	$message .= sprintf("\n{t}If file system permissions are ok, please check the configurations of %s if present.{/t}", "SELinux, suPHP, Suhosin");
-	setup::error_add($message,8);
+	self::error_add($message,8);
   }
-  if (!is_writable("ext/cache/")) setup::error_add(sprintf("[2] {t}Please give write access to %s{/t}","ext/cache/"),9);
-  if (!is_readable("lang/")) setup::error_add(sprintf("[3] {t}Please give read access to %s{/t}","lang/"),11);
-  if (is_dir("import/") and !is_readable("import/")) setup::error_add(sprintf("[4] {t}Please give read access to %s{/t}","import/"),111);
-  setup::errors_show(true);
+  if (!is_writable("ext/cache/")) self::error_add(sprintf("[2] {t}Please give write access to %s{/t}","ext/cache/"),9);
+  if (!is_readable("lang/")) self::error_add(sprintf("[3] {t}Please give read access to %s{/t}","lang/"),11);
+  if (is_dir("import/") and !is_readable("import/")) self::error_add(sprintf("[4] {t}Please give read access to %s{/t}","import/"),111);
+  self::errors_show(true);
 
   return $databases;
 }
