@@ -200,6 +200,7 @@ function install($databases) {
 		   "  elseif (version_compare(PHP_VERSION,'5.3','>') and !ini_get('date.timezone')) date_default_timezone_set(@date_default_timezone_get());";
   $out[] = "if (!ini_get('display_errors')) @ini_set('display_errors','1');";
   $out[] = "define('NOW',time());";
+  $lang = setup_update::get_config_old("lang",true,"en");
   $out[] = "define('LANG',".$lang.");";
   $out[] = "define('APC',function_exists('apc_store') and ini_get('apc.enabled'));";
   $out[] = "?>";
