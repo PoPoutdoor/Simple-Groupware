@@ -114,13 +114,13 @@ function install($databases) {
   }
 
   if (!$version = sgsml_parser::sql_version()) setup::error_add(sprintf("{t}Could not determine database-version.{/t}"),38);
-  $database_min = (int)substr(str_replace(".","",$databases[SETUP_DB_TYPE]),0,3);
+  $database_min = (int)substr(str_replace(".","",$databases[SETUP_DB_TYPE][1]),0,3);
   if ($version < $database_min) setup::error_add(sprintf("{t}Wrong database-version (%s). Please use at least %s !{/t}",$version,$databases[SETUP_DB_TYPE]),"20".SETUP_DB_TYPE);
 
   if (sgsml_parser::table_column_exists("simple_sys_tree","id")) {
-    echo '<img src="http://www.simple-groupware.de/cms/logo.php?v='.CORE_VERSION.$_REQUEST["language"].'&u=1&p='.PHP_VERSION.'_'.PHP_OS.'&d='.SETUP_DB_TYPE.$version.'" style="width:1px; height:1px;">';
+    echo '<img src="http://www.simple-groupware.de/cms/logo.php?v='.CORE_VERSION.'&u=1&p='.PHP_VERSION.'_'.PHP_OS.'&d='.SETUP_DB_TYPE.$version.'" style="width:1px; height:1px;">';
   } else {
-    echo '<img src="http://www.simple-groupware.de/cms/logo.php?v='.CORE_VERSION.$_REQUEST["language"].'&u=0&p='.PHP_VERSION.'_'.PHP_OS.'&d='.SETUP_DB_TYPE.$version.'" style="width:1px; height:1px;">';
+    echo '<img src="http://www.simple-groupware.de/cms/logo.php?v='.CORE_VERSION.'&u=0&p='.PHP_VERSION.'_'.PHP_OS.'&d='.SETUP_DB_TYPE.$version.'" style="width:1px; height:1px;">';
   }
   
   if (SETUP_DB_TYPE=="pgsql") {
