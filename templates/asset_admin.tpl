@@ -82,7 +82,7 @@
 <hr>
 <pre>
 Simple Groupware version: {$sys.version_str}
-Simple Groupware language: {$smarty.const.SETUP_LANGUAGE}
+Simple Groupware language: {$smarty.const.LANG}
 PHP Version: {$smarty.const.PHP_VERSION}
 Database + Version: {$smarty.const.SETUP_DB_TYPE} {""|sgsml_parser::sql_version}
 Server OS: {""|php_uname}
