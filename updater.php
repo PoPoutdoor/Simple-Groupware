@@ -10,6 +10,7 @@
 define("NOCONTENT",true);
 
 require("index.php");
+@ini_set("output_buffering","0");
 @set_time_limit(1800);
 
 if (!sys_is_super_admin($_SESSION["username"])) sys_die("{t}Not allowed. Please log in as super administrator.{/t}");
