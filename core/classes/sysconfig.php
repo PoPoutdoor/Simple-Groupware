@@ -84,7 +84,7 @@ static $caches = array(
 	"XML_CACHE"=>"","IMAP_CACHE"=>"","IMAP_LIST_CACHE"=>"","IMAP_MAIL_CACHE"=>"","POP3_LIST_CACHE"=>"",
 	"POP3_MAIL_CACHE"=>"","GDOCS_CACHE"=>"","GDOCS_LIST_CACHE"=>"","GDOCS_PREVIEW_LIMIT"=>"","CIFS_PREVIEW_LIMIT"=>"",
 	"LDAP_LIST_CACHE"=>"","CMS_CACHE"=>"", "FILE_TEXT_LIMIT"=>"", "FILE_TEXT_CACHE"=>"", "INDEX_LIMIT"=>"",
-	"SIMPLE_CACHE"=>"","SIMPLE_CUSTOM"=>"","SIMPLE_EXT"=>"","SIMPLE_IMPORT"=>"","CHMOD_DIR"=>"","CHMOD_FILE"=>""
+	"SIMPLE_CACHE"=>"","SIMPLE_STORE"=>"","SIMPLE_CUSTOM"=>"","SIMPLE_EXT"=>"","SIMPLE_IMPORT"=>"","CHMOD_DIR"=>"","CHMOD_FILE"=>""
 );
 static $textareas = array(
 	"smtp_footer"=>array("SMTP {t}mail footer{/t}"),
@@ -100,6 +100,7 @@ static $multi_selects = array();
 static function init() {
   self::$selects["default_style"] = array("{t}Default theme{/t}",select::themes());
   self::$selects["timezone"] = array("{t}Time zone{/t}, {t}current time{/t}: ".sys_date("{t}g:i a{/t}"), select::timezones(true));
+  self::$selects["lang"] = array("{t}Default language{/t}", select::languages());
   $modules = select::modules_all();
   asort($modules);
   self::$multi_selects["disabled_modules"] = array("{t}Disabled modules{/t}",$modules);
@@ -140,6 +141,9 @@ static function validate() {
   }
   if (empty($_REQUEST["simple_cache"]) or !is_dir($_REQUEST["simple_cache"])) {
 	return "SIMPLE_CACHE: {t}validation failed{/t} ".$_REQUEST["simple_cache"];
+  }
+  if (empty($_REQUEST["simple_store"]) or !is_dir($_REQUEST["simple_store"])) {
+	return "SIMPLE_STORE: {t}validation failed{/t} ".$_REQUEST["simple_store"];
   }
   if (empty($_REQUEST["simple_custom"]) or !is_dir($_REQUEST["simple_custom"])) {
 	return "SIMPLE_CUSTOM: {t}validation failed{/t} ".$_REQUEST["simple_custom"];
@@ -209,24 +213,25 @@ static function write_config($no_hash, $no_hash2) {
   $out[] = "define('NOW',time());";
   $out[] = "define('APC',function_exists('apc_store') and ini_get('apc.enabled'));";
   $out[] = "?>";
-  file_put_contents(SIMPLE_STORE."/config.php", implode("\n",$out), LOCK_EX);
+  file_put_contents("simple_store/config.php", implode("\n",$out), LOCK_EX);
 
   if (SIMPLE_CACHE!=$_REQUEST["simple_cache"]) {
 	self::dirs_clear_caches(SIMPLE_CACHE);
 	self::dirs_clear_caches($_REQUEST["simple_cache"]);
   }
+  // TODO initialize simple_store if different
   if (SIMPLE_CUSTOM!=$_REQUEST["simple_custom"]) {
 	self::dirs_clear_custom($_REQUEST["simple_custom"]);
   }
   if (SIMPLE_EXT!=$_REQUEST["simple_ext"]) {
 	self::dirs_clear_custom($_REQUEST["simple_ext"]);
   }
-  sys_log_message_log("info",sprintf("{t}Setup: setup-data written to %s.{/t}",SIMPLE_STORE."/config.php"));
+  sys_log_message_log("info",sprintf("{t}Setup: setup-data written to %s.{/t}","simple_store/config.php"));
 }
 
 static function show_form() {
   echo '
-	<form action="config.php" method="post">
+	<form action="sysconfig.php" method="post">
 	<input type="hidden" value="'.modify::get_form_token().'" name="token">
 	<table class="data">
   ';
