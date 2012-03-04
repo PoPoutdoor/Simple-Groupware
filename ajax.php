@@ -22,7 +22,7 @@ if (ini_get("register_globals")) modify::dropglobals();
 @ignore_user_abort(1);
 
 if (!sql_connect(SETUP_DB_HOST, SETUP_DB_USER, sys_decrypt(SETUP_DB_PW,sha1(SETUP_ADMIN_USER)), SETUP_DB_NAME)) {
-  $err = sprintf("{t}Cannot connect to database %s on %s.{/t}\n",SETUP_DB_NAME,SETUP_DB_HOST).sql_error();
+  $err = t("{t}Cannot connect to database %s on %s.{/t}\n",SETUP_DB_NAME,SETUP_DB_HOST).sql_error();
   trigger_error($err,E_USER_ERROR);
   exit($err);
 }
@@ -52,7 +52,7 @@ if (empty($_REQUEST["function"]) and empty($_SERVER["HTTP_SOAPACTION"])) {
 }
 
 if (!empty($_SERVER["HTTP_SOAPACTION"])) {
-  if (!extension_loaded("soap")) sys_die(sprintf("{t}%s is not compiled / loaded into PHP.{/t}","Soap"));
+  if (!extension_loaded("soap")) sys_die(t("{t}%s is not compiled / loaded into PHP.{/t}","Soap"));
   $soap = new SoapServer(null, array('uri'=>'sgs'));
   $soap->setClass($class);
   $soap->handle();
