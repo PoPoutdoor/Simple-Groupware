@@ -83,7 +83,7 @@ For advanced searches, [[PmWiki/PageLists]] parameters (count, group, fmt, link,
 <title>Simple Groupware {t}Help{/t}</title>
 <data>
 This is a template. Here you can add support information for your users.\\
-Click the edit button below to edit this page.
+Click the edit button on top to edit this page.
 
 Documentation about Simple Groupware can be found at:\\
 %newwin% [[http://www.simple-groupware.de/cms/Documentation | www.simple-groupware.de/cms/Documentation]]
@@ -92,6 +92,32 @@ Documentation about Simple Groupware can be found at:\\
 <activated>1</activated>
 <staticcache>0</staticcache>
 <rss_include>0</rss_include>
+<rread_users>|anonymous|</rread_users>
+<rwrite_users>|anonymous|</rwrite_users>
+</asset>
+<asset>
+<pagename>Site.SideBar</pagename>
+<data><![CDATA[* [[Main/HomePage]]
+* [[Main/WikiSandbox]]
+
+%sidehead% [[PmWiki/PmWiki]]
+* [[PmWiki/Basic Editing]]
+* [[PmWiki/Documentation Index]]
+* [[PmWiki/FAQ | PmWiki FAQ ]]
+* [[PmWiki/PmWikiPhilosophy]]
+
+%sidehead% [[http://www.pmwiki.org | pmwiki.org ]]
+* [[Cookbook:CookbookBasics | Cookbook (addons) ]]
+* [[Cookbook:Skins | Skins (themes) ]]
+* [[PITS:PITS | PITS (issue tracking) ]]
+* [[PmWiki/Mailing Lists]]
+
+%right% [-[[Site.SideBar?action=edit | edit SideBar]]-]]]></data>
+<template>pmwiki.tpl</template>
+<activated>1</activated>
+<staticcache>1</staticcache>
+<rss_include>1</rss_include>
+<author></author>
 <rread_users>|anonymous|</rread_users>
 <rwrite_users>|anonymous|</rwrite_users>
 </asset>
