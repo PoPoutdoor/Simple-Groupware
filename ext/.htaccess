@@ -1,6 +1,5 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
-	
 RewriteCond %{REQUEST_METHOD}  ^GET
 RewriteCond %{REQUEST_URI}  /ext/(.*)/
 RewriteCond %{REQUEST_FILENAME}%{PATH_INFO}  ^(.*)/(ext/.*)$
@@ -15,3 +14,7 @@ RewriteCond %1/../ext/%2  -f
 RewriteCond %{REQUEST_URI}  ^(.*)/ext/
 RewriteRule .* %1/../ext/ext/$0  [L]
 </IfModule>
+
+<ifModule mod_headers.c>
+Header set Cache-Control "max-age=86400"
+</ifModule>
