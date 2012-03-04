@@ -10,7 +10,7 @@
 define("NOCONTENT",true);
 
 require("index.php");
-if (!sys_is_super_admin($_SESSION["username"])) sys_die("{t}Not allowed. Please log in as super administrator.{/t}");
+if (!sys_is_super_admin($_SESSION["username"])) sys_die(t("{t}Not allowed. Please log in as super administrator.{/t}"));
 
 if (empty($_REQUEST["console"])) $_REQUEST["console"] = "sys";
 
@@ -29,11 +29,11 @@ $code = "";
 $tlimit = 0;
 $mlimit = 0;
 if (!empty($_REQUEST["code"])) {
-  if (!sys_validate_token()) sys_die("{t}Invalid security token{/t}");
+  if (!sys_validate_token()) sys_die(t("{t}Invalid security token{/t}"));
   $code = $_REQUEST["code"];
 }
 if (!empty($_REQUEST["name"])) {
-  if (!sys_validate_token()) sys_die("{t}Invalid security token{/t}");
+  if (!sys_validate_token()) sys_die(t("{t}Invalid security token{/t}"));
   $code = db_select_value("simple_sys_console", "command", "name=@name@", array("name"=>$_REQUEST["name"]));
 }
 if (!empty($_REQUEST["tlimit"])) {
@@ -73,24 +73,24 @@ if ($_REQUEST["console"]=="php") {
 } else {
   $content = "";
   $title = "SQL Console:&nbsp; ".SETUP_DB_USER." @ ".SETUP_DB_NAME."&nbsp; [".SETUP_DB_TYPE." ".sgsml_parser::sql_version()."] ";
-  $title .= sys_date("{t}m/d/y g:i:s a{/t}");
+  $title .= sys_date(t("{t}m/d/y g:i:s a{/t}"));
   if ($code!="") {
 	if (($data = sql_fetch($code,false)) === false) {
       $content .= sql_error();
     } else if (is_array($data) and count($data)>0) {
       $content .= show_table($data, isset($_REQUEST["full_texts"]), isset($_REQUEST["vertical"]));
     } else if (SETUP_DB_TYPE=="mysql" and $num = mysql_affected_rows()) {
-	  $content .= sprintf("{t}%s rows affected{/t}",$num);
+	  $content .= t("{t}%s rows affected{/t}",$num);
 	} else {
-	  $content .= "{t}Empty{/t}";
+	  $content .= t("{t}Empty{/t}");
 	}
   }
   $smarty->assign("database", SETUP_DB_NAME);
   $smarty->assign("auto_complete", true);
 }
 if ($code!="") {
-  $content .= "<br/>&nbsp;".sprintf("{t}%s secs{/t}", number_format(microtime(true)-$start, 4));
-  $content .= ", ".sprintf("{t}%s M memory usage{/t}", number_format(memory_get_peak_usage(true)/1048576, 2));
+  $content .= "<br/>&nbsp;".t("{t}%s secs{/t}", number_format(microtime(true)-$start, 4));
+  $content .= ", ".t("{t}%s M memory usage{/t}", number_format(memory_get_peak_usage(true)/1048576, 2));
 }
 
 $smarty->assign("title", $title);
