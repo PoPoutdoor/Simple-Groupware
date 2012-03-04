@@ -20,6 +20,7 @@ class build {
 
 	public function __construct($archives=true, $manuals=true) {
 		$this->translationMaster();
+		exit;
 		$this->validateTranslation("de");
 
 		$this->sysCheck();
@@ -75,17 +76,16 @@ class build {
 					continue;
 				}
 				$data = file_get_contents($src.$file);
-				$regexp = "!t\(\"([^\"]+)!i";
-				if (strpos($src, "../templates/")===0) $regexp = "!\{t\}([^\{]+)!i";
 				$matches = array();
-				if (preg_match_all($regexp,$data,$matches,PREG_SET_ORDER)) {
+				if (preg_match_all("!\{t\}([^\{]+)!i", $data, $matches, PREG_SET_ORDER)) {
 					foreach ($matches as $match) $master_lang[] = "** ".$match[1];
 				}
 			}
 		}
 		sort($master_lang);
-		// TODO add gpl notice
-		file_put_contents("../lang/master.lang", "\xEF\xBB\xBF".implode("\n\n\n", $master_lang));
+		$header = "/**\n * @package Simple Groupware\n * @license GPLv2\n */\n\n";
+		$header .= "** !_Language\nEnglish\n\n";
+		file_put_contents("../lang/master.lang", "\xEF\xBB\xBF".$header.implode("\n\n\n", array_unique($master_lang)));
 		copy("../lang/master.lang", "../lang/en.lang");
 	}
 	
