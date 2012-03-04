@@ -18,38 +18,7 @@ $folder = $_REQUEST["folder"];
 
 sys_check_auth();
 
-setup::out('
-	<html>
-	<head>
-	<title>Simple Groupware {t}Import{/t}</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<style>
-	  body, h2, img, div, table.data, a {
-		background-color: #FFFFFF; color: #666666; font-size: 13px; font-family: Arial, Helvetica, Verdana, sans-serif;
-	  }
-	  a,input { color: #0000FF; }
-	  input {
-		font-size: 11px; background-color: #F5F5F5; border: 1px solid #AAAAAA; height: 18px;
-		vertical-align: middle; padding-left: 5px; padding-right: 5px; border-radius: 10px;
-	  }
-	  .checkbox, .radio { border: 0px; background-color: transparent; }
-	  .submit { color: #0000FF; background-color: #FFFFFF; width: 125px; font-weight: bold; }
-	  
-	  .border {
-		border-bottom: 1px solid black;
-	  }
-	  .headline {
-		letter-spacing: 2px;
-		font-size: 18px;
-		font-weight: bold;
-	  }
-	</style>
-	</head>
-	<body>
-	<div class="border headline">Simple Groupware {t}Import{/t}</div>
-	<br>
-	<a href="index.php">{t}Back{/t}</a><br>
-');
+import::header();
 
 $infos = array();
 $errors = array();
@@ -100,28 +69,6 @@ foreach ($sgsml->current_fields as $name=>$field) {
   if (empty($field["REQUIRED"])) continue;
   $required_fields[$name] = !empty($field["DISPLAYNAME"])?$field["DISPLAYNAME"]:$name;
 }
-setup::out_exit('
-	Folder: '.modify::htmlquote(modify::getpathfull($folder)).'<br>
-	<br>
-	<a href="index.php?export=calc&limit=1&hide_fields=id&folder='.modify::htmlquote($folder).'&view=details">{t}Download example file{/t} (.xls)</a>
-	<br>
-	{t}Required fields{/t}: '.modify::htmlquote(implode(", ", $required_fields)).'
-	<br><br>
-	{t}File{/t} (.xls):<br>
-	<form method="post" action="import.php?" enctype="multipart/form-data">
-	<input type="hidden" name="token" value="'.modify::get_form_token().'">
-	<input type="hidden" name="folder" value="'.modify::htmlquote($folder).'">
-	<input type="File" name="file[]" value="" multiple="true" required="true">
-	<input type="submit" value="{t}I m p o r t{/t}" class="submit">
-	<input type="submit" name="validate_only" value="{t}V a l i d a t e{/t}" class="submit">
-	</form>
-	<br>
-	<b>{t}Note{/t}:</b> {t}Assets can be imported into multiple folders by adding the "Folder" column.{/t}<br>
-	<b>{t}Note{/t}:</b> {t}Assets can be overwritten by adding the "Id" column.{/t}<br>
-	<br>
-	<div style="border-top: 1px solid black;">Powered by Simple Groupware, Copyright (C) 2002-2012 by Thomas Bley.</div></div>
-	</body>
-	</html>
-');
+import::form($folder, $required_fields);
 
 // TODO use URL for upload
