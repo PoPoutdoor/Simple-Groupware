@@ -106,7 +106,7 @@ static function validate_system() {
   return $databases;
 }
 
-static function validate_input() {
+static function validate_input($databases) {
   if ($validate=validate::username($_REQUEST["admin_user"]) and $validate!="") setup::error_add("{t}Admin Username{/t} - {t}validation failed{/t} ".$validate,30);
   if ($_REQUEST["db_host"]=="") setup::error_add(sprintf("{t}missing field{/t}: %s","{t}Database Hostname / IP{/t}"),31);
   if ($_REQUEST["db_user"]=="") setup::error_add(sprintf("{t}missing field{/t}: %s","{t}Database User{/t}"),32);
