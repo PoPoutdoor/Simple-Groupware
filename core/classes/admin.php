@@ -39,6 +39,8 @@ static function process_action_sys() {
 	  dirs_create_empty_dir(SIMPLE_CACHE."/output");
 	  dirs_create_empty_dir(SIMPLE_CACHE."/artichow");
 	  dirs_create_empty_dir(SIMPLE_CACHE."/thumbs");
+	  dirs_create_empty_dir(SIMPLE_CACHE."/lang");
+	  dirs_create_empty_dir("ext/cache");
 	  sys_log_message_log("clean","{t}Output{/t}");
 	  break;
 	case "clear_debug":
