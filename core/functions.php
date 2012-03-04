@@ -68,7 +68,7 @@ class sys {
 	self::$smarty->config_dir = "templates/css";
 	self::$smarty->compile_check = false;
 
-	$browsers = array("firefox", "safari", "msie", "opera");
+	$browsers = array("firefox", "safari", "msie", "opera", "chrome", "konqueror", "thunderbird", "mozilla");
 	$themes = array("core", "rtl", "core_tree_icons", "contrast", "lake", "paradise", "earth", "water", "beach", "desert", "nature", "sunset", "blackwhite");
 	foreach ($themes as $theme) {
 	  foreach ($browsers as $browser) {
@@ -1984,6 +1984,7 @@ function login_browser_detect() {
   	(strpos($agent,"firefox") and preg_match("|(firefox)/([0-9]+\.[0-9])|", $agent,$version)) or
 	(strpos($agent,"opera") and preg_match("|(opera).?([0-9]+\.[0-9])|", $agent,$version)) or
 	(strpos($agent,"msie") and preg_match("|(msie) ([0-9]+\.[0-9])|", $agent,$version)) or
+	(strpos($agent,"chrome") and preg_match("|(chrome)/([0-9]+)|", $agent,$version)) or
 	(strpos($agent,"applewebkit") and preg_match("|(applewebkit)/([0-9]+)|", $agent,$version)) or
 	(strpos($agent,"konqueror") and preg_match("|(konqueror).?([0-9]\.[0-9])|", $agent,$version)) or
 	(strpos($agent,"thunderbird") and preg_match("|(thunderbird)/([0-9]+\.[0-9])|", $agent,$version)) or
@@ -2012,7 +2013,7 @@ function login_browser_detect() {
     else if (strpos($agent,"linux")) sys::$browser["platform"] = "linux";
 
   switch (sys::$browser["name"]) {
-    case "firefox": case "msie": case "mozilla":
+    case "firefox": case "msie": case "mozilla": case "chrome":
 	  sys::$browser["comp"]["codeedit"] = true;
 	  break;
 	case "thunderbird":
@@ -2028,7 +2029,7 @@ function login_browser_detect() {
   }
   if (preg_match("/iphone|ipad|android/",$agent)) sys::$browser["no_scrollbar"] = true;
   $min = array(
-	"firefox"=>10, "msie"=>60, "mozilla"=>14, "search-engine"=>20, "opera"=>90, "safari"=>400,
+	"firefox"=>30, "msie"=>70, "mozilla"=>14, "search-engine"=>20, "opera"=>90, "safari"=>522, "chrome"=>9,
 	"konqueror"=>32, "thunderbird"=>15, "httpclient"=>30, "curl"=>60, "miniredir"=>51, "apachebench"=>20,
   );
   if (isset($min[sys::$browser["name"]]) and sys::$browser["ver"]>=$min[sys::$browser["name"]]) {
@@ -2831,7 +2832,7 @@ function sys_die($str,$str2="",$pre=false) {
   echo "<table style='width: 600px;'>";
   echo "<tr><td align='center' style='border-bottom: 1px solid black; letter-spacing: 2px; font-size: 18px; font-weight: bold;'>Simple Groupware & CMS</td></tr>";
   echo "<tr><td align='center' style='border-bottom: 1px solid black;'>".modify::htmlquote($str)."</td></tr>";
-  if ($str2!="") echo "<tr><td style='border-bottom: 1px solid black; ".($pre?"white-space:pre;":"")."'>".modify::htmlquote($str2)."</td></tr>";
+  if ($str2!="") echo "<tr><td style='border-bottom: 1px solid black; ".($pre?"white-space:pre;":"")."'>".nl2br(modify::htmlquote($str2))."</td></tr>";
   echo "</table>Powered by Simple Groupware, Copyright (C) 2002-2012 by Thomas Bley.</center></body></html>";
   exit;
 }
