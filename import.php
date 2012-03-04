@@ -17,47 +17,17 @@ if (empty($_REQUEST["folder"])) sys_error("Missing parameters.","403 Forbidden")
 $folder = $_REQUEST["folder"];
 
 sys_check_auth();
-
 import::header();
 
-$infos = array();
-$errors = array();
 if (isset($_FILES["file"]) and is_array($_FILES["file"])) {
-  $files = array();
-  $data = $_FILES["file"];
-  foreach (array_keys($data["name"]) as $filenum) {
-	if ($data["error"][$filenum]=="0" and $data["size"][$filenum]!=0) {
-	  if ($data["name"][$filenum]=="") $data["name"][$filenum] = "default";
-	  list($target,$filename) = sys_build_filename($data["name"][$filenum]);
-	  dirs_checkdir($target);
-	  $target .= $_SESSION["username"]."__".$filename;
-	  if (move_uploaded_file($data["tmp_name"][$filenum], $target)) {
-		$files[] = $target;
-	  } else {
-		@unlink($data["tmp_name"][$filenum]);
-	  }
-	} else if ($data["error"][$filenum]!=UPLOAD_ERR_NO_FILE) {
-	  $filename = $data["name"][$filenum];
-	  switch ($data["error"][$filenum]) {
-		case UPLOAD_ERR_FORM_SIZE: $message = "{t}file is too big. Please upload a smaller one.{/t} (".$filename.")"; break;
-		case UPLOAD_ERR_INI_SIZE: $message = "{t}file is too big. Please change upload_max_filesize, post_max_size in your php.ini{/t} (".$filename.") (upload_max_filesize=".@ini_get("upload_max_filesize").", post_max_size=".@ini_get("post_max_size").")"; break;
-		case UPLOAD_ERR_PARTIAL: $message = "{t}file was uploaded partially.{/t} {t}Please upload again.{/t} (".$filename.")"; break;
-		case UPLOAD_ERR_NO_FILE: $message = "{t}No file was uploaded{/t} {t}Please upload again.{/t} (".$filename.")"; break;
-		case UPLOAD_ERR_NO_TMP_DIR: $message = "{t}missing a temporary folder.{/t} {t}Please upload again.{/t} (".$filename.")"; break;
-		case UPLOAD_ERR_CANT_WRITE: $message = "{t}Failed to write file to disk.{/t} {t}Please upload again.{/t} (".$filename.")"; break;
-        default: $message = "{t}Please upload again.{/t} (".$filename.")"; break;
-	  }
-	  setup::out("{t}Upload failed{/t}: ".modify::htmlquote($message));
-	}
-  }
+  $files = process_files();
   if (!empty($files)) {
-	if (!sys_validate_token()) sys_die("{t}Invalid security token{/t}");
+	if (!sys_validate_token()) sys_die(t("{t}Invalid security token{/t}"));
 	$folder = folder_from_path($folder);
 	$validate_only = isset($_REQUEST["validate_only"]);
 	foreach ($files as $file) {
-	  $message = "<b>{t}Processing %s ...{/t}</b>";
-	  if ($validate_only) $message = "<b>{t}Validating %s ...{/t}</b>";
-	  setup::out(sprintf($message, modify::htmlquote(modify::basename($file))));
+	  $message = $validate_only ? t("{t}Validating %s ...{/t}") : t("{t}Processing %s ...{/t}");
+	  setup::out(sprintf("<b>".$message."</b>", modify::htmlquote(modify::basename($file))));
 	  ajax::file_import($folder, $file, array("setup", "out"), $validate_only);
 	  setup::out("<hr>");
 } } }
