@@ -142,7 +142,7 @@ static function process_action_sys() {
 	  break;
 	case "backup":
 	  self::_create_backup($_SESSION["folder"]);
-	  self::_out("<br><a href='index.php'>{t}Continue{/t}</a>");
+	  self::_out("<br><a href='index.php?folder=^system/!sys_nodb_backups'>{t}Continue{/t}</a>");
 	  exit;
 	  break;
 	case "restore_newer":
