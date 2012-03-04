@@ -160,16 +160,30 @@ function __autoload($class) {
 }
 
 function trans($content) {
-  return preg_replace_callback("!\{t\}([^\{]+)\{/t\}!", "t", $content);
+  return preg_replace_callback("!\{t\}([^\{]+)\{/t\}!", "tr", $content);
 }
 
-function t($str) {
-  static $strings = array();
+function t($str, $params=null) {
+  if ($params!=null) return vsprintf(tr(substr($str,3,-4)), $params);
+  return tr(substr($str,3,-4));
+}
+
+function tr($str) {
+  static $strings = null;
   if (is_array($str) and isset($str[1])) $str = $str[1]; // preg_callback
-  if (LANG!="en") {
-	if ($strings===null) $strings = APC ? get_lang_apc() : get_lang();
-	if (isset($strings[$str])) $str = $strings[$str];
+  if (LANG=="en") return $str;
+  if ($strings===null) {
+	$lang_file = "lang/".LANG.".lang";
+	$cache_file = SIMPLE_CACHE."/lang/".LANG."_".filemtime($lang_file).".php";
+	if (!file_exists($cache_file)) {
+	  $matches = array();
+	  preg_match_all("!\*\* ([^\n]+)\n([^\n]+)!", file_get_contents($lang_file), $matches);
+	  $strings = array_combine($matches[1], $matches[2]);
+	  file_put_contents($cache_file, "<?php \$strings = ".var_export($strings,true).";", LOCK_EX);
+	}
+	require($cache_file);
   }
+  if (isset($strings[$str])) return $strings[$str];
   return $str;
 }
 
@@ -282,20 +296,20 @@ function _asset_explode($value, $separator) {
 
 function _asset_lock_rows() {
   $t = &$GLOBALS["t"];
-  if (is_array($t["data"])) {
-    foreach (array_keys($t["data"]) as $row_key) {
-      $lckfile = SIMPLE_STORE."/locking/".$t["title"]."_".md5($row_key).".lck";
-	  $lckuser = "";
-	  if (file_exists($lckfile)) {
-	    $lcktime = filemtime($lckfile);
-	    if (($lcktime+LOCKING) > time()) {
-	      $lckuser = file_get_contents($lckfile);
-	      if ($lckuser!=$_SESSION["username"]) {
-	        $t["data"][$row_key]["_lck"] = sprintf("{t}%s started editing this asset at %s{/t}",$lckuser,sys_date("{t}g:i a{/t}",$lcktime));
-	  } } }
-	  if ($lckuser!=$_SESSION["username"]) {
-	    file_put_contents($lckfile, $_SESSION["username"], LOCK_EX);
-} } } }
+  if (!is_array($t["data"])) return;
+  foreach (array_keys($t["data"]) as $row_key) {
+    $lckfile = SIMPLE_STORE."/locking/".$t["title"]."_".md5($row_key).".lck";
+	$lckuser = "";
+	if (file_exists($lckfile)) {
+	  $lcktime = filemtime($lckfile);
+	  if (($lcktime+LOCKING) > time()) {
+	    $lckuser = file_get_contents($lckfile);
+	    if ($lckuser!=$_SESSION["username"]) {
+	      $t["data"][$row_key]["_lck"] = sprintf("{t}%s started editing this asset at %s{/t}",$lckuser,sys_date("{t}g:i a{/t}",$lcktime));
+	} } }
+	if ($lckuser!=$_SESSION["username"]) {
+	  file_put_contents($lckfile, $_SESSION["username"], LOCK_EX);
+} } }
 
 function _asset_filter_rows() {
   $t = &$GLOBALS["t"];
@@ -1503,7 +1517,7 @@ function folders_from_path($path) {
 	$vars = array("node"=>$node,"node2"=>substr($node,1),"parents"=>$parents);
     $rows = db_select("simple_sys_tree",array("id","fmountpoint"),$where,"",$limit,$vars);
     if (!is_array($rows) or count($rows)==0) return array(0);
-	  
+
 	$parents = array();
 	foreach ($rows as $row) {
 	  $parents[] = $row["id"];
