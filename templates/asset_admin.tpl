@@ -8,12 +8,11 @@
 <table class="data data_page"><tr><td>
 
 <div style="margin-bottom:30px; margin-top:5px;">
-<div style="float:right;">
-<a href="http://www.simple-groupware.de/cms/AdministrationMenu" target="_blank">{t}Help{/t}</a>
-</div>
-<div class="bold">{t}Administration{/t}</div>
+<div class="bold" style="float:left;">{t}Administration{/t}</div>
+<div>&nbsp;(<a href="http://www.simple-groupware.de/cms/AdministrationMenu" target="_blank">{t}Help{/t}</a>)</div>
 <hr>
-<a href="index.php?find=folder|simple_sys_tree|1|ftype=sys_users">{t}Users{/t}</a> |
+<a href="index.php?find=folder|simple_sys_tree|1|ftype=sys_users">{t}Users{/t}</a>
+(<a href="http://www.simple-groupware.de/cms/AdministrationUsers" target="_blank">{t}Help{/t}</a>) |
 <a href="index.php?find=folder|simple_sys_tree|1|ftype=sys_groups">{t}Groups{/t}</a> |
 <a href="index.php?find=folder|simple_sys_tree|1|ftype=sys_identities">{t}Mail identities{/t}</a> |
 <a href="index.php?find=folder|simple_sys_tree|1|ftype=sys_tree&view=permissions">{t}Permissions{/t}</a> |
@@ -92,7 +91,7 @@ APC cache usage: <b>{""|admin::apc_stats}</b>
 Disk usage: <b>{""|admin::disk_stats}</b>
 </pre>
 <hr>
-<a href="http://groups.google.com/group/simple-groupware" target="_blank">Forum</a> ({t}Give Feedback{/t}<i>!</i>) |
+<a href="http://groups.google.com/group/simple-groupware" target="_blank">Forum</a> |
 <a href="http://sourceforge.net/tracker/?func=add&group_id=96330&atid=614418" target="_blank">{t}Support request{/t}</a> |
 <a href="http://sourceforge.net/tracker/?func=add&group_id=96330&atid=614420" target="_blank">{t}Feature request{/t}</a> |
 <a href="http://sourceforge.net/tracker/?func=add&group_id=96330&atid=614419" target="_blank">{t}Submit a patch{/t}</a>
