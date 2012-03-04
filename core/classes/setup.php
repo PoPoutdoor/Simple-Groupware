@@ -19,8 +19,9 @@ static function build_customizing($file) {
 }
 
 static function customize_replace($file,$code_remove,$code_new) {
-  echo $file.":<br/>Replace:<br/>".nl2br(modify::htmlquote($code_remove)).
-	"<br/><br/>with:<br/>".nl2br(modify::htmlquote($code_new))."<br/><br/>\n";
+  setup::out($file.":<br/>Replace:");
+  setup::out(nl2br(modify::htmlquote($code_remove))."<br/>");
+  setup::out("with:<br/>".nl2br(modify::htmlquote($code_new))."<br/>");
   $data = file_get_contents($file);
   if (strpos($data,$code_remove)===false) {
 	throw new Exception("code not found in: ".$file." Code: ".$code_remove);
@@ -44,8 +45,7 @@ static function save_config($vars) {
 		   "  elseif (version_compare(PHP_VERSION,'5.3','>') and !ini_get('date.timezone')) date_default_timezone_set(@date_default_timezone_get());";
   $out[] = "if (!ini_get('display_errors')) @ini_set('display_errors','1');";
   $out[] = "define('NOW',time());";
-  $lang = setup_update::get_config_old("lang",true,"'en'");
-  $out[] = "define('LANG',".$lang.");";
+  $out[] = "define('LANG','".LANG."');";
   $out[] = "define('APC',function_exists('apc_store') and ini_get('apc.enabled'));";
 
   file_put_contents("simple_store/config.php", implode("\n",$out), LOCK_EX);
@@ -104,6 +104,37 @@ static function validate_system() {
   self::errors_show(true);
 
   return $databases;
+}
+
+static function validate_input() {
+  if ($validate=validate::username($_REQUEST["admin_user"]) and $validate!="") setup::error_add("{t}Admin Username{/t} - {t}validation failed{/t} ".$validate,30);
+  if ($_REQUEST["db_host"]=="") setup::error_add(sprintf("{t}missing field{/t}: %s","{t}Database Hostname / IP{/t}"),31);
+  if ($_REQUEST["db_user"]=="") setup::error_add(sprintf("{t}missing field{/t}: %s","{t}Database User{/t}"),32);
+  if ($_REQUEST["db_name"]=="") setup::error_add(sprintf("{t}missing field{/t}: %s","{t}Database Name{/t}"),33);
+  if ($_REQUEST["admin_pw"]=="") setup::error_add(sprintf("{t}missing field{/t}: %s","{t}Admin Password{/t}"),34);
+  if ($_REQUEST["admin_pw"]!="" and strlen($_REQUEST["admin_pw"])<5) setup::error_add("{t}Admin Password{/t}: {t}Password must be not null, min 5 characters.{/t}","34b");
+
+  if (!@sql_connect($_REQUEST["db_host"], $_REQUEST["db_user"], $_REQUEST["db_pw"], $_REQUEST["db_name"])) {
+    if (!sql_connect($_REQUEST["db_host"], $_REQUEST["db_user"], $_REQUEST["db_pw"])) setup::error_add("{t}Connection to database failed.{/t}\n".sql_error(),35);
+	setup::errors_show();
+	if (!sgsml_parser::create_database($_REQUEST["db_name"])) setup::error_add("{t}Creating database failed.{/t}\n".sql_error(),36);
+  }
+  if (!sql_connect($_REQUEST["db_host"], $_REQUEST["db_user"], $_REQUEST["db_pw"], $_REQUEST["db_name"]) or empty(sys::$db)) {
+    setup::error_add("{t}Connection to database failed.{/t}\n".sql_error(),37);
+	setup::errors_show();
+  }
+
+  if (!$version = sgsml_parser::sql_version()) setup::error_add(sprintf("{t}Could not determine database-version.{/t}"),38);
+  $database_min = (int)substr(str_replace(".","",$databases[SETUP_DB_TYPE][1]),0,3);
+  if ($version < $database_min) setup::error_add(sprintf("{t}Wrong database-version (%s). Please use at least %s !{/t}",$version,$databases[SETUP_DB_TYPE]),"20".SETUP_DB_TYPE);
+
+  if (SETUP_DB_TYPE=="pgsql") {
+  	if (!sql_query("SELECT ''::tsvector;")) {
+	  setup::error_add("{t}Please install 'tsearch2' for the PostgreSQL database.{/t}\n(Run <postgresql>/share/contrib/tsearch2.sql)\n".sql_error(),21);
+	}
+    if (!sql_query(file_get_contents("modules/core/pgsql.sql"))) setup::error_add("pgsql.sql: ".sql_error(),50);
+  }
+  setup::errors_show();
 }
 
 static function config_defaults() {
@@ -177,8 +208,6 @@ static function out($str="",$nl=true,$exit=false) {
   echo $str;
   if ($nl) echo "<br>\n";
   if ($exit) exit;
-  flush();
-  @ob_flush();
 }
 
 static function out_exit($str) {
@@ -199,8 +228,31 @@ static function dirs_create_dir($dirname) {
   dirs_create_index_htm($dirname."/");
 }
 
+static function show_lang() {
+  self::install_header();
+  self::out("<table style='width:500px;'><tr><td>",false);
+  $files = array();
+  foreach (scandir("lang") as $file) {
+    if ($file[0]!="." and !sys_strbegins($file,"master") and strpos($file,".lang")) {
+	  $match = array();
+	  preg_match("|\*\* !_Language\n(.*?)\n|", file_get_contents("lang/".$file), $match);
+	  $lang_str = !empty($match[1]) ? $match[1] : "unknown (".$file.")";
+	  $files[$lang_str] = $file;
+	}
+  }
+  asort($files);
+  $i=0;
+  foreach ($files as $lang_str=>$file) {
+	$i++;
+	self::out("<a href='index.php?lang=".str_replace(".lang","",$file)."'>".$lang_str."</a><br>");
+	if ($i == ceil(count($files)/2)) self::out("</td><td valign='top' align='right'>",false);
+  }
+  self::out("</td></tr></table>",false);
+  self::out('<div style="border-top: 1px solid black;">Powered by Simple Groupware, Copyright (C) 2002-2012 by Thomas Bley.</div></body></html>',true, true);
+}
+
 static function install_header() {
-  echo '
+  setup::out('
     <html>
     <head>
 	<title>Simple Groupware & CMS</title>
@@ -217,8 +269,7 @@ static function install_header() {
     </head>
     <body>
     <div style="border-bottom: 1px solid black; letter-spacing: 2px; font-size: 18px; font-weight: bold;">Simple Groupware '.CORE_VERSION_STRING.'</div>
-	<br>
-  ';
+  ');
 }
 
 static function install_footer() {
@@ -322,6 +373,7 @@ static function show_form($databases, $install, $accept_gpl) {
 	'.(($install and !$accept_gpl)?"&nbsp;=&gt; {t}To continue installing Simple Groupware you must check the box under the license{/t}<br><br>":"").'
 	</b></div>
 	<form action="index.php" method="post">
+	<input type="hidden" name="lang" value="'.LANG.'">
 	<table class="data">
 	<tr id="db_host_row">
 	  <td><label for="db_host">{t}Database Hostname / IP{/t}</label></td>
