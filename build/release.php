@@ -85,7 +85,7 @@ class build {
 		}
 		sort($master_lang);
 		// TODO add gpl notice
-		file_put_contents("../lang/master.lang", implode("\n\n\n", $master_lang));
+		file_put_contents("../lang/master.lang", "\xEF\xBB\xBF".implode("\n\n\n", $master_lang));
 		copy("../lang/master.lang", "../lang/en.lang");
 	}
 	
