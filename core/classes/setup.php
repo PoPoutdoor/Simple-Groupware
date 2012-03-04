@@ -135,6 +135,7 @@ static function validate_input($databases) {
     if (!sql_query(file_get_contents("modules/core/pgsql.sql"))) setup::error_add("pgsql.sql: ".sql_error(),50);
   }
   setup::errors_show();
+  return $version;
 }
 
 static function config_defaults() {
@@ -231,21 +232,12 @@ static function dirs_create_dir($dirname) {
 static function show_lang() {
   self::install_header();
   self::out("<table style='width:500px;'><tr><td>",false);
-  $files = array();
-  foreach (scandir("lang") as $file) {
-    if ($file[0]!="." and !sys_strbegins($file,"master") and strpos($file,".lang")) {
-	  $match = array();
-	  preg_match("|\*\* !_Language\n(.*?)\n|", file_get_contents("lang/".$file), $match);
-	  $lang_str = !empty($match[1]) ? $match[1] : "unknown (".$file.")";
-	  $files[$lang_str] = $file;
-	}
-  }
-  asort($files);
   $i=0;
-  foreach ($files as $lang_str=>$file) {
+  $langs = select::languages();
+  foreach ($langs as $lang=>$lang_str) {
 	$i++;
-	self::out("<a href='index.php?lang=".str_replace(".lang","",$file)."'>".$lang_str."</a><br>");
-	if ($i == ceil(count($files)/2)) self::out("</td><td valign='top' align='right'>",false);
+	self::out("<a href='index.php?lang=".$lang."'>".$lang_str."</a><br>");
+	if ($i == ceil(count($langs)/2)) self::out("</td><td valign='top' align='right'>",false);
   }
   self::out("</td></tr></table>",false);
   self::out('<div style="border-top: 1px solid black;">Powered by Simple Groupware, Copyright (C) 2002-2012 by Thomas Bley.</div></body></html>',true, true);
