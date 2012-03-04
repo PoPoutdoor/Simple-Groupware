@@ -34,7 +34,7 @@ $_SESSION["permission_sql"] = "1=1";
 
 $cron_conf = trigger::sendmail_getconn("cron", "");
 if (empty($cron_conf["smtp"])) {
-  $message = sprintf("{t}Mail identities{/t}: {t}SMTP not configured for %s{/t}", "cron");
+  $message = t("{t}Mail identities{/t}").": ".t("{t}SMTP not configured for %s{/t}", "cron");
   sys_log_message_log("php-fail", $message);
   exit($message);
 }
@@ -91,7 +91,7 @@ if (!empty($notifications)) {
 	}
   }
   out($log);
-  sys_log_message_log("info","{t}Sent reminders{/t}",$log);
+  sys_log_message_log("info",t("{t}Sent reminders{/t}"),$log);
 }
 
 out("finished.");
