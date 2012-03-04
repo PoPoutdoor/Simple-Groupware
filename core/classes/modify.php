@@ -568,7 +568,7 @@ static function storefloat($value) {
 }
 
 static function storechecked($checked) {
-  if (in_array($checked, array("1", "true", "{t}yes{t}"))) return 1;
+  if (in_array($checked, array("1", "true", "{t}yes{/t}"))) return 1;
   return 0;
 }
 
