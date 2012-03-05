@@ -12,13 +12,13 @@
 // TODO remove index.htm?
 // TODO version without demo data
 // TODO add phpdoc
-// TODO check if all module icons are available
 
 new build(true, false);
 
 class build {
 
 	public function __construct($archives=true, $manuals=true) {
+		$this->validateModuleIcons();
 		$this->translationMaster();
 		$this->validateTranslation("de");
 
@@ -51,6 +51,20 @@ class build {
 
 			$pdf = $dir."/SimpleGroupwareUserManual_{$version}.pdf";
 			$this->html2pdf("http://www.simple-groupware.de/cms/UserManualPrint", $pdf);
+		}
+	}
+	
+	private function validateModuleIcons() {
+		$exceptions = array("nodb_calendar_contacts.xml", "nodb_calendar_departments.xml", "nodb_calendar_users.xml",
+			"nodb_rights.xml", "nodb_index.xml", "nodb_ldif_contacts.xml", "nodb_pmwiki.xml", "nodb_rights_edit.xml",
+			"nodb_schema.xml", "nodb_structure.xml", "search.xml", "chat2.xml");
+		foreach (scandir("../modules/schema/") as $module) {
+			if (!strpos($module, ".xml") or $module[0]=="!") continue;
+			if (!file_exists("../ext/modules/".str_replace(".xml", ".png", $module))) throw new Exception("module icon not found for: ".$module);
+		}
+		foreach (scandir("../modules/schema_sys/") as $module) {
+			if (!strpos($module, ".xml") or in_array($module, $exceptions)) continue;
+			if (!file_exists("../ext/modules/sys_".str_replace(".xml", ".png", $module))) throw new Exception("module icon not found for: ".$module);
 		}
 	}
 	
