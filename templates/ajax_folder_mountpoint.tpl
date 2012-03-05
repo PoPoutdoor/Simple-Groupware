@@ -9,6 +9,7 @@
 
 <form id="tree_mountpoint_form" rel="{$mountpoint}" onsubmit="tree_scroll(0); ajax('folder_set_mountpoint',[tfolder,mountpoint_build()],locate_folder); return false;">
   <a style="float:right;" onclick="hide('tree_info');">X</a>
+  <a style="float:right;" href="http://www.simple-groupware.de/cms/DataHandlers" target="_blank">{t}Help{/t} |&nbsp;</a>
   <div class="tree_subpane">{t}Mountpoint{/t}</div>
   <table class="tree2" border="0" cellpadding="0" cellspacing="2">
 	<tr><td>{t}Type{/t}&nbsp;</td><td>
