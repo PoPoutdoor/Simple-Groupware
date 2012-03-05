@@ -622,7 +622,7 @@ private static function _smarty_init() {
   sys::$smarty = new Smarty;
   sys::$smarty->compile_dir = SIMPLE_CACHE."/smarty";
   sys::$smarty->template_dir = "templates";
-  sys::$smarty->config_dir = "templates";
+  sys::$smarty->config_dir = "templates/css";
   sys::$smarty->compile_check = false;
   sys::$smarty->register_prefilter(array("ajax","urladdon_quote"));
 }
