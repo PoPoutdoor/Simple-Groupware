@@ -12401,35 +12401,6 @@ to a config file (e.g. local/config.php).
 <rwrite_users>|anonymous|</rwrite_users>
 </asset>
 <asset>
-<pagename>Site.SideBar</pagename>
-<data><![CDATA[* [[Main/HomePage]]
-* [[Main/WikiSandbox]]
-
-%sidehead% [[PmWiki/PmWiki]]
-* [[PmWiki/Initial Setup Tasks]]  
-* [[PmWiki/Basic Editing]]
-* [[PmWiki/Documentation Index]]
-* [[PmWiki/FAQ | PmWiki FAQ ]]
-* [[PmWiki/PmWikiPhilosophy]]
-* [[PmWiki/Release Notes]]
-* [[PmWiki/ChangeLog]]
-
-%sidehead% [[http://www.pmwiki.org | pmwiki.org ]]
-* [[Cookbook:CookbookBasics | Cookbook (addons) ]]
-* [[Cookbook:Skins | Skins (themes) ]]
-* [[PITS:PITS | PITS (issue tracking) ]]
-* [[PmWiki/Mailing Lists]]
-
-%right% [-[[Site.SideBar?action=edit | edit SideBar]]-]]]></data>
-<template>pmwiki.tpl</template>
-<activated>1</activated>
-<staticcache>1</staticcache>
-<rss_include>1</rss_include>
-<author></author>
-<rread_users>|anonymous|</rread_users>
-<rwrite_users>|anonymous|</rwrite_users>
-</asset>
-<asset>
 <pagename>Site.Site</pagename>
 <data><![CDATA[(:title Site Configuration:)(:Summary: Site Configuration:)
 Here you find some links to Site configuration and administration pages. Add links to other pages you may need for your site's configuration here, as necessary. 
