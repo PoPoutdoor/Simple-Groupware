@@ -32,7 +32,7 @@ function set_html(obj,txt) {
 }
 function load() {
   getObj("login_table_obj").style.opacity = 0.75;
-  if (top.sys && top.sys.username!="anonymous") {
+  if (top.sys && !top.sys.is_guest) {
     getObj("username").value = top.sys.username;
     getObj("redirect").checked = false;
     getObj("password").focus();

@@ -35,7 +35,7 @@ if (top != window && top.getObj("login_iframe")) {
 	top.getObj("password").focus();
   }, sys.session_time*1000);
   if (window.sys.username!=top.sys.username) top.location.href = top.location.href;
-} else if (!iframe && sys.session_time && sys.username != "anonymous") {
+} else if (!iframe && sys.session_time && !sys.is_guest) {
   setTimeout( function() { clearTimeout(refresh_timer); show("login_reminder"); getObj("password").focus(); },sys.session_time*1000);
 }
 
@@ -851,7 +851,7 @@ function portal_change(id,size) {
 function portal_refresh(id,time,init) {
   var obj = getObj(id);
   if (obj && obj.src!="about:blank" && time!=0) {
-	if (!init && (sys.username=="anonymous" || getObj("login_reminder").style.display!="inline")) {
+	if (!init && (sys.is_guest || getObj("login_reminder").style.display!="inline")) {
 	  obj.src = obj.src;
 	}
 	if (time < 10) time = 10;
@@ -1553,7 +1553,7 @@ function drawmenu() {
   mbuffer = '<div class="menu">';
   mbuffer += '<a class="sgslogo" href="index.php?folder=1"><img src="'+css_conf.logo+'"></a>';
   mbuffer += '<table id="menutable" cellspacing="2" cellpadding="0" onmouseout="menuclose();" onmouseover="menuopen(this);"><tr>';
-  if (sys.username!="anonymous") {
+  if (!sys.is_guest) {
     menubutton("<img src='ext/icons/home.gif' title='{t}Home{/t}'/>","locate('"+sys.home+"')", "h");
   }
   menuitem("{t}Main menu{/t}");
@@ -1571,7 +1571,7 @@ function drawmenu() {
   smenuitem("{t}Offline sync{/t}","locate('offline.php')");
   smenu_end();
 
-  if (sys.username!="anonymous" && !sys.is_superadmin) {
+  if (!sys.is_guest && !sys.is_superadmin) {
 	menuitem("{t}Create new{/t}");
     smenu_begin();
 	var quick_create = {
@@ -1594,7 +1594,7 @@ function drawmenu() {
   
   menuitem("{t}Folder{/t}");
   smenu_begin();
-  if (sys.username!="anonymous" && !sys.is_superadmin) {
+  if (!sys.is_guest && !sys.is_superadmin) {
 	smenuitem("{t}Add to offline folders{/t}","ajax('folder_add_offline',[tfolder,tview,tfolder_name],alert_ok);");
   }
   if (sys.is_superadmin) {
@@ -1661,21 +1661,23 @@ function drawmenu() {
   smenuitem("LDIF","sWin('index.php?export=ldif')");
   smenu_end();
 
-  menuitem("{t}Theme{/t}");
-  smenu_begin();
-  var styles = {
-	core:"core", core_tree_icons:"core tree icons",	contrast:"contrast", water:"water", lake:"lake",
-	beach:"beach", paradise:"paradise", earth:"earth", sunset:"sunset", nature:"nature", desert:"desert",
-	blackwhite:"black / white", rtl:"right-to-left"
+  if (sys.is_guest || sys.is_superadmin) {
+	menuitem("{t}Theme{/t}");
+	smenu_begin();
+	var styles = {
+	  core:"core", core_tree_icons:"core tree icons",	contrast:"contrast", water:"water", lake:"lake",
+	  beach:"beach", paradise:"paradise", earth:"earth", sunset:"sunset", nature:"nature", desert:"desert",
+	  blackwhite:"black / white", rtl:"right-to-left"
+	}
+	for (var style in styles) {
+	  var checked = "";
+	  if (sys_style==style) checked = "&gt; ";
+	  smenuitem(checked+"simple "+styles[style],"sWin('index.php?style="+style+"')");
+	}
+	smenu_end();
   }
-  for (var style in styles) {
-	var checked = "";
-	if (sys_style==style) checked = "&gt; ";
-	smenuitem(checked+"simple "+styles[style],"sWin('index.php?style="+style+"')");
-  }
-  smenu_end();
 
-  if (sys.username!="anonymous") {
+  if (!sys.is_guest) {
 	if (sys.is_superadmin) {
 	  menubutton("{t}Settings{/t}","locate('sysconfig.php')");
 	} else {

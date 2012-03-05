@@ -48,9 +48,9 @@
   <div id="wikifoot">
     <div class="footnav">
 	  <span style="float:right;">{t}Page last modified on{/t} {$page.lastmodified|modify::localdateformat:"{t}F j, Y{/t}"}&nbsp;</span>
-	  {if $smarty.session.username neq "anonymous"}<a href="?logout" accesskey="l">{t}Logout{/t}</a> - {/if}
+	  {if !sys_is_guest($smarty.session.username)}<a href="?logout" accesskey="l">{t}Logout{/t}</a> - {/if}
 	  <a href="?rss">{t}Recent changes{/t}</a> - 
-	  <a href="?page={$page.pagename|escape:"html"}&source">{t}Source{/t}</a> - 
+	  <a href="?page={$page.pagename|escape:"html"}&source">{t}Source{/t}</a>
 	</div>
   </div>
 </body>

@@ -64,7 +64,7 @@
 	  &nbsp;<a href="{$sys.home}"><img src="ext/icons/home.gif" title="{t}Home{/t}"/></a>{" "}
 	{/if}
 
-    {if $sys.username neq "anonymous" && !$sys.is_superadmin}
+    {if !$sys.is_guest && !$sys.is_superadmin}
 	  &nbsp;<a href="index.php?find=asset|simple_sys_users|1|username={$sys.username}&view=changepwd">
 	  <img src="ext/icons/settings.gif" title="{t}Change settings{/t}"/></a>{" "}
 	  &nbsp;<a href="offline.php"><img src="ext/icons/offline.png" title="{t}Offline reading{/t}"/></a>{" "}
