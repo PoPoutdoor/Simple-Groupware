@@ -10,7 +10,7 @@
 class lib_surveys extends ajax {
 
 private static function _get_voter_id() {
-  if ($_SESSION["username"]!="anonymous") return $_SESSION["username"];
+  if (!sys_is_guest($_SESSION["username"])) return $_SESSION["username"];
   return $_SESSION["ip"];
 }
 
