@@ -361,6 +361,7 @@ static function process_login($username,$password="") {
   }
   
   if (!empty($row["timezone"])) $_SESSION["timezone"] = $row["timezone"]; else $_SESSION["timezone"] = "";
+  if (!empty($row["theme"])) $_SESSION["theme"] = $row["theme"];
 
   if (!empty($row["home_folder"])) {
     $_SESSION["home_folder"] = "index.php?folder=".rawurlencode($row["home_folder"]);
@@ -420,7 +421,7 @@ static function create_user($username, $data=array()) {
 
 static function process_logout() {
   trigger::logout();
-  if ($_SESSION["username"]!="anonymous") sys_log_message_log("login",sprintf("{t}logout %s{/t}",$_SESSION["username"]));
+  if (!sys_is_guest($_SESSION["username"])) sys_log_message_log("login",sprintf("{t}logout %s{/t}",$_SESSION["username"]));
   session_destroy();
 }
 
