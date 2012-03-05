@@ -111,8 +111,7 @@ Documentation about Simple Groupware can be found at:\\
 * [[Cookbook:Skins | Skins (themes) ]]
 * [[PITS:PITS | PITS (issue tracking) ]]
 * [[PmWiki/Mailing Lists]]
-
-%right% [-[[Site.SideBar?action=edit | edit SideBar]]-]]]></data>
+]]></data>
 <template>pmwiki.tpl</template>
 <activated>1</activated>
 <staticcache>1</staticcache>
