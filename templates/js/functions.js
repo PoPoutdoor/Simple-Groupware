@@ -1677,7 +1677,7 @@ function drawmenu() {
 
   if (sys.username!="anonymous") {
 	if (sys.is_superadmin) {
-	  menubutton("{t}Settings{/t}","locate('confg.php')");
+	  menubutton("{t}Settings{/t}","locate('sysconfig.php')");
 	} else {
 	  menubutton("{t}Settings{/t}","locate('index.php?find=asset|simple_sys_users|1|username="+sys.username+"&view=changepwd')");
 	}
