@@ -1,10 +1,60 @@
-﻿** (un)Group
+﻿/**
+ * @package Simple Groupware
+ * @license GPLv2
+ */
+
+** !_Language
+English
+
+** %s M memory usage
 
 
-** About
+** %s is not activated
+
+
+** %s is not compiled / loaded into PHP.
+
+
+** %s not in database
+
+
+** %s rows affected
+
+
+** %s secs
+
+
+** %s started editing this asset at %s
+
+
+** (un)Group
+
+
+** Absence
 
 
 ** Access denied.
+
+
+** Access to this file has been denied.
+
+
+** Account
+
+
+** Accounting
+
+
+** Activate
+
+
+** Activated
+
+
+** Active
+
+
+** Ad
 
 
 ** Add
@@ -13,16 +63,40 @@
 ** Add a special rule
 
 
+** Add to offline folders
+
+
+** Address
+
+
+** Admin Password
+
+
+** Admin Username
+
+
+** Admin access (groups)
+
+
+** Admin access (users)
+
+
 ** Administration
 
 
-** All
+** Advanced tables
 
 
-** All
+** Affected user
 
 
-** All
+** Affiliate
+
+
+** Agent
+
+
+** Ajax Error
 
 
 ** All
@@ -31,52 +105,286 @@
 ** All day
 
 
+** All events
+
+
 ** All finished tasks
 
 
 ** All pending tasks
 
 
-** Asset
+** Allow custom values
+
+
+** Allow disabled modules
+
+
+** Already running latest release.
+
+
+** Amount
+
+
+** Anchor
+
+
+** Anniversary
+
+
+** Answers
+
+
+** Apache based (.htaccess, Basic, Digest, etc.)
+
+
+** Application title
+
+
+** Apply rights to subfolders
+
+
+** Appointment
+
+
+** Appointments
+
+
+** Apprenticeship
+
+
+** Apr
+
+
+** April
+
+
+** Archive
+
+
+** Archive deleted files
 
 
 ** Asset
+
+
+** Asset marked as read-only.
+
+
+** Assets
+
+
+** Assets (children)
+
+
+** Assets can be imported into multiple folders by adding the "Folder" column.
+
+
+** Assets can be overwritten by adding the "Id" column.
+
+
+** Attachment
+
+
+** Attachments
+
+
+** Attend
+
+
+** Aug
+
+
+** August
+
+
+** Authentication Mode
+
+
+** Author
+
+
+** Automatically hide the menu
+
+
+** Automatically hide the tree
+
+
+** Average
+
+
+** Average progress
+
+
+** Avg length
+
+
+** Back
+
+
+** Backup
+
+
+** Backup current folder
 
 
 ** Backups
 
 
+** Basic editing
+
+
+** Before
+
+
+** Begin
+
+
+** Billing address
+
+
+** Birthday
+
+
+** Birthdays
+
+
+** Blank
+
+
+** Book
+
+
+** Booked
+
+
+** Booking number
+
+
+** Bookings
+
+
+** Bookmark
+
+
+** Bookmarks
+
+
+** Brand
+
+
+** Brands
+
+
 ** Browser Compatibility
+
+
+** Browser not supported
+
+
+** Budget
+
+
+** Bug
+
+
+** Business
+
+
+** C O N T I N U E
 
 
 ** C a n c e l
 
 
+** CEO
+
+
+** CIO
+
+
 ** CMS
+
+
+** CMS homepage title
+
+
+** Cache output
 
 
 ** Caches
 
 
-** Categories
+** Calendar
+
+
+** Cancel
+
+
+** Canceled
+
+
+** Cannot call 'proc_open'. Please remove 'proc_open' from 'disable_functions' in php.ini and disable 'safe_mode'.
+
+
+** Cannot connect to database %s on %s.
+
+
+** Cannot create preview for %s
+
+
+** Cannot read the file %s. %s
+
+
+** Cardinality
 
 
 ** Categories
+
+
+** Category
+
+
+** Cc
 
 
 ** Change Setup settings
 
 
+** Change request
+
+
 ** Change settings
+
+
+** Change summary
+
+
+** Changed
 
 
 ** Changelog
 
 
+** Chat
+
+
+** Check DoS Attacks
+
+
+** Checked
+
+
+** Choices
+
+
+** City
+
+
+** Clean
+
+
 ** Clean Cache
-
-
-** Clear
 
 
 ** Clear
@@ -88,91 +396,463 @@
 ** Clear Data
 
 
+** Client
+
+
+** Close
+
+
+** Close session
+
+
+** Closed
+
+
 ** Collapse text
+
+
+** Collapse tree
+
+
+** Color
+
+
+** Column
+
+
+** Column name
 
 
 ** Combination
 
 
+** Comma
+
+
+** Comma separated values
+
+
+** Command
+
+
+** Comment
+
+
+** Comment files
+
+
+** Companies
+
+
+** Company
+
+
+** Competition
+
+
+** Competitor
+
+
+** Complete
+
+
+** Completed
+
+
+** Component
+
+
+** Compress output
+
+
+** Confirm
+
+
+** Connection error: %s [%s]
+
+
+** Connection to database failed.
+
+
+** Console
+
+
 ** Console scripts
+
+
+** Consultant
+
+
+** Contact
+
+
+** Contact activities
+
+
+** Contact activity
+
+
+** Contact by
+
+
+** Contact groups
+
+
+** Contact id
+
+
+** Contact person
+
+
+** Contact user by
+
+
+** Contacts
+
+
+** Content
+
+
+** Continue
+
+
+** Contracts
+
+
+** Contributions
+
+
+** Copier
+
+
+** Copy
+
+
+** Cost center
+
+
+** Costs of accommodation
+
+
+** Could not determine database-version.
+
+
+** Country
+
+
+** Create new
+
+
+** Create new folder
+
+
+** Created
+
+
+** Creating database failed.
+
+
+** Curriculum vitae
+
+
+** Custom schema
+
+
+** Customization rules\nfor modules based on sgsML
 
 
 ** Customize
 
 
+** Cut
+
+
+** Data
+
+
+** Data free
+
+
+** Data length
+
+
 ** Database
 
 
-** Day
+** Database Hostname / IP
+
+
+** Database Name
+
+
+** Database Password
+
+
+** Database User
+
+
+** Database size
+
+
+** Database status
+
+
+** Database type
+
+
+** Database variables
+
+
+** Date
 
 
 ** Day
+
+
+** Day begin
+
+
+** Day end
+
+
+** Deactivate
+
+
+** Deadline
+
+
+** Debug
 
 
 ** Debug-dir
 
 
-** Default
+** Dec
+
+
+** December
+
+
+** Declining balance
 
 
 ** Default
+
+
+** Default function
+
+
+** Default language
+
+
+** Default theme
+
+
+** Default values for assets
+
+
+** Degree
 
 
 ** Delete
 
 
-** Description
+** Delete incl subfolders
+
+
+** Delivery
+
+
+** Demand
+
+
+** Demo
+
+
+** Demonstration folder
+
+
+** Department
+
+
+** Departments
+
+
+** Dependancies
 
 
 ** Description
+
+
+** Description hint
+
+
+** Description title
+
+
+** Description value
+
+
+** Desktop computer
 
 
 ** Details
 
 
-** Documentation
+** Device type
+
+
+** Device types
+
+
+** Diagram
+
+
+** Directory is outside the allowed directory. (%s is outside %s)
+
+
+** Disable basic authentication
+
+
+** Disable cut-copy-paste
+
+
+** Disabled
+
+
+** Disabled modules
+
+
+** Display
+
+
+** Displayname
+
+
+** Distributor
+
+
+** Distributors
 
 
 ** Documentation
+
+
+** Documentation index
+
+
+** Domain
+
+
+** Don't attend
+
+
+** Don't move old files to '%s'
+
+
+** Down
 
 
 ** Download
 
 
+** Download example file
+
+
+** Downloading extension list
+
+
+** Downloading update list
+
+
 ** Drag and drop files or URLs here.
 
 
-** E-mail
+** Duration
 
 
 ** E-mail
 
 
-** E-mail
+** E-mail private
+
+
+** E-mail program
 
 
 ** Edit
 
 
-** Edit
+** Edit as new
 
 
-** Edit
+** Edit rights
 
 
-** Edit
+** Editable if hidden in all views
 
 
-** Edit
+** Editor
+
+
+** Emphasis
+
+
+** Empty
+
+
+** Empty folder
+
+
+** Enable Sync4j / Funambol
+
+
+** Enable WebDAV
+
+
+** Enable anonymous CMS
+
+
+** Enable anonymous access
+
+
+** Enable automatic user creation
+
+
+** Enable external mail client for 'mailto:' links
+
+
+** Enable self registration
+
+
+** End
 
 
 ** Error
 
 
-** Events
+** Error doing request to xmlhttp
+
+
+** Error moving file
+
+
+** Error pasting asset
 
 
 ** Events
+
+
+** Example
+
+
+** Example contacts
+
+
+** Example surveys can be found at:
+
+
+** Example without mountpoint
 
 
 ** Examples
@@ -181,22 +861,25 @@
 ** Execute
 
 
-** Execute
+** Expenses
 
 
-** Execute
+** Experimental
+
+
+** Expires
+
+
+** Expiry
+
+
+** Extended
 
 
 ** Extensions
 
 
-** F j
-
-
-** F j
-
-
-** F j
+** Extracting files
 
 
 ** F j
@@ -205,25 +888,43 @@
 ** F j, Y
 
 
-** F j, Y
+** FAQ
 
 
-** F j, Y
+** Failed to create directory: %s
+
+
+** Failed to write file to disk.
+
+
+** Failed to write into %s
+
+
+** Family status
+
+
+** Favorites
+
+
+** Fax
+
+
+** Fax private
 
 
 ** Feature request
 
 
-** Feed
+** Feb
+
+
+** February
 
 
 ** Feed
 
 
-** Feed
-
-
-** Feed
+** Field
 
 
 ** Field contains value
@@ -235,19 +936,79 @@
 ** Field is equal to value
 
 
+** Fields
+
+
+** File
+
+
+** Filename must have the right extension. Valid extensions are %s
+
+
+** Files
+
+
+** Filesystem
+
+
 ** Filter
+
+
+** Find assets in multiple folders
+
+
+** Finish scheduled
+
+
+** Finished
 
 
 ** First in list
 
 
-** Folder
+** First name
+
+
+** Fix paging bar to page bottom
+
+
+** Flags
+
+
+** Flash plugin not installed.
 
 
 ** Folder
 
 
-** Folder with ID %s
+** Folder Type
+
+
+** Folder already exists.
+
+
+** Folder created.
+
+
+** Folder has changed.
+
+
+** Folder icon
+
+
+** Folder not found.
+
+
+** Folder refresh period
+
+
+** Folder structure
+
+
+** Folder structure created.
+
+
+** Folder structure moved to trash.
 
 
 ** Folder with ID %s
@@ -256,34 +1017,109 @@
 ** Folders
 
 
-** Folders
+** Force SSL
 
 
-** Folders
+** Form
+
+
+** Forum
+
+
+** Forward
+
+
+** Fr
+
+
+** Free/busy
+
+
+** Freelance
+
+
+** Fri
+
+
+** Friday
+
+
+** From
 
 
 ** Full texts
 
 
+** Full time
+
+
+** Full width
+
+
+** Fulltext index
+
+
+** Funambol only works with MySQL and PostgreSQL.
+
+
+** Function does not exist: %s
+
+
+** GNU GPL Frequently Asked Questions
+
+
+** Gender
+
+
+** General
+
+
 ** Generate
 
 
-** Give Feedback
+** Gifts
 
 
 ** Group
 
 
-** Group
+** Group created.
 
 
-** Group
+** Group deactivated.
+
+
+** Groupname
 
 
 ** Groups
 
 
+** HTML document
+
+
+** HTML documents
+
+
+** Hardware
+
+
+** Headers
+
+
+** Height
+
+
 ** Help
+
+
+** Helpdesk
+
+
+** Hidden in
+
+
+** Hidden in all views
 
 
 ** Hide
@@ -292,34 +1128,286 @@
 ** History
 
 
+** Holiday
+
+
 ** Home
+
+
+** Home folder id
+
+
+** Home page in the CMS
+
+
+** Homepage
 
 
 ** Host
 
 
-** Icon
+** Hour
+
+
+** Hours per week
+
+
+** Human resources
+
+
+** I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2
+
+
+** I m p o r t
+
+
+** I n s t a l l
 
 
 ** Icon
 
 
-** Info
+** Id
+
+
+** Id must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
+
+
+** Id must be not null, min 3 characters, max 128 containing [a-z0-9_-@.].
+
+
+** Ideas
+
+
+** If empty, the SMTP connection from the module users will be used.
+
+
+** If file system permissions are ok, please check the configurations of %s if present.
+
+
+** If username or password contains the &quot;:&quot; character, replace it with &quot;==&quot;.
+
+
+** If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.
+
+
+** Illness
+
+
+** Im-/Export
+
+
+** Image
+
+
+** Images
+
+
+** Import
+
+
+** In progress
+
+
+** Inactive
+
+
+** Include in RSS feed
+
+
+** Include page
+
+
+** Index
+
+
+** Index length
+
+
+** Index type
+
+
+** Indexes
+
+
+** Industry
 
 
 ** Info
 
 
-** L o g i n
+** Input field
+
+
+** Input field height
+
+
+** Insert
+
+
+** Install default folder structure
+
+
+** Install demo folders
+
+
+** Install minimal folder structure
+
+
+** Internal recommendation
+
+
+** Intranet
+
+
+** Intro
+
+
+** Invalid file extensions
+
+
+** Invalid schema mode '%s'
+
+
+** Invalid security token
+
+
+** Inventory
+
+
+** Inventory number
+
+
+** Investor
+
+
+** Invoice
+
+
+** Item created by %s at %s
+
+
+** Item deleted by %s at %s
+
+
+** Item edited (%s) by %s at %s
+
+
+** Item not found.
+
+
+** Item successfully created.
+
+
+** Item successfully updated.
+
+
+** Item(s) not found or access denied.
+
+
+** Jan
+
+
+** January
+
+
+** Job description
+
+
+** Join lines
+
+
+** Jul
+
+
+** July
+
+
+** Jun
+
+
+** June
+
+
+** Key
+
+
+** Key customer
+
+
+** Key name
+
+
+** Keywords
+
+
+** Knowledge base
 
 
 ** L o g i n
+
+
+** LDAP anonymous connection failed.
+
+
+** LDAP attribute for group memberships
+
+
+** LDAP attribute for rooms
+
+
+** LDAP attribute for usernames
+
+
+** LDAP connection to host %s failed.
+
+
+** LDAP without anonymous access
+
+
+** LDAP: no UID given
+
+
+** LDAP: no base DN given
+
+
+** Last access
+
+
+** Last name
+
+
+** Leave of absence
+
+
+** Letter
+
+
+** Level
 
 
 ** License
 
 
+** Line break
+
+
 ** Link
+
+
+** Links
+
+
+** Lists
+
+
+** Load external images
+
+
+** Location
+
+
+** Locations
 
 
 ** Lock
@@ -328,34 +1416,88 @@
 ** Locked by
 
 
-** Locked by
-
-
 ** Locking
+
+
+** Login failed from %s.
 
 
 ** Login/-out
 
 
-** Logout
+** Logins
 
 
 ** Logout
 
 
-** M j, Y
+** Lookup
+
+
+** M j
 
 
 ** M j, Y
+
+
+** M j, g:i a
 
 
 ** Mail identities
 
 
+** Main menu
+
+
+** Main page
+
+
+** Maintenance mode
+
+
+** Man-days
+
+
+** Man-days planned
+
+
 ** Manage offline folders
 
 
+** Manager
+
+
+** Manufacturer
+
+
+** Mar
+
+
+** March
+
+
+** Marketing event
+
+
 ** Maximize
+
+
+** Maximum file size
+
+
+** Maximum number of assets per page
+
+
+** May
+
+
+** Media
+
+
+** Meeting
+
+
+** Members
 
 
 ** Memory limit
@@ -364,73 +1506,202 @@
 ** Merge folders permanently
 
 
+** Merged folders
+
+
+** Message
+
+
+** Messages
+
+
 ** Milestone
+
+
+** Minimize
+
+
+** Miscellaneous
+
+
+** Mo
+
+
+** Mobile
+
+
+** Model
 
 
 ** Modified
 
 
-** Module
+** Modified by
+
+
+** Modifying database failed.
 
 
 ** Module
 
 
-** Module
+** Module disabled.
+
+
+** Modules
+
+
+** Mon
+
+
+** Monday
 
 
 ** Month
 
 
-** Month
-
-
-** Month
+** More information about the GNU GPL
 
 
 ** Mountpoint
 
 
-** Mountpoint
+** Move
+
+
+** Move to subfolder 'Archive'
 
 
 ** Multiple
 
 
-** Name
+** Multiple choice
+
+
+** My appointments
+
+
+** My tasks
 
 
 ** Name
 
 
-** Name
+** Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
+
+
+** Name must be not null, min 3 characters, containing [a-zA-Z0-9-_.].
+
+
+** Network
+
+
+** Never expires
+
+
+** New
 
 
 ** New folder
 
 
-** No entries found.
+** News
+
+
+** Next recurrences
+
+
+** Nickname
+
+
+** Nightwork
+
+
+** No dataset selected.
 
 
 ** No entries found.
 
 
-** No entries found.
+** No file was uploaded
 
 
 ** No line breaks
 
 
-** Notification
+** No search index
+
+
+** No username/password.
+
+
+** No wrap
+
+
+** Non unique
+
+
+** Not allowed. Please log in as super administrator.
+
+
+** Not in
+
+
+** Not in database
+
+
+** Note
+
+
+** Notebook
+
+
+** Notes
+
+
+** Notificaiton sent to: %s
 
 
 ** Notification
 
 
-** Offline folders
+** Notification summary
 
 
-** Offline folders
+** Notifications
+
+
+** Nov
+
+
+** November
+
+
+** Null
+
+
+** Number of employees
+
+
+** Objectives
+
+
+** Oct
+
+
+** October
+
+
+** Offer
+
+
+** Office
+
+
+** Office program
+
+
+** Offices
 
 
 ** Offline folders
@@ -439,16 +1710,7 @@
 ** Offline reading
 
 
-** Ok
-
-
-** Ok
-
-
-** Ok
-
-
-** Ok
+** Offline sync
 
 
 ** Ok
@@ -457,61 +1719,268 @@
 ** Only for this folder
 
 
+** Only in
+
+
+** Open
+
+
+** Operating system
+
+
+** Operation not allowed. (Data loss protection)
+
+
 ** Optimize Tables
 
 
 ** Options
 
 
-** Options
+** Order size
+
+
+** Organisation
+
+
+** Organizer
+
+
+** Origin
+
+
+** Original message
 
 
 ** Other
 
 
-** Other
+** Outline image
 
 
 ** Output
 
 
-** Page last modified on
+** Output empty: %s
+
+
+** Overtime
+
+
+** Overtime compensation per hour
+
+
+** Owner
+
+
+** Owner since
+
+
+** Package from local file system (.tar.gz)
+
+
+** Packed
+
+
+** Page
 
 
 ** Page last modified on
+
+
+** Page name (URL)
+
+
+** Page not found
+
+
+** Page title
+
+
+** Pager
+
+
+** Paid
+
+
+** Paid holidays
+
+
+** Paragraphs
+
+
+** Parameters
 
 
 ** Parent folder
 
 
-** Password
+** Parsing
+
+
+** Part time
+
+
+** Participants
+
+
+** Participants (external)
+
+
+** Participants (internal)
 
 
 ** Password
+
+
+** Password expired. (password of %s has expired)
+
+
+** Password expires
+
+
+** Password must be not null, min 5 characters.
+
+
+** Passwords
+
+
+** Paste
 
 
 ** Path
 
 
+** Pause
+
+
+** Payroll
+
+
 ** Permissions
 
 
-** Please enable Javascript in your browser.
+** Permissions added for: %s
+
+
+** Personal
+
+
+** Personal department
+
+
+** Personal folders
+
+
+** Personal projects
+
+
+** Phone
+
+
+** Phone calls
+
+
+** Phone private
+
+
+** Photo
+
+
+** Photo gallery
+
+
+** Planned
+
+
+** Please activate cookies.
+
+
+** Please choose Apache as Web-Server.
 
 
 ** Please enable Javascript in your browser.
+
+
+** Please enter a valid url.
+
+
+** Please give read access to %s
+
+
+** Please give write access to %s
+
+
+** Please give write access to %s and %s
+
+
+** Please hit reload.
+
+
+** Please input a valid e-mail adress.
+
+
+** Please install 'tsearch2' for the PostgreSQL database.
+
+
+** Please install the php-extension with name '%s'.
+
+
+** Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !
+
+
+** Please read the following license agreement. Use the scroll bar to view the rest of this agreement.
+
+
+** Please select a location.
+
+
+** Please select a participant.
+
+
+** Please uninstall suhosin, IT IS BROKEN!
+
+
+** Please upload again.
+
+
+** Please wait ...
 
 
 ** Port
 
 
+** Portal
+
+
+** Position
+
+
+** Positions
+
+
+** Post
+
+
+** Practical training
+
+
+** Preformatted block
+
+
 ** Prepend new field as
 
 
-** Preview
+** Prevent formatting
 
 
 ** Preview
+
+
+** Price
+
+
+** Primary key
 
 
 ** Print
@@ -520,10 +1989,67 @@
 ** Print all
 
 
+** Printer
+
+
+** Priority
+
+
+** Problem
+
+
 ** Processes
 
 
+** Processing %s ...
+
+
+** Progress
+
+
+** Project
+
+
+** Project files
+
+
+** Project tasks
+
+
+** Projects
+
+
+** Properties
+
+
+** Prospective client
+
+
+** Public holiday
+
+
+** Purchased
+
+
+** Question
+
+
+** Queue
+
+
 ** Quick add
+
+
+** Quota
+
+
+** Quota (remaining)
+
+
+** Quota [MB]
+
+
+** Quota limitation exceeded: %s
 
 
 ** R e g i s t e r
@@ -532,22 +2058,52 @@
 ** REALLY delete ALL datasets ?
 
 
-** REALLY delete ALL datasets ?
+** Rating
 
 
-** REALLY delete ALL datasets ?
+** Read
 
 
-** REALLY delete ALL datasets ?
+** Read access (groups)
+
+
+** Read access (users)
+
+
+** Read only in
 
 
 ** Read this page offline:
 
 
+** Real URL format in the CMS
+
+
+** Really apply rights to subfolders ?
+
+
 ** Really apply the changes ?
 
 
+** Really delete ?
+
+
+** Really delete ALL subfolders ?
+
+
+** Really delete the dataset(s) ?
+
+
+** Really empty the folder ?
+
+
+** Really overwrite existing dataset(s) ?
+
+
 ** Really run setup again ?
+
+
+** Really uninstall the module ?
 
 
 ** Rebuild search index
@@ -556,25 +2112,136 @@
 ** Recent changes
 
 
-** Recent changes
+** Recipients
+
+
+** Recommendation of affiliate
+
+
+** Recurrence
+
+
+** Recurrences
 
 
 ** Redirect to home directory
 
 
+** Reference
+
+
+** Refresh
+
+
+** Refresh every x seconds
+
+
+** Regular
+
+
+** Reject
+
+
+** Relative formats
+
+
+** Relaunch Setup
+
+
+** Relevance
+
+
+** Reminder
+
+
 ** Rename folder
 
 
-** Reset view
+** Repeat count
+
+
+** Repeat exclusions
+
+
+** Repeat interval
+
+
+** Repeat until
+
+
+** Reply
+
+
+** Reply all
+
+
+** Require admin access to set mountpoints
+
+
+** Required
+
+
+** Required fields
+
+
+** Reseller
 
 
 ** Reset view
+
+
+** Resource
+
+
+** Resources
+
+
+** Responsible
+
+
+** Responsible (external)
+
+
+** Responsible (internal)
+
+
+** Restore complete
+
+
+** Restore here
+
+
+** Restore only missing
+
+
+** Restore only newer
+
+
+** Restore to origin
+
+
+** Return receipt
+
+
+** Rights
+
+
+** Risks
+
+
+** Room name
+
+
+** Room number
+
+
+** Rooms
+
+
+** Rows
 
 
 ** Run Setup again
-
-
-** S a v e
 
 
 ** S a v e
@@ -586,31 +2253,46 @@
 ** S a v e  a n d  g o  b a c k
 
 
+** SMTP not configured for %s
+
+
+** SQL FAILED: %s
+
+
+** SQL failed.
+
+
+** Sa
+
+
+** Salary
+
+
+** Salary per
+
+
+** Sales promotion
+
+
+** Sat
+
+
+** Saturday
+
+
+** Scheduling
+
+
 ** Schema
 
 
 ** Schema data
 
 
-** Search
+** Schemafile not found. (%s)
 
 
-** Search
-
-
-** Search
-
-
-** Search
-
-
-** Search
-
-
-** Search
-
-
-** Search
+** School
 
 
 ** Search
@@ -619,40 +2301,166 @@
 ** Search by ID
 
 
-** Search by ID
+** Second manager
+
+
+** Secretary
 
 
 ** Self registration
 
 
+** Self registration needs confirmation by an administrator.
+
+
+** Send now
+
+
+** Sent
+
+
+** Sent reminders
+
+
+** Sep
+
+
+** Separate fields
+
+
+** Separate values
+
+
+** Separator
+
+
+** Separators
+
+
+** September
+
+
+** Serial number
+
+
+** Server
+
+
+** Server-IP
+
+
+** Service provider
+
+
+** Session name in cookie
+
+
+** Session timeout
+
+
 ** Sessions
+
+
+** Settings
 
 
 ** Setup
 
 
-** Short links
+** Setup needs Simple Groupware with at least version %s !
+
+
+** Setup needs a database-php-extension ! (%s)
+
+
+** Setup needs php with at least version %s !
+
+
+** Setup needs php-extension with name %s !
+
+
+** Setup: setup-data written to %s.
+
+
+** Shapes
+
+
+** Share
 
 
 ** Short links
+
+
+** Show
 
 
 ** Show all rules
 
 
+** Show archive
+
+
+** Show folder description in content area
+
+
 ** Show password
+
+
+** Show quoted text
 
 
 ** Similar
 
 
-** Source
+** Simple tables
+
+
+** Single choice
+
+
+** Size
+
+
+** Size (children)
+
+
+** Slow
+
+
+** Software
+
+
+** Solution
+
+
+** Solution type
 
 
 ** Source
 
 
-** Statistics
+** Source code
+
+
+** Special leave
+
+
+** Specification
+
+
+** Spreadsheet
+
+
+** Start scheduled
+
+
+** Started
+
+
+** State
+
+
+** Static cache
 
 
 ** Statistics
@@ -661,16 +2469,64 @@
 ** Status
 
 
-** Status
+** Statuses
+
+
+** Strategies
+
+
+** Street
+
+
+** Structure
+
+
+** Su
+
+
+** Subfolder
 
 
 ** Subfolders
 
 
-** Subfolders
+** Subitem
+
+
+** Subject
+
+
+** Subjects
 
 
 ** Submit a patch
+
+
+** Subpages
+
+
+** Subsistence costs
+
+
+** Sum
+
+
+** Summary
+
+
+** Sun
+
+
+** Sunday
+
+
+** Superior
+
+
+** Supplier
+
+
+** Suppliers
 
 
 ** Support
@@ -679,13 +2535,31 @@
 ** Support request
 
 
+** Surveys
+
+
+** Suspended
+
+
 ** Switch maintenance mode
 
 
-** Syntax
+** Sync4j remote delete items
 
 
 ** Syntax
+
+
+** System
+
+
+** System command executed: %s
+
+
+** Tab
+
+
+** Table
 
 
 ** Table sizes
@@ -694,106 +2568,388 @@
 ** Table status
 
 
+** Tables
+
+
+** Take over
+
+
 ** Take selection
 
 
-** Task with ID %s
+** Task
 
 
 ** Task with ID %s
+
+
+** Tasks
 
 
 ** Tasks with responsible %s
 
 
+** Template
+
+
+** Templates
+
+
+** Temporary work
+
+
+** Text Document
+
+
+** Text area
+
+
 ** Text formatting rules
+
+
+** Th
+
+
+** The error logfile cannot be processed, too large:
+
+
+** The folder cannot be copied.
+
+
+** The folder cannot be deleted.
+
+
+** The folder cannot be moved.
 
 
 ** The new password is
 
 
+** The url doesn't exist.
+
+
+** Theme
+
+
+** Thu
+
+
+** Thursday
+
+
+** Time and expenses
+
+
 ** Time limit
 
 
-** Today
+** Time sheets
+
+
+** Time zone
+
+
+** Title
+
+
+** To
+
+
+** To continue installing Simple Groupware you must check the box under the license
 
 
 ** Today
 
 
-** Today
-
-
-** Today
-
-
-** Today
-
-
-** Today
+** Too many wrong logins. Please wait 15 minutes.
 
 
 ** Total
 
 
-** Trash
+** Trace
+
+
+** Trade fair
+
+
+** Translations of the GNU GPL
+
+
+** Transportation costs
 
 
 ** Trash
+
+
+** Trash folder not found.
 
 
 ** Tree
 
 
+** Trigger failed
+
+
+** Tu
+
+
+** Tue
+
+
+** Tuesday
+
+
 ** Type
 
 
-** Unlock
+** U n i n s t a l l
+
+
+** URL
+
+
+** USD
+
+
+** Unable to write to %s
+
+
+** Unconfirmed
+
+
+** Uninstall does not delete any data in the database.
+
+
+** Unique
+
+
+** Unique with trash
 
 
 ** Unlock
+
+
+** Up
+
+
+** Update
 
 
 ** Update Simple Groupware
 
 
+** Updated
+
+
+** Updating schema %s from %s.
+
+
+** Upload failed
+
+
 ** Uploaded files
+
+
+** Uploading
+
+
+** Usage
+
+
+** Use APC for session storage
+
+
+** Use Debian binaries (Warning: not latest versions)
+
+
+** Use LDAP Groups
+
+
+** Use syslog() function for logging events
+
+
+** Use the mail() function for sending mails (insecure)
 
 
 ** User
 
 
-** Username
+** User not found.
 
 
 ** Username
+
+
+** Username must be different from the super administrator.
 
 
 ** Users
 
 
+** V a l i d a t e
+
+
+** Vacation
+
+
+** Vacation days per year
+
+
+** Validating %s ...
+
+
+** Value
+
+
+** Value '%s' needs a group membership: %s
+
+
+** Variable
+
+
+** Variable already exists in table. (%s)
+
+
+** Variable must be of type date (mm/dd/yyyy).
+
+
+** Variable must be of type datetime (mm/dd/yyyy hh:mm am/pm).
+
+
+** Variable must be of type float.
+
+
+** Variable must be of type int and greater than 0.
+
+
+** Variable must be of type int.
+
+
+** Variable must be of type time (hh:mm am/pm).
+
+
 ** Variables
 
 
-** Warning
+** Verbal recommendation
+
+
+** View
+
+
+** View access (groups)
+
+
+** View access (users)
+
+
+** Virus scanner
+
+
+** Visibility
+
+
+** Voice mail
+
+
+** Vote
+
+
+** Voted by
+
+
+** Waiting
 
 
 ** Warning
 
 
-** Week
+** We
+
+
+** Web
+
+
+** Web page
+
+
+** Wed
+
+
+** Wednesday
 
 
 ** Week
 
 
-** Week
+** Week start
+
+
+** Weekend
+
+
+** Welcome to Simple Groupware!
+
+
+** Width
+
+
+** Wiki
+
+
+** WikiStyles
+
+
+** Workflow
+
+
+** Working student
+
+
+** Workshop
+
+
+** Workspace
+
+
+** Write access (groups)
+
+
+** Write access (users)
+
+
+** Wrong database-version (%s). Please use at least %s !
 
 
 ** Year
 
 
+** You are not allowed to view this folder.
+
+
+** Your message was read on %s.
+
+
 ** Your session has timed out.
+
+
+** Zipcode
+
+
+** accepted
+
+
+** account of %s has expired
+
+
+** active
+
+
+** added line
+
+
+** admin access
 
 
 ** after
@@ -802,40 +2958,148 @@
 ** and
 
 
-** and
+** another page
+
+
+** answered
+
+
+** assigned
 
 
 ** at least 20 characters
 
 
+** attach file
+
+
 ** before
+
+
+** big
+
+
+** big text
+
+
+** bigger
+
+
+** blue
 
 
 ** bold
 
 
-** contains
+** bold italic
+
+
+** booked
+
+
+** borrowed
+
+
+** bulleted
+
+
+** canceled
+
+
+** centered
+
+
+** changed line
+
+
+** checked
+
+
+** closed
+
+
+** completed
+
+
+** confirmed
 
 
 ** contains
+
+
+** current path
+
+
+** current time
+
+
+** daily
+
+
+** days
+
+
+** definition for definition lists
+
+
+** deleted
+
+
+** deleted line
+
+
+** directory does not exist.
 
 
 ** disable
 
 
-** equal
+** display filter
+
+
+** displays
+
+
+** divorced
+
+
+** duplicate
+
+
+** e.g.
+
+
+** engaged
 
 
 ** equal
 
 
-** g:i a
+** female
 
 
-** g:i a
+** file is too big. Please change upload_max_filesize, post_max_size in your php.ini
 
 
-** g:i a
+** file is too big. Please upload a smaller one.
+
+
+** file not found in database.
+
+
+** file not found.
+
+
+** file was uploaded partially.
+
+
+** first level support
+
+
+** fixed
+
+
+** for a new paragraph, use a blank line
 
 
 ** g:i a
@@ -844,7 +3108,16 @@
 ** greater than
 
 
-** greater than
+** green
+
+
+** hanging text
+
+
+** heading
+
+
+** headings
 
 
 ** hide in all views
@@ -853,49 +3126,151 @@
 ** hide in this view
 
 
+** horizontal line
+
+
+** hours
+
+
+** http://www.pmwiki.org/PmWiki/
+
+
+** if not autodetected with namingContexts
+
+
+** immediate
+
+
+** in repair
+
+
+** in stock
+
+
+** indent text
+
+
+** inheritance to subfolders without default values
+
+
+** inserted
+
+
+** installed
+
+
+** insufficient folder rights
+
+
+** invalid
+
+
+** italic
+
+
 ** l, F j, Y
 
 
-** lesser than
+** less promising
 
 
 ** lesser than
 
 
-** link text
+** line
 
 
 ** link text
 
 
-** link text
+** link to external page
 
 
-** link text
+** link to internal page
 
 
-** link text
+** login %s from %s with %s
+
+
+** logout %s
+
+
+** low
+
+
+** lowest
 
 
 ** m/d/Y
 
 
-** m/d/Y
+** m/d/Y g:i a
 
 
 ** m/d/y g:i:s a
 
 
-** none
+** magenta
+
+
+** mail footer
+
+
+** mail notification
+
+
+** mail reminder
+
+
+** male
+
+
+** married
+
+
+** maximum number of files exceeded.
+
+
+** min
+
+
+** minimum = 15 secs, 0 = disabled
+
+
+** missing a temporary folder.
+
+
+** missing field
+
+
+** missing right: %s
+
+
+** monospace
+
+
+** monthly
+
+
+** months
+
+
+** need feedback
+
+
+** no
+
+
+** no result
+
+
+** no username submitted
 
 
 ** none
 
 
-** none
-
-
-** not contains
+** normal
 
 
 ** not contains
@@ -904,7 +3279,13 @@
 ** not equal
 
 
-** not equal
+** not installed
+
+
+** numbered
+
+
+** offer
 
 
 ** offline
@@ -913,70 +3294,184 @@
 ** one of
 
 
-** one of
-
-
 ** online
 
 
-** or higher
+** open
+
+
+** or
 
 
 ** or higher
 
 
-** or higher
+** orange
 
 
-** or higher
+** out of office
 
 
-** or higher
+** overlap
 
 
-** or higher
-
-
-** or higher
-
-
-** or higher
-
-
-** or higher
-
-
-** or higher
+** parameters
 
 
 ** password not confirmed.
 
 
+** promising
+
+
+** read access
+
+
+** ready for repair
+
+
+** ready for scrap
+
+
+** red
+
+
+** rejected
+
+
 ** rename
+
+
+** reserved
+
+
+** right-aligned
+
+
+** scrapped
+
+
+** second level support
 
 
 ** seconds
 
 
-** some text
+** single
+
+
+** small
+
+
+** small text
+
+
+** smaller
 
 
 ** some text
 
 
-** starts with
+** some_text
 
 
 ** starts with
+
+
+** subheading
+
+
+** subscript
+
+
+** superscript
+
+
+** term
+
+
+** third level support
+
+
+** this file extension is not allowed
+
+
+** timeout
+
+
+** to be checked
+
+
+** unable to find %s
+
+
+** unconfirmed
 
 
 ** underline
 
 
+** uninterested
+
+
+** urgent
+
+
+** use mirror from
+
+
+** validation failed
+
+
+** verified
+
+
 ** vertical
 
 
-** word
+** very promising
+
+
+** weekly
+
+
+** weeks
+
+
+** white
+
+
+** widowed
+
+
+** won't fix
 
 
 ** word
+
+
+** works as expected
+
+
+** works for me
+
+
+** write access
+
+
+** wrong directory
+
+
+** wrong password
+
+
+** yearly
+
+
+** years
+
+
+** yellow
+
+
+** yes
