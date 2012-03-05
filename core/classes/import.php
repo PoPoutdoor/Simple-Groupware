@@ -169,7 +169,7 @@ static function header() {
 	</head>
 	<body>
 	<div class="border headline">Simple Groupware {t}Import{/t}</div><br>
-	<a href="index.php">{t}Back{/t}</a><br>
+	<a href="index.php">{t}Back{/t}</a> &nbsp;| &nbsp;<a href="http://www.simple-groupware.de/cms/DataHandlers" target="_blank">{t}Help{/t}</a><br>
   ');
 }
 
