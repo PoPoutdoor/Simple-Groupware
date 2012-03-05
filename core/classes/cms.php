@@ -83,7 +83,7 @@ function output() {
 	$output = $this->smarty->fetch("cms/pmwiki.tpl");
   }
   echo $output;
-  if (self::$cache_file!="" and $output!="" and $this->page["staticcache"]=="1" and $_SESSION["username"]=="anonymous" and strpos($this->page["rread_users"],"|anonymous|")!==false) {
+  if (self::$cache_file!="" and $output!="" and $this->page["staticcache"]=="1" and sys_is_guest($_SESSION["username"]) and strpos($this->page["rread_users"],"|anonymous|")!==false) {
 	sys_mkdir(dirname(self::$cache_file));
 	file_put_contents(self::$cache_file, $output, LOCK_EX);
   
