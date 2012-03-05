@@ -18,8 +18,6 @@ function __autoload($class) {
     require(sys_trans(sys_custom("modules/lib/".basename(substr($class,4)).".php"),$class));
   } else if (sys_strbegins($class,"type_")) {
     require(sys_trans(sys_custom("core/types/".basename(substr($class,5)).".php"),$class));
-  } else if ($class=="sys") {
-	exit(" {t}Please uninstall the suhosin extension, IT IS BUGGY!{/t}");
   } else {
     require(sys_trans(sys_custom("core/classes/".basename($class).".php"),$class));
   }
@@ -1762,6 +1760,7 @@ function login_handle_login($save_session=true) {
   session_name(SESSION_NAME);
   if (empty($_REQUEST["iframe"]) and empty($_REQUEST["export"]) and empty($_REQUEST["import"]) and !isset($_REQUEST["plain"]) and $save_session) {
     session_set_save_handler("_login_session_none","_login_session_none","_login_session_read","_login_session_write","_login_session_destroy","_login_session_none");
+	register_shutdown_function("session_write_close");
   } else {
     session_set_save_handler("_login_session_none","_login_session_none","_login_session_read","_login_session_none","_login_session_none","_login_session_none");
   }
@@ -1960,11 +1959,6 @@ function _sql_sqlite_match($str, $regex) {
   return false;
 }
 
-function _sql_sqlite_shutdown() {
-  session_write_close();
-  if (!defined("NOSESSION")) define("NOSESSION",true);
-}
-
 function sql_connect($server,$username,$password,$database="") {
   if (SETUP_DB_TYPE=="mysql") {
     if (!$link = mysql_pconnect($server,$username,$password)) return false;
@@ -1986,7 +1980,6 @@ function sql_connect($server,$username,$password,$database="") {
 	  sys::$db_error = $e->getMessage();
 	  return false;
 	}
-    if (!defined("NOSESSION")) register_shutdown_function("_sql_sqlite_shutdown");
   }
   return true;
 }
@@ -2652,6 +2645,7 @@ function sys_build_output($cache_file="") {
   if (CORE_COMPRESS_OUTPUT and !@ini_get("zlib.output_compression") and !sys::$alert and
       isset($_SERVER["HTTP_ACCEPT_ENCODING"]) and strpos($_SERVER["HTTP_ACCEPT_ENCODING"],"gzip")!==false and
 	  count(sys::$alert)==0 and $GLOBALS["output"]=="") {
+	  // TODO fix output non empty
 	header("Content-Encoding: gzip");
     $output = gzencode($output);
 	$cache_file .= ".gz";
