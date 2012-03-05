@@ -1201,7 +1201,8 @@ function debug_file($var,$file="debug.txt") {
  */
 function debug_check_tpl() {
   $lastmod = filemtime(SIMPLE_CACHE."/smarty");
-  $folders = array("templates/","templates/helper/","templates/js/",SIMPLE_CUSTOM."templates/",SIMPLE_CUSTOM."templates/helper/",SIMPLE_CUSTOM."templates/js/");
+  $folders = array("lang/","templates/","templates/helper/","templates/css/","templates/js/",
+	SIMPLE_CUSTOM."templates/",SIMPLE_CUSTOM."templates/helper/",SIMPLE_CUSTOM."templates/js/");
   foreach ($folders as $folder) {
     if (!is_dir($folder)) continue;
     foreach (scandir($folder) as $file) {
