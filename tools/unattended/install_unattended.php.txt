@@ -43,23 +43,9 @@ $url = $argv[1];
 $lang = $argv[2];
 $folders = @$argv[10];
 
-out("Building translations ...\n\n");
-if (($fp = fopen($url."?lang=".$lang,"r"))) {
-  $data = "";
-  while (!feof($fp)) $data .= fread($fp,8192);
-  fclose($fp);
-} else exit(1);
-
-if (!strpos($data,"Continue")) {
-  echo "Error building translations: ".$url."?lang=".$lang."\n\n";
-  if (($pos = strpos($data,"<body"))) $data = substr($data, $pos);
-  echo strip_tags($data);
-  exit(1);
-}
-
 $url .= "?install=yes";
 $url .= "&accept_gpl=yes";
-$url .= "&language=".$lang;
+$url .= "&lang=".$lang;
 $url .= "&admin_user=".urlencode($argv[3]);
 $url .= "&admin_pw=".urlencode($argv[4]);
 $url .= "&db_type=".$argv[5];
