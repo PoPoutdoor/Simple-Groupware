@@ -17,7 +17,7 @@
   </view>
   <view name="calendar" displayname="{t}Calendar{/t}" schema="sys_nodb_calendar_users" enable_calendar="true">
   </view>
-  <view name="changepwd" displayname="{t}Change settings{/t}" where="username=@username@" template="edit" schema_mode="edit" visibility="bottom" disable_tabs="true" showonly="id|username|password|status|cal_day_begin|cal_day_end|timezone|folder">
+  <view name="changepwd" displayname="{t}Change settings{/t}" where="username=@username@" template="edit" schema_mode="edit" visibility="bottom" disable_tabs="true" showonly="id|username|password|status|cal_day_begin|cal_day_end|timezone|theme|folder">
   </view>
   <singlebutton name="deactivate" displayname="{t}Deactivate{/t}" onclick="asset_update_confirm({activated:'0'},'@id@');" condition="activated|neq|0" right="write" icon="disabled.gif" />
   <singlebutton name="activate" displayname="{t}Activate{/t}" onclick="asset_update_confirm({activated:'1'},'@id@');" condition="activated|neq|1" right="write" icon="enabled.gif" />
@@ -152,6 +152,9 @@
   </field>
   <field name="timezone" displayname="{t}Time zone{/t}" simple_type="select" simple_size="1" simple_tab="account">
     <data function="timezones"/>
+  </field>
+  <field name="theme" displayname="{t}Theme{/t}" simple_type="select" simple_size="1" simple_tab="account">
+    <data function="themes"/>
   </field>
   <field name="enabled_modules" displayname="{t}Allow disabled modules{/t}" simple_type="select" simple_size="5" simple_tab="account">
     <data function="disabled_modules"/>
