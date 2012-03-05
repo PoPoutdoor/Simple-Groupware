@@ -57,7 +57,7 @@ require("core/functions.php");
 
 $databases = setup::validate_system();
 
-$old_file = SIMPLE_STORE."/config_old.php";
+$old_file = "simple_store/config_old.php";
 if (file_exists($old_file) and filemtime($old_file)>time()-86400) {
   $_REQUEST["auto_update"] = true;
   $_REQUEST["accept_gpl"] = "yes";
