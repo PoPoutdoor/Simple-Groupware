@@ -47,25 +47,22 @@
   </div>
   <table id="wikimid" width="100%" cellspacing="0" cellpadding="0"><tr>
     <td id="wikileft" valign="top">
+	  <p style="text-align: left; font-size:83%;">- <a target="_blank" href="?page=Site.SideBar&edit">{t}Edit{/t}</a> -</p>
 	  {$cms->render("Site.SideBar")}
-	  <p class="vspace" style="text-align: right;">
-		<span style="font-size:83%;">- <a target="_blank" href="?page=Site.SideBar&edit">{t}Edit{/t}</a> -</span>
-	  </p>
 	</td>
     <td id="wikibody" valign="top">
+	  <p style="text-align: left; font-size:83%;">- <a target="_blank" href="?page={$page.pagename|escape:"html"}&edit" accesskey="e">{t}Edit{/t}</a> -</p>
 	  <h1 class="pagetitle">{$page.title|default:$page.name|escape:"html"}</h1>
 	  <div id="wikitext">{$cms->render($page.pagename)}</div>
     </td>
   </tr></table>
   <div id="wikifoot">
     <div class="footnav">
-	  {if $smarty.session.username neq "anonymous"}<a href="?logout" accesskey="l">{t}Logout{/t}</a> - {/if}
+	  <span style="float:left;">{t}Page last modified on{/t} {$page.lastmodified|modify::localdateformat:"{t}F j, Y{/t}"}</span>
+	  &nbsp;{if $smarty.session.username neq "anonymous"}<a href="?logout" accesskey="l">{t}Logout{/t}</a> - {/if}
 	  <a href="?rss">{t}Recent changes{/t}</a> - 
-	  <a target="_blank" href="?page={$page.pagename|escape:"html"}&edit" accesskey="e">{t}Edit{/t}</a> - 
-	  <a href="?page={$page.pagename|escape:"html"}&source">{t}Source{/t}</a> - 
-	  <a href="?page=Site.Search">{t}Search{/t}</a>
+	  <a href="?page={$page.pagename|escape:"html"}&source">{t}Source{/t}</a>
 	</div>
-    <div class="lastmod">{t}Page last modified on{/t} {$page.lastmodified|modify::localdateformat:"{t}F j, Y{/t}"}</div>
   </div>
 </body>
 </html>
