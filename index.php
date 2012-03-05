@@ -51,7 +51,7 @@ if (!isset($_SERVER["SERVER_ADDR"]) or $_SERVER["SERVER_ADDR"]=="") $_SERVER["SE
 if (!isset($_SERVER["HTTP_USER_AGENT"])) $_SERVER["HTTP_USER_AGENT"]="mozilla/5 rv:1.4";
 if (!isset($_SERVER["SERVER_SOFTWARE"])) $_SERVER["SERVER_SOFTWARE"]="Apache";
 
-if (!defined("NOCONTENT") and !login_browser_detect() and !DEBUG and empty($_REQUEST["export"])) sys_die("{t}Browser not supported{/t}: ".sys::$browser["str"],login::browser_detect_toString());
+if (!defined("NOCONTENT") and !login_browser_detect() and !DEBUG and empty($_REQUEST["export"])) sys_die(t("{t}Browser not supported{/t}").": ".sys::$browser["str"],login::browser_detect_toString());
 
 sys::init();
 
@@ -76,7 +76,7 @@ if (!defined("NOCONTENT")) {
   }
   $output = ob_get_contents();
   ob_end_clean();
-  if (!empty(sys::$alert) or trim($output)!="") sys_message_box("{t}Error{/t}:",$output.implode("\n",sys::$alert));
+  if (!empty(sys::$alert) or trim($output)!="") sys_message_box(t("{t}Error{/t}").":",$output.implode("\n",sys::$alert));
   sys_process_output();
 }
 
@@ -105,7 +105,7 @@ function pre_sys_checkdos() {
 	if (empty($_SERVER["HTTP_ACCEPT_LANGUAGE"])) { // client
 	  header("HTTP/1.0 408 Request timeout");
 	} else {
-      echo "<html><body><script>setTimeout('document.location.reload()',1500);</script>{t}Please wait ...{/t}<noscript>{t}Please hit reload.{/t}</noscript></body></html>"; 
+      echo "<html><body><script>setTimeout('document.location.reload()',1500);</script>Please wait ...<noscript>Please hit reload.</noscript></body></html>"; 
 	}
 	exit;
   }
