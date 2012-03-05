@@ -19,10 +19,7 @@ header("Content-Type: text/html; charset=utf-8");
 @include("simple_store/config.php");
 if (!defined("CORE_VERSION") or CORE_VERSION_config!=CORE_VERSION) {
   if (defined("CORE_VERSION")) {
-	$old = SIMPLE_STORE."/config_old.php";
-	if (file_exists($old)) rename($old,SIMPLE_STORE."/config_".time().".php");
-	rename("simple_store/config.php",$old);
-	touch($old);
+	rename("simple_store/config.php","simple_store/config_old.php");
 	header("Location: index.php");
   } else require("core/setup.php");
   exit;
