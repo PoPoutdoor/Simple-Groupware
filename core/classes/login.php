@@ -430,10 +430,17 @@ private static function _redirect($url) {
 }
 
 static function browser_detect_toString() {
-  $s = new Smarty();
-  $s->compile_dir = SIMPLE_CACHE."/smarty";
-  $s->template_dir = "templates";
-  $s->assign("agent", modify::htmlquote($_SERVER["HTTP_USER_AGENT"]));
-  return $s->fetch("compatibility.tpl");
+  return "
+	{t}Browser Compatibility{/t}:
+	
+	Firefox: 3.0 {t}or higher{/t}
+	Chrome: 
+	Safari: 3.0 {t}or higher{/t}
+	Opera: 9.0 {t}or higher{/t}
+	Konqueror: 3.2 {t}or higher{/t}
+	Internet Explorer 7.0 {t}or higher{/t}
+	
+	User-Agent: {$_SERVER["HTTP_USER_AGENT"]}
+  ";
 }
 }
