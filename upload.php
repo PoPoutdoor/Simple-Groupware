@@ -16,7 +16,7 @@ sys_check_auth();
 
 $ext = modify::getfileext(urldecode($_SERVER["REQUEST_URI"]));
 if (in_array($ext, explode(",", INVALID_EXTENSIONS))) {
-  sys_error(sprintf("{t}this file extension is not allowed{/t} (%s)", $ext),"403 Forbidden");
+  sys_error(t("{t}this file extension is not allowed{/t}")." (".$ext.")","403 Forbidden");
 }
 
 $content_length = sys_get_header("Content-Length");
@@ -69,7 +69,7 @@ if (empty($_REQUEST["field"])) $field = "filedata"; else $field = ltrim($_REQUES
 $field = sql_fieldname($field);
 
 if ($content_length > _upload_get_limit($field)) {
-  sys_error("{t}Upload failed{/t}: {t}file is too big. Please upload a smaller one.{/t} ({t}insufficient folder rights{/t})","409 Conflict");
+  sys_error(trans("{t}Upload failed{/t}: {t}file is too big. Please upload a smaller one.{/t} ({t}insufficient folder rights{/t})"),"409 Conflict");
 }
 
 $t = &$GLOBALS["t"];
@@ -78,10 +78,10 @@ $t["sqlvarsnoquote"]["permission_sql_read_nq"] = $_SESSION["permission_sql_write
 $t["sqlvarsnoquote"]["permission_sql_write_nq"] = $_SESSION["permission_sql_write"];
 
 $row = db_select_first($GLOBALS["tname"],array_unique(array($field,"folder","id","dsize")),$t["sqlwhere"],"",$t["sqlvars"],array("sqlvarsnoquote"=>$t["sqlvarsnoquote"]));
-if (empty($row["folder"])) sys_error("{t}file not found in database.{/t}");
+if (empty($row["folder"])) sys_error(t("{t}file not found in database.{/t}"));
 
 if (!db_get_right($row["folder"],"write")) {
-  sys_error("{t}Access to this file has been denied.{/t} ({t}insufficient folder rights{/t})","403 Forbidden");
+  sys_error(t("{t}Access to this file has been denied.{/t}")." (".t("{t}insufficient folder rights{/t}").")","403 Forbidden");
 }
 
 if (empty($row[$field])) $row[$field] = "";
@@ -103,7 +103,7 @@ if ($row_filename=="") {
   $newfilename = $target;
 } else {
   if (file_exists($row_filename.".lck") and !sys_can_unlock($row_filename,$_SESSION["username"])) {
-    sys_error("{t}Access to this file has been denied.{/t}","409 Conflict");
+    sys_error(t("{t}Access to this file has been denied.{/t}"),"409 Conflict");
   } else {
 	$i = 1;
     $newfilename = preg_replace("|_rev\d+|","",$row_filename);
@@ -114,7 +114,7 @@ if ($row_filename=="") {
 	  $newfilename = $dir."/".$name;
     }
     if (!rename($row_filename,$newfilename)) {
-	  sys_error("{t}Error moving file{/t}","409 Conflict");
+	  sys_error(t("{t}Error moving file{/t}"),"409 Conflict");
 	}
 	$target = $row_filename;
 
@@ -141,7 +141,7 @@ function _upload_append_file($row,$field,$target,$newfilename) {
   if ($row[$field]!="") $files = explode("|",trim($row[$field],"|")); else $files = array();
   $files[] = $newfilename;
   $size = filesize($newfilename) + $row["dsize"];
-  $history = sprintf("{t}Item edited (%s) by %s at %s{/t}",$field,$_SESSION["username"],sys_date("{t}m/d/y g:i:s a{/t}"))."\n{t}File{/t}: + ".modify::basename($newfilename)."\n\n";
+  $history = t("{t}Item edited (%s) by %s at %s{/t}",$field,$_SESSION["username"],sys_date("{t}m/d/y g:i:s a{/t}"))."\n".t("{t}File{/t}").": + ".modify::basename($newfilename)."\n\n";
   $error_sql = db_update($GLOBALS["tname"],array($field=>"|".implode("|",$files)."|","dsize"=>$size,"history"=>$history),$t["sqlwhere"],$t["sqlvars"],array("sqlvarsnoquote"=>$t["sqlvarsnoquote"]));
   if ($error_sql=="") {
     db_update_treesize($GLOBALS["tname"],$row["folder"]);
@@ -204,7 +204,7 @@ function _upload_create_file($db_path, $target_lnk, $path, $filename) {
 		"id"=>$a_id, "folder"=>$id, "dsize"=>filesize($target),
 		"filedata"=>"|".$target."|", "filename"=>$filename,
 		"rread_users"=>"|anonymous|", "rwrite_users"=>"|anonymous|",
-		"history"=>sprintf("{t}Item created by %s at %s{/t}\n",$_SESSION["username"],sys_date("{t}m/d/y g:i:s a{/t}"))
+		"history"=>t("{t}Item created by %s at %s{/t}",$_SESSION["username"],sys_date(t("{t}m/d/y g:i:s a{/t}")))."\n"
 	  );
  	  $error_sql = db_insert("simple_files",$data);
 	  if ($error_sql=="") {
