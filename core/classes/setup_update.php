@@ -185,7 +185,7 @@ static function database_folders() {
 static function get_config_old($key, $full=false, $default="") {
   static $config_old = null;
   if ($config_old===null) {
-	$old_file = SIMPLE_STORE."/config_old.php";
+	$old_file = "simple_store/config_old.php";
 	if (file_exists($old_file)) $config_old = str_replace("\r","",file_get_contents($old_file));
   }
   if ($config_old===null and ($pos = strpos($config_old,"define('".$key."',"))) {
@@ -198,5 +198,4 @@ static function get_config_old($key, $full=false, $default="") {
   }
   return $default;
 }
-
 }
