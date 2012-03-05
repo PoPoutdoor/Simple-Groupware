@@ -1778,6 +1778,7 @@ function folder_build_folders() {
 	"fdesc_in_content"=>(int)FDESC_IN_CONTENT,
 	"mountpoint_admin"=>(int)MOUNTPOINT_REQUIRE_ADMIN,
 	"is_superadmin"=>(int)sys_is_super_admin($_SESSION["username"]),
+	"is_guest"=>(int)sys_is_guest($_SESSION["username"]),
 	"username"=>$_SESSION["username"],
 	"home"=>$_SESSION["home_folder"],
 	"history"=>$_SESSION["history"],
@@ -1881,7 +1882,7 @@ function _login_session_write($id,$val) {
 
 function _login_session_destroy($id) {
   if (APC_SESSION) return apc_delete("sess".$id);
-  if ($_SESSION["username"]=="anonymous" or isset($_REQUEST["session_clean"])) {
+  if (sys_is_guest($_SESSION["username"]) or isset($_REQUEST["session_clean"])) {
 	db_delete("simple_sys_session",array("id=@id@"),array("id"=>$id));
   } else {
     db_update("simple_sys_session",array("expiry"=>NOW-10),array("id=@id@"),array("id"=>$id));
@@ -2314,11 +2315,16 @@ function sys_is_internal_url($val) {
   return false;
 }
 
-function sys_is_super_admin($str) {
-  if (empty($str)) return false;
-  if (!defined("SETUP_ADMIN_USER") or in_array($str, array(SETUP_ADMIN_USER, SETUP_ADMIN_USER2))) {
+function sys_is_super_admin($user) {
+  if (empty($user)) return false;
+  if (!defined("SETUP_ADMIN_USER") or in_array($user, array(SETUP_ADMIN_USER, SETUP_ADMIN_USER2))) {
 	return true;
   }
+  return false;
+}
+
+function sys_is_guest($user) {
+  if ($user=="anonymous") return true;
   return false;
 }
 
@@ -2978,9 +2984,8 @@ function sys_process_session_request() {
   if (!empty($_REQUEST["action_sys"]) and !empty($_SESSION["username"]) and sys_is_super_admin($_SESSION["username"])) {
     admin::process_action_sys();
   }
-  if (isset($_REQUEST["style"])) $_SESSION["style"] = basename($_REQUEST["style"]);
-  if (!isset($_SESSION["style"])) $_SESSION["style"] = DEFAULT_STYLE;
-  sys::$smarty->assign("sys_style", $_SESSION["style"]);
+  if (!empty($_REQUEST["style"])) $_SESSION["theme"] = basename($_REQUEST["style"]);
+  sys::$smarty->assign("sys_style", !empty($_SESSION["theme"]) ? $_SESSION["theme"] : DEFAULT_STYLE);
 
   $table = $GLOBALS["table"];
   if ($GLOBALS["tview"]!=$table["view"]) $GLOBALS["tview"] = $table["view"];
