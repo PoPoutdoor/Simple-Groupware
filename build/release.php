@@ -20,7 +20,6 @@ class build {
 
 	public function __construct($archives=true, $manuals=true) {
 		$this->translationMaster();
-		exit;
 		$this->validateTranslation("de");
 
 		$this->sysCheck();
@@ -86,7 +85,7 @@ class build {
 		$header = "/**\n * @package Simple Groupware\n * @license GPLv2\n */\n\n";
 		$header .= "** !_Language\nEnglish\n\n";
 		file_put_contents("../lang/master.lang", "\xEF\xBB\xBF".$header.implode("\n\n\n", array_unique($master_lang)));
-		copy("../lang/master.lang", "../lang/en.lang");
+		file_put_contents("../lang/en.lang", "\xEF\xBB\xBF".$header);
 	}
 	
 	
