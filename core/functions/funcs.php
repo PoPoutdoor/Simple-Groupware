@@ -2115,7 +2115,7 @@ function _sys_remove_handler($var) {
 }
 
 function _sys_request_uri() {
-  return $_SERVER["SCRIPT_NAME"]."?".$_SERVER["QUERY_STRING"];
+  return $_SERVER["SCRIPT_NAME"]."?".@$_SERVER["QUERY_STRING"];
 }
 
 // Encryption by Ari Kuorikoski (ari.kuorikoski § finebyte.com)
