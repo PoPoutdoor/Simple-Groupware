@@ -68,7 +68,7 @@ static function validate_system() {
   );
   $memorylimit = 24000000;
 
-  if (!empty($_SERVER["SERVER_SOFTWARE"]) and !preg_match("/Apache|nginx|IIS/", $_SERVER["SERVER_SOFTWARE"])) {
+  if (!empty($_SERVER["SERVER_SOFTWARE"]) and !preg_match("/Apache|nginx|IIS|PHP/", $_SERVER["SERVER_SOFTWARE"])) {
 	self::error_add("{t}Please choose Apache as Web-Server.{/t} (".$_SERVER["SERVER_SOFTWARE"].")","2".$_SERVER["SERVER_SOFTWARE"]);
   }
 
