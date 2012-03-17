@@ -58,7 +58,7 @@ Japanese / Japan
 %sのアカウントは期限切れです。
 
 ** Accounting
-アカウント管理
+財務
 
 ** Activate
 使用
@@ -659,7 +659,7 @@ CMS
 現在時間
 
 ** Curriculum vitae
-履歴書
+学歴
 
 ** Custom schema
 
@@ -791,7 +791,7 @@ CMS
 デモ
 
 ** Demonstration folder
-
+デモデータフォルダ
 
 ** Department
 部門
@@ -857,7 +857,7 @@ Basic認証を無効にする
 表示フィルター
 
 ** Displayname
-
+表示名
 
 ** displays
 画面
@@ -896,7 +896,7 @@ Basic認証を無効にする
 
 
 ** Downloading extension list
-
+エクステンション一覧をダウンロード中です
 
 ** Downloading update list
 更新リストをダウンロード中
@@ -962,7 +962,7 @@ E-mailソフトウエア
 外部メールアプリでmailto: リンクを扱う
 
 ** Enable self registration
-
+ユーザーに会員登録を許可する
 
 ** Enable Sync4j / Funambol
 Sync4j / Funambol を使用する
@@ -971,13 +971,13 @@ Sync4j / Funambol を使用する
 WebDAVを使用する
 
 ** Enable WebDAV file locking scripts
-
+WebDAVのロック機構を利用する
 
 ** End
 終了
 
 ** engaged
-
+婚約中
 
 ** equal
 一致
@@ -1033,7 +1033,7 @@ mountpointを使わない例
 
 
 ** Extensions
-
+機能拡張
 
 ** Extracting files
 展開ファイル
@@ -1217,7 +1217,7 @@ F j, Y
 フォーラム
 
 ** Forward
-前方
+転送
 
 ** Fr
 金
@@ -1422,7 +1422,7 @@ if not autodetected with namingContexts
 ユーザー名またはパスワードにクォート記号’が入っている場合は &quot;%%&quot;に置換してください。
 
 ** If username or password contains the &quot;@&quot; character, replace it with &quot;%%&quot;.
-ユーザー名またはパスワードに'＠'が入っている場合は %% に置換してください。
+ユーザー名またはパスワードに&quot;＠&quot;が入っている場合は &quot;%%&quot; に置換してください。
 
 ** Illness
 
@@ -1599,7 +1599,7 @@ RSSに含める
 キー
 
 ** Key customer
-主要客キー
+キーパーソン
 
 ** Key name
 キー名称
@@ -1780,7 +1780,7 @@ m/d/y g:i:s a
 メンテナンスモード
 
 ** male
-男
+男性
 
 ** Man-days
 人日
@@ -1918,7 +1918,7 @@ minimum = 15秒, 0 = 禁止
 GNU GPLについてのさらなる情報
 
 ** Mountpoint
-Mountpoint
+機能割り当て
 
 ** Move
 移動
@@ -1939,7 +1939,7 @@ Mountpoint
 私のタスク
 
 ** Name
-
+項目名
 
 ** Name must be not null, lowercase, min 3 characters, max 128 containing [a-z0-9_-@.].
 姓名は空白にはできません。小文字で3文字-128字以内にしてください。 [a-z0-9_-@.]
@@ -1966,7 +1966,7 @@ Mountpoint
 新着情報
 
 ** Next recurrences
-
+次の繰り返し
 
 ** Nickname
 ニックネーム
@@ -1978,10 +1978,10 @@ Mountpoint
 いいえ
 
 ** No dataset selected.
-データセットが選択されていません
+データセットが選択されていません。
 
 ** No entries found.
-記事はありません。
+該当項目はありません。
 
 ** No file was uploaded
 
@@ -2014,7 +2014,7 @@ Mountpoint
 正常
 
 ** Not allowed. Please log in as super administrator.
-ログインは認められていません。スーパーアドミニストレータ権隹ﾅログインしてください。
+ログインは認められていません。スーパーアドミニストレータでログインしてください。
 
 ** not contains
 含まない
@@ -2111,7 +2111,7 @@ Mountpoint
 オンライン
 
 ** Only for this folder
-
+このフォルダのみに適用
 
 ** Only in
 
@@ -2132,7 +2132,7 @@ Mountpoint
 DB表の最適化
 
 ** Options
-オプション一覧
+フォルダ設定・追加
 
 ** or
 
@@ -2281,16 +2281,16 @@ DB表の最適化
 %sに権限が与えられました
 
 ** Personal
-個人設定
+自分の設定
 
 ** Personal department
-ユーザー管理部
+自分の部署
 
 ** Personal folders
-個人フォルダ
+自分のフォルダ
 
 ** Personal projects
-個人プロジェクト
+自分のプロジェクト
 
 ** Phone
 電話
@@ -2613,7 +2613,7 @@ CMSのURL書式
 全部に返信する
 
 ** Require admin access to set mountpoints
-mountpointsにはadmin権限を要する
+mountpoints操作にはadmin権限が必要です
 
 ** Required
 必要
@@ -2640,10 +2640,10 @@ mountpointsにはadmin権限を要する
 責任
 
 ** Responsible (external)
-責任（外部）
+責任者（外部）
 
 ** Responsible (internal)
-責任（内部）
+責任者（内部）
 
 ** Restore complete
 完全にリストアする
@@ -2670,7 +2670,7 @@ mountpointsにはadmin権限を要する
 権限
 
 ** Risks
-
+リスク
 
 ** Room name
 部屋名称
@@ -3140,7 +3140,6 @@ urlが存在しません
 期限
 
 ** Time sheets
-時刻表
 
 ** Time zone
 タイムゾーン
@@ -3164,7 +3163,7 @@ Simple Groupwareをインストールする場合は、ライセンスの下に�
 今日
 
 ** Too many wrong logins. Please wait 15 minutes.
-ログイン失敗回数が超過しました。15秒お待ちください。
+ログイン失敗回数が超過しました。15分お待ちください。
 
 ** Total
 合計
@@ -3469,7 +3468,6 @@ Wiki書式
 ワークショップ
 
 ** Workspace
-ワークスペース
 
 ** write access
 書き込み権限
