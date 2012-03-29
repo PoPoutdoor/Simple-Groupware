@@ -20,7 +20,7 @@ sys_check_auth();
 import::header();
 
 if (isset($_FILES["file"]) and is_array($_FILES["file"])) {
-  $files = process_files();
+  $files = import::process_files();
   if (!empty($files)) {
 	if (!sys_validate_token()) sys_die(t("{t}Invalid security token{/t}"));
 	$folder = folder_from_path($folder);
