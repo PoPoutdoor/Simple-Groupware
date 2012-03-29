@@ -72,8 +72,7 @@ if (file_exists($old_file) and filemtime($old_file)>time()-86400) {
 
 define("USE_DEBIAN_BINARIES",setup_update::get_config_old("USE_DEBIAN_BINARIES",false,0));
 define("SMTP_REMINDER",setup_update::get_config_old("SMTP_REMINDER",false,""));
-
-if (!isset($_SERVER["SERVER_ADDR"]) or $_SERVER["SERVER_ADDR"]=="") $_SERVER["SERVER_ADDR"]="127.0.0.1";
+if (empty($_SERVER["SERVER_ADDR"])) $_SERVER["SERVER_ADDR"]="127.0.0.1";
 
 // TODO change
 // setup::build_customizing(SIMPLE_CUSTOM."customize.php");
