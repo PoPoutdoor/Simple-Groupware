@@ -12,7 +12,7 @@
 	<span onclick="locate('index.php?today={if $t.data_day.type eq "day"}{$t.data_day.title[0]-86400}{else}{$t.data_day.title[0]-604800}{/if}');">&nbsp;&laquo;&laquo;&nbsp;</span>
 	<span onclick="locate('index.php?today={if $t.data_day.type eq "day"}{$t.data_day.title[0]+86400}{else}{$t.data_day.title[0]+604800}{/if}');">&nbsp;&raquo;&raquo;&nbsp;</span>
   </td>
-  <td colspan="{$t.data_day.cols*2}" class="datebox_headline" style="text-align:center; cursor:default;">
+  <td colspan="{$t.data_day.cols*2+1}" class="datebox_headline" style="text-align:center; cursor:default;">
   {if $t.data_day.type eq "day"}
     {$t.data_day.title[0]|modify::localdateformat:"{t}l, F j, Y{/t}"}
   {else}
@@ -28,6 +28,7 @@
       {$day.day} {$day.daynum}
     </td>
   {/foreach}
+  <td class="datebox_headline_day">&nbsp;</td>
 </tr>
 {/if}
 {assign var="cols" value=$t.data_day.cols}
@@ -76,6 +77,7 @@
 		{/if}
 	  {/if}
     {/section}
+	<td style="line-height:9px;" {if $rowdiv eq 0}class="item_data_spacer"{/if}>&nbsp;</td>
   </tr>
 {/section}
 </table>
