@@ -44,7 +44,7 @@ require("lib/smarty/Smarty.class.php");
 if (!defined("NOCONTENT")) ob_start();
 set_error_handler("debug_handler");
 
-if (!isset($_SERVER["SERVER_ADDR"]) or $_SERVER["SERVER_ADDR"]=="") $_SERVER["SERVER_ADDR"]="127.0.0.1";
+if (empty($_SERVER["SERVER_ADDR"])) $_SERVER["SERVER_ADDR"]="127.0.0.1";
 if (!isset($_SERVER["HTTP_USER_AGENT"])) $_SERVER["HTTP_USER_AGENT"]="mozilla/5 rv:1.4";
 if (!isset($_SERVER["SERVER_SOFTWARE"])) $_SERVER["SERVER_SOFTWARE"]="Apache";
 
