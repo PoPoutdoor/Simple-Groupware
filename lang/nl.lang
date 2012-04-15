@@ -4,7 +4,7 @@
  */
 
 ** !_Copyright_Language_File
-Copyright (C) 2006,2007 Dennis van Rijswijk, Henry van der Vegt
+Copyright (C) 2006,2007,2012 Dennis van Rijswijk, Henry van der Vegt, Sven van Lierop
 
 ** !_Language
 Nederlands / Dutch
@@ -16,7 +16,7 @@ Nederlands / Dutch
 %s is niet gecompileerd / Is niet in PHP geladen.
 
 ** %s M memory usage
-
+%s M geheugengebruik
 
 ** %s not in database
 %s bestaat niet in de database
@@ -61,16 +61,16 @@ Acount van %s is verlopen
 Boekhouding
 
 ** Activate
-
+Activeer
 
 ** Activated
 Geactiveerd
 
 ** active
-
+actief
 
 ** Active
-Aktief
+Actief
 
 ** Ad
 Aankondiging
@@ -79,10 +79,10 @@ Aankondiging
 Toevoegen
 
 ** Add a special rule
-
+Voeg speciale regel toe
 
 ** Add to offline folders
-
+Voeg toe aan offline mappen
 
 ** added line
 toegevoegde regel
@@ -91,7 +91,7 @@ toegevoegde regel
 Adres
 
 ** admin access
-
+admin toegang
 
 ** Admin access (groups)
 Admin toegang (Groepen)
@@ -109,7 +109,7 @@ Admin Gebruikersnaam
 Administratie
 
 ** Advanced tables
-
+Geavanceerde tabellen
 
 ** Affected user
 Betreft gebruiker
@@ -118,7 +118,7 @@ Betreft gebruiker
 Partner
 
 ** after
-
+na
 
 ** Agent
 Agent
@@ -136,7 +136,7 @@ De gehele dag
 Alle evenementen
 
 ** All finished tasks
-
+Alle afgeronde taken
 
 ** All pending tasks
 
@@ -145,13 +145,13 @@ Alle evenementen
 
 
 ** Allow disabled modules
-
+Sta gedeactiveerde modules toe
 
 ** Already running latest release.
-Werkt al met de laatste versie.
+Laatste versie draait reeds.
 
 ** Already voted.
-
+Reeds gestemd.
 
 ** Amount
 Bedrag
@@ -166,13 +166,13 @@ en
 Jubileum
 
 ** another page
-
+andere pagina
 
 ** answered
 geantwoord
 
 ** Answers
-
+Antwoorden
 
 ** Apache based (.htaccess, Basic, Digest, etc.)
 Gebaseerd op Apache (.htaccess, Basic, Digest, enz.)
@@ -184,28 +184,28 @@ Naam van de applicatie
 Rechten op alle onderliggende mappen toepassen
 
 ** Appointment
-
+Afspraak
 
 ** Appointments
-
+Afspraken
 
 ** Apprenticeship
 
 
 ** Apr
-
+Apr
 
 ** April
 April
 
 ** Archive
-
+Archief
 
 ** Archive deleted files
 Archief verwijderde bestanden
 
 ** Asset
-
+Gegeven
 
 ** Asset marked as read-only.
 Asset gemarkeerd als read-only.
@@ -217,7 +217,7 @@ Gegevens
 Gegevens (onderliggend)
 
 ** Assets can be imported into multiple folders by adding the "Folder" column.
-
+Gegevens kunnen in meerdere mappen geimporteerd worden door de "Map" kolom toe te voegen.
 
 ** Assets can be overwritten by adding the "Id" column.
 
@@ -226,10 +226,10 @@ Gegevens (onderliggend)
 toegewezen
 
 ** at least 20 characters
-
+op zijn minst 20 karakters
 
 ** attach file
-
+bijlage toevoegen
 
 ** Attachment
 Bijlage
@@ -241,7 +241,7 @@ Bijlagen
 
 
 ** Aug
-
+Aug
 
 ** August
 Augustus
@@ -253,16 +253,16 @@ Manier van authenticatie
 
 
 ** Automatically hide the menu
-
+Verberg menu automatisch
 
 ** Automatically hide the tree
-
+Verberg boomstructuur automatisch
 
 ** Average
 
 
 ** Average progress
-
+Gemiddelde voortgang
 
 ** Avg length
 Gemiddelde lengte
@@ -280,25 +280,25 @@ Backup maken van huidige map
 Backups
 
 ** Basic editing
-
+Standaard wijzigen
 
 ** before
-
+voor
 
 ** Before
-
+Voor
 
 ** Begin
 Begin
 
 ** big
-
+groot
 
 ** big text
-
+grote tekst
 
 ** bigger
-
+groter
 
 ** Billing address
 Factuuradres
@@ -316,13 +316,13 @@ Leeg
 blauw
 
 ** bold
-
+vet
 
 ** bold italic
-
+vet schuin
 
 ** Book
-
+Boek
 
 ** booked
 geboekt
@@ -337,10 +337,10 @@ Boeknummer
 Boeking
 
 ** Bookmark
-
+Bladwijzer
 
 ** Bookmarks
-Bladwijzer
+Bladwijzers
 
 ** borrowed
 geleend
@@ -364,13 +364,13 @@ Budget
 Bug
 
 ** bulleted
-
+opgesomt
 
 ** Business
 Firma
 
 ** C a n c e l
-
+A n n u l e e r
 
 ** C O N T I N U E
 V E R D E R
@@ -385,7 +385,7 @@ Cache
 Kalender
 
 ** Cancel
-
+Annuleer
 
 ** canceled
 geannuleerd
@@ -409,7 +409,7 @@ Kan het bestand %s niet lezen. %s
 Belangrijkheid
 
 ** Categories
-Kategorieën
+Categorieën
 
 ** Category
 Kategorie
@@ -418,7 +418,7 @@ Kategorie
 Cc
 
 ** centered
-
+gecentreerd
 
 ** CEO
 Directeur
@@ -433,10 +433,10 @@ Instellingen veranderen
 Set-up instellingen veranderen
 
 ** Change summary
-
+Verander samenvatting
 
 ** Changed
-
+Veranderd
 
 ** changed line
 veranderde regel
@@ -457,7 +457,7 @@ gecontrolleerd
 Gecontrolleerd
 
 ** Choices
-
+Keuzen
 
 ** CIO
 Hoofd IT
@@ -496,7 +496,7 @@ Sessie beëindigen
 gesloten
 
 ** Closed
-Afgesloten
+Gesloten
 
 ** CMS
 
@@ -514,7 +514,7 @@ Structuur dichtklappen
 Kleur
 
 ** Column
-
+Kolom
 
 ** Column name
 Kolom naam
@@ -1039,10 +1039,10 @@ Vervaldag
 Bestanden uitpakken
 
 ** F j
-F j
+j F
 
 ** F j, Y
-F j, Y
+j F Y
 
 ** Failed to create directory: %s
 De map %s kon niet worden aangemaakt.
@@ -1075,7 +1075,7 @@ Functionaliteit aanvragen
 
 
 ** February
-Februarie
+Februari
 
 ** Feed
 
@@ -1107,11 +1107,17 @@ Het bestand is te groot. Graag de waarde upload_max_filesize, post_max_size vera
 ** file is too big. Please upload a smaller one.
 Het bestand is te groot. Graag een kleiner bestand uploaden.
 
+** File locked.
+Bestand vergrendeld
+
 ** file not found in database.
 Het bestand werd niet gevonden in de database.
 
 ** file not found.
 Het bestand werd niet gevonden.
+
+** File unlocked.
+Bestand ontgrendeld
 
 ** file was uploaded partially.
 Het bestand werd gedeeltelijk geupload.
@@ -1390,7 +1396,7 @@ Ik accepteer de GNU GENERAL PUBLIC LICENSE VERSION 2
 I n s t a l l e r e n
 
 ** Icon
-
+Icoon
 
 ** Id
 Id
@@ -1429,7 +1435,7 @@ Im-/Export
 Afbeelding
 
 ** Images
-
+Afbeeldingen
 
 ** Imap-error: %s
 Imap-error: %s
@@ -1504,7 +1510,7 @@ Invoegen
 
 
 ** installed
-
+geinstalleerd
 
 ** insufficient folder rights
 onvoldoende map rechten
@@ -1609,7 +1615,7 @@ Kennisbank
 A a n m e l d e n
 
 ** l, F j, Y
-l, F j, Y
+l j F Y
 
 ** Last access
 Laatste toegang
@@ -1660,7 +1666,7 @@ Niveau
 Licentie
 
 ** line
-
+regel
 
 ** Line break
 
@@ -1681,22 +1687,22 @@ De link is niet toegestaan
 
 
 ** Links
-
+Links
 
 ** Lists
-
+Lijsten
 
 ** Load external images
-
+Laad externe afbeeldingen
 
 ** Location
-Lokatie
+Locatie
 
 ** Locations
 Locaties
 
 ** Lock
-Vergrendeld
+Vergrendel
 
 ** Locked by
 Vergrendeld door
@@ -1714,10 +1720,10 @@ Het aanmelden van %s mislukte.
 Aan-/Afmelden
 
 ** Logins
-Aanmeldingem
+Aanmeldingen
 
 ** Logout
-
+Uitloggen
 
 ** logout %s
 %s afmelden
@@ -1732,10 +1738,10 @@ laag
 zeer laag
 
 ** M j
-M j
+j M
 
 ** M j, g:i a
-M j, G:i
+j M, G:i
 
 ** M j, Y
 M j, Y
@@ -1744,7 +1750,7 @@ M j, Y
 d-m-Y
 
 ** m/d/Y g:i a
-d-m-y G:i
+d-m-Y G:i
 
 ** m/d/y g:i:s a
 d-m-y G:i:s
@@ -1768,7 +1774,7 @@ email herinnering
 Hoofdmenu
 
 ** Main page
-
+Hoofdpagina
 
 ** Maintenance mode
 Onderhoudsmode
@@ -1807,7 +1813,7 @@ gehuwd
 Maximaliseren
 
 ** Maximum file size
-
+Maximale bestandsgrootte
 
 ** Maximum number of assets per page
 
@@ -1828,7 +1834,7 @@ Bespreking
 Leden
 
 ** Memory limit
-
+Geheugenlimiet
 
 ** Merge folders permanently
 
@@ -3274,7 +3280,7 @@ Het uploaden is mislukt
 Bestanden die zijn ge-upload
 
 ** Uploading
-
+Bezig met uploaden
 
 ** urgent
 urgent
@@ -3310,7 +3316,7 @@ Use the mail() function for sending mails (insecure)
 Gebruiker
 
 ** User not found.
-
+Gebruiker niet gevonden.
 
 ** Username
 Gebruikersnaam
@@ -3322,10 +3328,10 @@ De gebruikersnaam mag niet gelijk zijn aan dien van de Super-Administrator.
 Gebruikers
 
 ** V a l i d a t e
-
+V a l i d e e r
 
 ** V o t e !
-
+S t e m !
 
 ** Vacation
 Vakantie
@@ -3346,7 +3352,7 @@ Waarde
 
 
 ** Variable
-Variabelen
+Variabele
 
 ** Variable already exists in table. (%s)
 De variabele bestaat reeds in de tabel. (%s)
@@ -3427,7 +3433,7 @@ Web
 Woe
 
 ** Wednesday
-
+Woensdag
 
 ** Week
 Week
@@ -3436,7 +3442,7 @@ Week
 Begin van de week
 
 ** Weekend
-
+Weekend
 
 ** weekly
 wekelijks
@@ -3511,7 +3517,7 @@ Jaar
 jaarlijks
 
 ** years
-
+jaren
 
 ** yellow
 geel
