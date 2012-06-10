@@ -1295,6 +1295,7 @@ function debug_check_tpl() {
 	  dirs_create_empty_dir(SIMPLE_CACHE."/smarty");
 	  admin::build_css();
 	  admin::build_js();
+	  admin::build_icons();
 	  return;
 } } }
 
