@@ -328,7 +328,7 @@ private static function _create_default_folder($xml, $parent, $data_full) {
   $data_full["folder"] = $folder;
   
   if (!empty($attrs["data"])) { // data=filename
-    self::_create_default_folder_xml_data(sys_get_xml($attrs["data"], $data_full), $folder);
+    self::_create_default_folder_xml_data(sys_get_xml(sys_custom($attrs["data"]), $data_full), $folder);
   }
   if (isset($xml->assets)) { // <assets><asset>...
     self::_create_default_folder_xml_data($xml->assets, $folder);
@@ -340,7 +340,7 @@ private static function _create_default_folder($xml, $parent, $data_full) {
 }
 
 public static function import_data($file, $folder, $data=array()) {
-  self::_create_default_folder_xml_data(sys_get_xml($file, $data), $folder);
+  self::_create_default_folder_xml_data(sys_get_xml(sys_custom($file), $data), $folder);
 }
 
 private static function _create_default_folder_xml_data($xml, $folder) {
