@@ -216,7 +216,8 @@ static function build_js() {
 static function build_icons() {
   $content = file_get_contents(sys_custom("templates/css/core_css.conf"));
   $conf = parse_ini_string(preg_replace("!/\*.*?\*/!s", "", $content), true);
-  $conf["core"] = array("bg_light_blue"=>$conf["bg_light_blue"]);
+  copy("ext/icons/folder1.gif", "ext/cache/folder1_core.gif");
+  copy("ext/icons/folder2.gif", "ext/cache/folder2_core.gif");
   foreach ($conf as $key=>$val) {
 	if (!is_array($val) or !isset($val["bg_light_blue"])) continue;
 	self::_build_icon("ext/icons/folder1.gif", "ext/cache/folder1_".$key.".gif", $val["bg_light_blue"]);
