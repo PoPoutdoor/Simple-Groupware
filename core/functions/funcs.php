@@ -2431,7 +2431,7 @@ function sys_get_lock($file) {
 function sys_lock($file,$username) {
   if (!sys_can_lock($file)) return;
   file_put_contents($file.".lck", $username, LOCK_EX);
-  file_put_contents(SIMPLE_STORE."/locking/locks.txt", $file."\n", LOCK_EX);
+  file_put_contents(SIMPLE_STORE."/locking/locks.txt", $file."\n", FILE_APPEND | LOCK_EX);
 }
 function sys_unlock($file,$username) {
   if (!sys_can_unlock($file,$username)) return false;
