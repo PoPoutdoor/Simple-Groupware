@@ -40,7 +40,8 @@ static function process_action_sys() {
 	  dirs_create_empty_dir(SIMPLE_CACHE."/artichow");
 	  dirs_create_empty_dir(SIMPLE_CACHE."/thumbs");
 	  dirs_create_empty_dir(SIMPLE_CACHE."/lang");
-	  dirs_create_empty_dir("ext/cache");
+	  self::build_css();
+	  self::build_js();
 	  sys_log_message_log("clean","{t}Output{/t}");
 	  break;
 	case "clear_debug":
@@ -128,7 +129,7 @@ static function process_action_sys() {
 	  
 	  self::_remove_locks(86400);
 	  $dirs = array(SIMPLE_CACHE."/schema_data", SIMPLE_CACHE."/preview", SIMPLE_STORE."/locking", SIMPLE_CACHE."/upload",
-	  				SIMPLE_CACHE."/ip", SIMPLE_CACHE."/debug", SIMPLE_CACHE."/updater", SIMPLE_CACHE."/backup", "ext/cache");
+	  				SIMPLE_CACHE."/ip", SIMPLE_CACHE."/debug", SIMPLE_CACHE."/updater", SIMPLE_CACHE."/backup");
 	  foreach ($dirs as $dir) self::_dirs_clean_dir($dir,86400); // 1 day
 	  sys_log_message_log("clean","{t}Clean Cache{/t}");
 	  sys_redirect("index.php?".sys::$urladdon);
@@ -201,6 +202,54 @@ static function disk_stats() {
   $free = disk_free_space(realpath(SIMPLE_STORE));
   $total = disk_total_space(realpath(SIMPLE_STORE));
   return modify::filesize($total-$free)." / ".modify::filesize($total);
+}
+
+static function build_js() {
+  $files = array("functions.js", "functions_edit.js", "functions_sql.js");
+  foreach ($files as $file) {
+	$cache_file = "ext/cache/".substr($file,0,-3)."_".LANG.".js";
+	file_put_contents($cache_file, trans(file_get_contents("templates/js/".$file)), LOCK_EX);
+  }
+}
+
+static function build_css() {
+  $browsers = array("firefox", "safari", "msie", "opera", "chrome", "konqueror", "thunderbird", "mozilla");
+  $themes = array("core", "rtl", "core_tree_icons", "contrast", "lake", "paradise", "earth", "water", "beach", "desert", "nature", "sunset", "blackwhite");
+  foreach ($themes as $theme) {
+	foreach ($browsers as $browser) {
+	  $cache_file = "ext/cache/core_".$theme."_".$browser.".css";
+	  file_put_contents($cache_file, self::_build_css($theme, $browser), LOCK_EX);
+} } }
+
+private static function _build_css($theme, $browser) {
+  $smarty = new Smarty;
+  $smarty->compile_dir = SIMPLE_CACHE."/smarty";
+  $smarty->template_dir = "templates";
+  $smarty->config_dir = "templates/css";
+  $smarty->compile_check = false;
+  $smarty->left_delimiter = "<";
+  $smarty->right_delimiter = ">";
+  
+  $smarty->assign("style", $theme);
+  $smarty->assign("browser", $browser);
+  $output = $smarty->fetch("css/core.css");
+  
+  if ($browser=="safari" or $browser=="chrome") {
+	$output = str_replace('-moz-','-webkit-',$output);
+  }
+  if ($browser=="opera") {
+	$output = str_replace('-moz-','-o-',$output);
+  }
+  if ($browser=="msie") {
+	$output = preg_replace("/^.*(-moz-)/m","",$output);
+  }
+  if ($browser=="msie") {
+	$output = preg_replace("/max-height:([^;]+)px;/","height:expression(this.scrollHeight>\\1?'\\1px':'auto');",$output);
+	$from = "/linear-gradient\(top,\s?([^,]+),\s?([^\)]+)\);/i";
+	$to = "filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='\\1',endColorstr='\\2');";
+	$output = preg_replace($from,$to,$output);
+  }
+  return $output;
 }
 
 static function rebuild_schema($rebuild_search=false) {
