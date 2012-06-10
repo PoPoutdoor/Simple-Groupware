@@ -1,4 +1,5 @@
 /**
+/**
  * @package Simple Groupware
  * @link http://www.simple-groupware.de
  * @author Thomas Bley
@@ -163,7 +164,7 @@ input[type="file"] {
 }
 
 input[type="button"], input[type="submit"], input[type="image"] {
-  background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE);
+  background-image: -moz-linear-gradient(top, #FFFFFF, #EEEEEE);
   box-shadow: 1px 1px 2px rgba(0,0,0,0.6);
 }
 
@@ -379,7 +380,7 @@ a.tabstyle2:hover {
 .tabstyle {
   background-color: <#bg_grey#>;
   <#font_tab_black#>
-  background: -moz-linear-gradient(top, #FFFFFF, <#bg_grey_gradient#>);
+  background-image: -moz-linear-gradient(top, #FFFFFF, <#bg_grey_gradient#>);
 }
 
 .tabstyle2 {
@@ -714,7 +715,7 @@ table.tree_data tr.fields td {
   color: <#color_menu_black#>;
   background-color: <#bg_grey#>;
   border-bottom:1px solid <#color_grey#>;
-  background: -moz-linear-gradient(top, #FFFFFF, <#bg_grey_gradient#>);
+  background-image: -moz-linear-gradient(top, #FFFFFF, <#bg_grey_gradient#>);
 }
 .menu table {
   <#font_menu_big#>
@@ -731,7 +732,7 @@ table.tree_data tr.fields td {
   border:1px solid <#color_grey#>;
   <#font_menu#>
   border-radius:0 0 6px 6px;
-  background: -moz-linear-gradient(top, <#bg_grey_gradient#>, #FFFFFF);
+  background-image: -moz-linear-gradient(top, <#bg_grey_gradient#>, #FFFFFF);
 }
 .menu td {
   height:20px;
@@ -844,8 +845,6 @@ table.tree_data tr.fields td {
   position:absolute;
   opacity:0;
   -moz-transition:opacity 4s;
-  -webkit-transition:opacity 4s;
-  -o-transition:opacity 4s;
   <if $browser eq "msie">
   filter:alpha(opacity=75);
   </if>
