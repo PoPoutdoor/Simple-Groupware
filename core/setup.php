@@ -153,6 +153,9 @@ function install($databases) {
   setup::out(t("{t}Processing %s ...{/t}","js"));
   admin::build_js();
   
+  setup::out(t("{t}Processing %s ...{/t}","icons"));
+  admin::build_icons();
+  
   setup::out(t("{t}Processing %s ...{/t}","config.php"));
   $vars = array(
 	"SETUP_DB_TYPE"=>"'".$_REQUEST["db_type"]."'",
