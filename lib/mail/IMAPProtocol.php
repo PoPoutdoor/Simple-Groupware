@@ -2194,6 +2194,7 @@ class Net_IMAPProtocol {
         case "UNSEEN" :
         case "MESSAGES" :
         case "HIGHESTMODSEQ" :
+		case "URLMECH" :
         case "CLOSED" :
         case "INTERNALDATE" :
             return array($token=>$this->_parseOneStringResponse( $str,__LINE__ , __FILE__ ));
