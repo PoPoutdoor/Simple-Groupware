@@ -54,6 +54,7 @@ if (version_compare(PHP_VERSION,'5.3','>') and !ini_get('date.timezone')) {
 }
 
 require("core/functions.php");
+require("lib/smarty/Smarty.class.php");
 
 $databases = setup::validate_system();
 
@@ -145,6 +146,12 @@ function install($databases) {
   }
 
   setup_update::database_folders();
+  
+  setup::out(t("{t}Processing %s ...{/t}","css"));
+  admin::build_css();
+  
+  setup::out(t("{t}Processing %s ...{/t}","js"));
+  admin::build_js();
   
   setup::out(t("{t}Processing %s ...{/t}","config.php"));
   $vars = array(
