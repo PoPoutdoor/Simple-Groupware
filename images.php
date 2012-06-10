@@ -39,20 +39,6 @@ if (!empty($_REQUEST["image"])) {
 	header("Location: ".$image_file);
   }
 }
-if (isset($_REQUEST["search"])) {
-  if (isset($_SERVER["HTTPS"]) and $_SERVER["HTTPS"]=="on") $proto = "https"; else $proto = "http";
-  if (FORCE_SSL) $proto = "https";
-  $url = $proto."://".$_SERVER["HTTP_HOST"].str_replace("images.php","",$_SERVER["SCRIPT_NAME"]);
-  echo '<?xml version="1.0"?>
-<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
-<ShortName>'.htmlspecialchars(APP_TITLE,ENT_QUOTES).'</ShortName>
-<Description>'.htmlspecialchars(APP_TITLE,ENT_QUOTES).'</Description>
-<Image height="16" width="16" type="image/x-icon">'.$url.'ext/images/favicon.ico</Image>
-<Url type="text/html" method="get" template="'.$url.'index.php?folder=1&amp;view=search&amp;search={searchTerms}"/>
-<!--<Url type="application/x-suggestions+json" method="GET" template=""/>-->
-</OpenSearchDescription>';
-  exit;
-}
 
 function sys_custom($file) {
   if (file_exists(SIMPLE_CUSTOM.$file)) return SIMPLE_CUSTOM.$file;
