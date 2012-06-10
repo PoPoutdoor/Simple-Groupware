@@ -23,6 +23,92 @@ function __autoload($class) {
   }
 }
 
+class sys {
+  static $db = null; // database link
+  static $db_error = null; // sqlite
+  static $db_queries = array(); // all queries
+ 
+  static $time_start = 0; // script start
+  static $time_end = 0; // script end
+
+  // browser infos
+  static $browser = array( "name"=>"", "ver"=>0, "str"=>"unknown", "is_mobile"=>false, "plattform"=>"", 
+	"comp"=>array("htmledit"=>true, "codeedit"=>false, "javascript"=>true), "no_scrollbar"=>false );
+
+  static $alert = array(); // force error message output
+  
+  static $notification = array(); // show notification messages
+  
+  static $warning = array(); // show warning messages
+
+  static $smarty = null; // smarty reference
+
+  static $urladdon = ""; // auto-append string to URL
+
+  static $cache = array(); // cache data
+  
+  static function init() {
+    self::$time_start = sys_get_microtime();
+
+	// clean request vars
+	if (ini_get("magic_quotes_gpc")!==false and get_magic_quotes_gpc()) modify::stripslashes($_REQUEST);
+	foreach ($_REQUEST as $key=>$val) {
+	  if (is_array($val) and count($val)>0) {
+		$_REQUEST[$key] = array();
+		foreach ($val as $val2) {
+		  if (!is_array($val2)) $_REQUEST[$key][$val2] = $val2;
+	} } }
+
+	// set up smarty
+	self::$smarty = new Smarty;
+	self::$smarty->register_prefilter(array("modify","urladdon_quote"));
+	if (isset($_REQUEST["print"])) self::$smarty->register_outputfilter(array("modify","striplinksforms"));
+	if (isset($_REQUEST["print"])) self::$smarty->assign("print",$_REQUEST["print"]);
+	self::$smarty->compile_dir = SIMPLE_CACHE."/smarty";
+	self::$smarty->template_dir = "templates";
+	self::$smarty->config_dir = "templates/css";
+	self::$smarty->compile_check = false;
+
+	// refresh smarty cache
+	if (DEBUG) debug_check_tpl();
+
+	// set up database
+	if (!sql_connect(SETUP_DB_HOST, SETUP_DB_USER, sys_decrypt(SETUP_DB_PW,sha1(SETUP_ADMIN_USER)), SETUP_DB_NAME)) {
+	  $err = sprintf("{t}Cannot connect to database %s on %s.{/t}\n",SETUP_DB_NAME,SETUP_DB_HOST).sql_error();
+	  trigger_error($err,E_USER_ERROR);
+	  sys_die($err);
+	}
+
+	// verify credentials
+	login_handle_login();
+  }
+  
+  static function shutdown() {
+    // check execution time
+    self::$time_end = number_format(sys_get_microtime()-self::$time_start,2);
+	if (self::$time_end > SYSTEM_SLOW) {
+	  sys_log_message_log("system-slow",sprintf("{t}%s secs{/t}",self::$time_end)." ".basename(_sys_request_uri()),_sys_request_uri());
+	}
+
+	// process error.txt
+	$size = @filesize(SIMPLE_CACHE."/debug/error.txt");
+	if ($size>0 and $size<=2097152 and $msgs = @file_get_contents(SIMPLE_CACHE."/debug/error.txt")) { // 2M
+	  @unlink(SIMPLE_CACHE."/debug/error.txt");
+	  $msgs = array_reverse(explode("\n",$msgs));
+	  foreach ($msgs as $msg) {
+		if ($msg=="") continue;
+		$vars = unserialize($msg);
+		sys_log_message($vars[0],$vars[1],$vars[2],$vars[3],true,$vars[4]);
+	  }
+	} else if ($size>0) {
+	  sys_die("{t}The error logfile cannot be processed, too large:{/t} ".SIMPLE_CACHE."/debug/error.txt");
+	}
+
+	// logging
+	sys_log_stat("pages",1);
+  }
+}
+
 function ______A_S_S_E_T______() {}
 
 function _asset_get_rows() {
@@ -1201,12 +1287,14 @@ function debug_check_tpl() {
   $lastmod = filemtime(SIMPLE_CACHE."/smarty");
   $folders = array("lang/","templates/","templates/helper/","templates/css/","templates/js/",
 	SIMPLE_CUSTOM."templates/",SIMPLE_CUSTOM."templates/helper/",SIMPLE_CUSTOM."templates/js/");
+
   foreach ($folders as $folder) {
     if (!is_dir($folder)) continue;
     foreach (scandir($folder) as $file) {
       if ($file[0]=="." or filemtime($folder.$file)<=$lastmod) continue;
 	  dirs_create_empty_dir(SIMPLE_CACHE."/smarty");
-	  dirs_create_empty_dir("ext/cache");
+	  admin::build_css();
+	  admin::build_js();
 	  return;
 } } }
 
@@ -2604,11 +2692,6 @@ function sys_remove_handler($var) {
   return $var;
 }
 
-function sys_make_smartyhash() {
-  $smarty_data = serialize(sys::$smarty->_tpl_vars);
-  return "SGS".strlen($smarty_data).crc32($smarty_data);
-}
-
 function sys_date($format,$time=0) {
   if ($time==0) return date($format,NOW); else return date($format,$time);
 }
@@ -2617,18 +2700,6 @@ function sys_getdate($time=0) {
   if ($time==0) $arr = getdate(NOW); else $arr = getdate($time);
   if ($arr["yday"]>58 and $arr["year"]%4==0 and $arr["year"]%100!=0) $arr["yday"]--;
   return $arr;
-}
-
-function sys_build_cacheoutput($smarty_hash,$cache_file) {
-  header("ETag: \"".$smarty_hash."\"");
-  if (!DEBUG and isset($_SERVER["HTTP_IF_NONE_MATCH"]) and stripslashes($_SERVER["HTTP_IF_NONE_MATCH"])=="\"".$smarty_hash."\"") {
-	header("HTTP/1.1 304 Not changed");
-	exit;
-  }
-  if (CORE_COMPRESS_OUTPUT and isset($_SERVER["HTTP_ACCEPT_ENCODING"]) and strpos($_SERVER["HTTP_ACCEPT_ENCODING"],"gzip")!==false and !@ini_get("zlib.output_compression")) {
-	header("Content-Encoding: gzip");
-  }
-  echo file_get_contents($cache_file);
 }
 
 function sys_build_output($cache_file="") {
@@ -3001,19 +3072,7 @@ function sys_custom_dir($dir) {
 function sys_process_output() {
   if (empty($_REQUEST["export"]) and empty($_REQUEST["import"])) {
 	sys::shutdown();
-	if (CORE_OUTPUT_CACHE) {
-      $smarty_hash = sys_make_smartyhash();
-      $cache_file = SIMPLE_CACHE."/output/".$_SESSION["username"]."_".$smarty_hash.".htm";
-	  if (!sys::$alert and CORE_COMPRESS_OUTPUT and @filesize($cache_file.".gz")>0 and filemtime($cache_file.".gz")+OUTPUT_CACHE > time()) {
-	    sys_build_cacheoutput($smarty_hash,$cache_file.".gz");
-	  } else if (!sys::$alert and !CORE_COMPRESS_OUTPUT and @filesize($cache_file)>0 and filemtime($cache_file)+OUTPUT_CACHE > time()) {
-	    sys_build_cacheoutput($smarty_hash,$cache_file);
-	  } else {
-	    sys_build_output($cache_file);
-      }
-	} else {
-	  sys_build_output();
-    }
+	sys_build_output();
   } else {
     if (sys::$alert) exit;
 	if (method_exists("export",$_REQUEST["export"])) call_user_func(array("export", $_REQUEST["export"]));
