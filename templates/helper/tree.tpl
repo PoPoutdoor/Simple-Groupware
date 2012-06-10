@@ -186,11 +186,7 @@
 	{if #tree_icons# || $item.icon}
 	  <img src="ext/modules/{$item.icon|default:$item.tree_icon}"> {$item.title}&nbsp;
 	{else}
-	  {if #bg_light_blue# eq "#B6BDD2"}
-		<img src="ext/icons/folder{if $folder.id eq $item.id}2{else}1{/if}.gif"> {$item.title}&nbsp;
-	  {else}
-		<img src="images_php?image=folder{if $folder.id eq $item.id}2{else}1{/if}&color={#bg_light_blue#|replace:"#":""}"> {$item.title}&nbsp;
-	  {/if}
+	  <img src="ext/cache/folder{if $folder.id eq $item.id}2{else}1{/if}_{$sys_style}.gif"> {$item.title}&nbsp;
 	{/if}
 	{if $item.count neq ""}({$item.count}){/if}
 	</a>
@@ -222,11 +218,7 @@
 			{if #tree_icons# || $item.icon}
 			  <img src="ext/modules/{$item.icon|default:$item.tree_icon}" style="margin-bottom:2px;">
 			{else}
-			  {if #bg_light_blue# eq "#B6BDD2"}
-				<img src="ext/icons/folder{if $folder.id eq $item.id}2{else}1{/if}.gif">
-			  {else}
-				<img src="images_php?image=folder{if $folder.id eq $item.id}2{else}1{/if}&color={#bg_light_blue#|replace:"#":""}">
-			  {/if}
+			  <img src="ext/cache/folder{if $folder.id eq $item.id}2{else}1{/if}_{$sys_style}.gif">
 			{/if}
 			</a>&nbsp;
 		  </td>

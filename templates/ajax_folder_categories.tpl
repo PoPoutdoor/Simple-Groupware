@@ -29,11 +29,7 @@
 	    <td valign="top" style="padding-right:3px; padding-left:2px;">
 	    <input style="margin-top:3px;" type="checkbox" class="checkbox" id="tcat_{$item.id}" name="folders[]" value="{$item.id}" {if in_array($item.id,$folders)}checked{/if}>
 		</td><td valign="top">
-		  {if #bg_light_blue# eq "#B6BDD2"}
-			<img style="margin:3px; margin-bottom:0px; vertical-align:top;" src="ext/icons/folder1.gif">
-		  {else}
-			<img style="margin:3px; margin-bottom:0px; vertical-align:top;" src="images.php?image=folder1&color={#bg_light_blue#|replace:"#":""}">
-		  {/if}
+		  <img style="margin:3px; margin-bottom:0px; vertical-align:top;" src="ext/cache/folder1_{$style}.gif">
 		</td><td class="default"><label for="tcat_{$item.id}">{$item.path}</label></td></tr>
 	{foreachelse}
 	  <tr><td class="default"><div style="margin-top:3px;">&nbsp;{t}No entries found.{/t}</div></td></tr>	

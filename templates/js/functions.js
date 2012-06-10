@@ -1035,10 +1035,7 @@ function tree_open(id) {
 		  if (item.anchor && item.anchor.indexOf("_")==-1) icon = "anchor_"+item.anchor; else icon = item.ftype;
 		  out += "<a href='index.php?folder="+item.id+"' "+(item.id==tfolder?"style='font-weight:bold;'":"")+"><img src='ext/modules/"+icon+".png'> ";
 		} else {
-		  if (css_conf.bg_light_blue=="#B6BDD2")
-		    out += "<img src='ext/icons/folder1.gif'> ";
-		  else
-		    out += "<img src='images.php?image=folder1&color="+css_conf.bg_light_blue.replace("#","")+"'> ";
+		  out += "<img src='ext/cache/folder1_"+sys_style+".gif'> ";
 		}
 	    out += html_escape(item.ftitle)+"&nbsp;";
 	    if (item.fcount > 0) out += "("+item.fcount+")";
