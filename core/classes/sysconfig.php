@@ -60,7 +60,6 @@ static $bools = array(
 	"FORCE_SSL"=>"{t}Force SSL{/t}",
 	"CHECK_DOS"=>"{t}Check DoS Attacks{/t}",
 	"CORE_COMPRESS_OUTPUT"=>"{t}Compress output{/t}",
-	"CORE_OUTPUT_CACHE"=>"{t}Cache output{/t}",
 	"APC_SESSION"=>"{t}Use APC for session storage{/t}",
     "MENU_AUTOHIDE"=>"{t}Automatically hide the menu{/t}",
 	"TREE_AUTOHIDE"=>"{t}Automatically hide the tree{/t}",
