@@ -378,27 +378,6 @@ static function create_ldap_user($ds, $base_dn, $username, $uid) {
   }
 }
 
-static function http_post($host, $port, $path, $data) {
-  $errorNumber = 0;
-  $errorString = "";
-  if (($fp = @fsockopen($host, $port, $errorNumber, $errorString))) {
-	$req = array();
-	$req[] = "POST ".$path." HTTP/1.0";
-    $req[] = "Host: ".$host;
-    $req[] = "Content-Type: application/x-www-form-urlencoded";
-    $req[] = "Content-Length: ".strlen($data);
-	$req[] = "";
-    $req[] = $data;
-    fwrite($fp, implode("\r\n", $req));
-	$resp = "";
-	while (!feof($fp)) $resp .= fread($fp,8192);
-	fclose($fp);
-	return $resp;
-  } else {
-	return "ERROR: ".$errorString." ".$errorNumber;
-  }
-}
-
 static function sendmail_getconn($username, $efrom) {
   $concat = sql_concat("concat(firstname;' ';lastname)");
   if ($efrom!="") {
