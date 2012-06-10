@@ -165,23 +165,12 @@ static function checkdos() {
   if (isset($_SERVER["HTTP_CLIENT_IP"])) $ip = $_SERVER["HTTP_CLIENT_IP"];
 	else if (isset($_SERVER["HTTP_X_FORWARDED_FOR"])) $ip = $_SERVER["HTTP_X_FORWARDED_FOR"];
 	else if (isset($_SERVER["REMOTE_ADDR"])) $ip = $_SERVER["REMOTE_ADDR"];
-	else $ip = "0.0.0.0";
+	else return;
   
   $ip = filter_var($ip, FILTER_VALIDATE_IP);
-  $delay = false;
-  if (APC) {
-	if (($val = apc_fetch("dos".$ip))===false) $val=0;
-	apc_store("dos".$ip, ++$val, 1);
-	if ($val>2) $delay = true;
-  } else {
-	$ip_file = SIMPLE_CACHE."/ip/".str_replace(".","-",$ip);
-	if (@file_exists($ip_file) and time()-@filemtime($ip_file)<1) {
-	  if (file_exists($ip_file."_2") and time()-filemtime($ip_file."_2")<1) $delay = true;
-	  touch($ip_file."_2");
-	}
-	touch($ip_file);
-  }
-  if ($delay) exit("<html><body><script>setTimeout('document.location.reload()',1500);</script>{t}Please wait ...{/t}<noscript>{t}Please hit reload.{/t}</noscript></body></html>");
+  if (($val = apc_fetch("dos".$ip))===false) $val=0;
+  apc_store("dos".$ip, ++$val, 1);
+  if ($val>2) exit("<html><body><script>setTimeout('document.location.reload()',1500);</script>{t}Please wait ...{/t}<noscript>{t}Please hit reload.{/t}</noscript></body></html>");
 }
 
 private function _set_base_url() {
