@@ -78,27 +78,16 @@ if (!defined("NOCONTENT")) {
 }
 
 function pre_sys_checkdos() {
-  if (defined("NOCONTENT") or !empty($_SERVER["HTTP_X_MOZ"])) return;
+  if (defined("NOCONTENT") or !empty($_SERVER["HTTP_X_MOZ"]) or !APC) return;
   if (isset($_SERVER["HTTP_CLIENT_IP"])) $ip = $_SERVER["HTTP_CLIENT_IP"];
     else if (isset($_SERVER["HTTP_X_FORWARDED_FOR"])) $ip = $_SERVER["HTTP_X_FORWARDED_FOR"];
     else if (isset($_SERVER["REMOTE_ADDR"])) $ip = $_SERVER["REMOTE_ADDR"];
-    else $ip = "0.0.0.0";
+    else return;
 
-  $delay = false;
   $ip = filter_var($ip, FILTER_VALIDATE_IP);
-  if (APC) {
-	if (($val = apc_fetch("dos".$ip))===false) $val=0;
-	apc_store("dos".$ip, ++$val, 1);
-	if ($val>2) $delay = true;
-  } else {
-	$ip_file = SIMPLE_CACHE."/ip/".str_replace(array(".",":"),"-",$ip);
-	if (@file_exists($ip_file) and time()-@filemtime($ip_file)<1) {
-	  if (file_exists($ip_file."_2") and time()-filemtime($ip_file."_2")<1) $delay = true;
-	  touch($ip_file."_2");
-	}
-	touch($ip_file);
-  }
-  if ($delay) {
+  if (($val = apc_fetch("dos".$ip))===false) $val=0;
+  apc_store("dos".$ip, ++$val, 1);
+  if ($val>2) {
 	if (empty($_SERVER["HTTP_ACCEPT_LANGUAGE"])) { // client
 	  header("HTTP/1.0 408 Request timeout");
 	} else {
