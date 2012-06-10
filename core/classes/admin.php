@@ -42,6 +42,7 @@ static function process_action_sys() {
 	  dirs_create_empty_dir(SIMPLE_CACHE."/lang");
 	  self::build_css();
 	  self::build_js();
+	  self::build_icons();
 	  sys_log_message_log("clean","{t}Output{/t}");
 	  break;
 	case "clear_debug":
@@ -210,6 +211,43 @@ static function build_js() {
 	$cache_file = "ext/cache/".substr($file,0,-3)."_".LANG.".js";
 	file_put_contents($cache_file, trans(file_get_contents("templates/js/".$file)), LOCK_EX);
   }
+}
+
+static function build_icons() {
+  $content = file_get_contents(sys_custom("templates/css/core_css.conf"));
+  $conf = parse_ini_string(preg_replace("!/\*.*?\*/!s", "", $content), true);
+  $conf["core"] = array("bg_light_blue"=>$conf["bg_light_blue"]);
+  foreach ($conf as $key=>$val) {
+	if (!is_array($val) or !isset($val["bg_light_blue"])) continue;
+	self::_build_icon("ext/icons/folder1.gif", "ext/cache/folder1_".$key.".gif", $val["bg_light_blue"]);
+	self::_build_icon("ext/icons/folder2.gif", "ext/cache/folder2_".$key.".gif", $val["bg_light_blue"]);
+  }
+}
+
+static function _build_icon($source, $target, $newcolor) {
+  $rgb = array('r' => hexdec(substr($newcolor,1,2)), 'g' => hexdec(substr($newcolor,3,2)), 'b' => hexdec(substr($newcolor,5,2)));
+  $img = imagecreatefromgif(sys_custom($source));
+
+  // greyscale
+  for ($i=0; $i < imagecolorstotal($img); $i++) {
+ 	$c = ImageColorsForIndex($img, $i);
+ 	$t = ($c["red"]+$c["green"]+$c["blue"])/3;
+    imagecolorset($img, $i, $t, $t, $t);   
+  }
+  $red = floor(($rgb["r"]+30)/2.55);
+  $green = floor(($rgb["g"]+30)/2.55);
+  $blue = floor(($rgb["b"]+30)/2.55);
+  for($i=0; $i<imagecolorstotal($img); $i++) {
+    $col=ImageColorsForIndex($img,$i);
+    $red_set=$red/100*$col['red'];
+    $green_set=$green/100*$col['green'];
+    $blue_set=$blue/100*$col['blue'];
+    if($red_set>255)$red_set=255;
+    if($green_set>255)$green_set=255;
+    if($blue_set>255)$blue_set=255;
+    imagecolorset($img,$i,$red_set,$green_set,$blue_set);
+  }
+  imagegif($img, $target);
 }
 
 static function build_css() {
