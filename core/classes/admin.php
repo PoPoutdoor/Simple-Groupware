@@ -128,7 +128,7 @@ static function process_action_sys() {
 	  				SIMPLE_CACHE."/output", SIMPLE_CACHE."/artichow", SIMPLE_CACHE."/thumbs", SIMPLE_CACHE."/schema");
 	  foreach ($dirs as $dir) self::_dirs_clean_dir($dir,2592000); // 30 days
 	  
-	  self::_remove_locks(86400);
+	  self::_remove_locks();
 	  $dirs = array(SIMPLE_CACHE."/schema_data", SIMPLE_CACHE."/preview", SIMPLE_STORE."/locking", SIMPLE_CACHE."/upload",
 	  				SIMPLE_CACHE."/ip", SIMPLE_CACHE."/debug", SIMPLE_CACHE."/updater", SIMPLE_CACHE."/backup");
 	  foreach ($dirs as $dir) self::_dirs_clean_dir($dir,86400); // 1 day
@@ -577,13 +577,11 @@ private static function _dirs_clean_dir($path,$olderthan) {
   dirs_create_index_htm($path."/");
 }
 
-private static function _remove_locks($olderthan=0) {
+private static function _remove_locks() {
   $lfile = SIMPLE_STORE."/locking/locks.txt";
-  if (file_exists($lfile) and ($olderthan==0 or filectime($lfile)+$olderthan < time())) {
-    $data = explode("\n",file_get_contents($lfile));
-	foreach ($data as $file) {
-	  if ($file!="" and file_exists($file.".lck")) unlink($file.".lck");
-	}
+  if (!file_exists($lfile)) return;
+  foreach (explode("\n",file_get_contents($lfile)) as $file) {
+	if ($file!="" and file_exists($file.".lck")) unlink($file.".lck");
   }
 }
 
