@@ -26,7 +26,6 @@
 {if $t.load_js}<script type="text/javascript" src="{$t.load_js}"></script>{/if}
 {if !$iframe}
   <link href="ext/images/favicon.ico" rel="shortcut icon">
-  <link rel="search" type="application/opensearchdescription+xml" href="images_php?search" title="{$sys.app_title}" />
   {if $t.att.ENABLE_CALENDAR}
 	<link rel="alternate" type="application/atom+xml" title="{t}Today{/t} {t}Feed{/t}" href="index_php?folder={$t.folder}&view={$t.view}&export=rss&markdate=day&today=now 00:00&username=&password=">
 	<link rel="alternate" type="application/atom+xml" title="{t}Week{/t} {t}Feed{/t}" href="index_php?folder={$t.folder}&view={$t.view}&export=rss&markdate=week&today=last monday&username=&password=">
