@@ -228,9 +228,43 @@ static function dirs_create_dir($dirname) {
   dirs_create_index_htm($dirname."/");
 }
 
+static function install_header() {
+  setup::out('
+    <html>
+    <head>
+	<title>Simple Groupware & CMS</title>
+	<style>
+	  body { width:526px; margin:10px auto; overflow-y:scroll; }
+	  body, a { color: #666666; font-size: 13px; font-family: Arial, Helvetica, Verdana, sans-serif; }
+	  a { color: #0000FF; }
+	  #logo_table {
+		color:#FFFFFF; background-image:url(ext/images/sgs_logo_bg.jpg); width:512px; height:208px; border-radius:4px;
+		-moz-transition:opacity 3s; -webkit-transition:opacity 3s; opacity:0;
+	  }
+	  .logo { border-radius:8px; border:1px solid #AAAAAA; width:526px; height:222px; }
+	  .tab { width:84%; margin:auto; padding-top:10px; }
+	  .font { text-shadow: -1px -1px 0px #101010, 1px 1px 0px #505050; font-family: Coustard, serif; }
+	  @font-face { font-family:"Coustard"; src:local("Coustard"), url("ext/images/coustard.woff") format("woff"); }
+	</style>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    </head>
+    <body onload="document.getElementById(\'logo_table\').style.opacity=1;">
+
+	<table class="logo">
+	<tr><td align="center" valign="middle">
+	  <table id="logo_table">
+		<tr style="height:45px;"><td align="center" valign="top" class="font" style="font-size:80%"><b>Simple Groupware Solutions</b></td></tr>
+		<tr><td align="center" class="font" style="font-size:170%;"><b>Simple Groupware<br>'.CORE_VERSION_STRING.'</b></td></tr>
+		<tr style="height:50px;"><td valign="bottom" style="font-size:70%">Photo from<br>Axel Kristinsson</td></tr>
+	  </table>
+	</td></tr>
+	</table>
+  ',false);
+}
+
 static function show_lang() {
   self::install_header();
-  self::out("<table style='width:500px;'><tr><td>",false);
+  self::out("<table class='tab'><tr><td>",false);
   $i=0;
   $langs = select::languages();
   foreach ($langs as $lang=>$lang_str) {
@@ -239,28 +273,7 @@ static function show_lang() {
 	if ($i == ceil(count($langs)/2)) self::out("</td><td valign='top' align='right'>",false);
   }
   self::out("</td></tr></table>",false);
-  self::out('<div style="border-top: 1px solid black;">Powered by Simple Groupware, Copyright (C) 2002-2012 by Thomas Bley.</div></body></html>',true, true);
-}
-
-static function install_header() {
-  setup::out('
-    <html>
-    <head>
-	<title>Simple Groupware & CMS</title>
-	<style>
-		body, h2, img, div, table.data, a { background-color: #FFFFFF; color: #666666; font-size: 13px; font-family: Arial, Helvetica, Verdana, sans-serif; }
-		a,input { color: #0000FF; }
-		input {
-		  font-size: 11px; background-color: #F5F5F5; border: 1px solid #AAAAAA; height: 18px; vertical-align: middle;
-		  padding-left: 5px; padding-right: 5px; border-radius: 10px;
-		}
-		.submit { color: #0000FF; background-color: #FFFFFF; width: 230px; font-weight: bold; }
-	</style>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    </head>
-    <body>
-    <div style="border-bottom: 1px solid black; letter-spacing: 2px; font-size: 18px; font-weight: bold;">Simple Groupware '.CORE_VERSION_STRING.'</div>
-  ');
+  self::out('<div style="border-top: 1px solid #666666;">Powered by Simple Groupware, Copyright (C) 2002-2012 by Thomas Bley.</div></body></html>',true, true);
 }
 
 static function install_footer() {
@@ -268,7 +281,7 @@ static function install_footer() {
   if (function_exists("memory_get_usage") and function_exists("memory_get_peak_usage")) {
 	self::out("<!-- ".modify::filesize(memory_get_usage())." - ".modify::filesize(memory_get_peak_usage())." -->",false);
   }
-  self::out('<div style="border-top: 1px solid black;">Powered by Simple Groupware, Copyright (C) 2002-2012 by Thomas Bley.</div></div></body></html>',false);
+  self::out('<div style="border-top: 1px solid #666666;">Powered by Simple Groupware, Copyright (C) 2002-2012 by Thomas Bley.</div></div></body></html>',false);
 }
 
 static function show_form($databases, $install, $accept_gpl) {
@@ -279,51 +292,29 @@ static function show_form($databases, $install, $accept_gpl) {
     <html><head>
 	<title>Simple Groupware & CMS</title>
 	<style>
-		body, h2, img, div, table.data,a {
+		body { width:700px; margin:10px auto; }
+		body, h2, table.data, a {
 		  background-color: #FFFFFF; color: #666666; font-size: 13px; font-family: Arial, Helvetica, Verdana, sans-serif;
 		}
-		a,input,select { color: #0000FF; }
+		a, input, select { color: #0000FF; }
 		input {
 		  font-size: 11px; background-color: #F5F5F5; border: 1px solid #AAAAAA; height: 18px;
 		  vertical-align: middle; padding-left: 5px; padding-right: 5px; border-radius: 10px;
 		}
-		.logo {
-		  border-radius:10px; border:1px solid #AAAAAA; width:532px; height:300px;
-		}
-		.logo_image { width:512px; height:280px; }
 		select { font-size: 11px; background-color: #F5F5F5; border: 1px solid #AAAAAA;	}
 		input:focus { border: 1px solid #FF0000; }
 		.checkbox,.radio { border: 0px; background-color: transparent; }
 		.submit { color: #0000FF; background-color: #FFFFFF; width: 230px; font-weight: bold; }
 		table.data td,table.data td.data { padding-left: 5px; padding-right: 5px; }
-		table.data tr.fields td { color: #FFFFFF; background-color: #B6BDD2; padding: 2px; }
-		#sgs_logo { width: 100%; height: 98%; background-color: #FFFFFF; -moz-transition:opacity 3s; -webkit-transition:opacity 3s; -o-transition:opacity 3s; }
-		.logo_table { color:#FFFFFF; background-image:url(ext/images/sgs_logo_bg.jpg); width:512px; height:280px; border-radius:5px; }
-		.font {
-			text-shadow: -1px -1px 0px #101010, 1px 1px 0px #505050;
-			font-family: Coustard, serif;
-		}
-		@font-face {
-		  font-family:"Coustard";
-		  src:local("Coustard"), url("ext/images/coustard.woff") format("woff");
-		}
 	</style>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<script>
-	function opacity() {
-	  getObj("sgs_logo").style.opacity = 1;
-	  setTimeout(activate,3000);
-	}
 	function getObj(id) {
 	  return document.getElementById(id);
 	}
-	function activate() {
-	  getObj("sgs_logo").style.display="none";
-	  getObj("setup").style.display="";
-	}
 	function change_input_type(id,checked) {
 	  var obj = getObj(id);
-	  obj.type = checked ? "text":"password";
+	  obj.type = checked ? "text" : "password";
 	}
 	function change_db_type(obj) {
 	  var val = obj.options ? (obj.options[obj.selectedIndex].value) : obj.value;
@@ -334,29 +325,8 @@ static function show_form($databases, $install, $accept_gpl) {
 	}
 	</script>
     </head>
-    <body onload="'.($install?"activate();":"opacity();").'">
-
-	<img src="http://www.simple-groupware.de/cms/logos.php?v='.CORE_VERSION.'&d='.PHP_VERSION.'_'.PHP_OS.'" style="width:1px; height:1px;">
-    <div id="sgs_logo" style="'.($install?"display:none;":"").'opacity:0;" onclick="activate();">
-    <table style="width:100%; height:95%;"><tr><td align="center">
-      <table><tr><td align="right">
-      <table class="logo">
-	    <tr><td align="center" valign="middle">
-		  <table class="logo_table">
-		  <tr style="height:45px;"><td colspan="2" align="center" valign="top" class="font" style="font-size:80%"><b>Simple Groupware Solutions</b></td></tr>
-		  <tr><td colspan="2" align="center" class="font" style="font-size:170%;"><b>Simple Groupware<br>'.CORE_VERSION_STRING.'</b></td></tr>
-		  <tr style="height:50px;">
-			<td valign="bottom" style="font-size:80%">Photo from<br><b>Axel Kristinsson</b></td>
-			<td align="right" valign="bottom" style="font-size:80%">Thomas Bley<br><b>(C) 2002-2012</b></b></td>
-		  </tr>
-		  </table>
-	    </td></tr>
-      </table>
-      </td></tr></table>
-    </td></tr></table>
-    </div>
-    <div id="setup" style="display:none;">
-    <div style="border-bottom: 1px solid black; letter-spacing: 2px; font-size: 18px; font-weight: bold;">Simple Groupware '.CORE_VERSION_STRING.'</div>
+    <body>
+    <div style="border-bottom: 1px solid #666666; letter-spacing: 2px; font-size: 18px; font-weight: bold;">Simple Groupware '.CORE_VERSION_STRING.'</div>
     <br>
 	<div style="color:#ff0000; margin-left:6px;"><b>
 	'.($globals?sprintf("{t}Warning{/t}: {t}Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !{/t}<br><br>","register_globals","0",$globals):"").'
@@ -416,7 +386,7 @@ static function show_form($databases, $install, $accept_gpl) {
 	  </td>
 	</tr>
 	</table>
-    <div style="border-bottom: 1px solid black;">&nbsp;</div>
+    <div style="border-bottom: 1px solid #666666;">&nbsp;</div>
 	<h2>GNU GPL {t}License{/t} Version 2</h2>
 	<h4>
 	<a href="http://www.gnu.org/copyleft/gpl.html" target="_blank">{t}More information about the GNU GPL{/t}</a><br>
@@ -426,16 +396,18 @@ static function show_form($databases, $install, $accept_gpl) {
 	</h4>
 	<font color="#ff0000">*** {t}To continue installing Simple Groupware you must check the box under the license{/t} ***</font><br><br>
 	{t}Please read the following license agreement. Use the scroll bar to view the rest of this agreement.{/t}<br>
-    <div style="border-bottom: 1px solid black;">&nbsp;</div>
+    <div style="border-bottom: 1px solid #666666;">&nbsp;</div>
 	<pre>'.trim(file_get_contents("License.txt")).'</pre>
-    <div style="border-bottom: 1px solid black;">&nbsp;</div>
+    <div style="border-bottom: 1px solid #666666;">&nbsp;</div>
 	<br>
-	<div style="border: 2px solid #FF0000; width:400px;">&nbsp; <input onclick="if (this.checked) this.parentNode.style.border=\'2px solid #00A000\'; else this.parentNode.style.border=\'2px solid #FF0000\';" type="Checkbox" class="checkbox" name="accept_gpl" id="accept_gpl" value="yes" style="margin: 0px;" accesskey="a" required="true"> <label for="accept_gpl">{t}I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2{/t}</label></div>
-	<br><br>
-	<input type="submit" name="install" value="{t}I n s t a l l{/t}" class="submit" style="width:400px;"><br><br>
+	<div style="border:2px solid #FF0000; width:450px; margin-bottom:20px;">&nbsp; 
+		<input onclick="if (this.checked) this.parentNode.style.border=\'2px solid #00A000\'; else this.parentNode.style.border=\'2px solid #FF0000\';" type="Checkbox" class="checkbox" name="accept_gpl" id="accept_gpl" value="yes" style="margin: 0px;" accesskey="a" required="true">
+		<label for="accept_gpl">{t}I Accept the GNU GENERAL PUBLIC LICENSE VERSION 2{/t}</label>
+	</div>
+	<input type="submit" name="install" value="{t}I n s t a l l{/t}" class="submit" style="width:450px; margin-bottom:10px;">
 	</form>
-    <div style="border-top: 1px solid black;">Powered by Simple Groupware, Copyright (C) 2002-2012 by Thomas Bley.</div>
-	</div></body></html>
+    <div style="border-top: 1px solid #666666;">Powered by Simple Groupware, Copyright (C) 2002-2012 by Thomas Bley.</div>
+	</body></html>
   ';
 }
 
@@ -454,7 +426,7 @@ static function errors_show($phpinfo=false) {
   echo '
 	<center>
 	<img src="http://www.simple-groupware.de/cms/logos.php?v='.CORE_VERSION.'&d='.PHP_VERSION.'_'.PHP_OS.'&e='.$err.'" start="width:1px; height:1px;">
-	<div style="border-bottom: 1px solid black; letter-spacing: 2px; font-size: 18px; font-weight: bold;">Simple Groupware '.CORE_VERSION_STRING.' - Setup</div>
+	<div style="border-bottom: 1px solid #666666; letter-spacing: 2px; font-size: 18px; font-weight: bold;">Simple Groupware '.CORE_VERSION_STRING.' - Setup</div>
 	<br>{t}Error{/t}:<br>
 	<error>'.$msg.'</error><br>
 	<a href="index.php">{t}Relaunch Setup{/t}</a><br>
