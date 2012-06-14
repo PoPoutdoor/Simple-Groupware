@@ -110,6 +110,11 @@
 	  <script>getObj("content").style.width = (screen_width-tree_width)+"px";</script>
 	  {if $print eq 1 || (!$tree.visible && !$iframe && !$preview)}{include file="helper/paths.tpl"}{/if}
 	  {if !$print && !$iframe}{include file="helper/views.tpl"}{/if}
+
+	  <!-- TODO check layout -->
+	  <div id="folder_info" style="display:none;"></div>
+	  {if $t.folder_preview}<script>folder_categories();</script>{/if}
+
 	  {if !$t.disable_tabs && (!$t.hidedata || (!$t.data_day && !$t.data_month))}{include file="helper/tabs.tpl"}{/if}
 
 	  {if !$iframe && !$preview && !$popup}
