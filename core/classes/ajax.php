@@ -312,7 +312,7 @@ static function folder_add_offline($folder,$view,$folder_name) {
   }
 }
 
-static function folder_options($folder) {
+static function folder_options($folder, $create) {
   self::_require_access($folder, "write");
   self::_smarty_init();
 
@@ -327,7 +327,7 @@ static function folder_options($folder) {
 	  "notification"=>$sel_folder["notification"], "id"=>$folder
 	),
   ) );
-  return sys::$smarty->fetch("ajax_folder_options.tpl");
+  return sys::$smarty->fetch($create?"ajax_folder_create.tpl":"ajax_folder_rename.tpl");
 }
 
 static function folder_mountpoint($folder) {
@@ -578,7 +578,7 @@ static function tree_get_category($type,$folder,$folders) {
     "items" => $rows,
 	"folder" => $folder,
 	"folders" => $folders,
-	"style" => $_SESSION["style"]
+	"style" => $_SESSION["theme"]
   ) );
   return sys::$smarty->fetch("ajax_folder_categories.tpl");
 }
