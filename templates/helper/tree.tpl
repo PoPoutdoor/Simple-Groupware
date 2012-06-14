@@ -19,7 +19,11 @@
 {/if}
 {if $t.isdbfolder && $t.rights.write_folder}
   <td style="width:2px;"></td>
-  <td class="tabstyle" onclick="tree_categories();">+</td>
+  <td class="tabstyle" onclick="folder_options(1);" title="{t}Merge folders permanently{/t}">+</td>
+  <td style="width:2px;"></td>
+  <td class="tabstyle" onclick="folder_options(0);" title="{t}Rename folder{/t}">-</td>
+  <td style="width:2px;"></td>
+  <td class="tabstyle" onclick="folder_categories();" title="{t}Create new folder{/t}">u</td>
 {/if}
 <td style="width:2px;"></td>
 <td style="width:10px;" class="tabstyle3" ondblclick="tree_showhide();" onmousedown="start_drag(tree_drag_resize);">&nbsp;</td>
@@ -168,11 +172,6 @@
 <tr><td style="height:5px;"></td></tr>
 {/if}
 
-<tr><td>
-  <div id="tree_info" style="display:none;"></div>
-  {if $t.folder_preview}<script>tree_categories();</script>{/if}
-</td></tr>
-
 {if $tree.type eq "folders" && !$onecategory}
   <tr><td>
   <div>
@@ -243,19 +242,6 @@
   </td></tr>
 {/if}
 <tr><td style="height:7px;"></td></tr>
-<tr><td><div style="border-top: {#border#};"><!--IE--></div></td></tr>
-<tr><td style="height:7px;"></td></tr>
-
-{if !$t.att.DISABLE_FOLDER_OPERATIONS && $t.rights.write_folder}
-<tr><td class="tree_cpane" id="pane_options" onclick="tree_folder_options();">&nbsp;&gt; {t}Options{/t}</td></tr>
-{/if}
-{if !$t.att.DISABLE_FOLDER_OPERATIONS && (($t.rights.write_folder && !$sys.mountpoint_admin) || $t.rights.admin_folder) && $t.isdbfolder}
-<tr><td class="tree_cpane" id="pane_mountpoint" onclick="tree_folder_mountpoint();">&nbsp;&gt; {t}Mountpoint{/t}</td></tr>
-{/if}
-
-<tr><td class="tree_cpane" onclick="tree_folder_info();">&nbsp;&gt; {t}Info{/t}</td></tr>
-
-<tr><td style="height:4px;"></td></tr>
 <tr><td><div style="border-top: {#border#};"><!--IE--></div></td></tr>
 <tr><td style="height:7px;"></td></tr>
 {foreach name=views key=key item=item from=$t.views}
