@@ -14,10 +14,10 @@
   <table border="0" cellpadding="0" cellspacing="0" style="margin:3px;">
 	<tr>
 	  <td style="padding:2px; padding-right:6px;">
-		<input type="checkbox" class="checkbox" onclick="tree_selectall(this.checked);">
+		<input type="checkbox" class="checkbox" onclick="folder_selectall(this.checked);">
 	  </td>
       <td style="width:100%; height:22px;">
-		<input type="submit" value="{t}S a v e{/t}" onclick="return tree_categories_save();">&nbsp;
+		<input type="submit" value="{t}S a v e{/t}" onclick="return folder_categories_save();">&nbsp;
 		<input type="button" value="{t}Preview{/t}" onclick="this.form.submit();">&nbsp;
 		<input type="button" value="{t}Cancel{/t}" style="width:50px;" onclick="hide('folder_info');">
 	  </td>
