@@ -321,6 +321,7 @@ static function folder_options($folder, $create) {
   	"sys_schemas" => select::modules(),
   	"sys_icons" => select::icons_modules(),
 	"isdbfolder" => is_numeric($folder),
+	"style" => $_SESSION["theme"],
 	"folder" => array(
 	  "name"=>$sel_folder["ftitle"], "description"=>$sel_folder["fdescription"],
 	  "type"=>$sel_folder["ftype"], "assets"=>$sel_folder["fcount"], "icon"=>$sel_folder["icon"],
@@ -334,6 +335,7 @@ static function folder_mountpoint($folder) {
   self::_require_access($folder, "write");
   self::_smarty_init();
   $sel_folder = folder_build_selfolder($folder,"");
+  sys::$smarty->assign("style", $_SESSION["theme"]);  
   sys::$smarty->assign("mountpoint", $sel_folder["fmountpoint"]);
   sys::$smarty->assign("mountpoints", select::mountpoints());
   return sys::$smarty->fetch("ajax_folder_mountpoint.tpl");
@@ -357,6 +359,7 @@ static function folder_info($folder) {
 			   "{t}Size (children){/t}"=>modify::filesize($sel_folder["fchsizecount"]), "{t}Assets{/t}"=>$sel_folder["fcount"],
 			   "{t}Assets (children){/t}"=>$sel_folder["fchcount"]);
   
+  sys::$smarty->assign("style", $_SESSION["theme"]);  
   sys::$smarty->assign("info", $info);
   return sys::$smarty->fetch("ajax_folder_info.tpl");
 }
@@ -564,7 +567,7 @@ static function tree_set_folders($folder,$folders) {
   return $folder;
 }
 
-static function tree_get_category($type,$folder,$folders) {
+static function folder_get_category($type,$folder,$folders) {
   $where = array("ftype=@type@","id!=@id@",$_SESSION["permission_sql_read"]);
   $vars = array("type"=>$type,"id"=>$folder);
   $rows = db_select("simple_sys_tree","id",$where,"lft asc","200",$vars);
