@@ -10,7 +10,6 @@
 <form id="tcategories" action="index.php" method="get">
   <input type="hidden" name="tpreview" value="1"/>
   <input type="hidden" name="folders[]" value="{$t.folder}"/>
-  <a style="float:right;" onclick="hide('tree_info');">X</a>
   <div class="tree_subpane">{t}Merge folders permanently{/t}</div>
   <table border="0" cellpadding="0" cellspacing="0" style="margin:3px;">
 	<tr>
@@ -19,7 +18,8 @@
 	  </td>
       <td style="width:100%; height:22px;">
 		<input type="submit" value="{t}S a v e{/t}" onclick="return tree_categories_save();">&nbsp;
-		<input type="button" value="{t}Preview{/t}" onclick="this.form.submit();">
+		<input type="button" value="{t}Preview{/t}" onclick="this.form.submit();">&nbsp;
+		<input type="button" value="{t}Cancel{/t}" style="width:50px;" onclick="hide('folder_info');">
 	  </td>
 	</tr>
   </table>
