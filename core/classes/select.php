@@ -14,6 +14,19 @@ static function disabled_modules() {
   return array_intersect_key(self::modules_all(), array_flip(explode("|", DISABLED_MODULES)));
 }
 
+static function languages() {
+  $langs = array();
+  foreach (scandir("lang") as $file) {
+    if (sys_strbegins($file,"master") or !strpos($file,".lang")) continue;
+	$match = array();
+	preg_match("|\*\* !_Language\n(.*?)\n|", file_get_contents("lang/".$file,false,null,-1,1024), $match);
+	$lang = str_replace(".lang", "", $file);
+	$langs[$lang] = !empty($match[1]) ? $match[1] : "unknown (".$file.")";
+  }
+  asort($langs);
+  return $langs;
+}
+
 static function modules_all() {
   return array_merge(self::modules(true), self::mountpoints(true));
 }
@@ -48,16 +61,17 @@ static function modules($admin=false) {
   if (!isset($_SESSION["username"]) or !isset($_SESSION["disabled_modules"]) or sys_is_super_admin($_SESSION["username"])) {
 	$admin = true;
   }
-  $data = file_get_contents(sys_custom("modules/schema/modules.txt"));
-  
+  $data = trans(file_get_contents(sys_custom("modules/schema/modules.txt")));
+
   if ($admin) {
-	$data .= "\n".file_get_contents(sys_custom("modules/schema_sys/modules.txt"));
+	$data .= "\n".trans(file_get_contents(sys_custom("modules/schema_sys/modules.txt")));
   }
+  
   if (file_exists(sys_custom("modules/schema/modules_ext.txt"))) {
-	$data .= "\n{t}Extensions{/t}\n".file_get_contents(sys_custom("modules/schema/modules_ext.txt"));
+	$data .= "\n{t}Extensions{/t}\n".trans(file_get_contents(sys_custom("modules/schema/modules_ext.txt")));
   }
   if ($admin and file_exists(sys_custom("modules/schema_sys/modules_ext.txt"))) {
-	$data .= "\n".file_get_contents(sys_custom("modules/schema_sys/modules_ext.txt"));
+	$data .= "\n".trans(file_get_contents(sys_custom("modules/schema_sys/modules_ext.txt")));
   }
   $groups = explode("\n\n",$data);
   foreach ($groups as $group) {
@@ -166,5 +180,4 @@ static function other_users() {
   $values = array_diff(array(SETUP_ADMIN_USER, SETUP_ADMIN_USER2, "cron", "anonymous"), array(""));
   return array_combine($values, $values);
 }
-
 }
