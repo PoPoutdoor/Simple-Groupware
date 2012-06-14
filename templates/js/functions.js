@@ -1682,8 +1682,7 @@ function drawmenu() {
 	}
   } 
   menubutton("{t}Help{/t}","nWin('cms.php?page=Help')");
-
-  menubutton("{t}Login/-out{/t} <img src='ext/icons/logout.gif' title='{t}Login/-out{/t}' style='vertical-align:top;'/>","sWin('index.php?logout')", "l");
+  menubutton("{t}Login/-out{/t}","sWin('index.php?logout')", "l");
   mbuffer += '<td><span id="notification"></span></td>';
   mbuffer += "</tr></table></div>"+smenu_buffer;
   getObj("menu").innerHTML = mbuffer;
