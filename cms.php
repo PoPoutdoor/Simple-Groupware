@@ -18,16 +18,20 @@ if (!defined("SETUP_DB_HOST")) {
   exit;
 }
 if (FORCE_SSL and (!isset($_SERVER["HTTPS"]) or $_SERVER["HTTPS"]!="on")) {
-  header("Location: https://".$_SERVER["HTTP_HOST"].$_SERVER["SCRIPT_NAME"]."?".$_SERVER["QUERY_STRING"]);
+  header("Location: https://".$_SERVER["HTTP_HOST"].$_SERVER["SCRIPT_NAME"]."?".@$_SERVER["QUERY_STRING"]);
   exit;
 }
 
 if (empty($_REQUEST["page"])) $_REQUEST["page"] = CMS_HOMEPAGE;
 
 if (isset($_REQUEST["edit"]) and !empty($_REQUEST["page"])) {
+// TODO fix intranet attachment
   header("Location: {$base_dir}/index.php?view=edit&find=assets|simple_cms|1|pagename=".$_REQUEST["page"]);
   exit;
 }
+
+require("core/functions.php");
+require("lib/smarty/Smarty.class.php");
 
 cms::build_cache_file();
 if (cms::$cache_file!="" and file_exists(cms::$cache_file)) {
@@ -42,10 +46,7 @@ if (!empty($_REQUEST["file"]) and !empty($_REQUEST["page"])) {
   exit;
 }
 
-if (CHECK_DOS and !DEBUG) cms::checkdos();
-
-require("core/functions.php");
-require("lib/smarty/Smarty.class.php");
+if (CHECK_DOS and APC and !DEBUG) cms::checkdos();
 
 $cms = new cms();
 
