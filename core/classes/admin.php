@@ -205,10 +205,10 @@ static function disk_stats() {
   return modify::filesize($total-$free)." / ".modify::filesize($total);
 }
 
-static function build_js() {
+static function build_js($lang=LANG) {
   $files = array("functions.js", "functions_edit.js", "functions_sql.js");
   foreach ($files as $file) {
-	$cache_file = "ext/cache/".substr($file,0,-3)."_".LANG.".js";
+	$cache_file = "ext/cache/".substr($file,0,-3)."_".$lang.".js";
 	file_put_contents($cache_file, trans(file_get_contents("templates/js/".$file)), LOCK_EX);
   }
 }
