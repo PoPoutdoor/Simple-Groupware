@@ -7,10 +7,8 @@
  *}
 {config_load file="core_css.conf" section=$style}
 
-<form id="tree_mountpoint_form" rel="{$mountpoint}" onsubmit="tree_scroll(0); ajax('folder_set_mountpoint',[tfolder,mountpoint_build()],locate_folder); return false;">
-  <a style="float:right;" onclick="hide('tree_info');">X</a>
-  <a style="float:right;" href="http://www.simple-groupware.de/cms/DataHandlers" target="_blank">{t}Help{/t} |&nbsp;</a>
-  <div class="tree_subpane">{t}Mountpoint{/t}</div>
+<form id="tree_mountpoint_form" rel="{$mountpoint}" onsubmit="ajax('folder_set_mountpoint',[tfolder,mountpoint_build()],locate_folder); return false;">
+  <div class="tree_subpane">{t}Mountpoint{/t} <a href="http://www.simple-groupware.de/cms/DataHandlers" target="_blank">({t}Help{/t})</a></div>
   <table class="tree2" border="0" cellpadding="0" cellspacing="2">
 	<tr><td>{t}Type{/t}&nbsp;</td><td>
       <select name="first" id="mount_proto" onchange="mountpoint_show(this.value);" style="width:100%;">
@@ -35,7 +33,10 @@
 	  <tr><td>{t}Options{/t}</td><td><input id="mount_options" type="Text" maxlength="255" style="width:100%;" value="" class="mp mp2"></td></tr>
 	</tbody>
 	<tr><td>{t}Path{/t}</td><td><input id="mount_path" type="Text" maxlength="255" style="width:100%;" value=""></td></tr>
-	<tr><td></td><td><input type="Submit" value="{t}Ok{/t}" style="width:50px;"></td></tr>
+	<tr><td></td><td>
+	  <input type="Submit" value="{t}Ok{/t}" style="width:50px;">
+	  <input type="button" value="{t}Cancel{/t}" style="width:50px;" onclick="hide('folder_info');">
+	</td></tr>
   </table>
   <div style="border-top: {#border#}; margin-top:5px; margin-bottom:5px;"></div>
 </form>
