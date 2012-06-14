@@ -216,12 +216,16 @@ static function build_js($lang=LANG) {
 static function build_icons() {
   $content = file_get_contents(sys_custom("templates/css/core_css.conf"));
   $conf = parse_ini_string(preg_replace("!/\*.*?\*/!s", "", $content), true);
-  copy("ext/icons/folder1.gif", "ext/cache/folder1_core.gif");
-  copy("ext/icons/folder2.gif", "ext/cache/folder2_core.gif");
+  $conf['core'] = array();
   foreach ($conf as $key=>$val) {
-	if (!is_array($val) or !isset($val["bg_light_blue"])) continue;
-	self::_build_icon("ext/icons/folder1.gif", "ext/cache/folder1_".$key.".gif", $val["bg_light_blue"]);
-	self::_build_icon("ext/icons/folder2.gif", "ext/cache/folder2_".$key.".gif", $val["bg_light_blue"]);
+	if (!is_array($val)) continue;
+	if (!isset($val["bg_light_blue"])) {
+	  copy("ext/icons/folder1.gif", "ext/cache/folder1_".$key.".gif");
+	  copy("ext/icons/folder2.gif", "ext/cache/folder2_".$key.".gif");
+	} else {
+	  self::_build_icon("ext/icons/folder1.gif", "ext/cache/folder1_".$key.".gif", $val["bg_light_blue"]);
+	  self::_build_icon("ext/icons/folder2.gif", "ext/cache/folder2_".$key.".gif", $val["bg_light_blue"]);
+	}
   }
 }
 
