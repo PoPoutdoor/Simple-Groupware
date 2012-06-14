@@ -9,6 +9,8 @@
 
 if (!defined("MAIN_SCRIPT")) exit;
 
+require(sys_trans("core/functions/funcs.php","funcs"));
+
 function sys_trans($file, $class) {
   $cache_file = SIMPLE_CACHE."/lang/".basename($class)."_".LANG."_".filemtime($file).".php";
   if (!file_exists($cache_file)) {
@@ -18,9 +20,6 @@ function sys_trans($file, $class) {
   }
   return $cache_file;
 }
-
-require(sys_trans("core/functions/funcs.php","funcs"));
-
 
 function trans($content) {
   return preg_replace_callback("!\{t\}([^\{]+)\{/t\}!", "tr", $content);
@@ -42,6 +41,7 @@ function tr($str) {
 	  $matches = array();
 	  preg_match_all("!\*\* ([^\n]+)\n([^\n]+)!", file_get_contents($lang_file), $matches);
 	  $strings = array_combine($matches[1], $matches[2]);
+	  // TODO append custom lang file?
 	  @mkdir(SIMPLE_CACHE."/lang/");
 	  file_put_contents($cache_file, "<?php \$strings = ".var_export($strings,true).";", LOCK_EX);
 	}
