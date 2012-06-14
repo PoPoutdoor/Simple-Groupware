@@ -87,7 +87,20 @@ if (isset($_REQUEST["install"]) and isset($_REQUEST["accept_gpl"]) and $_REQUEST
 }
 
 function install($databases) {
-  setup::install_header();
+  setup::out('
+    <html>
+    <head>
+	<title>Simple Groupware & CMS</title>
+	<style>
+	  body { width:526px; margin:10px auto; }
+	  body, a { color: #666666; font-size: 13px; font-family: Arial, Helvetica, Verdana, sans-serif; }
+	  a { color: #0000FF; }
+	</style>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    </head>
+    <body>
+	<div style="border-bottom: 1px solid #666666; letter-spacing: 2px; font-size: 18px; font-weight: bold;">Simple Groupware '.CORE_VERSION_STRING.'</div>
+  ');
   
   $_SESSION["groups"] = array();
   $_SESSION["username"] = "setup";
