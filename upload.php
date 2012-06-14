@@ -81,7 +81,7 @@ $row = db_select_first($GLOBALS["tname"],array_unique(array($field,"folder","id"
 if (empty($row["folder"])) sys_error(t("{t}file not found in database.{/t}"));
 
 if (!db_get_right($row["folder"],"write")) {
-  sys_error(t("{t}Access to this file has been denied.{/t}")." (".t("{t}insufficient folder rights{/t}").")","403 Forbidden");
+  sys_error(trans("{t}Access to this file has been denied.{/t} ({t}insufficient folder rights{/t})"),"403 Forbidden");
 }
 
 if (empty($row[$field])) $row[$field] = "";
@@ -114,7 +114,7 @@ if ($row_filename=="") {
 	  $newfilename = $dir."/".$name;
     }
     if (!rename($row_filename,$newfilename)) {
-	  sys_error(t("{t}Error moving file{/t}"),"409 Conflict");
+	  sys_error("Error moving file","409 Conflict");
 	}
 	$target = $row_filename;
 
