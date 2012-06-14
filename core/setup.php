@@ -98,12 +98,9 @@ function install($databases) {
 
   define("SETUP_DB_TYPE",$_REQUEST["db_type"]);
   $version = setup::validate_input($databases);  
-
-  if (sgsml_parser::table_column_exists("simple_sys_tree","id")) {
-    echo '<img src="http://www.simple-groupware.de/cms/logo.php?v='.CORE_VERSION.'&u=1&p='.PHP_VERSION.'_'.PHP_OS.'&d='.SETUP_DB_TYPE.$version.'" style="width:1px; height:1px;">';
-  } else {
-    echo '<img src="http://www.simple-groupware.de/cms/logo.php?v='.CORE_VERSION.'&u=0&p='.PHP_VERSION.'_'.PHP_OS.'&d='.SETUP_DB_TYPE.$version.'" style="width:1px; height:1px;">';
-  }
+  $update = sgsml_parser::table_column_exists("simple_sys_tree","id");
+  setup::out('<img src="http://www.simple-groupware.de/cms/logo.php?v='.CORE_VERSION.'&u='.(int)$update.'1&p='.PHP_VERSION.'_'.PHP_OS.'&d='.
+	SETUP_DB_TYPE.$version.'" style="width:1px; height:1px;">',false);
 
   setup::out(t("{t}Processing %s ...{/t}","schema updates"));
   setup_update::change_database_pre();
