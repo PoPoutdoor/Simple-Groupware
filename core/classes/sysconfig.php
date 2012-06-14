@@ -213,7 +213,8 @@ static function write_config($no_hash, $no_hash2) {
   $out[] = "define('APC',function_exists('apc_store') and ini_get('apc.enabled'));";
   $out[] = "?>";
   file_put_contents("simple_store/config.php", implode("\n",$out), LOCK_EX);
-
+  admin::build_js($_REQUEST["lang"]);
+  
   if (SIMPLE_CACHE!=$_REQUEST["simple_cache"]) {
 	self::dirs_clear_caches(SIMPLE_CACHE);
 	self::dirs_clear_caches($_REQUEST["simple_cache"]);
