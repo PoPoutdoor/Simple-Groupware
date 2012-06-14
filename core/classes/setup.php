@@ -228,21 +228,21 @@ static function dirs_create_dir($dirname) {
   dirs_create_index_htm($dirname."/");
 }
 
-static function install_header() {
+static function show_lang() {
   setup::out('
     <html>
     <head>
 	<title>Simple Groupware & CMS</title>
 	<style>
-	  body { width:526px; margin:10px auto; overflow-y:scroll; }
+	  body { width:526px; margin:10px auto; }
 	  body, a { color: #666666; font-size: 13px; font-family: Arial, Helvetica, Verdana, sans-serif; }
 	  a { color: #0000FF; }
 	  #logo_table {
 		color:#FFFFFF; background-image:url(ext/images/sgs_logo_bg.jpg); width:512px; height:208px; border-radius:4px;
 		-moz-transition:opacity 3s; -webkit-transition:opacity 3s; opacity:0;
 	  }
-	  .logo { border-radius:8px; border:1px solid #AAAAAA; width:526px; height:222px; }
-	  .tab { width:84%; margin:auto; padding-top:10px; }
+	  .logo { border-radius:8px; border:1px solid #AAAAAA; width:526px; height:222px; margin-bottom:10px; }
+	  .tab { width:84%; margin:auto; }
 	  .font { text-shadow: -1px -1px 0px #101010, 1px 1px 0px #505050; font-family: Coustard, serif; }
 	  @font-face { font-family:"Coustard"; src:local("Coustard"), url("ext/images/coustard.woff") format("woff"); }
 	</style>
@@ -260,10 +260,6 @@ static function install_header() {
 	</td></tr>
 	</table>
   ',false);
-}
-
-static function show_lang() {
-  self::install_header();
   self::out("<table class='tab'><tr><td>",false);
   $i=0;
   $langs = select::languages();
