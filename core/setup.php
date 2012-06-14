@@ -17,7 +17,7 @@ header("Cache-Control: private, max-age=1, must-revalidate");
 header("Pragma: no-cache");
 
 define("CORE_VERSION","0_800");
-define("CORE_VERSION_STRING","0.800");
+define("CORE_VERSION_STRING","0.800 alpha");
 define("CORE_SGSML_VERSION","5_00");
 define("SIMPLE_CACHE","simple_cache/");
 define("SIMPLE_STORE","simple_store/");
