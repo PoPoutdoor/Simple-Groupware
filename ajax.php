@@ -23,7 +23,7 @@ if (empty($_SERVER["SERVER_ADDR"])) $_SERVER["SERVER_ADDR"]="127.0.0.1";
 @ignore_user_abort(1);
 
 if (!sql_connect(SETUP_DB_HOST, SETUP_DB_USER, sys_decrypt(SETUP_DB_PW,sha1(SETUP_ADMIN_USER)), SETUP_DB_NAME)) {
-  $err = t("{t}Cannot connect to database %s on %s.{/t}\n",SETUP_DB_NAME,SETUP_DB_HOST).sql_error();
+  $err = t("{t}Cannot connect to database %s on %s.{/t}",SETUP_DB_NAME,SETUP_DB_HOST)."\n".sql_error();
   trigger_error($err,E_USER_ERROR);
   exit($err);
 }
