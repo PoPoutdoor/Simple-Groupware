@@ -992,7 +992,7 @@ function tree_drag_resize(event) {
   if (tree_width < tree_min) tree_showhide(); else resizeit();
 }
 
-function tree_selectall(checked) {
+function folder_selectall(checked) {
   var objs = getObj("tcategories").getElementsByTagName("input");
   if (objs.length>0) {
     for (var i1=0; i1<objs.length; i1++) {
@@ -1059,37 +1059,30 @@ function tree_showhide() {
   resizeit();
 }
 
-function tree_folder_info() {
-  tree_scroll(0);
-  var obj = getObj("tree_info");
+function folder_info() {
+  var obj = getObj("folder_info");
   ajax("folder_info", [tfolder], function(data) {
 	obj.innerHTML = data;
-	show2("tree_info");
+	show2("folder_info");
   });
 }
 
-function tree_folder_mountpoint() {
-  tree_scroll(0);
-  var obj = getObj("tree_info");
+function folder_mountpoint() {
+  var obj = getObj("folder_info");
   ajax("folder_mountpoint", [tfolder], function(data) {
 	obj.innerHTML = data;
-	show2("tree_info");
+	show2("folder_info");
 	mountpoint_parse(attr("tree_mountpoint_form","rel"));
 	getObj("mount_proto").focus();
   });
 }
 
-function tree_folder_options(newfolder) {
-  tree_scroll(0);
-  var obj = getObj("tree_info");
-  ajax("folder_options", [tfolder], function(data) {
+function folder_options(create) {
+  var obj = getObj("folder_info");
+  ajax("folder_options", [tfolder,create], function(data) {
 	obj.innerHTML = data;
-	show2("tree_info");
-	if (newfolder) {
-	  getObj("ftitle").focus();
-	} else {
-	  getObj("frenametitle").focus();
-	}
+	show2("folder_info");
+	getObj("ftitle").focus();
   });
 }
 
@@ -1098,7 +1091,7 @@ function tree_scroll(pos) {
     else getObj("tree_def").scrollTop = pos;
 }
 
-function tree_categories_save() {
+function folder_categories_save() {
   var folders = [];
   var objs = getObj("tcategories").getElementsByTagName("input");
   for (var i=0; i<objs.length; i++) {
@@ -1108,12 +1101,11 @@ function tree_categories_save() {
   return false;
 }
 
-function tree_categories() {
-  tree_scroll(0);
-  var obj = getObj("tree_info");
-  ajax("tree_get_category", [ftype,tfolder,tfolders], function(data) {
+function folder_categories() {
+  var obj = getObj("folder_info");
+  ajax("folder_get_category", [ftype,tfolder,tfolders], function(data) {
 	obj.innerHTML = data;
-	show2("tree_info");
+	show2("folder_info");
   });
 }
 
@@ -1463,11 +1455,14 @@ function menuout(obj) {
 }
 function menuopen(obj) {
   if (mtimer!=null) clearTimeout(mtimer);
-  if (obj.id=="menutable") return;
+  if (!obj.id || obj.id=="menutable") return;
   
+  var obj2 = getObj(obj.id.replace("menu","menuitem"));
+  if (obj2) menuover(obj2);
+
   var menu = getObj(obj.id.replace("item",""));
   if (menu && (mtrigger==null || mtrigger.id!=menu.id)) {
-    if (mtrigger!=null) hide(mtrigger);
+    if (mtrigger!=null) mtriggerclose();
     mtrigger = menu;
 	var offset = 0;
 	if (css_conf.direction) offset = 176-obj.clientWidth;
@@ -1478,13 +1473,15 @@ function menuopen(obj) {
   }
 }
 function menuclose() {
-  mtimer = setTimeout("mtriggerclose()",250);
+  mtimer = setTimeout(mtriggerclose,250);
 }
 function mtriggerclose() {
-  if (mtrigger!=null) {
-    hide(mtrigger);
-	mtrigger = null;
-  }
+  if (mtrigger==null) return;
+  var obj = getObj(mtrigger.id.replace("menu","menuitem"));
+  if (obj) menuout(obj);
+
+  hide(mtrigger);
+  mtrigger = null;
 }
 
 function menuitem(name) {
@@ -1517,7 +1514,7 @@ function smenuitem(name,ref,accesskey) {
   	html = "<a onclick='"+ref.replace(/'/g, "&quot;")+"' href='#' accesskey='"+accesskey+"'></a>";
 	hint = "[Alt-"+accesskey+"]";
   }
-  smenu_buffer += '<tr><td id="menuitem0" class="menu_item" style="padding:0 6px;" onmouseover="menuover(this);" onmouseout="menuout(this);" onclick="menuclose(); '+(ref!=""?ref:"")+'" title="'+hint+'">'+name+html+'</td></tr>';
+  smenu_buffer += '<tr><td class="menu_item" style="padding:0 6px;" onmouseover="menuover(this);" onmouseout="menuout(this);" onclick="menuclose(); '+(ref!=""?ref:"")+'" title="'+hint+'">'+name+html+'</td></tr>';
 }
 function smenu_history() {
   if (hist!="") {
@@ -1585,7 +1582,7 @@ function drawmenu() {
 	  smenuitem(icon+quick_create[type],"sWin('index.php?folder=^home_"+sys.username+"/!"+type+"&view=new')");
 	}
 	smenu_hr();
-	smenuitem("{t}Subfolder{/t}","tree_folder_options(1)");
+	smenuitem("{t}Subfolder{/t}","folder_options(1)");
     smenu_end();
   }
   
@@ -1620,17 +1617,17 @@ function drawmenu() {
   }
   if (rights.write_folder && isdbfolder) {
 	smenu_hr();
-	smenuitem("{t}Merge folders permanently{/t}","tree_categories()");
+	smenuitem("{t}Merge folders permanently{/t}","folder_categories()");
   }
   if (!no_folder_operations && rights.write_folder) {
 	smenu_hr();
-	smenuitem("{t}Create new folder{/t}","tree_folder_options(1)");
-	smenuitem("{t}Rename folder{/t}","tree_folder_options(0)");
+	smenuitem("{t}Create new folder{/t}","folder_options(1)");
+	smenuitem("{t}Rename folder{/t}","folder_options(0)");
   }
   if (!no_folder_operations && isdbfolder && ((rights.write_folder && !sys.mountpoint_admin) || rights.admin_folder)) {
-	smenuitem("{t}Mountpoint{/t}","tree_folder_mountpoint()");
+	smenuitem("{t}Mountpoint{/t}","folder_mountpoint()");
   }
-  smenuitem("{t}Info{/t}","tree_folder_info()");
+  smenuitem("{t}Info{/t}","folder_info()");
   smenu_end();
 
   menuitem("{t}History{/t}");
