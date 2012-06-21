@@ -109,6 +109,37 @@ class sys {
   }
 }
 
+class template {
+
+  public $style = DEFAULT_STYLE;
+
+  static function css($style, $key) {
+	static $styles = null;
+	if ($styles==null) include(sys_custom("templates/css/css_conf.php"));
+	return isset($styles[$style]) ? $styles[$style][$key] : $styles["core"][$key];
+  }
+  
+  function render($php) {
+	ob_start();
+	include(sys_trans(sys_custom($php), "tpl_".substr(basename($php),0,-4)));
+	$data = ob_get_contents();
+	ob_end_clean();
+	return $data;
+  }
+
+  function __get($unused) {
+	return "";
+  }
+
+  function q($str) {
+	return htmlspecialchars($str, ENT_QUOTES);
+  }
+
+  function c($key) {
+	return self::css($this->style, $key);
+  }
+}
+
 function ______A_S_S_E_T______() {}
 
 function _asset_get_rows() {
