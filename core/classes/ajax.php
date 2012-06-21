@@ -314,36 +314,34 @@ static function folder_add_offline($folder,$view,$folder_name) {
 
 static function folder_options($folder, $create) {
   self::_require_access($folder, "write");
-  self::_smarty_init();
-
   $sel_folder = folder_build_selfolder($folder,"");
-  sys::$smarty->assign( array(
-  	"sys_schemas" => select::modules(),
-  	"sys_icons" => select::icons_modules(),
-	"isdbfolder" => is_numeric($folder),
-	"style" => $_SESSION["theme"],
-	"folder" => array(
+
+  $tpl = new template();
+  $tpl->schemas = select::modules();
+  $tpl->icons = select::icons_modules();
+  $tpl->isdbfolder = is_numeric($folder);
+  $tpl->style = $_SESSION["theme"];
+  $tpl->folder = array(
 	  "name"=>$sel_folder["ftitle"], "description"=>$sel_folder["fdescription"],
 	  "type"=>$sel_folder["ftype"], "assets"=>$sel_folder["fcount"], "icon"=>$sel_folder["icon"],
 	  "notification"=>$sel_folder["notification"], "id"=>$folder
-	),
-  ) );
-  return sys::$smarty->fetch($create?"ajax_folder_create.tpl":"ajax_folder_rename.tpl");
+  );
+  return $tpl->render($create?"templates/ajax_folder_create.php":"templates/ajax_folder_rename.php");
 }
 
 static function folder_mountpoint($folder) {
   self::_require_access($folder, "write");
-  self::_smarty_init();
   $sel_folder = folder_build_selfolder($folder,"");
-  sys::$smarty->assign("style", $_SESSION["theme"]);  
-  sys::$smarty->assign("mountpoint", $sel_folder["fmountpoint"]);
-  sys::$smarty->assign("mountpoints", select::mountpoints());
-  return sys::$smarty->fetch("ajax_folder_mountpoint.tpl");
+  
+  $tpl = new template();
+  $tpl->style = $_SESSION["theme"];
+  $tpl->mountpoint = $sel_folder["fmountpoint"];
+  $tpl->mountpoints = select::mountpoints();
+  return $tpl->render("templates/ajax_folder_mountpoint.php");
 }
 
 static function folder_info($folder) {
   self::_require_access($folder, "read");
-  self::_smarty_init();
   $sel_folder = folder_build_selfolder($folder,"");
   
   if (!is_numeric($folder)) {
@@ -359,9 +357,10 @@ static function folder_info($folder) {
 			   "{t}Size (children){/t}"=>modify::filesize($sel_folder["fchsizecount"]), "{t}Assets{/t}"=>$sel_folder["fcount"],
 			   "{t}Assets (children){/t}"=>$sel_folder["fchcount"]);
   
-  sys::$smarty->assign("style", $_SESSION["theme"]);  
-  sys::$smarty->assign("info", $info);
-  return sys::$smarty->fetch("ajax_folder_info.tpl");
+  $tpl = new template();
+  $tpl->style = $_SESSION["theme"];
+  $tpl->info = $info;
+  return $tpl->render("templates/ajax_folder_info.php");
 }
 
 static function folder_create($folder, $title, $type, $description, $icon, $first=false) {
@@ -576,14 +575,12 @@ static function folder_get_category($type,$folder,$folders) {
 	  $rows[$key]["path"] = modify::getpath($row["id"]);
     }
   }
-  self::_smarty_init();
-  sys::$smarty->assign( array(
-    "items" => $rows,
-	"folder" => $folder,
-	"folders" => $folders,
-	"style" => $_SESSION["theme"]
-  ) );
-  return sys::$smarty->fetch("ajax_folder_categories.tpl");
+  $tpl = new template();
+  $tpl->items = $rows;
+  $tpl->folder = $folder;
+  $tpl->folders = $folders;
+  $tpl->style = $_SESSION["theme"];
+  return $tpl->render("templates/ajax_folder_categories.php");
 }
 
 static function tree_close($folder) {
@@ -618,20 +615,6 @@ private static function _tree_open_session($item) {
   } } }
   self::session_save();
   return true;
-}
-
-private static function _smarty_init() {
-  require("lib/smarty/Smarty.class.php");
-  sys::$smarty = new Smarty;
-  sys::$smarty->compile_dir = SIMPLE_CACHE."/smarty";
-  sys::$smarty->template_dir = "templates";
-  sys::$smarty->config_dir = "templates/css";
-  sys::$smarty->compile_check = false;
-  sys::$smarty->register_prefilter(array("ajax","urladdon_quote"));
-}
-
-static function urladdon_quote($var) {
-  return preg_replace("/\{\\\$(.*?)\}/","{\$\\1|modify::htmlquote}",$var);
 }
 
 static function session_save() {
