@@ -20,10 +20,8 @@ if (!empty($_GET['func'])) {
   exit(json_encode($result));
 }
 
-$smarty = new Smarty;
-$smarty->compile_dir = SIMPLE_CACHE."/smarty";
-$smarty->template_dir = "templates";
-$smarty->assign("console", $_REQUEST["console"]);
+$tpl = new template();
+$tpl->console = $_REQUEST["console"];
 
 $code = "";
 $tlimit = 0;
@@ -43,9 +41,9 @@ if (!empty($_REQUEST["mlimit"])) {
   $mlimit = (int)$_REQUEST["mlimit"];
 }
 
-$smarty->assign("code", $code);
-$smarty->assign("tlimit", $tlimit ? $tlimit : "");
-$smarty->assign("mlimit", $mlimit ? $mlimit : "");
+$tpl->code = $code;
+$tpl->tlimit = $tlimit ? $tlimit : "";
+$tpl->mlimit = $mlimit ? $mlimit : "";
 
 if ($tlimit > 0) {
   set_time_limit($tlimit);
@@ -68,12 +66,11 @@ if ($_REQUEST["console"]=="php") {
 } else if ($_REQUEST["console"]=="sys") {
   $content = "";
   if ($code!="") $content = sys_exec(str_replace("\n","&",trim($code)));
-  $title = "SYS Console:&nbsp; ".getcwd()." @ ".$_SERVER["SERVER_NAME"]."&nbsp; [".$_SERVER["SERVER_SOFTWARE"]."]";
+  $title = "SYS Console: ".getcwd()." @ ".$_SERVER["SERVER_NAME"]." [".$_SERVER["SERVER_SOFTWARE"]."]";
   if ($content!="") $content = "<pre>".modify::htmlquote($content)."</pre>";
 } else {
   $content = "";
   $title = "SQL Console:&nbsp; ".SETUP_DB_USER." @ ".SETUP_DB_NAME."&nbsp; [".SETUP_DB_TYPE." ".sgsml_parser::sql_version()."] ";
-  $title .= sys_date(t("{t}m/d/y g:i:s a{/t}"));
   if ($code!="") {
 	if (($data = sql_fetch($code,false)) === false) {
       $content .= sql_error();
@@ -85,20 +82,20 @@ if ($_REQUEST["console"]=="php") {
 	  $content .= t("{t}Empty{/t}");
 	}
   }
-  $smarty->assign("database", SETUP_DB_NAME);
-  $smarty->assign("auto_complete", true);
+  $tpl->auto_complete = true;
 }
 if ($code!="") {
   $content .= "<br/>&nbsp;".t("{t}%s secs{/t}", number_format(microtime(true)-$start, 4));
   $content .= ", ".t("{t}%s M memory usage{/t}", number_format(memory_get_peak_usage(true)/1048576, 2));
 }
+$tpl->title = $title;
+$tpl->content = $content;
 
-$smarty->assign("title", $title);
-$smarty->assign("content", $content);
 if (isset($_REQUEST["no_gui"])) {
+  // TODO fix no htmlquote
   echo $content;
 } else {
-  $smarty->display("console.tpl");
+  echo $tpl->render("templates/console.php");
 }
 
 function show_table($data, $full_texts=false, $vertical=true) {
