@@ -29,8 +29,6 @@
 <td style="width:10px;" class="tabstyle3" ondblclick="tree_showhide();" onmousedown="start_drag(tree_drag_resize);">&nbsp;</td>
 </tr></table>
 <a onclick="tree_showhide(); return false;" href="#" accesskey="t"></a>
-<a onclick="doclick('pane_options'); return false;" href="#" accesskey="o"></a>
-<a onclick="doclick('pane_mountpoint'); return false;" href="#" accesskey="m"></a>
 
 {if $folder.description && !$sys.fdesc_in_content}
   <table border="0" cellpadding="0" cellspacing="0" class="tree_box">
