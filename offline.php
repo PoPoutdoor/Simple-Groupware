@@ -22,16 +22,14 @@ if (!is_array($rows)) exit("No entries found.");
 
 foreach ($rows as $key=>$row) $rows[$key] = populate_row($row);
 uasort($rows, "sort_rows");  
-  
-sys::$smarty->assign("sync", isset($_REQUEST["sync"]) ? 1 : 0);
-sys::$smarty->assign("sys", array(
-  "app_title"=>APP_TITLE,
-  "username"=>$_SESSION["username"],
-  "browser"=>sys::$browser,
-  "style"=>$_SESSION["style"]
-));
-sys::$smarty->assign("rows", $rows);
-sys::$smarty->display("offline.tpl");
+
+$tpl = new template();
+$tpl->sync = isset($_REQUEST["sync"]) ? 1 : 0;
+$tpl->username = $_SESSION["username"];
+$tpl->browser = sys::$browser;
+$tpl->style = $_SESSION["theme"];
+$tpl->rows = $rows;
+echo $tpl->render("templates/offline.php");
 
 function sort_rows($a, $b) {
   if ($a["path"]==$b["path"]) return 0;
