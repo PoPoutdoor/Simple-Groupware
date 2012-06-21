@@ -253,28 +253,24 @@ static function show_login() {
   if (!defined("NOCONTENT") and empty($_REQUEST["iframe"])) {
     define("NOCONTENT",true);
 	if (sys::$browser["str"]!="unknown") {
-	  if (!empty($_REQUEST["page"])) sys::$smarty->assign("page",$_REQUEST["page"]);
-	  if (!empty($_REQUEST["find"]) and !empty($_REQUEST["view"])) {
-        sys::$smarty->assign("login",array("",$_REQUEST["view"],$_REQUEST["find"]));
-	  } else if (!empty($_REQUEST["folder"]) and !empty($_REQUEST["view"])) {
-        sys::$smarty->assign("login",array($_REQUEST["folder"],$_REQUEST["view"]));
-      } else if (!empty($_REQUEST["folder2"]) and !empty($_REQUEST["view2"])) {
-        sys::$smarty->assign("login",array($_REQUEST["folder2"],$_REQUEST["view2"]));
+	  $tpl = new template();
+	  $tpl->browser = sys::$browser;
+	  if (!empty($_REQUEST["view"])) $tpl->view = $_REQUEST["view"];
+	  if (!empty($_REQUEST["find"])) $tpl->find = "&find=".$_REQUEST["find"];
+	  if (!empty($_REQUEST["folder"])) $tpl->folder = $_REQUEST["folder"];
+      if (!empty($_REQUEST["folder2"]) and !empty($_REQUEST["view2"])) {
+        $tpl->folder = $_REQUEST["folder2"];
+		$tpl->view = $_REQUEST["view2"];
       }
       if (isset($_REQUEST["item"]) and is_array($_REQUEST["item"]) and count($_REQUEST["item"])>0) {
-		sys::$smarty->assign("login_item","&item[]=".implode("&item[]=",$_REQUEST["item"]));
+		$tpl->item = "&item[]=".implode("&item[]=",$_REQUEST["item"]);
 	  }
+	  if (!empty($_REQUEST["page"])) $tpl->page = "&page=".$_REQUEST["page"];
 	  $output = ob_get_contents();
 	  ob_end_clean();
-	  if ($output!='') sys_alert($output);
-      if (sys::$alert) sys::$smarty->assign("alert", sys::$alert);
-      sys::$smarty->assign("sys",array(
-	    "browser"=>sys::$browser,
-		"version"=>CORE_VERSION,
-		"style"=>DEFAULT_STYLE
-	  ));
-	  sys::$smarty->display("login.tpl");
-	  exit;
+	  if ($output!="") sys::$alert[] = $output;
+      if (sys::$alert) $tpl->alert = sys::$alert;
+	  exit($tpl->render("templates/login.php"));
 	}
   }
   if ($_SERVER["REQUEST_METHOD"]=="PROPFIND") {
