@@ -15,7 +15,7 @@ function sys_trans($file, $class) {
   $cache_file = SIMPLE_CACHE."/lang/".basename($class)."_".LANG."_".filemtime($file).".php";
   if (!file_exists($cache_file)) {
 	@mkdir(SIMPLE_CACHE."/lang/");
-	file_put_contents($cache_file, trans(file_get_contents($file)), LOCK_EX);
+	file_put_contents($cache_file, preg_replace("!<\?\s!", "<?php ", trans(file_get_contents($file))), LOCK_EX);
 	if (DEBUG and empty($_REQUEST["iframe"]) and ob_get_level()==0) echo "reload lang ".$class;
   }
   return $cache_file;
