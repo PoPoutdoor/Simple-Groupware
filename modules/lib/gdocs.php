@@ -169,8 +169,8 @@ static function insert($path,$data,$mfolder) {
 	$content = "<?xml version='1.0' encoding='UTF-8'?>".
 	  "<entry xmlns='http://www.w3.org/2005/Atom' xmlns:docs='http://schemas.google.com/docs/2007'>".
 	  "<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/docs/2007#document'/>".
-	  "<title>".modify::htmlquote(modify::basename($source))."</title>".
-	  "<docs:description>".modify::htmlquote($meta)."</docs:description></entry>";
+	  "<title>".quote(modify::basename($source))."</title>".
+	  "<docs:description>".quote($meta)."</docs:description></entry>";
 
 	$header = "X-Upload-Content-Type: application/octet-stream\r\n";
 	$context = self::_get_context_action($mfolder, "POST", $content, $header);
@@ -251,8 +251,8 @@ static function update($path,$data,$where,$vars,$mfolder) {
   $content = "<?xml version='1.0' encoding='UTF-8'?>".
 	"<entry xmlns='http://www.w3.org/2005/Atom' xmlns:docs='http://schemas.google.com/docs/2007'>".
 	"<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/docs/2007#document'/>".
-	"<title>".modify::htmlquote(modify::basename($source))."</title>".
-	"<docs:description>".modify::htmlquote($meta)."</docs:description></entry>";
+	"<title>".quote(modify::basename($source))."</title>".
+	"<docs:description>".quote($meta)."</docs:description></entry>";
 
   if (file_exists($source) and sys_strbegins($source, SIMPLE_CACHE."/upload/")) {
 	$url = "https://docs.google.com/feeds/upload/create-session/default/private/full/".
@@ -309,7 +309,7 @@ static function create_folder($title,$parent,$mfolder) {
   $content = "<?xml version='1.0' encoding='UTF-8'?>".
 	"<entry xmlns='http://www.w3.org/2005/Atom'>".
 	"<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/docs/2007#folder'/>".
-	"<title>".modify::htmlquote($title)."</title></entry>";
+	"<title>".quote($title)."</title></entry>";
 
   $context = self::_get_context_action($mfolder, "POST", $content);
   $http_response_header = array();
@@ -329,7 +329,7 @@ static function rename_folder($title,$path,$mfolder) {
   $content = "<?xml version='1.0' encoding='UTF-8'?>".
 	"<entry xmlns='http://www.w3.org/2005/Atom'>".
 	"<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/docs/2007#folder'/>".
-	"<title>".modify::htmlquote($title)."</title></entry>";
+	"<title>".quote($title)."</title></entry>";
 
   $context = self::_get_context_action($mfolder, "PUT", $content);
   $http_response_header = array();

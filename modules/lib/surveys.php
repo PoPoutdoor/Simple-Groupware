@@ -76,8 +76,8 @@ static function choices($var, $args, $data) {
 	  </form>
 EOT;
   }
-  $var = modify::htmlquote($var);
-  $id = modify::htmlquote($data["_id"]);
+  $var = quote($var);
+  $id = quote($data["_id"]);
   if (self::_has_voted($id)) return "&#10003;"; // check mark
 
   $has_choices = true;
