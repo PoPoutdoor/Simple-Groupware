@@ -164,21 +164,21 @@ function filter_field($field_name, $value, $row) {
 
   if (is_call_type($type)) {
 	$filters[] = array("FUNCTION"=>"modify::nl2br");
-	$filters[] = array("FUNCTION"=>"modify::htmlquote");
+	$filters[] = array("FUNCTION"=>"quote");
 
 /* TODO implement
     $filters[] = array("FUNCTION"=>"type_".$type."::render_page");
 	$filters[] = array("FUNCTION"=>"modify::htmlfield");
-	$filters[] = array("FUNCTION"=>"modify::htmlquote");
+	$filters[] = array("FUNCTION"=>"quote");
 	$filters[] = array("FUNCTION"=>"type_".$type."::render_value");
 	$values[$key] = call_user_func(array($class, $function), $val, $value, $params, self::_explode($row));
 */
   } else if ($type == "textarea") {
 	$filters[] = array("FUNCTION"=>"modify::nl2br");
-	$filters[] = array("FUNCTION"=>"modify::htmlquote");
+	$filters[] = array("FUNCTION"=>"quote");
   } else {
 	$filters[] = array("FUNCTION"=>"modify::field");
-	$filters[] = array("FUNCTION"=>"modify::htmlquote");
+	$filters[] = array("FUNCTION"=>"quote");
   }
   if (empty($filters)) return $value;
   
