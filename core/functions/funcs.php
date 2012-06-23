@@ -1411,12 +1411,11 @@ function _folder_process_folders($rows,&$tree,$level) {
 
 function folder_get_mount_dirs($mountpoint,$handler,$parent,$recursive) {
   if ($handler=="") return array();
-  $lib_handler = "lib_".$handler;
-  if (!method_exists($lib_handler,"get_dirs")) {
+  if (!method_exists("lib_".$handler,"get_dirs")) {
     $next_rows = array(array("id"=>$mountpoint,"lft"=>1,"rgt"=>2,"flevel"=>0,"ftitle"=>basename($mountpoint),
 	  "ftype"=>"sys_nodb_".$handler,"ffcount"=>0));
   } else {
-	$next_rows = call_user_func(array($lib_handler,"get_dirs"),$mountpoint,$parent,$recursive);
+	$next_rows = call_user_func(array("lib_".$handler,"get_dirs"),$mountpoint,$parent,$recursive);
   }
   if (count($next_rows)>0) {
 	ksort($next_rows);
@@ -1449,7 +1448,7 @@ function folder_from_path($path) {
 
 function folders_from_path($path) {
   if (is_numeric($path)) return array($path);
-  if (!in_array($path[0],array("/","^","!"))) return array(0);
+  if (!in_array($path[0],array("/","^","!"))) return array($path);
   $parents = array(0);
   $nodes = explode("/",$path);
   foreach ($nodes as $key=>$node) {
@@ -3131,7 +3130,7 @@ function sys_message_box($subject, $ret) {
   $out .= "<div><a style='float:right;' onclick='javascript:this.parentNode.parentNode.style.display=\"none\";'>{t}Close{/t}</a></div>";
   $out .= "<div style='background-color:#EEE; margin-bottom:3px; font-weight:bold;'>".$subject."</div>";
   $out .= "<pre>".modify::htmlquote(wordwrap($ret))."</pre>";
-  return $out."</div>";
+  echo $out."</div>";
 }
 
 function sys_get_pathnum($num) {
