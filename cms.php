@@ -31,7 +31,6 @@ if (isset($_REQUEST["edit"]) and !empty($_REQUEST["page"])) {
 }
 
 require("core/functions.php");
-require("lib/smarty/Smarty.class.php");
 
 cms::build_cache_file();
 if (cms::$cache_file!="" and file_exists(cms::$cache_file)) {
