@@ -348,10 +348,10 @@ private static function _build_backupdata($folder_obj) {
   if (!strpos($tname,"_nodb_")) {
     $data = db_select($tname,"*","folder=@folder@","created asc","",array("folder"=>$folder));
   }
-  $output = "<table name=\"".modify::htmlquote($tname)."\" folderpath=\"".modify::htmlquote($folder_path)."\">\n";
+  $output = "<table name=\"".quote($tname)."\" folderpath=\"".quote($folder_path)."\">\n";
   $output .= "<assetfolder id=\"".$folder_obj["id"]."\">\n";
   foreach ($folder_obj as $akey=>$aval) {
-	$output .= "<".$akey.">".modify::htmlquote($aval)."</".$akey.">\n";
+	$output .= "<".$akey.">".quote($aval)."</".$akey.">\n";
   }
   $files = array();
   $output .= "</assetfolder>\n\n";
@@ -366,7 +366,7 @@ private static function _build_backupdata($folder_obj) {
 		  $aval = str_replace(SIMPLE_STORE."/","",$aval);
 		  $is_file = true;
 		}
-	    $output .= "<".$akey.($is_file?" is_file='true'":"").">".modify::htmlquote($aval)."</".$akey.">\n";
+	    $output .= "<".$akey.($is_file?" is_file='true'":"").">".quote($aval)."</".$akey.">\n";
 	  }
 	  $output .= "</asset>\n\n";
     }
