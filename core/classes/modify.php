@@ -423,7 +423,7 @@ static function highlight_search($search) {
   $vals = str_replace(" ","|",preg_replace("/ +/"," ",$GLOBALS["t"]["search"]["query"]));
   if ($vals=="*") return $search;
   $preg = "/(".str_replace(array("/","*"),array("","[\\w]*"),$vals).")/i";
-  $search = self::htmlquote($search);
+  $search = quote($search);
   if (strlen($search)>500) {
     $pos = 0;
 	$match = array();
@@ -440,7 +440,7 @@ static function highlight_search($search) {
 
 static function highlight_string($str) {
   if ($str=="") return "";
-  $str = str_replace(array("  "),array("&nbsp; "),self::htmlquote($str));
+  $str = str_replace(array("  "),array("&nbsp; "),quote($str));
   $str = preg_replace('/(&quot;.*?&quot;)/si',"<font color='#DD0000'>\\1</font>",$str);
   $result = "";
   foreach (explode("\n",$str) as $line) $result .= "<li>".$line."</li>";
@@ -1016,7 +1016,7 @@ static function preview_bin($filename,$ext) {
 	  $match = array();
 	  preg_match("/^URL=(.+)/m", file_get_contents($filename), $match);
 	  if (!empty($match[1])) {
-		$result = "<a href='".modify::htmlquote(trim($match[1]))."' target='_blank'>".modify::basename(substr($filename,0,-4))."</a>";
+		$result = "<a href='".quote(trim($match[1]))."' target='_blank'>".modify::basename(substr($filename,0,-4))."</a>";
 	  }
 	  break;
 	case "pdf":
@@ -1179,24 +1179,20 @@ static function exif_file($filename) {
   return false;
 }
 
-static function htmlquote($string) {
-  return htmlspecialchars($string, ENT_QUOTES);
-}
-
 static function htmlunquote($value) {
   return str_replace(chr(255)," ",html_entity_decode($value,ENT_QUOTES,"UTF-8"));
 }
 
-// htmlquote = htmlspecialchars
+// quote = htmlspecialchars
 // field = auto-link assets
 // nl2br = <code> + link URLs + hide ">" blocks + \n to <br> + textwrap {60}
 // htmlfield = strip bad tags
 static function urladdon_quote($var) {
-  $var = preg_replace("/\{\\\$(.*?)\}/","{\$\\1|modify::htmlquote}",$var);
-  $from = array(".php?","_php","|modify::field|modify::htmlquote","|no_check|modify::htmlquote",
-  				"|modify::htmlfield_noimages|modify::htmlquote", "|modify::htmlfield|modify::htmlquote", "|modify::nl2br|modify::htmlquote");
-  $to = array(".php?{\$urladdon}&",".php","|modify::htmlquote|modify::field","",
-  				"|modify::htmlfield_noimages","|modify::htmlfield","|modify::htmlquote|modify::nl2br");
+  $var = preg_replace("/\{\\\$(.*?)\}/","{\$\\1|quote}",$var);
+  $from = array(".php?","_php","|modify::field|quote","|no_check|quote",
+  				"|modify::htmlfield_noimages|quote", "|modify::htmlfield|quote", "|modify::nl2br|quote");
+  $to = array(".php?{\$urladdon}&",".php","|quote|modify::field","",
+  				"|modify::htmlfield_noimages","|modify::htmlfield","|quote|modify::nl2br");
   return str_replace($from,$to,$var);
 }
 
