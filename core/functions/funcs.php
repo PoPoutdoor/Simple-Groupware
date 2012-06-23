@@ -131,13 +131,17 @@ class template {
 	return "";
   }
 
-  function q($str) {
-	return htmlspecialchars($str, ENT_QUOTES);
-  }
-
   function c($key) {
 	return self::css($this->style, $key);
   }
+}
+
+function q($str) {
+  return htmlspecialchars($str, ENT_QUOTES);
+}
+
+function quote($str) {
+  return htmlspecialchars($str, ENT_QUOTES);
 }
 
 function ______A_S_S_E_T______() {}
@@ -2630,7 +2634,7 @@ function sys_csv_2_xml($file) {
 	foreach ($rows as $row) {
 	  $out .= "<asset>\n";
 	  foreach ($row as $key=>$val) {
-		if (!empty($keys[$key])) $out .= "<".$keys[$key].">".modify::htmlquote($val)."</".$keys[$key].">\n";
+		if (!empty($keys[$key])) $out .= "<".$keys[$key].">".quote($val)."</".$keys[$key].">\n";
 	  }
 	  $out .= "</asset>\n";
 	}
@@ -2642,7 +2646,7 @@ function sys_get_xml($file, $data = array()) {
   if (!strpos($file,".csv")) $xml = file_get_contents($file); else $xml = sys_csv_2_xml($file);
   if (strlen($xml)<102400) {
     if (count($data)>0) {
-	  foreach ($data as $key=>$val) $data[$key] = modify::htmlquote(is_array($val)?implode("|",$val):$val);
+	  foreach ($data as $key=>$val) $data[$key] = quote(is_array($val)?implode("|",$val):$val);
 	  $xml = sys_replace($xml, $data);
 	}
   }
@@ -2768,11 +2772,11 @@ function sys_contains($haystick, $needle) {
 
 function sys_die($str,$str2="",$pre=false) {
   echo "<html><body style='padding:0px;margin:0px;'><center>";
-  if (sys::$alert) echo nl2br(modify::htmlquote(implode("<br>",sys::$alert)))."<br><br>";
+  if (sys::$alert) echo nl2br(quote(implode("<br>",sys::$alert)))."<br><br>";
   echo "<table style='width: 600px;'>";
   echo "<tr><td align='center' style='border-bottom: 1px solid black; letter-spacing: 2px; font-size: 18px; font-weight: bold;'>Simple Groupware & CMS</td></tr>";
-  echo "<tr><td align='center' style='border-bottom: 1px solid black;'>".modify::htmlquote($str)."</td></tr>";
-  if ($str2!="") echo "<tr><td style='border-bottom: 1px solid black; ".($pre?"white-space:pre;":"")."'>".nl2br(modify::htmlquote($str2))."</td></tr>";
+  echo "<tr><td align='center' style='border-bottom: 1px solid black;'>".quote($str)."</td></tr>";
+  if ($str2!="") echo "<tr><td style='border-bottom: 1px solid black; ".($pre?"white-space:pre;":"")."'>".nl2br(quote($str2))."</td></tr>";
   echo "</table>Powered by Simple Groupware, Copyright (C) 2002-2012 by Thomas Bley.</center></body></html>";
   exit;
 }
@@ -3129,7 +3133,7 @@ function sys_message_box($subject, $ret) {
   $out = "<div style='position:absolute; z-index:10; width:50%; border:1px solid #666; padding:2px; margin:2px; background-color:#FFF;'>";
   $out .= "<div><a style='float:right;' onclick='javascript:this.parentNode.parentNode.style.display=\"none\";'>{t}Close{/t}</a></div>";
   $out .= "<div style='background-color:#EEE; margin-bottom:3px; font-weight:bold;'>".$subject."</div>";
-  $out .= "<pre>".modify::htmlquote(wordwrap($ret))."</pre>";
+  $out .= "<pre>".quote(wordwrap($ret))."</pre>";
   echo $out."</div>";
 }
 
@@ -3193,7 +3197,7 @@ function sys_log_message($component,$message,$message_trace,$username,$forcedb,$
 	  if ($error_sql=="") {
         db_search_update("simple_sys_events",$id,array(),array("created"=>"datetime","component"=>"text","message"=>"text","username"=>"text","serverip"=>"text","servername"=>"text"));
 	  } else {
-	    echo modify::htmlquote($message)."<br>".$error_sql."<br>";
+	    echo quote($message)."<br>".$error_sql."<br>";
 	  }
 	}
   } else {
@@ -3205,7 +3209,7 @@ function sys_log_message($component,$message,$message_trace,$username,$forcedb,$
 	$message = $_SERVER["SERVER_NAME"]." (".$_SERVER["SERVER_ADDR"].") ".$component.", user: ".
 			   $username."\r\n".$message."\r\n".$message_trace."\r\n";
 			   echo $message.$message_trace;
-	echo modify::htmlquote($message);
+	echo quote($message);
     @error_log($message, 3, SIMPLE_CACHE."/debug/php_error.log");
   }
 }
