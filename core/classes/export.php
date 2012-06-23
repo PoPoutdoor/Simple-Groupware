@@ -303,9 +303,9 @@ private static function _xml($isfeed) {
       $view = $t["views"][$tview]["DISPLAYNAME"];
     } else $view = ucfirst($tview);
 
-    $url = modify::htmlquote(self::_url()."folder=".rawurlencode($t["folder"])."&view=".$tview);
+    $url = quote(self::_url()."folder=".rawurlencode($t["folder"])."&view=".$tview);
 	$output .= "<rss version=\"2.0\">\n<channel>\n";
-	$output .= "<title>".modify::htmlquote($GLOBALS["sel_folder"]["ftitle"]." - ".$view." - ".APP_TITLE)."</title>\n";
+	$output .= "<title>".quote($GLOBALS["sel_folder"]["ftitle"]." - ".$view." - ".APP_TITLE)."</title>\n";
  	$output .= "<link>".$url."</link>\n";
   	$output .= "<generator>Simple Groupware &amp; CMS ".CORE_VERSION_STRING."</generator>\n";
 	$output .= "<pubDate>".sys_date("r")."</pubDate>\n";
@@ -313,12 +313,12 @@ private static function _xml($isfeed) {
     $output .= "<image>\n";
     $output .= "<url>".self::_url_base()."ext/images/sgs_logo2.png</url>\n";
  	$output .= "<link>".self::_url()."</link>\n";
-    $output .= "<title>".modify::htmlquote(APP_TITLE)."</title>\n";
+    $output .= "<title>".quote(APP_TITLE)."</title>\n";
 	$output .= "<width>-15</width>\n";
     $output .= "</image>\n";
 	
     $output .= "<item>\n";
-    $output .= "<title>".modify::htmlquote($GLOBALS["sel_folder"]["ftitle"]." - ".$view)."</title>\n";
+    $output .= "<title>".quote($GLOBALS["sel_folder"]["ftitle"]." - ".$view)."</title>\n";
     $output .= "<link>".$url."</link>\n";
     $output .= "<pubDate>".sys_date("r")."</pubDate>\n";
     $output .= "<description></description>\n";
@@ -350,10 +350,10 @@ private static function _xml($isfeed) {
 		  if (!empty($asset["description"]["data"])) $summary = $asset["description"]["data"];
 		}
 	    $output .= "<item>\n";
-	    $output .= "<title>".modify::htmlquote($title)."</title>\n";
+	    $output .= "<title>".quote($title)."</title>\n";
 	    $output .= "<link>".$item_url."</link>\n";
 	    $output .= "<pubDate>".sys_date("r",$asset["lastmodified"]["data"])."</pubDate>\n";
-	    $output .= "<description>".modify::htmlquote($summary)."</description>\n";
+	    $output .= "<description>".quote($summary)."</description>\n";
 	    $output .= "</item>\n";
       }
 	}
@@ -363,7 +363,7 @@ private static function _xml($isfeed) {
     foreach (self::_build_data(false,array(),true) as $asset) {
 	  $output .= "<asset id=\"".$asset["_id"]["data"]."\">\n";
 	  foreach ($asset as $akey=>$aval) {
-	    if ($aval["name"]) $output .= "<".$akey.">".modify::htmlquote($aval["filter"])."</".$akey.">\n";
+	    if ($aval["name"]) $output .= "<".$akey.">".quote($aval["filter"])."</".$akey.">\n";
 	  }
 	  $output .= "</asset>\n";
     }
@@ -454,7 +454,7 @@ private static function _html() {
 	  if (empty($field["name"])) continue;
 	  $style = $field["width"] ? "width:".$field["width"] : "";
 	  $output .= "<td class='col".$i."' onmouseover='document.body.className=\"show\";' onmouseout='document.body.className=\"hide\";' style='".$style."' nowrap>";
-	  $output .= "<b>".modify::htmlquote($field["name"])."</b>";
+	  $output .= "<b>".quote($field["name"])."</b>";
 	  $output .= "&nbsp;<a title='{t}Hide{/t}' class='hide_field' href='javascript:hide_column(".$i.");'>&ndash;</a></td>";
 	  $i++;
     }
@@ -513,7 +513,7 @@ private static function _html_vertical() {
 	    if (!isset($aval["filter"]) or $aval["filter"]=="") continue;
   	    $output .= "<tr class='col".$i."'>";
         $output .= "<td style='width:20%;' onmouseover='document.body.className=\"show\";' onmouseout='document.body.className=\"hide\";'>";
-		$output .= "<b>".modify::htmlquote($aval["name"])."</b>";
+		$output .= "<b>".quote($aval["name"])."</b>";
 		$output .= "&nbsp;<a title='{t}Hide{/t}' class='hide_field' href='javascript:hide_column(".$i.");'>&ndash;</a></td>";
 		$data = self::_html_quote($aval["filter"], $aval["type"]);
 		if (trim($data)=="") $data = "&nbsp;"; else $data = self::_html_link($data,$aval);
@@ -587,7 +587,7 @@ private static function _sss_editor($output) {
 	<body>
 	<div id="data" class="data"></div>
 	<div id="source">
-	<textarea id="code" wrap="off">'.modify::htmlquote($output).'</textarea>
+	<textarea id="code" wrap="off">'.quote($output).'</textarea>
 	<input type="button" value="Load" onclick="load();">
 	<script>var init_data=getObj("code").value; load();</script>
 	</div>
@@ -607,13 +607,13 @@ private static function _csv_quote($str) {
 
 private static function _html_quote($value, $type, $images=true) {
   if ($type=="textarea" or (is_call_type($type) and call_type($type, "export_as_text"))) {
-	return modify::nl2br(modify::htmlquote($value));
+	return modify::nl2br(quote($value));
   }
   if (is_call_type($type) and call_type($type, "export_as_html")) {
 	if (!$images) return preg_replace("|<img[^>]*?>|si","",modify::htmlfield($value));
 	return modify::htmlfield($value);
   }
-  return modify::htmlquote($value);
+  return quote($value);
 }
 
 private static function _sss_quote($str) {
