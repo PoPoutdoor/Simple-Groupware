@@ -205,7 +205,7 @@ function webdav_response($path,$created,$modified,$size,$is_dir,$can_write,$lock
   );
   return '
 <D:response xmlns:lp1="DAV:" xmlns:lp2="http://apache.org/dav/props/" xmlns:ns1="urn:schemas-microsoft-com:">
-<D:href>'.modify::htmlquote(dirname($data["path"])."/".rawurlencode(basename($data["path"]))).'</D:href>
+<D:href>'.quote(dirname($data["path"])."/".rawurlencode(basename($data["path"]))).'</D:href>
 <D:propstat>
 <D:prop>'.
 (!$is_dir?"<ns1:Win32FileAttributes>".($can_write?"00000080":"00002001")."</ns1:Win32FileAttributes>":"").'
@@ -213,7 +213,7 @@ function webdav_response($path,$created,$modified,$size,$is_dir,$can_write,$lock
 <lp1:getlastmodified>'.$data["mtime"].'</lp1:getlastmodified>'.
 (!$is_dir?"<lp1:getcontentlength>".$size."</lp1:getcontentlength>":"").'
 <lp1:getetag>"'.md5($data["path"]).'"</lp1:getetag>
-<lp1:displayname>'.modify::htmlquote(basename($data["path"])).'</lp1:displayname>'.
+<lp1:displayname>'.quote(basename($data["path"])).'</lp1:displayname>'.
 ($is_dir?"<lp1:resourcetype><D:collection/></lp1:resourcetype>":"<lp1:resourcetype/>").'
 <lp2:executable>T</lp2:executable>
 <D:supportedlock>
@@ -225,7 +225,7 @@ function webdav_response($path,$created,$modified,$size,$is_dir,$can_write,$lock
 <D:locktype><D:write/></D:locktype>
 <D:lockscope><D:exclusive/></D:lockscope>
 <D:depth>infinity</D:depth>
-<D:owner>'.modify::htmlquote($lockedby).'</D:owner>
+<D:owner>'.quote($lockedby).'</D:owner>
 <D:timeout>Infinite</D:timeout>
 <D:locktoken>opaquelocktoken:1</D:locktoken>
 </D:activelock>
