@@ -456,7 +456,7 @@ static function footer() {
 }
 
 static function quote($str) {
-  return str_replace("\\n","\n",modify::htmlquote($str));
+  return str_replace("\\n","\n",quote($str));
 }
 
 static function dirs_clear_custom($custom) {
