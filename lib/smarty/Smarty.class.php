@@ -1967,7 +1967,7 @@ class Smarty
 	function __get($name)
 	{
 		$data = $this->get_template_vars($name);
-		if (is_string($data)) return modify::htmlquote($data);
+		if (is_string($data)) return quote($data);
 		return $data;
 	}
 	
