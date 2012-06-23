@@ -27,7 +27,7 @@ if (isset($_FILES["file"]) and is_array($_FILES["file"])) {
 	$validate_only = isset($_REQUEST["validate_only"]);
 	foreach ($files as $file) {
 	  $message = $validate_only ? t("{t}Validating %s ...{/t}") : t("{t}Processing %s ...{/t}");
-	  setup::out(sprintf("<b>".$message."</b>", modify::htmlquote(modify::basename($file))));
+	  setup::out(sprintf("<b>".$message."</b>", quote(modify::basename($file))));
 	  ajax::file_import($folder, $file, array("setup", "out"), $validate_only);
 	  setup::out("<hr>");
 } } }
