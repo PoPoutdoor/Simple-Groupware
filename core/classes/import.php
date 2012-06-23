@@ -59,9 +59,9 @@ function process_row($row, $line) {
   } else if (is_array($result)) {
 	$message = sprintf("{t}line{/t} %s: %s", $line, self::err_to_str($result));
 	$this->_errors[] = $message;
-	$this->out("<span style='color:red; font-weight:bold;'>{t}Error{/t}:</span> ".modify::htmlquote($message).", ");
+	$this->out("<span style='color:red; font-weight:bold;'>{t}Error{/t}:</span> ".quote($message).", ");
   } else {
-	$this->out("#".$line.": ".modify::htmlquote($result).", ");
+	$this->out("#".$line.": ".quote($result).", ");
   }
 }
 
@@ -90,7 +90,7 @@ static function process_files() {
 		case UPLOAD_ERR_CANT_WRITE: $message = "{t}Failed to write file to disk.{/t} {t}Please upload again.{/t} (".$filename.")"; break;
         default: $message = "{t}Please upload again.{/t} (".$filename.")"; break;
 	  }
-	  setup::out("{t}Upload failed{/t}: ".modify::htmlquote($message));
+	  setup::out("{t}Upload failed{/t}: ".quote($message));
 	}
   }
   return $files;
@@ -175,16 +175,16 @@ static function header() {
 
 static function form($folder, $required_fields) {
   setup::out_exit('
-	Folder: '.modify::htmlquote(modify::getpathfull($folder)).'<br>
+	Folder: '.quote(modify::getpathfull($folder)).'<br>
 	<br>
-	<a href="index.php?export=calc&limit=1&hide_fields=id&folder='.modify::htmlquote($folder).'&view=details">{t}Download example file{/t} (.xls)</a>
+	<a href="index.php?export=calc&limit=1&hide_fields=id&folder='.quote($folder).'&view=details">{t}Download example file{/t} (.xls)</a>
 	<br>
-	{t}Required fields{/t}: '.modify::htmlquote(implode(", ", $required_fields)).'
+	{t}Required fields{/t}: '.quote(implode(", ", $required_fields)).'
 	<br><br>
 	{t}File{/t} (.xls):<br>
 	<form method="post" action="import.php?" enctype="multipart/form-data">
 	<input type="hidden" name="token" value="'.modify::get_form_token().'">
-	<input type="hidden" name="folder" value="'.modify::htmlquote($folder).'">
+	<input type="hidden" name="folder" value="'.quote($folder).'">
 	<input type="File" name="file[]" value="" multiple="true" required="true">
 	<input type="submit" value="{t}I m p o r t{/t}" class="submit">
 	<input type="submit" name="validate_only" value="{t}V a l i d a t e{/t}" class="submit">
