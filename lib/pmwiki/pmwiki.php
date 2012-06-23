@@ -115,7 +115,7 @@ function pmwiki_graphviz($data) {
 function pmwiki_include_page($url, $height, $style) {
   if (!is_numeric($height) or $height < 20) $height = "200";
   return '
-	<iframe src="'.modify::htmlquote($url).'" frameborder="0" style="width:100%; height:'.(int)$height.'px; '.modify::htmlquote($style).'"></iframe>
+	<iframe src="'.quote($url).'" frameborder="0" style="width:100%; height:'.(int)$height.'px; '.quote($style).'"></iframe>
   ';
 }
 
