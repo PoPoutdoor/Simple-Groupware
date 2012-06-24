@@ -2,8 +2,7 @@
 <!--
   @package Simple Groupware
   @link http://www.simple-groupware.de
-  @author Thomas Bley
-  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @copyright Simple Groupware Solutions Thomas Bley 2002-2012
   @license GPLv2
 -->
 <table modulename="{t}Search{/t}" default_view="search" orderby="sorder" order="desc" limit="20" groupby="folder" no_search_index="true"

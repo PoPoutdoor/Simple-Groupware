@@ -2,8 +2,7 @@
 <!--
   @package Simple Groupware
   @link http://www.simple-groupware.de
-  @author Thomas Bley
-  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @copyright Simple Groupware Solutions Thomas Bley 2002-2012
   @license GPLv2
 -->
 <table modulename="{t}Schema{/t}" sql_handler="schema" template="details" default_view="display" limit="20" orderby="id" order="asc">

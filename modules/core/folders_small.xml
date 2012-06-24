@@ -1,8 +1,7 @@
 <!--
   @package Simple Groupware
   @link http://www.simple-groupware.de
-  @author Thomas Bley
-  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @copyright Simple Groupware Solutions Thomas Bley 2002-2012
   @license GPLv2
 -->
 <folder name="{t}Workspace{/t}" description="{t}Welcome to Simple Groupware!{/t}\nOpen Source Groupware &amp; CMS" type="blank" anchor="workspace" rread_users="anonymous" rread_groups="" rwrite_users="" rwrite_groups="" radmin_users="" radmin_groups="">

@@ -2,8 +2,7 @@
 <!--
   @package Simple Groupware
   @link http://www.simple-groupware.de
-  @author Thomas Bley
-  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @copyright Simple Groupware Solutions Thomas Bley 2002-2012
   @license GPLv2
 -->
 <table modulename="PmWiki" load_css="ext/cms/styles.css" load_library="lib/pmwiki/pmwiki.php" default_view="display" orderby="pagename" order="asc" limit="1" sql_handler="pmwiki" disable_folder_operations="true" disable_rights="true">

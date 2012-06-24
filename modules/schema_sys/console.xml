@@ -2,8 +2,7 @@
 <!--
   @package Simple Groupware
   @link http://www.simple-groupware.de
-  @author Thomas Bley
-  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @copyright Simple Groupware Solutions Thomas Bley 2002-2012
   @license GPLv2
 -->
 <table modulename="{t}Console{/t}" default_view="display" orderby="name" order="asc" limit="20" enable_new="true" enable_edit="true" enable_purge="true" enable_purgeall="true">

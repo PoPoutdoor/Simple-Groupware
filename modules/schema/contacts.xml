@@ -2,8 +2,7 @@
 <!--
   @package Simple Groupware
   @link http://www.simple-groupware.de
-  @author Thomas Bley
-  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @copyright Simple Groupware Solutions Thomas Bley 2002-2012
   @license GPLv2
 -->
 <table modulename="{t}Contacts{/t}" default_view="display" orderby="lastname" order="asc" limit="20" enable_new="true" enable_edit="true" enable_delete="true" enable_empty="true" trigger_edit="notify|sync4j::createedit" trigger_new="notify|sync4j::createedit" trigger_delete="sync4j::delete" quick_add="lastname,firstname,company,email">

@@ -2,8 +2,7 @@
 <!--
   @package Simple Groupware
   @link http://www.simple-groupware.de
-  @author Thomas Bley
-  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @copyright Simple Groupware Solutions Thomas Bley 2002-2012
   @license GPLv2
 -->
 <table modulename="{t}Intranet{/t}" load_js="ext/lib/extjs/ext-base.js" load_css="ext/cms/styles.css" load_library="lib/pmwiki/pmwiki.php" default_view="view" orderby="pagename" order="asc" limit="2" enable_new="true" enable_edit="true" enable_delete="true" enable_empty="true" enable_asset_rights="full" quick_add="pagename,title,data">

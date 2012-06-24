@@ -1,8 +1,7 @@
 <!--
   @package Simple Groupware
   @link http://www.simple-groupware.de
-  @author Thomas Bley
-  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @copyright Simple Groupware Solutions Thomas Bley 2002-2012
   @license GPLv2
 -->
 <folder name="@departmentname@" type="portal" anchor="departments_@departmentname@" rread_groups="department_@departmentname@|admin_organisation" rwrite_groups="department_@departmentname@|admin_organisation" rread_users="" rwrite_users="" radmin_users=""

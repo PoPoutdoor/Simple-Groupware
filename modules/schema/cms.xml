@@ -2,8 +2,7 @@
 <!--
   @package Simple Groupware
   @link http://www.simple-groupware.de
-  @author Thomas Bley
-  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @copyright Simple Groupware Solutions Thomas Bley 2002-2012
   @license GPLv2
 -->
 <table modulename="{t}CMS{/t}" load_css="ext/cms/styles.css" load_library="lib/pmwiki/pmwiki.php" default_view="display" orderby="pagename" order="asc" limit="2" enable_new="true" enable_edit="true" enable_delete="true" enable_empty="true" enable_asset_rights="full" trigger_edit="createeditcms" trigger_new="createeditcms" trigger_delete="deletecms" quick_add="pagename,title,data">

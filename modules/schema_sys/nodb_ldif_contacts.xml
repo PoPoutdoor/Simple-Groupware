@@ -2,8 +2,7 @@
 <!--
   @package Simple Groupware
   @link http://www.simple-groupware.de
-  @author Thomas Bley
-  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @copyright Simple Groupware Solutions Thomas Bley 2002-2012
   @license GPLv2
 -->
 <table modulename="{t}Contacts{/t}" default_view="display" orderby="lastname" order="asc" limit="20" sql_handler="ldif_contacts" disable_folder_operations="true" disable_rights="true">

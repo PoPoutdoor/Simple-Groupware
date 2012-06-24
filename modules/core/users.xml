@@ -1,8 +1,7 @@
-﻿<!--
+<!--
   @package Simple Groupware
   @link http://www.simple-groupware.de
-  @author Thomas Bley
-  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @copyright Simple Groupware Solutions Thomas Bley 2002-2012
   @license GPLv2
 -->
 <folder name="@username@" type="portal" anchor="home_@username@" rread_users="@username@" rwrite_users="@username@" radmin_users="" data="modules/core/users_portal.xml">

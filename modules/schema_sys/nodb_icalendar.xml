@@ -2,8 +2,7 @@
 <!--
   @package Simple Groupware
   @link http://www.simple-groupware.de
-  @author Thomas Bley
-  @copyright Copyright (C) 2002-2012 by Thomas Bley
+  @copyright Simple Groupware Solutions Thomas Bley 2002-2012
   @license GPLv2
 -->
 <table modulename="iCalendar" default_view="display" orderby="begin" order="asc" limit="20" enable_calendar="begin,ending,recurrence,until,allday,repeatinterval,repeatexcludes,repeatbegin,repeatend" sql_handler="icalendar" disable_folder_operations="true" disable_rights="true">
