@@ -8,7 +8,7 @@
 ?>
 <form id="tcategories" action="index.php" method="get">
   <input type="hidden" name="tpreview" value="1"/>
-  <input type="hidden" name="folders[]" value="<?= q($t.folder) ?>"/>
+  <input type="hidden" name="folders[]" value="<?= q($this->folder) ?>"/>
   <div class="tree_subpane">{t}Merge folders permanently{/t}</div>
   <table border="0" cellpadding="0" cellspacing="0" style="margin:3px;">
 	<tr>
