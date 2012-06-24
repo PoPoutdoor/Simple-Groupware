@@ -11,8 +11,6 @@ class cms {
 
 static $cache_file = "";
 static $time_start = 0;
-
-private $smarty = null;
 private $page = array();
 
 function __construct() {
@@ -36,28 +34,23 @@ function __construct() {
   header("Cache-Control: private, max-age=1, must-revalidate");
   header("Pragma: private");
 
-  $this->smarty = new Smarty;
-  $this->smarty->compile_dir = SIMPLE_CACHE."/smarty";
-  $this->smarty->template_dir = "templates";
-  $this->smarty->register_prefilter("pmwiki_url");
+  $this->template = new template();
   class_exists("modify"); // load class
 }
 
 function __destruct() {
   $time = number_format(sys_get_microtime()-self::$time_start,2);
   echo "<!-- ".$time."s -->";
-  if ($time > CMS_SLOW) sys_log_message_log("cms-slow",sprintf("{t}%s secs{/t}",$time)." ".$_REQUEST["page"],var_export($_REQUEST,true));
+  if ($time > CMS_SLOW) sys_log_message_log("cms-slow",sprintf("{t}%s secs{/t}",$time)." ".$SERVER["PATH_INFO"],var_export($_REQUEST,true));
 
   if (DEBUG and function_exists("memory_get_usage") and function_exists("memory_get_peak_usage")) {
 	echo "<!-- ".modify::filesize(memory_get_usage())." - ".modify::filesize(memory_get_peak_usage())." -->";
   }
 }
   
-function render_page() {
-  $pagename = $_REQUEST["page"];
+function render_page($pagename) {
   global $FmtPV;
   $FmtPV['$RequestedPage'] = "'$pagename'";
-
   $this->page = PageDbStore::read($pagename);
   if (!empty($this->page["id"])) return;
   if (PageDbStore::exists($pagename)) {
@@ -73,16 +66,14 @@ function render_page() {
 function output() {
   if (isset($_REQUEST["rss"])) $this->_output_rss();
   if (isset($_REQUEST["sitemap"])) $this->_output_sitemap();
-  $this->smarty->assign_by_ref("cms", $this);
-  $this->smarty->assign("page", $this->page);
-  $this->smarty->assign("config", array("cms_title"=>CMS_TITLE));
+  $this->template->cms = $this;
+  $this->template->page = $this->page;
 
-  $output = $this->smarty->fetch("cms/".basename($this->page["template"]));
-  if ($output=="") {
-	sys_log_message_log("cms-fail",sprintf("{t}Output empty: %s{/t}",$this->page["pagename"]." ".$this->page["template"]),var_export($_REQUEST,true));
-	$output = $this->smarty->fetch("cms/pmwiki.tpl");
-  }
+  $template = sys_custom("templates/cms/".basename($this->page["template"]));
+  if (!file_exists($template)) $template = sys_custom("templates/cms/pmwiki.php");
+  $output = $this->template->render($template);
   echo $output;
+
   if (self::$cache_file!="" and $output!="" and $this->page["staticcache"]=="1" and sys_is_guest($_SESSION["username"]) and strpos($this->page["rread_users"],"|anonymous|")!==false) {
 	sys_mkdir(dirname(self::$cache_file));
 	file_put_contents(self::$cache_file, $output, LOCK_EX);
@@ -105,7 +96,7 @@ function render($pagename) {
 	$page = PageDbStore::read("Site.PageNotFound");
 	if (empty($page["id"])) sys_die("{t}Page not found{/t}: ".$pagename.", Site.PageNotFound");
   }
-  if (isset($_REQUEST["source"])) return "<code>".nl2br(modify::htmlquote($page["data"]))."</code>";
+  if (isset($_REQUEST["source"])) return "<code>".nl2br(quote($page["data"]))."</code>";
   return pmwiki_render($page["pagename"],"(:groupheader:)".$page["data"]."(:groupfooter:)","simple_cms",$page["staticcache"],$page["lastmodified"]);
 }
 
@@ -113,7 +104,7 @@ static function get_content_from_url($url, $regexp="", $regexp_format="", $xpath
   return pmwiki_get_content($url, $regexp, $regexp_format, $xpath, $time, $timeout);
 }
 
-static function build_cache_file() {
+static function build_cache_file($page) {
   $hash = "";
   $dirs = array("templates/cms/",SIMPLE_CUSTOM."templates/cms/");
   foreach ($dirs as $dir) {
@@ -122,7 +113,7 @@ static function build_cache_file() {
       if ($file[0]!="." and !is_dir($dir.$file)) $hash .= filemtime($dir.$file);
 	}
   }
-  $page = preg_replace("/^Main\./","",$_REQUEST["page"]);
+  $page = preg_replace("/^Main\./","",$page);
   $page = strtolower(str_replace("/",".",$page));
   $path = SIMPLE_CACHE."/cms/".urlencode($page);
   $file = $path."/".md5($hash);
@@ -177,7 +168,6 @@ private function _set_base_url() {
   $base_url = "http".(sys_https()?"s":"")."://".$_SERVER["HTTP_HOST"];
   if (CMS_REAL_URL=="") {
 	$this->page["url"] = $base_url.$_SERVER["SCRIPT_NAME"];
-	$this->page["url_param"] = "?page=";
   } else {
 	$this->page["url"] = $base_url.CMS_REAL_URL;
   }
@@ -185,14 +175,14 @@ private function _set_base_url() {
 
 private function _output_rss() {
   $this->_set_base_url();
-  $this->smarty->assign("rss_pages", pmwiki_recent_pages(20, "and rss_include=1"));
+  $this->template->rss_pages = pmwiki_recent_pages(20, "and rss_include=1");
   $this->page["template"] = "rss.tpl";
   $this->page["staticcache"] = false;
 }
 
 private function _output_sitemap() {
   $this->_set_base_url();
-  $this->smarty->assign("sitemap_pages", pmwiki_recent_pages(50000));
+  $this->template->sitemap_pages = pmwiki_recent_pages(50000);
   $this->page["template"] = "sitemap.tpl";
   $this->page["staticcache"] = false;
 }
