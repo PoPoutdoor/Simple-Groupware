@@ -2,8 +2,7 @@
 /**
  * @package Simple Groupware
  * @link http://www.simple-groupware.de
- * @author Thomas Bley
- * @copyright Copyright (C) 2002-2012 by Thomas Bley
+ * @copyright Simple Groupware Solutions Thomas Bley 2002-2012
  * @license GPLv2
  */
 
@@ -113,12 +112,6 @@ class template {
 
   public $style = DEFAULT_STYLE;
 
-  static function css($style, $key) {
-	static $styles = null;
-	if ($styles==null) include(sys_custom("templates/css/css_conf.php"));
-	return isset($styles[$style]) ? $styles[$style][$key] : $styles["core"][$key];
-  }
-  
   function render($php) {
 	ob_start();
 	include(sys_trans(sys_custom($php), "tpl_".substr(basename($php),0,-4)));
@@ -130,7 +123,13 @@ class template {
   function __get($unused) {
 	return "";
   }
-
+  
+  static function css($section, $key) {
+	static $config = null;
+	if ($config==null) include(sys_custom("templates/css/css_conf.php"));
+	return isset($config[$section]) ? $config[$section][$key] : $config[$key];
+  }
+  
   function c($key) {
 	return self::css($this->style, $key);
   }
@@ -2580,7 +2579,7 @@ function sys_cache_get($cid) {
   if ($data!==false) {
 	sys::$cache[$cid] = $data;
   } else {
-    if (DEBUG and !defined("NOCONTENT") and !isset($_REQUEST["iframe"])) echo "[cache-renew] ".$cid."\n";
+    if (DEBUG and !defined("NOCONTENT") and !defined('PmWiki') and !isset($_REQUEST["iframe"])) echo "[cache-renew] ".$cid."\n";
   }
   return $data;
 }
