@@ -2,17 +2,16 @@
 /**
  * @package Simple Groupware
  * @link http://www.simple-groupware.de
- * @author Thomas Bley
- * @copyright Copyright (C) 2002-2012 by Thomas Bley
+ * @copyright Simple Groupware Solutions Thomas Bley 2002-2012
  * @license GPLv2
  */
 ?>
 <html>
 <head>
-  <title><?= $this->q(APP_TITLE) ?> - {t}Offline folders{/t}</title>
+  <title><?= q(APP_TITLE) ?> - {t}Offline folders{/t}</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="generator" content="Simple Groupware" />
-  <link media="all" href="ext/cache/core_<?= $this->style ?>_<?= $this->browser["name"] ?>.css?<?= CORE_VERSION ?>" rel="stylesheet" type="text/css" />
+  <link media="all" href="ext/cache/core_<?= DEFAULT_STYLE ?>_<?= $this->browser["name"] ?>.css?<?= CORE_VERSION ?>" rel="stylesheet" type="text/css" />
   <script>
 	function update_status() {
 	  if (navigator.onLine) {
@@ -41,9 +40,9 @@
   <style>body { margin:10px; }</style>
 </head>
 <body onload="update_status();">
-  <div style="white-space:nowrap; border-bottom: 1px solid black; letter-spacing: 2px; font-size: 18px; font-weight: bold;"><?= $this->q(APP_TITLE) ?> - {t}Offline folders{/t}</div>
+  <div style="white-space:nowrap; border-bottom: 1px solid black; letter-spacing: 2px; font-size: 18px; font-weight: bold;"><?= q(APP_TITLE) ?> - {t}Offline folders{/t}</div>
   <br>
-  <div id="back"><a href="index.php">Back</a> | <a href="index.php?folder=^offline_<?= $this->q($this->username) ?>">{t}Manage offline folders{/t}</a><br><br></div>
+  <div id="back"><a href="index.php">Back</a> | <a href="index.php?folder=^offline_<?= q($this->username) ?>">{t}Manage offline folders{/t}</a><br><br></div>
   <div id="status"></div>
   <script>
 	document.body.addEventListener("offline", update_status, false);
@@ -52,17 +51,16 @@
   <div>&nbsp;</div>
   <div style="margin-bottom:10px;"><b>{t}Folders{/t}:</b></div>
   <? foreach ($this->rows as $key=>$row) { ?>
-	<?= $this->q($row["path"]) ?>
-	<? if ($row["view"]!="display") echo "<small>(".$this->q($row["view"]).")</small>" ?> &nbsp;
+	<?= q($row["path"]) ?>
+	<? if ($row["view"]!="display") echo "<small>(".q($row["view"]).")</small>" ?> &nbsp;
 	<span>
-	  <a href="#" onclick="change_size('iframe_<?= $this->q($key) ?>',60); return false;"> + </a>/
-	  <a href="#" onclick="change_size('iframe_<?= $this->q($key) ?>',-60); return false;"> &ndash;&nbsp;</a>
+	  <a href="#" onclick="change_size('iframe_<?= q($key) ?>',60); return false;"> + </a>/
+	  <a href="#" onclick="change_size('iframe_<?= q($key) ?>',-60); return false;"> &ndash;&nbsp;</a>
 	</span><br>
 	<table cellpadding="0" cellspacing="0" style="width:100%;"><tr><td style="padding-bottom:4px;">
-	  <iframe src="<?= $this->q($this->row["url"]) ?>" id="iframe_<?= $this->q($key) ?>" name="iframe_<?= $this->q($key) ?>" style="width:100%; height:350px; border:0px; margin-top:5px; margin-bottom:9px;"></iframe>
+	  <iframe src="<?= q($this->row["url"]) ?>" id="iframe_<?= q($key) ?>" name="iframe_<?= q($key) ?>" style="width:100%; height:350px; border:0px; margin-top:5px; margin-bottom:9px;"></iframe>
 	</td></tr></table>
-  <? } ?>
-  <? if (!$this->rows) { ?>
+  <? } if (!$this->rows) { ?>
 	{t}No entries found.{/t} ({t}Offline folders{/t})<br>
   <? } ?>
   <br>
