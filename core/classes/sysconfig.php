@@ -207,7 +207,7 @@ static function write_config($no_hash, $no_hash2) {
 	$out[] = "define('".$key."',".$val.");";
   }
   $out[] = "if (TIMEZONE!='') date_default_timezone_set(TIMEZONE);\n".
-		   "  elseif (version_compare(PHP_VERSION,'5.3','>') and !ini_get('date.timezone')) date_default_timezone_set(@date_default_timezone_get());";
+		   "  elseif (!ini_get('date.timezone')) date_default_timezone_set(@date_default_timezone_get());";
   $out[] = "if (!ini_get('display_errors')) @ini_set('display_errors','1');";
   $out[] = "define('NOW',time());";
   $out[] = "define('APC',function_exists('apc_store') and ini_get('apc.enabled'));";
