@@ -2,8 +2,7 @@
 /**
  * @package Simple Groupware
  * @link http://www.simple-groupware.de
- * @author Thomas Bley
- * @copyright Copyright (C) 2002-2012 by Thomas Bley
+ * @copyright Simple Groupware Solutions Thomas Bley 2002-2012
  * @license GPLv2
  */
 
@@ -13,7 +12,7 @@ static $cache_file = "";
 static $time_start = 0;
 private $page = array();
 
-function __construct() {
+function __construct($pagename) {
   set_error_handler("debug_handler");
   if (ini_get("magic_quotes_gpc")!==false and get_magic_quotes_gpc()) modify::stripslashes($_REQUEST);
   if (ini_get("register_globals")) modify::dropglobals();
@@ -35,6 +34,7 @@ function __construct() {
   header("Pragma: private");
 
   $this->template = new template();
+  $this->pagename = $pagename;
   class_exists("modify"); // load class
 }
 
@@ -48,24 +48,25 @@ function __destruct() {
   }
 }
   
-function render_page($pagename) {
+function render_page() {
   global $FmtPV;
-  $FmtPV['$RequestedPage'] = "'$pagename'";
-  $this->page = PageDbStore::read($pagename);
+  if (in_array($this->pagename, array("rss","sitemap"))) return;
+  $FmtPV['$RequestedPage'] = "'".$this->pagename."'";
+  $this->page = PageDbStore::read($this->pagename);
   if (!empty($this->page["id"])) return;
-  if (PageDbStore::exists($pagename)) {
+  if (PageDbStore::exists($this->pagename)) {
 	$this->page = PageDbStore::read("Site.Authform");
-	if (empty($this->page["id"])) sys_die("{t}Page not found{/t}: ".$pagename.", Site.Authform");
+	if (empty($this->page["id"])) sys_die("{t}Page not found{/t}: ".$this->pagename.", Site.Authform");
   } else {
 	header('HTTP/1.1 404 Not Found');
 	$this->page = PageDbStore::read("Site.PageNotFound");
-	if (empty($this->page["id"])) sys_die("{t}Page not found{/t}: ".$pagename.", Site.PageNotFound");
+	if (empty($this->page["id"])) sys_die("{t}Page not found{/t}: ".$this->pagename.", Site.PageNotFound");
   }
 }
 
 function output() {
-  if (isset($_REQUEST["rss"])) $this->_output_rss();
-  if (isset($_REQUEST["sitemap"])) $this->_output_sitemap();
+  if ($this->pagename=="rss") $this->_output_rss();
+  if ($this->pagename=="sitemap") $this->_output_sitemap();
   $this->template->cms = $this;
   $this->template->page = $this->page;
 
@@ -176,14 +177,14 @@ private function _set_base_url() {
 private function _output_rss() {
   $this->_set_base_url();
   $this->template->rss_pages = pmwiki_recent_pages(20, "and rss_include=1");
-  $this->page["template"] = "rss.tpl";
+  $this->page["template"] = "rss.php";
   $this->page["staticcache"] = false;
 }
 
 private function _output_sitemap() {
   $this->_set_base_url();
   $this->template->sitemap_pages = pmwiki_recent_pages(50000);
-  $this->page["template"] = "sitemap.tpl";
+  $this->page["template"] = "sitemap.php";
   $this->page["staticcache"] = false;
 }
 }
