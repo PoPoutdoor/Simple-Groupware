@@ -1,8 +1,7 @@
 /**
  * @package Simple Groupware
  * @link http://www.simple-groupware.de
- * @author Thomas Bley
- * @copyright Copyright (C) 2002-2012 by Thomas Bley
+ * @copyright Simple Groupware Solutions Thomas Bley 2002-2012
  * @license GPLv2
  */
 
@@ -566,15 +565,6 @@ function showhide_inline(obj) {
 }
 function check_bold(obj) {
   setTimeout(function(){ getFirstParentByName(obj,"tr").style.fontWeight="normal";},1000);
-}
-
-function doclick(field) {
-  field = getObj(field);
-  if (field.dispatchEvent) {
-    var e = document.createEvent("MouseEvents");
-    e.initEvent("click", true, true);
-    field.dispatchEvent(e);
-  } else field.click();
 }
 
 function showhide_tree(obj) {
@@ -1621,11 +1611,11 @@ function drawmenu() {
   }
   if (!no_folder_operations && rights.write_folder) {
 	smenu_hr();
-	smenuitem("{t}Create new folder{/t}","folder_options(1)");
+	smenuitem("{t}Create new folder{/t}","folder_options(1)","o");
 	smenuitem("{t}Rename folder{/t}","folder_options(0)");
   }
   if (!no_folder_operations && isdbfolder && ((rights.write_folder && !sys.mountpoint_admin) || rights.admin_folder)) {
-	smenuitem("{t}Mountpoint{/t}","folder_mountpoint()");
+	smenuitem("{t}Mountpoint{/t}","folder_mountpoint()","m");
   }
   smenuitem("{t}Info{/t}","folder_info()");
   smenu_end();
@@ -1678,7 +1668,7 @@ function drawmenu() {
 	  menubutton("{t}Settings{/t}","locate('index.php?find=asset|simple_sys_users|1|username="+sys.username+"&view=changepwd')");
 	}
   } 
-  menubutton("{t}Help{/t}","nWin('cms.php?page=Help')");
+  menubutton("{t}Help{/t}","nWin('cms.php/Help')");
   menubutton("{t}Login/-out{/t}","sWin('index.php?logout')", "l");
   mbuffer += '<td><span id="notification"></span></td>';
   mbuffer += "</tr></table></div>"+smenu_buffer;
