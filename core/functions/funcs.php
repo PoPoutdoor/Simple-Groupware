@@ -1864,6 +1864,7 @@ function login_anonymous_session() {
   $_SESSION["home_folder"] = "";
   $_SESSION["treevisible"] = true;
   $_SESSION["ip"] = _login_get_remoteaddr();
+  $_SESSION["theme"] = "core";
   $_SESSION["tickets"] = array("templates" => array("dbselect", "simple_templates", array("tplcontent","tplname"), array("tplname like @search@"),"tplname asc"));
   $base = dirname($_SERVER["SCRIPT_FILENAME"])."/";
   $_SESSION["ALLOWED_PATH"] = array( $base.SIMPLE_CACHE."/preview/" );
@@ -1903,7 +1904,7 @@ function login_handle_login($save_session=true) {
   if (!empty($_REQUEST["username"]) and !empty($_REQUEST["password"]) and (!$maintenance or sys_is_super_admin($_REQUEST["username"]))) {
     if (!isset($_COOKIE[SESSION_NAME]) and !empty($_REQUEST["loginform"])) sys_die('{t}Please activate cookies.{/t} <a href="index.php?logout">{t}Back{/t}</a>');
 
-	$file = SIMPLE_CACHE."/ip/".str_replace(".","-",$ip);
+	$file = SIMPLE_CACHE."/ip/".str_replace(array(".",":"),"-",$ip);
 	if (file_exists($file."_3") and $trials = file_get_contents($file."_3") and strlen($trials)>3 and filemtime($file."_3") > time()-900) {
 	  $_REQUEST["logout"] = true;
 	  sys_alert("{t}Too many wrong logins. Please wait 15 minutes.{/t}");
