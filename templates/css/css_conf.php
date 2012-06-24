@@ -7,7 +7,7 @@
  * @license GPLv2
  */
 
-$styles["core"] = array(
+$config = array(
 "logo" => "ext/images/sgs_logo.png",
 "bg_login" => "ext/images/bg_autumn.jpg",
 "logo_login" => "ext/images/sgs_logo2.png",
@@ -64,17 +64,17 @@ $styles["core"] = array(
 "font_menu_big" => "font-size: 11px; line-height: 13px; letter-spacing: 1px;",
 );
 
-$styles["rtl"] = array(
+$config["rtl"] = array(
 "font" => "font-family: Tahoma, Arial, Helvetica, Verdana, sans-serif;",
 "direction" => "direction: RTL;",
 "text_align" => "text-align: right;",
 );
 
-$styles["core_tree_icons"] = array(
+$config["core_tree_icons"] = array(
 "tree_icons" => "1",
 );
 
-$styles["contrast"] = array(
+$config["contrast"] = array(
 "logo" => "ext/images/sgs_logo2.png",
 "color_tab_black" => "#000000",
 "font_black" => "color: #000000;",
@@ -83,14 +83,14 @@ $styles["contrast"] = array(
 "font_tab_black" => "color: #000000;",
 );
 
-$styles["lake"] = array(
+$config["lake"] = array(
 "font_black" => "color: #AAAAAA;",
 "bg_white" => "#000000",
 "bg_full" => "ext/images/bg_lake.jpg",
 "bg_light_blue" => "#8096BD",
 );
 
-$styles["paradise"] = array(
+$config["paradise"] = array(
 "bg_white" => "#000000",
 "bg_full" => "ext/images/bg_paradise.jpg",
 "bg_light_blue" => "#F7D17C",
@@ -98,7 +98,7 @@ $styles["paradise"] = array(
 "font_black_bold" => "color: #E5E5E5; font-weight: bold;",
 );
 
-$styles["earth"] = array(
+$config["earth"] = array(
 "bg_white" => "#000000",
 "bg_full" => "ext/images/bg_earth.jpg",
 "bg_light_blue" => "#7A9CC9",
@@ -106,7 +106,7 @@ $styles["earth"] = array(
 "font_black_bold" => "color: #E5E5E5; font-weight: bold;",
 );
 
-$styles["water"] = array(
+$config["water"] = array(
 "bg_white" => "#000000",
 "bg_full" => "ext/images/bg_water.jpg",
 "bg_light_blue" => "#9DA6E7",
@@ -114,7 +114,7 @@ $styles["water"] = array(
 "font_black_bold" => "color: #E5E5E5; font-weight: bold;",
 );
 
-$styles["beach"] = array(
+$config["beach"] = array(
 "bg_white" => "#000000",
 "bg_full" => "ext/images/bg_beach.jpg",
 "bg_light_blue" => "#B5D1DD",
@@ -122,7 +122,7 @@ $styles["beach"] = array(
 "font_black_bold" => "color: #E5E5E5; font-weight: bold;",
 );
 
-$styles["desert"] = array(
+$config["desert"] = array(
 "bg_full" => "ext/images/bg_desert.jpg",
 "bg_light_blue" => "#E9B77A",
 "bg_dark_grey" => "#F3CC8B",
@@ -135,7 +135,7 @@ $styles["desert"] = array(
 "font_blue" => "color: #000000;",
 );
 
-$styles["nature"] = array(
+$config["nature"] = array(
 "bg_white" => "#000000",
 "bg_full" => "ext/images/bg_nature.jpg",
 "bg_light_blue" => "#71C031",
@@ -147,7 +147,7 @@ $styles["nature"] = array(
 "font_blue" => "color: #AF7817;",
 );
 
-$styles["sunset"] = array(
+$config["sunset"] = array(
 "bg_white" => "#000000",
 "bg_full" => "ext/images/bg_sunset.jpg",
 "border" => "1px solid #E5E5E5",
@@ -175,7 +175,7 @@ $styles["sunset"] = array(
 "font_white_bold" => "font-weight: bold; color: #FF0000;",
 );
 
-$styles["blackwhite"] = array(
+$config["blackwhite"] = array(
 "bg_white" => "#000000",
 "bg_full" => "ext/images/bg_blackwhite.jpg",
 "border" => "1px solid #C0C0C0",
