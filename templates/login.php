@@ -2,8 +2,7 @@
 /**
  * @package Simple Groupware
  * @link http://www.simple-groupware.de
- * @author Thomas Bley
- * @copyright Copyright (C) 2002-2012 by Thomas Bley
+ * @copyright Simple Groupware Solutions Thomas Bley 2002-2012
  * @license GPLv2
  */
 ?>
@@ -77,7 +76,7 @@ body {
 <div class="login_alert" style="text-align:center">
   <table style="margin:auto; text-align:center"><tr><td>
   <div class="default10">
-  <? foreach ($this->alert as $item) echo modify::nl2br(q($item))."<br>" ?>
+  <? foreach ($this->alert as $item) echo nl2br(q($item))."<br>" ?>
   </div>
   </td></tr></table>
 </div>
