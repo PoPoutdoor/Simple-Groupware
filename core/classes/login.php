@@ -2,8 +2,7 @@
 /**
  * @package Simple Groupware
  * @link http://www.simple-groupware.de
- * @author Thomas Bley
- * @copyright Copyright (C) 2002-2012 by Thomas Bley
+ * @copyright Simple Groupware Solutions Thomas Bley 2002-2012
  * @license GPLv2
  */
 
@@ -357,7 +356,7 @@ static function process_login($username,$password="") {
   }
   
   if (!empty($row["timezone"])) $_SESSION["timezone"] = $row["timezone"]; else $_SESSION["timezone"] = "";
-  if (!empty($row["theme"])) $_SESSION["theme"] = $row["theme"];
+  if (!empty($row["theme"])) $_SESSION["theme"] = $row["theme"]; else $_SESSION["theme"] = "core";
 
   if (!empty($row["home_folder"])) {
     $_SESSION["home_folder"] = "index.php?folder=".rawurlencode($row["home_folder"]);
@@ -375,9 +374,8 @@ static function process_login($username,$password="") {
 	sys_warning(sprintf("{t}Password expired. (password of %s has expired){/t}",$username));
 	self::_redirect("index.php?view=changepwd&find=asset|simple_sys_users|1|username=".$_SESSION["username"]);
   } else if (!empty($_REQUEST["page"]))  {
-    if (CMS_REAL_URL) $url = CMS_REAL_URL.$_REQUEST["page"];
-      else $url = "cms.php?page=".$_REQUEST["page"];
-	self::_redirect($url);
+    if (CMS_REAL_URL) self::_redirect(CMS_REAL_URL.$_REQUEST["page"]);
+	self::_redirect("cms.php/".$_REQUEST["page"]);
   } else if (!empty($_REQUEST["redirect"]))  {
 	self::_redirect($_SESSION["home_folder"]);
   }
