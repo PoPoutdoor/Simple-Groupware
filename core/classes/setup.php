@@ -42,7 +42,7 @@ static function save_config($vars) {
 	$out[] = "define('".$key."',".$var.");";
   }
   $out[] = "if (TIMEZONE!='') date_default_timezone_set(TIMEZONE);\n".
-		   "  elseif (version_compare(PHP_VERSION,'5.3','>') and !ini_get('date.timezone')) date_default_timezone_set(@date_default_timezone_get());";
+		   "  elseif (!ini_get('date.timezone')) date_default_timezone_set(@date_default_timezone_get());";
   $out[] = "if (!ini_get('display_errors')) @ini_set('display_errors','1');";
   $out[] = "define('NOW',time());";
   $out[] = "define('LANG','".LANG."');";
