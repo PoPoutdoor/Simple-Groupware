@@ -26,7 +26,6 @@ $tpl = new template();
 $tpl->sync = isset($_REQUEST["sync"]) ? 1 : 0;
 $tpl->username = $_SESSION["username"];
 $tpl->browser = sys::$browser;
-$tpl->style = $_SESSION["theme"];
 $tpl->rows = $rows;
 echo $tpl->render("templates/offline.php");
 
