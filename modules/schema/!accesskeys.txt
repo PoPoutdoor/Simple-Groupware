@@ -38,7 +38,7 @@ h		home						menu.js
 
 1-9		views						asset_helper_views
 
-o		options pane				asset_helper_tree
+o		create new folder			asset_helper_tree
 m		mountpoint pane				asset_helper_tree
 p		preview						asset_helper_form_fields
 0		edit rights					menu.js
