@@ -2,8 +2,7 @@
 /**
  * @package Simple Groupware
  * @link http://www.simple-groupware.de
- * @author Thomas Bley
- * @copyright Copyright (C) 2002-2012 by Thomas Bley
+ * @copyright Simple Groupware Solutions Thomas Bley 2002-2012
  * @license GPLv2
  */
 ?>
@@ -11,7 +10,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <? foreach ($this->sitemap_pages as $entry) { ?>
 <url>
-    <loc><?= $this->page["url"].$this->page["url_param"].$entry["pagename"] ?></loc>
+    <loc><?= $this->page["url"]."/".$entry["pagename"] ?></loc>
     <lastmod><?= sys_date("Y-m-d", $entry["lastmodified"]) ?></lastmod>
 </url>
 <? } ?>
