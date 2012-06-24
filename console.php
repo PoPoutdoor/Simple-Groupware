@@ -91,7 +91,6 @@ $tpl->title = $title;
 $tpl->content = $content;
 
 if (isset($_REQUEST["no_gui"])) {
-  // TODO fix no quote
   echo $content;
 } else {
   echo $tpl->render("templates/console.php");
