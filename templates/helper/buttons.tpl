@@ -1,8 +1,7 @@
 {*
  * @package Simple Groupware
  * @link http://www.simple-groupware.de
- * @author Thomas Bley
- * @copyright Copyright (C) 2002-2012 by Thomas Bley
+ * @copyright Simple Groupware Solutions Thomas Bley 2002-2012
  * @license GPLv2
  *}
 <td valign="top" style="padding-right:0px; text-align:right; {$style}" colspan="{$colspan}">

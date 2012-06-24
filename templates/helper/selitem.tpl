@@ -1,8 +1,7 @@
 {*
  * @package Simple Groupware
  * @link http://www.simple-groupware.de
- * @author Thomas Bley
- * @copyright Copyright (C) 2002-2012 by Thomas Bley
+ * @copyright Simple Groupware Solutions Thomas Bley 2002-2012
  * @license GPLv2
  *}
 {if ($tab_key eq "general" || $t.template eq "asset_display.tpl" || $t.disable_tabs) && !$iframe}

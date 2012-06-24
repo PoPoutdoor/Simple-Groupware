@@ -1,8 +1,7 @@
 {*
  * @package Simple Groupware
  * @link http://www.simple-groupware.de
- * @author Thomas Bley
- * @copyright Copyright (C) 2002-2012 by Thomas Bley
+ * @copyright Simple Groupware Solutions Thomas Bley 2002-2012
  * @license GPLv2
  *}
 {if $t.groupby neq "" && $data_item[$t.groupby].data[0] neq $last_groupitem && ($data_item[$t.groupby].filter[0] || $last_groupitem neq "_")}

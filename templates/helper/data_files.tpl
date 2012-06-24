@@ -1,8 +1,7 @@
 {*
  * @package Simple Groupware
  * @link http://www.simple-groupware.de
- * @author Thomas Bley
- * @copyright Copyright (C) 2002-2012 by Thomas Bley
+ * @copyright Simple Groupware Solutions Thomas Bley 2002-2012
  * @license GPLv2
  *}
 <a target="_top" href="download.php?filename={$item.filter[$key_filter]|escape:"url"}&field={$curr_id}&item[]={$data_item._id|escape:"url"}&subitem={$key_filter}&dispo=noinline">
