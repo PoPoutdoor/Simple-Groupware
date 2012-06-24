@@ -45,11 +45,11 @@ if (!in_array(".",$include_path)) {
   setup_exit(sprintf("Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !","include_path",".".$sep.implode($sep,$include_path),ini_get("include_path")),1);
 }
 
-$phpversion = "5.2.0";
+$phpversion = "5.3.0";
 if (version_compare(PHP_VERSION, $phpversion, "<")) {
   setup_exit(sprintf("Setup needs php with at least version %s ! (".PHP_VERSION.")",$phpversion),3);
 }
-if (version_compare(PHP_VERSION,'5.3','>') and !ini_get('date.timezone')) {
+if (!ini_get('date.timezone')) {
   date_default_timezone_set(@date_default_timezone_get());
 }
 
