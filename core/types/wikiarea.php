@@ -34,7 +34,7 @@ EOT;
 }
 
 static function render_value($value) {
-  return modify::htmlfield(modify::htmlunquote($value));
+  return modify::htmlfield(modify::unquote($value));
 }
 
 static function render_page($str) {

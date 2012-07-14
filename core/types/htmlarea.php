@@ -60,12 +60,12 @@ EOT;
 
 static function render_value($value, $unused, $unused2, $smarty) {
   if (!empty($smarty->field["INSECURE"])) {
-	return modify::htmlfield(modify::htmlunquote($value), false);
+	return modify::htmlfield(modify::unquote($value), false);
   }
   if (!empty($smarty->field["NO_CHECKS"])) {
-	return modify::htmlunquote($value);
+	return modify::unquote($value);
   }
-  return modify::htmlfield(modify::htmlunquote($value));
+  return modify::htmlfield(modify::unquote($value));
 }
 
 static function export_as_html() {

@@ -142,7 +142,7 @@ EOT;
 static function render_value($value, $value_raw, $preview, $unused) {
   if ($preview) {
 	$id = uniqid();
-	$value = modify::htmlfield(modify::htmlunquote($value),true,true);
+	$value = modify::htmlfield(modify::unquote($value),true,true);
     $value_raw = modify::nl2br($value_raw);
 
     return <<<EOT
@@ -169,7 +169,7 @@ static function render_page($str,$args,$row) {
   $title = $row["title"] ? $row["title"] : $row["pagename"];
   if (($pos = strpos($title,"."))) $title = substr($title,$pos+1);
 
-  return "<h1 class='pagetitle'>".quote($title)."</h1><div id='wikitext'>".
+  return "<h1 class='pagetitle'>".q($title)."</h1><div id='wikitext'>".
  	pmwiki_render($row["pagename"],"(:groupheader:)".$row["data"]."(:groupfooter:)",$row["table"],$row["staticcache"],$row["lastmodified"])."</div>";
 }
 
@@ -177,7 +177,7 @@ static function ajax_render_preview($text, $pagename, $title, $table) {
   if (empty($text)) return "";
   if ($title=="") $title = $pagename;
   if (($pos = strpos($title,"."))) $title = substr($title,$pos+1);
-  return "{t}Preview{/t}"."<br/><br/><h1 class='pagetitle'>".quote($title)."</h1>".
+  return "{t}Preview{/t}"."<br/><br/><h1 class='pagetitle'>".q($title)."</h1>".
   		 "<div id='wikitext'>".modify::htmlfield(pmwiki_render($pagename,"(:groupheader:)".$text."(:groupfooter:)",$table))."</div>";
 }
 

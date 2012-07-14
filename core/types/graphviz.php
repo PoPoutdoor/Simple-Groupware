@@ -38,7 +38,7 @@ EOT;
 
 static function render_value($value, $unused, $preview) {
   if ($preview) {
-    $filename = basename(self::render_png(modify::htmlunquote($value)));
+    $filename = basename(self::render_png(modify::unquote($value)));
 	return <<<EOT
 	  <a target="_blank" href="preview.php?filename={$filename}"><img class="cursor" src="preview.php?filename={$filename}"></a>
 EOT;

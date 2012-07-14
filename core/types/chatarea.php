@@ -11,7 +11,7 @@ class type_chatarea extends type_default {
 static function render_value() {
   $id = uniqid();
   $smarty = func_get_arg(3);
-  $roomname = quote($smarty->data_item["roomname"]["data"][0]);
+  $roomname = q($smarty->data_item["roomname"]["data"][0]);
 
   static $init = false;
   if ($init === false) $init = <<<EOT
