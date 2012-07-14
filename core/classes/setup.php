@@ -19,8 +19,8 @@ static function build_customizing($file) {
 
 static function customize_replace($file,$code_remove,$code_new) {
   setup::out($file.":<br/>Replace:");
-  setup::out(nl2br(quote($code_remove))."<br/>");
-  setup::out("with:<br/>".nl2br(quote($code_new))."<br/>");
+  setup::out(nl2br(q($code_remove))."<br/>");
+  setup::out("with:<br/>".nl2br(q($code_new))."<br/>");
   $data = file_get_contents($file);
   if (strpos($data,$code_remove)===false) {
 	throw new Exception("code not found in: ".$file." Code: ".$code_remove);
@@ -415,7 +415,7 @@ static function errors_show($phpinfo=false) {
   $err = "";
   $msg = "";
   foreach (self::$errors as $message) {
-    $msg .= str_replace("\n","<br>",quote($message[0]))."<br>";
+    $msg .= str_replace("\n","<br>",q($message[0]))."<br>";
 	$err .= $message[1]."_";
   }
   echo '
