@@ -104,7 +104,7 @@ static function get_form_token() {
 }
 
 static function milestone($val,$args,$data) {
-  if (!empty($data["milestone"]["data"][0])) return $val." ".self::htmlunquote("&diams;");
+  if (!empty($data["milestone"]["data"][0])) return $val." ".self::unquote("&diams;");
   return $val;
 }
 
@@ -274,7 +274,7 @@ static function getpathfull($folder, $workspace=false, $spacer=" / ") {
 }
 
 static function searchindex($value) {
-  $value = self::htmlunquote(strip_tags(str_replace("<br>"," ",$value)));
+  $value = self::unquote(strip_tags(str_replace("<br>"," ",$value)));
   $value = trim(str_replace(array(chr(255),"\r","\n")," ",$value));
   if ($value=="http://") $value="";
   return $value;
@@ -422,7 +422,7 @@ static function highlight_search($search) {
   $vals = str_replace(" ","|",preg_replace("/ +/"," ",$GLOBALS["t"]["search"]["query"]));
   if ($vals=="*") return $search;
   $preg = "/(".str_replace(array("/","*"),array("","[\\w]*"),$vals).")/i";
-  $search = quote($search);
+  $search = q($search);
   if (strlen($search)>500) {
     $pos = 0;
 	$match = array();
@@ -439,7 +439,7 @@ static function highlight_search($search) {
 
 static function highlight_string($str) {
   if ($str=="") return "";
-  $str = str_replace(array("  "),array("&nbsp; "),quote($str));
+  $str = str_replace(array("  "),array("&nbsp; "),q($str));
   $str = preg_replace('/(&quot;.*?&quot;)/si',"<font color='#DD0000'>\\1</font>",$str);
   $result = "";
   foreach (explode("\n",$str) as $line) $result .= "<li>".$line."</li>";
@@ -702,7 +702,7 @@ static function shortmessage($value,$args) {
 static function htmlmessage($value) {
   if (($pos = stripos($value,"<body"))) $value = substr($value,$pos);
   $value = preg_replace(array("![\n\r]!i","!</tr>|<br ?/?>|<p>|</div>|<div[^>]*>!i"),array("","\n"),$value);
-  $value = explode("\n",self::htmlunquote(strip_tags($value)));
+  $value = explode("\n",self::unquote(strip_tags($value)));
   foreach ($value as $key=>$val) $value[$key] = trim($val);
   $value = preg_replace(array("/ +/","/\n{2,}/"),array(" ","\n\n"),implode("\n",$value));
   return $value;
@@ -1015,7 +1015,7 @@ static function preview_bin($filename,$ext) {
 	  $match = array();
 	  preg_match("/^URL=(.+)/m", file_get_contents($filename), $match);
 	  if (!empty($match[1])) {
-		$result = "<a href='".quote(trim($match[1]))."' target='_blank'>".modify::basename(substr($filename,0,-4))."</a>";
+		$result = "<a href='".q(trim($match[1]))."' target='_blank'>".modify::basename(substr($filename,0,-4))."</a>";
 	  }
 	  break;
 	case "pdf":
@@ -1178,7 +1178,7 @@ static function exif_file($filename) {
   return false;
 }
 
-static function htmlunquote($value) {
+static function unquote($value) {
   return str_replace(chr(255)," ",html_entity_decode($value,ENT_QUOTES,"UTF-8"));
 }
 
