@@ -14,11 +14,11 @@ function __autoload($class) {
   } else if ($class=="PEAR" or $class=="PEAR_Error") {
     require("lib/pear/PEAR.php");
   } else if (sys_strbegins($class,"lib_")) {
-    require(sys_trans(sys_custom("modules/lib/".basename(substr($class,4)).".php"),$class));
+    require(sys_trans(sys_custom("modules/lib/".basename(substr($class,4)).".php")));
   } else if (sys_strbegins($class,"type_")) {
-    require(sys_trans(sys_custom("core/types/".basename(substr($class,5)).".php"),$class));
+    require(sys_trans(sys_custom("core/types/".basename(substr($class,5)).".php")));
   } else {
-    require(sys_trans(sys_custom("core/classes/".basename($class).".php"),$class));
+    require(sys_trans(sys_custom("core/classes/".basename($class).".php")));
   }
 }
 
@@ -115,9 +115,7 @@ class template {
   function render($php) {
 	ob_start();
 	include(sys_trans(sys_custom($php), "tpl_".substr(basename($php),0,-4)));
-	$data = ob_get_contents();
-	ob_end_clean();
-	return $data;
+	return ob_get_clean();
   }
 
   function __get($unused) {
@@ -136,10 +134,6 @@ class template {
 }
 
 function q($str) {
-  return htmlspecialchars($str, ENT_QUOTES);
-}
-
-function quote($str) {
   return htmlspecialchars($str, ENT_QUOTES);
 }
 
@@ -2634,7 +2628,7 @@ function sys_csv_2_xml($file) {
 	foreach ($rows as $row) {
 	  $out .= "<asset>\n";
 	  foreach ($row as $key=>$val) {
-		if (!empty($keys[$key])) $out .= "<".$keys[$key].">".quote($val)."</".$keys[$key].">\n";
+		if (!empty($keys[$key])) $out .= "<".$keys[$key].">".q($val)."</".$keys[$key].">\n";
 	  }
 	  $out .= "</asset>\n";
 	}
@@ -2646,7 +2640,7 @@ function sys_get_xml($file, $data = array()) {
   if (!strpos($file,".csv")) $xml = file_get_contents($file); else $xml = sys_csv_2_xml($file);
   if (strlen($xml)<102400) {
     if (count($data)>0) {
-	  foreach ($data as $key=>$val) $data[$key] = quote(is_array($val)?implode("|",$val):$val);
+	  foreach ($data as $key=>$val) $data[$key] = q(is_array($val)?implode("|",$val):$val);
 	  $xml = sys_replace($xml, $data);
 	}
   }
@@ -2772,11 +2766,11 @@ function sys_contains($haystick, $needle) {
 
 function sys_die($str,$str2="",$pre=false) {
   echo "<html><body style='padding:0px;margin:0px;'><center>";
-  if (sys::$alert) echo nl2br(quote(implode("<br>",sys::$alert)))."<br><br>";
+  if (sys::$alert) echo nl2br(q(implode("<br>",sys::$alert)))."<br><br>";
   echo "<table style='width: 600px;'>";
   echo "<tr><td align='center' style='border-bottom: 1px solid black; letter-spacing: 2px; font-size: 18px; font-weight: bold;'>Simple Groupware & CMS</td></tr>";
-  echo "<tr><td align='center' style='border-bottom: 1px solid black;'>".quote($str)."</td></tr>";
-  if ($str2!="") echo "<tr><td style='border-bottom: 1px solid black; ".($pre?"white-space:pre;":"")."'>".nl2br(quote($str2))."</td></tr>";
+  echo "<tr><td align='center' style='border-bottom: 1px solid black;'>".q($str)."</td></tr>";
+  if ($str2!="") echo "<tr><td style='border-bottom: 1px solid black; ".($pre?"white-space:pre;":"")."'>".nl2br(q($str2))."</td></tr>";
   echo "</table>Powered by Simple Groupware, Copyright (C) 2002-2012 by Thomas Bley.</center></body></html>";
   exit;
 }
@@ -3133,7 +3127,7 @@ function sys_message_box($subject, $ret) {
   $out = "<div style='position:absolute; z-index:10; width:50%; border:1px solid #666; padding:2px; margin:2px; background-color:#FFF;'>";
   $out .= "<div><a style='float:right;' onclick='javascript:this.parentNode.parentNode.style.display=\"none\";'>{t}Close{/t}</a></div>";
   $out .= "<div style='background-color:#EEE; margin-bottom:3px; font-weight:bold;'>".$subject."</div>";
-  $out .= "<pre>".quote(wordwrap($ret))."</pre>";
+  $out .= "<pre>".q(wordwrap($ret))."</pre>";
   echo $out."</div>";
 }
 
@@ -3197,7 +3191,7 @@ function sys_log_message($component,$message,$message_trace,$username,$forcedb,$
 	  if ($error_sql=="") {
         db_search_update("simple_sys_events",$id,array(),array("created"=>"datetime","component"=>"text","message"=>"text","username"=>"text","serverip"=>"text","servername"=>"text"));
 	  } else {
-	    echo quote($message)."<br>".$error_sql."<br>";
+	    echo q($message)."<br>".$error_sql."<br>";
 	  }
 	}
   } else {
@@ -3209,7 +3203,7 @@ function sys_log_message($component,$message,$message_trace,$username,$forcedb,$
 	$message = $_SERVER["SERVER_NAME"]." (".$_SERVER["SERVER_ADDR"].") ".$component.", user: ".
 			   $username."\r\n".$message."\r\n".$message_trace."\r\n";
 			   echo $message.$message_trace;
-	echo quote($message);
+	echo q($message);
     @error_log($message, 3, SIMPLE_CACHE."/debug/php_error.log");
   }
 }
