@@ -31,7 +31,7 @@ if (strtolower($_REQUEST["action"])=="lock") {
 <D:lockdiscovery><D:activelock>
 <D:lockscope><D:exclusive/></D:lockscope><D:locktype><D:write/></D:locktype>
 <D:depth>0</D:depth><D:timeout>Second-7200</D:timeout>
-<ns0:owner xmlns:ns0="DAV:">'.quote($_SESSION["username"]).'</ns0:owner>
+<ns0:owner xmlns:ns0="DAV:">'.q($_SESSION["username"]).'</ns0:owner>
 <D:locktoken><D:href>opaquelocktoken:1</D:href></D:locktoken>
 </D:activelock></D:lockdiscovery>
 </D:prop>';
