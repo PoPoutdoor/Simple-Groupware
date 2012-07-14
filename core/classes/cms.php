@@ -97,7 +97,7 @@ function render($pagename) {
 	$page = PageDbStore::read("Site.PageNotFound");
 	if (empty($page["id"])) sys_die("{t}Page not found{/t}: ".$pagename.", Site.PageNotFound");
   }
-  if (isset($_REQUEST["source"])) return "<code>".nl2br(quote($page["data"]))."</code>";
+  if (isset($_REQUEST["source"])) return "<code>".nl2br(q($page["data"]))."</code>";
   return pmwiki_render($page["pagename"],"(:groupheader:)".$page["data"]."(:groupfooter:)","simple_cms",$page["staticcache"],$page["lastmodified"]);
 }
 
