@@ -80,7 +80,7 @@ static function install($source, $filename) {
 	  }
 	  if (basename($file["filename"])=="readme.txt") {
 		$data = file_get_contents(SIMPLE_EXT.$file["filename"]);
-		setup::out(nl2br("\n".quote($data)."\n"));
+		setup::out(nl2br("\n".q($data)."\n"));
 	  }
 	  if (!empty($ext_folder) and basename($file["filename"])=="folders.xml") {
 		setup::out(sprintf("{t}Processing %s ...{/t}","folder structure"));
