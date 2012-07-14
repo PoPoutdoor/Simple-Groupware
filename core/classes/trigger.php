@@ -250,7 +250,7 @@ static function sendmail($id, $data, $unused, $table, $to_self=false) {
 
 static function createemail($id, $data, $unused, $table) {
   if (empty($data["message_html"]) and !empty($data["message"])) {
-	$message_html = nl2br(quote(trim($data["message"])));
+	$message_html = nl2br(q(trim($data["message"])));
 	db_update($table,array("message_html"=>$message_html),array("id=@id@"),array("id"=>$id));
   }
   if (empty($data["message"]) and !empty($data["message_html"])) {
