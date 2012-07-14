@@ -455,7 +455,7 @@ static function footer() {
 }
 
 static function quote($str) {
-  return str_replace("\\n","\n",quote($str));
+  return str_replace("\\n","\n",q($str));
 }
 
 static function dirs_clear_custom($custom) {
