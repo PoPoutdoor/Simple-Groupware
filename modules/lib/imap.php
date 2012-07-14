@@ -644,7 +644,7 @@ private static function _getmessage($msg_id,$msg_uid,$mfolder,$imap_path,$cid,$h
 		if (!sys_contains($item["charset"], "utf")) {
 	      $content = modify::utf8_encode($content, $item["charset"]);
 		}
-		if ($html) $content = modify::nl2br(quote(trim($content)), false, true);
+		if ($html) $content = modify::nl2br(q(trim($content)), false, true);
 
 	  } else if (!$is_attachment and $item["size"]>0 and strpos($item["contenttype"],"text/")!==false) {
 		$data_body = $imap->getBodyPart($msg_id,$item["id"],$item["encoding"]);
@@ -655,7 +655,7 @@ private static function _getmessage($msg_id,$msg_uid,$mfolder,$imap_path,$cid,$h
 		if ($html) {
 		  if ($content!="") $content .= "<hr>";
 		  if ($item["contenttype"]!="text/html") {
-			$data_body = modify::nl2br(quote(trim($data_body)), false, true);
+			$data_body = modify::nl2br(q(trim($data_body)), false, true);
 			if ($item["contenttype"]!="text/plain") $content .= "<b>[".$item["contenttype"]."]</b><br>";
 		  }
 		  $content .= "<div class='external_content' style='margin-left:".($item["level"]*20)."px;'><code>".$data_body."</code></div>";

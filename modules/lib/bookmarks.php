@@ -63,11 +63,11 @@ private static function _get_data($file) {
 	  $name = "";
 	  $created = 0;
 	  $desc = "";
-	  if (!empty($matches[1][$i])) $category = modify::htmlunquote($matches[1][$i]);
-	  if (!empty($matches[2][$i+1])) $desc = modify::htmlunquote($matches[2][$i+1]);
+	  if (!empty($matches[1][$i])) $category = modify::unquote($matches[1][$i]);
+	  if (!empty($matches[2][$i+1])) $desc = modify::unquote($matches[2][$i+1]);
 	  if (!empty($matches[3][$i])) $url = $matches[3][$i];
 	  if (!empty($matches[4][$i])) $created = $matches[4][$i];
-	  if (!empty($matches[5][$i])) $name = modify::htmlunquote($matches[5][$i]);
+	  if (!empty($matches[5][$i])) $name = modify::unquote($matches[5][$i]);
 	  if ($name!="" or $url!="") {
 	    $rows[] = array("category"=>$category, "bookmarkname"=>$name, "description"=>$desc, "url"=>$url, "created"=>$created);
   } } }

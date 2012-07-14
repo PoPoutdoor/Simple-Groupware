@@ -77,7 +77,7 @@ static function select($path,$fields,$where,$order,$limit,$vars,$mfolder) {
 				  if (!sys_contains($item["charset"], "utf")) {
 					$content = modify::utf8_encode($content, $item["charset"]);
 				  }
-				  if ($html) $content .= modify::nl2br(quote(trim($content)), false, true);
+				  if ($html) $content .= modify::nl2br(q(trim($content)), false, true);
 				}
 			  } else {
 				if (!$is_attachment and $item["size"]>0 and strpos($item["contenttype"],"text/")!==false) {
@@ -89,7 +89,7 @@ static function select($path,$fields,$where,$order,$limit,$vars,$mfolder) {
 				  if ($html) {
 					if ($content!="") $content .= "<hr>";
 				    if ($item["contenttype"]!="text/html") {
-					  $data_body = modify::nl2br(quote(trim($data_body)), false, true);
+					  $data_body = modify::nl2br(q(trim($data_body)), false, true);
 					  if ($item["contenttype"]!="text/plain") $content .= "<b>[".$item["contenttype"]."]</b><br>";
 		  			}
 					$item["level"] = substr_count($item["id"],".");

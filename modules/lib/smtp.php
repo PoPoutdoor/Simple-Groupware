@@ -30,7 +30,7 @@ static function insert($path,$data,$mfolder,$sendtofrom=true,$use_mail_function=
   if (!empty($data["message_html"])) {
 	$ctype = "text/html";
 	$message = $data["message_html"]."<br><br>\n";
-	if (SMTP_FOOTER) $message .= "--<br>".nl2br(quote(SMTP_FOOTER));
+	if (SMTP_FOOTER) $message .= "--<br>".nl2br(q(SMTP_FOOTER));
   }
 
   $email = array();

@@ -70,7 +70,7 @@ static function select($path,$fields,$where,$order,$limit,$vars,$mfolder) {
 	  }
 	  $meta["history"] = preg_replace(array("/(^< )/ms","/(^> )/ms"),array("- ","+ "),$meta["history"]);
 	  foreach ($meta as $mkey=>$mval) if (in_array($mkey,$fields)) $rows[$key][$mkey] = $mval;
-	  $rows[$key]["title"] = modify::htmlunquote($rows[$key]["title"]);
+	  $rows[$key]["title"] = modify::unquote($rows[$key]["title"]);
 	}
   }
   return $rows;
