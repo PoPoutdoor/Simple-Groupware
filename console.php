@@ -61,12 +61,12 @@ if ($_REQUEST["console"]=="php") {
 	ob_end_clean();
   }
   $title = "PHP Console (PHP ".phpversion().")";
-  if ($content!="") $content = "<pre>".quote($content)."</pre>";
+  if ($content!="") $content = "<pre>".q($content)."</pre>";
 } else if ($_REQUEST["console"]=="sys") {
   $content = "";
   if ($code!="") $content = sys_exec(str_replace("\n","&",trim($code)));
   $title = "SYS Console: ".getcwd()." @ ".$_SERVER["SERVER_NAME"]." [".$_SERVER["SERVER_SOFTWARE"]."]";
-  if ($content!="") $content = "<pre>".quote($content)."</pre>";
+  if ($content!="") $content = "<pre>".q($content)."</pre>";
 } else {
   $content = "";
   $title = "SQL Console:&nbsp; ".SETUP_DB_USER." @ ".SETUP_DB_NAME."&nbsp; [".SETUP_DB_TYPE." ".sgsml_parser::sql_version()."] ";
@@ -106,7 +106,7 @@ function show_table($data, $full_texts=false, $vertical=true) {
 	$content .= "<tr>";
 	foreach (array_keys($data[0]) as $value) {
 	  if ($full_texts and strlen($value)>$limit) $value = substr($value,0,$limit)."...";
-	  $content .= "<td nowrap><b>".quote($value)."</b></td>";
+	  $content .= "<td nowrap><b>".q($value)."</b></td>";
 	}
 	$content .= "</tr>";
   }
@@ -115,11 +115,11 @@ function show_table($data, $full_texts=false, $vertical=true) {
 	  foreach ($dataset as $key=>$value) {
 		if ($value=="") continue;
 		$content .= "<tr onmouseover='this.style.backgroundColor=\"#EFEFEF\";' onmouseout='this.style.backgroundColor=\"\";'>";
-		$content .= "<td style='width:25%;' valign='top'><b>".quote($key)."</b></td>";
+		$content .= "<td style='width:25%;' valign='top'><b>".q($key)."</b></td>";
 		$hint = $value;
 		if (is_numeric($value) and strlen($value)==10) $value .= " / ".sys_date("Y-m-d H:i:s a", $value);
 		if (!$full_texts and strlen($value)>$limit) $value = substr($value,0,$limit)."...";
-		$content .= "<td title='".quote($hint)."'>".nl2br(quote($value))."</td></tr>";
+		$content .= "<td title='".q($hint)."'>".nl2br(q($value))."</td></tr>";
 	  }
 	  $content .= "<tr><td colspan='2'><hr></td></tr>";
 	} else {
@@ -127,12 +127,12 @@ function show_table($data, $full_texts=false, $vertical=true) {
 	  foreach ($dataset as $key=>$value) {
 		if ($vertical) {
 		  if ($full_texts and strlen($key)>$limit) $key = substr($key,0,$limit)."...";
-		  $content .= "<td nowrap><b>".quote($key)."</b></td>";
+		  $content .= "<td nowrap><b>".q($key)."</b></td>";
 		}
 		$hint = $value;
 		if (is_numeric($value) and strlen($value)==10) $hint = sys_date("Y-m-d H:i:s a", $value);
 		if (!$full_texts and strlen($value)>$limit) $value = substr($value,0,$limit)."...";
-		$content .= "<td nowrap title='".quote($hint)."'>".quote($value)."</td>";
+		$content .= "<td nowrap title='".q($hint)."'>".q($value)."</td>";
 	  }
 	  $content .= "</tr>";
 	}
