@@ -8,14 +8,14 @@
 
 if (!defined("MAIN_SCRIPT")) exit;
 
-require(sys_trans("core/functions/funcs.php","funcs"));
+require(sys_trans("core/functions/funcs.php"));
 
-function sys_trans($file, $class) {
-  $cache_file = SIMPLE_CACHE."/lang/".basename($class)."_".LANG."_".filemtime($file).".php";
+function sys_trans($file) {
+  $cache_file = SIMPLE_CACHE."/lang/".basename($file)."_".LANG."_".filemtime($file).".php";
   if (!file_exists($cache_file)) {
 	@mkdir(SIMPLE_CACHE."/lang/");
 	file_put_contents($cache_file, preg_replace("!<\?\s!", "<?php ", trans(file_get_contents($file))), LOCK_EX);
-	if (DEBUG and empty($_REQUEST["iframe"]) and ob_get_level()==0) echo "reload lang ".$class;
+	if (DEBUG and empty($_REQUEST["iframe"]) and ob_get_level()==0) echo "reload lang ".$file;
   }
   return $cache_file;
 }
@@ -42,7 +42,7 @@ function tr($str) {
 	  $strings = array_combine($matches[1], $matches[2]);
 	  // TODO append custom lang file?
 	  @mkdir(SIMPLE_CACHE."/lang/");
-	  file_put_contents($cache_file, "<?php \$strings = ".var_export($strings,true).";", LOCK_EX);
+	  file_put_contents($cache_file, "<?php \$strings=".var_export($strings,true).";", LOCK_EX);
 	}
 	require($cache_file);
   }
