@@ -120,6 +120,7 @@ static function cms_templates() {
   return array_combine($files,$files);
 }
 
+// params = [table, fields, where, order, limit, no_permissions?]
 static function dbselect($params,$vars=array(),$ticket=false) {
   $result = array();
   if (count($params)<4) return array();
