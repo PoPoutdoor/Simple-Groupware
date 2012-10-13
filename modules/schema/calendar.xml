@@ -62,6 +62,10 @@
   <field name="attachment" displayname="{t}Attachment{/t}" simple_type="files" simple_file_size="10M" simple_size="10">
 	<notin views="display|freebusy"/>
   </field>
+  <field name="project" displayname="{t}Project{/t}" simple_type="select" simple_size="1">
+    <INDEX/>
+	<data function="dbselect|simple_projects|projectname,projectname||projectname asc|10"/>
+  </field>
   <field name="recurrence" displayname="{t}Recurrence{/t}" simple_type="select" simple_size="1" simple_tab="recurrence">
     <data reverse="true" values="days_##_{t}daily{/t}|weeks_##_{t}weekly{/t}|months_##_{t}monthly{/t}|years_##_{t}yearly{/t}"/>
   </field>
