@@ -6,7 +6,7 @@
  * @license GPLv2
  */
 
-define("MAIN_SCRIPT",basename($_SERVER["PHP_SELF"]));
+define("MAIN_SCRIPT",basename(__FILE__));
 define("NOCONTENT",true);
 error_reporting(E_ALL);
 
