@@ -6,7 +6,7 @@
  * @license GPLv2
  */
 
-define("MAIN_SCRIPT",basename($_SERVER["PHP_SELF"]));
+define("MAIN_SCRIPT",basename(__FILE__));
 define("CORE_VERSION_config","0_800");
 error_reporting(E_ALL);
   
