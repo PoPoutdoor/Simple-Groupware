@@ -137,6 +137,10 @@ function q($str) {
   return htmlspecialchars($str, ENT_QUOTES);
 }
 
+function quote($str) {
+  return htmlspecialchars($str, ENT_QUOTES);
+}
+
 function ______A_S_S_E_T______() {}
 
 function _asset_get_rows() {
