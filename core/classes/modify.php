@@ -866,13 +866,13 @@ static function _getdata($data) {
   return $result;
 }
 
+// TODO add view
 static function linkselect($val,$params,$vars) {
   $result = array();
   $separator = str_replace("\\n", "\n", array_shift($params));
   $vars["value"] = $val;
   $data = select::dbselect($params, self::_getdata($vars));
   if (!is_array($data) or count($data)==0) return $val;
-
   foreach ($data as $key=>$value) $result[] = "[".$params[0]."/".$key."/".$value."]";
   $content = implode($separator, $result);
   if ($val!="") return $val.": ".$content; else return $content;
