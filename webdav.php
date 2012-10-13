@@ -51,7 +51,7 @@ if (in_array($_SERVER["REQUEST_METHOD"], array("LOCK", "UNLOCK"))) {
   webdav_forward("^".$dav_folder_q."/(.+)/([0-9]+)(_[^_]+)?_([0-9]+)__(.+)", "files.php", "folder=/%s/&item=%s&field=%s&subitem=%s&action=".$_SERVER["REQUEST_METHOD"]);
 }
 
-define("MAIN_SCRIPT",basename($_SERVER["PHP_SELF"]));
+define("MAIN_SCRIPT",basename(__FILE__));
 
 define("NOCONTENT",true);
 define("NOSESSION",true);
