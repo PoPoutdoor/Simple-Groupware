@@ -31,14 +31,14 @@ static function get_echo() {
  * @param boolean $totals Output with totals: Array(total=>num of rows, rows=>...)
  * @return array Array with associative Arrays for each asset found
  */
-static function asset_get_rows($folder,$view="display",$fields="*",$order="",$limit="",array $items=array(),$filter="",$apply_filter=false,$totals=false) {
+static function asset_get_rows($folder, $view="display", $fields="*", $order="", $limit="", array $items=array(), $filter="", $apply_filter=false, $totals=false) {
   self::_require_access($folder, "read", $view);
   
-  if (!preg_match("/^[a-z0-9 ,]+\$/i",$order)) $order = "";
-  if (!preg_match("/^[a-z0-9 ,]+\$/i",$fields)) $fields = "*";
-  if (!preg_match("/^[0-9 ,]+\$/i",$limit)) $limit = "20";
+  if (!preg_match("/^[a-z0-9 ,]+\$/i", $order)) $order = "";
+  if (!preg_match("/^[a-z0-9 ,]+\$/i", $fields)) $fields = "*";
+  if (!preg_match("/^[0-9 ,]+\$/i", $limit)) $limit = "20";
 
-  $sgsml = new sgsml($folder,$view,$items,false);
+  $sgsml = new sgsml($folder, $view, $items,false);
   $sgsml->set_filter($filter);
   $rows = $sgsml->get_rows($fields, $order, explode(",", $limit));
   // TODO2 optimize?
@@ -72,10 +72,10 @@ static function asset_get_rows($folder,$view="display",$fields="*",$order="",$li
  * @param array $data Associative Array containing one asset 
  * @return array|int succes: numeric ID, error: array( field_name => array( array( field_displayname, message ), ... ) ) 
  */
-static function asset_insert($folder,$view,array $data) {
+static function asset_insert($folder, $view, array $data) {
   self::_require_access($folder, "write", $view);
-  $sgsml = new sgsml($folder,$view);
-  if ($sgsml->current_view["SCHEMA_MODE"]!="new") exit("{t}Access denied.{/t} ".sprintf("{t}Invalid schema mode '%s'{/t}",$sgsml->current_view["SCHEMA_MODE"]));
+  $sgsml = new sgsml($folder, $view);
+  if ($sgsml->current_view["SCHEMA_MODE"]!="new") exit("{t}Access denied.{/t} ".sprintf("{t}Invalid schema mode '%s'{/t}", $sgsml->current_view["SCHEMA_MODE"]));
   return $sgsml->insert($data);
 }
 
@@ -88,11 +88,11 @@ static function asset_insert($folder,$view,array $data) {
  * @param int $id Numeric ID of the asset
  * @return array|int succes: numeric ID, error: array( field_name => array( array( field_displayname, message ), ... ) ) 
  */
-static function asset_update($folder,$view,array $data,$id) {
+static function asset_update($folder, $view, array $data, $id) {
   self::_require_access($folder, "write", $view);
-  $sgsml = new sgsml($folder,$view,array($id));
-  if ($sgsml->current_view["SCHEMA_MODE"]!="edit") exit("{t}Access denied.{/t} ".sprintf("{t}Invalid schema mode '%s'{/t}",$sgsml->current_view["SCHEMA_MODE"]));
-  return $sgsml->update($data,$id);
+  $sgsml = new sgsml($folder, $view,array($id));
+  if ($sgsml->current_view["SCHEMA_MODE"]!="edit") exit("{t}Access denied.{/t} ".sprintf("{t}Invalid schema mode '%s'{/t}", $sgsml->current_view["SCHEMA_MODE"]));
+  return $sgsml->update($data, $id);
 }
 
 /**
@@ -104,9 +104,9 @@ static function asset_update($folder,$view,array $data,$id) {
  * @param int $id Numeric ID of the asset (optional)
  * @return array valid: array(), invalid: array( field_name => array( array( field_displayname, message ), ... ) ) 
  */
-static function asset_validate($folder,$view,array $data,$id=-1) {
-  $sgsml = new sgsml($folder,$view,array(),false);
-  return $sgsml->validate($data,$id);
+static function asset_validate($folder, $view, array $data, $id=-1) {
+  $sgsml = new sgsml($folder, $view, array(), false);
+  return $sgsml->validate($data, $id);
 }
 
 /**
@@ -118,13 +118,13 @@ static function asset_validate($folder,$view,array $data,$id=-1) {
  * @param string $mode delete, empty (complete folder), purge (no trash), purgeall (complete folder + no trash)
  * @return int Folder ID
  */
-static function asset_delete($folder,$view,$items,$mode) {
+static function asset_delete($folder, $view, $items, $mode) {
   self::_require_access($folder, "write");
   asset::delete_items($folder, $view, $items, $mode);
   return $folder;
 }
 
-static function asset_cutcopy($folder,$view,$items,$operation) {
+static function asset_cutcopy($folder, $view, $items, $operation) {
   if ($operation=="cut") {
     self::_require_access($folder, "write");
   } else { // copy
@@ -216,7 +216,7 @@ static function file_unlock($folder, $id, $field, $subitem) {
  */
 static function upload_file($filename) {
   if (empty($filename) or empty($_SESSION["username"])) exit("{t}Upload failed{/t}");
-  if (strpos($filename,"://")) {
+  if (strpos($filename, "://")) {
     $target = sgsml::getfile_url($filename);
   } else {
     $target = sgsml::getfile_upload($filename);
@@ -235,10 +235,10 @@ static function upload_file($filename) {
  * @param int $since Timestamp to check against
  * @return boolean True = modified, False = not modified
  */
-static function folder_has_changed($folder,$since) {
+static function folder_has_changed($folder, $since) {
   if (!is_numeric($folder)) return false;  
   self::_require_access($folder, "read");
-  $modified = db_select_value("simple_sys_tree","lastmodified","id=@id@",array("id"=>$folder));
+  $modified = db_select_value("simple_sys_tree", "lastmodified", "id=@id@", array("id"=>$folder));
   if (empty($modified) or !is_numeric($modified) or !is_numeric($since) or $modified <= $since) return false;
   return true;
 }
@@ -253,30 +253,30 @@ static function search_data($ticket, $search, $page, $ids=array()) {
   } else if (!empty($params[1])) {
     $where = array();
     foreach (array_unique($params[1]) as $field) $where[] = sql_concat($field)." like @search@";
-    $params[2][] = "(".implode(" or ",$where).")";
+    $params[2][] = "(".implode(" or ", $where).")";
   }
   return call_user_func(array($class, $function), $params, array("search"=>"%".$search."%", "ids"=>$ids, "page"=>$page));
 }
 
 static function chat_load($archive, $folder, $last, $room) {
   self::_require_access($folder, "read");
-  $where = array("roomname=@room@",$_SESSION["permission_sql_read"]);
-  $count = db_select_value("simple_chat","count(*) as count",$where,array("room"=>$room,"folder"=>$folder));
+  $where = array("roomname=@room@", $_SESSION["permission_sql_read"]);
+  $count = db_select_value("simple_chat", "count(*) as count", $where, array("room"=>$room, "folder"=>$folder));
   if (empty($count)) exit("{t}Access denied.{/t}");
 
-  $where = array("room=@room@","id>@last@");
-  $vars = array("room"=>$room,"last"=>$last);
+  $where = array("room=@room@", "id>@last@");
+  $vars = array("room"=>$room, "last"=>$last);
   if (!$archive) {
     $where[] = "created>@created@";
     $vars["created"] = strtotime("today 00:00");
   }
-  return db_select("simple_sys_chat2",array("id","message","createdby","bgcolor"),$where,"created asc","",$vars);
+  return db_select("simple_sys_chat2",array("id", "message", "createdby", "bgcolor"), $where, "created asc", "", $vars);
 }
 
 static function chat_add($folder, $room, $message) {
   self::_require_access($folder, "write");
-  $where = array("roomname=@room@",$_SESSION["permission_sql_write"]);
-  $count = db_select_value("simple_chat","id",$where,array("room"=>$room,"folder"=>$folder));
+  $where = array("roomname=@room@", $_SESSION["permission_sql_write"]);
+  $count = db_select_value("simple_chat", "id", $where, array("room"=>$room, "folder"=>$folder));
   if (empty($count)) exit("{t}Access denied.{/t}");
   
   $id = sql_genID("simple_sys_chat2")*100;
@@ -290,30 +290,30 @@ static function tree_open($id) {
   return array("level"=>$sel_folder["flevel"], "children"=>$children);
 }
 
-static function folder_add_offline($folder,$view,$folder_name) {
-  $offline_folder = db_select_value("simple_sys_tree","id","anchor=@anchor@",array("anchor"=>"offline_".$_SESSION["username"]));
-  if (empty($offline_folder)) exit(sprintf("{t}Item not found.{/t} (%s)","{t}Offline folders{/t}"));
+static function folder_add_offline($folder, $view, $folder_name) {
+  $offline_folder = db_select_value("simple_sys_tree", "id", "anchor=@anchor@", array("anchor"=>"offline_".$_SESSION["username"]));
+  if (empty($offline_folder)) exit(sprintf("{t}Item not found.{/t} (%s)", "{t}Offline folders{/t}"));
 
   // TODO2 parameters for calendar, only future events ?
   $url = "index.php?folder=".rawurlencode($folder)."&view=".$view."&iframe=1&markdate=all&session_remove_request";
 
-  $duplicate = db_select_value("simple_offline","id",array("folder=@folder@","url=@url@"),array("url"=>$url,"folder"=>$offline_folder));
+  $duplicate = db_select_value("simple_offline", "id", array("folder=@folder@", "url=@url@"), array("url"=>$url, "folder"=>$offline_folder));
   if (!empty($duplicate)) return;
 
   $id = sql_genID("simple_offline")*100;
   $data = array("id"=>$id, "url"=>$url, "folder"=>$offline_folder, "bookmarkname"=>$folder_name);
 
-  $error_sql = db_insert("simple_offline",$data);
+  $error_sql = db_insert("simple_offline", $data);
   if ($error_sql=="") {
-    db_update_treesize("simple_offline",$offline_folder);
-    db_search_update("simple_offline",$id,array(),array("url"=>"text", "bookmarkname"=>"text"));
+    db_update_treesize("simple_offline", $offline_folder);
+    db_search_update("simple_offline", $id, array(), array("url"=>"text", "bookmarkname"=>"text"));
     sys_log_stat("new_records",1);
   }
 }
 
 static function folder_options($folder, $create) {
   self::_require_access($folder, "write");
-  $sel_folder = folder_build_selfolder($folder,"");
+  $sel_folder = folder_build_selfolder($folder, "");
 
   $tpl = new template();
   $tpl->schemas = select::modules();
@@ -330,7 +330,7 @@ static function folder_options($folder, $create) {
 
 static function folder_mountpoint($folder) {
   self::_require_access($folder, "write");
-  $sel_folder = folder_build_selfolder($folder,"");
+  $sel_folder = folder_build_selfolder($folder, "");
   
   $tpl = new template();
   $tpl->style = $_SESSION["theme"];
@@ -341,12 +341,12 @@ static function folder_mountpoint($folder) {
 
 static function folder_info($folder) {
   self::_require_access($folder, "read");
-  $sel_folder = folder_build_selfolder($folder,"");
+  $sel_folder = folder_build_selfolder($folder, "");
   
   if (!is_numeric($folder)) {
     $vars = sys_parse_folder($folder);
     $handler = "lib_".$vars["handler"];
-    $values = call_user_func(array($handler,"folder_info"),$vars["mountpoint"],$vars["mfolder"]);
+    $values = call_user_func(array($handler, "folder_info"), $vars["mountpoint"], $vars["mfolder"]);
     $sel_folder = array_merge($sel_folder, $values);
   }
   $info = array("{t}Name{/t}"=>$sel_folder["ftitle"], "{t}Type{/t}"=>ucfirst($sel_folder["ftype"]),
@@ -365,7 +365,7 @@ static function folder_info($folder) {
 static function folder_create($folder, $title, $type, $description, $icon, $first=false) {
   if ($title=="") return "";
 
-  if (!is_numeric($folder) and strpos($folder,"*")) {
+  if (!is_numeric($folder) and strpos($folder, "*")) {
     $folders = folders_from_path($folder);
     if (!is_array($folders) or count($folders)==0) return "";
     foreach ($folders as $folder_item) self::_require_access($folder_item, "write");
@@ -381,12 +381,12 @@ static function folder_create($folder, $title, $type, $description, $icon, $firs
     $handler = "lib_".$url["handler"];
 
     self::require_method("create_folder", $handler);    
-    $title = str_replace(array(".","\\","/"),"",$title);
-    $return = call_user_func(array($handler,"create_folder"),$title,$url["mountpoint"],$url["mfolder"]);
+    $title = str_replace(array(".", "\\", "/"), "", $title);
+    $return = call_user_func(array($handler,"create_folder"), $title, $url["mountpoint"], $url["mfolder"]);
     if ($return=="ok") return $folder.$title."/";
       else if ($return!="") exit($return);
   } else {
-    $new_folder = folders::create($title,$type,$description,$folder,$first,array("noduplicate"=>true,"icon"=>$icon));
+    $new_folder = folders::create($title, $type, $description, $folder, $first, array("noduplicate"=>true, "icon"=>$icon));
     if ($new_folder=="") exit("{t}Folder already exists.{/t}");
     if ($folder != $new_folder) sys_log_stat("new_folders",1);
     return $new_folder;
@@ -402,12 +402,12 @@ static function folder_rename($folder, $title, $type, $description, $icon, $noti
     $handler = "lib_".$url["handler"];
 
     self::require_method("rename_folder", $handler);
-    $title = str_replace(array(".","\\","/"),"",$title);
-    $return = call_user_func(array($handler,"rename_folder"),$title,$url["mountpoint"],$url["mfolder"]);
+    $title = str_replace(array(".", "\\", "/"), "", $title);
+    $return = call_user_func(array($handler, "rename_folder"), $title, $url["mountpoint"], $url["mfolder"]);
     if ($return=="ok") return dirname($folder)."/".$title."/";
       else if ($return!="") exit($return);
   } else {
-    $row = db_select_first("simple_sys_tree",array("notification","ftype"),"id=@id@","",array("id"=>$folder));
+    $row = db_select_first("simple_sys_tree",array("notification", "ftype"), "id=@id@", "", array("id"=>$folder));
     if (empty($row["ftype"])) exit("{t}Folder not found.{/t}");
     if ($notification!="" and ($notification!=$row["notification"] or $type!=$row["ftype"])) {
       $schema = db_get_schema(sys_find_module($type));
@@ -415,7 +415,7 @@ static function folder_rename($folder, $title, $type, $description, $icon, $noti
         self::_require_access($folder, "admin");
       }
     }
-    $result = folders::rename($folder,$title,$type,$description,$icon,trim($notification));
+    $result = folders::rename($folder, $title, $type, $description, $icon,trim($notification));
     if ($result=="") exit("{t}Folder already exists.{/t}");
     return $folder;
   }
@@ -425,7 +425,7 @@ static function folder_rename($folder, $title, $type, $description, $icon, $noti
 static function folder_set_mountpoint($folder, $mountpoint) {
   if (!is_numeric($folder)) return "";
   self::_require_access($folder, "write");
-  if (MOUNTPOINT_REQUIRE_ADMIN or preg_match("/%username%|%password%/",$mountpoint)) self::_require_access($folder, "admin");
+  if (MOUNTPOINT_REQUIRE_ADMIN or preg_match("/%username%|%password%/", $mountpoint)) self::_require_access($folder, "admin");
   $mps = select::mountpoints();
   $url = sys_parse_folder($mountpoint);
   if (empty($url["handler"])) {
@@ -441,14 +441,14 @@ static function folder_applyrights($folder) {
   if (!is_numeric($folder)) return "";
   self::_require_access($folder, "admin");
 
-  $rights = array("rread_users","rread_groups","rwrite_users","rwrite_groups",
-              "radmin_users","radmin_groups","rexception_users","rexception_groups");
+  $rights = array("rread_users", "rread_groups", "rwrite_users", "rwrite_groups",
+              "radmin_users", "radmin_groups", "rexception_users", "rexception_groups");
   $data = array();
-  $row = db_select_first("simple_sys_tree",array_merge(array("id","lft","rgt"),$rights),"id=@id@","",array("id"=>$folder));
+  $row = db_select_first("simple_sys_tree",array_merge(array("id", "lft", "rgt"), $rights), "id=@id@", "", array("id"=>$folder));
   if (!empty($row["lft"])) {
     foreach ($rights as $right) $data[$right] = $row[$right];
-    $permission = str_replace("@right@","admin",$_SESSION["permission_sql"]);
-    db_update("simple_sys_tree",$data,array("(lft between @left@+1 and @right@-1)",$permission),array("left"=>$row["lft"],"right"=>$row["rgt"]));
+    $permission = str_replace("@right@", "admin", $_SESSION["permission_sql"]);
+    db_update("simple_sys_tree", $data, array("(lft between @left@+1 and @right@-1)", $permission), array("left"=>$row["lft"], "right"=>$row["rgt"]));
   }
   return count($data)>0;
 }
@@ -461,7 +461,7 @@ static function folder_delete($folder) {
     $handler = "lib_".$url["handler"];
     
     self::require_method("delete_folder", $handler);
-    $return = call_user_func(array($handler,"delete_folder"),$url["mountpoint"],$url["mfolder"]);
+    $return = call_user_func(array($handler, "delete_folder"), $url["mountpoint"], $url["mfolder"]);
     if ($return=="ok") return dirname($folder)."/";
       else if ($return!="") exit($return);
   } else {
@@ -473,14 +473,14 @@ static function folder_delete($folder) {
 static function folder_moveup($folder) {
   if (!is_numeric($folder)) return $folder;
   self::_require_access($folder, "write");
-  folders::moveupdown("up",$folder);
+  folders::moveupdown("up", $folder);
   return $folder;
 }
 
 static function folder_movedown($folder) {
   if (!is_numeric($folder)) return $folder;
   self::_require_access($folder, "write");
-  folders::moveupdown("down",$folder);
+  folders::moveupdown("down", $folder);
   return $folder;
 }
 
@@ -498,7 +498,7 @@ static function folder_copy($folder) {
 
 static function folder_paste($folder) {
   if (empty($_SESSION["ccp_folder"])) exit("{t}Item not found.{/t}");
-  $source = implode("",$_SESSION["ccp_folder"]);
+  $source = implode("", $_SESSION["ccp_folder"]);
   self::_require_access($source, "write");
   self::_require_access($folder, "write");
   if (isset($_SESSION["ccp_folder"]["cut"])) {
@@ -556,19 +556,19 @@ static function folder_ccp($source, $target, $operation) {
   return $source;
 }
 
-static function tree_set_folders($folder,$folders) {
+static function tree_set_folders($folder, $folders) {
   if (!is_numeric($folder)) return "";
   if (!is_array($folders) or count($folders)==0) $folders = array();
   self::_require_access($folder, "write");
-  $folders = "|".implode("|",array_merge(array($folder),$folders))."|";
+  $folders = "|".implode("|",array_merge(array($folder), $folders))."|";
   db_update("simple_sys_tree",array("folders"=>$folders),array("id=@id@"),array("id"=>$folder));
   return $folder;
 }
 
-static function folder_get_category($type,$folder,$folders) {
-  $where = array("ftype=@type@","id!=@id@",$_SESSION["permission_sql_read"]);
-  $vars = array("type"=>$type,"id"=>$folder);
-  $rows = db_select("simple_sys_tree","id",$where,"lft asc","200",$vars);
+static function folder_get_category($type, $folder, $folders) {
+  $where = array("ftype=@type@", "id!=@id@", $_SESSION["permission_sql_read"]);
+  $vars = array("type"=>$type, "id"=>$folder);
+  $rows = db_select("simple_sys_tree", "id", $where, "lft asc", "200", $vars);
   if (is_array($rows) and count($rows)>0) {
     foreach ($rows as $key=>$row) {
       $rows[$key]["path"] = modify::getpath($row["id"]);
@@ -591,16 +591,16 @@ static function tree_close($folder) {
   self::session_save();
 }
 
-static function require_method($func,$handler="ajax") {
+static function require_method($func, $handler="ajax") {
   if (!method_exists($handler, $func)) {
-    exit(sprintf("{t}Function does not exist: %s{/t}","ajax::".$func));
+    exit(sprintf("{t}Function does not exist: %s{/t}", "ajax::".$func));
   }
 }
 
 private static function _tree_open_session($item) {
   if (is_numeric($item)) {
-    $where = array("id=@id@",$_SESSION["permission_sql_read"]);
-    $item_arr = db_select_first("simple_sys_tree",array("id","lft","rgt"),$where,"lft asc",array("id"=>$item));
+    $where = array("id=@id@", $_SESSION["permission_sql_read"]);
+    $item_arr = db_select_first("simple_sys_tree",array("id", "lft", "rgt"), $where, "lft asc", array("id"=>$item));
   } else $item_arr = array("id"=>$item);
   if (empty($item_arr["id"])) return false;
 
@@ -609,7 +609,7 @@ private static function _tree_open_session($item) {
   if (is_array($parents) and count($parents)>0) {
     foreach ($parents as $parent) {
       $id = $parent["id"];
-      if (!isset($_SESSION["folder_states"][$id]) or !in_array($item,$_SESSION["folder_states"][$id])) {
+      if (!isset($_SESSION["folder_states"][$id]) or !in_array($item, $_SESSION["folder_states"][$id])) {
         $_SESSION["folder_states"][$id][] = $item;
   } } }
   self::session_save();
@@ -623,7 +623,7 @@ static function session_save() {
     apc_store("sess".session_id(), session_encode(), LOGIN_TIMEOUT);
   } else {
     $data = array("username"=>$_SESSION["username"], "data"=>rawurlencode(session_encode()));
-    db_update("simple_sys_session",$data,array("id=@id@"),array("id"=>session_id()));
+    db_update("simple_sys_session", $data,array("id=@id@"),array("id"=>session_id()));
   }
   $saved = true;
 }
@@ -632,11 +632,11 @@ protected static function _require_access(&$folder, $right="read", $view="") {
   // /Workspace/ => 101
   $folder = folder_from_path($folder);
 
-  if (!db_get_right($folder,$right,$view)) {
+  if (!db_get_right($folder, $right, $view)) {
     if ($right == "read") $right = "{t}read access{/t}";
     if ($right == "write") $right = "{t}write access{/t}";
     if ($right == "admin") $right = "{t}admin access{/t}";
-    exit("{t}Access denied.{/t} ".sprintf("{t}missing right: %s{/t}",$right." (".$folder.")"));
+    exit("{t}Access denied.{/t} ".sprintf("{t}missing right: %s{/t}", $right." (".$folder.")"));
   }
 }
 }
