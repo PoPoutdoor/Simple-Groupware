@@ -190,6 +190,7 @@ function keys(ev) {
 
   if (ev.keyCode=="38" || ev.keyCode=="40" || ev.keyCode=="33" || ev.keyCode=="34") {
     var objs = getObjs(".drop_tree");
+	var func_timer = function(){ locate_folder(escape(attr(keys_hl, "rel"))); };
     for (var i=0; i<objs.length; i++) {
       var find = keys_hl ? attr(keys_hl, "rel") : tfolder;
       if (attr(objs[i], "rel")!=find) continue;
@@ -203,7 +204,7 @@ function keys(ev) {
       if (!keys_hl) return;
       css(keys_hl,"backgroundColor", css_conf.bg_red_over);
       auto_scroll_tree(keys_hl);
-      keys_timer = setTimeout(function(){ locate_folder(escape(attr(keys_hl, "rel"))); }, 600);
+      keys_timer = setTimeout(func_timer, 600);
       break;
 } } }
 
