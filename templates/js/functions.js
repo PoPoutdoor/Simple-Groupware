@@ -299,7 +299,7 @@ function auto_scroll_tree(obj) {
   var pos = findPosY(obj) - findPosY(tree_def) - 20;
   if (pos < tree_def.scrollTop) tree_def.scrollTop = pos;
 
-  var pos = findPosY(obj) - return_height() + 40;
+  pos = findPosY(obj) - return_height() + 40;
   if (pos > tree_def.scrollTop) tree_def.scrollTop = pos;
   save_cookie();  
 }
@@ -1165,7 +1165,7 @@ function mountpoint_build() {
   var path = getObj("mount_path").value;
 
   var re = /^(imap|fs|pmwiki|ldap|cifs|gdocs)/;
-  if (m = re.exec(proto) && path!=="" && path.charAt(path.length-1)!="/") path += "/";
+  if (re.exec(proto) && path!=="" && path.charAt(path.length-1)!="/") path += "/";
   var options = _mountpoint_escape(getObj("mount_options").value);
   var vals = user+(pass?":"+pass:":")+(port?":"+port:":")+(enc?":"+enc:":")+(options?":"+options:":")+"@";
   if (proto.length<2 || (!host && !path)) {

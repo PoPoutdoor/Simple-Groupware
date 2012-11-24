@@ -79,6 +79,11 @@ function handle_upload(item_name, max_file_size, max_file_count, files, input_id
     getObj(item_name+"_div3").appendChild(elem);
     if (input_id!=="") set_val(input_id, "");
   };
+  var progress = function(event) {
+    if (!event.lengthComputable) return;
+    var percentage = Math.round((event.loaded * 100) / event.total);
+    set_html(item_name+"_progress", (percentage!=100) ? "<br>{t}Uploading{/t}: "+file.name+": "+percentage+"%" : "");
+  };
   for (var i = 0; i < files.length; i++) {
     var file = files[i];
     max_file_size = max_file_size.replace("M", "000000");
@@ -89,11 +94,7 @@ function handle_upload(item_name, max_file_size, max_file_count, files, input_id
     if (file.url) {
       ajax("upload_file", [file.name], callback);
     } else {
-      ajax_binary("upload_file", file, [file.name], callback, function(event) {
-        if (!event.lengthComputable) return;
-        var percentage = Math.round((event.loaded * 100) / event.total);
-        set_html(item_name+"_progress", (percentage!=100) ? "<br>{t}Uploading{/t}: "+file.name+": "+percentage+"%" : "");
-      });
+      ajax_binary("upload_file", file, [file.name], callback, progress);
     }
   }
   return false;
