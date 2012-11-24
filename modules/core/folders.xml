@@ -80,8 +80,6 @@
     </folder>
     <folder name="{t}FAQ{/t}" type="faq">
     </folder>
-    <folder name="{t}Chat{/t}" type="chat">
-    </folder>
     <folder name="{t}Forum{/t}" type="forum">
     </folder>
     <folder name="{t}Bookmarks{/t}" type="bookmarks">

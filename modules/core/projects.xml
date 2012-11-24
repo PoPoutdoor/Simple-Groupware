@@ -38,8 +38,6 @@ data="modules/core/projects_portal.xml" default_values="project=@projectname@">
   </folder>
   <folder name="{t}Wiki{/t}" type="cms">
   </folder>
-  <folder name="{t}Chat{/t}" type="chat">
-  </folder>
   <folder name="{t}Forum{/t}" type="forum">
   </folder>
   <folder name="{t}Passwords{/t}" type="passwords">

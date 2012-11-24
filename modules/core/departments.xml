@@ -40,8 +40,6 @@ data="modules/core/departments_portal.xml" default_values="department=@departmen
   </folder>
   <folder name="{t}Wiki{/t}" type="cms">
   </folder>
-  <folder name="{t}Chat{/t}" type="chat">
-  </folder>
   <folder name="{t}Forum{/t}" type="forum">
   </folder>
   <folder name="{t}Photo gallery{/t}" type="gallery">
