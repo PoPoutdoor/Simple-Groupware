@@ -9,7 +9,7 @@ before_script:
 
 script:
   - phpunit --coverage-text tests/*.php
-  - jshint templates/js/*.js | grep -v "eval"
+  - jshint templates/js/*.js | grep -Ev "eval|exception parameter"
 
 notifications:
   email:
