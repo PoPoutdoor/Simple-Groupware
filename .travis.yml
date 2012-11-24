@@ -5,9 +5,11 @@ php:
 before_script:
   - pear channel-discover pear.phpunit.de
   - phpenv rehash
+  - npm install -q -g jshint >/dev/null
 
 script:
   - phpunit --coverage-text tests/*.php
+  - jshint templates/js/*.js
 
 notifications:
   email:
