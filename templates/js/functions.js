@@ -238,20 +238,22 @@ function start() {
     objs[i].onmouseout = func_out;
   }
   objs = getObjs(".mdown");
+  var func_dbl = function(){
+    locate("index.php?folder="+escape(tfolder)+"&view="+dblclick+"&item[]="+attr(this,"rel"));
+  };
+  var func_down = function(event){
+    if (is_nested_target(event, this)) return;
+    var id = attr(this,"rel");
+    show2("view_buttons");
+    var obj = getObj("check_"+id);
+    if (obj) obj.checked = !obj.checked;
+    if (obj && obj.checked) color = css_conf.bg_red; else color = "";
+    css(".asset_"+id,"backgroundColor",color);
+  };
   for (var i=0; i<objs.length; i++) {
     if (!attr(objs[i],"rel")) continue;
-    objs[i].onmousedown = function(event){
-      if (is_nested_target(event, this)) return;
-      var id = attr(this,"rel");
-      show2("view_buttons");
-      var obj = getObj("check_"+id);
-      if (obj) obj.checked = !obj.checked;
-      if (obj && obj.checked) color = css_conf.bg_red; else color = "";
-      css(".asset_"+id,"backgroundColor",color);
-    };
-    if (dblclick && !iframe) objs[i].ondblclick = function(){
-      locate("index.php?folder="+escape(tfolder)+"&view="+dblclick+"&item[]="+attr(this,"rel"));
-    };
+    objs[i].onmousedown = func_down;
+    if (dblclick && !iframe) objs[i].ondblclick = func_dbl;
   }
   if (!preview && !iframe) {
     objs = getObjs(".hide_fields");
@@ -273,7 +275,7 @@ function start() {
       var item = attr(this,"rel");
       if (params.items.join(" ").indexOf(item)==-1) params.items.push(item);
       drag_handler(event, params, params.items.join(", "));
-    }
+    };
     objs[i].onmousedown = cancel;
   }
   document.onkeydown=keys;
@@ -1200,7 +1202,7 @@ function mountpoint_parse(mountpoint) {
     if ((m = re.exec(mountpoint))) {
       getObj("mount_proto").value = m[1];
       getObj("mount_path").value = m[2];
-        mountpoint_show(m[1]);
+      mountpoint_show(m[1]);
 } } }
 
 function mountpoint_show(proto) {
@@ -1568,7 +1570,7 @@ function drawmenu() {
       passwords:"{t}Password{/t}", bookmarks:"{t}Bookmark{/t}", notes:"{t}Note{/t}",
       files:"{t}File{/t}", gallery:"{t}Photo{/t}", spreadsheets:"{t}Spreadsheet{/t}",
       graphviz:"{t}Diagram{/t}", htmldocs:"{t}HTML document{/t}", cms:"{t}Web page{/t}"
-    }
+    };
     for (var type in quick_create) {
       if (sys.disabled_modules[type]) continue;
       var icon = "";
@@ -1656,7 +1658,7 @@ function drawmenu() {
       core:"core", core_tree_icons:"core tree icons",    contrast:"contrast", water:"water", lake:"lake",
       beach:"beach", paradise:"paradise", earth:"earth", sunset:"sunset", nature:"nature", desert:"desert",
       blackwhite:"black / white", rtl:"right-to-left"
-    }
+    };
     for (var style in styles) {
       var checked = "";
       if (sys_style==style) checked = "&gt; ";

@@ -165,7 +165,7 @@ function form_restore_values(prefix, data) {
     form_set_values(prefix, form_values[prefix]);
   }
   var values = form_get_values(prefix);
-  for (key in values) {
+  for (var key in values) {
     if (typeof(data[key])=="undefined") delete(values[key]);
   }
   form_values[prefix] = values;
@@ -178,7 +178,7 @@ function populate(prefix, fields, data) {
     if (!getObj(selectbox)) selectbox = prefix+fields[i];
     var value = val(selectbox);
     getObj(selectbox).options.length = 0;
-    for (key in data) insert_into_selectbox(selectbox, data[key], key, 0);
+    for (var key in data) insert_into_selectbox(selectbox, data[key], key, 0);
     set_val(selectbox, value);
     css(selectbox, "border", css_conf.border_red, 1000);
   }
