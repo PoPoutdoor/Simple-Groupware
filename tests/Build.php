@@ -49,7 +49,7 @@ function testPhpAntiPatterns($dir=".") {
   foreach (scandir($dir) as $file) {
     if (in_array($file, $exclude_files)) continue;
     if (is_dir($dir.$file)) {
-      $this->testPhp($dir.$file);
+      $this->testPhpAntiPatterns($dir.$file);
       continue;
     }
     if (!strpos($file, ".php")) continue;
