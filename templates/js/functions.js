@@ -162,13 +162,13 @@ function drop_tree(event) {
   if (params=="") return;
   params = JSON.parse(params);
 
-  var type = params["type"];
+  var type = params.type;
   if (type=="asset") {
     if (!rights.write_folder) mode = "copy";
-    ajax("asset_ccp",[params["folder"], params["view"], params["items"], attr(this, "rel"), mode], locate_folder);
+    ajax("asset_ccp",[params.folder, params.view, params.items, attr(this, "rel"), mode], locate_folder);
   }
   if (type=="folder" && confirm("{t}Really apply the changes ?{/t}")) {
-    ajax("folder_ccp",[params["items"], attr(this, "rel"), mode], locate_folder);
+    ajax("folder_ccp",[params.items, attr(this, "rel"), mode], locate_folder);
   }
 }
 

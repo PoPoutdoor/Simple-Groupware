@@ -254,7 +254,7 @@ function search_data(id, page) {
 
   ajax("search_data", [val(id + "_ticket"), value, page], function(data) {
     if (page==1) hide(id + "_prev"); else show(id + "_prev");
-    if (data["_overload_"]) show(id + "_next"); else hide(id + "_next");
+    if (data._overload_) show(id + "_next"); else hide(id + "_next");
     if (value!="") show(id + "_x"); else hide(id + "_x");
     for (key in data) if (key!="_overload_") insert_into_selectbox(selectbox, data[key], key, 0);
   });
