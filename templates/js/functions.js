@@ -80,19 +80,19 @@ function hide_layout() {
     getObj("main").onmouseover = function(event) {
       if (is_nested_target(event, this)) return;
       top_menu(false);
-    }
+    };
     getObj("main").onmouseout = function(event) {
       if (!event) event = window.event;
       if (is_nested_target(event, this)) return;
       if (event.clientY < 10 && event.clientX < 600) top_menu(true);
-    }
+    };
   }
   if (sys.tree_autohide) {
     if (document.location.href.indexOf("&folder=")==-1) tree(false);
     getObj("content").onmouseover = function(event) {
       if (is_nested_target(event, this)) return;
       tree(false);
-    }
+    };
     getObj("content").onmouseout = function(event) {
       if (!event) event = window.event;
       if (is_nested_target(event, this)) return;
@@ -265,10 +265,10 @@ function start() {
     objs[i].draggable = "true";
     objs[i].ondragstart = function(event){
       var params = {"folder":tfolder, "view":tview, "type":"asset"};
-      params["items"] = assets_get_selected(true);
+      params.items = assets_get_selected(true);
       var item = attr(this,"rel");
-      if (params["items"].join(" ").indexOf(item)==-1) params["items"].push(item);
-      drag_handler(event, params, params["items"].join(", "));
+      if (params.items.join(" ").indexOf(item)==-1) params.items.push(item);
+      drag_handler(event, params, params.items.join(", "));
     }
     objs[i].onmousedown = cancel;
   }

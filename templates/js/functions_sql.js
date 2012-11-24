@@ -15,17 +15,17 @@ function start() {
   obj("codebox").onkeyup = obj("codebox").onclick = function() {
     set_sel_start(this);
     return keyup(this,obj("selectbox"),val("database"));
-  }
+  };
   obj("codebox").onkeypress = function(event) {
     if (typeof(event)=="undefined") event = window.event;
     if (obj("selectbox").selectedIndex != -1 && event.keyCode==13 && !event.shiftKey) {
       return false;
     }
-  }
+  };
   obj("codebox").onkeydown = function(event) {
     set_sel_start(this);
     return keydown(event,this,obj("selectbox"));
-  }
+  };
 }
 
 function set_sel_start(obj) {
@@ -66,7 +66,8 @@ function call(func, params, callback, params_callback) {
     } catch (e) {
       if (result.length==0) return;
           alert("{t}Error{/t} : "+e+" "+result+" "+func);
-  } }
+    }
+  };
   xmlhttp.send(null);
 }
 
@@ -225,7 +226,7 @@ function array_size(arr) {
 }
 String.prototype.trim = function () {
   return this.replace(/\s*$/,"").replace(/^\s*/,"");
-}
+};
 String.prototype.lastIndexOfArr = function (arr) {
   var pos = -1;
   for (var i=0; i<arr.length; i++) {
@@ -233,7 +234,7 @@ String.prototype.lastIndexOfArr = function (arr) {
     if (pos2 > pos) pos = pos2;
   }
   return pos;
-}
+};
 String.prototype.firstIndexOfArr = function (arr,offset) {
   var pos = -1;
   for (var i=0; i<arr.length; i++) {
@@ -241,7 +242,7 @@ String.prototype.firstIndexOfArr = function (arr,offset) {
     if (pos2 != -1 && (pos == -1 || pos2 < pos)) pos = pos2;
   }
   return pos;
-}
+};
 
 function resizeit() {
   var output = obj("output");
