@@ -68,11 +68,9 @@ function testPhp($dir=".") {
     if (in_array($file, array(".", ".."))) continue;
     if (is_dir($dir.$file)) {
       $this->testPhp($dir.$file);
-      continue;
-    }
-    if (!strpos($file, ".php")) continue;
-    $this->assertEquals(exec("php -l ".escapeshellarg($dir.$file)), "");
-  }
-}
+    } else {
+      if (!strpos($file, ".php")) continue;
+      $this->assertNotEquals(shell_exec("php -l ".escapeshellarg($dir.$file)), null);
+} } }
 
 }
