@@ -56,7 +56,7 @@ class build {
 	private function validateModuleIcons() {
 		$exceptions = array("nodb_calendar_contacts.xml", "nodb_calendar_departments.xml", "nodb_calendar_users.xml",
 			"nodb_rights.xml", "nodb_index.xml", "nodb_ldif_contacts.xml", "nodb_pmwiki.xml", "nodb_rights_edit.xml",
-			"nodb_schema.xml", "nodb_structure.xml", "search.xml", "chat2.xml");
+			"nodb_schema.xml", "nodb_structure.xml", "search.xml");
 		foreach (scandir("../modules/schema/") as $module) {
 			if (!strpos($module, ".xml") or $module[0]=="!") continue;
 			if (!file_exists("../ext/modules/".str_replace(".xml", ".png", $module))) throw new Exception("module icon not found for: ".$module);
