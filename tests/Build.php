@@ -23,11 +23,13 @@ function testModuleIcons() {
 }
 
 function testTranslation() {
+  $missing = array();
   $data = file_get_contents("lang/de.lang");
   foreach (file("lang/master.lang") as $line) {
     if (strpos($line, "** ")!==0) continue;
-    $this->assertTrue(strpos($data, $line)!==false, $line);
+    if (strpos($data, $line)===false) $missing[] = $line;
   }
+  $this->assertEmpty($missing);
 }
 
 function testPhpAntiPatterns($dir=".") {
