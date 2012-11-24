@@ -100,7 +100,7 @@ class build {
 		if (!is_dir("SimpleGroupware")) throw new Exception("Git directory not found: ".print_r($output, true));
 		return $dir;
 	}
-	
+
 	private function html2pdf($url, $pdf) {
 		$ps = tempnam("/tmp", "ps").".ps";
 		$output = array();
