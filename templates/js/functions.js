@@ -318,18 +318,22 @@ function bind_drop_files() {
 
 function bind_drop_tree() {
   var objs = getObjs(".drop_tree");
+  var func_enter = function(){ auto_scroll_tree(this); css(this,"backgroundColor", css_conf.bg_red_over); return false; };
+  var func_over = function(){ return false; };
+  var func_leave = function(event){
+    if (is_nested_target(event, this)) return;
+    css(this,"backgroundColor", "");
+  };
+  var func_start = function(event){
+    drag_handler(event, {"type":"folder", "items":attr(this,"rel")}, this.innerHTML.replace(/<img.*?>/g,""));
+  };
   for (var i=0; i<objs.length; i++) {
     objs[i].draggable = "true";
-    objs[i].ondragenter = function(){ auto_scroll_tree(this); css(this,"backgroundColor", css_conf.bg_red_over); return false; };
-    objs[i].ondragleave = function(event){
-      if (is_nested_target(event, this)) return;
-      css(this,"backgroundColor", "");
-    };
-    objs[i].ondragover = function(){ return false; };
+    objs[i].ondragenter = func_enter;
+    objs[i].ondragleave = func_leave;
+    objs[i].ondragover = func_over;
     objs[i].ondrop = drop_tree;
-    objs[i].ondragstart = function(event){
-      drag_handler(event, {"type":"folder", "items":attr(this,"rel")}, this.innerHTML.replace(/<img.*?>/g,""));
-    };
+    objs[i].ondragstart = func_start;
   }
 }
 

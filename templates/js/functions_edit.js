@@ -68,6 +68,17 @@ function handle_upload(item_name, max_file_size, max_file_count, files, input_id
     sys_alert("{t}Upload failed{/t}: {t}maximum number of files exceeded.{/t} ("+max_file_count+")");
     return false;
   }
+  var callback = function(result) {
+    var id = get_uid();
+    var elem = document.createElement('div');
+    elem.innerHTML+='<input type="hidden" name="'+item_name+'[]" style="width:45%;" value="'+result.tmp_path+'">';
+    elem.innerHTML+='<input type="input" readonly="true" style="width:38%;" value=" '+result.basename+' ('+result.filesize+')">';
+    elem.innerHTML+='&nbsp;<a href="#" onclick="set_html(\''+id+'\',\'\'); return false;"><img src="ext/icons/empty.gif" title="{t}Delete{/t}"></a><br>';
+    elem.style.paddingTop="2px";
+    elem.id=id;
+    getObj(item_name+"_div3").appendChild(elem);
+    if (input_id!=="") set_val(input_id, "");
+  };
   for (var i = 0; i < files.length; i++) {
     var file = files[i];
     max_file_size = max_file_size.replace("M", "000000");
@@ -75,17 +86,6 @@ function handle_upload(item_name, max_file_size, max_file_count, files, input_id
       sys_alert("{t}Upload failed{/t}: {t}file is too big. Please upload a smaller one.{/t}");
       return false;
     }
-    var callback = function(result) {
-      var id = get_uid();
-      var elem = document.createElement('div');
-      elem.innerHTML+='<input type="hidden" name="'+item_name+'[]" style="width:45%;" value="'+result.tmp_path+'">';
-      elem.innerHTML+='<input type="input" readonly="true" style="width:38%;" value=" '+result.basename+' ('+result.filesize+')">';
-      elem.innerHTML+='&nbsp;<a href="#" onclick="set_html(\''+id+'\',\'\'); return false;"><img src="ext/icons/empty.gif" title="{t}Delete{/t}"></a><br>';
-      elem.style.paddingTop="2px";
-      elem.id=id;
-      getObj(item_name+"_div3").appendChild(elem);
-      if (input_id!=="") set_val(input_id, "");
-    };
     if (file.url) {
       ajax("upload_file", [file.name], callback);
     } else {
@@ -312,7 +312,7 @@ function additem(id,right) {
     }
     // right: select
     if (right.options===null) return;
-    options_right = right.options;
+    var options_right = right.options;
     for (var i=0; i<options_right.length; i++) {
       if (!options_right[i].selected) continue;
       options_right[i].selected = false;
