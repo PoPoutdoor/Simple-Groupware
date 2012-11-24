@@ -442,7 +442,7 @@ static function folder_applyrights($folder) {
   self::_require_access($folder, "admin");
 
   $rights = array("rread_users", "rread_groups", "rwrite_users", "rwrite_groups",
-              "radmin_users", "radmin_groups", "rexception_users", "rexception_groups");
+                  "radmin_users", "radmin_groups", "rexception_users", "rexception_groups");
   $data = array();
   $row = db_select_first("simple_sys_tree",array_merge(array("id", "lft", "rgt"), $rights), "id=@id@", "", array("id"=>$folder));
   if (!empty($row["lft"])) {
