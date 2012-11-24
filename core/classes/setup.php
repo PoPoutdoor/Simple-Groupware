@@ -56,7 +56,7 @@ static function save_config($vars) {
 }
 
 static function validate_system() {
-  $extensions = array("xml", "gd", "pcre", "session", "zlib", "SimpleXML");
+  $extensions = array("xml", "gd", "pcre", "session", "zlib", "SimpleXML", "json");
   $db_extensions = array("mysql"=>array("MySQL", "5.00"), "pgsql"=>array("PostgreSQL", "8.36"), "pdo_sqlite"=>array("SQLite", "3.00"));
 
   $on = array("1", "on", "On");
