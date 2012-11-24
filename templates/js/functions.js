@@ -97,7 +97,9 @@ function hide_layout() {
       if (!event) event = window.event;
       if (is_nested_target(event, this)) return;
       if (event.clientX < 10 && event.clientX!=-1) tree(true);
-} } }
+    };
+  }
+}
 
 function is_nested_target(event, obj) {
   if (!event) event = window.event;

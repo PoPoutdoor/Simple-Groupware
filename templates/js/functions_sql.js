@@ -39,8 +39,8 @@ function set_sel_start(obj) {
 }
 
 function cache_get(func, cache_id) {
-  if (cache[func]==null) cache[func] = [];
-  if (cache[func][cache_id]!=null) {
+  if (cache[func]===null) cache[func] = [];
+  if (cache[func][cache_id]!==null) {
     return cache[func][cache_id];
   }
   return false;
@@ -58,13 +58,13 @@ function call(func, params, callback, params_callback) {
     if (xmlhttp.readyState != 4 || token != token_id) return; // request outdated
     var result = xmlhttp.responseText;
     try {
-      if (xmlhttp.status == 200 && result != "") {
+      if (xmlhttp.status == 200 && result !== "") {
         result = JSON.parse(result);
         cache[func][cache_id] = result;
         callback(result, params_callback);
         } else alert("{t}Error{/t}: "+func+" "+xmlhttp.status+" "+xmlhttp.statusText+" "+result);
     } catch (e) {
-      if (result.length==0) return;
+      if (result.length===0) return;
           alert("{t}Error{/t} : "+e+" "+result+" "+func);
     }
   };
@@ -76,7 +76,7 @@ function get_last_keyword(obj) {
   var tokens = obj.value.substr(0,obj.selectionStart).split(" ");
   for (var i=tokens.length-1; i>=0; i--) {
     if (tokens[i].substr(-1)==";") return "";
-    if (keywords[tokens[i]] != null) return tokens[i];
+    if (keywords[tokens[i]] !== null) return tokens[i];
   }
   return "";
 }
@@ -89,7 +89,7 @@ function get_last_token(obj) {
 }
 
 function select_show(options, params) {
-  if (options.length==0) return;
+  if (options.length===0) return;
   var box = params[0];
   for (var i=0; i<options.length; i++) {
     box.options[box.options.length] = new Option(options[i][1],options[i][0]);
@@ -106,7 +106,7 @@ function select_insert(input,box) {
   var token = get_last_token(input);
   if (get_last_keyword(input) != token) {
     pos = text.indexOf(token);
-    if (pos == 0) text = text.substr(token.length);
+    if (pos === 0) text = text.substr(token.length);
   }
   input.focus();
   if (!input.selectionEnd) {
@@ -126,8 +126,8 @@ function find_tables(obj,database) {
     var items = m[1].split(",");
     for (var i=0; i<items.length; i++) {
       items[i] = items[i].trim().split(" ");
-      if (items[i][1]==null) items[i][1] = items[i][0];
-      if (items[i][0].indexOf(".")==-1 && database!="") items[i][0] = database+"."+items[i][0];
+      if (items[i][1]===null) items[i][1] = items[i][0];
+      if (items[i][0].indexOf(".")==-1 && database!=="") items[i][0] = database+"."+items[i][0];
       tables[items[i][1]] = items[i][0];
     }
   }
@@ -170,20 +170,20 @@ function keyup(obj,box,database) {
   if (obj.value != last_value) token_id++;
 
   if (token.indexOf("'")==-1 && last_token != keyword + token) {
-    if (token=="") select_hide(box);
+    if (token==="") select_hide(box);
     if (keyword=="select" || keyword=="where" || keyword=="order" || keyword=="set") {
       var tables = find_tables(obj,database);
       var pos = token.indexOf(".");
       if (pos != -1) {
         var table = prefix.substr(0,pos);
         select_hide(box);
-        if (tables!=null && tables[table]!=null) {
+        if (tables!==null && tables[table]!==null) {
           prefix = tables[table] + prefix.substr(pos);
           call("get_columns",[prefix,table+"."],select_show,[box]);
         } else {
           call("get_columns",[database+"."+prefix,null],select_show,[box]);
         }
-      } else if (tables!=null) {
+      } else if (tables!==null) {
         var alias = "";
         var size = array_size(tables);
         select_hide(box);
@@ -197,7 +197,7 @@ function keyup(obj,box,database) {
       select_hide(box);
       if (prefix.indexOf(".")==-1) {
         call("get_databases",[prefix],select_show,[box]);
-        if (database!="") call("get_tables",[database+"."+prefix,0],select_show,[box]);
+        if (database!=="") call("get_tables",[database+"."+prefix,0],select_show,[box]);
       } else {
         call("get_tables",[prefix,1],select_show,[box]);
       }
