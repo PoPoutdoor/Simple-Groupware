@@ -292,8 +292,9 @@ function additems(field) {
 function additem(id,right) {
   // left: textarea
   if (right===null) return;
+  var options_right;
   if (typeof(getObj(id).options) == "undefined") {
-    var options_right = right.options;
+    options_right = right.options;
     if (options_right===null) {
       insert_into_textarea(id,right.value);
       right.value = "";
@@ -312,7 +313,7 @@ function additem(id,right) {
     }
     // right: select
     if (right.options===null) return;
-    var options_right = right.options;
+    options_right = right.options;
     for (var i=0; i<options_right.length; i++) {
       if (!options_right[i].selected) continue;
       options_right[i].selected = false;

@@ -257,32 +257,35 @@ function start() {
   }
   if (!preview && !iframe) {
     objs = getObjs(".hide_fields");
+	var func_over2 = function(event){
+      css(this.getElementsByTagName("a"), "visibility", "visible");
+    };
+	var func_out2 = function(event){
+      css(this.getElementsByTagName("a"), "visibility", "hidden");
+    };
     for (var i=0; i<objs.length; i++) {
-      objs[i].onmouseover = function(event){
-        css(this.getElementsByTagName("a"), "visibility", "visible");
-      };
-      objs[i].onmouseout = function(event){
-        css(this.getElementsByTagName("a"), "visibility", "hidden");
-      };
+      objs[i].onmouseover = func_over2;
+      objs[i].onmouseout = func_out2;
     }
   }
   objs = getObjs(".drag_asset");
-  for (var i=0; i<objs.length; i++) {
-    objs[i].draggable = "true";
-    objs[i].ondragstart = function(event){
+  var func_start = function(event){
       var params = {"folder":tfolder, "view":tview, "type":"asset"};
       params.items = assets_get_selected(true);
       var item = attr(this,"rel");
       if (params.items.join(" ").indexOf(item)==-1) params.items.push(item);
       drag_handler(event, params, params.items.join(", "));
-    };
+  };
+  for (var i=0; i<objs.length; i++) {
+    objs[i].draggable = "true";
+    objs[i].ondragstart = func_start;
     objs[i].onmousedown = cancel;
   }
   document.onkeydown=keys;
   bind_drop_tree();
   bind_drop_files();
   auto_scroll_tree(tfolder);
-  var objs = getObjs(".onload");
+  objs = getObjs(".onload");
   for (var i=0; i<objs.length; i++) {
     objs[i].func = new Function("", attr(objs[i], "onload"));
     objs[i].func();
@@ -307,12 +310,14 @@ function bind_drop_files() {
   document.ondragover = document.ondrop = function(event){ event.preventDefault(); };
   show(".file_upload_text");
   var objs = getObjs(".file_upload");
+  var func_enter = function(){ css(this,"backgroundColor",css_conf.bg_red_over); };
+  var func_leave = function(event){
+    if (is_nested_target(event, this)) return;
+    css(this,"backgroundColor","");
+  };
   for (var i=0; i<objs.length; i++) {
-    objs[i].ondragenter = function(){ css(this,"backgroundColor",css_conf.bg_red_over); };
-    objs[i].ondragleave = function(event){
-      if (is_nested_target(event, this)) return;
-      css(this,"backgroundColor","");
-    };
+    objs[i].ondragenter = func_enter;
+    objs[i].ondragleave = func_leave;
   }
 }
 
@@ -762,8 +767,9 @@ function resizeit() {
   var content_def = getObj("content_def");
   var tree_frame = getObj("tree_frame");
   
+  var height_obj;
   if (tree_frame) {
-    var height_obj = findPosY(tree_frame);
+    height_obj = findPosY(tree_frame);
     var tree_def = getObj("tree_def");
     tree_frame.style.height = (height-height_obj-1)+"px";
     tree_def.style.height = (height-height_obj-1)+"px";
@@ -780,7 +786,7 @@ function resizeit() {
 
   var fixed_footer = getObj("fixed_footer");
   if (content_def) {
-    var height_obj = findPosY(content_def);
+    height_obj = findPosY(content_def);
     var content_def_table = getObj("content_def_table");
     var height2 = height;
     if (fixed_footer) height2 -= fixed_footer.offsetHeight;
@@ -789,14 +795,14 @@ function resizeit() {
     content_def_table.style.height = (height2-height_obj-1)+"px";
   }
   
-  var height2 = fixed_footer ? fixed_footer.offsetHeight+1 : 0;
+  var height3 = fixed_footer ? fixed_footer.offsetHeight+1 : 0;
   if (hpane > 1) {
     var obj_pane = getObj("pane");
-     obj_pane.style.height = (height-findPosY(obj_pane)-height2)+"px";
+     obj_pane.style.height = (height-findPosY(obj_pane)-height3)+"px";
   }
   if (vpane > 1) {
-    var obj_pane = getObj("pane2");
-    obj_pane.style.height = (height-findPosY(obj_pane)-height2)+"px";
+    var obj_pane2 = getObj("pane2");
+    obj_pane2.style.height = (height-findPosY(obj_pane2)-height3)+"px";
   }
   if (tree_frame) {
     tree_scroll(tree_scroll_pos);
