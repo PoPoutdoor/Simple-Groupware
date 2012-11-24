@@ -48,7 +48,6 @@ static function change_database_pre() {
   if (!sgsml_parser::table_column_rename("simple_calendar","end","ending")) setup::error_add("rename[1]: ".sql_error(),54);
   if (!sgsml_parser::table_column_rename("simple_contactactivities","end","ending")) setup::error_add("rename[2]: ".sql_error(),55);
   if (!sgsml_parser::table_column_rename("simple_tasks","end","ending")) setup::error_add("rename[3]: ".sql_error(),56);
-  if (!sgsml_parser::table_rename("simple_sys_chat","simple_sys_chat2")) setup::error_add("rename[4]: ".sql_error(),57);
   
   // process funambol schema views on sgs update
   if (self::get_config_old("SYNC4J",false,0) == "1") {
