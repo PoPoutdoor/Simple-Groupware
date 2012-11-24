@@ -108,7 +108,7 @@ function addupload_url(obj) {
 
 function form_submit(form) {
   var obj = form.getElementsByTagName("input");
-  for (i=0; i<obj.length; i++) {
+  for (var i=0; i<obj.length; i++) {
     if (obj[i].onsubmit) obj[i].onsubmit();
     if (obj[i].type=="password") {
       var id = obj[i].id;

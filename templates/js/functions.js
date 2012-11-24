@@ -1183,7 +1183,7 @@ function _mountpoint_escape(str) {
 }
 
 function _mountpoint_unescape(str) {
-  return str.replace(/%%/g,"@").replace(/==/g,":");
+  return str.replace(/%%/g,"@").replace(new RegExp("==", "g"),":");
 }
 
 function mountpoint_parse(mountpoint) {
