@@ -5,6 +5,7 @@
  * @copyright Simple Groupware Solutions Thomas Bley 2002-2012
  * @license GPLv2
  */
+
 class ajax {
 
 /**
@@ -256,31 +257,6 @@ static function search_data($ticket, $search, $page, $ids=array()) {
     $params[2][] = "(".implode(" or ", $where).")";
   }
   return call_user_func(array($class, $function), $params, array("search"=>"%".$search."%", "ids"=>$ids, "page"=>$page));
-}
-
-static function chat_load($archive, $folder, $last, $room) {
-  self::_require_access($folder, "read");
-  $where = array("roomname=@room@", $_SESSION["permission_sql_read"]);
-  $count = db_select_value("simple_chat", "count(*) as count", $where, array("room"=>$room, "folder"=>$folder));
-  if (empty($count)) exit("{t}Access denied.{/t}");
-
-  $where = array("room=@room@", "id>@last@");
-  $vars = array("room"=>$room, "last"=>$last);
-  if (!$archive) {
-    $where[] = "created>@created@";
-    $vars["created"] = strtotime("today 00:00");
-  }
-  return db_select("simple_sys_chat2",array("id", "message", "createdby", "bgcolor"), $where, "created asc", "", $vars);
-}
-
-static function chat_add($folder, $room, $message) {
-  self::_require_access($folder, "write");
-  $where = array("roomname=@room@", $_SESSION["permission_sql_write"]);
-  $count = db_select_value("simple_chat", "id", $where, array("room"=>$room, "folder"=>$folder));
-  if (empty($count)) exit("{t}Access denied.{/t}");
-  
-  $id = sql_genID("simple_sys_chat2")*100;
-  return db_insert("simple_sys_chat2", array("id"=>$id, "room"=>$room, "message"=>$message, "bgcolor"=>substr(sha1($_SESSION["username"]),0,6)));
 }
 
 static function tree_open($id) {
@@ -591,9 +567,16 @@ static function tree_close($folder) {
   self::session_save();
 }
 
-static function require_method($func, $handler="ajax") {
-  if (!method_exists($handler, $func)) {
-    exit(sprintf("{t}Function does not exist: %s{/t}", "ajax::".$func));
+/**
+ * Check if method exists
+ * - exit if method is not found
+ *
+ * @param string $method method name
+ * @param string $handler class name
+ */
+static function require_method($method, $handler="ajax") {
+  if (!method_exists($handler, $method)) {
+    exit(sprintf("{t}Function does not exist: %s{/t}", "ajax::".$method));
   }
 }
 
@@ -616,6 +599,9 @@ private static function _tree_open_session($item) {
   return true;
 }
 
+/**
+ * Save session to database or apc
+ */
 static function session_save() {
   static $saved = false;
   if (ini_get("suhosin.session.encrypt") or $saved) return;
