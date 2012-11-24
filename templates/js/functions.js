@@ -233,10 +233,10 @@ function start() {
     if (obj && obj.checked) color = css_conf.bg_red; else color = "";
     css(".asset_"+id,"backgroundColor",color);
   };
-  for (var j=0; j<objs.length; j++) {
-    if (!attr(objs[j],"rel")) continue;
-    objs[j].onmouseover = func_over;
-    objs[j].onmouseout = func_out;
+  for (i=0; i<objs.length; i++) {
+    if (!attr(objs[i],"rel")) continue;
+    objs[i].onmouseover = func_over;
+    objs[i].onmouseout = func_out;
   }
   objs = getObjs(".mdown");
   var func_dbl = function(){
@@ -251,10 +251,10 @@ function start() {
     if (obj && obj.checked) color = css_conf.bg_red; else color = "";
     css(".asset_"+id,"backgroundColor",color);
   };
-  for (var k=0; k<objs.length; k++) {
-    if (!attr(objs[k],"rel")) continue;
-    objs[k].onmousedown = func_down;
-    if (dblclick && !iframe) objs[k].ondblclick = func_dbl;
+  for (i=0; i<objs.length; i++) {
+    if (!attr(objs[i],"rel")) continue;
+    objs[i].onmousedown = func_down;
+    if (dblclick && !iframe) objs[i].ondblclick = func_dbl;
   }
   if (!preview && !iframe) {
     objs = getObjs(".hide_fields");
@@ -264,9 +264,9 @@ function start() {
 	var func_out2 = function(event){
       css(this.getElementsByTagName("a"), "visibility", "hidden");
     };
-    for (var l=0; l<objs.length; l++) {
-      objs[l].onmouseover = func_over2;
-      objs[l].onmouseout = func_out2;
+    for (i=0; i<objs.length; i++) {
+      objs[i].onmouseover = func_over2;
+      objs[i].onmouseout = func_out2;
     }
   }
   objs = getObjs(".drag_asset");
@@ -277,19 +277,19 @@ function start() {
       if (params.items.join(" ").indexOf(item)==-1) params.items.push(item);
       drag_handler(event, params, params.items.join(", "));
   };
-  for (var m=0; m<objs.length; m++) {
-    objs[m].draggable = "true";
-    objs[m].ondragstart = func_start;
-    objs[m].onmousedown = cancel;
+  for (i=0; i<objs.length; i++) {
+    objs[i].draggable = "true";
+    objs[i].ondragstart = func_start;
+    objs[i].onmousedown = cancel;
   }
   document.onkeydown=keys;
   bind_drop_tree();
   bind_drop_files();
   auto_scroll_tree(tfolder);
   objs = getObjs(".onload");
-  for (var n=0; n<objs.length; n++) {
-    objs[n].func = new Function("", attr(objs[n], "onload"));
-    objs[n].func();
+  for (i=0; i<objs.length; i++) {
+    objs[i].func = new Function("", attr(objs[i], "onload"));
+    objs[i].func();
   }
 }
 
