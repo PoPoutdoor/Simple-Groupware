@@ -216,12 +216,6 @@ static function deletedepartment($id, $data) {
   return "";
 }
 
-static function deletechat($id, $data) {
-  $count = db_select_value("simple_chat","count(*) as count","roomname=@roomname@",array("roomname"=>$data["roomname"]));
-  if ($count==1) db_delete("simple_sys_chat2",array("room=@room@"),array("room"=>$data["roomname"]));
-  return "";
-}
-
 static function sendmail_pop3($id, $data) {
   return self::sendmail($id, $data, null, "", true);
 }
