@@ -30,7 +30,7 @@ function testTranslation() {
   }
 }
 
-function testPhp($dir="") {
+function testPhp($dir=".") {
   static $exclude_files = array(".", "..", "default.php", "Tar_137.php", "tar.php", "lib", "tests");
   $patterns = array(
     "and false",
