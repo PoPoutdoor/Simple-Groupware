@@ -309,9 +309,6 @@ English
 ** CMS homepage title
 
 
-** Cache output
-
-
 ** Caches
 
 
@@ -364,9 +361,6 @@ English
 
 
 ** Changelog
-
-
-** Chat
 
 
 ** Check DoS Attacks
@@ -832,9 +826,6 @@ English
 
 
 ** Error doing request to xmlhttp
-
-
-** Error moving file
 
 
 ** Error pasting asset
@@ -1512,9 +1503,6 @@ English
 ** Message
 
 
-** Messages
-
-
 ** Milestone
 
 
@@ -1759,9 +1747,6 @@ English
 
 
 ** Output
-
-
-** Output empty: %s
 
 
 ** Overtime
@@ -2226,9 +2211,6 @@ English
 ** Risks
 
 
-** Room name
-
-
 ** Room number
 
 
@@ -2392,9 +2374,6 @@ English
 
 
 ** Show all rules
-
-
-** Show archive
 
 
 ** Show folder description in content area
