@@ -14,7 +14,6 @@ if (!sys_is_super_admin($_SESSION["username"])) sys_die(t("{t}Not allowed. Pleas
 if (empty($_REQUEST["console"])) $_REQUEST["console"] = "sys";
 
 if (!empty($_GET['func'])) {
-  if (!function_exists("json_encode")) require("lib/json/JSON.php");
   $result = call_user_func_array(array('funcs', $_GET['func']), explode(',', $_GET['params']));
   exit(json_encode($result));
 }

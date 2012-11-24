@@ -60,7 +60,6 @@ if (!empty($_SERVER["HTTP_SOAPACTION"])) {
 } else if ($_SERVER["HTTP_X_REQUESTED_WITH"]=="XMLHttpRequest") {
   $func = $_REQUEST["function"];
   if ($func=="type_pmwikiarea::ajax_render_preview") require("lib/pmwiki/pmwiki.php");
-  if (!function_exists("json_encode")) require("lib/json/JSON.php");
 
   if ((strpos($func,"_ajax::") or strpos($func,"::ajax_")) and substr_count($func,"::")==1) {
     list($class,$func) = explode("::",$func);
