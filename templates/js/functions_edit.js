@@ -84,7 +84,7 @@ function handle_upload(item_name, max_file_size, max_file_count, files, input_id
     var percentage = Math.round((event.loaded * 100) / event.total);
     set_html(item_name+"_progress", (percentage!=100) ? "<br>{t}Uploading{/t}: "+file.name+": "+percentage+"%" : "");
   };
-  for (var i = 0; i < files.length; i++) {
+  for (var i=0; i < files.length; i++) {
     var file = files[i];
     max_file_size = max_file_size.replace("M", "000000");
     if (max_file_size > 0 && file.size > max_file_size) {
