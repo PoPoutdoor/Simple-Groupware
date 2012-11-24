@@ -17,9 +17,7 @@ new build(true, false);
 class build {
 
 	public function __construct($archives=true, $manuals=true) {
-		$this->validateModuleIcons();
 		$this->translationMaster();
-		$this->validateTranslation("de");
 
 		$this->sysCheck();
 		
@@ -53,28 +51,6 @@ class build {
 		}
 	}
 	
-	private function validateModuleIcons() {
-		$exceptions = array("nodb_calendar_contacts.xml", "nodb_calendar_departments.xml", "nodb_calendar_users.xml",
-			"nodb_rights.xml", "nodb_index.xml", "nodb_ldif_contacts.xml", "nodb_pmwiki.xml", "nodb_rights_edit.xml",
-			"nodb_schema.xml", "nodb_structure.xml", "search.xml");
-		foreach (scandir("../modules/schema/") as $module) {
-			if (!strpos($module, ".xml") or $module[0]=="!") continue;
-			if (!file_exists("../ext/modules/".str_replace(".xml", ".png", $module))) throw new Exception("module icon not found for: ".$module);
-		}
-		foreach (scandir("../modules/schema_sys/") as $module) {
-			if (!strpos($module, ".xml") or in_array($module, $exceptions)) continue;
-			if (!file_exists("../ext/modules/sys_".str_replace(".xml", ".png", $module))) throw new Exception("module icon not found for: ".$module);
-		}
-	}
-	
-	private function validateTranslation($lang) {
-		$data = file_get_contents("../lang/".$lang.".lang");
-		foreach (file("../lang/master.lang") as $line) {
-			if (strpos($line, "** ")!==0) continue;
-			if (strpos($data, $line)===false) throw new Exception("Translation not found {$lang}: {$line}");
-		}
-	}
-
 	private function translationMaster() {
 		$master_lang = array();
 		$queue = array("../");
