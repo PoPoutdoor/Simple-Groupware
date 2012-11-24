@@ -114,21 +114,6 @@ class build {
 		unlink($ps);
 	}
 
-	private function checkJs($dir) {
-		$filter = "/window is not defined/";
-		$dir .= "/ext/js/";
-		if (!is_dir($dir)) throw new Exception("Directory not found: ".$dir);
-		foreach (scandir($dir) as $file) {
-			if (!strpos($file, ".js")) continue;
-			$output = array();
-			exec("js ".$dir.$file." 2>&1", $output);
-			foreach ($output as $line) {
-				if (preg_match($filter, $line)) continue;
-				throw new Exception($line);
-			}
-		}
-	}
-	
 	private function checkPhp($dir) {
 		$filter = array(
 			"Bad escape sequence",
