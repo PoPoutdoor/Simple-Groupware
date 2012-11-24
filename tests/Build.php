@@ -26,11 +26,11 @@ function testTranslation() {
   $data = file_get_contents("lang/de.lang");
   foreach (file("lang/master.lang") as $line) {
     if (strpos($line, "** ")!==0) continue;
-    $this->assertTrue(strpos($data, $line)===false);
+    $this->assertTrue((strpos($data, $line)===false), $line);
   }
 }
 
-function testPhp($dir=".") {
+function testPhpAntiPatterns($dir=".") {
   static $exclude_files = array(".", "..", "default.php", "Tar_137.php", "tar.php", "lib", "tests");
   $patterns = array(
     "and false",
