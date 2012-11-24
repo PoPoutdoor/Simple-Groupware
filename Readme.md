@@ -34,6 +34,10 @@ Contributions:
 
 - see [docs/Contributions.txt](https://github.com/simplegroupware/Simple-Groupware/blob/master/docs/Contributions.txt)
 
+Testing:
+
+- see [Travis-CI](https://travis-ci.org/simplegroupware/Simple-Groupware)
+
 License:
 
 - see [License.txt](https://github.com/simplegroupware/Simple-Groupware/blob/master/License.txt)
