@@ -1,6 +1,5 @@
 blank|{t}Blank{/t}
 bookmarks|{t}Bookmarks{/t}
-chat|{t}Chat{/t}
 cms|{t}CMS{/t}
 emails|{t}E-mail{/t}
 faq|{t}FAQ{/t}
