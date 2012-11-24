@@ -14,14 +14,12 @@ function testValidateModuleIcons() {
     "nodb_schema.xml", "nodb_structure.xml", "search.xml");
   foreach (scandir("modules/schema/") as $module) {
     if (!strpos($module, ".xml") or $module[0]=="!") continue;
-    if (!file_exists("ext/modules/".str_replace(".xml", ".png", $module))) {
-      throw new Exception("module icon not found for: ".$module);
-    }
+    $this->assertTrue(file_exists("ext/modules/".str_replace(".xml", ".png", $module)));
   }
   foreach (scandir("modules/schema_sys/") as $module) {
     if (!strpos($module, ".xml") or in_array($module, $exceptions)) continue;
-    if (!file_exists("ext/modules/sys_".str_replace(".xml", ".png", $module))) {
-      throw new Exception("module icon not found for: ".$module);
-} } }
+    $this->assertTrue(file_exists("ext/modules/sys_".str_replace(".xml", ".png", $module)));
+  }
+}
   
 }
