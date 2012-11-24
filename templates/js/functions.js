@@ -963,7 +963,7 @@ function customize_field() {
   if (getObj("cust_field_folder").checked) params.ffolder = tfolder;
 
   if (params.field==="" || action==="") return;
-  if (action=="rename" && params.displayname=="") return;
+  if (action=="rename" && params.displayname==="") return;
 
   ajax("sgsml_customizer::ajax_get_field", [params.module, params.field], function(data) {
     if (data.length===0) data = {};
@@ -1011,7 +1011,7 @@ function tree_open(id) {
   } else {
     ajax("tree_open", [id], function(data) {
       var out = "";
-      for (i in data.children) {
+      for (var i in data.children) {
         var img = "plus";
         var item = data.children[i];
         if (!item.id) continue;
@@ -1019,7 +1019,7 @@ function tree_open(id) {
         item.fdescription = item.id.replace(/^.+:\d+\//, "") + " " + item.fdescription;
         out += "<div class='drop_tree' rel='"+html_escape(item.id)+"' title='"+html_escape(item.fdescription)+"' style='white-space:nowrap;'>";
         for (j=0; j <= data.level; j++) out += "<img src='ext/icons/line.gif'>";
-        if (item.ffcount + item.mp == 0) img = "line";
+        if (item.ffcount + item.mp === 0) img = "line";
         out += "<a onclick='tree_open(\""+item.id+"\");'><img id='"+item.id+"_img' src='ext/icons/"+img+".gif'></a>&nbsp;";
         out += "<a href='index.php?folder="+item.id+"' "+(item.id==tfolder?"style='font-weight:bold;'":"")+">";
 
@@ -1035,7 +1035,7 @@ function tree_open(id) {
         if (item.fcount > 0) out += "("+item.fcount+")";
         out += "</a></div><div id='"+item.id+"' style='display:none;'></div>";
       }
-      if (out!="") obj2.src = "ext/icons/minus.gif"; else obj2.src = "ext/icons/line.gif";
+      if (out!=="") obj2.src = "ext/icons/minus.gif"; else obj2.src = "ext/icons/line.gif";
       show(obj);
       obj.innerHTML = out;
       bind_drop_tree();
@@ -1153,14 +1153,14 @@ function mountpoint_build() {
   var path = getObj("mount_path").value;
 
   var re = /^(imap|fs|pmwiki|ldap|cifs|gdocs)/;
-  if (m = re.exec(proto) && path!="" && path.charAt(path.length-1)!="/") path += "/";
+  if (m = re.exec(proto) && path!=="" && path.charAt(path.length-1)!="/") path += "/";
   var options = _mountpoint_escape(getObj("mount_options").value);
   var vals = user+(pass?":"+pass:":")+(port?":"+port:":")+(enc?":"+enc:":")+(options?":"+options:":")+"@";
   if (proto.length<2 || (!host && !path)) {
     return "";
   } else {
-    if (host.length==0) vals = "";
-    if (host.length>0 && (path.length==0 || path.charAt(0)!="/")) path = "/"+path;
+    if (host.length===0) vals = "";
+    if (host.length>0 && (path.length===0 || path.charAt(0)!="/")) path = "/"+path;
     return proto+vals+host+path;
   }
 }
@@ -1262,8 +1262,8 @@ function start_drag(func) {
   getObj("tree").style.width="auto"; // IE
   document.onmousemove=func;
   document.onmouseup=stop_drag;
-  document.onmousedown=function(){return false;}
-  document.onselectstart=function(){return false;}
+  document.onmousedown=function(){ return false; };
+  document.onselectstart=function(){ return false; };
 }
 
 function resize_pane2(event) {
@@ -1275,7 +1275,7 @@ function resize_pane2(event) {
     pane2=0.27;
     hidepane("pane2");
   } else resizeit();
-  if (pane_timer!=null) clearTimeout(pane_timer);
+  if (pane_timer!==null) clearTimeout(pane_timer);
   pane_timer = setTimeout(function(){ getObj("pane2").style.visibility=""; },250);
   save_cookie();
   return false;
@@ -1290,7 +1290,7 @@ function resize_pane(event) {
     pane=0.53;
     hidepane("pane");
   } else resizeit();
-  if (pane_timer!=null) clearTimeout(pane_timer);
+  if (pane_timer!==null) clearTimeout(pane_timer);
   pane_timer = setTimeout(function(){ getObj("pane").style.visibility=""; },250);
   save_cookie();
   return false;
@@ -1328,7 +1328,7 @@ function asset_insert_prompt(fields, field_names) {
       fields[i] = values[i].split(":")[0].replace(/^\s+|\s+$/g,""); // trim
       values[i] = values[i].split(":")[1];
     }
-    if (values[i] != null) data[fields[i]] = values[i].replace(/\\k/g,",").replace(/\\n/g,"\n").replace(/^\s+|\s+$/g,""); // trim
+    if (values[i] !== null) data[fields[i]] = values[i].replace(/\\k/g,",").replace(/\\n/g,"\n").replace(/^\s+|\s+$/g,""); // trim
   }
   asset_insert(data);
 }
@@ -1359,22 +1359,22 @@ function ajax(func, params, callback, timeout) {
   xmlhttp.onreadystatechange = function() {
     if (xmlhttp.readyState == 4) {
       pending_request--;
-      if (loading != null) clearTimeout(loading);
+      if (loading !== null) clearTimeout(loading);
       hide(image);
-      if (timer != null) clearTimeout(timer); else return;
+      if (timer !== null) clearTimeout(timer); else return;
       var result = xmlhttp.responseText;
       try {
-        if (xmlhttp.status==0 && result=="") return;
-        if (xmlhttp.status==200 && result!="") {
-          if (callback!=null) callback(JSON.parse(result));
-        } else sys_alert("{t}Ajax Error{/t}: "+func+" "+xmlhttp.status+" "+xmlhttp.statusText+"\n"+(result!=""?result:"{t}no result{/t}"));
+        if (xmlhttp.status===0 && result==="") return;
+        if (xmlhttp.status==200 && result!=="") {
+          if (callback!==null) callback(JSON.parse(result));
+        } else sys_alert("{t}Ajax Error{/t}: "+func+" "+xmlhttp.status+" "+xmlhttp.statusText+"\n"+(result!==""?result:"{t}no result{/t}"));
       } catch (e) {
         if (result.length > 0) {
           if (e == "SyntaxError: parseJSON") e = "";
           if (e) error = e.name+": "+e.message; else error = "";
           if (!debug) trace = "\n"+JSON.stringify(e); else trace = "";
           sys_alert("{t}Error{/t}: "+error+"\n"+result+"\n"+func+trace);
-  } } } }
+  } } } };
   xmlhttp.send(JSON.stringify(params));
 }
 
