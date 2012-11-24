@@ -68,10 +68,9 @@
   </field>
   <field name="im" displayname="IM" simple_type="text" simple_tab="contact">
 	<description value="alert('
-MSN: msnim:chat?contact=nada@nowhere.com\n
 AIM: aim:goim?screenname=someuser\n
 Yahoo: ymsgr:sendim?john.doe@yahoo.com\n
-Jabber/Google: xmpp:john.doe@gmail.com');"/>
+Jabber/Google/Facebook: xmpp:john.doe@gmail.com');"/>
     <link value=" @im@" icon="chat.gif"/>
   </field>
   <field name="contactby" displayname="{t}Contact by{/t}" simple_type="select" simple_size="1" simple_tab="contact">
