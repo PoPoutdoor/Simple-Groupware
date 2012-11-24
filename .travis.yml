@@ -9,7 +9,7 @@ before_script:
 
 script:
   - phpunit --coverage-text tests/*.php
-  - jshint templates/js/*.js | grep -Ev "'i' is already defined|eval"
+  - jshint templates/js/*.js | grep -Ev "'i' is already defined|eval|regular expression literal"
 
 notifications:
   email:
