@@ -29,7 +29,7 @@ function testTranslation() {
     if (strpos($line, "** ")!==0) continue;
     if (strpos($data, $line)===false) $missing[] = $line;
   }
-  $this->assertEmpty($missing);
+  $this->assertEquals($missing, array());
 }
 
 function testPhpAntiPatterns($dir=".") {
