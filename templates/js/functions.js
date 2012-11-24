@@ -919,7 +919,7 @@ function asset_action(mode, timeout) {
 }
 
 function asset_form_selected() {
-  if (assets_get_selected(false)=="") {
+  if (assets_get_selected(false)==="") {
     sys_alert("{t}No dataset selected.{/t}");
     return false;
   }
@@ -944,27 +944,27 @@ function mselectallkey() {
 
 function customize_field() {
   var params={};
-  params["module"] = ftype;
-  params["field"] = val("cust_field");
+  params.module = ftype;
+  params.field = val("cust_field");
 
   var action = val("cust_field_action");
-  if (action=="hidden") params["hidden"] = 1;
-  else if (action=="hiddenin") params["hiddenin"] = tview;
-  else if (action=="notinall") params["notinall"] = 1;
-  else if (action=="rename") params["displayname"] = val("cust_field_name");
+  if (action=="hidden") params.hidden = 1;
+  else if (action=="hiddenin") params.hiddenin = tview;
+  else if (action=="notinall") params.notinall = 1;
+  else if (action=="rename") params.displayname = val("cust_field_name");
   else {
-      params["displayname"] = val("cust_field_name");
-      params["fbefore"] = params["field"];
-      params["field"] = val("cust_field_name").replace(/[^a-z0-9_]/ig, "");
-      params["simple_type"] = action;
+      params.displayname = val("cust_field_name");
+      params.fbefore = params.field;
+      params.field = val("cust_field_name").replace(/[^a-z0-9_]/ig, "");
+      params.simple_type = action;
   }
-  if (getObj("cust_field_folder").checked) params["ffolder"] = tfolder;
+  if (getObj("cust_field_folder").checked) params.ffolder = tfolder;
 
-  if (params["field"]=="" || action=="") return;
-  if (action=="rename" && params["displayname"]=="") return;
+  if (params.field==="" || action==="") return;
+  if (action=="rename" && params.displayname=="") return;
 
-  ajax("sgsml_customizer::ajax_get_field", [params["module"], params["field"]], function(data) {
-    if (data.length==0) data = {};
+  ajax("sgsml_customizer::ajax_get_field", [params.module, params.field], function(data) {
+    if (data.length===0) data = {};
     for (var key in params) data[key] = params[key];
     ajax("asset_insert", ["!sys_custom_fields", "new", data], ajax_locate_folder);
   });
