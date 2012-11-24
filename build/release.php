@@ -129,29 +129,6 @@ class build {
 		}
 	}
 	
-	private function antiPatternPhp($file) {
-		if (basename($file)=="release.php") return;
-		$patterns = array(
-			"and false",
-			"false and",
-			"or true",
-			"true or",
-			"false &&",
-			"|| true",
-			"true ||",
-			"if (true)",
-			"if (false)",
-		);
-		$patterns = "!".implode("|", array_map("preg_quote", $patterns))."!";
-		$content = str_replace("==false", "==false ", file_get_contents($file));
-		if (!preg_match($patterns, $content)) return;
-		foreach (file($file) as $line) {
-			if (preg_match($patterns, $line)) {
-				throw new Exception("Anti-Pattern match in: {$file}\n{$line}");
-			}
-		}
-	}
-	
 	private function checkPhp($dir) {
 		$filter = array(
 			"Bad escape sequence",
@@ -175,7 +152,6 @@ class build {
 				continue;
 			}
 			if (!strpos($file, ".php")) continue;
-			$this->antiPatternPhp($dir.$file);
 
 			$output = array();
 			exec("zca ".$dir.$file." 2>&1", $output);
