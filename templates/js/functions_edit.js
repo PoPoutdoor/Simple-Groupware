@@ -225,7 +225,7 @@ function commit_from_popup(lookup, values) {
 }
 
 function page_data(id, page_increment) {
-  var page = parseInt(attr(id+"_box", "page"));
+  var page = parseInt(attr(id+"_box", "page"), 10);
   return search_data(id, page + page_increment);
 }
 
