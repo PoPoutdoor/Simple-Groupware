@@ -29,9 +29,9 @@ if (top != window && top.getObj("login_iframe")) {
   top.getObj("login_iframe").src = "about:blank";
   top.hide("login");
   top.setTimeout( function(){
-	top.show("login_reminder");
-	top.set_val("password", "");
-	top.getObj("password").focus();
+    top.show("login_reminder");
+    top.set_val("password", "");
+    top.getObj("password").focus();
   }, sys.session_time*1000);
   if (window.sys.username!=top.sys.username) top.location.href = top.location.href;
 } else if (!iframe && sys.session_time && !sys.is_guest) {
@@ -60,7 +60,7 @@ else if (document.addEventListener) document.addEventListener( "DOMContentLoaded
 else {
   document.attachEvent("onreadystatechange", function(){
     if ( document.readyState != "complete" ) return;
-	start();
+    start();
   });
 }
 
@@ -76,27 +76,27 @@ function getElementsByClassName(name) {
 
 function hide_layout() {
   if (sys.menu_autohide) {
-	top_menu(false);
-	getObj("main").onmouseover = function(event) {
-	  if (is_nested_target(event, this)) return;
-	  top_menu(false);
-	}
-	getObj("main").onmouseout = function(event) {
-	  if (!event) event = window.event;
-	  if (is_nested_target(event, this)) return;
-	  if (event.clientY < 10 && event.clientX < 600) top_menu(true);
-	}
+    top_menu(false);
+    getObj("main").onmouseover = function(event) {
+      if (is_nested_target(event, this)) return;
+      top_menu(false);
+    }
+    getObj("main").onmouseout = function(event) {
+      if (!event) event = window.event;
+      if (is_nested_target(event, this)) return;
+      if (event.clientY < 10 && event.clientX < 600) top_menu(true);
+    }
   }
   if (sys.tree_autohide) {
     if (document.location.href.indexOf("&folder=")==-1) tree(false);
-	getObj("content").onmouseover = function(event) {
-	  if (is_nested_target(event, this)) return;
-	  tree(false);
-	}
-	getObj("content").onmouseout = function(event) {
-	  if (!event) event = window.event;
-	  if (is_nested_target(event, this)) return;
-	  if (event.clientX < 10 && event.clientX!=-1) tree(true);
+    getObj("content").onmouseover = function(event) {
+      if (is_nested_target(event, this)) return;
+      tree(false);
+    }
+    getObj("content").onmouseout = function(event) {
+      if (!event) event = window.event;
+      if (is_nested_target(event, this)) return;
+      if (event.clientX < 10 && event.clientX!=-1) tree(true);
 } } }
 
 function is_nested_target(event, obj) {
@@ -104,7 +104,7 @@ function is_nested_target(event, obj) {
   var target = event.target || event.srcElement;
   if (in_array(target.tagName, ["INPUT", "TEXTAREA", "LABEL", "A", "IMG"])) return true;
   if (!event.relatedTarget && event.fromElement) {
-	event.relatedTarget = (event.type=="mouseover") ? event.fromElement : event.toElement;
+    event.relatedTarget = (event.type=="mouseover") ? event.fromElement : event.toElement;
   }
   var parent = event.relatedTarget;
   while (parent && parent !== obj) parent = parent.parentNode;
@@ -116,10 +116,10 @@ function tree(show) {
   if (!getObj("tree")) return;
   if (show) {
     tree_width = 235;
-	show2("tree");
+    show2("tree");
   } else {
-	tree_width = -2;
-	hide("tree");
+    tree_width = -2;
+    hide("tree");
   }
   resizeit();
 }
@@ -127,9 +127,9 @@ function tree(show) {
 function top_menu(show) {
   if (!getObj("menu")) return;
   if (show) {
-	show2("menu");
+    show2("menu");
   } else {
-	hide("menu");
+    hide("menu");
   }
   resizeit();
 }
@@ -180,29 +180,29 @@ function keys(ev) {
   if (!ev) ev = window.event;
   if (!ev.altKey || ev.shiftKey || ev.ctrlKey) return;
   if (ev.keyCode > 47 && ev.keyCode < 58) {
-	change_tab("tab", attr("accesskey"+(ev.keyCode-48), "rel"));
-	return;
+    change_tab("tab", attr("accesskey"+(ev.keyCode-48), "rel"));
+    return;
   }
   if (keys_timer!=null) clearTimeout(keys_timer);
   if (keys_hl!=null) css(keys_hl,"backgroundColor", "");
 
   if (ev.keyCode=="38" || ev.keyCode=="40" || ev.keyCode=="33" || ev.keyCode=="34") {
-	var objs = getObjs(".drop_tree");
-	for (var i=0; i<objs.length; i++) {
-	  var find = keys_hl ? attr(keys_hl, "rel") : tfolder;
-	  if (attr(objs[i], "rel")!=find) continue;
-	  if (ev.keyCode=="38") offset = i-1;
-		else if (ev.keyCode=="40") offset = i+1;
-		else if (ev.keyCode=="33") offset = i-10;
-		else offset = i+10;
-	  if (offset<0) offset=0;
-	  if (offset>=objs.length) offset = objs.length-1;
-	  keys_hl = objs[offset];
-	  if (!keys_hl) return;
-	  css(keys_hl,"backgroundColor", css_conf.bg_red_over);
-	  auto_scroll_tree(keys_hl);
-	  keys_timer = setTimeout(function(){ locate_folder(escape(attr(keys_hl, "rel"))); }, 600);
-	  break;
+    var objs = getObjs(".drop_tree");
+    for (var i=0; i<objs.length; i++) {
+      var find = keys_hl ? attr(keys_hl, "rel") : tfolder;
+      if (attr(objs[i], "rel")!=find) continue;
+      if (ev.keyCode=="38") offset = i-1;
+        else if (ev.keyCode=="40") offset = i+1;
+        else if (ev.keyCode=="33") offset = i-10;
+        else offset = i+10;
+      if (offset<0) offset=0;
+      if (offset>=objs.length) offset = objs.length-1;
+      keys_hl = objs[offset];
+      if (!keys_hl) return;
+      css(keys_hl,"backgroundColor", css_conf.bg_red_over);
+      auto_scroll_tree(keys_hl);
+      keys_timer = setTimeout(function(){ locate_folder(escape(attr(keys_hl, "rel"))); }, 600);
+      break;
 } } }
 
 function start() {
@@ -213,64 +213,64 @@ function start() {
   var objs = document.getElementsByTagName("textarea");
   for (var i=0; i<objs.length; i++) {
     objs[i].onfocus = textarea_autosize;
-	objs[i].onkeyup = textarea_autosize;
-	objs[i].onfocus();
+    objs[i].onkeyup = textarea_autosize;
+    objs[i].onfocus();
   }
   resizeit();
   setTimeout(refreshit, sys.folder_refresh*1000);
 
   objs = getObjs(".mover");
   for (var i=0; i<objs.length; i++) {
-	if (!attr(objs[i],"rel")) continue;
-	objs[i].onmouseover = function(event){
-	  cancel(event);
-	  css(".asset_"+attr(this,"rel"),"backgroundColor",css_conf.bg_green);
-	};
-	objs[i].onmouseout = function(){
-	  var id = attr(this,"rel");
-	  var obj = getObj("check_"+id);
-	  if (obj && obj.checked) color = css_conf.bg_red; else color = "";
-	  css(".asset_"+id,"backgroundColor",color);
-	};
+    if (!attr(objs[i],"rel")) continue;
+    objs[i].onmouseover = function(event){
+      cancel(event);
+      css(".asset_"+attr(this,"rel"),"backgroundColor",css_conf.bg_green);
+    };
+    objs[i].onmouseout = function(){
+      var id = attr(this,"rel");
+      var obj = getObj("check_"+id);
+      if (obj && obj.checked) color = css_conf.bg_red; else color = "";
+      css(".asset_"+id,"backgroundColor",color);
+    };
   }
   objs = getObjs(".mdown");
   for (var i=0; i<objs.length; i++) {
-	if (!attr(objs[i],"rel")) continue;
-	objs[i].onmousedown = function(event){
-	  if (is_nested_target(event, this)) return;
-	  var id = attr(this,"rel");
-	  show2("view_buttons");
-	  var obj = getObj("check_"+id);
-	  if (obj) obj.checked = !obj.checked;
-	  if (obj && obj.checked) color = css_conf.bg_red; else color = "";
-	  css(".asset_"+id,"backgroundColor",color);
-	};
-	if (dblclick && !iframe) objs[i].ondblclick = function(){
-	  locate("index.php?folder="+escape(tfolder)+"&view="+dblclick+"&item[]="+attr(this,"rel"));
-	};
+    if (!attr(objs[i],"rel")) continue;
+    objs[i].onmousedown = function(event){
+      if (is_nested_target(event, this)) return;
+      var id = attr(this,"rel");
+      show2("view_buttons");
+      var obj = getObj("check_"+id);
+      if (obj) obj.checked = !obj.checked;
+      if (obj && obj.checked) color = css_conf.bg_red; else color = "";
+      css(".asset_"+id,"backgroundColor",color);
+    };
+    if (dblclick && !iframe) objs[i].ondblclick = function(){
+      locate("index.php?folder="+escape(tfolder)+"&view="+dblclick+"&item[]="+attr(this,"rel"));
+    };
   }
   if (!preview && !iframe) {
-	objs = getObjs(".hide_fields");
-	for (var i=0; i<objs.length; i++) {
-	  objs[i].onmouseover = function(event){
-		css(this.getElementsByTagName("a"), "visibility", "visible");
-	  };
-	  objs[i].onmouseout = function(event){
-		css(this.getElementsByTagName("a"), "visibility", "hidden");
-	  };
-	}
+    objs = getObjs(".hide_fields");
+    for (var i=0; i<objs.length; i++) {
+      objs[i].onmouseover = function(event){
+        css(this.getElementsByTagName("a"), "visibility", "visible");
+      };
+      objs[i].onmouseout = function(event){
+        css(this.getElementsByTagName("a"), "visibility", "hidden");
+      };
+    }
   }
   objs = getObjs(".drag_asset");
   for (var i=0; i<objs.length; i++) {
     objs[i].draggable = "true";
-	objs[i].ondragstart = function(event){
-	  var params = {"folder":tfolder, "view":tview, "type":"asset"};
-	  params["items"] = assets_get_selected(true);
-	  var item = attr(this,"rel");
-	  if (params["items"].join(" ").indexOf(item)==-1) params["items"].push(item);
-	  drag_handler(event, params, params["items"].join(", "));
-	}
-	objs[i].onmousedown = cancel;
+    objs[i].ondragstart = function(event){
+      var params = {"folder":tfolder, "view":tview, "type":"asset"};
+      params["items"] = assets_get_selected(true);
+      var item = attr(this,"rel");
+      if (params["items"].join(" ").indexOf(item)==-1) params["items"].push(item);
+      drag_handler(event, params, params["items"].join(", "));
+    }
+    objs[i].onmousedown = cancel;
   }
   document.onkeydown=keys;
   bind_drop_tree();
@@ -278,8 +278,8 @@ function start() {
   auto_scroll_tree(tfolder);
   var objs = getObjs(".onload");
   for (var i=0; i<objs.length; i++) {
-	objs[i].func = new Function("", attr(objs[i], "onload"));
-	objs[i].func();
+    objs[i].func = new Function("", attr(objs[i], "onload"));
+    objs[i].func();
   }
 }
 
@@ -302,11 +302,11 @@ function bind_drop_files() {
   show(".file_upload_text");
   var objs = getObjs(".file_upload");
   for (var i=0; i<objs.length; i++) {
-	objs[i].ondragenter = function(){ css(this,"backgroundColor",css_conf.bg_red_over); };
-	objs[i].ondragleave = function(event){
-	  if (is_nested_target(event, this)) return;
-	  css(this,"backgroundColor","");
-	};
+    objs[i].ondragenter = function(){ css(this,"backgroundColor",css_conf.bg_red_over); };
+    objs[i].ondragleave = function(event){
+      if (is_nested_target(event, this)) return;
+      css(this,"backgroundColor","");
+    };
   }
 }
 
@@ -314,16 +314,16 @@ function bind_drop_tree() {
   var objs = getObjs(".drop_tree");
   for (var i=0; i<objs.length; i++) {
     objs[i].draggable = "true";
-	objs[i].ondragenter = function(){ auto_scroll_tree(this); css(this,"backgroundColor", css_conf.bg_red_over); return false; };
-	objs[i].ondragleave = function(event){
-	  if (is_nested_target(event, this)) return;
-	  css(this,"backgroundColor", "");
-	};
-	objs[i].ondragover = function(){ return false; };
-	objs[i].ondrop = drop_tree;
-	objs[i].ondragstart = function(event){
-	  drag_handler(event, {"type":"folder", "items":attr(this,"rel")}, this.innerHTML.replace(/<img.*?>/g,""));
-	};
+    objs[i].ondragenter = function(){ auto_scroll_tree(this); css(this,"backgroundColor", css_conf.bg_red_over); return false; };
+    objs[i].ondragleave = function(event){
+      if (is_nested_target(event, this)) return;
+      css(this,"backgroundColor", "");
+    };
+    objs[i].ondragover = function(){ return false; };
+    objs[i].ondrop = drop_tree;
+    objs[i].ondragstart = function(event){
+      drag_handler(event, {"type":"folder", "items":attr(this,"rel")}, this.innerHTML.replace(/<img.*?>/g,""));
+    };
   }
 }
 
@@ -340,17 +340,17 @@ function getObj(id) {
 function getObjs(val) {
   if (!val) return [];
   if (typeof(val)=="string") {
-	if (val.charAt(0)==".") {
-	  // IE
-	  if (!document.getElementsByClassName) document.getElementsByClassName = getElementsByClassName;
-	  objs = document.getElementsByClassName(val.substring(1));
-	} else {
-	  objs = [getObj(val)];
-	}
+    if (val.charAt(0)==".") {
+      // IE
+      if (!document.getElementsByClassName) document.getElementsByClassName = getElementsByClassName;
+      objs = document.getElementsByClassName(val.substring(1));
+    } else {
+      objs = [getObj(val)];
+    }
   } else if (val.length) {
     objs = val;
   } else {
-	objs = [val];
+    objs = [val];
   }
   return objs;
 }
@@ -361,9 +361,9 @@ function form_values(class_name) {
   if (objs.length==0 || !objs[0]) return params;
   for (var i=0; i<objs.length; i++) {
     if (!objs[i].id) continue;
-	var id = objs[i].id;
-	if (!params[id]) params[id] = [];
-	params[id].push(val(objs[i]));
+    var id = objs[i].id;
+    if (!params[id]) params[id] = [];
+    params[id].push(val(objs[i]));
   }
   return params;
 }
@@ -373,13 +373,13 @@ function form_changed(form) {
   for (var i=0; i < form.elements.length; i++) {
     var elem = form.elements[i];
     var type = elem.type;
-	if (!elem.name) continue;
+    if (!elem.name) continue;
     if (type=="checkbox" || type=="radio") {
       if (elem.checked != elem.defaultChecked) return true;
     } else if (type=="hidden" || type=="password" || type=="text" || type=="textarea") {
       if (elem.value != elem.defaultValue) return true;
     } else if (type=="select-one") {
-	  if (!elem.options[elem.selectedIndex].defaultSelected) return true;
+      if (!elem.options[elem.selectedIndex].defaultSelected) return true;
     } else if (type=="select-multiple") {
       for (var j=0; j < elem.options.length; j++) {
         if (elem.options[j].selected != elem.options[j].defaultSelected) return true;
@@ -394,16 +394,16 @@ function val(obj) {
     if (obj.checked) return obj.value; return "";
   }
   if (obj.options) {
-	if (!obj.multiple) {
-	  if (obj.selectedIndex == -1) return "";
-	  return obj.options[obj.selectedIndex].value;
-	} else {
-	  var arr = [];
-	  for (var i=0; i<obj.options.length; i++) {
-		arr.push(obj.options[i].value);
-	  }
-	  return arr.join("|");
-	}
+    if (!obj.multiple) {
+      if (obj.selectedIndex == -1) return "";
+      return obj.options[obj.selectedIndex].value;
+    } else {
+      var arr = [];
+      for (var i=0; i<obj.options.length; i++) {
+        arr.push(obj.options[i].value);
+      }
+      return arr.join("|");
+    }
   }
   return obj.value;
 }
@@ -411,7 +411,7 @@ function val(obj) {
 function _selectbox_find(obj, key) {
   if (!obj.options || obj.options.length==0) return -1;
   for (var i=0; i<obj.options.length; i++) {
-	if (obj.options[i].value == key) return i;
+    if (obj.options[i].value == key) return i;
   }
   return -1;
 }
@@ -420,23 +420,23 @@ function set_val(obj, val) {
   if (typeof(obj)=="string") obj = getObj(obj);
   if (!obj) return;
   if (obj.type=="checkbox" || obj.type=="radio") {
-	obj.checked = val ? true : false;
+    obj.checked = val ? true : false;
   } else if (obj.options) {
-	if (val=="") {
-	  if (obj.multiple) obj.options.length = 0; else obj.selectedIndex = -1;
-	  return;
-	}
-	if (obj.multiple && val.indexOf("|")!=-1) {
-	  val = val.split("|");
-	  for (var i=0; i<val.length; i++) set_val(obj, val[i]);
-	} else {
-	  var index = _selectbox_find(obj, val);
-	  if (index == -1) {
-		index = obj.options.length;
-		obj.options[index] = new Option(val,val);
-	  }
-	  if (!obj.multiple) obj.options[index].selected = true;
-	}
+    if (val=="") {
+      if (obj.multiple) obj.options.length = 0; else obj.selectedIndex = -1;
+      return;
+    }
+    if (obj.multiple && val.indexOf("|")!=-1) {
+      val = val.split("|");
+      for (var i=0; i<val.length; i++) set_val(obj, val[i]);
+    } else {
+      var index = _selectbox_find(obj, val);
+      if (index == -1) {
+        index = obj.options.length;
+        obj.options[index] = new Option(val,val);
+      }
+      if (!obj.multiple) obj.options[index].selected = true;
+    }
   } else obj.value = val;
 }
 
@@ -455,21 +455,21 @@ function set_attr(obj, name, value) {
   var objs = getObjs(obj);
   if (objs.length==0 || !objs[0]) return;
   for (var i=0; i<objs.length; i++) {
-	if (name.indexOf("on")==0 || name=="value") {
-	  objs[i][name] = value;
-	} else {
-	  objs[i].setAttribute(name, value);
+    if (name.indexOf("on")==0 || name=="value") {
+      objs[i][name] = value;
+    } else {
+      objs[i].setAttribute(name, value);
 } } }
 
 function add_style(selector, style) {
   var objs = getObj("content").getElementsByTagName("iframe");
   if (objs.length > 0) {
     for (var i=0; i<objs.length; i++) {
-	  if (!objs[i].contentWindow) continue;
-	  var css = objs[i].contentWindow.document.styleSheets[0];
-	  if (!css) continue;
-	  css_conf.insertRule(selector + "{"+style+"}", 0);
-	  objs[i].contentWindow.resizeit();
+      if (!objs[i].contentWindow) continue;
+      var css = objs[i].contentWindow.document.styleSheets[0];
+      if (!css) continue;
+      css_conf.insertRule(selector + "{"+style+"}", 0);
+      objs[i].contentWindow.resizeit();
   } }
   document.styleSheets[0].insertRule(selector + "{"+style+"}", 0);
 }
@@ -512,10 +512,10 @@ function findPosY(obj) {
   if (typeof(obj)=="string") obj = getObj(obj);
   var curtop = 0;
   if (obj.offsetParent) {
-	while (obj.offsetParent) {
-	  curtop += obj.offsetTop;
-	  obj = obj.offsetParent;
-	}
+    while (obj.offsetParent) {
+      curtop += obj.offsetTop;
+      obj = obj.offsetParent;
+    }
   } else if (obj.y) curtop += obj.y;
   return curtop;
 }
@@ -524,10 +524,10 @@ function findPosX(obj) {
   if (typeof(obj)=="string") obj = getObj(obj);
   var curtop = 0;
   if (obj.offsetParent) {
-	while (obj.offsetParent) {
-	  curtop += obj.offsetLeft;
-	  obj = obj.offsetParent;
-	}
+    while (obj.offsetParent) {
+      curtop += obj.offsetLeft;
+      obj = obj.offsetParent;
+    }
   } else if (obj.x) curtop += obj.x;
   return curtop;
 }
@@ -550,7 +550,7 @@ function showhide(obj) {
   if (!obj) return false;
   if (obj.style.display=="none") {
     show2(obj);
-	return true;
+    return true;
   } else hide(obj);
   return false;
 }
@@ -559,7 +559,7 @@ function showhide_inline(obj) {
   if (!obj) return false;
   if (obj.style.display=="none") {
     show(obj);
-	return true;
+    return true;
   } else hide(obj);
   return false;
 }
@@ -579,9 +579,9 @@ function focus_form(obj) {
   if (objs.length > 0) {
     var elems = objs[0].elements;
     for (var i=0; i<elems.length; i++) {
-	  if (elems[i].type != "hidden" && elems[i].type != "checkbox" && elems[i].name != "") {
-	    elems[i].focus();
-		break;
+      if (elems[i].type != "hidden" && elems[i].type != "checkbox" && elems[i].name != "") {
+        elems[i].focus();
+        break;
 } } } }
 
 function set_html(obj,txt) {
@@ -598,9 +598,9 @@ function sys_alert(str) {
   var result = "";
   while (str.length > 0) {
     var pos = str.indexOf("\n");
-	if (pos == -1 || pos > 120) pos = 120;
+    if (pos == -1 || pos > 120) pos = 120;
     result += str.substring(0, pos+1)+"\n";
-	str = str.substring(pos+1);
+    str = str.substring(pos+1);
   }
   alert(result);
 }
@@ -617,14 +617,14 @@ function open_window(address,name,width,height) {
   var scrollbars = "no";
   if (width>640) {
     loc = "yes";
-	scrollbars = "yes";
+    scrollbars = "yes";
   }
   var wname = name;
   if (window.name == wname) wname += Math.random();
   var my_win = window.open(address,wname.replace(".",""),"location="+loc+",scrollbars="+scrollbars+",resizable=yes,width="+width+",height="+height);
   try {
     my_win.moveTo(_left,_top);
-	my_win.resizeTo(width,height);
+    my_win.resizeTo(width,height);
   } catch (e) {} // ie7
   my_win.name = name;
   return my_win;
@@ -684,7 +684,7 @@ function in_array(val,arr) {
 function has_flash() {
   if (navigator.plugins["Shockwave Flash"]) return;
   try {
-	if (new ActiveXObject("ShockwaveFlash.ShockwaveFlash")) return;
+    if (new ActiveXObject("ShockwaveFlash.ShockwaveFlash")) return;
   } catch (e) {}
   document.write("{t}Flash plugin not installed.{/t}");
 }
@@ -707,23 +707,23 @@ function save_cookie() {
 function notify(str, warn) {
   if (str=="") return;
   if (sys.menu_autohide) {
-	set_attr("notification2", "class", "tabstyle"+(warn?" red":""));
-	set_html("notification2", "{t}Notification{/t}: "+str);
+    set_attr("notification2", "class", "tabstyle"+(warn?" red":""));
+    set_html("notification2", "{t}Notification{/t}: "+str);
   } else {
-	set_attr("notification", "class", "menu_notification"+(warn?" red":""));
-	set_html("notification", "{t}Notification{/t}: "+str);
+    set_attr("notification", "class", "menu_notification"+(warn?" red":""));
+    set_html("notification", "{t}Notification{/t}: "+str);
   }
 }
 
 function refreshit() {
   if (iframe || popup || schema_mode) return;
   ajax("folder_has_changed", [tfolder, sys_time], function(result) {
-	if (result) {
-	  notify("{t}Folder has changed.{/t} <a href='index.php?folder="+escape(tfolder)+"&view="+tview+"'>({t}Refresh{/t})</a>");
-	  document.title = "({t}Changed{/t}) "+document.title;
-	} else {
-	  refresh_timer = setTimeout(refreshit, sys.folder_refresh*1000);
-	}
+    if (result) {
+      notify("{t}Folder has changed.{/t} <a href='index.php?folder="+escape(tfolder)+"&view="+tview+"'>({t}Refresh{/t})</a>");
+      document.title = "({t}Changed{/t}) "+document.title;
+    } else {
+      refresh_timer = setTimeout(refreshit, sys.folder_refresh*1000);
+    }
   });
 }
 
@@ -734,18 +734,18 @@ function resizeit() {
   if (sys.is_mobile) css(".vertical","display",width<=320 ? "none" : "inline");
 
   if ((iframe || preview) && typeof(parent.window)!="unknown" && window.name!="pane" && window.name!="pane2") {
-	var obj = parent.window.getObj(window.name);
-	if (obj != null) {
-	  var height_main = getObj("main").clientHeight;
-	  var obj_iframe = obj;
-	  if (obj_iframe.tagName.toLowerCase()!="iframe") obj_iframe = obj.getElementsByTagName("iframe")[0];
-	  if (height_main > 10) {
-		obj_iframe.style.height = height_main+"px";
-		return;
+    var obj = parent.window.getObj(window.name);
+    if (obj != null) {
+      var height_main = getObj("main").clientHeight;
+      var obj_iframe = obj;
+      if (obj_iframe.tagName.toLowerCase()!="iframe") obj_iframe = obj.getElementsByTagName("iframe")[0];
+      if (height_main > 10) {
+        obj_iframe.style.height = height_main+"px";
+        return;
   } } }
   if (iframe && (window.name=="pane" || window.name=="pane2")) {
-	show2("pane_close");
-	hide("tab_spacer");
+    show2("pane_close");
+    hide("tab_spacer");
   }
   if (sys.browser.no_scrollbar) return;
   
@@ -755,41 +755,41 @@ function resizeit() {
   if (tree_frame) {
     var height_obj = findPosY(tree_frame);
     var tree_def = getObj("tree_def");
-	tree_frame.style.height = (height-height_obj-1)+"px";
+    tree_frame.style.height = (height-height_obj-1)+"px";
     tree_def.style.height = (height-height_obj-1)+"px";
 
-	var pane_width = 0;
-	if (vpane > 1) {
-	  pane_width = Math.floor(width*pane2);
-	  getObj("pane2").style.width = (pane_width-4)+"px";
-	}
-	content_def.style.width = (width-tree_width-pane_width-4)+"px";
-	if (getObj("tree").style.display!="none") tree_def.style.width = tree_width+"px";
-	if (vpane > 1 && hpane > 1) getObj("pane").style.width = content_def.style.width;
+    var pane_width = 0;
+    if (vpane > 1) {
+      pane_width = Math.floor(width*pane2);
+      getObj("pane2").style.width = (pane_width-4)+"px";
+    }
+    content_def.style.width = (width-tree_width-pane_width-4)+"px";
+    if (getObj("tree").style.display!="none") tree_def.style.width = tree_width+"px";
+    if (vpane > 1 && hpane > 1) getObj("pane").style.width = content_def.style.width;
   }
 
   var fixed_footer = getObj("fixed_footer");
   if (content_def) {
     var height_obj = findPosY(content_def);
     var content_def_table = getObj("content_def_table");
-	var height2 = height;
-	if (fixed_footer) height2 -= fixed_footer.offsetHeight;
-	if (hpane > 1) height2 = Math.floor(height*pane);
-	if (!sys.is_mobile) content_def.style.height = (height2-height_obj-1)+"px";
+    var height2 = height;
+    if (fixed_footer) height2 -= fixed_footer.offsetHeight;
+    if (hpane > 1) height2 = Math.floor(height*pane);
+    if (!sys.is_mobile) content_def.style.height = (height2-height_obj-1)+"px";
     content_def_table.style.height = (height2-height_obj-1)+"px";
   }
   
   var height2 = fixed_footer ? fixed_footer.offsetHeight+1 : 0;
   if (hpane > 1) {
-	var obj_pane = getObj("pane");
- 	obj_pane.style.height = (height-findPosY(obj_pane)-height2)+"px";
+    var obj_pane = getObj("pane");
+     obj_pane.style.height = (height-findPosY(obj_pane)-height2)+"px";
   }
   if (vpane > 1) {
-	var obj_pane = getObj("pane2");
-	obj_pane.style.height = (height-findPosY(obj_pane)-height2)+"px";
+    var obj_pane = getObj("pane2");
+    obj_pane.style.height = (height-findPosY(obj_pane)-height2)+"px";
   }
   if (tree_frame) {
-	tree_scroll(tree_scroll_pos);
+    tree_scroll(tree_scroll_pos);
   }
 }
 
@@ -802,8 +802,8 @@ function switch_wrap(field_w, event) {
   field = field[0];
   if (field.style.overflow=="hidden") {
     field.style.overflow="visible";
-	var len = field.innerHTML.replace(/<img.*?>/g,"  ").replace(/&.*?;/g," ").replace(/<script>.*?<\/script>|<.*?>/g,"").length;
-	if (field.parentNode.offsetWidth < (len*7)) field.parentNode.style.width=(len*7)+"px";
+    var len = field.innerHTML.replace(/<img.*?>/g,"  ").replace(/&.*?;/g," ").replace(/<script>.*?<\/script>|<.*?>/g,"").length;
+    if (field.parentNode.offsetWidth < (len*7)) field.parentNode.style.width=(len*7)+"px";
   }
 }
 
@@ -815,8 +815,8 @@ function change_tab(classname,id) {
   css(getObjs("."+classname+"2"),"marginBottom",id?"0px":"2px");
   
   if (/MSIE/.test(navigator.userAgent)) {
-	set_attr("."+classname,"className",classname+" tabstyle");
-	set_attr(classname+id,"className",classname+" tabstyle2");
+    set_attr("."+classname,"className",classname+" tabstyle");
+    set_attr(classname+id,"className",classname+" tabstyle2");
   }
   if (iframe) resizeit();
 }
@@ -826,26 +826,26 @@ function portal_change(id,size) {
   var objs = obj.getElementsByTagName("iframe");
   if (objs.length==0) return;
   for (var i=0; i<objs.length; i++) {
-  	if (objs[i].offsetHeight+size > 0) objs[i].style.height = (objs[i].offsetHeight+size)+"px";
-	if (!objs[i].contentWindow) continue;
-	try {
-	  if (size<0) {
-		objs[i].contentWindow.hide(".tfields");
-	  } else {
-		objs[i].contentWindow.show2(".tfields");
-	  }
-	} catch (e) {}
+      if (objs[i].offsetHeight+size > 0) objs[i].style.height = (objs[i].offsetHeight+size)+"px";
+    if (!objs[i].contentWindow) continue;
+    try {
+      if (size<0) {
+        objs[i].contentWindow.hide(".tfields");
+      } else {
+        objs[i].contentWindow.show2(".tfields");
+      }
+    } catch (e) {}
   }
 }
 
 function portal_refresh(id,time,init) {
   var obj = getObj(id);
   if (obj && obj.src!="about:blank" && time!=0) {
-	if (!init && (sys.is_guest || getObj("login_reminder").style.display!="inline")) {
-	  obj.src = obj.src;
-	}
-	if (time < 10) time = 10;
-	setTimeout(function(){ portal_refresh(id,time,0); },time*1000);
+    if (!init && (sys.is_guest || getObj("login_reminder").style.display!="inline")) {
+      obj.src = obj.src;
+    }
+    if (time < 10) time = 10;
+    setTimeout(function(){ portal_refresh(id,time,0); },time*1000);
   }
 }
 
@@ -886,7 +886,7 @@ function assets_get_selected(array) {
   var objs = getObjs(".asset_check");
   for (var i=0; i<objs.length; i++) {
     var id = objs[i].value;
-	if (getObj("check_"+id).checked) items.push(id);
+    if (getObj("check_"+id).checked) items.push(id);
   }
   if (array) return items;
   var result = "";
@@ -919,7 +919,7 @@ function asset_action(mode, timeout) {
 function asset_form_selected() {
   if (assets_get_selected(false)=="") {
     sys_alert("{t}No dataset selected.{/t}");
-	return false;
+    return false;
   }
   return true;
 }
@@ -928,7 +928,7 @@ function mselectall(checked) {
   var objs = getObjs(".asset_check");
   for (var i=0; i<objs.length; i++) {
     var id = objs[i].value;
-	getObj("check_"+id).checked = !checked;
+    getObj("check_"+id).checked = !checked;
     if (getObj("check_"+id).checked) color = css_conf.bg_red; else color = "";
     css(".asset_"+id,"backgroundColor",color);
   }
@@ -951,10 +951,10 @@ function customize_field() {
   else if (action=="notinall") params["notinall"] = 1;
   else if (action=="rename") params["displayname"] = val("cust_field_name");
   else {
-	  params["displayname"] = val("cust_field_name");
-	  params["fbefore"] = params["field"];
-	  params["field"] = val("cust_field_name").replace(/[^a-z0-9_]/ig, "");
-	  params["simple_type"] = action;
+      params["displayname"] = val("cust_field_name");
+      params["fbefore"] = params["field"];
+      params["field"] = val("cust_field_name").replace(/[^a-z0-9_]/ig, "");
+      params["simple_type"] = action;
   }
   if (getObj("cust_field_folder").checked) params["ffolder"] = tfolder;
 
@@ -962,9 +962,9 @@ function customize_field() {
   if (action=="rename" && params["displayname"]=="") return;
 
   ajax("sgsml_customizer::ajax_get_field", [params["module"], params["field"]], function(data) {
-	if (data.length==0) data = {};
+    if (data.length==0) data = {};
     for (var key in params) data[key] = params[key];
-	ajax("asset_insert", ["!sys_custom_fields", "new", data], ajax_locate_folder);
+    ajax("asset_insert", ["!sys_custom_fields", "new", data], ajax_locate_folder);
   });
 }
 
@@ -986,7 +986,7 @@ function folder_selectall(checked) {
   var objs = getObj("tcategories").getElementsByTagName("input");
   if (objs.length>0) {
     for (var i1=0; i1<objs.length; i1++) {
-	  if (typeof(objs[i1].checked) != "undefined") objs[i1].checked = checked;
+      if (typeof(objs[i1].checked) != "undefined") objs[i1].checked = checked;
 } } }
 
 function tree_refresh(id) {
@@ -1006,36 +1006,36 @@ function tree_open(id) {
     ajax("tree_close", [id], null);
   } else {
     ajax("tree_open", [id], function(data) {
-	  var out = "";
-	  for (i in data.children) {
-		var img = "plus";
-	    var item = data.children[i];
-		if (!item.id) continue;
-	    item.id = html_escape(item.id);
-		item.fdescription = item.id.replace(/^.+:\d+\//, "") + " " + item.fdescription;
-	    out += "<div class='drop_tree' rel='"+html_escape(item.id)+"' title='"+html_escape(item.fdescription)+"' style='white-space:nowrap;'>";
-	    for (j=0; j <= data.level; j++) out += "<img src='ext/icons/line.gif'>";
-		if (item.ffcount + item.mp == 0) img = "line";
-	    out += "<a onclick='tree_open(\""+item.id+"\");'><img id='"+item.id+"_img' src='ext/icons/"+img+".gif'></a>&nbsp;";
-		out += "<a href='index.php?folder="+item.id+"' "+(item.id==tfolder?"style='font-weight:bold;'":"")+">";
+      var out = "";
+      for (i in data.children) {
+        var img = "plus";
+        var item = data.children[i];
+        if (!item.id) continue;
+        item.id = html_escape(item.id);
+        item.fdescription = item.id.replace(/^.+:\d+\//, "") + " " + item.fdescription;
+        out += "<div class='drop_tree' rel='"+html_escape(item.id)+"' title='"+html_escape(item.fdescription)+"' style='white-space:nowrap;'>";
+        for (j=0; j <= data.level; j++) out += "<img src='ext/icons/line.gif'>";
+        if (item.ffcount + item.mp == 0) img = "line";
+        out += "<a onclick='tree_open(\""+item.id+"\");'><img id='"+item.id+"_img' src='ext/icons/"+img+".gif'></a>&nbsp;";
+        out += "<a href='index.php?folder="+item.id+"' "+(item.id==tfolder?"style='font-weight:bold;'":"")+">";
 
-		if (item.icon) {
-		  out += "<a href='index.php?folder="+item.id+"' "+(item.id==tfolder?"style='font-weight:bold;'":"")+"><img src='ext/modules/"+item.icon+"'> ";
-		} else if (css_conf.tree_icons) {
-		  if (item.anchor && item.anchor.indexOf("_")==-1) icon = "anchor_"+item.anchor; else icon = item.ftype;
-		  out += "<a href='index.php?folder="+item.id+"' "+(item.id==tfolder?"style='font-weight:bold;'":"")+"><img src='ext/modules/"+icon+".png'> ";
-		} else {
-		  out += "<img src='ext/cache/folder1_"+sys_style+".gif'> ";
-		}
-	    out += html_escape(item.ftitle)+"&nbsp;";
-	    if (item.fcount > 0) out += "("+item.fcount+")";
-	    out += "</a></div><div id='"+item.id+"' style='display:none;'></div>";
-	  }
-	  if (out!="") obj2.src = "ext/icons/minus.gif"; else obj2.src = "ext/icons/line.gif";
+        if (item.icon) {
+          out += "<a href='index.php?folder="+item.id+"' "+(item.id==tfolder?"style='font-weight:bold;'":"")+"><img src='ext/modules/"+item.icon+"'> ";
+        } else if (css_conf.tree_icons) {
+          if (item.anchor && item.anchor.indexOf("_")==-1) icon = "anchor_"+item.anchor; else icon = item.ftype;
+          out += "<a href='index.php?folder="+item.id+"' "+(item.id==tfolder?"style='font-weight:bold;'":"")+"><img src='ext/modules/"+icon+".png'> ";
+        } else {
+          out += "<img src='ext/cache/folder1_"+sys_style+".gif'> ";
+        }
+        out += html_escape(item.ftitle)+"&nbsp;";
+        if (item.fcount > 0) out += "("+item.fcount+")";
+        out += "</a></div><div id='"+item.id+"' style='display:none;'></div>";
+      }
+      if (out!="") obj2.src = "ext/icons/minus.gif"; else obj2.src = "ext/icons/line.gif";
       show(obj);
-	  obj.innerHTML = out;
-	  bind_drop_tree();
-	});
+      obj.innerHTML = out;
+      bind_drop_tree();
+    });
   }
 }
 
@@ -1044,7 +1044,7 @@ function tree_showhide() {
   showhide("tree_button");
   if (getObj("tree").style.display!="none") {
     tree_width = 235;
-	save_cookie();
+    save_cookie();
   } else tree_width = -2;
   resizeit();
 }
@@ -1052,27 +1052,27 @@ function tree_showhide() {
 function folder_info() {
   var obj = getObj("folder_info");
   ajax("folder_info", [tfolder], function(data) {
-	obj.innerHTML = data;
-	show2("folder_info");
+    obj.innerHTML = data;
+    show2("folder_info");
   });
 }
 
 function folder_mountpoint() {
   var obj = getObj("folder_info");
   ajax("folder_mountpoint", [tfolder], function(data) {
-	obj.innerHTML = data;
-	show2("folder_info");
-	mountpoint_parse(attr("tree_mountpoint_form","rel"));
-	getObj("mount_proto").focus();
+    obj.innerHTML = data;
+    show2("folder_info");
+    mountpoint_parse(attr("tree_mountpoint_form","rel"));
+    getObj("mount_proto").focus();
   });
 }
 
 function folder_options(create) {
   var obj = getObj("folder_info");
   ajax("folder_options", [tfolder,create], function(data) {
-	obj.innerHTML = data;
-	show2("folder_info");
-	getObj("ftitle").focus();
+    obj.innerHTML = data;
+    show2("folder_info");
+    getObj("ftitle").focus();
   });
 }
 
@@ -1094,8 +1094,8 @@ function folder_categories_save() {
 function folder_categories() {
   var obj = getObj("folder_info");
   ajax("folder_get_category", [ftype,tfolder,tfolders], function(data) {
-	obj.innerHTML = data;
-	show2("folder_info");
+    obj.innerHTML = data;
+    show2("folder_info");
   });
 }
 
@@ -1106,8 +1106,8 @@ function calendar(obj_target,time,callback) {
   obj_target = getObj(obj_target);
   this.popup_open = calendar_popup;
   if (!obj_target || !obj_target.id) {
-	alert("Error calling the calendar: no target control specified");
-	return;
+    alert("Error calling the calendar: no target control specified");
+    return;
   }
   this.target = obj_target;
   this.time_comp = time;
@@ -1173,22 +1173,22 @@ function mountpoint_parse(mountpoint) {
   var re = /^(imap|smtp|pop3|ldap|cifs|gdocs):([^:@]*):?([^:@]*):?([^:@]*):?([^:@]*):?([^:@]*)(@[^\/]*)?\/(.*?)$/;
   if ((m = re.exec(mountpoint))) {
     getObj("mount_proto").value = m[1];
-	var user = "";
-	var pass = "";
-	var options = "";
-	if (m[2] && m[3]) {
-	  user = _mountpoint_unescape(m[2]);
-	  pass = _mountpoint_unescape(m[3]);
-	}
-	if (m[6]) options = _mountpoint_unescape(m[6]);
+    var user = "";
+    var pass = "";
+    var options = "";
+    if (m[2] && m[3]) {
+      user = _mountpoint_unescape(m[2]);
+      pass = _mountpoint_unescape(m[3]);
+    }
+    if (m[6]) options = _mountpoint_unescape(m[6]);
     getObj("mount_user").value = user;
     getObj("mount_pass").value = pass;
     getObj("mount_port").value = m[4];
     getObj("mount_enc").value = m[5];
     getObj("mount_options").value = options;
-	var host = m[2];
-	if (m[7]) host = m[7].substr(1);
-	getObj("mount_host").value = host;
+    var host = m[2];
+    if (m[7]) host = m[7].substr(1);
+    getObj("mount_host").value = host;
     getObj("mount_path").value = m[8];
     mountpoint_show(m[1]);
   } else {
@@ -1196,23 +1196,23 @@ function mountpoint_parse(mountpoint) {
     if ((m = re.exec(mountpoint))) {
       getObj("mount_proto").value = m[1];
       getObj("mount_path").value = m[2];
-  	  mountpoint_show(m[1]);
+        mountpoint_show(m[1]);
 } } }
 
 function mountpoint_show(proto) {
   var re = /^(imap|smtp|pop3|ldap|cifs|gdocs)$/;
   if (re.exec(proto)) {
-	show2("mount_auth");
-	show2("mount_details");
-	if (proto=="gdocs") {
-	  set_val("mount_host", "docs.google.com");
-	  set_attr(".mp2", "value", "");  
-	  hide("mount_details");
-	}
+    show2("mount_auth");
+    show2("mount_details");
+    if (proto=="gdocs") {
+      set_val("mount_host", "docs.google.com");
+      set_attr(".mp2", "value", "");  
+      hide("mount_details");
+    }
   } else {
-	hide("mount_auth");
-	hide("mount_details");
-	set_attr(".mp", "value", "");  
+    hide("mount_auth");
+    hide("mount_details");
+    set_attr(".mp", "value", "");  
   }
 }
 
@@ -1228,11 +1228,11 @@ function show_pane() {
 
 function hidepane(name) {
   if (name=="pane") {
-	hpane=1;
-	hide("content_pane");
+    hpane=1;
+    hide("content_pane");
   } else {
-	vpane=1;
-	hide("content_pane2");
+    vpane=1;
+    hide("content_pane2");
   }
   resizeit();
 }
@@ -1268,7 +1268,7 @@ function resize_pane2(event) {
   getObj("pane2").style.visibility="hidden";
   pane2 = 1-event.clientX/return_width();
   if (pane2 > 0.5 || pane2 < 0.15) {
-	pane2=0.27;
+    pane2=0.27;
     hidepane("pane2");
   } else resizeit();
   if (pane_timer!=null) clearTimeout(pane_timer);
@@ -1283,7 +1283,7 @@ function resize_pane(event) {
   getObj("pane").style.visibility="hidden";
   pane = event.clientY/return_height()-0.005;
   if (pane > 0.9 || pane < 0.25) {
-	pane=0.53;
+    pane=0.53;
     hidepane("pane");
   } else resizeit();
   if (pane_timer!=null) clearTimeout(pane_timer);
@@ -1296,8 +1296,8 @@ function ______A_J_A_X______() {}
 
 function asset_update(data, id) {
   if (typeof(id)=="object") {
-	for (var i=0; i<id.length; i++) asset_update(data, id[i]);
-	return;
+    for (var i=0; i<id.length; i++) asset_update(data, id[i]);
+    return;
   }
   ajax("asset_update", [tfolder, "edit", data, id], ajax_locate_folder);
 }
@@ -1321,10 +1321,10 @@ function asset_insert_prompt(fields, field_names) {
   var values = prompt_value.split(",");
   for (var i=0; i<values.length; i++) {
     if (!fields[i]) {
-	  fields[i] = values[i].split(":")[0].replace(/^\s+|\s+$/g,""); // trim
-	  values[i] = values[i].split(":")[1];
-	}
-	if (values[i] != null) data[fields[i]] = values[i].replace(/\\k/g,",").replace(/\\n/g,"\n").replace(/^\s+|\s+$/g,""); // trim
+      fields[i] = values[i].split(":")[0].replace(/^\s+|\s+$/g,""); // trim
+      values[i] = values[i].split(":")[1];
+    }
+    if (values[i] != null) data[fields[i]] = values[i].replace(/\\k/g,",").replace(/\\n/g,"\n").replace(/^\s+|\s+$/g,""); // trim
   }
   asset_insert(data);
 }
@@ -1346,30 +1346,30 @@ function ajax(func, params, callback, timeout) {
   xmlhttp.setRequestHeader("X-Requested-With", "XMLHttpRequest");
   pending_request++;
   var timer = setTimeout(function() {
-	timer = null;
-	xmlhttp.abort();
-	sys_alert("{t}Error doing request to xmlhttp{/t}: {t}timeout{/t} "+func);
+    timer = null;
+    xmlhttp.abort();
+    sys_alert("{t}Error doing request to xmlhttp{/t}: {t}timeout{/t} "+func);
   }, timeout);
   var image = get_loading(func);
   var loading = setTimeout(function() { show(image); }, 750);
   xmlhttp.onreadystatechange = function() {
     if (xmlhttp.readyState == 4) {
-	  pending_request--;
-	  if (loading != null) clearTimeout(loading);
-	  hide(image);
-	  if (timer != null) clearTimeout(timer); else return;
-	  var result = xmlhttp.responseText;
-	  try {
-	    if (xmlhttp.status==0 && result=="") return;
-		if (xmlhttp.status==200 && result!="") {
-	      if (callback!=null) callback(JSON.parse(result));
-	    } else sys_alert("{t}Ajax Error{/t}: "+func+" "+xmlhttp.status+" "+xmlhttp.statusText+"\n"+(result!=""?result:"{t}no result{/t}"));
-	  } catch (e) {
-		if (result.length > 0) {
-		  if (e == "SyntaxError: parseJSON") e = "";
-		  if (e) error = e.name+": "+e.message; else error = "";
-		  if (!debug) trace = "\n"+JSON.stringify(e); else trace = "";
-		  sys_alert("{t}Error{/t}: "+error+"\n"+result+"\n"+func+trace);
+      pending_request--;
+      if (loading != null) clearTimeout(loading);
+      hide(image);
+      if (timer != null) clearTimeout(timer); else return;
+      var result = xmlhttp.responseText;
+      try {
+        if (xmlhttp.status==0 && result=="") return;
+        if (xmlhttp.status==200 && result!="") {
+          if (callback!=null) callback(JSON.parse(result));
+        } else sys_alert("{t}Ajax Error{/t}: "+func+" "+xmlhttp.status+" "+xmlhttp.statusText+"\n"+(result!=""?result:"{t}no result{/t}"));
+      } catch (e) {
+        if (result.length > 0) {
+          if (e == "SyntaxError: parseJSON") e = "";
+          if (e) error = e.name+": "+e.message; else error = "";
+          if (!debug) trace = "\n"+JSON.stringify(e); else trace = "";
+          sys_alert("{t}Error{/t}: "+error+"\n"+result+"\n"+func+trace);
   } } } }
   xmlhttp.send(JSON.stringify(params));
 }
@@ -1387,31 +1387,31 @@ function ajax_binary(func, file, params, callback, callback_progress) {
   xmlhttp.setRequestHeader("X-Requested-With", "XMLHttpRequest");
   xmlhttp.onreadystatechange = function() {
     if (xmlhttp.readyState == 4) {
-	  var result = xmlhttp.responseText;
-	  try {
-		if (xmlhttp.status==200 && result!="") {
-		  var js = JSON.parse(result);
-	      if (callback!=null) callback(js);
-	    } else sys_alert("{t}Ajax Error{/t}: "+func+" "+xmlhttp.status+" "+xmlhttp.statusText+"\n"+(result!=""?result:"{t}no result{/t}"));
-	  } catch (e) {
-		if (result.length > 0) {
-		  if (e == "SyntaxError: parseJSON") e = "";
-		  if (e) error = e.name+": "+e.message; else error = "";
-		  sys_alert("{t}Error{/t}: "+error+"\n"+result+"\n"+func);
+      var result = xmlhttp.responseText;
+      try {
+        if (xmlhttp.status==200 && result!="") {
+          var js = JSON.parse(result);
+          if (callback!=null) callback(js);
+        } else sys_alert("{t}Ajax Error{/t}: "+func+" "+xmlhttp.status+" "+xmlhttp.statusText+"\n"+(result!=""?result:"{t}no result{/t}"));
+      } catch (e) {
+        if (result.length > 0) {
+          if (e == "SyntaxError: parseJSON") e = "";
+          if (e) error = e.name+": "+e.message; else error = "";
+          sys_alert("{t}Error{/t}: "+error+"\n"+result+"\n"+func);
   } } } }
   xmlhttp.send(file);
 }
 
 function ajax_locate_folder(data) {
   if (typeof(data) != "object") {
-	locate_folder(tfolder);
-	return;
+    locate_folder(tfolder);
+    return;
   }
   var output = "";
   for (i in data) {
     for (j in data[i]) {
-	  output += data[i][j][0] + ": " + data[i][j][1] + "\n";
-	}
+      output += data[i][j][0] + ": " + data[i][j][1] + "\n";
+    }
   }
   sys_alert(output);
 }
@@ -1420,12 +1420,12 @@ var call_autosize=[];
 function textarea_autosize(event) {
   if ((call_autosize[this.id]>2 && getmykey(event)!=13) || attr(this,"rel")=="no_resize") return;
   if (typeof(this.clone)=="undefined") {
-	this.clone = document.createElement("textarea");
-	this.clone.style.width = this.clientWidth+"px";
-	this.clone.style.position = "absolute";
-	this.clone.style.left = -9999;
-	this.clone.disabled = true;
-	this.parentNode.insertBefore(this.clone,this);
+    this.clone = document.createElement("textarea");
+    this.clone.style.width = this.clientWidth+"px";
+    this.clone.style.position = "absolute";
+    this.clone.style.left = -9999;
+    this.clone.disabled = true;
+    this.parentNode.insertBefore(this.clone,this);
   }
   this.clone.style.width = this.clientWidth+"px";
   this.clone.value = this.value;
@@ -1454,12 +1454,12 @@ function menuopen(obj) {
   if (menu && (mtrigger==null || mtrigger.id!=menu.id)) {
     if (mtrigger!=null) mtriggerclose();
     mtrigger = menu;
-	var offset = 0;
-	if (css_conf.direction) offset = 176-obj.clientWidth;
-	if (obj.id!=menu.id) css(menu, "left", findPosX(obj)-offset+"px");
+    var offset = 0;
+    if (css_conf.direction) offset = 176-obj.clientWidth;
+    if (obj.id!=menu.id) css(menu, "left", findPosX(obj)-offset+"px");
     show2(menu);
   } else if (!menu && mtrigger!=null) {
-	mtriggerclose();
+    mtriggerclose();
   }
 }
 function menuclose() {
@@ -1483,8 +1483,8 @@ function menubutton(name,ref,accesskey,style) {
   var hint = "";
   if (typeof(style)=="undefined") style="";
   if (typeof(accesskey)!="undefined" && accesskey!="") {
-	html = "<a onclick='"+ref.replace(/'/g, "&quot;")+"' href='#' accesskey='"+accesskey+"'></a>";
-	hint = "[Alt-"+accesskey+"]";
+    html = "<a onclick='"+ref.replace(/'/g, "&quot;")+"' href='#' accesskey='"+accesskey+"'></a>";
+    hint = "[Alt-"+accesskey+"]";
   }
   mbuffer += '<td id="menuitem'+menu+'" class="menu_item" style="'+style+'" onmouseover="menuover(this);" onmouseout="menuout(this);" onclick="'+ref+'" title="'+hint+'">'+name+html+'</td>';
   menu++;
@@ -1501,8 +1501,8 @@ function smenuitem(name,ref,accesskey) {
   var html = "";
   var hint = "";
   if (typeof(accesskey)!="undefined") {
-  	html = "<a onclick='"+ref.replace(/'/g, "&quot;")+"' href='#' accesskey='"+accesskey+"'></a>";
-	hint = "[Alt-"+accesskey+"]";
+      html = "<a onclick='"+ref.replace(/'/g, "&quot;")+"' href='#' accesskey='"+accesskey+"'></a>";
+    hint = "[Alt-"+accesskey+"]";
   }
   smenu_buffer += '<tr><td class="menu_item" style="padding:0 6px;" onmouseover="menuover(this);" onmouseout="menuout(this);" onclick="menuclose(); '+(ref!=""?ref:"")+'" title="'+hint+'">'+name+html+'</td></tr>';
 }
@@ -1510,8 +1510,8 @@ function smenu_history() {
   if (hist!="") {
     for (var i=0; i<hist.length; i++) {
       if (hist[i].length!=3) continue;
-	  var title = hist[i][0];
-	  if (hist[i][2]!="" && hist[i][2]!="display") title += " &nbsp;("+hist[i][2]+")";
+      var title = hist[i][0];
+      if (hist[i][2]!="" && hist[i][2]!="display") title += " &nbsp;("+hist[i][2]+")";
       smenuitem(title,"locate('index.php?folder="+escape(hist[i][1])+"&view="+hist[i][2]+"')");
     }
   } else smenuitem("{t}Empty{/t}","");
@@ -1528,7 +1528,7 @@ function tree_applyrights() {
   if (confirm("{t}Really apply rights to subfolders ?{/t}")) {
     ajax("folder_applyrights", [tfolder], function(data) {
       if (data) sys_alert("{t}Item successfully updated.{/t}");
-	    else sys_alert("{t}Item not found.{/t}");
+        else sys_alert("{t}Item not found.{/t}");
     });
   }
 }
@@ -1546,7 +1546,7 @@ function drawmenu() {
   smenuitem("{t}Print all{/t}","neWin('index.php?print=1&print_all=1')");
   smenu_hr();
   if (tree_visible) smenuitem("{t}Minimize{/t}","sWin('index.php?tree=minimize')");
-	else smenuitem("{t}Maximize{/t}","sWin('index.php?tree=maximize')");
+    else smenuitem("{t}Maximize{/t}","sWin('index.php?tree=maximize')");
   smenu_hr();
   smenuitem("{t}Collapse tree{/t}","sWin('index.php?tree=closeall')");
   smenuitem("{t}Reset view{/t}","sWin('index.php?reset_view=true')");
@@ -1556,66 +1556,66 @@ function drawmenu() {
   smenu_end();
 
   if (!sys.is_guest && !sys.is_superadmin) {
-	menuitem("{t}Create new{/t}");
+    menuitem("{t}Create new{/t}");
     smenu_begin();
-	var quick_create = {
-	  emails:"{t}E-mail{/t}", calendar:"{t}Appointment{/t}", tasks:"{t}Task{/t}",
-	  contactactivities:"{t}Contact activity{/t}", contacts:"{t}Contact{/t}",
-	  passwords:"{t}Password{/t}", bookmarks:"{t}Bookmark{/t}", notes:"{t}Note{/t}",
-	  files:"{t}File{/t}", gallery:"{t}Photo{/t}", spreadsheets:"{t}Spreadsheet{/t}",
-	  graphviz:"{t}Diagram{/t}", htmldocs:"{t}HTML document{/t}", cms:"{t}Web page{/t}"
-	}
-	for (var type in quick_create) {
-	  if (sys.disabled_modules[type]) continue;
-	  var icon = "";
-	  if (sys_style=="core_tree_icons") icon += "<img src='ext/modules/"+type+".png'>&nbsp; &nbsp;";
-	  smenuitem(icon+quick_create[type],"sWin('index.php?folder=^home_"+sys.username+"/!"+type+"&view=new')");
-	}
-	smenu_hr();
-	smenuitem("{t}Subfolder{/t}","folder_options(1)");
+    var quick_create = {
+      emails:"{t}E-mail{/t}", calendar:"{t}Appointment{/t}", tasks:"{t}Task{/t}",
+      contactactivities:"{t}Contact activity{/t}", contacts:"{t}Contact{/t}",
+      passwords:"{t}Password{/t}", bookmarks:"{t}Bookmark{/t}", notes:"{t}Note{/t}",
+      files:"{t}File{/t}", gallery:"{t}Photo{/t}", spreadsheets:"{t}Spreadsheet{/t}",
+      graphviz:"{t}Diagram{/t}", htmldocs:"{t}HTML document{/t}", cms:"{t}Web page{/t}"
+    }
+    for (var type in quick_create) {
+      if (sys.disabled_modules[type]) continue;
+      var icon = "";
+      if (sys_style=="core_tree_icons") icon += "<img src='ext/modules/"+type+".png'>&nbsp; &nbsp;";
+      smenuitem(icon+quick_create[type],"sWin('index.php?folder=^home_"+sys.username+"/!"+type+"&view=new')");
+    }
+    smenu_hr();
+    smenuitem("{t}Subfolder{/t}","folder_options(1)");
     smenu_end();
   }
   
   menuitem("{t}Folder{/t}");
   smenu_begin();
   if (!sys.is_guest && !sys.is_superadmin) {
-	smenuitem("{t}Add to offline folders{/t}","ajax('folder_add_offline',[tfolder,tview,tfolder_name],alert_ok);");
+    smenuitem("{t}Add to offline folders{/t}","ajax('folder_add_offline',[tfolder,tview,tfolder_name],alert_ok);");
   }
   if (sys.is_superadmin) {
     smenuitem("{t}Backup current folder{/t}","sWin('index.php?action_sys=backup');");
   }
   if (rights.write_folder && isdbfolder) {
-	smenu_hr();
-	smenuitem("{t}Move{/t}: {t}Up{/t}","ajax('folder_moveup',[tfolder],locate_folder)");
-	smenuitem("{t}Move{/t}: {t}Down{/t}","ajax('folder_movedown',[tfolder],locate_folder)");
+    smenu_hr();
+    smenuitem("{t}Move{/t}: {t}Up{/t}","ajax('folder_moveup',[tfolder],locate_folder)");
+    smenuitem("{t}Move{/t}: {t}Down{/t}","ajax('folder_movedown',[tfolder],locate_folder)");
   }
   if (!no_folder_operations && rights.write_folder) {
-	if (isdbfolder) {
-	  smenu_hr();
-	  smenuitem("{t}Cut{/t}","ajax('folder_cut',[tfolder],null)");
-	  smenuitem("{t}Copy{/t}","ajax('folder_copy',[tfolder],null)");
-	  smenuitem("{t}Paste{/t}","ajax('folder_paste',[tfolder],locate_folder,30000)");
-	}
-	smenu_hr();
-	smenuitem("{t}Delete incl subfolders{/t}","folder_delete()");
+    if (isdbfolder) {
+      smenu_hr();
+      smenuitem("{t}Cut{/t}","ajax('folder_cut',[tfolder],null)");
+      smenuitem("{t}Copy{/t}","ajax('folder_copy',[tfolder],null)");
+      smenuitem("{t}Paste{/t}","ajax('folder_paste',[tfolder],locate_folder,30000)");
+    }
+    smenu_hr();
+    smenuitem("{t}Delete incl subfolders{/t}","folder_delete()");
   }
   if (rights.admin && isdbfolder) {
-	smenu_hr();
-	smenuitem("{t}Rights{/t}: {t}Show{/t}","sWin('index.php?view=rights')");
-	smenuitem("{t}Rights{/t}: {t}Edit{/t}","sWin('index.php?view=rights_edit')","0");
-	smenuitem("{t}Apply rights to subfolders{/t}","tree_applyrights()");
+    smenu_hr();
+    smenuitem("{t}Rights{/t}: {t}Show{/t}","sWin('index.php?view=rights')");
+    smenuitem("{t}Rights{/t}: {t}Edit{/t}","sWin('index.php?view=rights_edit')","0");
+    smenuitem("{t}Apply rights to subfolders{/t}","tree_applyrights()");
   }
   if (rights.write_folder && isdbfolder) {
-	smenu_hr();
-	smenuitem("{t}Merge folders permanently{/t}","folder_categories()");
+    smenu_hr();
+    smenuitem("{t}Merge folders permanently{/t}","folder_categories()");
   }
   if (!no_folder_operations && rights.write_folder) {
-	smenu_hr();
-	smenuitem("{t}Create new folder{/t}","folder_options(1)","o");
-	smenuitem("{t}Rename folder{/t}","folder_options(0)");
+    smenu_hr();
+    smenuitem("{t}Create new folder{/t}","folder_options(1)","o");
+    smenuitem("{t}Rename folder{/t}","folder_options(0)");
   }
   if (!no_folder_operations && isdbfolder && ((rights.write_folder && !sys.mountpoint_admin) || rights.admin_folder)) {
-	smenuitem("{t}Mountpoint{/t}","folder_mountpoint()","m");
+    smenuitem("{t}Mountpoint{/t}","folder_mountpoint()","m");
   }
   smenuitem("{t}Info{/t}","folder_info()");
   smenu_end();
@@ -1628,8 +1628,8 @@ function drawmenu() {
   menuitem("{t}Im-/Export{/t}");
   smenu_begin();
   if (rights.write) {
-	smenuitem("{t}Import{/t}","sWin('import.php?folder="+escape(tfolder)+"')");
-	smenu_hr();
+    smenuitem("{t}Import{/t}","sWin('import.php?folder="+escape(tfolder)+"')");
+    smenu_hr();
   }
   smenuitem("Simple Spreadsheet","neWin('index.php?export=sss')");
   smenuitem("ExtJS {t}Table{/t}","neWin('ext/lib/extjs/index.php?title='+escape(tfolder_name)+'&items='+assets_get_selected(true).join(','))");
@@ -1646,27 +1646,27 @@ function drawmenu() {
   smenu_end();
 
   if (sys.is_guest || sys.is_superadmin) {
-	menuitem("{t}Theme{/t}");
-	smenu_begin();
-	var styles = {
-	  core:"core", core_tree_icons:"core tree icons",	contrast:"contrast", water:"water", lake:"lake",
-	  beach:"beach", paradise:"paradise", earth:"earth", sunset:"sunset", nature:"nature", desert:"desert",
-	  blackwhite:"black / white", rtl:"right-to-left"
-	}
-	for (var style in styles) {
-	  var checked = "";
-	  if (sys_style==style) checked = "&gt; ";
-	  smenuitem(checked+"simple "+styles[style],"sWin('index.php?style="+style+"')");
-	}
-	smenu_end();
+    menuitem("{t}Theme{/t}");
+    smenu_begin();
+    var styles = {
+      core:"core", core_tree_icons:"core tree icons",    contrast:"contrast", water:"water", lake:"lake",
+      beach:"beach", paradise:"paradise", earth:"earth", sunset:"sunset", nature:"nature", desert:"desert",
+      blackwhite:"black / white", rtl:"right-to-left"
+    }
+    for (var style in styles) {
+      var checked = "";
+      if (sys_style==style) checked = "&gt; ";
+      smenuitem(checked+"simple "+styles[style],"sWin('index.php?style="+style+"')");
+    }
+    smenu_end();
   }
 
   if (!sys.is_guest) {
-	if (sys.is_superadmin) {
-	  menubutton("{t}Settings{/t}","locate('sysconfig.php')");
-	} else {
-	  menubutton("{t}Settings{/t}","locate('index.php?find=asset|simple_sys_users|1|username="+sys.username+"&view=changepwd')");
-	}
+    if (sys.is_superadmin) {
+      menubutton("{t}Settings{/t}","locate('sysconfig.php')");
+    } else {
+      menubutton("{t}Settings{/t}","locate('index.php?find=asset|simple_sys_users|1|username="+sys.username+"&view=changepwd')");
+    }
   } 
   menubutton("{t}Help{/t}","nWin('cms.php/Help')");
   menubutton("{t}Login/-out{/t}","sWin('index.php?logout')", "l");

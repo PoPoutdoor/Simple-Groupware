@@ -13,13 +13,13 @@ var cache = [];
 function start() {
   if (!obj("selectbox")) return;
   obj("codebox").onkeyup = obj("codebox").onclick = function() {
-	set_sel_start(this);
-	return keyup(this,obj("selectbox"),val("database"));
+    set_sel_start(this);
+    return keyup(this,obj("selectbox"),val("database"));
   }
   obj("codebox").onkeypress = function(event) {
-	if (typeof(event)=="undefined") event = window.event;
-	if (obj("selectbox").selectedIndex != -1 && event.keyCode==13 && !event.shiftKey) {
-	  return false;
+    if (typeof(event)=="undefined") event = window.event;
+    if (obj("selectbox").selectedIndex != -1 && event.keyCode==13 && !event.shiftKey) {
+      return false;
     }
   }
   obj("codebox").onkeydown = function(event) {
@@ -33,8 +33,8 @@ function set_sel_start(obj) {
     var range = document.selection.createRange();
     var stored_range = range.duplicate();
     stored_range.moveToElementText(obj);
-	stored_range.setEndPoint("EndToEnd", range);
-	obj.selectionStart = stored_range.text.length - range.text.length;
+    stored_range.setEndPoint("EndToEnd", range);
+    obj.selectionStart = stored_range.text.length - range.text.length;
   }
 }
 
@@ -56,16 +56,16 @@ function call(func, params, callback, params_callback) {
   xmlhttp.open("GET", "console.php?console=sql&func="+escape(func)+"&params="+params.join(","), true);
   xmlhttp.onreadystatechange = function() {
     if (xmlhttp.readyState != 4 || token != token_id) return; // request outdated
-	var result = xmlhttp.responseText;
-	try {
+    var result = xmlhttp.responseText;
+    try {
       if (xmlhttp.status == 200 && result != "") {
-		result = JSON.parse(result);
-		cache[func][cache_id] = result;
-		callback(result, params_callback);
-	    } else alert("{t}Error{/t}: "+func+" "+xmlhttp.status+" "+xmlhttp.statusText+" "+result);
-	} catch (e) {
-	  if (result.length==0) return;
-	      alert("{t}Error{/t} : "+e+" "+result+" "+func);
+        result = JSON.parse(result);
+        cache[func][cache_id] = result;
+        callback(result, params_callback);
+        } else alert("{t}Error{/t}: "+func+" "+xmlhttp.status+" "+xmlhttp.statusText+" "+result);
+    } catch (e) {
+      if (result.length==0) return;
+          alert("{t}Error{/t} : "+e+" "+result+" "+func);
   } }
   xmlhttp.send(null);
 }
@@ -91,7 +91,7 @@ function select_show(options, params) {
   if (options.length==0) return;
   var box = params[0];
   for (var i=0; i<options.length; i++) {
-	box.options[box.options.length] = new Option(options[i][1],options[i][0]);
+    box.options[box.options.length] = new Option(options[i][1],options[i][0]);
   }
   box.options[box.options.length] = new Option("","");
 }
@@ -123,12 +123,12 @@ function find_tables(obj,database) {
   if ((m = re.exec(obj.value))) {
     tables = [];
     var items = m[1].split(",");
-	for (var i=0; i<items.length; i++) {
-	  items[i] = items[i].trim().split(" ");
-	  if (items[i][1]==null) items[i][1] = items[i][0];
-	  if (items[i][0].indexOf(".")==-1 && database!="") items[i][0] = database+"."+items[i][0];
-	  tables[items[i][1]] = items[i][0];
-	}
+    for (var i=0; i<items.length; i++) {
+      items[i] = items[i].trim().split(" ");
+      if (items[i][1]==null) items[i][1] = items[i][0];
+      if (items[i][0].indexOf(".")==-1 && database!="") items[i][0] = database+"."+items[i][0];
+      tables[items[i][1]] = items[i][0];
+    }
   }
   return tables;
 }
@@ -138,25 +138,25 @@ function keydown(event,obj,box) {
     event = window.event;
     keycode = window.event.keyCode;
   } else keycode = event.which;
-	
+    
   if (box.options.length > 0) {
     if (keycode==27) {
-	  select_hide(box);
-	  return false;
-	}
-	if (keycode==13 && !event.shiftKey) {
-	  select_insert(obj,box);
-	  return false;
-	}
-	if (keycode==40 && !event.shiftKey) { // cursor down
-	  if (box.options.length-1 > box.selectedIndex) box.selectedIndex++;
-	  // else select_hide(box);
-	  return false;
-	}
-	if (keycode==38 && !event.shiftKey) { // cursor up
-	  if (box.selectedIndex > -1) box.selectedIndex--; else select_hide(box);
-	  return false;
-	}
+      select_hide(box);
+      return false;
+    }
+    if (keycode==13 && !event.shiftKey) {
+      select_insert(obj,box);
+      return false;
+    }
+    if (keycode==40 && !event.shiftKey) { // cursor down
+      if (box.options.length-1 > box.selectedIndex) box.selectedIndex++;
+      // else select_hide(box);
+      return false;
+    }
+    if (keycode==38 && !event.shiftKey) { // cursor up
+      if (box.selectedIndex > -1) box.selectedIndex--; else select_hide(box);
+      return false;
+    }
   }
 }
 
@@ -170,37 +170,37 @@ function keyup(obj,box,database) {
 
   if (token.indexOf("'")==-1 && last_token != keyword + token) {
     if (token=="") select_hide(box);
-	if (keyword=="select" || keyword=="where" || keyword=="order" || keyword=="set") {
-	  var tables = find_tables(obj,database);
-	  var pos = token.indexOf(".");
-	  if (pos != -1) {
-	    var table = prefix.substr(0,pos);
-		select_hide(box);
-	    if (tables!=null && tables[table]!=null) {
-		  prefix = tables[table] + prefix.substr(pos);
-		  call("get_columns",[prefix,table+"."],select_show,[box]);
-		} else {
-		  call("get_columns",[database+"."+prefix,null],select_show,[box]);
-		}
-	  } else if (tables!=null) {
-		var alias = "";
-		var size = array_size(tables);
-		select_hide(box);
-		for (var i in tables) {
-		  if (size>1) alias = i+".";
-		  call("get_columns",[tables[i],alias],select_show,[box]);
-		}
-	  }
-	}
-	if (keyword=="from" || keyword=="into" || keyword=="update") {
-	  select_hide(box);
-	  if (prefix.indexOf(".")==-1) {
-	    call("get_databases",[prefix],select_show,[box]);
-	    if (database!="") call("get_tables",[database+"."+prefix,0],select_show,[box]);
-	  } else {
-	    call("get_tables",[prefix,1],select_show,[box]);
-	  }
-	}
+    if (keyword=="select" || keyword=="where" || keyword=="order" || keyword=="set") {
+      var tables = find_tables(obj,database);
+      var pos = token.indexOf(".");
+      if (pos != -1) {
+        var table = prefix.substr(0,pos);
+        select_hide(box);
+        if (tables!=null && tables[table]!=null) {
+          prefix = tables[table] + prefix.substr(pos);
+          call("get_columns",[prefix,table+"."],select_show,[box]);
+        } else {
+          call("get_columns",[database+"."+prefix,null],select_show,[box]);
+        }
+      } else if (tables!=null) {
+        var alias = "";
+        var size = array_size(tables);
+        select_hide(box);
+        for (var i in tables) {
+          if (size>1) alias = i+".";
+          call("get_columns",[tables[i],alias],select_show,[box]);
+        }
+      }
+    }
+    if (keyword=="from" || keyword=="into" || keyword=="update") {
+      select_hide(box);
+      if (prefix.indexOf(".")==-1) {
+        call("get_databases",[prefix],select_show,[box]);
+        if (database!="") call("get_tables",[database+"."+prefix,0],select_show,[box]);
+      } else {
+        call("get_tables",[prefix,1],select_show,[box]);
+      }
+    }
   }
   last_value = obj.value;
   last_token = keyword + token;
@@ -230,7 +230,7 @@ String.prototype.lastIndexOfArr = function (arr) {
   var pos = -1;
   for (var i=0; i<arr.length; i++) {
     var pos2 = this.lastIndexOf(arr[i]);
-	if (pos2 > pos) pos = pos2;
+    if (pos2 > pos) pos = pos2;
   }
   return pos;
 }
@@ -238,7 +238,7 @@ String.prototype.firstIndexOfArr = function (arr,offset) {
   var pos = -1;
   for (var i=0; i<arr.length; i++) {
     var pos2 = this.indexOf(arr[i],offset);
-	if (pos2 != -1 && (pos == -1 || pos2 < pos)) pos = pos2;
+    if (pos2 != -1 && (pos == -1 || pos2 < pos)) pos = pos2;
   }
   return pos;
 }
@@ -246,11 +246,11 @@ String.prototype.firstIndexOfArr = function (arr,offset) {
 function resizeit() {
   var output = obj("output");
   if (output) {
-	if (obj("code").style.display=="none") {
-	  output.style.width = "100%";
-	  return;
-	}
-	output.style.width = "60%";
+    if (obj("code").style.display=="none") {
+      output.style.width = "100%";
+      return;
+    }
+    output.style.width = "60%";
   }
   var height = Math.min(500, document.body.clientHeight-obj("buttons").clientHeight-23);
   if (height<0) return;
@@ -258,10 +258,10 @@ function resizeit() {
   var codebox = obj("codebox");
   var selectbox = obj("selectbox");
   if (selectbox) {
-	selectbox.style.height = Math.floor(height*0.4) + "px";
-	codebox.style.height = (height*0.6) + "px";
+    selectbox.style.height = Math.floor(height*0.4) + "px";
+    codebox.style.height = (height*0.6) + "px";
   } else {
-	codebox.style.height = height + "px";
+    codebox.style.height = height + "px";
   }
   codebox.focus();
 }
