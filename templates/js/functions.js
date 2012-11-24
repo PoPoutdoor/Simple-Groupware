@@ -161,7 +161,7 @@ function drop_tree(event) {
   if (dt.dropEffect == "copy" || dt.effectAllowed == "copy") mode = "copy";
   
   var params = dt.getData("Text");
-  if (params=="") return;
+  if (params==="") return;
   params = JSON.parse(params);
 
   var type = params.type;
@@ -185,8 +185,8 @@ function keys(ev) {
     change_tab("tab", attr("accesskey"+(ev.keyCode-48), "rel"));
     return;
   }
-  if (keys_timer!=null) clearTimeout(keys_timer);
-  if (keys_hl!=null) css(keys_hl,"backgroundColor", "");
+  if (keys_timer!==null) clearTimeout(keys_timer);
+  if (keys_hl!==null) css(keys_hl,"backgroundColor", "");
 
   if (ev.keyCode=="38" || ev.keyCode=="40" || ev.keyCode=="33" || ev.keyCode=="34") {
     var objs = getObjs(".drop_tree");
@@ -360,7 +360,7 @@ function getObjs(val) {
 function form_values(class_name) {
   var params = {};
   var objs = getObjs(class_name);
-  if (objs.length==0 || !objs[0]) return params;
+  if (objs.length===0 || !objs[0]) return params;
   for (var i=0; i<objs.length; i++) {
     if (!objs[i].id) continue;
     var id = objs[i].id;
@@ -411,7 +411,7 @@ function val(obj) {
 }
 
 function _selectbox_find(obj, key) {
-  if (!obj.options || obj.options.length==0) return -1;
+  if (!obj.options || obj.options.length===0) return -1;
   for (var i=0; i<obj.options.length; i++) {
     if (obj.options[i].value == key) return i;
   }
@@ -424,7 +424,7 @@ function set_val(obj, val) {
   if (obj.type=="checkbox" || obj.type=="radio") {
     obj.checked = val ? true : false;
   } else if (obj.options) {
-    if (val=="") {
+    if (val==="") {
       if (obj.multiple) obj.options.length = 0; else obj.selectedIndex = -1;
       return;
     }
@@ -449,15 +449,15 @@ function attr(obj,name) {
 }
 function css(obj, name, value, delay) {
   var objs = getObjs(obj);
-  if (objs.length==0 || !objs[0]) return;
+  if (objs.length===0 || !objs[0]) return;
   for (var i=0; i<objs.length; i++) objs[i].style[name]=value;
   if (typeof(delay)!="undefined") setTimeout(function(){ css(obj, name, ''); },delay);
 }
 function set_attr(obj, name, value) {
   var objs = getObjs(obj);
-  if (objs.length==0 || !objs[0]) return;
+  if (objs.length===0 || !objs[0]) return;
   for (var i=0; i<objs.length; i++) {
-    if (name.indexOf("on")==0 || name=="value") {
+    if (name.indexOf("on")===0 || name=="value") {
       objs[i][name] = value;
     } else {
       objs[i].setAttribute(name, value);
@@ -581,7 +581,7 @@ function focus_form(obj) {
   if (objs.length > 0) {
     var elems = objs[0].elements;
     for (var i=0; i<elems.length; i++) {
-      if (elems[i].type != "hidden" && elems[i].type != "checkbox" && elems[i].name != "") {
+      if (elems[i].type != "hidden" && elems[i].type != "checkbox" && elems[i].name !== "") {
         elems[i].focus();
         break;
 } } } }
@@ -695,9 +695,9 @@ function ______I_N_I_T______() {}
 
 function display_images() {
   var objs = getObj("content").getElementsByTagName("img");
-  if (objs.length==0) return;
+  if (objs.length===0) return;
   for (var i=0; i<objs.length; i++) {
-    if (objs[i].src=="" && objs[i].title!="" && objs[i].title.indexOf("ext/norefer.php?")==0) objs[i].src = objs[i].title;
+    if (objs[i].src==="" && objs[i].title!=="" && objs[i].title.indexOf("ext/norefer.php?")===0) objs[i].src = objs[i].title;
   }
 }
 
@@ -707,7 +707,7 @@ function save_cookie() {
 }
 
 function notify(str, warn) {
-  if (str=="") return;
+  if (str==="") return;
   if (sys.menu_autohide) {
     set_attr("notification2", "class", "tabstyle"+(warn?" red":""));
     set_html("notification2", "{t}Notification{/t}: "+str);
@@ -737,7 +737,7 @@ function resizeit() {
 
   if ((iframe || preview) && typeof(parent.window)!="unknown" && window.name!="pane" && window.name!="pane2") {
     var obj = parent.window.getObj(window.name);
-    if (obj != null) {
+    if (obj !== null) {
       var height_main = getObj("main").clientHeight;
       var obj_iframe = obj;
       if (obj_iframe.tagName.toLowerCase()!="iframe") obj_iframe = obj.getElementsByTagName("iframe")[0];
@@ -800,7 +800,7 @@ function ______O_T_H_E_R_S______() {}
 function switch_wrap(field_w, event) {
   if (is_nested_target(event, this)) return;
   var field = field_w.getElementsByTagName("div");
-  if (field.length==0) return;
+  if (field.length===0) return;
   field = field[0];
   if (field.style.overflow=="hidden") {
     field.style.overflow="visible";
@@ -826,7 +826,7 @@ function change_tab(classname,id) {
 function portal_change(id,size) {
   var obj = getFirstParentByName(getObj(id),"tr");
   var objs = obj.getElementsByTagName("iframe");
-  if (objs.length==0) return;
+  if (objs.length===0) return;
   for (var i=0; i<objs.length; i++) {
       if (objs[i].offsetHeight+size > 0) objs[i].style.height = (objs[i].offsetHeight+size)+"px";
     if (!objs[i].contentWindow) continue;
@@ -842,7 +842,7 @@ function portal_change(id,size) {
 
 function portal_refresh(id,time,init) {
   var obj = getObj(id);
-  if (obj && obj.src!="about:blank" && time!=0) {
+  if (obj && obj.src!="about:blank" && time!==0) {
     if (!init && (sys.is_guest || getObj("login_reminder").style.display!="inline")) {
       obj.src = obj.src;
     }
@@ -866,7 +866,7 @@ function searchbox(obj) {
 }
 
 function searchbox2(obj) {
-  if (obj.value=="") obj.value = "{t}Search{/t}";
+  if (obj.value==="") obj.value = "{t}Search{/t}";
 }
 
 function ______G_U_I__G_R_I_D______() {}
@@ -877,7 +877,7 @@ function asset_filter_submit() {
   var values = getObjs(".filter_value");
   var types = getObjs(".filter_type");
   for (var i=0; i<values.length; i++) {
-    if (values[i].value=="") values[i].value = " ";
+    if (values[i].value==="") values[i].value = " ";
     result += "||"+fields[i].value+"|"+types[i].value+"|"+values[i].value;
   }
   locate("index.php?folder="+escape(tfolder)+"&view="+tview+"&filters="+result.substring(2));

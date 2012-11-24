@@ -47,7 +47,7 @@ function get_uid() {
 // see: https://developer.mozilla.org/en/Using_files_from_web_applications
 function drop_upload(item_name, max_file_size, max_file_count, event) {
   var files = event.dataTransfer.files;
-  if (!files || files.length==0) {
+  if (!files || files.length===0) {
     files = new Array({size:0, url:true, name:event.dataTransfer.getData("Text")}); // drop URL
     if (!files[0].name) return;
   }
@@ -55,16 +55,16 @@ function drop_upload(item_name, max_file_size, max_file_count, event) {
 }
 
 function handle_upload(item_name, max_file_size, max_file_count, files, input_id) {
-  if (!files || files.length==0) return false;
+  if (!files || files.length===0) return false;
   var file_count = 0;
   var file_fields = document.getElementsByName(item_name+"[]");
   for (var i=0; i < file_fields.length; i++) {
     if (item_name == file_fields[i].id) continue;
     if (file_fields[i].files) file_count += file_fields[i].files.length;
-      else if (file_fields[i].value!="") file_count += 1;
+      else if (file_fields[i].value!=="") file_count += 1;
   }
       
-  if (max_file_count!="" && file_count + files.length > max_file_count) {
+  if (max_file_count!=="" && file_count + files.length > max_file_count) {
     sys_alert("{t}Upload failed{/t}: {t}maximum number of files exceeded.{/t} ("+max_file_count+")");
     return false;
   }
@@ -84,7 +84,7 @@ function handle_upload(item_name, max_file_size, max_file_count, files, input_id
       elem.style.paddingTop="2px";
       elem.id=id;
       getObj(item_name+"_div3").appendChild(elem);
-      if (input_id!="") set_val(input_id, "");
+      if (input_id!=="") set_val(input_id, "");
     };
     if (file.url) {
       ajax("upload_file", [file.name], callback);
@@ -118,7 +118,7 @@ function form_submit(form) {
   obj = form.getElementsByTagName("select");
   for (i=0; i<obj.length; i++) {
     if (obj[i].name.length>0 && obj[i].multiple) {
-      if (obj[i].options.length!=0) {
+      if (obj[i].options.length!==0) {
         for (i2=0; i2<obj[i].options.length; i2++) obj[i].options[i2].selected = true;
       } else {
         var obj2 = document.createElement("input");
@@ -141,7 +141,7 @@ function show_freebusy(prefix) {
   var cals = "";
   if (users.options.length>0) {
     for (var i=0;i<users.options.length;i++) {
-      if (cals.length!=0) cals += ",";
+      if (cals.length!==0) cals += ",";
       cals += "calendar_"+users.options[i].value;
     }
     getObj("pane").src="index.php?folder="+escape(tfolder)+"&view=freebusy&markdate=day&iframe=2&find=folders|simple_sys_tree||anchor="+escape(cals)+"&today="+today;
@@ -193,7 +193,7 @@ function form_get_values(prefix) {
   var values = {};
   var elems = getObj("asset_form").elements;
   for (var i=0; i<elems.length; i++) {
-    if (!elems[i].name || elems[i].id.indexOf(prefix)!=0) continue;
+    if (!elems[i].name || elems[i].id.indexOf(prefix)!==0) continue;
     var key = elems[i].id.replace(prefix,"");
     values[key] = val(elems[i]);
   }
@@ -201,7 +201,7 @@ function form_get_values(prefix) {
 }
 
 function form_set_values(prefix, data, highlight) {
-  for (key in data) {
+  for (var key in data) {
     set_val(prefix+key, data[key]);
 
     if (typeof(highlight)!="undefined") {
@@ -213,7 +213,7 @@ function commit_from_popup(lookup, values) {
   lookup = lookup.split("|");
   var selectbox = lookup[0];
   ajax("search_data", [lookup[1], "", 1, values], function(data) {
-    for (key in data) {
+    for (var key in data) {
       if (getObj(selectbox).options) {
         insert_into_selectbox(selectbox, data[key], key,1);
       } else if (attr(selectbox, "rel")=="cursor") {
@@ -255,8 +255,8 @@ function search_data(id, page) {
   ajax("search_data", [val(id + "_ticket"), value, page], function(data) {
     if (page==1) hide(id + "_prev"); else show(id + "_prev");
     if (data._overload_) show(id + "_next"); else hide(id + "_next");
-    if (value!="") show(id + "_x"); else hide(id + "_x");
-    for (key in data) if (key!="_overload_") insert_into_selectbox(selectbox, data[key], key, 0);
+    if (value!=="") show(id + "_x"); else hide(id + "_x");
+    for (var key in data) if (key!="_overload_") insert_into_selectbox(selectbox, data[key], key, 0);
   });
   return false;
 }
@@ -267,13 +267,13 @@ function insert_into_textarea(id,value) {
   var left_arr = left.split(",");
   if (!array_contains(left_arr, value)) left_arr.push(value);
   left = left_arr.sort().join(", ");
-  if (left.indexOf(", ")==0) left = left.substr(2);
+  if (left.indexOf(", ")===0) left = left.substr(2);
   if (left.lastIndexOf(", ")==left.length-2) left = left.substr(0,left.length-2);
   getObj(id).value = left;
 }
 
 function insert_into_selectbox(selectbox,text,value,selected) {
-  if (text=="" || value=="") return;
+  if (text==="" || value==="") return;
   var obj = getObj(selectbox);
   var index = _selectbox_find(obj, value);
   if (index == -1) {
@@ -291,10 +291,10 @@ function additems(field) {
 
 function additem(id,right) {
   // left: textarea
-  if (right==null) return;
+  if (right===null) return;
   if (typeof(getObj(id).options) == "undefined") {
     var options_right = right.options;
-    if (options_right==null) {
+    if (options_right===null) {
       insert_into_textarea(id,right.value);
       right.value = "";
     } else {
@@ -305,13 +305,13 @@ function additem(id,right) {
     } } }
   } else {
     // right: input
-    if (typeof(right.options)=="undefined" && right.value!="") {
+    if (typeof(right.options)=="undefined" && right.value!=="") {
       insert_into_selectbox(id,right.value,right.value,1);
         right.value = "";
       return;
     }
     // right: select
-    if (right.options==null) return;
+    if (right.options===null) return;
     options_right = right.options;
     for (var i=0; i<options_right.length; i++) {
       if (!options_right[i].selected) continue;
@@ -324,7 +324,7 @@ function additem_atcursor(left, right) {
   left = getObj(left);
   right = getObj(right);
   var options_right = right.options;
-  if (options_right!=null) {
+  if (options_right!==null) {
     for (var i=0; i<options_right.length; i++) {
       if (!options_right[i].selected) continue;
       options_right[i].selected = false;
