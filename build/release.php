@@ -46,13 +46,13 @@ class build {
 	
 	private function translationMaster() {
 		$master_lang = array();
-		$queue = array("../");
+		$queue = array(__DIR__."/../");
 		while (count($queue)>0) {
 			$src = array_shift($queue);
 			foreach (scandir($src) as $file) {
 				if ($file[0]==".") continue;
 				if (is_dir($src.$file)) {
-					if (in_array($file, array("lang", "tools", "lib", "build"))) continue;
+					if (in_array($file, array("tools", "lib", "simple_cache", "simple_store"))) continue;
 					$queue[] = $src.$file."/";
 					continue;
 				}
@@ -66,8 +66,7 @@ class build {
 		sort($master_lang);
 		$header = "/**\n * @package Simple Groupware\n * @license GPLv2\n */\n\n";
 		$header .= "** !_Language\nEnglish\n\n";
-		file_put_contents("../lang/master.lang", "\xEF\xBB\xBF".$header.implode("\n\n\n", array_unique($master_lang)));
-		file_put_contents("../lang/en.lang", "\xEF\xBB\xBF".$header);
+		file_put_contents(__DIR__."/../lang/master.lang", "\xEF\xBB\xBF".$header.implode("\n\n\n", array_unique($master_lang)));
 	}
 
 	private function sysCheck() {
