@@ -222,18 +222,20 @@ function start() {
   setTimeout(refreshit, sys.folder_refresh*1000);
 
   objs = getObjs(".mover");
+  var func_over = function(event){
+    cancel(event);
+    css(".asset_"+attr(this,"rel"),"backgroundColor",css_conf.bg_green);
+  };
+  var func_out = function(){
+    var id = attr(this,"rel");
+    var obj = getObj("check_"+id);
+    if (obj && obj.checked) color = css_conf.bg_red; else color = "";
+    css(".asset_"+id,"backgroundColor",color);
+  };
   for (var i=0; i<objs.length; i++) {
     if (!attr(objs[i],"rel")) continue;
-    objs[i].onmouseover = function(event){
-      cancel(event);
-      css(".asset_"+attr(this,"rel"),"backgroundColor",css_conf.bg_green);
-    };
-    objs[i].onmouseout = function(){
-      var id = attr(this,"rel");
-      var obj = getObj("check_"+id);
-      if (obj && obj.checked) color = css_conf.bg_red; else color = "";
-      css(".asset_"+id,"backgroundColor",color);
-    };
+    objs[i].onmouseover = func_over;
+    objs[i].onmouseout = func_out;
   }
   objs = getObjs(".mdown");
   for (var i=0; i<objs.length; i++) {
