@@ -315,11 +315,11 @@ function additem(id,right) {
     // right: select
     if (right.options===null) return;
     options_right = right.options;
-    for (var i=0; i<options_right.length; i++) {
-      if (!options_right[i].selected) continue;
-      options_right[i].selected = false;
-      if (options_right[i].value=="---") continue;
-      insert_into_selectbox(id,options_right[i].text,options_right[i].value,1);
+    for (var j=0; j<options_right.length; j++) {
+      if (!options_right[j].selected) continue;
+      options_right[j].selected = false;
+      if (options_right[j].value=="---") continue;
+      insert_into_selectbox(id,options_right[j].text,options_right[j].value,1);
 } } }
 
 function additem_atcursor(left, right) {
