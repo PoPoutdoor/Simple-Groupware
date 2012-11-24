@@ -1382,7 +1382,7 @@ function ajax(func, params, callback, timeout) {
 function ajax_binary(func, file, params, callback, callback_progress) {
   if (typeof(navigator.onLine)!="undefined" && !navigator.onLine) return;
   var xmlhttp = window.ActiveXObject ? new ActiveXObject("Microsoft.XMLHTTP") : new XMLHttpRequest();
-  if (callback_progress!=null) {
+  if (callback_progress!==null) {
     xmlhttp.upload.onprogress = callback_progress;
     xmlhttp.upload.onload = callback_progress;
   }
@@ -1393,16 +1393,16 @@ function ajax_binary(func, file, params, callback, callback_progress) {
     if (xmlhttp.readyState == 4) {
       var result = xmlhttp.responseText;
       try {
-        if (xmlhttp.status==200 && result!="") {
+        if (xmlhttp.status==200 && result!=="") {
           var js = JSON.parse(result);
-          if (callback!=null) callback(js);
-        } else sys_alert("{t}Ajax Error{/t}: "+func+" "+xmlhttp.status+" "+xmlhttp.statusText+"\n"+(result!=""?result:"{t}no result{/t}"));
+          if (callback!==null) callback(js);
+        } else sys_alert("{t}Ajax Error{/t}: "+func+" "+xmlhttp.status+" "+xmlhttp.statusText+"\n"+(result!==""?result:"{t}no result{/t}"));
       } catch (e) {
         if (result.length > 0) {
           if (e == "SyntaxError: parseJSON") e = "";
           if (e) error = e.name+": "+e.message; else error = "";
           sys_alert("{t}Error{/t}: "+error+"\n"+result+"\n"+func);
-  } } } }
+  } } } };
   xmlhttp.send(file);
 }
 
@@ -1412,8 +1412,8 @@ function ajax_locate_folder(data) {
     return;
   }
   var output = "";
-  for (i in data) {
-    for (j in data[i]) {
+  for (var i in data) {
+    for (var j in data[i]) {
       output += data[i][j][0] + ": " + data[i][j][1] + "\n";
     }
   }
@@ -1441,28 +1441,28 @@ function textarea_autosize(event) {
 function ______M_E_N_U______() {}
 
 function menuover(obj) {
-  if (mtrigger!=null) menuopen(obj);
+  if (mtrigger!==null) menuopen(obj);
   obj.className = "menu_item2";
 }
 function menuout(obj) {
   obj.className = "menu_item";
 }
 function menuopen(obj) {
-  if (mtimer!=null) clearTimeout(mtimer);
+  if (mtimer!==null) clearTimeout(mtimer);
   if (!obj.id || obj.id=="menutable") return;
   
   var obj2 = getObj(obj.id.replace("menu","menuitem"));
   if (obj2) menuover(obj2);
 
   var menu = getObj(obj.id.replace("item",""));
-  if (menu && (mtrigger==null || mtrigger.id!=menu.id)) {
-    if (mtrigger!=null) mtriggerclose();
+  if (menu && (mtrigger===null || mtrigger.id!=menu.id)) {
+    if (mtrigger!==null) mtriggerclose();
     mtrigger = menu;
     var offset = 0;
     if (css_conf.direction) offset = 176-obj.clientWidth;
     if (obj.id!=menu.id) css(menu, "left", findPosX(obj)-offset+"px");
     show2(menu);
-  } else if (!menu && mtrigger!=null) {
+  } else if (!menu && mtrigger!==null) {
     mtriggerclose();
   }
 }
@@ -1470,7 +1470,7 @@ function menuclose() {
   mtimer = setTimeout(mtriggerclose,250);
 }
 function mtriggerclose() {
-  if (mtrigger==null) return;
+  if (mtrigger===null) return;
   var obj = getObj(mtrigger.id.replace("menu","menuitem"));
   if (obj) menuout(obj);
 
@@ -1486,17 +1486,17 @@ function menubutton(name,ref,accesskey,style) {
   var html = "";
   var hint = "";
   if (typeof(style)=="undefined") style="";
-  if (typeof(accesskey)!="undefined" && accesskey!="") {
+  if (typeof(accesskey)!="undefined" && accesskey!=="") {
     html = "<a onclick='"+ref.replace(/'/g, "&quot;")+"' href='#' accesskey='"+accesskey+"'></a>";
     hint = "[Alt-"+accesskey+"]";
   }
   mbuffer += '<td id="menuitem'+menu+'" class="menu_item" style="'+style+'" onmouseover="menuover(this);" onmouseout="menuout(this);" onclick="'+ref+'" title="'+hint+'">'+name+html+'</td>';
   menu++;
-  smenu++
+  smenu++;
 }
 function smenu_begin() {
   smenu_buffer += '<table onmouseover="menuopen(this);" onmouseout="menuclose();" id="menu'+smenu+'" class="submenu" cellspacing="0" cellpadding="0" style="display:none;">';
-  smenu++
+  smenu++;
 }
 function smenu_end() {
   smenu_buffer += '</table>';
@@ -1508,14 +1508,14 @@ function smenuitem(name,ref,accesskey) {
       html = "<a onclick='"+ref.replace(/'/g, "&quot;")+"' href='#' accesskey='"+accesskey+"'></a>";
     hint = "[Alt-"+accesskey+"]";
   }
-  smenu_buffer += '<tr><td class="menu_item" style="padding:0 6px;" onmouseover="menuover(this);" onmouseout="menuout(this);" onclick="menuclose(); '+(ref!=""?ref:"")+'" title="'+hint+'">'+name+html+'</td></tr>';
+  smenu_buffer += '<tr><td class="menu_item" style="padding:0 6px;" onmouseover="menuover(this);" onmouseout="menuout(this);" onclick="menuclose(); '+(ref!==""?ref:"")+'" title="'+hint+'">'+name+html+'</td></tr>';
 }
 function smenu_history() {
-  if (hist!="") {
+  if (hist!=="") {
     for (var i=0; i<hist.length; i++) {
       if (hist[i].length!=3) continue;
       var title = hist[i][0];
-      if (hist[i][2]!="" && hist[i][2]!="display") title += " &nbsp;("+hist[i][2]+")";
+      if (hist[i][2]!=="" && hist[i][2]!="display") title += " &nbsp;("+hist[i][2]+")";
       smenuitem(title,"locate('index.php?folder="+escape(hist[i][1])+"&view="+hist[i][2]+"')");
     }
   } else smenuitem("{t}Empty{/t}","");
