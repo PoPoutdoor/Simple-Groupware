@@ -26,7 +26,7 @@ function testTranslation() {
   $data = file_get_contents("lang/de.lang");
   foreach (file("lang/master.lang") as $line) {
     if (strpos($line, "** ")!==0) continue;
-    $this->assertTrue((strpos($data, $line)===false), $line);
+    $this->assertTrue(strpos($data, $line)!==false, $line);
   }
 }
 
