@@ -3542,3 +3542,6 @@ Standardsprache
 
 ** Offline sync
 Offline-Synchronisierung
+
+** The error logfile cannot be processed, too large:
+Die Logdatei für Fehler kann nicht verarbeitet werden, zu groß:
