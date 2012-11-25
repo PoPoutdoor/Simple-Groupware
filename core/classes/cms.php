@@ -41,7 +41,7 @@ function __construct($pagename) {
 function __destruct() {
   $time = number_format(sys_get_microtime()-self::$time_start,2);
   echo "<!-- ".$time."s -->";
-  if ($time > CMS_SLOW) sys_log_message_log("cms-slow",sprintf("{t}%s secs{/t}",$time)." ".$SERVER["PATH_INFO"],var_export($_REQUEST,true));
+  if ($time > CMS_SLOW) sys_log_message_log("cms-slow",sprintf("{t}%s secs{/t}",$time)." ".$_SERVER["PATH_INFO"],var_export($_REQUEST,true));
 
   if (DEBUG and function_exists("memory_get_usage") and function_exists("memory_get_peak_usage")) {
 	echo "<!-- ".modify::filesize(memory_get_usage())." - ".modify::filesize(memory_get_peak_usage())." -->";
