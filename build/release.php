@@ -21,39 +21,33 @@ class build {
 		$version = $this->getVersion(__DIR__."/..", false);
 		//$this->checkPhp(__DIR__."/..");
 
-		echo "zip ";
 		$target = __DIR__."/SimpleGroupware_{$version}.zip";
 		$output = exec("wget -O ".$target." https://github.com/simplegroupware/Simple-Groupware/archive/master.zip");
 		if (!file_exists($target) or filesize($target)<3*1048576) {
-			throw new Exception("Error creating zip file".print_r($output, true));
+			throw new Exception("Error creating zip ".print_r($output, true));
 		}
-		echo "tar-gz ";
 		$target = __DIR__."/SimpleGroupware_{$version}.tar.gz";
 		$output = exec("wget -O ".$target." https://github.com/simplegroupware/Simple-Groupware/archive/master.tar.gz");
 		if (!file_exists($target) or filesize($target)<3*1048576) {
-			throw new Exception("Error creating gzip file: ".print_r($output, true));
+			throw new Exception("Error creating gzip ".print_r($output, true));
 		}
-
-		echo "man1 ";
 		$url = "http://www.simple-groupware.de/cms/SgsMLReferencePrint";
 		$pdf = __DIR__."/SimpleGroupwareManual_sgsML_{$version}.pdf";
 		exec("phantomjs ".__DIR__."/html2pdf.js ".$url." ".$pdf);
 		if (!file_exists($pdf) or filesize($pdf)<200*1024) {
-			throw new Exception("Error creating zip file".print_r($output, true));
+			throw new Exception("Error creating sgsml pdf ".print_r($output, true));
 		}
-		echo "man3 ";
 		$url = "http://www.simple-groupware.de/cms/UserManualPrint";
 		$pdf = __DIR__."/SimpleGroupwareUserManual_{$version}.pdf";
 		exec("phantomjs ".__DIR__."/html2pdf.js ".$url." ".$pdf);
 		if (!file_exists($pdf) or filesize($pdf)<800*1024) {
-			throw new Exception("Error creating zip file".print_r($output, true));
+			throw new Exception("Error creating user pdf ".print_r($output, true));
 		}
-		echo "man2 ";
 		$url = "http://www.simple-groupware.de/cms/ManualPrint";
 		$pdf = __DIR__."/SimpleGroupwareManual_{$version}.pdf";
 		exec("phantomjs ".__DIR__."/html2pdf.js ".$url." ".$pdf);
 		if (!file_exists($pdf) or filesize($pdf) < 3*1048576) {
-			throw new Exception("Error creating zip file".print_r($output, true));
+			throw new Exception("Error creating manual pdf ".print_r($output, true));
 		}
 		// TODO set meta data in PDFs, http://code.google.com/p/phantomjs/issues/detail?id=883
 		// TODO Title: Simple Groupware sgsML Reference Guide
@@ -78,9 +72,7 @@ class build {
 				$matches = array();
 				if (preg_match_all("!\{t\}([^\{]+)!i", $data, $matches, PREG_SET_ORDER)) {
 					foreach ($matches as $match) $master_lang[] = "** ".$match[1];
-				}
-			}
-		}
+		}	}	}
 		sort($master_lang);
 		$header = "/**\n * @package Simple Groupware\n * @license GPLv2\n */\n\n";
 		$header .= "** !_Language\nEnglish\n\n";
@@ -128,9 +120,7 @@ class build {
 			foreach ($output as $line) {
 				if (preg_match($filter, $line)) continue;
 				throw new Exception($line);
-			}
-		}
-	}
+	}	}	}
 	
 	private function getVersion($dir, $force_valid=true) {
 		$match = array();
