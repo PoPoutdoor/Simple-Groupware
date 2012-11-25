@@ -9,8 +9,9 @@
 // TODO test install mysql, postgres, sqlite
 // TODO rebuild google master lang
 // TODO remove index.htm?
+// TODO deploy to google code, sf, homepage
 
-new build(true, false);
+new build(true, true);
 
 class build {
 
@@ -18,7 +19,7 @@ class build {
 		$this->translationMaster();
 		$this->sysCheck();
 		$version = $this->getVersion(__DIR__."/..", false);
-		$this->checkPhp(__DIR__."/..");
+		//$this->checkPhp(__DIR__."/..");
 
 		if ($archives) {
 			$target = __DIR__."/SimpleGroupware_{$version}.zip";
@@ -33,14 +34,24 @@ class build {
 			}
 		}
 		if ($manuals) {
-			$pdf = __DIR__."/SimpleGroupwareManual_{$version}.pdf";
-			$this->html2pdf("http://www.simple-groupware.de/cms/ManualPrint", $pdf);
-			
+			// TODO check for errors
+			$url = "http://www.simple-groupware.de/cms/SgsMLReferencePrint";
 			$pdf = __DIR__."/SimpleGroupwareManual_sgsML_{$version}.pdf";
-			$this->html2pdf("http://www.simple-groupware.de/cms/SgsMLReferencePrint", $pdf);
+			exec("phantomjs ".__DIR__."/html2pdf.js ".$url." ".$pdf);
 
+			$url = "http://www.simple-groupware.de/cms/ManualPrint";
+			$pdf = __DIR__."/SimpleGroupwareManual_{$version}.pdf";
+			exec("phantomjs ".__DIR__."/html2pdf.js ".$url." ".$pdf);
+
+			$url = "http://www.simple-groupware.de/cms/UserManualPrint";
 			$pdf = __DIR__."/SimpleGroupwareUserManual_{$version}.pdf";
-			$this->html2pdf("http://www.simple-groupware.de/cms/UserManualPrint", $pdf);
+			exec("phantomjs ".__DIR__."/html2pdf.js ".$url." ".$pdf);
+
+			// TODO set meta data in PDFs, http://code.google.com/p/phantomjs/issues/detail?id=883
+			// TODO Title: Simple Groupware sgsML Reference Guide
+			// TODO Title: Simple Groupware Manual
+			// TODO Title: Simple Groupware User Manual
+			// TODO Author: Simple Groupware Solutions Thomas Bley
 		}
 	}
 	
@@ -70,26 +81,13 @@ class build {
 	}
 
 	private function sysCheck() {
-		$tools = array("zca", "perl -v");
+		$tools = array("zca", "phantomjs");
 		foreach ($tools as $tool) {
 			$output = array();
 			$code = 0;
 			exec($tool." 2>&1", $output, $code);
 			if ($code===1 or $code===127) throw new Exception("Tool not found: ".$tool);
 		}
-	}
-
-	private function html2pdf($url, $pdf) {
-		$ps = tempnam("/tmp", "ps").".ps";
-		$output = array();
-		exec("perl html2ps.pl -n -u -t -o {$ps} {$url}");
-		if (filesize($ps)<1000000) throw new Exception("ps too small: ".$ps);
-
-		$output = array();
-		exec("gs -sDEVICE=pdfwrite -dNOPAUSE -dQUIET -dBATCH -sOutputFile={$pdf} {$ps}", $output);
-		if (!empty($output)) throw new Exception("gs error: ".print_r($output, true));
-		if (filesize($pdf)<100000) throw new Exception("pdf too small: ".$pdf);
-		unlink($ps);
 	}
 
 	private function checkPhp($dir) {
@@ -104,7 +102,7 @@ class build {
 			"'unused2' is never used",
 		);
 		$filter = "!".implode("|", array_map("preg_quote", $filter))."!";
-		$exclude_files = array(".", "..", "default.php", "Tar_137.php", "tar.php", "lib");
+		$exclude_files = array(".", "..", "default.php", "Tar_137.php", "tar.php", "lib", "simple_cache", "simple_store");
 
 		$dir .= "/";
 		if (!is_dir($dir)) throw new Exception("Directory not found: ".$dir);
