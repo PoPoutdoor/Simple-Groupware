@@ -11,48 +11,55 @@
 // TODO remove index.htm?
 // TODO deploy to google code, sf, homepage
 
-new build(true, true);
+new build();
 
 class build {
 
-	public function __construct($archives=true, $manuals=true) {
+	public function __construct() {
 		$this->translationMaster();
 		$this->sysCheck();
 		$version = $this->getVersion(__DIR__."/..", false);
 		//$this->checkPhp(__DIR__."/..");
 
-		if ($archives) {
-			$target = __DIR__."/SimpleGroupware_{$version}.zip";
-			$output = exec("wget -O ".$target." https://github.com/simplegroupware/Simple-Groupware/archive/master.zip");
-			if (!file_exists($target) or filesize($target)<3*1048576) {
-				throw new Exception("Error creating zip file".print_r($output, true));
-			}
-			$target = __DIR__."/SimpleGroupware_{$version}.tar.gz";
-			$output = exec("wget -O ".$target." https://github.com/simplegroupware/Simple-Groupware/archive/master.tar.gz");
-			if (!file_exists($target) or filesize($target)<3*1048576) {
-				throw new Exception("Error creating gzip file: ".print_r($output, true));
-			}
+		echo "zip ";
+		$target = __DIR__."/SimpleGroupware_{$version}.zip";
+		$output = exec("wget -O ".$target." https://github.com/simplegroupware/Simple-Groupware/archive/master.zip");
+		if (!file_exists($target) or filesize($target)<3*1048576) {
+			throw new Exception("Error creating zip file".print_r($output, true));
 		}
-		if ($manuals) {
-			// TODO check for errors
-			$url = "http://www.simple-groupware.de/cms/SgsMLReferencePrint";
-			$pdf = __DIR__."/SimpleGroupwareManual_sgsML_{$version}.pdf";
-			exec("phantomjs ".__DIR__."/html2pdf.js ".$url." ".$pdf);
-
-			$url = "http://www.simple-groupware.de/cms/ManualPrint";
-			$pdf = __DIR__."/SimpleGroupwareManual_{$version}.pdf";
-			exec("phantomjs ".__DIR__."/html2pdf.js ".$url." ".$pdf);
-
-			$url = "http://www.simple-groupware.de/cms/UserManualPrint";
-			$pdf = __DIR__."/SimpleGroupwareUserManual_{$version}.pdf";
-			exec("phantomjs ".__DIR__."/html2pdf.js ".$url." ".$pdf);
-
-			// TODO set meta data in PDFs, http://code.google.com/p/phantomjs/issues/detail?id=883
-			// TODO Title: Simple Groupware sgsML Reference Guide
-			// TODO Title: Simple Groupware Manual
-			// TODO Title: Simple Groupware User Manual
-			// TODO Author: Simple Groupware Solutions Thomas Bley
+		echo "tar-gz ";
+		$target = __DIR__."/SimpleGroupware_{$version}.tar.gz";
+		$output = exec("wget -O ".$target." https://github.com/simplegroupware/Simple-Groupware/archive/master.tar.gz");
+		if (!file_exists($target) or filesize($target)<3*1048576) {
+			throw new Exception("Error creating gzip file: ".print_r($output, true));
 		}
+
+		echo "man1 ";
+		$url = "http://www.simple-groupware.de/cms/SgsMLReferencePrint";
+		$pdf = __DIR__."/SimpleGroupwareManual_sgsML_{$version}.pdf";
+		exec("phantomjs ".__DIR__."/html2pdf.js ".$url." ".$pdf);
+		if (!file_exists($pdf) or filesize($pdf)<200*1024) {
+			throw new Exception("Error creating zip file".print_r($output, true));
+		}
+		echo "man3 ";
+		$url = "http://www.simple-groupware.de/cms/UserManualPrint";
+		$pdf = __DIR__."/SimpleGroupwareUserManual_{$version}.pdf";
+		exec("phantomjs ".__DIR__."/html2pdf.js ".$url." ".$pdf);
+		if (!file_exists($pdf) or filesize($pdf)<800*1024) {
+			throw new Exception("Error creating zip file".print_r($output, true));
+		}
+		echo "man2 ";
+		$url = "http://www.simple-groupware.de/cms/ManualPrint";
+		$pdf = __DIR__."/SimpleGroupwareManual_{$version}.pdf";
+		exec("phantomjs ".__DIR__."/html2pdf.js ".$url." ".$pdf);
+		if (!file_exists($pdf) or filesize($pdf) < 3*1048576) {
+			throw new Exception("Error creating zip file".print_r($output, true));
+		}
+		// TODO set meta data in PDFs, http://code.google.com/p/phantomjs/issues/detail?id=883
+		// TODO Title: Simple Groupware sgsML Reference Guide
+		// TODO Title: Simple Groupware Manual
+		// TODO Title: Simple Groupware User Manual
+		// TODO Author: Simple Groupware Solutions Thomas Bley
 	}
 	
 	private function translationMaster() {
@@ -63,7 +70,7 @@ class build {
 			foreach (scandir($src) as $file) {
 				if ($file[0]==".") continue;
 				if (is_dir($src.$file)) {
-					if (in_array($file, array("tools", "lib", "simple_cache", "simple_store"))) continue;
+					if (in_array($file, array("tools", "lib", "simple_cache", "simple_store", "build"))) continue;
 					$queue[] = $src.$file."/";
 					continue;
 				}
@@ -81,7 +88,7 @@ class build {
 	}
 
 	private function sysCheck() {
-		$tools = array("zca", "phantomjs");
+		$tools = array("zca", "phantomjs --version");
 		foreach ($tools as $tool) {
 			$output = array();
 			$code = 0;
