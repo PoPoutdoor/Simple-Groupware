@@ -21,6 +21,11 @@ class build {
 		$version = $this->getVersion(__DIR__."/..", false);
 		//$this->checkPhp(__DIR__."/..");
 
+		$this->downloadArchives();
+		$this->buildManuals();
+	}
+
+	private function downloadArchives() {
 		$target = __DIR__."/SimpleGroupware_{$version}.zip";
 		$output = exec("wget -O ".$target." https://github.com/simplegroupware/Simple-Groupware/archive/master.zip");
 		if (!file_exists($target) or filesize($target)<3*1048576) {
@@ -31,6 +36,9 @@ class build {
 		if (!file_exists($target) or filesize($target)<3*1048576) {
 			throw new Exception("Error creating gzip ".print_r($output, true));
 		}
+	}
+
+	private function buildManuals() {
 		$url = "http://www.simple-groupware.de/cms/SgsMLReferencePrint";
 		$pdf = __DIR__."/SimpleGroupwareManual_sgsML_{$version}.pdf";
 		exec("phantomjs ".__DIR__."/html2pdf.js ".$url." ".$pdf);
@@ -55,7 +63,7 @@ class build {
 		// TODO Title: Simple Groupware User Manual
 		// TODO Author: Simple Groupware Solutions Thomas Bley
 	}
-	
+
 	private function translationMaster() {
 		$master_lang = array();
 		$queue = array(__DIR__."/../");
