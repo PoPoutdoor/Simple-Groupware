@@ -6,6 +6,10 @@
  * @license GPLv2
  */
 
+/**
+ * Class for Ajax/Soap remote procedure calls
+ * - called from <base>/ajax.php or <base>/soap.php
+ */
 class ajax {
 
 /**
@@ -125,17 +129,32 @@ static function asset_delete($folder, $view, $items, $mode) {
   return $folder;
 }
 
+/**
+ * Mark asset(s) for copy or paste (ccp = cut-copy-paste)
+ *
+ * @param int|string $folder Folder ID or String (/Workspace/.../)
+ * @param string $view View name (e.g. display, details)
+ * @param array $items Array of items (e.g. [101,102,103])
+ * @param string $operation cut or copy
+ * @return int Source folder ID
+ */
 static function asset_cutcopy($folder, $view, $items, $operation) {
   if ($operation=="cut") {
     self::_require_access($folder, "write");
   } else { // copy
     self::_require_access($folder, "read");
   }
-  // ccp = cut-copy-paste
   $_SESSION["ccp_data"] = asset_ccp::cutcopy_items($folder, $view, $items, $operation);
   self::session_save();
 }
 
+/**
+ * Paste asset(s) marked for copy or paste (ccp = cut-copy-paste)
+ * - exit on failure
+ *
+ * @param int|string $folder Target folder ID or String (/Workspace/.../)
+ * @return int Source folder ID
+ */
 static function asset_paste($folder) {
   self::_require_access($folder, "write");
   if (!empty($_SESSION["ccp_data"])) {
@@ -147,6 +166,17 @@ static function asset_paste($folder) {
   return $folder;
 }
 
+/**
+ * Mark asset(s) for copy or paste (ccp = cut-copy-paste)
+ * - exit on failure
+ *
+ * @param int|string $folder Source folder ID or string (/Workspace/.../)
+ * @param string $view Source view name (e.g. display, details)
+ * @param array $items Array of items (e.g. [101,102,103])
+ * @param string $target Target folder ID or string (/Workspace/.../)
+ * @param string $operation cut or copy
+ * @return int Source folder ID
+ */
 static function asset_ccp($folder, $view, $items, $target, $operation) {
   if ($operation=="cut") {
     self::_require_access($folder, "write");
@@ -287,6 +317,13 @@ static function folder_add_offline($folder, $view, $folder_name) {
   }
 }
 
+/**
+ * Return folder create or rename form
+ * 
+ * @param int|string $folder Folder ID or String (/Workspace/.../)
+ * @param bool $create true for create, false for rename
+ * @return html form
+ */
 static function folder_options($folder, $create) {
   self::_require_access($folder, "write");
   $sel_folder = folder_build_selfolder($folder, "");
@@ -297,13 +334,19 @@ static function folder_options($folder, $create) {
   $tpl->isdbfolder = is_numeric($folder);
   $tpl->style = $_SESSION["theme"];
   $tpl->folder = array(
-      "name"=>$sel_folder["ftitle"], "description"=>$sel_folder["fdescription"],
-      "type"=>$sel_folder["ftype"], "assets"=>$sel_folder["fcount"], "icon"=>$sel_folder["icon"],
-      "notification"=>$sel_folder["notification"], "id"=>$folder
+    "name"=>$sel_folder["ftitle"], "description"=>$sel_folder["fdescription"],
+    "type"=>$sel_folder["ftype"], "assets"=>$sel_folder["fcount"], "icon"=>$sel_folder["icon"],
+    "notification"=>$sel_folder["notification"], "id"=>$folder
   );
   return $tpl->render($create?"templates/ajax_folder_create.php":"templates/ajax_folder_rename.php");
 }
 
+/**
+ * Return folder mountpoint form
+ * 
+ * @param int|string $folder Folder ID or String (/Workspace/.../)
+ * @return html form
+ */
 static function folder_mountpoint($folder) {
   self::_require_access($folder, "write");
   $sel_folder = folder_build_selfolder($folder, "");
@@ -315,6 +358,12 @@ static function folder_mountpoint($folder) {
   return $tpl->render("templates/ajax_folder_mountpoint.php");
 }
 
+/**
+ * Return folder information table
+ * 
+ * @param int|string $folder Folder ID or String (/Workspace/.../)
+ * @return html
+ */
 static function folder_info($folder) {
   self::_require_access($folder, "read");
   $sel_folder = folder_build_selfolder($folder, "");
@@ -326,11 +375,11 @@ static function folder_info($folder) {
     $sel_folder = array_merge($sel_folder, $values);
   }
   $info = array("{t}Name{/t}"=>$sel_folder["ftitle"], "{t}Type{/t}"=>ucfirst($sel_folder["ftype"]),
-                 "{t}Level{/t}"=>$sel_folder["flevel"], "{t}Quota{/t}"=>modify::filesize($sel_folder["quota"]["quota"]),
-               "{t}Quota (remaining){/t}"=>modify::filesize($sel_folder["quota"]["remain"]),
-               "{t}Folders{/t}"=>$sel_folder["ffcount"], "{t}Size{/t}"=>modify::filesize($sel_folder["fsizecount"]),
-               "{t}Size (children){/t}"=>modify::filesize($sel_folder["fchsizecount"]), "{t}Assets{/t}"=>$sel_folder["fcount"],
-               "{t}Assets (children){/t}"=>$sel_folder["fchcount"]);
+                "{t}Level{/t}"=>$sel_folder["flevel"], "{t}Quota{/t}"=>modify::filesize($sel_folder["quota"]["quota"]),
+                "{t}Quota (remaining){/t}"=>modify::filesize($sel_folder["quota"]["remain"]),
+                "{t}Folders{/t}"=>$sel_folder["ffcount"], "{t}Size{/t}"=>modify::filesize($sel_folder["fsizecount"]),
+                "{t}Size (children){/t}"=>modify::filesize($sel_folder["fchsizecount"]), "{t}Assets{/t}"=>$sel_folder["fcount"],
+                "{t}Assets (children){/t}"=>$sel_folder["fchcount"]);
   
   $tpl = new template();
   $tpl->style = $_SESSION["theme"];
@@ -429,6 +478,15 @@ static function folder_applyrights($folder) {
   return count($data)>0;
 }
 
+/**
+ * Delete a folder
+ * - exit on failure
+ * - mountpoint folders are directly deleted
+ * - database folders are moved to /Workspace/System/Trash/ first
+ *
+ * @param int|string $folder Folder ID or String (/Workspace/.../)
+ * @return empty string
+ */
 static function folder_delete($folder) {
   self::_require_access($folder, "write");
   self::tree_close($folder);
@@ -446,6 +504,13 @@ static function folder_delete($folder) {
   return "";
 }
 
+/**
+ * Move folder up inside current level
+ * - e.g. d: b|c|d|e => b|d|c|e
+ *
+ * @param int|string $folder Folder ID or String (/Workspace/.../)
+ * @return int Folder ID
+ */
 static function folder_moveup($folder) {
   if (!is_numeric($folder)) return $folder;
   self::_require_access($folder, "write");
@@ -453,6 +518,13 @@ static function folder_moveup($folder) {
   return $folder;
 }
 
+/**
+ * Move folder down inside current level
+ * - e.g. d: b|c|d|e => b|c|e|d
+ *
+ * @param int|string $folder Folder ID or String (/Workspace/.../)
+ * @return int Folder ID
+ */
 static function folder_movedown($folder) {
   if (!is_numeric($folder)) return $folder;
   self::_require_access($folder, "write");
@@ -460,18 +532,35 @@ static function folder_movedown($folder) {
   return $folder;
 }
 
+/**
+ * Mark folder for cut-paste, followed by ajax::folder_paste()
+ *
+ * @param int|string $folder Folder ID or String (/Workspace/.../)
+ */
 static function folder_cut($folder) {
   self::_require_access($folder, "write");
   $_SESSION["ccp_folder"] = array("cut"=>$folder);
   self::session_save();
 }
 
+/**
+ * Mark folder for copy-paste, followed by ajax::folder_paste()
+ *
+ * @param int|string $folder Folder ID or String (/Workspace/.../)
+ */
 static function folder_copy($folder) {
   self::_require_access($folder, "write");
   $_SESSION["ccp_folder"] = array("copy"=>$folder);
   self::session_save();
 }
 
+/**
+ * Paste marked folder, preceded by ajax::folder_cut() or ajax::folder_copy()
+ * - exit on failure
+ *
+ * @param int|string $folder Folder ID or String (/Workspace/.../)
+ * @return int Folder ID
+ */
 static function folder_paste($folder) {
   if (empty($_SESSION["ccp_folder"])) exit("{t}Item not found.{/t}");
   $source = implode("", $_SESSION["ccp_folder"]);
@@ -520,6 +609,15 @@ static function folders_from_path($path) {
   return folders_from_path($path);
 }
 
+/**
+ * Move or copy a folder (ccp = cut-copy-paste)
+ * - exit on failure
+ *
+ * @param int|string $source Source folder ID or string (/Workspace/.../)
+ * @param int|string $target Target folder ID or string (/Workspace/.../)
+ * @param string $operation cut or copy
+ * @return int Source folder ID
+ */
 static function folder_ccp($source, $target, $operation) {
   self::_require_access($source, "write");
   self::_require_access($target, "write");
@@ -614,6 +712,14 @@ static function session_save() {
   $saved = true;
 }
 
+/**
+ * Check required access rights for folder and view
+ * - exit when access is denied
+ *
+ * @param int|string $folder Folder ID or String (/Workspace/.../)
+ * @param string $right Right (read, write, admin)
+ * @param string $view View name (e.g. display, details), optional
+ */
 protected static function _require_access(&$folder, $right="read", $view="") {
   // /Workspace/ => 101
   $folder = folder_from_path($folder);
