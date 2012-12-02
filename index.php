@@ -27,10 +27,6 @@ if (!defined("SETUP_DB_HOST")) exit;
 
 if (!empty($_POST)) @ignore_user_abort(1);
 
-if (FORCE_SSL and (!isset($_SERVER["HTTPS"]) or $_SERVER["HTTPS"]!="on")) {
-  header("Location: https://".$_SERVER["HTTP_HOST"].$_SERVER["SCRIPT_NAME"]."?".@$_SERVER["QUERY_STRING"]);
-  exit;
-}
 if (!empty($_SERVER["PATH_INFO"]) and $_SERVER["PATH_INFO"]!=$_SERVER["SCRIPT_NAME"] and !strpos($_SERVER["PATH_INFO"],".exe")) {
   header("Location: http://".$_SERVER["HTTP_HOST"].$_SERVER["SCRIPT_NAME"]);
   exit;
