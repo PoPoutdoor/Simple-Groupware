@@ -56,7 +56,6 @@ static $bools = array(
 	"USE_MAIL_FUNCTION"=>"{t}Use the mail() function for sending mails (insecure){/t}",
 	"USE_SYSLOG_FUNCTION"=>"{t}Use syslog() function for logging events{/t}",
 	"USE_DEBIAN_BINARIES"=>"{t}Use Debian binaries (Warning: not latest versions){/t}",
-	"FORCE_SSL"=>"{t}Force SSL{/t}",
 	"CHECK_DOS"=>"{t}Check DoS Attacks{/t}",
 	"CORE_COMPRESS_OUTPUT"=>"{t}Compress output{/t}",
 	"APC_SESSION"=>"{t}Use APC for session storage{/t}",

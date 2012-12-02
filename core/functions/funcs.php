@@ -2402,7 +2402,6 @@ function sys_get_header($key) {
 }
 
 function sys_https() {
-  if (FORCE_SSL) return true;
   if (isset($_SERVER["HTTPS"]) and $_SERVER["HTTPS"]=="on") return true;
   return false;
 }

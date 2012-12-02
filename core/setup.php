@@ -31,7 +31,6 @@ define("LANG",!empty($_REQUEST["lang"])?$_REQUEST["lang"]:"en");
 define("NOW",time());
 define("DEBUG",false);
 define("DEBUG_SQL",false);
-define("FORCE_SSL",false);
 define("APC",false);
 define("CSV_CACHE",300);
 define("INDEX_LIMIT",16384);
