@@ -314,8 +314,6 @@ static function show_form() {
 	  }
 	  if ($key=="ntlm") {
 		echo '<tr><td colspan="2"></td><td>{t}Share{/t}</td><td><input type="Text" name="setup_auth_ntlm_share" value="'.self::quote(SETUP_AUTH_NTLM_SHARE).'"></td><td>(smb://server/share/)</td></tr>';
-		echo '<input type="hidden" name="setup_auth_ntlm_sso" value="0">
-		<tr><td colspan="2"></td><td>Single sign-on</td><td><input type="checkbox" name="setup_auth_ntlm_sso" class="checkbox" value="1" '.(SETUP_AUTH_NTLM_SSO?"checked":"").'></td></tr>';
 	  }
 	}
   }

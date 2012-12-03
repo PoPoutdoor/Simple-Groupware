@@ -1916,9 +1916,6 @@ function login_handle_login($save_session=true) {
 	  sys_log_stat("wrong_login",1);
 	}
   }
-  if (!isset($_REQUEST["logout"]) and empty($_SESSION["username"]) and SETUP_AUTH=="ntlm" and SETUP_AUTH_NTLM_SSO) {
-	if (login::validate_login("_invalid","")) login::process_login($_SERVER["REMOTE_USER"]);
-  }
   if (!isset($_REQUEST["logout"]) and empty($_SESSION["username"]) and SETUP_AUTH=="htaccess" and !empty($_SERVER["REMOTE_USER"])) {
     $_SERVER["REMOTE_USER"] = modify::strip_ntdomain($_SERVER["REMOTE_USER"]);
 	if (login::validate_login($_SERVER["REMOTE_USER"],"")) login::process_login($_SERVER["REMOTE_USER"]);
