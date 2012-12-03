@@ -31,7 +31,7 @@ if (!empty($_SERVER["PATH_INFO"]) and $_SERVER["PATH_INFO"]!=$_SERVER["SCRIPT_NA
   header("Location: http://".$_SERVER["HTTP_HOST"].$_SERVER["SCRIPT_NAME"]);
   exit;
 }
-if (CHECK_DOS and !SETUP_AUTH_NTLM_SSO and !DEBUG) pre_sys_checkdos();
+if (CHECK_DOS and !DEBUG) pre_sys_checkdos();
 
 require("core/functions.php");
 require("lib/smarty/Smarty.class.php");
