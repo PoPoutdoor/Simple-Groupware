@@ -1730,7 +1730,6 @@ function folder_build_folders() {
 	"folder_refresh"=>FOLDER_REFRESH,
 	"menu_autohide"=>(int)MENU_AUTOHIDE,
 	"tree_autohide"=>(int)TREE_AUTOHIDE,
-	"fixed_footer"=>(int)FIXED_FOOTER,
 	"fdesc_in_content"=>(int)FDESC_IN_CONTENT,
 	"mountpoint_admin"=>(int)MOUNTPOINT_REQUIRE_ADMIN,
 	"is_superadmin"=>(int)sys_is_super_admin($_SESSION["username"]),
