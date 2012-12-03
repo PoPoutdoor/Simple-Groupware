@@ -296,6 +296,13 @@ static function tree_open($id) {
   return array("level"=>$sel_folder["flevel"], "children"=>$children);
 }
 
+static function tree_get_folders_by_type($type) {
+  if (empty($type)) return array();
+  $children = db_select("simple_sys_tree",array("id","fcount","ftype","icon","fdescription"),array("ftype=@type@", $_SESSION["permission_sql_read"]),"lft asc","",array("type"=>$type));
+  foreach ($children as $key=>$child) $children[$key]["path"] = modify::getpath($child["id"]);
+  return $children;
+}
+
 static function folder_add_offline($folder, $view, $folder_name) {
   $offline_folder = db_select_value("simple_sys_tree", "id", "anchor=@anchor@", array("anchor"=>"offline_".$_SESSION["username"]));
   if (empty($offline_folder)) exit(sprintf("{t}Item not found.{/t} (%s)", "{t}Offline folders{/t}"));
