@@ -9,8 +9,7 @@ var hpane = 0;
 var vpane = 0;
 var pane = 0.52;
 var pane2 = 0.27;
-var tree_width = 235;
-var tree_min = 180;
+var tree_width = 250;
 var tree_scroll_pos = 0;
 var pane_timer = null;
 var refresh_timer = null;
@@ -42,15 +41,11 @@ if (iframe && !popup && window==top.window && document.location.href.indexOf("&i
   document.location.href = document.location.href.replace("&iframe=1","");
 }
 
-var re = /tree_scroll_pos=(.*?)&tree_width=(.*?)&pane=(.*?)&pane2=(.*?)~/;
+var re = /tree_scroll_pos=(.*?)&pane=(.*?)&pane2=(.*?)~/;
 if ((m = re.exec(document.cookie))) {
   tree_scroll_pos = m[1];
-  tree_width = m[2];
-  if (tree_width <= tree_min) tree_width = tree_min + 6;
   pane = m[3];
   pane2 = m[4];
-} else {
-  if (screen_width>1024) tree_width = 250;
 }
 window.onbeforeunload = function(){
   if (form_changed(getObj("asset_form"))) return "";
@@ -117,7 +112,7 @@ function is_nested_target(event, obj) {
 function tree(show) {
   if (!getObj("tree")) return;
   if (show) {
-    tree_width = 235;
+    tree_width = 250;
     show2("tree");
   } else {
     tree_width = -2;
@@ -716,7 +711,7 @@ function display_images() {
 
 function save_cookie() {
   tree_scroll_pos = getObj("tree_def").scrollTop;
-  document.cookie = "tree_scroll_pos="+tree_scroll_pos+"&tree_width="+tree_width+"&pane="+pane+"&pane2="+pane2+"~";
+  document.cookie = "tree_scroll_pos="+tree_scroll_pos+"&pane="+pane+"&pane2="+pane2+"~";
 }
 
 function notify(str, warn) {
@@ -769,6 +764,7 @@ function resizeit() {
   
   var height_obj;
   if (tree_frame) {
+    tree_width = getObj("tree_frame").offsetWidth+17;
     height_obj = findPosY(tree_frame);
     var tree_def = getObj("tree_def");
     tree_frame.style.height = (height-height_obj-1)+"px";
@@ -982,18 +978,6 @@ function customize_field() {
 
 function ______G_U_I__T_R_E_E______() {}
 
-function tree_drag_resize(event) {
-  if (getObj("tree").style.display=="none") return;
-  cancel(event);
-  if (!event) event = window.event;
-  var screen_width = return_width();
-  tree_width = event.clientX+6;
-  if (css_conf.direction) tree_width = screen_width-tree_width+12;
-  if (tree_width > screen_width*0.5) tree_width = screen_width*0.5;
-  save_cookie();
-  if (tree_width < tree_min) tree_showhide(); else resizeit();
-}
-
 function folder_selectall(checked) {
   var objs = getObj("tcategories").getElementsByTagName("input");
   if (objs.length>0) {
@@ -1045,6 +1029,7 @@ function tree_open(id) {
       show(obj);
       obj.innerHTML = out;
       bind_drop_tree();
+      resizeit();
     });
   }
 }
@@ -1057,26 +1042,27 @@ function tree_get_folders_by_type(type, id) {
   } else {
     obj.rel = type;
     ajax("tree_get_folders_by_type", [type], function(data) {
-    var out = "";
-    for (var i in data) {
-      var item = data[i];
-      if (!item.id) continue;
-      item.id = html_escape(item.id);
-      item.fdescription = item.id.replace(/^.+:\d+\//, "") + " " + item.fdescription;
-      out += "<div title='"+html_escape(item.fdescription)+"' style='padding-left:3px; padding-top:5px; white-space:nowrap;'>";
-      out += "<a href='index.php?"+urladdon+"&folder="+item.id+"&view="+tview+"' "+(item.id==tfolder?"style='font-weight:bold;'":"")+">";
-      if (item.icon) {
-        out += "<img src='ext/modules/"+item.icon+"'> ";
-      } else if (css_conf.tree_icons) {
-        if (item.anchor && item.anchor.indexOf("_")==-1) icon = "anchor_"+item.anchor; else icon = item.ftype;
-        out += "<img src='ext/modules/"+html_escape(icon)+".png'> ";
-      } else {
-        out += "<img src='ext/cache/folder1_"+sys_style+".gif'> ";
+      var out = "";
+      for (var i in data) {
+        var item = data[i];
+        if (!item.id) continue;
+        item.id = html_escape(item.id);
+        item.fdescription = item.id.replace(/^.+:\d+\//, "") + " " + item.fdescription;
+        out += "<div title='"+html_escape(item.fdescription)+"' style='padding-left:3px; padding-top:5px; white-space:nowrap;'>";
+        out += "<a href='index.php?"+urladdon+"&folder="+item.id+"&view="+tview+"' "+(item.id==tfolder?"style='font-weight:bold;'":"")+">";
+        if (item.icon) {
+          out += "<img src='ext/modules/"+item.icon+"'> ";
+        } else if (css_conf.tree_icons) {
+          if (item.anchor && item.anchor.indexOf("_")==-1) icon = "anchor_"+item.anchor; else icon = item.ftype;
+          out += "<img src='ext/modules/"+html_escape(icon)+".png'> ";
+        } else {
+          out += "<img src='ext/cache/folder1_"+sys_style+".gif'> ";
+        }
+        out += html_escape(item.path)+"&nbsp;" + (item.fcount > 0 ? "("+item.fcount+")" : "") + "</a></div>";
       }
-      out += html_escape(item.path)+"&nbsp;" + (item.fcount > 0 ? "("+item.fcount+")" : "") + "</a></div>";
-    }
-    show(obj);
-    obj.innerHTML = out;
+      show(obj);
+      obj.innerHTML = out;
+      resizeit();
     });
   }
 }
@@ -1285,23 +1271,6 @@ function show_pane2() {
    show2("content_pane2");
    resizeit();
   }
-}
-
-function stop_drag() {
-  var obj = getObj("pane");
-  if (obj) obj.style.visibility="";
-  document.onmousemove=null;
-  document.onmouseup=null;
-  document.onmousedown=null;
-  document.onselectstart=null;
-}
-
-function start_drag(func) {
-  getObj("tree").style.width="auto"; // IE
-  document.onmousemove=func;
-  document.onmouseup=stop_drag;
-  document.onmousedown=function(){ return false; };
-  document.onselectstart=function(){ return false; };
 }
 
 function resize_pane2(event) {
