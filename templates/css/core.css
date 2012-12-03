@@ -355,7 +355,6 @@ a.tabstyle2:hover {
   background-color: <#bg_grey#>;
   <#font_10#>
 }
-
 .tabstyle {
   background-color: <#bg_grey#>;
   <#font_tab_black#>
@@ -369,6 +368,11 @@ a.tabstyle2:hover {
 
 .path_caption {
   <#font_10#>
+}
+.folder_buttons {
+  margin-left:4px;
+  padding:2px 4px;
+  border: <#border#>;
 }
 
 .tree_caption {
