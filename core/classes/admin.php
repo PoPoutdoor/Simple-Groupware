@@ -213,15 +213,17 @@ static function build_js($lang=LANG) {
 }
 
 static function build_icons() {
-  $styles = array();
+  $config = array();
   include(sys_custom("templates/css/css_conf.php"));
-  foreach ($styles as $key=>$val) {
-	if (!isset($val["bg_light_blue"]) or $key=="core") {
-	  copy("ext/icons/folder1.gif", "ext/cache/folder1_".$key.".gif");
-	  copy("ext/icons/folder2.gif", "ext/cache/folder2_".$key.".gif");
-	} else {
+  copy("ext/icons/folder1.gif", "ext/cache/folder1_core.gif");
+  copy("ext/icons/folder2.gif", "ext/cache/folder2_core.gif");
+  foreach ($config as $key=>$val) {
+    if (!empty($val["bg_light_blue"]) and $val["bg_light_blue"]!="#B6BDD2") {
 	  self::_build_icon("ext/icons/folder1.gif", "ext/cache/folder1_".$key.".gif", $val["bg_light_blue"]);
 	  self::_build_icon("ext/icons/folder2.gif", "ext/cache/folder2_".$key.".gif", $val["bg_light_blue"]);
+	} else if (is_array($val)) {
+	  copy("ext/icons/folder1.gif", "ext/cache/folder1_".$key.".gif");
+	  copy("ext/icons/folder2.gif", "ext/cache/folder2_".$key.".gif");
 } } }
 
 static function _build_icon($source, $target, $newcolor) {
