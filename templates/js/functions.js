@@ -764,7 +764,7 @@ function resizeit() {
   
   var height_obj;
   if (tree_frame) {
-    tree_width = getObj("tree_frame").offsetWidth+17;
+    tree_width = tree_frame.offsetWidth+17;
     height_obj = findPosY(tree_frame);
     var tree_def = getObj("tree_def");
     tree_frame.style.height = (height-height_obj-1)+"px";
