@@ -285,7 +285,6 @@ function start() {
   document.onkeydown=keys;
   bind_drop_tree();
   bind_drop_files();
-  auto_scroll_tree(tfolder);
   objs = getObjs(".onload");
   for (i=0; i<objs.length; i++) {
     objs[i].func = new Function("", attr(objs[i], "onload"));
