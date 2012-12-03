@@ -5,7 +5,6 @@
  * @license GPLv2
  *}
 {if !$t.schema_mode && !$iframe && ($t.maxdatasets neq 0 || $t.sqlfilters)}
-{capture name=filters}
 <table cellspacing="0" class="data noprint" style="border-top:0px; margin-bottom:2px;">
   <tr class="summary2">
   <td>{t}Filter{/t}:</td>
@@ -65,6 +64,4 @@
   </td>
   </tr>
 </table>
-{/capture}
-{if !$sys.fixed_footer}{$smarty.capture.filters|no_check}{/if}
 {/if}

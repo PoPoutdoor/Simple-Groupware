@@ -49,12 +49,8 @@
 {/if}
 <input type="hidden" id="form_submit_return" name="form_submit_return" value="">
 <input type="hidden" id="form_submit_go_edit" name="form_submit_go_edit" value="">
-</form>
-<script>focus_form("content_def_table");</script>
 
-{capture name=footer}
-<form onsubmit="getObj('asset_form').onsubmit();">
-<table cellspacing="0" border="0" class="data {if !$sys.fixed_footer}data_page{/if}" style="{if $sys.fixed_footer}margin-bottom:0px;{/if}">
+<table cellspacing="0" border="0" class="data data_page">
   <tr>
 	{if $t.datasets>0}
     <td style="width:10px;"><input type="checkbox" id="itemall" value="" class="checkbox" onmousedown="mselectall(this.checked);">
@@ -84,8 +80,8 @@
 	{/if}
   </tr>
 </table>
+
 </form>
-{/capture}
-{if !$sys.fixed_footer}{$smarty.capture.footer|no_check}{/if}
+<script>focus_form("content_def_table");</script>
 {/if}
 {/strip}

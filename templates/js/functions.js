@@ -785,25 +785,21 @@ function resizeit() {
     if (vpane > 1 && hpane > 1) getObj("pane").style.width = content_def.style.width;
   }
 
-  var fixed_footer = getObj("fixed_footer");
   if (content_def) {
     height_obj = findPosY(content_def);
     var content_def_table = getObj("content_def_table");
     var height2 = height;
-    if (fixed_footer) height2 -= fixed_footer.offsetHeight;
     if (hpane > 1) height2 = Math.floor(height*pane);
     if (!sys.is_mobile) content_def.style.height = (height2-height_obj-1)+"px";
     content_def_table.style.height = (height2-height_obj-1)+"px";
   }
-  
-  var height3 = fixed_footer ? fixed_footer.offsetHeight+1 : 0;
   if (hpane > 1) {
     var obj_pane = getObj("pane");
-     obj_pane.style.height = (height-findPosY(obj_pane)-height3)+"px";
+     obj_pane.style.height = (height-findPosY(obj_pane))+"px";
   }
   if (vpane > 1) {
     var obj_pane2 = getObj("pane2");
-    obj_pane2.style.height = (height-findPosY(obj_pane2)-height3)+"px";
+    obj_pane2.style.height = (height-findPosY(obj_pane2))+"px";
   }
   if (tree_frame) {
     tree_scroll(tree_scroll_pos);

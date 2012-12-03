@@ -186,13 +186,6 @@
 		  <iframe name="pane" id="pane" src="about:blank" onload="show_pane();" style="width:100%; height:100%; border:1px;"></iframe>
 	    </div>
 	  {/if}
-	  {if $sys.fixed_footer}
-	  <div id="fixed_footer" style="padding-top:1px;">
-		{$smarty.capture.footer|no_check}
-		{$smarty.capture.filters|no_check}
-		{$smarty.capture.pages|no_check}
-	  </div>
-	  {/if}
 	</td>
   </tr>
 </table>
