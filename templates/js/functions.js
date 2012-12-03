@@ -190,7 +190,7 @@ function keys(ev) {
 
   if (ev.keyCode=="38" || ev.keyCode=="40" || ev.keyCode=="33" || ev.keyCode=="34") {
     var objs = getObjs(".drop_tree");
-	var func_timer = function(){ locate_folder(escape(attr(keys_hl, "rel"))); };
+    var func_timer = function(){ locate_folder(escape(attr(keys_hl, "rel"))); };
     for (var i=0; i<objs.length; i++) {
       var find = keys_hl ? attr(keys_hl, "rel") : tfolder;
       if (attr(objs[i], "rel")!=find) continue;
@@ -258,10 +258,10 @@ function start() {
   }
   if (!preview && !iframe) {
     objs = getObjs(".hide_fields");
-	var func_over2 = function(event){
+    var func_over2 = function(event){
       css(this.getElementsByTagName("a"), "visibility", "visible");
     };
-	var func_out2 = function(event){
+    var func_out2 = function(event){
       css(this.getElementsByTagName("a"), "visibility", "hidden");
     };
     for (i=0; i<objs.length; i++) {
@@ -1030,24 +1030,54 @@ function tree_open(id) {
         for (j=0; j <= data.level; j++) out += "<img src='ext/icons/line.gif'>";
         if (item.ffcount + item.mp === 0) img = "line";
         out += "<a onclick='tree_open(\""+item.id+"\");'><img id='"+item.id+"_img' src='ext/icons/"+img+".gif'></a>&nbsp;";
-        out += "<a href='index.php?folder="+item.id+"' "+(item.id==tfolder?"style='font-weight:bold;'":"")+">";
-
+        out += "<a href='index.php?"+urladdon+"&folder="+item.id+"' "+(item.id==tfolder?"style='font-weight:bold;'":"")+">";
         if (item.icon) {
-          out += "<a href='index.php?folder="+item.id+"' "+(item.id==tfolder?"style='font-weight:bold;'":"")+"><img src='ext/modules/"+item.icon+"'> ";
+          out += "<img src='ext/modules/"+item.icon+"'> ";
         } else if (css_conf.tree_icons) {
           if (item.anchor && item.anchor.indexOf("_")==-1) icon = "anchor_"+item.anchor; else icon = item.ftype;
-          out += "<a href='index.php?folder="+item.id+"' "+(item.id==tfolder?"style='font-weight:bold;'":"")+"><img src='ext/modules/"+icon+".png'> ";
+          out += "<img src='ext/modules/"+html_escape(icon)+".png'> ";
         } else {
           out += "<img src='ext/cache/folder1_"+sys_style+".gif'> ";
         }
-        out += html_escape(item.ftitle)+"&nbsp;";
-        if (item.fcount > 0) out += "("+item.fcount+")";
+        out += html_escape(item.ftitle)+"&nbsp;" + (item.fcount > 0 ? "("+item.fcount+")" : "");
         out += "</a></div><div id='"+item.id+"' style='display:none;'></div>";
       }
       if (out!=="") obj2.src = "ext/icons/minus.gif"; else obj2.src = "ext/icons/line.gif";
       show(obj);
       obj.innerHTML = out;
       bind_drop_tree();
+    });
+  }
+}
+
+function tree_get_folders_by_type(type, id) {
+  var obj = getObj(id);
+  if (obj.innerHTML.length > 0 && obj.rel==type) {
+    obj.style.display = "none";
+    obj.innerHTML = "";
+  } else {
+    obj.rel = type;
+    ajax("tree_get_folders_by_type", [type], function(data) {
+    var out = "";
+    for (var i in data) {
+      var item = data[i];
+      if (!item.id) continue;
+      item.id = html_escape(item.id);
+      item.fdescription = item.id.replace(/^.+:\d+\//, "") + " " + item.fdescription;
+      out += "<div title='"+html_escape(item.fdescription)+"' style='padding-left:3px; padding-top:5px; white-space:nowrap;'>";
+      out += "<a href='index.php?"+urladdon+"&folder="+item.id+"&view="+tview+"' "+(item.id==tfolder?"style='font-weight:bold;'":"")+">";
+      if (item.icon) {
+        out += "<img src='ext/modules/"+item.icon+"'> ";
+      } else if (css_conf.tree_icons) {
+        if (item.anchor && item.anchor.indexOf("_")==-1) icon = "anchor_"+item.anchor; else icon = item.ftype;
+        out += "<img src='ext/modules/"+html_escape(icon)+".png'> ";
+      } else {
+        out += "<img src='ext/cache/folder1_"+sys_style+".gif'> ";
+      }
+      out += html_escape(item.path)+"&nbsp;" + (item.fcount > 0 ? "("+item.fcount+")" : "") + "</a></div>";
+    }
+    show(obj);
+    obj.innerHTML = out;
     });
   }
 }
