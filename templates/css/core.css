@@ -371,8 +371,9 @@ a.tabstyle2:hover {
 }
 .folder_buttons {
   margin-left:4px;
-  padding:2px 4px;
+  padding:0px 4px;
   border: <#border#>;
+  vertical-align:middle;
 }
 
 .tree_caption {
