@@ -1385,7 +1385,7 @@ function _folder_searchtypes() {
 }
 
 function _folder_process_folders($rows,&$tree,$level) {
-  foreach($rows as $row) {
+  foreach ($rows as $row) {
     if (!empty($_SESSION["folder_states"][$row["id"]])) $row["state"] = "minus"; else $row["state"] = "plus";
 	$icon = "";
 	$tree_icon = "";
@@ -1393,7 +1393,7 @@ function _folder_process_folders($rows,&$tree,$level) {
 	if (!empty($row["anchor"]) and !strpos($row["anchor"],"_")) $tree_icon = "anchor_".$row["anchor"].".png";
 	  else $tree_icon = $row["ftype"].".png";
 
-	if ($row["fmountpoint"]!="" and $_SESSION["treetype"]=="folders" and empty($_REQUEST["popup"]) and empty($_REQUEST["onecategory"])) {
+	if ($row["fmountpoint"]!="" and empty($_REQUEST["popup"])) {
 	  $url = sys_credentials($row["id"], $row["fmountpoint"]);
 	} else $url = array();
 	if ($row["fmountpoint"]=="" and $row["ffcount"]==0) $row["state"] = "line";
@@ -1578,12 +1578,6 @@ function folder_process_session_request() {
     if (!isset($_REQUEST["folder"])) $_REQUEST["folder"] = $_REQUEST["folder2"];
     if (!isset($_REQUEST["view"])) $_REQUEST["view"] = $_REQUEST["view2"];
   }
-  if (!isset($_SESSION["treetype"])) $_SESSION["treetype"] = "folders";
-  if (!empty($_REQUEST["treetype"])) {
-    if (isset($_REQUEST["onecategory"])) unset($_REQUEST["onecategory"]);
-	$_SESSION["treetype"] = $_REQUEST["treetype"];
-  }
-
   if (!isset($_SESSION["treevisible"])) $_SESSION["treevisible"] = true;
   if (!isset($_SESSION["hidedata"])) $_SESSION["hidedata"] = false;
 
@@ -1664,7 +1658,7 @@ function folder_build_folders() {
 
   $sel_folder = folder_build_selfolder($tfolder,$tview);
   $sel_folder["parents"] = db_get_parents($sel_folder);
-  if (count($sel_folder["parents"])>0 and !isset($_REQUEST["onecategory"]) and $_SESSION["treetype"]=="folders") {
+  if (count($sel_folder["parents"])>0) {
 	foreach ($sel_folder["parents"] as $parent) {
 	  $id = $parent["id"];
 	  if (!isset($_SESSION["folder_states"][$id]) or !in_array($sel_folder["id"],$_SESSION["folder_states"][$id])) {
@@ -1746,16 +1740,12 @@ function folder_build_tree($visible) {
   $vars = array();
   $sel_folder = $GLOBALS["sel_folder"];
   $schemas = select::modules();
-  if ($_SESSION["treetype"]=="folders" and empty($_REQUEST["popup"]) and empty($_REQUEST["onecategory"])) {
+  if (empty($_REQUEST["popup"])) {
     $where = array("(flevel<2 or parent in (@states@))",$_SESSION["permission_sql_read"]);
     $vars["states"] = array_filter(array_keys($_SESSION["folder_states"]),"is_numeric");
 	if (count($vars["states"])==0) $vars["states"] = 0;
-  } else {
-    $where = array("ftype=@type@",$_SESSION["permission_sql_read"]);
-	if (isset($schemas[$sel_folder["ftype"]])) {
-      $vars["type"] = $sel_folder["ftype"];
-	} else $vars["type"] = "blank";
   }
+
   $treelimit = 100;
   $treepage = 1;
   $tree_count = db_count("simple_sys_tree",$where,$vars);
@@ -1780,8 +1770,7 @@ function folder_build_tree($visible) {
 
   sys::$smarty->assign("sys_schemas",$schemas);
   sys::$smarty->assign("tree",array(
-  	"tree"=>$tree, "type"=>$_SESSION["treetype"], "visible"=>$visible,
-	"page"=>$treepage, "lastpage"=>$last_treepage,"prevpage"=>$prev_treepage, "nextpage"=>$next_treepage,
+  	"tree"=>$tree, "visible"=>$visible, "page"=>$treepage, "lastpage"=>$last_treepage, "prevpage"=>$prev_treepage, "nextpage"=>$next_treepage,
   ));
 }
 
@@ -2902,7 +2891,7 @@ function sys_process_session_request() {
   if (!empty($_REQUEST["popup"]) and !empty($_REQUEST["iframe"])) unset($_REQUEST["iframe"]);
   if (!empty($_REQUEST["iframe"])) sys::$smarty->assign("iframe",1);
 
-  $keep_vars = array("popup","onecategory","preview","lookup","eto");
+  $keep_vars = array("popup","preview","lookup","eto");
   foreach ($keep_vars as $var) {
     if (empty($_REQUEST[$var])) continue;
 	sys::$urladdon .= "&".$var."=".$_REQUEST[$var];
