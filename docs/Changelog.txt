@@ -1,4 +1,4 @@
-Version 0.750 (February , 2012) (tb)
+Version 0.800 (February , 2012) (tb)
 ------------------------------------------
 
 	* refreshed top menu design
@@ -11,7 +11,13 @@ Version 0.750 (February , 2012) (tb)
 	* changed language file format
 	  ({t}some text{/t} => ** some text)
 
-	* removed WebDAV locking with vbs/sh files
+	* removed FORCE_SSL setting
+	  (it is better to disable port 80)
+	  
+	* removed NTLM-SSO (deprecated)
+	
+	* removed WebDAV
+	  (better performance and offline usage with Google Drive, Dropbox)
 
 
 Version 0.743 (February 2, 2012) (tb)
