@@ -345,16 +345,10 @@ a.tabstyle2:hover {
   text-decoration:none;
   <#font_white_bold#>
 }
-
-.tabstyle3 {
-  padding-left:2px;
-  padding-right:2px;
+.move_tree {
+  float:right;
   cursor:move;
-  border: <#border_black#>;
-  background-color: <#bg_grey#>;
-  <#font_10#>
 }
-
 .tabstyle_empty {
   margin-right:2px;
   border: <#border_black#>;
@@ -388,11 +382,6 @@ a.tabstyle2:hover {
 .tree_folders {
   max-height:65px;
   overflow:auto;
-}
-
-.tree_views {
-  width:100%;
-  margin-bottom:2px;
 }
 
 <if $browser eq "msie">
