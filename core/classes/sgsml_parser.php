@@ -391,9 +391,8 @@ static function parse_schema($data,$tname,$cache_time,$cache_file) {
 
 static function sql_version() {
   $version = "";
-  if (SETUP_DB_TYPE=="mysql") {
-    $version = mysql_get_server_info(sys::$db);
-    $version = (int)substr(str_replace(".","",$version),0,3);
+  if (SETUP_DB_TYPE=="mysqli") {
+    $version = floor(mysqli_get_server_version(sys::$db) / 100);
   } else if (SETUP_DB_TYPE=="pgsql") {
     $version = sql_fetch_one("show server_version");
 	$version = (int)substr(str_replace(".","",$version["server_version"]),0,3);
@@ -416,7 +415,7 @@ static function sql_date() {
 
 static function table_get_indexes($table) {
   $indexes = array();
-  if (SETUP_DB_TYPE=="mysql") {
+  if (SETUP_DB_TYPE=="mysqli") {
     $sql = sprintf("show index from %s",$table);
     if (($dbindexes = sql_fetch($sql)) === false) return false;
     foreach ($dbindexes as $index) {
@@ -464,7 +463,7 @@ static function table_change_primary_key($schema_name,$primaries) {
 }
 
 static function table_drop_index($table, $type) {
-  if (SETUP_DB_TYPE=="mysql") {
+  if (SETUP_DB_TYPE=="mysqli") {
     if (sql_query(sprintf("ALTER TABLE %s DROP %s",$table,$type))) return true;
   } else if (SETUP_DB_TYPE=="sqlite") {
     if (strpos($type,"PRIMARY")!==false) $type = $table."_primary";
@@ -480,7 +479,7 @@ static function table_drop_index($table, $type) {
 }
 
 static function table_add_index($type, $name, $table, $field) {
-  if (SETUP_DB_TYPE=="mysql") {
+  if (SETUP_DB_TYPE=="mysqli") {
     if (sql_query(sprintf("CREATE %s INDEX %s ON %s(%s)",$type,$name,$table,$field))) return true;
   } else if (SETUP_DB_TYPE=="sqlite") {
     if ($type=="FULLTEXT") $type = "";
@@ -508,7 +507,7 @@ static function table_rename($table,$new_table) {
 static function table_column_rename($table,$column,$new_column) {
   if (self::table_column_exists($table,$new_column)) return true;
   if (!self::table_column_exists($table,$column)) return true;
-  if (SETUP_DB_TYPE=="mysql") {
+  if (SETUP_DB_TYPE=="mysqli") {
     $type = "";
     $sql = sprintf("show columns from %s",$table);
     if (($dbcolumns = sql_fetch($sql)) === false) return false;
@@ -527,7 +526,7 @@ static function table_column_rename($table,$column,$new_column) {
 
 static function table_change_column($table,$field_name,$ftype) {
   $type = "";
-  if (SETUP_DB_TYPE=="mysql") {
+  if (SETUP_DB_TYPE=="mysqli") {
     $sql = sprintf("show columns from %s",$table);
     if (($dbcolumns = sql_fetch($sql)) === false) {
 	  return false;
@@ -584,7 +583,7 @@ static function table_column_exists($table,$column) {
 }
 
 static function create_database($database) {
-  if (SETUP_DB_TYPE=="mysql") {
+  if (SETUP_DB_TYPE=="mysqli") {
     return sql_query(sprintf("create database %s",$database));
   } else if (SETUP_DB_TYPE=="pgsql") {
     return sql_query(sprintf("create database %s TEMPLATE template0 encoding='UTF8'",$database));

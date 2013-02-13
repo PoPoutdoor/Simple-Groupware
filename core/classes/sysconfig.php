@@ -156,7 +156,7 @@ static function validate() {
   }
   if (!empty($_REQUEST["sync4j"])) {
 	echo sprintf("{t}Processing %s ...{/t}","Funambol schema")."<br>";
-	if (SETUP_DB_TYPE=="mysql") {
+	if (SETUP_DB_TYPE=="mysqli") {
 	  $data = preg_replace("!/\*.+?\*/!s","",file_get_contents("tools/funambolv7_syncML/mysql/funambol.sql"));
 	  if (($msg = db_query(explode(";",$data)))) {
 		return "funambol.sql [mysql]: ".$msg."<br>";

@@ -57,13 +57,12 @@ static function save_config($vars) {
 
 static function validate_system() {
   $extensions = array("xml", "gd", "pcre", "session", "zlib", "SimpleXML", "json");
-  $db_extensions = array("mysql"=>array("MySQL", "5.00"), "pgsql"=>array("PostgreSQL", "8.36"), "pdo_sqlite"=>array("SQLite", "3.00"));
+  $db_extensions = array("mysqli"=>array("MySQL", "5.00"), "pgsql"=>array("PostgreSQL", "8.36"), "pdo_sqlite"=>array("SQLite", "3.00"));
 
   $on = array("1", "on", "On");
   $off = array("0", "off", "Off", "");
   $settings = array(
-	"safe_mode" => $off, "file_uploads" => $on, "zlib.output_compression" => $off,
-	"session.auto_start" => $off, "magic_quotes_runtime" => $off, "display_errors" => $on
+	"safe_mode" => $off, "file_uploads" => $on, "session.auto_start" => $off, "magic_quotes_runtime" => $off, "display_errors" => $on
   );
   $memorylimit = 24000000;
 
