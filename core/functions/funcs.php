@@ -906,7 +906,7 @@ function db_search_update($table,$id,$fields,$field_arr=array()) {
 	db_update("simple_sys_search",$data,array("id=@id@","folder=@folder@"),array("id"=>$id,"folder"=>$folder));
   } else {
     $data = array_merge($data,array("id"=>$id,"folder"=>$folder, "history"=>""));
-    db_insert("simple_sys_search",$data,array("delay"=>true));
+    db_insert("simple_sys_search",$data);
   }
 }
 
@@ -1225,9 +1225,7 @@ function db_insert($table,$data,$optional=array()) {
   foreach (array_keys($data) as $key) {
     $data[$key] = sys_correct_quote($data[$key], !empty($optional["no_defaults"]));
   }
-  if (SETUP_DB_TYPE=="mysql" and isset($optional["delay"])) $delay = "delayed"; else $delay = "";
-
-  $sql = "insert ".$delay." into ".$table." (".implode(",",array_keys($data)).") values (".implode(",",$data).")";
+  $sql = "insert into ".$table." (".implode(",",array_keys($data)).") values (".implode(",",$data).")";
   sys::$db_queries[] = $sql;
 
   if (sql_query($sql)===false) {
@@ -1998,7 +1996,7 @@ function sql_concat($sql) {
     foreach ($sql as $key=>$val) $sql[$key] = sql_concat($val);
 	return $sql;
   }
-  if (SETUP_DB_TYPE=="mysql") {
+  if (SETUP_DB_TYPE=="mysqli") {
     return str_replace(";",",",$sql);
   } else { // pgsql, sqlite
     return str_replace(array(";;",";","concat"),array(",","||",""),$sql);
@@ -2010,13 +2008,13 @@ function sql_regexp($col,$exps,$format="|%s|") {
   foreach ((array)$exps as $exp) $reg[] = preg_quote($exp);
   $reg = sql_quote(sprintf(preg_quote($format), "(".implode("|",$reg).")"));
 
-  if (SETUP_DB_TYPE=="mysql") return $col." REGEXP '".$reg."'";
+  if (SETUP_DB_TYPE=="mysqli") return $col." REGEXP '".$reg."'";
     else if (SETUP_DB_TYPE=="pgsql") return $col." ~ '".$reg."'";
     else return "REGEXP_LIKE(".$col.",'".$reg."')"; // sqlite
 }
 
 function sql_table_optimize($tab="") {
-  if (SETUP_DB_TYPE=="mysql") {
+  if (SETUP_DB_TYPE=="mysqli") {
     if ($tab=="") $data = sql_fetch("show tables like 'simple_%'"); else $data = array(array($tab));
     foreach ($data as $elem) {
       $table = array_pop($elem);
@@ -2041,7 +2039,7 @@ function sql_table_optimize($tab="") {
 }
 
 function sql_table_create($table) {
-  if (SETUP_DB_TYPE=="mysql") {
+  if (SETUP_DB_TYPE=="mysqli") {
     $sql = "CREATE TABLE %s (id NUMERIC(10) DEFAULT 0) ENGINE=MyISAM DEFAULT CHARSET=utf8";
     if (sql_query(sprintf($sql,$table))) return true;
   } else { // pgsql / sqlite
@@ -2051,7 +2049,7 @@ function sql_table_create($table) {
 }
 
 function sql_limit($sql,$param1,$param2) {
-  if (SETUP_DB_TYPE=="mysql") {
+  if (SETUP_DB_TYPE=="mysqli") {
     if (sys_strbegins($sql,"show")) return $sql;
     return sprintf("%s limit %d,%d",$sql,$param1,$param2);
   } else {
@@ -2066,9 +2064,8 @@ function _sql_sqlite_match($str, $regex) {
 }
 
 function sql_connect($server,$username,$password,$database="") {
-  if (SETUP_DB_TYPE=="mysql") {
-    if (!$link = mysql_pconnect($server,$username,$password)) return false;
-    if ($database!="" and !mysql_select_db($database,$link)) return false;
+  if (SETUP_DB_TYPE=="mysqli") {
+    if (!$link = mysqli_connect($server,$username,$password,$database)) return false;
 	sys::$db = $link;
     if (!sql_query("set names 'utf8', sql_mode = ''")) return false;
   } else if (SETUP_DB_TYPE=="pgsql") {
@@ -2119,8 +2116,8 @@ function sql_translate($sql) {
 function sql_query($sql) {
   if ($sql=="") return true;
   if (DEBUG_SQL and !sys_strbegins($sql,"select ") and !strpos($sql,"simple_sys_stats")) debug_sql("INFO ".$sql,"");
-  if (SETUP_DB_TYPE=="mysql") {
-    return mysql_query($sql,sys::$db);
+  if (SETUP_DB_TYPE=="mysqli") {
+    return mysqli_query(sys::$db,$sql);
   } else if (SETUP_DB_TYPE=="pgsql") {
     return @pg_query(sys::$db,$sql);
   } else if (SETUP_DB_TYPE=="sqlite") {
@@ -2133,10 +2130,10 @@ function sql_fetch($sql,$one=false) {
   $data = array();
   if ($sql=="") return true;
   if (!$result = sql_query($sql)) return false;
-  if (SETUP_DB_TYPE=="mysql") {
-    if (@mysql_num_rows($result)==0) return array();
-    while (($row = mysql_fetch_assoc($result))) $data[] = $row;
-    mysql_free_result($result);
+  if (SETUP_DB_TYPE=="mysqli") {
+    if (mysqli_num_rows($result)==0) return array();
+    while (($row = mysqli_fetch_assoc($result))) $data[] = $row;
+    mysqli_free_result($result);
   } else if (SETUP_DB_TYPE=="pgsql") {
     if (pg_num_rows($result)==0) return array();
     while (($row = pg_fetch_assoc($result))) $data[] = $row;
@@ -2150,9 +2147,9 @@ function sql_fetch($sql,$one=false) {
 }
 
 function sql_error() {
-  if (SETUP_DB_TYPE=="mysql") {
-    if (!empty(sys::$db)) return mysql_errno(sys::$db)." ".mysql_error(sys::$db);
-	return mysql_errno()." ".mysql_error();
+  if (SETUP_DB_TYPE=="mysqli") {
+    if (!empty(sys::$db)) return mysqli_errno(sys::$db)." ".mysqli_error(sys::$db);
+	return mysqli_connect_errno()." ".mysqli_connect_error();
   } else if (SETUP_DB_TYPE=="pgsql") {
     if (!empty(sys::$db)) return pg_last_error(sys::$db);
 	return @pg_last_error();
@@ -2169,8 +2166,8 @@ function sql_fieldname($field,$blank=false) {
 }
 
 function sql_quote($str) {
-  if (SETUP_DB_TYPE=="mysql") {
-    return mysql_real_escape_string($str,sys::$db);
+  if (SETUP_DB_TYPE=="mysqli") {
+    return mysqli_real_escape_string(sys::$db, $str);
   } else if (SETUP_DB_TYPE=="pgsql") {
     return pg_escape_string($str);
   } else if (SETUP_DB_TYPE=="sqlite") {
@@ -2182,14 +2179,14 @@ function sql_quote($str) {
 function sql_genID($table) {
   if (strpos($table,"_nodb_")) return 0;
   $table = "simple_seq_".$table;
-  if (SETUP_DB_TYPE=="mysql") {
+  if (SETUP_DB_TYPE=="mysqli") {
     $next = sprintf("update %s set id=last_insert_id(id+1)",$table);
     if (!sql_query($next)) {
 	  sql_query(sprintf("create table %s (id numeric(10) default 0) ENGINE=MyISAM",$table));
 	  sql_query(sprintf("insert into %s values (0)",$table));
 	  sql_query($next);
     }
-    return mysql_insert_id(sys::$db);
+    return mysqli_insert_id(sys::$db);
   } else if (SETUP_DB_TYPE=="sqlite") {
 	if (!sql_query(sprintf("insert into %s values (null); delete from %s",$table,$table))) {
 	  sql_query(sprintf("create table %s (id integer primary key)",$table));
@@ -3150,7 +3147,7 @@ function sys_array_combine($array_keys, $array_values) {
 function sys_log_stat($action,$weight) {
   if (empty($_SESSION["username"])) return;
   if ($weight==0) return;
-  db_insert("simple_sys_stats",array("id"=>sql_genID("simple_sys_stats")*100,"username"=>$_SESSION["username"], "loghour"=>sys_date("H"), "logday"=>sys_date("d"), "logweek"=>sys_date("W"), "logweekpart"=>floor((sys_date("w")*24+sys_date("H")+1)/6), "action"=>$action, "uri"=>substr(_sys_request_uri(),0,250),"weight"=>$weight),array("delay"=>true));
+  db_insert("simple_sys_stats",array("id"=>sql_genID("simple_sys_stats")*100,"username"=>$_SESSION["username"], "loghour"=>sys_date("H"), "logday"=>sys_date("d"), "logweek"=>sys_date("W"), "logweekpart"=>floor((sys_date("w")*24+sys_date("H")+1)/6), "action"=>$action, "uri"=>substr(_sys_request_uri(),0,250),"weight"=>$weight));
 }
 
 function sys_log_message_alert($component,$message) {
