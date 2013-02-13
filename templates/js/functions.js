@@ -300,7 +300,7 @@ function auto_scroll_tree(obj) {
 
 function bind_drop_files() {
   // HTML5 drag and drop file upload
-  if (!/Firefox|Chrome|Safari/.test(navigator.userAgent)) return;
+  if (!/Firefox|Chrome|Safari|Opera/.test(navigator.userAgent)) return;
   document.ondragover = document.ondrop = function(event){ event.preventDefault(); };
   show(".file_upload_text");
   var objs = getObjs(".file_upload");
@@ -756,7 +756,7 @@ function resizeit() {
     show2("pane_close");
     hide("tab_spacer");
   }
-  if (sys.is_tablet) return;
+  if (sys.is_mobile) return;
   
   var content_def = getObj("content_def");
   var tree_frame = getObj("tree_frame");

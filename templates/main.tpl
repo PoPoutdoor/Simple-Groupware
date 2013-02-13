@@ -34,7 +34,7 @@
 	<link rel="alternate" type="application/atom+xml" title="{t}Feed{/t}" href="index_php?folder={$t.folder}&view={$t.view}&export=rss&username=&password=">
   {/if}
 {/if}
-{if !$print && !$sys.is_tablet}
+{if !$print && !$sys.is_mobile}
 <style>body {ldelim}overflow-y:hidden; overflow:hidden;{rdelim}</style>
 {/if}
 {if $print}<style>.noprint {ldelim}display: none;{rdelim}</style>{/if}
