@@ -15,7 +15,7 @@ function testModuleIcons() {
     $this->assertTrue(file_exists("ext/modules/".str_replace(".xml", ".png", $module)));
   }
   foreach (scandir("modules/schema_sys/") as $module) {
-    if (!strpos($module, ".xml") or sys_strbegins($module, "nodb_") or $module=="search.xml") continue;
+    if (!strpos($module, ".xml") or strpos($module, "nodb_")===0 or $module=="search.xml") continue;
     $this->assertTrue(file_exists("ext/modules/sys_".str_replace(".xml", ".png", $module)));
   }
 }
