@@ -306,13 +306,13 @@ static function link($link,$row,$subitem=0,$urladdon="") {
 	if (!strpos($link,"norefer.php") and strpos($link,".php?") and $urladdon!="") $link .= "&".$urladdon;
   }
   if ($link=="ext/norefer.php?url=") $link = "";
-  if (sys::$is_mobile or sys::$is_tablet) $link = str_replace("&iframe=1","",$link);
+  if (sys::$is_mobile) $link = str_replace("&iframe=1","",$link);
   return $link;
 }
 
 static function target($target) {
   if (in_array($target, array("pane", "pane2"))) {
-	if (sys::$is_mobile or sys::$is_tablet) return "_top";
+	if (sys::$is_mobile) return "_top";
 	if (!empty($_REQUEST["popup"]) or !empty($_REQUEST["preview"])) return "_top";
   }
   return $target;

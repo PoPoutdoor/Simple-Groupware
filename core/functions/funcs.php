@@ -30,7 +30,6 @@ class sys {
   static $time_start = 0; // script start
   static $time_end = 0; // script end
   static $is_mobile = false;
-  static $is_tablet = false;
   static $browser = "";
 
   static $alert = array(); // force error message output
@@ -1730,7 +1729,6 @@ function folder_build_folders() {
 	"history"=>$_SESSION["history"],
 	"disabled_modules"=>$_SESSION["disabled_modules"],
 	"is_mobile"=>sys::$is_mobile,
-	"is_tablet"=>sys::$is_tablet,
   ));
 }
 
@@ -1947,11 +1945,8 @@ function browser_detect() {
     else if (strpos($agent,"macintosh")) sys::$browser .= " mac";
     else if (strpos($agent,"linux")) sys::$browser .= "linux";
 
-  if (preg_match("/iphone|nokia|android/",$agent)) {
-	sys::$is_mobile = true;
-	$_REQUEST["tree"]="minimize";
-  }
-  if (preg_match("/iphone|ipad|android/",$agent)) sys::$is_tablet = true;
+  if (preg_match("/iphone|nokia/",$agent)) $_REQUEST["tree"]="minimize";
+  if (preg_match("/iphone|nokia|ipad|android/",$agent)) sys::$is_mobile = true;
 }
 
 function ______S_Q_L______() {}
