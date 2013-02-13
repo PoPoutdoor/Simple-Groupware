@@ -93,7 +93,7 @@ static function select($path,$fields,$where,$order,$limit,$vars,$mfolder) {
 					  if ($item["contenttype"]!="text/plain") $content .= "<b>[".$item["contenttype"]."]</b><br>";
 		  			}
 					$item["level"] = substr_count($item["id"],".");
-				    $content .= "<div class='external_content' style='margin-left:".($item["level"]*20)."px;'><code>".$data_body."</code></div>";
+				    $content .= "<div style='margin-left:".($item["level"]*20)."px;'><code>".$data_body."</code></div>";
 				  } else {
 					if ($content!="") $content .= "\n";
 					if ($item["contenttype"]=="text/html") {

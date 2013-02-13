@@ -658,7 +658,7 @@ private static function _getmessage($msg_id,$msg_uid,$mfolder,$imap_path,$cid,$h
 			$data_body = modify::nl2br(q(trim($data_body)), false, true);
 			if ($item["contenttype"]!="text/plain") $content .= "<b>[".$item["contenttype"]."]</b><br>";
 		  }
-		  $content .= "<div class='external_content' style='margin-left:".($item["level"]*20)."px;'><code>".$data_body."</code></div>";
+		  $content .= "<div style='margin-left:".($item["level"]*20)."px;'><code>".$data_body."</code></div>";
 		} else { // text
 		  if ($content!="") $content .= "\n";
 		  if ($item["contenttype"]=="text/html") {
