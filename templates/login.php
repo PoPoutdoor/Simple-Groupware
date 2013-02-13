@@ -82,8 +82,8 @@ body {
 </div>
 <? } ?>
 
-<div id="login_table_obj" style="text-align:center; <? if (SELF_REGISTRATION) echo $this->is_mobile ? "top:10%;" : "top:33%;" ?>">
-  <table style="margin:auto;"><tr><td class="login_table" style="<? if (!$this->is_mobile) echo "padding:0 75px;" ?>">
+<div id="login_table_obj" style="text-align:center; <? if (SELF_REGISTRATION) echo "top:33%;" ?>">
+  <table style="margin:auto;"><tr><td class="login_table">
     <a target="_blank" href="<?= $this->c("logo_link") ?>"><img src="<?= $this->c("logo_login") ?>"></a><br>
     <form method="post" action="index.php?folder=<?= q($this->folder) ?>&view=<?= q($this->view) ?><?= q($this->find . $this->page . $this->item) ?>">
 	<input type="hidden" name="loginform" value="true">
@@ -102,7 +102,7 @@ body {
 
   <? if (SELF_REGISTRATION) { ?>
   <br>
-  <table style="margin:auto;"><tr><td class="login_table" style="<? if (!$this->is_mobile) echo "padding:0 75px;" ?>">
+  <table style="margin:auto;"><tr><td class="login_table">
     <form method="post" action="index.php" onsubmit="return validate_signup();">
 	<input type="hidden" name="signupform" value="true">
 	<input type="hidden" name="redirect" value="1">

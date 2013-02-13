@@ -237,7 +237,6 @@ static function show_login() {
   if (!defined("NOCONTENT") and empty($_REQUEST["iframe"])) {
     define("NOCONTENT",true);
 	$tpl = new template();
-	$tpl->is_mobile = sys::$is_mobile;
 	if (!empty($_REQUEST["view"])) $tpl->view = $_REQUEST["view"];
 	if (!empty($_REQUEST["find"])) $tpl->find = "&find=".$_REQUEST["find"];
 	if (!empty($_REQUEST["folder"])) $tpl->folder = $_REQUEST["folder"];

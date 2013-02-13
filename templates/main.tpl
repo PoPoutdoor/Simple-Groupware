@@ -128,7 +128,7 @@
 	  <table id="content_def_table" border="0" cellpadding="0" cellspacing="0" style="width:100%; height:100%;">
 	  <tr><td valign="top">
 	  {if count($t.notification)>0}
-		<table cellspacing="0" class="data" align="center" border="0" style="{if $sys.is_mis_mobile}width:auto;{else}width:40%;{/if} margin-top:4px;">
+		<table cellspacing="0" class="data" align="center" border="0" style="{if $sys.is_mobile}width:auto;{else}width:40%;{/if} margin-top:4px;">
 		<tr class="id"><td>{t}Notification{/t}</td></tr>
 		{foreach item=item from=$t.notification}
 		  <tr class="summary"><td style="text-align:center;"><div class="default10">{$item}</div></td></tr>
