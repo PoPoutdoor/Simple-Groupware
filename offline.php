@@ -13,7 +13,6 @@ define("NOSESSION",true);
 require("index.php");
 
 sys_check_auth();
-login_browser_detect();
 
 $folder_offline = db_select_value("simple_sys_tree","id","anchor=@anchor@",array("anchor"=>"offline_".$_SESSION["username"]));
 $rows = db_select("simple_offline","*","folder=@folder@","id asc","",array("folder"=>(int)$folder_offline));
@@ -25,7 +24,6 @@ uasort($rows, "sort_rows");
 $tpl = new template();
 $tpl->sync = isset($_REQUEST["sync"]) ? 1 : 0;
 $tpl->username = $_SESSION["username"];
-$tpl->browser = sys::$browser;
 $tpl->rows = $rows;
 echo $tpl->render("templates/offline.php");
 
