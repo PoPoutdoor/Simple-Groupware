@@ -9,15 +9,13 @@ protected function setUp() {
 }
 
 function testModuleIcons() {
-  $exceptions = array("nodb_calendar_contacts.xml", "nodb_calendar_departments.xml", "nodb_calendar_users.xml",
-    "nodb_rights.xml", "nodb_index.xml", "nodb_ldif_contacts.xml", "nodb_pmwiki.xml", "nodb_rights_edit.xml",
-    "nodb_schema.xml", "nodb_structure.xml", "search.xml");
+  $exceptions = array("search.xml");
   foreach (scandir("modules/schema/") as $module) {
     if (!strpos($module, ".xml") or $module[0]=="!") continue;
     $this->assertTrue(file_exists("ext/modules/".str_replace(".xml", ".png", $module)));
   }
   foreach (scandir("modules/schema_sys/") as $module) {
-    if (!strpos($module, ".xml") or in_array($module, $exceptions)) continue;
+    if (!strpos($module, ".xml") or sys_strbegins($module, "nodb_") or $module=="search.xml") continue;
     $this->assertTrue(file_exists("ext/modules/sys_".str_replace(".xml", ".png", $module)));
   }
 }
