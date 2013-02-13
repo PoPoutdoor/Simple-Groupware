@@ -8,13 +8,13 @@
 {if $t.sqlvars.item neq "" || count($t.views)>1 || (count($t.buttons)>0 && !$t.noviewbuttons)}
 <div id="views">
 
-  <div id="view_buttons" style="{if !$sys.browser.is_mobile}float:{if #direction#}left{else}right{/if};{else}display:none; margin:6px;{/if}" class="default10">
+  <div id="view_buttons" style="{if !$sys.is_mobile}float:{if #direction#}left{else}right{/if};{else}display:none; margin:6px;{/if}" class="default10">
   {if !$popup && !$t.noviewbuttons}
     {foreach name=views key=key item=item from=$t.views}
 	  {if $item.VISIBILITY eq "button"}
 	    {if $item.ICON}
   	      <a href="index.php?view={$key}" onmousedown="this.href=asset_form_link('index.php?view={$key}');"><img src="ext/icons/{$item.ICON}" style="height:16px;" title="{$item.DISPLAYNAME|default:$key}{if $item.ACCESSKEY} [Alt-{$item.ACCESSKEY}]{/if}">&nbsp;
-		  {if $sys.browser.is_mobile}{$item.DISPLAYNAME|default:$key}&nbsp;&nbsp;{/if}
+		  {if $sys.is_mobile}{$item.DISPLAYNAME|default:$key}&nbsp;&nbsp;{/if}
 		  </a>
 	    {else}
   	      <a href="index.php?view={$key}" onmousedown="this.href=asset_form_link('index.php?view={$key}');">{$item.DISPLAYNAME|default:$key}&nbsp;</a>
@@ -26,7 +26,7 @@
 	  {if !$item.RIGHT || $t.rights[$item.RIGHT]}
 	    {if $item.ICON}
   	      <span class="cursor" onclick="{$item.ONCLICK}"><img src="ext/icons/{$item.ICON}" style="height:16px;" title="{$item.DISPLAYNAME|default:$item.NAME}{if $item.ACCESSKEY} [Alt-{$item.ACCESSKEY}]{/if}">&nbsp;
-		  {if $sys.browser.is_mobile}{$item.DISPLAYNAME|default:$item.NAME}&nbsp;&nbsp;{/if}
+		  {if $sys.is_mobile}{$item.DISPLAYNAME|default:$item.NAME}&nbsp;&nbsp;{/if}
 		  </span>
 	    {else}
   	      <span class="cursor" onclick="{$item.ONCLICK}">{$item.DISPLAYNAME|default:$item.NAME}&nbsp;</span>

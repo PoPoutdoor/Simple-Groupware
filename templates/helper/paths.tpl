@@ -52,7 +52,7 @@
   {if !$popup && !$print}
     &nbsp;
 	<span style="white-space:nowrap;" class="baseline">
-    {if !$sys.browser.is_mobile}
+    {if !$sys.is_mobile}
 	  &nbsp;
       <span class="cursor" onclick="locate('index.php?tree=maximize');">{t}Maximize{/t}</span> |{" "}
       <span class="cursor" onclick="nWin('index.php?print=1');">{t}Print{/t}</span> |{" "}
@@ -69,7 +69,7 @@
 	  &nbsp;<a href="offline.php"><img src="ext/icons/offline.png" title="{t}Offline reading{/t}"/></a>{" "}
     {/if}
 
-    {if $sys.browser.is_mobile}
+    {if $sys.is_mobile}
 	   &nbsp;<a href="#" onclick="add_style('#content_def div,#content_def td', 'word-break:normal; white-space:nowrap;'); return false; "><img src="ext/icons/full_texts.gif" title="{t}No line breaks{/t}"/></a>{" "}
 	{/if}
     &nbsp;<a href="index.php?logout"><img src="ext/icons/logout.gif" title="{t}Login/-out{/t} {$sys.username}" style="padding-top:2px;"/></a>

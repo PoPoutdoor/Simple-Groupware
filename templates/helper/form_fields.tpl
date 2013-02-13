@@ -5,14 +5,14 @@
  * @license GPLv2
  *}
 {if is_array($data_item) && $data_item._lck}
-<table cellspacing="0" class="data" align="center" style="{if $sys.browser.is_mobile}width:auto;{else}width:40%;{/if} margin-top:4px;">
+<table cellspacing="0" class="data" align="center" style="{if $sys.is_mobile}width:auto;{else}width:40%;{/if} margin-top:4px;">
 <tr class="id"><td class="notification">{t}Warning{/t}</td></tr>
 <tr class="summary"><td style="text-align:center;"><div class="default10">{$data_item._lck}&nbsp;</div></td></tr>
 </table>
 {/if}
 
 {if $t.errors.$prefix && count($t.errors.$prefix) > 0}
-<table cellspacing="0" class="data" border="0" align="center" style="{if $sys.browser.is_mobile}width:auto;{else}width:50%;{/if} margin-top:4px;">
+<table cellspacing="0" class="data" border="0" align="center" style="{if $sys.is_mobile}width:auto;{else}width:50%;{/if} margin-top:4px;">
 <tr class="id"><td colspan="2">{t}Error{/t}</td></tr>
 {foreach key=key item=item from=$t.errors.$prefix}
   {foreach key=key2 item=item2 from=$item}
@@ -47,7 +47,7 @@
 {elseif ($item.SIMPLE_TAB[0] eq $tab_key || $t.disable_tabs) && $item.SIMPLE_TYPE neq "id"}
   {cycle assign="cycle_dataitem" values="items_even,items_odd"}
   <tr class="{if $t.errors.$prefix[$key][0] neq ""}hl_items{else}{$cycle_dataitem}{/if}">
-  {if !$sys.browser.is_mobile}
+  {if !$sys.is_mobile}
 	<td style="width:15%;">
 	  <label title="{$key}" for="{$item_name}" {if $item.REQUIRED}class="bold"{/if}>{$item.DISPLAYNAME|default:$key}</label>
 	  {if $item.DESCRIPTION[0].VALUE}&nbsp;(<a href="#" title="{$item.DESCRIPTION[0].HINT}" onclick="{$item.DESCRIPTION[0].VALUE|replace:"@prefix@":$prefix} return false;">{$item.DESCRIPTION[0].TITLE|default:"?"}</a>){/if}
@@ -283,7 +283,7 @@
 	</td></tr></table>
   {elseif $item.SIMPLE_TYPE eq "checkbox"}
 	<input type="hidden" name="{$item_name}" value="">
-	<input type="Checkbox" name="{$item_name}" id="{$item_name}" value="1" {if $item_value}checked{/if} class="checkbox {if $sys.browser.is_mobile}checkbox3{/if}">
+	<input type="Checkbox" name="{$item_name}" id="{$item_name}" value="1" {if $item_value}checked{/if} class="checkbox {if $sys.is_mobile}checkbox3{/if}">
   {elseif $item.SIMPLE_TYPE eq "textarea"}
 	{if !sys_contains($item.FORM, "no_template_bar")}
 	  <input type="hidden" id="{$item_name}_ticket" value="templates"/>

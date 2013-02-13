@@ -6,7 +6,7 @@
  *}
 {strip}
 {if count($t.tabs)>1 && ($t.datasets>0 || $t.schema_mode eq "new")}
-{if !$sys.browser.is_mobile}
+{if !$sys.is_mobile}
   <table border="0" cellpadding="0" cellspacing="0" style="width:100%; margin-bottom:2px;" class="noprint"><tr><td>
 	<table border="0" cellpadding="0" cellspacing="0"><tr>
 	  <td class="tabstyle_empty" id="pane_close" style="padding:0px 4px; cursor:pointer; display:none;" onclick="top.hidepane(window.name);">x</td>
