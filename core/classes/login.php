@@ -236,26 +236,24 @@ static function show_login() {
   if (isset($_COOKIE[SESSION_NAME])) unset($_COOKIE[SESSION_NAME]);
   if (!defined("NOCONTENT") and empty($_REQUEST["iframe"])) {
     define("NOCONTENT",true);
-	if (sys::$browser["str"]!="unknown") {
-	  $tpl = new template();
-	  $tpl->browser = sys::$browser;
-	  if (!empty($_REQUEST["view"])) $tpl->view = $_REQUEST["view"];
-	  if (!empty($_REQUEST["find"])) $tpl->find = "&find=".$_REQUEST["find"];
-	  if (!empty($_REQUEST["folder"])) $tpl->folder = $_REQUEST["folder"];
-      if (!empty($_REQUEST["folder2"]) and !empty($_REQUEST["view2"])) {
-        $tpl->folder = $_REQUEST["folder2"];
-		$tpl->view = $_REQUEST["view2"];
-      }
-      if (isset($_REQUEST["item"]) and is_array($_REQUEST["item"]) and count($_REQUEST["item"])>0) {
-		$tpl->item = "&item[]=".implode("&item[]=",$_REQUEST["item"]);
-	  }
-	  if (!empty($_REQUEST["page"])) $tpl->page = "&page=".$_REQUEST["page"];
-	  $output = ob_get_contents();
-	  ob_end_clean();
-	  if ($output!="") sys::$alert[] = $output;
-      if (sys::$alert) $tpl->alert = sys::$alert;
-	  exit($tpl->render("templates/login.php"));
+	$tpl = new template();
+	$tpl->is_mobile = sys::$is_mobile;
+	if (!empty($_REQUEST["view"])) $tpl->view = $_REQUEST["view"];
+	if (!empty($_REQUEST["find"])) $tpl->find = "&find=".$_REQUEST["find"];
+	if (!empty($_REQUEST["folder"])) $tpl->folder = $_REQUEST["folder"];
+    if (!empty($_REQUEST["folder2"]) and !empty($_REQUEST["view2"])) {
+      $tpl->folder = $_REQUEST["folder2"];
+	  $tpl->view = $_REQUEST["view2"];
+    }
+    if (isset($_REQUEST["item"]) and is_array($_REQUEST["item"]) and count($_REQUEST["item"])>0) {
+	  $tpl->item = "&item[]=".implode("&item[]=",$_REQUEST["item"]);
 	}
+	if (!empty($_REQUEST["page"])) $tpl->page = "&page=".$_REQUEST["page"];
+	$output = ob_get_contents();
+	ob_end_clean();
+	if ($output!="") sys::$alert[] = $output;
+    if (sys::$alert) $tpl->alert = sys::$alert;
+	exit($tpl->render("templates/login.php"));
   }
   if ($_SERVER["REQUEST_METHOD"]=="PROPFIND") {
 	sys_log_message_log("login",sprintf("{t}No username/password.{/t} (Basic Auth) %s %s",_login_get_remoteaddr(),$_SERVER["HTTP_USER_AGENT"]));
@@ -351,7 +349,7 @@ static function process_login($username,$password="") {
   }
   if ($id or isset($_REQUEST["login"])) {
     sys_log_stat("logins",1);
-    sys_log_message_log("login",sprintf("{t}login %s from %s with %s{/t}",$_SESSION["username"],$_SESSION["ip"],sys::$browser["str"]));
+    sys_log_message_log("login",sprintf("{t}login %s from %s with %s{/t}",$_SESSION["username"],$_SESSION["ip"],sys::$browser));
   }
   trigger::login();
 
@@ -407,20 +405,5 @@ static function process_logout() {
 private static function _redirect($url) {
   session_write_close();
   sys_redirect($url);
-}
-
-static function browser_detect_toString() {
-  return "
-	{t}Browser Compatibility{/t}:
-	
-	Firefox: 3.0 {t}or higher{/t}
-	Chrome: 
-	Safari: 3.0 {t}or higher{/t}
-	Opera: 9.0 {t}or higher{/t}
-	Konqueror: 3.2 {t}or higher{/t}
-	Internet Explorer 7.0 {t}or higher{/t}
-	
-	User-Agent: {$_SERVER["HTTP_USER_AGENT"]}
-  ";
 }
 }

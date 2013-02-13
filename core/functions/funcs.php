@@ -29,10 +29,9 @@ class sys {
  
   static $time_start = 0; // script start
   static $time_end = 0; // script end
-
-  // browser infos
-  static $browser = array( "name"=>"", "ver"=>0, "str"=>"unknown", "is_mobile"=>false, "plattform"=>"", 
-	"comp"=>array("htmledit"=>true, "codeedit"=>false, "javascript"=>true), "no_scrollbar"=>false );
+  static $is_mobile = false;
+  static $is_tablet = false;
+  static $browser = "";
 
   static $alert = array(); // force error message output
   
@@ -1730,7 +1729,8 @@ function folder_build_folders() {
 	"home"=>$_SESSION["home_folder"],
 	"history"=>$_SESSION["history"],
 	"disabled_modules"=>$_SESSION["disabled_modules"],
-	"browser"=>sys::$browser,
+	"is_mobile"=>sys::$is_mobile,
+	"is_tablet"=>sys::$is_tablet,
   ));
 }
 
@@ -1918,10 +1918,10 @@ function login_handle_login($save_session=true) {
   }
 }
 
-function login_browser_detect() {
+function browser_detect() {
   $agent = "@".strtolower($_SERVER["HTTP_USER_AGENT"]);
   $version = array();
-  sys::$browser["name"] = $agent;
+  sys::$browser = $agent;
   if (
   	(strpos($agent,"firefox") and preg_match("|(firefox)/([0-9]+\.[0-9])|", $agent,$version)) or
 	(strpos($agent,"opera") and preg_match("|(opera).?([0-9]+\.[0-9])|", $agent,$version)) or
@@ -1935,49 +1935,23 @@ function login_browser_detect() {
 	(strpos($agent,"curl") and preg_match("|(curl)/([0-9]+\.[0-9])|", $agent,$version)) or
 	(strpos($agent,"apachebench") and preg_match("|(apachebench)/([0-9]\.[0-9])|", $agent,$version))
   ) {
-    sys::$browser["name"] = $version[1];
-	sys::$browser["ver"] = $version[2];
+    sys::$browser = $version[1]." ".$version[2];
   } else if (strpos($agent,"mozilla") and preg_match("|rv:([0-9]\.[0-9]).*?gecko|", $agent,$version)) {
-    sys::$browser["name"] = "mozilla";
-	sys::$browser["ver"] = $version[1];
+    sys::$browser = "mozilla ".$version[1];
   } else if (preg_match("/googlebot|msnbot|yahoo|baidu|teoma/", $agent)) {
-    sys::$browser["name"] = "search-engine";
-	sys::$browser["ver"] = 20;
+    sys::$browser = "search-engine";
   }
-  if (sys::$browser["name"]=="applewebkit") sys::$browser["name"] = "safari";
-  sys::$browser["ver"] = str_replace(".","",sys::$browser["ver"]);
-  if (strlen(sys::$browser["ver"])<2) sys::$browser["ver"] .= "00";
-  sys::$browser["str"] = ucfirst(sys::$browser["name"])." ".sys::$browser["ver"];
+  if (strpos($agent,"thunderbird")) $_REQUEST["iframe"] = 1;
+  if (strpos($agent,"windows ce")) sys::$browser .= " wince";
+    else if (strpos($agent,"windows")) sys::$browser .= " win";
+    else if (strpos($agent,"macintosh")) sys::$browser .= " mac";
+    else if (strpos($agent,"linux")) sys::$browser .= "linux";
 
-  if (strpos($agent,"windows ce")) sys::$browser["platform"] = "wince";
-    else if (strpos($agent,"windows")) sys::$browser["platform"] = "win";
-    else if (strpos($agent,"macintosh")) sys::$browser["platform"] = "mac";
-    else if (strpos($agent,"linux")) sys::$browser["platform"] = "linux";
-
-  switch (sys::$browser["name"]) {
-    case "firefox": case "msie": case "mozilla": case "chrome": case "opera":
-	  sys::$browser["comp"]["codeedit"] = true;
-	  break;
-	case "thunderbird":
-	  $_REQUEST["iframe"] = 1;
-	  sys::$browser["comp"]["htmledit"] = false;
-	  sys::$browser["comp"]["javascript"] = false;
-	  break;
-  }
-  if (preg_match("/iphone|nokia|samsung|android|webos|windows ce|symbian|midp/",$agent) &&
-	  !preg_match("/gt-p1000|archos/",$agent)) {
-	sys::$browser["is_mobile"] = true;
+  if (preg_match("/iphone|nokia|android/",$agent)) {
+	sys::$is_mobile = true;
 	$_REQUEST["tree"]="minimize";
   }
-  if (preg_match("/iphone|ipad|android/",$agent)) sys::$browser["no_scrollbar"] = true;
-  $min = array(
-	"firefox"=>30, "msie"=>70, "mozilla"=>14, "search-engine"=>20, "opera"=>90, "safari"=>522, "chrome"=>9,
-	"konqueror"=>32, "thunderbird"=>15, "httpclient"=>30, "curl"=>60, "miniredir"=>51, "apachebench"=>20,
-  );
-  if (isset($min[sys::$browser["name"]]) and sys::$browser["ver"]>=$min[sys::$browser["name"]]) {
-    return true;
-  }
-  return false;
+  if (preg_match("/iphone|ipad|android/",$agent)) sys::$is_tablet = true;
 }
 
 function ______S_Q_L______() {}
