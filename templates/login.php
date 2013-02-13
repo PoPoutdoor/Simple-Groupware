@@ -16,7 +16,7 @@
 	Simple Groupware is copyright 2002-2012 by Thomas Bley.	Extensions and translations are copyright of their respective owners.
 	More information and documentation at http://www.simple-groupware.de/
 -->
-<link media="all" href="ext/cache/core_<?= DEFAULT_STYLE ?>_<?= $this->browser["name"] ?>.css?<?= CORE_VERSION ?>" rel="stylesheet" type="text/css" />
+<link media="all" href="ext/cache/core_<?= DEFAULT_STYLE ?>.css?<?= CORE_VERSION ?>" rel="stylesheet" type="text/css" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="generator" content="Simple Groupware <?= CORE_VERSION_STRING ?>" />
 <meta name="viewport" content="initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0;" />
@@ -82,8 +82,8 @@ body {
 </div>
 <? } ?>
 
-<div id="login_table_obj" style="text-align:center; <? if (SELF_REGISTRATION) echo $this->browser["is_mobile"] ? "top:10%;" : "top:33%;" ?>">
-  <table style="margin:auto;"><tr><td class="login_table" style="<? if (!$this->browser["is_mobile"]) echo "padding:0 75px;" ?>">
+<div id="login_table_obj" style="text-align:center; <? if (SELF_REGISTRATION) echo $this->is_mobile ? "top:10%;" : "top:33%;" ?>">
+  <table style="margin:auto;"><tr><td class="login_table" style="<? if (!$this->is_mobile) echo "padding:0 75px;" ?>">
     <a target="_blank" href="<?= $this->c("logo_link") ?>"><img src="<?= $this->c("logo_login") ?>"></a><br>
     <form method="post" action="index.php?folder=<?= q($this->folder) ?>&view=<?= q($this->view) ?><?= q($this->find . $this->page . $this->item) ?>">
 	<input type="hidden" name="loginform" value="true">
@@ -102,7 +102,7 @@ body {
 
   <? if (SELF_REGISTRATION) { ?>
   <br>
-  <table style="margin:auto;"><tr><td class="login_table" style="<? if (!$this->browser["is_mobile"]) echo "padding:0 75px;" ?>">
+  <table style="margin:auto;"><tr><td class="login_table" style="<? if (!$this->is_mobile) echo "padding:0 75px;" ?>">
     <form method="post" action="index.php" onsubmit="return validate_signup();">
 	<input type="hidden" name="signupform" value="true">
 	<input type="hidden" name="redirect" value="1">

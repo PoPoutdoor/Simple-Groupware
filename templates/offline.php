@@ -11,7 +11,7 @@
   <title><?= q(APP_TITLE) ?> - {t}Offline folders{/t}</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="generator" content="Simple Groupware" />
-  <link media="all" href="ext/cache/core_<?= DEFAULT_STYLE ?>_<?= $this->browser["name"] ?>.css?<?= CORE_VERSION ?>" rel="stylesheet" type="text/css" />
+  <link media="all" href="ext/cache/core_<?= DEFAULT_STYLE ?>.css?<?= CORE_VERSION ?>" rel="stylesheet" type="text/css" />
   <script>
 	function update_status() {
 	  if (navigator.onLine) {

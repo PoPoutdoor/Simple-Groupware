@@ -204,7 +204,6 @@ function keys(ev) {
 } } }
 
 function start() {
-  if (!sys.browser) return;
   if (!popup && !iframe && !preview && tree_visible) drawmenu();
   if (debug_js) eval(unescape(document.location.hash.substring(1)));
   if (sys.menu_autohide || sys.tree_autohide) hide_layout();
@@ -757,7 +756,7 @@ function resizeit() {
     show2("pane_close");
     hide("tab_spacer");
   }
-  if (sys.browser.no_scrollbar) return;
+  if (sys.is_tablet) return;
   
   var content_def = getObj("content_def");
   var tree_frame = getObj("tree_frame");

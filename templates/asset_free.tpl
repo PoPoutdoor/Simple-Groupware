@@ -17,7 +17,7 @@ $(function() {
 </script>
 
 {assign var="cols" value=$t.views[$t.view].COLS}
-{if $sys.browser.is_mobile}{assign var="cols" value="1"}{/if}
+{if $sys.is_mobile}{assign var="cols" value="1"}{/if}
 
 {foreach key=tab_key item=tab_item from=$t.tabs}
 {if ($print neq 1 && !$t.disable_tabs) || $tab_key eq "general"}

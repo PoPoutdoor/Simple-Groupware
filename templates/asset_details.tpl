@@ -34,14 +34,14 @@
 	  </a>
 	  {if is_numeric($data_item._id)} |&nbsp;#{$data_item._id}{/if}
 	</td>
-	{if !$iframe && !$popup && !$t.nosinglebuttons && !$sys.browser.is_mobile}{include file="helper/buttons.tpl" style=""}{/if}
+	{if !$iframe && !$popup && !$t.nosinglebuttons && !$sys.is_mobile}{include file="helper/buttons.tpl" style=""}{/if}
   </tr>
 </table>
 
 <div><table cellspacing="0" class="data" style="border-top:0px; {if $iframe}margin-bottom:{if !$smarty.foreach.outer.last}4{else}0{/if}px;{/if}">
   {foreach name=fields key=curr_id item=item from=$data_item}
 	{if $t.fields.$curr_id && (!$tab_key || in_array($tab_key,$t.fields.$curr_id.SIMPLE_TAB)) && !$t.fields.$curr_id.HIDDENIN[$t.view] && !$t.fields.$curr_id.HIDDENIN.all}
-	  {if $sys.browser.is_mobile}
+	  {if $sys.is_mobile}
 	    {cycle assign="cycle_dataitem" values="items_even,items_odd"}
 		<tr class="{$cycle_dataitem}" style="{$data_item._fgstyle}">
           {include file="helper/fields.tpl" fstyle="width:40%;"}
@@ -83,7 +83,7 @@
 	  {/if}
     {/if}
   {/foreach}
-  {if $sys.browser.is_mobile && !$iframe && !$popup && !$t.nosinglebuttons && ($tab_key eq "general" || $t.disable_tabs)}
+  {if $sys.is_mobile && !$iframe && !$popup && !$t.nosinglebuttons && ($tab_key eq "general" || $t.disable_tabs)}
 	<tr>{if !$iframe && !$popup && !$t.nosinglebuttons}{include file="helper/buttons.tpl" style="" colspan="3"}{/if}</tr>
   {/if}
 </table></div>
