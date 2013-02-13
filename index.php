@@ -43,8 +43,7 @@ if (empty($_SERVER["SERVER_ADDR"])) $_SERVER["SERVER_ADDR"]="127.0.0.1";
 if (!isset($_SERVER["HTTP_USER_AGENT"])) $_SERVER["HTTP_USER_AGENT"]="mozilla/5 rv:1.4";
 if (!isset($_SERVER["SERVER_SOFTWARE"])) $_SERVER["SERVER_SOFTWARE"]="Apache";
 
-if (!defined("NOCONTENT") and !login_browser_detect() and !DEBUG and empty($_REQUEST["export"])) sys_die(t("{t}Browser not supported{/t}").": ".sys::$browser["str"],login::browser_detect_toString());
-
+browser_detect();
 sys::init();
 
 if (!defined("NOCONTENT")) {
