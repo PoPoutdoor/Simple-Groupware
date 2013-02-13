@@ -1955,7 +1955,7 @@ function login_browser_detect() {
     else if (strpos($agent,"linux")) sys::$browser["platform"] = "linux";
 
   switch (sys::$browser["name"]) {
-    case "firefox": case "msie": case "mozilla": case "chrome":
+    case "firefox": case "msie": case "mozilla": case "chrome": case "opera":
 	  sys::$browser["comp"]["codeedit"] = true;
 	  break;
 	case "thunderbird":

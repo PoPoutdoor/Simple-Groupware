@@ -253,15 +253,14 @@ static function _build_icon($source, $target, $newcolor) {
 }
 
 static function build_css() {
-  $browsers = array("firefox", "safari", "msie", "opera", "chrome", "konqueror", "thunderbird", "mozilla");
   $themes = array("core", "rtl", "core_tree_icons", "contrast", "lake", "paradise", "earth", "water", "beach", "desert", "nature", "sunset", "blackwhite");
   foreach ($themes as $theme) {
-	foreach ($browsers as $browser) {
-	  $cache_file = "ext/cache/core_".$theme."_".$browser.".css";
-	  file_put_contents($cache_file, self::_build_css($theme, $browser), LOCK_EX);
-} } }
+	$cache_file = "ext/cache/core_".$theme.".css";
+	file_put_contents($cache_file, self::_build_css($theme), LOCK_EX);
+  }
+}
 
-private static function _build_css($theme, $browser) {
+private static function _build_css($theme) {
   $smarty = new Smarty;
   $smarty->compile_dir = SIMPLE_CACHE."/smarty";
   $smarty->template_dir = "templates";
@@ -269,27 +268,8 @@ private static function _build_css($theme, $browser) {
   $smarty->compile_check = false;
   $smarty->left_delimiter = "<";
   $smarty->right_delimiter = ">";
-  
   $smarty->assign("style", $theme);
-  $smarty->assign("browser", $browser);
-  $output = $smarty->fetch("css/core.css");
-  
-  if ($browser=="safari" or $browser=="chrome") {
-	$output = str_replace('-moz-','-webkit-',$output);
-  }
-  if ($browser=="opera") {
-	$output = str_replace('-moz-','-o-',$output);
-  }
-  if ($browser=="msie") {
-	$output = preg_replace("/^.*(-moz-)/m","",$output);
-  }
-  if ($browser=="msie") {
-	$output = preg_replace("/max-height:([^;]+)px;/","height:expression(this.scrollHeight>\\1?'\\1px':'auto');",$output);
-	$from = "/linear-gradient\(top,\s?([^,]+),\s?([^\)]+)\);/i";
-	$to = "filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='\\1',endColorstr='\\2');";
-	$output = preg_replace($from,$to,$output);
-  }
-  return $output;
+  return $smarty->fetch("css/core.css");
 }
 
 static function rebuild_schema($rebuild_search=false) {
