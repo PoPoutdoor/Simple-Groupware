@@ -111,8 +111,7 @@ function install($databases) {
   define("SETUP_DB_TYPE",$_REQUEST["db_type"]);
   $version = setup::validate_input($databases);  
   $update = sgsml_parser::table_column_exists("simple_sys_tree","id");
-  setup::out('<img src="http://www.simple-groupware.de/cms/logo.php?v='.CORE_VERSION.'&u='.(int)$update.'1&p='.PHP_VERSION.'_'.PHP_OS.'&d='.
-	SETUP_DB_TYPE.$version.'" style="width:1px; height:1px;">',false);
+  setup::out('<img src="http://www.simple-groupware.de/cms/logo.php/'.CORE_VERSION.'/'.(int)$update.'/'.PHP_VERSION.'/'.SETUP_DB_TYPE.'" style="width:1px; height:1px;">',false);
 
   setup::out(t("{t}Processing %s ...{/t}","schema updates"));
   setup_update::change_database_pre();
@@ -183,7 +182,6 @@ function install($databases) {
 function setup_exit($str,$err) {
   echo '
     <html><body><center>
-	<img src="http://www.simple-groupware.de/cms/logos.php?v='.CORE_VERSION.'&d='.PHP_VERSION.'_'.PHP_OS.'&e='.$err.'" start="width:1px; height:1px;">
     <div style="border-bottom: 1px solid black; letter-spacing: 2px; font-size: 18px; font-weight: bold;">Simple Groupware '.CORE_VERSION_STRING.' - Setup</div>
 	<br><div>'.t("{t}Error{/t}").':</div>
 	<error>'.htmlspecialchars($str, ENT_QUOTES).'</error><br><br>
