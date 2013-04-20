@@ -9,7 +9,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title><?= q(CMS_TITLE) ?>: <?= q($this->page["title"] ?: $this->page["name"]) ?></title>
+  <title><?= q(CMS_TITLE) ?>: <?= q($this->page["title"] ? $this->page["title"] : $this->page["name"]) ?></title>
 <? // You are not allowed to remove or alter the copyright. ?>
 <!-- 
 	This website is brought to you by Simple Groupware
@@ -52,7 +52,7 @@
 	</td>
     <td id="wikibody" valign="top">
 	  <p style="text-align: left; font-size:83%;">- <a target="_blank" href="?edit" accesskey="e">{t}Edit{/t}</a> -</p>
-	  <h1 class="pagetitle"><?= q($this->page["title"] ?: $this->page["name"]) ?></h1>
+	  <h1 class="pagetitle"><?= q($this->page["title"] ? $this->page["title"] : $this->page["name"]) ?></h1>
 	  <div id="wikitext"><?= $this->cms->render($this->page["pagename"]) ?></div>
     </td>
   </tr></table>

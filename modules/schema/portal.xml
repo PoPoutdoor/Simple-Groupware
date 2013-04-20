@@ -31,7 +31,6 @@ today=last monday\n
 find[]=assets|simple_&lt;module&gt;||&lt;field&gt;~&lt;value&gt;\n
 \n
 {t}Example{/t}:\n
-treetype=categories&amp;\n
 find[]=assets|simple_calendar||participants~&#166;johndoe&#166;&amp;\n
 find[]=assets|simple_calendar||folder=12301
 ');"/>

@@ -6,7 +6,7 @@
  *}
 {if ($curr_id neq $t.groupby)}
   {if !$tab_key || in_array($tab_key,$t.fields.$curr_id.SIMPLE_TAB)}
- 	<td onmousedown="switch_wrap(this, event);" style="{if $item.filter[0] neq "" || !$iframe}min-width:40px;{/if} {if $t.fields.$curr_id.WIDTH}width:{$t.fields.$curr_id.WIDTH};{/if} {if $t.fields.$curr_id.HEIGHT}height:{$t.fields.$curr_id.HEIGHT};{/if} {if $t.fields.$curr_id.NOWRAP && !$sys.browser.is_mobile}white-space:nowrap;{/if}">
+ 	<td onmousedown="switch_wrap(this, event);" style="{if $item.filter[0] neq "" || !$iframe}min-width:40px;{/if} {if $t.fields.$curr_id.WIDTH}width:{$t.fields.$curr_id.WIDTH};{/if} {if $t.fields.$curr_id.HEIGHT}height:{$t.fields.$curr_id.HEIGHT};{/if} {if $t.fields.$curr_id.NOWRAP && !$sys.is_mobile}white-space:nowrap;{/if}">
     {if $item.filter[0] eq ""}&nbsp;{else}
 	  <div class="type_{$t.fields.$curr_id.SIMPLE_TYPE}" style="width:100%; {$item._fgstyle} {$item._bgstyle} {if !$t.fields.$curr_id.NOWRAP}overflow:hidden;{/if}">
 	  {foreach name=item_filter key=key_filter item=item_filter from=$item.filter}

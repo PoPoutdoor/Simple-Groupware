@@ -120,8 +120,6 @@
   <field name="activated" displayname="Enabled" simple_type="checkbox" simple_default="1" simple_tab="account">
     <INDEX/>
   </field>
-  <field name="enabledav" displayname="WebDav" simple_type="checkbox" simple_default="1" simple_tab="account">
-  </field>
   <field name="mailto" simple_type="multitext" simple_tab="experiment" separator=", ">
     <data function="dbselect|simple_sys_users|username,username||username asc|10"/>
 	<link value="index.php?find=asset|simple_experiment||username=@mailto@&amp;view=details"/>

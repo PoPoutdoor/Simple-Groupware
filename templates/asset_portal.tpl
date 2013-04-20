@@ -9,7 +9,7 @@
 {assign var="col_counter" value="0"}
 {assign var="last_groupitem" value="_"}
 {assign var="cols" value=$t.views[$t.view].COLS}
-{if $sys.browser.is_mobile}{assign var="cols" value="1"}{/if}
+{if $sys.is_mobile}{assign var="cols" value="1"}{/if}
 
 {if $t.datasets>0}
 <table border="0" cellpadding="0" cellspacing="0" style="width:100%;"><tr>

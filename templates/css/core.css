@@ -33,15 +33,6 @@ img {
 body {
   background-color: <#bg_white#>;
 }
-<if $browser eq "safari">
-body {
-  -webkit-text-size-adjust:none;
-}
-div {
-  word-break:break-all;
-}
-</if>
-
 body, .default10 {
   <#font_data_black#>
   <#font_10#>
@@ -73,29 +64,12 @@ input,select,textarea {
 input,select,button {
   vertical-align:middle;
 }
-
-<if $browser neq "msie">
-.baseline select, .baseline input {
-  vertical-align:baseline;
-}
-.baseline img {
-  vertical-align:text-top;
-}
-</if>
-
-<if $browser eq "msie" || $browser eq "konqueror" || $browser eq "safari">
-input,button {
-  height:19px;
-}
-input[type="checkbox"] {
-  height:14px;
-}
-</if>
-
 .input,textarea,input[type="button"],input[type="image"],input[type="submit"],input[type="text"],input[type="password"] {
   padding-left:5px;
   padding-right:5px;
   border-radius:10px;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
 }
 input[type="radio"] {
   border:0px;
@@ -118,9 +92,6 @@ input[type="file"] {
   margin:1px 0 0 0;
   background-color:transparent;
   width:13px;
-  <if $browser eq "msie">
-  height:13px;
-  </if>
 }
 
 .checkbox2 {
@@ -148,11 +119,6 @@ input[type="file"] {
   <#font_8#>
 }
 
-input[type="button"], input[type="submit"], input[type="image"] {
-  background-image: -moz-linear-gradient(top, #FFFFFF, #EEEEEE);
-  box-shadow: 1px 1px 2px rgba(0,0,0,0.6);
-}
-
 #main {
   width:100%;
   position:relative;
@@ -177,18 +143,6 @@ table.data_page {
   border-radius:0 0 6px 6px;
 }
 
-<if $browser eq "msie">
-table.data td {
-  padding-left:5px;
-  padding-right:5px;
-  word-break:break-all;
-  <#text_align#>
-}
-table.data .external_content td {
-  padding-left:0px;
-  padding-right:0px;
-}
-</if>
 table.data>tbody>tr>td, table.data>thead>tr>td {
   padding-left:5px;
   padding-right:5px;
@@ -201,9 +155,6 @@ table.data tr.fields td {
   cursor:pointer;
   background-color: <#bg_light_blue#>;
   <#font_white#>
-  <if $browser eq "msie">
-  word-break:normal;
-  </if>
 }
 table.data tr.fields td a {
   <#font_white#>
@@ -256,9 +207,6 @@ table.data td.item_time {
   border-top: <#border#>;
   border-right: <#border#>;
   <#font_9#>
-  <if $browser eq "msie">
-  word-break:normal;
-  </if>
 }
 table.data td.item_week {
   width:55px;
@@ -269,18 +217,12 @@ table.data td.item_week {
   border-top: <#border#>;
   border-right: <#border#>;
   <#font_9#>
-  <if $browser eq "msie">
-  word-break:normal;
-  </if>
 }
 
 table.data td.item_data {
   padding:0px;
   background-color: <#bg_white_fixed#>;
   border: <#border#>;
-  <if $browser eq "msie">
-  word-break:normal;
-  </if>
   border-radius:0 6px 6px 0;
 }
 
@@ -345,27 +287,20 @@ a.tabstyle2:hover {
   text-decoration:none;
   <#font_white_bold#>
 }
-
-.tabstyle3 {
-  padding-left:2px;
-  padding-right:2px;
+.move_tree {
+  float:right;
   cursor:move;
-  border: <#border_black#>;
-  background-color: <#bg_grey#>;
-  <#font_10#>
 }
-
 .tabstyle_empty {
   margin-right:2px;
   border: <#border_black#>;
   background-color: <#bg_grey#>;
   <#font_10#>
 }
-
 .tabstyle {
   background-color: <#bg_grey#>;
   <#font_tab_black#>
-  background-image: -moz-linear-gradient(top, #FFFFFF, <#bg_grey_gradient#>);
+  background-image: linear-gradient(to bottom, #FFFFFF, <#bg_grey_gradient#>);
 }
 
 .tabstyle2 {
@@ -375,6 +310,13 @@ a.tabstyle2:hover {
 
 .path_caption {
   <#font_10#>
+}
+.folder_buttons {
+  margin-left:4px;
+  padding-left:4px;
+  padding-right:4px;
+  border: <#border#>;
+  vertical-align:middle;
 }
 
 .tree_caption {
@@ -389,17 +331,6 @@ a.tabstyle2:hover {
   max-height:65px;
   overflow:auto;
 }
-
-.tree_views {
-  width:100%;
-  margin-bottom:2px;
-}
-
-<if $browser eq "msie">
-#view_buttons {
-  margin-top:2px;
-}
-</if>
 
 .tree_frame {
   width:100%;
@@ -454,9 +385,6 @@ table.tree_data tr.fields td {
   background-color: <#bg_grey#>;
   border: <#border_black#>;
   <#font_10#>
-  <if $browser eq "msie">
-  word-break:break-all;
-  </if>
 }
 .tree_box:first-line, .tree_box :first-line {
   font-weight:bold;
@@ -528,7 +456,6 @@ table.tree_data tr.fields td {
 }
 
 #login_reminder {
-  display:none;
   top:42%;
   left:25%;
   right:25%;
@@ -538,10 +465,6 @@ table.tree_data tr.fields td {
   border: <#border_black#>;
   background-color: <#bg_white#>;
   <#font_30#>
-  <if $browser eq "safari">
-  word-break:normal;
-  position:fixed;
-  </if>
   border-radius:10px;
 }
 
@@ -596,12 +519,6 @@ table.tree_data tr.fields td {
   border-right: <#border#>;
   <#font_data_black#>
   <#font_9#>
-  <if $browser eq "msie">
-  white-space:nowrap;
-  </if>
-  <if $browser eq "safari">  
-  word-break:normal;
-  </if>
 }
 
 .datebox_footerline td {
@@ -683,9 +600,6 @@ table.tree_data tr.fields td {
   opacity:0.5;
   cursor:pointer;
   <#font_7#>
-  <if $browser eq "msie">
-    filter:alpha(opacity=50);
-  </if>
   border-radius:0 12px 0 0;
 }
 .notice3 {
@@ -700,14 +614,14 @@ table.tree_data tr.fields td {
   color: <#color_menu_black#>;
   background-color: <#bg_grey#>;
   border-bottom:1px solid <#color_grey#>;
-  background-image: -moz-linear-gradient(top, #FFFFFF, <#bg_grey_gradient#>);
+  background-image: linear-gradient(to bottom, #FFFFFF, <#bg_grey_gradient#>);
 }
 .menu table {
   <#font_menu_big#>
 }
 
 .submenu {
-  top:24px;
+  top:26px;
   position:absolute;
   padding:2px;
   z-index:2;
@@ -717,7 +631,7 @@ table.tree_data tr.fields td {
   border:1px solid <#color_grey#>;
   <#font_menu#>
   border-radius:0 0 6px 6px;
-  background-image: -moz-linear-gradient(top, <#bg_grey_gradient#>, #FFFFFF);
+  background-image: linear-gradient(to bottom, <#bg_grey_gradient#>, #FFFFFF);
 }
 .menu td {
   height:20px;
@@ -733,9 +647,6 @@ table.tree_data tr.fields td {
   padding:0 9px;
   height:20px;
   border:1px solid transparent;
-  <if $browser eq "msie">
-  border:1px solid <#bg_grey#>;
-  </if>
 }
 .menu_item2 {
   padding:0 9px;
@@ -793,9 +704,6 @@ table.tree_data tr.fields td {
 #search_bar {
   width:100%;
   max-width:250px;
-  <if $browser eq "msie">
-  width:expression(getObj("tree_frame").offsetWidth > 257? "250px": "auto")}
-  </if>
 }
 .image {
   padding-left:5px;
@@ -829,10 +737,7 @@ table.tree_data tr.fields td {
   top:43%;
   position:absolute;
   opacity:0;
-  -moz-transition:opacity 4s;
-  <if $browser eq "msie">
-  filter:alpha(opacity=75);
-  </if>
+  transition:opacity 4s;
 }
 .login_alert {
   background-color:<#bg_white_fixed#>;
@@ -840,9 +745,6 @@ table.tree_data tr.fields td {
   top:0px;
   width:100%;
   opacity:0.75;
-  <if $browser eq "msie">
-  filter:alpha(opacity=75);
-  </if>
 }
 blockquote {
   margin-left:0px;

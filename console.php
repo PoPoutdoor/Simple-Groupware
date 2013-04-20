@@ -74,7 +74,7 @@ if ($_REQUEST["console"]=="php") {
       $content .= sql_error();
     } else if (is_array($data) and count($data)>0) {
       $content .= show_table($data, isset($_REQUEST["full_texts"]), isset($_REQUEST["vertical"]));
-    } else if (SETUP_DB_TYPE=="mysql" and $num = mysql_affected_rows()) {
+    } else if (SETUP_DB_TYPE=="mysqli" and $num = mysqli_affected_rows(sys::$db)) {
 	  $content .= t("{t}%s rows affected{/t}",$num);
 	} else {
 	  $content .= t("{t}Empty{/t}");
@@ -143,7 +143,7 @@ class funcs {
   static function get_databases($prefix) {
     $result = array();
     $prefix = sql_quote($prefix);
-	if (SETUP_DB_TYPE=="mysql")	{
+	if (SETUP_DB_TYPE=="mysqli")	{
 	  $query = "SHOW databases like '{$prefix}%'";
 	} else if (SETUP_DB_TYPE=="sqlite") {
 	  return array();
@@ -162,7 +162,7 @@ class funcs {
 	$database = sql_quote($prefix[0]);
 	$prefix = sql_quote($prefix[1]);
 
-	if (SETUP_DB_TYPE=="mysql")	{
+	if (SETUP_DB_TYPE=="mysqli")	{
 	  $query = "SELECT table_name,table_rows,table_comment
 				FROM information_schema.tables
 				WHERE table_schema = '{$database}'
@@ -202,7 +202,7 @@ class funcs {
 	$table = sql_quote($prefix[1]);
 	$prefix = sql_quote($prefix[2]);
 
-	if (SETUP_DB_TYPE=="mysql")	{
+	if (SETUP_DB_TYPE=="mysqli")	{
 	  $query = "SELECT column_name, column_type, column_comment
 				FROM information_schema.columns
 				WHERE table_schema = '{$database}'

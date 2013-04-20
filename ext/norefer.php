@@ -25,7 +25,7 @@ if (preg_match("!^(https?|ftp)://!i",$url)) {
   if (strpos(file_get_contents("../simple_store/config.php"),"'ENABLE_EXT_MAILCLIENT',true")) {
     echo "<script>document.location='mailto:".$url."';window.close();</script>";
   } else {
-	$url = "../index.php?onecategory=1&find=folder|simple_sys_tree|1|ftype=emails&view=new&eto=".$url;
+	$url = "../index.php?find=folder|simple_sys_tree|1|ftype=emails&view=new&eto=".$url;
     header("Location: ".$url);
   }
 } else die("Link restricted");

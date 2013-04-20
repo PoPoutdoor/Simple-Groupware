@@ -5,8 +5,7 @@
  * @license GPLv2
  *}
 {if !$t.schema_mode}
-{capture name=pages}
-<table cellspacing="0" class="data {if !$sys.fixed_footer}data_page{/if}" style="border-top:0px; {if $sys.fixed_footer}margin-bottom:0px;{/if}">
+<table cellspacing="0" class="data data_page" style="border-top:0px;">
   <tr class="summary">
 	{if $t.datasets>0}
     <td style="width:10px;"><input type="checkbox" id="itemall" value="" class="checkbox" onmousedown="mselectall(this.checked);">
@@ -36,6 +35,4 @@
 	{/if}
   </tr>
 </table>
-{/capture}
-{if !$sys.fixed_footer}{$smarty.capture.pages|no_check}{/if}
 {/if}

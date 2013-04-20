@@ -6,27 +6,6 @@
  *}
 {strip}
 <div class="tree_caption" title="{$folder.type} / {$t.custom_name|default:$t.title}">{$t.views[$t.view].modulename} - {$sys.username}</div>
-<table border="0" cellpadding="0" cellspacing="0" id="tree_views" class="tree_views"><tr>
-{if $tree.type eq "folders" && !$onecategory}
-  <td class="tabstyle2" onclick="locate('index.php?treetype=folders')">{t}Folders{/t}</td>
-  <td style="width:2px;"></td>
-  <td class="tabstyle" onclick="locate('index.php?treetype=categories')">{t}Categories{/t}</td>
-{else}
-  <td class="tabstyle" onclick="locate('index.php?treetype=folders')">{t}Folders{/t}</td>
-  <td style="width:2px;"></td>
-  <td class="tabstyle2" onclick="locate('index.php?treetype=categories')">{t}Categories{/t}</td>
-{/if}
-{if $t.isdbfolder && $t.rights.write_folder}
-  <td style="width:2px;"></td>
-  <td class="tabstyle" onclick="folder_options(1);" title="{t}Merge folders permanently{/t}">+</td>
-  <td style="width:2px;"></td>
-  <td class="tabstyle" onclick="folder_options(0);" title="{t}Rename folder{/t}">-</td>
-  <td style="width:2px;"></td>
-  <td class="tabstyle" onclick="folder_categories();" title="{t}Create new folder{/t}">u</td>
-{/if}
-<td style="width:2px;"></td>
-<td style="width:10px;" class="tabstyle3" ondblclick="tree_showhide();" onmousedown="start_drag(tree_drag_resize);">&nbsp;</td>
-</tr></table>
 <a onclick="tree_showhide(); return false;" href="#" accesskey="t"></a>
 
 {if $folder.description && !$sys.fdesc_in_content}
@@ -136,13 +115,6 @@
 	  </tr>	  
 	  </table>
 	{/if}
-	<div style="border-top: {#border#}; margin-top:4px; margin-bottom:7px;"></div>
-	<input type="Button" value="Google" onclick="nWin('http://www.google.com/search?q='+getObj('search_query').value);">{" "}
-	<input type="Button" value="Wikipedia" onclick="nWin('http://www.wikipedia.org/wiki/?search='+getObj('search_query').value);">{" "}
-	<input type="Button" value="Amazon" onclick="nWin('http://www.amazon.com/exec/obidos/external-search?keyword='+getObj('search_query').value);">{" "}
-	<input type="Button" value="BabelFish" onclick="nWin('http://babelfish.altavista.com/?urltext='+getObj('search_query').value+'&url='+getObj('search_query').value);">{" "}
-	<input type="Button" value="Yahoo" onclick="nWin('http://search.yahoo.com/search?p='+getObj('search_query').value);">{" "}
-	<input type="Button" value="Bing" onclick="nWin('http://search.bing.com/results.aspx?q='+getObj('search_query').value);">
 	</div>
 	</td>
   </tr>
@@ -169,9 +141,26 @@
 <tr><td style="height:5px;"></td></tr>
 {/if}
 
-{if $tree.type eq "folders" && !$onecategory}
-  <tr><td>
-  <div>
+<tr><td>
+  <select id="tree_schema" style="width:150px; margin-left:3px; margin-top:3px; margin-bottom:3px;" onchange="tree_get_folders_by_type(this.value, 'tree_type');">
+	{foreach key=skey item=sitem from=$sys_schemas}
+	  {if $sitem[0] eq " "}<optgroup label="{$sitem}">{else}<option value="{$skey}" {if $skey eq $folder.type}selected{/if}>{$sitem}{/if}
+	{/foreach}
+  </select>
+  {if $t.isdbfolder && $t.rights.write_folder}
+	<a class="folder_buttons" onclick="folder_options(1);" title="{t}Merge folders permanently{/t}">+</a>
+	<a class="folder_buttons" onclick="folder_options(0);" title="{t}Rename folder{/t}">-</a>
+	<a class="folder_buttons" onclick="folder_categories();" title="{t}Create new folder{/t}">u</a>
+  {/if}
+  <img class="cursor" src="ext/icons/down.gif" onclick="tree_get_folders_by_type(val('tree_schema'), 'tree_type');">
+  <div id="tree_type"></div>
+</td></tr>
+<tr><td style="height:5px;"></td></tr>
+<tr><td><div style="border-top: {#border#};"><!--IE--></div></td></tr>
+<tr><td style="height:5px;"></td></tr>
+
+<tr><td>
+<div>
   {foreach name=tree key=key item=item from=$tree.tree}
 	{if $item.flevel <= $level}{repeat count=$level-$item.flevel+1}</div>{/repeat}{/if}
 	<div class="drop_tree" rel="{$item.id}" title="{$item.id|sys_remove_handler} {$item.fdescription|replace:"\n":"\n "}" style="white-space:nowrap; {if $folder.id eq $item.id}font-weight:bold;{/if} {if $item.flevel eq 0}padding-bottom:1px;{/if}">
@@ -191,44 +180,9 @@
 	{assign var="level" value=$item.flevel}
 	{assign var="id" value=$item.id}
   {/foreach}
-  {repeat count=$level+1}</div>{/repeat}
-  </td></tr>
-{else}
-  <tr><td>
-    <table border="0" cellpadding="0" cellspacing="0" style="margin-left:3px;">
-	  {if !$onecategory}
-	  <tr>
-        <td colspan="2" valign="top">
-		  <select style="width:150px; margin-top:3px; margin-bottom:5px;" onchange="locate('index.php?fschema='+this.value);">
-		  {foreach key=skey item=sitem from=$sys_schemas}
-			{if $sitem[0] eq " "}<optgroup label="{$sitem}">{else}<option value="{$skey}" {if $skey eq $folder.type}selected{/if}>{$sitem}{/if}
-		  {/foreach}
-	      </select>
-		</td>
-	  </tr>
-	  {/if}
-      {foreach key=key item=item from=$tree.tree}
-	    <tr>
-		  <td style="vertical-align:top; white-space:nowrap;">
-			<a href="index.php?folder={$item.id|escape:"url"}&view={$t.view}">
-			{if #tree_icons# || $item.icon}
-			  <img src="ext/modules/{$item.icon|default:$item.tree_icon}" style="margin-bottom:2px;">
-			{else}
-			  <img src="ext/cache/folder{if $folder.id eq $item.id}2{else}1{/if}_{$sys_style}.gif">
-			{/if}
-			</a>&nbsp;
-		  </td>
-		  <td>
-			<div class="drop_tree" rel="{$item.id}" title="{$item.id|sys_remove_handler} {$item.fdescription|replace:"\n":"\n "}" style="{if $folder.id eq $item.id}font-weight:bold;{/if}">
-			  <a href="index.php?folder={$item.id|escape:"url"}&view={$t.view}">{$item.id|modify::getpath}
-				{if $item.count neq ""}&nbsp;({$item.count}){/if}
-			  </a>
-			</div>
-		  </td></tr>
-      {/foreach}
-    </table>
-  </td></tr>
-{/if}
+{repeat count=$level+1}</div>{/repeat}
+</td></tr>
+
 {if $tree.lastpage neq 1}
   <tr style="height:7px;"><td></td></tr>
   <tr><td>

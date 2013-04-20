@@ -57,13 +57,12 @@ static function save_config($vars) {
 
 static function validate_system() {
   $extensions = array("xml", "gd", "pcre", "session", "zlib", "SimpleXML", "json");
-  $db_extensions = array("mysql"=>array("MySQL", "5.00"), "pgsql"=>array("PostgreSQL", "8.36"), "pdo_sqlite"=>array("SQLite", "3.00"));
+  $db_extensions = array("mysqli"=>array("MySQL", "5.00"), "pgsql"=>array("PostgreSQL", "8.36"), "pdo_sqlite"=>array("SQLite", "3.00"));
 
   $on = array("1", "on", "On");
   $off = array("0", "off", "Off", "");
   $settings = array(
-	"safe_mode" => $off, "file_uploads" => $on, "zlib.output_compression" => $off,
-	"session.auto_start" => $off, "magic_quotes_runtime" => $off, "display_errors" => $on
+	"safe_mode" => $off, "file_uploads" => $on, "session.auto_start" => $off, "magic_quotes_runtime" => $off, "display_errors" => $on
   );
   $memorylimit = 24000000;
 
@@ -148,13 +147,11 @@ static function config_defaults() {
 	"SETUP_AUTH_LDAP_USER"=>"''", "SETUP_AUTH_LDAP_PW"=>"''", "SETUP_AUTH_BASE_DN"=>"''", "SETUP_AUTH_LDAP_UID"=>"'uid'",
 	"SETUP_AUTH_LDAP_MEMBEROF"=>"'memberOf'", "SETUP_AUTH_LDAP_ROOM"=>"''",	"SETUP_AUTH_LDAP_GROUPS"=>"0",
 	"SETUP_AUTH_HOSTNAME_LDAP"=>"''", "SETUP_AUTH_HOSTNAME_IMAP"=>"''",
-	"SETUP_AUTH_HOSTNAME_SMTP"=>"''", "SETUP_AUTH_HOSTNAME_NTLM"=>"''", "SETUP_AUTH_NTLM_SHARE"=>"''", "SETUP_AUTH_NTLM_SSO"=>"0", 
-	"CHECK_DOS"=>"1", "FORCE_SSL"=>"0", "ENABLE_WEBDAV"=>"1",
+	"SETUP_AUTH_HOSTNAME_SMTP"=>"''", "SETUP_AUTH_HOSTNAME_NTLM"=>"''", "SETUP_AUTH_NTLM_SHARE"=>"''", "CHECK_DOS"=>"1",
 	"ENABLE_ANONYMOUS"=>"1", "ENABLE_ANONYMOUS_CMS"=>"1", "DISABLE_BASIC_AUTH"=>"0", "MOUNTPOINT_REQUIRE_ADMIN"=>"0", 
 	"SELF_REGISTRATION"=>"0", "SELF_REGISTRATION_CONFIRM"=>"0", "DISABLED_MODULES"=>"''",
 	"ENABLE_EXT_MAILCLIENT"=>"0", "USE_DEBIAN_BINARIES"=>"0", "USE_MAIL_FUNCTION"=>"0", "USE_SYSLOG_FUNCTION"=>"0",
-	"DEBUG_SQL"=>"false", "DEBUG_IMAP"=>"false", "DEBUG_POP3"=>"false", "DEBUG_JS"=>"false", 
-	"DEBUG_SMTP"=>"false", "DEBUG_JAVA"=>"false", "DEBUG_WEBDAV"=>"false",
+	"DEBUG_SQL"=>"false", "DEBUG_IMAP"=>"false", "DEBUG_POP3"=>"false", "DEBUG_JS"=>"false", "DEBUG_SMTP"=>"false", "DEBUG_JAVA"=>"false",
 	"LOCKING"=>"900", "FOLDER_REFRESH"=>"5", "LOGIN_TIMEOUT"=>"7200", "SESSION_NAME"=>"'".$session_name."'", "DEFAULT_STYLE"=>"'core'",
 	"WEEKSTART"=>"0", "OUTPUT_CACHE"=>"86400", "CSV_CACHE"=>"300", "LDIF_CACHE"=>"300", "BOOKMARKS_CACHE"=>"300", "ICALENDAR_CACHE"=>"300",
 	"RSS_CACHE"=>"600", "VCARD_CACHE"=>"300", "XML_CACHE"=>"300",
@@ -167,7 +164,7 @@ static function config_defaults() {
 	"SMTP_FOOTER"=>"'Sent with Simple Groupware http://www.simple-groupware.de/'",
 	"SMTP_REMINDER"=>"'Simple Groupware {t}Reminder{/t}'",
 	"SMTP_NOTIFICATION"=>"'Simple Groupware {t}Notification{/t}'", "CORE_COMPRESS_OUTPUT"=>"true",
-	"APC_SESSION"=>"false","MENU_AUTOHIDE"=>"false","TREE_AUTOHIDE"=>"false","FIXED_FOOTER"=>"false","FDESC_IN_CONTENT"=>"false",
+	"APC_SESSION"=>"false","MENU_AUTOHIDE"=>"false","TREE_AUTOHIDE"=>"false","FDESC_IN_CONTENT"=>"false",
 	"CMS_HOMEPAGE"=>"'HomePage'", "CMS_REAL_URL"=>"''", "DEBUG"=>"false",
 	"SIMPLE_CACHE"=>"'".SIMPLE_CACHE."'", "SIMPLE_STORE"=>"'".SIMPLE_STORE."'", "SIMPLE_CUSTOM"=>"'".SIMPLE_CUSTOM."'",
 	"SIMPLE_IMPORT"=>"'import/'", "SIMPLE_EXT"=>"'ext/'", "TIMEZONE"=>"''", "ASSET_PAGE_LIMIT"=>"100",

@@ -51,18 +51,15 @@ static $bools = array(
 	"ARCHIVE_DELETED_FILES"=>"{t}Archive deleted files{/t}",
     "SYNC4J"=>"{t}Enable Sync4j / Funambol{/t}",
 	"SYNC4J_REMOTE_DELETE"=>"{t}Sync4j remote delete items{/t}",
-	"ENABLE_WEBDAV"=>"{t}Enable WebDAV{/t}",
 	"ENABLE_EXT_MAILCLIENT"=>"{t}Enable external mail client for 'mailto:' links{/t}",
 	"USE_MAIL_FUNCTION"=>"{t}Use the mail() function for sending mails (insecure){/t}",
 	"USE_SYSLOG_FUNCTION"=>"{t}Use syslog() function for logging events{/t}",
 	"USE_DEBIAN_BINARIES"=>"{t}Use Debian binaries (Warning: not latest versions){/t}",
-	"FORCE_SSL"=>"{t}Force SSL{/t}",
 	"CHECK_DOS"=>"{t}Check DoS Attacks{/t}",
 	"CORE_COMPRESS_OUTPUT"=>"{t}Compress output{/t}",
 	"APC_SESSION"=>"{t}Use APC for session storage{/t}",
     "MENU_AUTOHIDE"=>"{t}Automatically hide the menu{/t}",
 	"TREE_AUTOHIDE"=>"{t}Automatically hide the tree{/t}",
-	"FIXED_FOOTER"=>"{t}Fix paging bar to page bottom{/t}",
     "FDESC_IN_CONTENT"=>"{t}Show folder description in content area{/t}",
 	"DEBUG"=>"",
 	"DEBUG_SQL"=>"",
@@ -70,7 +67,6 @@ static $bools = array(
 	"DEBUG_POP3"=>"",
 	"DEBUG_SMTP"=>"",
 	"DEBUG_JAVA"=>"",
-	"DEBUG_WEBDAV"=>"",
 	"DEBUG_JS"=>"",
 );
 static $caches = array(
@@ -160,7 +156,7 @@ static function validate() {
   }
   if (!empty($_REQUEST["sync4j"])) {
 	echo sprintf("{t}Processing %s ...{/t}","Funambol schema")."<br>";
-	if (SETUP_DB_TYPE=="mysql") {
+	if (SETUP_DB_TYPE=="mysqli") {
 	  $data = preg_replace("!/\*.+?\*/!s","",file_get_contents("tools/funambolv7_syncML/mysql/funambol.sql"));
 	  if (($msg = db_query(explode(";",$data)))) {
 		return "funambol.sql [mysql]: ".$msg."<br>";
@@ -315,8 +311,6 @@ static function show_form() {
 	  }
 	  if ($key=="ntlm") {
 		echo '<tr><td colspan="2"></td><td>{t}Share{/t}</td><td><input type="Text" name="setup_auth_ntlm_share" value="'.self::quote(SETUP_AUTH_NTLM_SHARE).'"></td><td>(smb://server/share/)</td></tr>';
-		echo '<input type="hidden" name="setup_auth_ntlm_sso" value="0">
-		<tr><td colspan="2"></td><td>Single sign-on</td><td><input type="checkbox" name="setup_auth_ntlm_sso" class="checkbox" value="1" '.(SETUP_AUTH_NTLM_SSO?"checked":"").'></td></tr>';
 	  }
 	}
   }

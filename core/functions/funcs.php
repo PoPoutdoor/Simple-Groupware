@@ -29,10 +29,8 @@ class sys {
  
   static $time_start = 0; // script start
   static $time_end = 0; // script end
-
-  // browser infos
-  static $browser = array( "name"=>"", "ver"=>0, "str"=>"unknown", "is_mobile"=>false, "plattform"=>"", 
-	"comp"=>array("htmledit"=>true, "codeedit"=>false, "javascript"=>true), "no_scrollbar"=>false );
+  static $is_mobile = false;
+  static $browser = "";
 
   static $alert = array(); // force error message output
   
@@ -906,7 +904,7 @@ function db_search_update($table,$id,$fields,$field_arr=array()) {
 	db_update("simple_sys_search",$data,array("id=@id@","folder=@folder@"),array("id"=>$id,"folder"=>$folder));
   } else {
     $data = array_merge($data,array("id"=>$id,"folder"=>$folder, "history"=>""));
-    db_insert("simple_sys_search",$data,array("delay"=>true));
+    db_insert("simple_sys_search",$data);
   }
 }
 
@@ -1225,9 +1223,7 @@ function db_insert($table,$data,$optional=array()) {
   foreach (array_keys($data) as $key) {
     $data[$key] = sys_correct_quote($data[$key], !empty($optional["no_defaults"]));
   }
-  if (SETUP_DB_TYPE=="mysql" and isset($optional["delay"])) $delay = "delayed"; else $delay = "";
-
-  $sql = "insert ".$delay." into ".$table." (".implode(",",array_keys($data)).") values (".implode(",",$data).")";
+  $sql = "insert into ".$table." (".implode(",",array_keys($data)).") values (".implode(",",$data).")";
   sys::$db_queries[] = $sql;
 
   if (sql_query($sql)===false) {
@@ -1385,7 +1381,7 @@ function _folder_searchtypes() {
 }
 
 function _folder_process_folders($rows,&$tree,$level) {
-  foreach($rows as $row) {
+  foreach ($rows as $row) {
     if (!empty($_SESSION["folder_states"][$row["id"]])) $row["state"] = "minus"; else $row["state"] = "plus";
 	$icon = "";
 	$tree_icon = "";
@@ -1393,7 +1389,7 @@ function _folder_process_folders($rows,&$tree,$level) {
 	if (!empty($row["anchor"]) and !strpos($row["anchor"],"_")) $tree_icon = "anchor_".$row["anchor"].".png";
 	  else $tree_icon = $row["ftype"].".png";
 
-	if ($row["fmountpoint"]!="" and $_SESSION["treetype"]=="folders" and empty($_REQUEST["popup"]) and empty($_REQUEST["onecategory"])) {
+	if ($row["fmountpoint"]!="" and empty($_REQUEST["popup"])) {
 	  $url = sys_credentials($row["id"], $row["fmountpoint"]);
 	} else $url = array();
 	if ($row["fmountpoint"]=="" and $row["ffcount"]==0) $row["state"] = "line";
@@ -1578,12 +1574,6 @@ function folder_process_session_request() {
     if (!isset($_REQUEST["folder"])) $_REQUEST["folder"] = $_REQUEST["folder2"];
     if (!isset($_REQUEST["view"])) $_REQUEST["view"] = $_REQUEST["view2"];
   }
-  if (!isset($_SESSION["treetype"])) $_SESSION["treetype"] = "folders";
-  if (!empty($_REQUEST["treetype"])) {
-    if (isset($_REQUEST["onecategory"])) unset($_REQUEST["onecategory"]);
-	$_SESSION["treetype"] = $_REQUEST["treetype"];
-  }
-
   if (!isset($_SESSION["treevisible"])) $_SESSION["treevisible"] = true;
   if (!isset($_SESSION["hidedata"])) $_SESSION["hidedata"] = false;
 
@@ -1664,7 +1654,7 @@ function folder_build_folders() {
 
   $sel_folder = folder_build_selfolder($tfolder,$tview);
   $sel_folder["parents"] = db_get_parents($sel_folder);
-  if (count($sel_folder["parents"])>0 and !isset($_REQUEST["onecategory"]) and $_SESSION["treetype"]=="folders") {
+  if (count($sel_folder["parents"])>0) {
 	foreach ($sel_folder["parents"] as $parent) {
 	  $id = $parent["id"];
 	  if (!isset($_SESSION["folder_states"][$id]) or !in_array($sel_folder["id"],$_SESSION["folder_states"][$id])) {
@@ -1730,7 +1720,6 @@ function folder_build_folders() {
 	"folder_refresh"=>FOLDER_REFRESH,
 	"menu_autohide"=>(int)MENU_AUTOHIDE,
 	"tree_autohide"=>(int)TREE_AUTOHIDE,
-	"fixed_footer"=>(int)FIXED_FOOTER,
 	"fdesc_in_content"=>(int)FDESC_IN_CONTENT,
 	"mountpoint_admin"=>(int)MOUNTPOINT_REQUIRE_ADMIN,
 	"is_superadmin"=>(int)sys_is_super_admin($_SESSION["username"]),
@@ -1739,7 +1728,7 @@ function folder_build_folders() {
 	"home"=>$_SESSION["home_folder"],
 	"history"=>$_SESSION["history"],
 	"disabled_modules"=>$_SESSION["disabled_modules"],
-	"browser"=>sys::$browser,
+	"is_mobile"=>sys::$is_mobile,
   ));
 }
 
@@ -1747,16 +1736,12 @@ function folder_build_tree($visible) {
   $vars = array();
   $sel_folder = $GLOBALS["sel_folder"];
   $schemas = select::modules();
-  if ($_SESSION["treetype"]=="folders" and empty($_REQUEST["popup"]) and empty($_REQUEST["onecategory"])) {
+  if (empty($_REQUEST["popup"])) {
     $where = array("(flevel<2 or parent in (@states@))",$_SESSION["permission_sql_read"]);
     $vars["states"] = array_filter(array_keys($_SESSION["folder_states"]),"is_numeric");
 	if (count($vars["states"])==0) $vars["states"] = 0;
-  } else {
-    $where = array("ftype=@type@",$_SESSION["permission_sql_read"]);
-	if (isset($schemas[$sel_folder["ftype"]])) {
-      $vars["type"] = $sel_folder["ftype"];
-	} else $vars["type"] = "blank";
   }
+
   $treelimit = 100;
   $treepage = 1;
   $tree_count = db_count("simple_sys_tree",$where,$vars);
@@ -1781,8 +1766,7 @@ function folder_build_tree($visible) {
 
   sys::$smarty->assign("sys_schemas",$schemas);
   sys::$smarty->assign("tree",array(
-  	"tree"=>$tree, "type"=>$_SESSION["treetype"], "visible"=>$visible,
-	"page"=>$treepage, "lastpage"=>$last_treepage,"prevpage"=>$prev_treepage, "nextpage"=>$next_treepage,
+  	"tree"=>$tree, "visible"=>$visible, "page"=>$treepage, "lastpage"=>$last_treepage, "prevpage"=>$prev_treepage, "nextpage"=>$next_treepage,
   ));
 }
 
@@ -1916,9 +1900,6 @@ function login_handle_login($save_session=true) {
 	  sys_log_stat("wrong_login",1);
 	}
   }
-  if (!isset($_REQUEST["logout"]) and empty($_SESSION["username"]) and SETUP_AUTH=="ntlm" and SETUP_AUTH_NTLM_SSO) {
-	if (login::validate_login("_invalid","")) login::process_login($_SERVER["REMOTE_USER"]);
-  }
   if (!isset($_REQUEST["logout"]) and empty($_SESSION["username"]) and SETUP_AUTH=="htaccess" and !empty($_SERVER["REMOTE_USER"])) {
     $_SERVER["REMOTE_USER"] = modify::strip_ntdomain($_SERVER["REMOTE_USER"]);
 	if (login::validate_login($_SERVER["REMOTE_USER"],"")) login::process_login($_SERVER["REMOTE_USER"]);
@@ -1935,10 +1916,10 @@ function login_handle_login($save_session=true) {
   }
 }
 
-function login_browser_detect() {
+function browser_detect() {
   $agent = "@".strtolower($_SERVER["HTTP_USER_AGENT"]);
   $version = array();
-  sys::$browser["name"] = $agent;
+  sys::$browser = $agent;
   if (
   	(strpos($agent,"firefox") and preg_match("|(firefox)/([0-9]+\.[0-9])|", $agent,$version)) or
 	(strpos($agent,"opera") and preg_match("|(opera).?([0-9]+\.[0-9])|", $agent,$version)) or
@@ -1952,49 +1933,20 @@ function login_browser_detect() {
 	(strpos($agent,"curl") and preg_match("|(curl)/([0-9]+\.[0-9])|", $agent,$version)) or
 	(strpos($agent,"apachebench") and preg_match("|(apachebench)/([0-9]\.[0-9])|", $agent,$version))
   ) {
-    sys::$browser["name"] = $version[1];
-	sys::$browser["ver"] = $version[2];
+    sys::$browser = $version[1]." ".$version[2];
   } else if (strpos($agent,"mozilla") and preg_match("|rv:([0-9]\.[0-9]).*?gecko|", $agent,$version)) {
-    sys::$browser["name"] = "mozilla";
-	sys::$browser["ver"] = $version[1];
+    sys::$browser = "mozilla ".$version[1];
   } else if (preg_match("/googlebot|msnbot|yahoo|baidu|teoma/", $agent)) {
-    sys::$browser["name"] = "search-engine";
-	sys::$browser["ver"] = 20;
+    sys::$browser = "search-engine";
   }
-  if (sys::$browser["name"]=="applewebkit") sys::$browser["name"] = "safari";
-  sys::$browser["ver"] = str_replace(".","",sys::$browser["ver"]);
-  if (strlen(sys::$browser["ver"])<2) sys::$browser["ver"] .= "00";
-  sys::$browser["str"] = ucfirst(sys::$browser["name"])." ".sys::$browser["ver"];
+  if (strpos($agent,"thunderbird")) $_REQUEST["iframe"] = 1;
+  if (strpos($agent,"windows ce")) sys::$browser .= " wince";
+    else if (strpos($agent,"windows")) sys::$browser .= " win";
+    else if (strpos($agent,"macintosh")) sys::$browser .= " mac";
+    else if (strpos($agent,"linux")) sys::$browser .= "linux";
 
-  if (strpos($agent,"windows ce")) sys::$browser["platform"] = "wince";
-    else if (strpos($agent,"windows")) sys::$browser["platform"] = "win";
-    else if (strpos($agent,"macintosh")) sys::$browser["platform"] = "mac";
-    else if (strpos($agent,"linux")) sys::$browser["platform"] = "linux";
-
-  switch (sys::$browser["name"]) {
-    case "firefox": case "msie": case "mozilla": case "chrome":
-	  sys::$browser["comp"]["codeedit"] = true;
-	  break;
-	case "thunderbird":
-	  $_REQUEST["iframe"] = 1;
-	  sys::$browser["comp"]["htmledit"] = false;
-	  sys::$browser["comp"]["javascript"] = false;
-	  break;
-  }
-  if (preg_match("/iphone|nokia|samsung|android|webos|windows ce|symbian|midp/",$agent) &&
-	  !preg_match("/gt-p1000|archos/",$agent)) {
-	sys::$browser["is_mobile"] = true;
-	$_REQUEST["tree"]="minimize";
-  }
-  if (preg_match("/iphone|ipad|android/",$agent)) sys::$browser["no_scrollbar"] = true;
-  $min = array(
-	"firefox"=>30, "msie"=>70, "mozilla"=>14, "search-engine"=>20, "opera"=>90, "safari"=>522, "chrome"=>9,
-	"konqueror"=>32, "thunderbird"=>15, "httpclient"=>30, "curl"=>60, "miniredir"=>51, "apachebench"=>20,
-  );
-  if (isset($min[sys::$browser["name"]]) and sys::$browser["ver"]>=$min[sys::$browser["name"]]) {
-    return true;
-  }
-  return false;
+  if (preg_match("/iphone|nokia/",$agent)) $_REQUEST["tree"]="minimize";
+  if (preg_match("/iphone|nokia|ipad|android/",$agent)) sys::$is_mobile = true;
 }
 
 function ______S_Q_L______() {}
@@ -2013,7 +1965,7 @@ function sql_concat($sql) {
     foreach ($sql as $key=>$val) $sql[$key] = sql_concat($val);
 	return $sql;
   }
-  if (SETUP_DB_TYPE=="mysql") {
+  if (SETUP_DB_TYPE=="mysqli") {
     return str_replace(";",",",$sql);
   } else { // pgsql, sqlite
     return str_replace(array(";;",";","concat"),array(",","||",""),$sql);
@@ -2025,13 +1977,13 @@ function sql_regexp($col,$exps,$format="|%s|") {
   foreach ((array)$exps as $exp) $reg[] = preg_quote($exp);
   $reg = sql_quote(sprintf(preg_quote($format), "(".implode("|",$reg).")"));
 
-  if (SETUP_DB_TYPE=="mysql") return $col." REGEXP '".$reg."'";
+  if (SETUP_DB_TYPE=="mysqli") return $col." REGEXP '".$reg."'";
     else if (SETUP_DB_TYPE=="pgsql") return $col." ~ '".$reg."'";
     else return "REGEXP_LIKE(".$col.",'".$reg."')"; // sqlite
 }
 
 function sql_table_optimize($tab="") {
-  if (SETUP_DB_TYPE=="mysql") {
+  if (SETUP_DB_TYPE=="mysqli") {
     if ($tab=="") $data = sql_fetch("show tables like 'simple_%'"); else $data = array(array($tab));
     foreach ($data as $elem) {
       $table = array_pop($elem);
@@ -2056,7 +2008,7 @@ function sql_table_optimize($tab="") {
 }
 
 function sql_table_create($table) {
-  if (SETUP_DB_TYPE=="mysql") {
+  if (SETUP_DB_TYPE=="mysqli") {
     $sql = "CREATE TABLE %s (id NUMERIC(10) DEFAULT 0) ENGINE=MyISAM DEFAULT CHARSET=utf8";
     if (sql_query(sprintf($sql,$table))) return true;
   } else { // pgsql / sqlite
@@ -2066,7 +2018,7 @@ function sql_table_create($table) {
 }
 
 function sql_limit($sql,$param1,$param2) {
-  if (SETUP_DB_TYPE=="mysql") {
+  if (SETUP_DB_TYPE=="mysqli") {
     if (sys_strbegins($sql,"show")) return $sql;
     return sprintf("%s limit %d,%d",$sql,$param1,$param2);
   } else {
@@ -2081,9 +2033,8 @@ function _sql_sqlite_match($str, $regex) {
 }
 
 function sql_connect($server,$username,$password,$database="") {
-  if (SETUP_DB_TYPE=="mysql") {
-    if (!$link = mysql_pconnect($server,$username,$password)) return false;
-    if ($database!="" and !mysql_select_db($database,$link)) return false;
+  if (SETUP_DB_TYPE=="mysqli") {
+    if (!$link = mysqli_connect($server,$username,$password,$database)) return false;
 	sys::$db = $link;
     if (!sql_query("set names 'utf8', sql_mode = ''")) return false;
   } else if (SETUP_DB_TYPE=="pgsql") {
@@ -2134,8 +2085,8 @@ function sql_translate($sql) {
 function sql_query($sql) {
   if ($sql=="") return true;
   if (DEBUG_SQL and !sys_strbegins($sql,"select ") and !strpos($sql,"simple_sys_stats")) debug_sql("INFO ".$sql,"");
-  if (SETUP_DB_TYPE=="mysql") {
-    return mysql_query($sql,sys::$db);
+  if (SETUP_DB_TYPE=="mysqli") {
+    return mysqli_query(sys::$db,$sql);
   } else if (SETUP_DB_TYPE=="pgsql") {
     return @pg_query(sys::$db,$sql);
   } else if (SETUP_DB_TYPE=="sqlite") {
@@ -2148,10 +2099,10 @@ function sql_fetch($sql,$one=false) {
   $data = array();
   if ($sql=="") return true;
   if (!$result = sql_query($sql)) return false;
-  if (SETUP_DB_TYPE=="mysql") {
-    if (@mysql_num_rows($result)==0) return array();
-    while (($row = mysql_fetch_assoc($result))) $data[] = $row;
-    mysql_free_result($result);
+  if (SETUP_DB_TYPE=="mysqli") {
+    if (mysqli_num_rows($result)==0) return array();
+    while (($row = mysqli_fetch_assoc($result))) $data[] = $row;
+    mysqli_free_result($result);
   } else if (SETUP_DB_TYPE=="pgsql") {
     if (pg_num_rows($result)==0) return array();
     while (($row = pg_fetch_assoc($result))) $data[] = $row;
@@ -2165,9 +2116,9 @@ function sql_fetch($sql,$one=false) {
 }
 
 function sql_error() {
-  if (SETUP_DB_TYPE=="mysql") {
-    if (!empty(sys::$db)) return mysql_errno(sys::$db)." ".mysql_error(sys::$db);
-	return mysql_errno()." ".mysql_error();
+  if (SETUP_DB_TYPE=="mysqli") {
+    if (!empty(sys::$db)) return mysqli_errno(sys::$db)." ".mysqli_error(sys::$db);
+	return mysqli_connect_errno()." ".mysqli_connect_error();
   } else if (SETUP_DB_TYPE=="pgsql") {
     if (!empty(sys::$db)) return pg_last_error(sys::$db);
 	return @pg_last_error();
@@ -2184,8 +2135,8 @@ function sql_fieldname($field,$blank=false) {
 }
 
 function sql_quote($str) {
-  if (SETUP_DB_TYPE=="mysql") {
-    return mysql_real_escape_string($str,sys::$db);
+  if (SETUP_DB_TYPE=="mysqli") {
+    return mysqli_real_escape_string(sys::$db, $str);
   } else if (SETUP_DB_TYPE=="pgsql") {
     return pg_escape_string($str);
   } else if (SETUP_DB_TYPE=="sqlite") {
@@ -2197,14 +2148,14 @@ function sql_quote($str) {
 function sql_genID($table) {
   if (strpos($table,"_nodb_")) return 0;
   $table = "simple_seq_".$table;
-  if (SETUP_DB_TYPE=="mysql") {
+  if (SETUP_DB_TYPE=="mysqli") {
     $next = sprintf("update %s set id=last_insert_id(id+1)",$table);
     if (!sql_query($next)) {
 	  sql_query(sprintf("create table %s (id numeric(10) default 0) ENGINE=MyISAM",$table));
 	  sql_query(sprintf("insert into %s values (0)",$table));
 	  sql_query($next);
     }
-    return mysql_insert_id(sys::$db);
+    return mysqli_insert_id(sys::$db);
   } else if (SETUP_DB_TYPE=="sqlite") {
 	if (!sql_query(sprintf("insert into %s values (null); delete from %s",$table,$table))) {
 	  sql_query(sprintf("create table %s (id integer primary key)",$table));
@@ -2402,7 +2353,6 @@ function sys_get_header($key) {
 }
 
 function sys_https() {
-  if (FORCE_SSL) return true;
   if (isset($_SERVER["HTTPS"]) and $_SERVER["HTTPS"]=="on") return true;
   return false;
 }
@@ -2907,7 +2857,7 @@ function sys_process_session_request() {
   if (!empty($_REQUEST["popup"]) and !empty($_REQUEST["iframe"])) unset($_REQUEST["iframe"]);
   if (!empty($_REQUEST["iframe"])) sys::$smarty->assign("iframe",1);
 
-  $keep_vars = array("popup","onecategory","preview","lookup","eto");
+  $keep_vars = array("popup","preview","lookup","eto");
   foreach ($keep_vars as $var) {
     if (empty($_REQUEST[$var])) continue;
 	sys::$urladdon .= "&".$var."=".$_REQUEST[$var];
@@ -3166,7 +3116,7 @@ function sys_array_combine($array_keys, $array_values) {
 function sys_log_stat($action,$weight) {
   if (empty($_SESSION["username"])) return;
   if ($weight==0) return;
-  db_insert("simple_sys_stats",array("id"=>sql_genID("simple_sys_stats")*100,"username"=>$_SESSION["username"], "loghour"=>sys_date("H"), "logday"=>sys_date("d"), "logweek"=>sys_date("W"), "logweekpart"=>floor((sys_date("w")*24+sys_date("H")+1)/6), "action"=>$action, "uri"=>substr(_sys_request_uri(),0,250),"weight"=>$weight),array("delay"=>true));
+  db_insert("simple_sys_stats",array("id"=>sql_genID("simple_sys_stats")*100,"username"=>$_SESSION["username"], "loghour"=>sys_date("H"), "logday"=>sys_date("d"), "logweek"=>sys_date("W"), "logweekpart"=>floor((sys_date("w")*24+sys_date("H")+1)/6), "action"=>$action, "uri"=>substr(_sys_request_uri(),0,250),"weight"=>$weight));
 }
 
 function sys_log_message_alert($component,$message) {

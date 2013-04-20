@@ -9,8 +9,7 @@ var hpane = 0;
 var vpane = 0;
 var pane = 0.52;
 var pane2 = 0.27;
-var tree_width = 235;
-var tree_min = 180;
+var tree_width = 250;
 var tree_scroll_pos = 0;
 var pane_timer = null;
 var refresh_timer = null;
@@ -42,15 +41,11 @@ if (iframe && !popup && window==top.window && document.location.href.indexOf("&i
   document.location.href = document.location.href.replace("&iframe=1","");
 }
 
-var re = /tree_scroll_pos=(.*?)&tree_width=(.*?)&pane=(.*?)&pane2=(.*?)~/;
+var re = /tree_scroll_pos=(.*?)&pane=(.*?)&pane2=(.*?)~/;
 if ((m = re.exec(document.cookie))) {
   tree_scroll_pos = m[1];
-  tree_width = m[2];
-  if (tree_width <= tree_min) tree_width = tree_min + 6;
   pane = m[3];
   pane2 = m[4];
-} else {
-  if (screen_width>1024) tree_width = 250;
 }
 window.onbeforeunload = function(){
   if (form_changed(getObj("asset_form"))) return "";
@@ -117,7 +112,7 @@ function is_nested_target(event, obj) {
 function tree(show) {
   if (!getObj("tree")) return;
   if (show) {
-    tree_width = 235;
+    tree_width = 250;
     show2("tree");
   } else {
     tree_width = -2;
@@ -190,7 +185,7 @@ function keys(ev) {
 
   if (ev.keyCode=="38" || ev.keyCode=="40" || ev.keyCode=="33" || ev.keyCode=="34") {
     var objs = getObjs(".drop_tree");
-	var func_timer = function(){ locate_folder(escape(attr(keys_hl, "rel"))); };
+    var func_timer = function(){ locate_folder(escape(attr(keys_hl, "rel"))); };
     for (var i=0; i<objs.length; i++) {
       var find = keys_hl ? attr(keys_hl, "rel") : tfolder;
       if (attr(objs[i], "rel")!=find) continue;
@@ -209,7 +204,6 @@ function keys(ev) {
 } } }
 
 function start() {
-  if (!sys.browser) return;
   if (!popup && !iframe && !preview && tree_visible) drawmenu();
   if (debug_js) eval(unescape(document.location.hash.substring(1)));
   if (sys.menu_autohide || sys.tree_autohide) hide_layout();
@@ -258,10 +252,10 @@ function start() {
   }
   if (!preview && !iframe) {
     objs = getObjs(".hide_fields");
-	var func_over2 = function(event){
+    var func_over2 = function(event){
       css(this.getElementsByTagName("a"), "visibility", "visible");
     };
-	var func_out2 = function(event){
+    var func_out2 = function(event){
       css(this.getElementsByTagName("a"), "visibility", "hidden");
     };
     for (i=0; i<objs.length; i++) {
@@ -285,7 +279,6 @@ function start() {
   document.onkeydown=keys;
   bind_drop_tree();
   bind_drop_files();
-  auto_scroll_tree(tfolder);
   objs = getObjs(".onload");
   for (i=0; i<objs.length; i++) {
     objs[i].func = new Function("", attr(objs[i], "onload"));
@@ -307,7 +300,7 @@ function auto_scroll_tree(obj) {
 
 function bind_drop_files() {
   // HTML5 drag and drop file upload
-  if (!/Firefox|Chrome|Safari/.test(navigator.userAgent)) return;
+  if (!/Firefox|Chrome|Safari|Opera/.test(navigator.userAgent)) return;
   document.ondragover = document.ondrop = function(event){ event.preventDefault(); };
   show(".file_upload_text");
   var objs = getObjs(".file_upload");
@@ -717,7 +710,7 @@ function display_images() {
 
 function save_cookie() {
   tree_scroll_pos = getObj("tree_def").scrollTop;
-  document.cookie = "tree_scroll_pos="+tree_scroll_pos+"&tree_width="+tree_width+"&pane="+pane+"&pane2="+pane2+"~";
+  document.cookie = "tree_scroll_pos="+tree_scroll_pos+"&pane="+pane+"&pane2="+pane2+"~";
 }
 
 function notify(str, warn) {
@@ -763,13 +756,14 @@ function resizeit() {
     show2("pane_close");
     hide("tab_spacer");
   }
-  if (sys.browser.no_scrollbar) return;
+  if (sys.is_mobile) return;
   
   var content_def = getObj("content_def");
   var tree_frame = getObj("tree_frame");
   
   var height_obj;
   if (tree_frame) {
+    tree_width = tree_frame.offsetWidth+17;
     height_obj = findPosY(tree_frame);
     var tree_def = getObj("tree_def");
     tree_frame.style.height = (height-height_obj-1)+"px";
@@ -785,25 +779,21 @@ function resizeit() {
     if (vpane > 1 && hpane > 1) getObj("pane").style.width = content_def.style.width;
   }
 
-  var fixed_footer = getObj("fixed_footer");
   if (content_def) {
     height_obj = findPosY(content_def);
     var content_def_table = getObj("content_def_table");
     var height2 = height;
-    if (fixed_footer) height2 -= fixed_footer.offsetHeight;
     if (hpane > 1) height2 = Math.floor(height*pane);
     if (!sys.is_mobile) content_def.style.height = (height2-height_obj-1)+"px";
     content_def_table.style.height = (height2-height_obj-1)+"px";
   }
-  
-  var height3 = fixed_footer ? fixed_footer.offsetHeight+1 : 0;
   if (hpane > 1) {
     var obj_pane = getObj("pane");
-     obj_pane.style.height = (height-findPosY(obj_pane)-height3)+"px";
+     obj_pane.style.height = (height-findPosY(obj_pane))+"px";
   }
   if (vpane > 1) {
     var obj_pane2 = getObj("pane2");
-    obj_pane2.style.height = (height-findPosY(obj_pane2)-height3)+"px";
+    obj_pane2.style.height = (height-findPosY(obj_pane2))+"px";
   }
   if (tree_frame) {
     tree_scroll(tree_scroll_pos);
@@ -987,18 +977,6 @@ function customize_field() {
 
 function ______G_U_I__T_R_E_E______() {}
 
-function tree_drag_resize(event) {
-  if (getObj("tree").style.display=="none") return;
-  cancel(event);
-  if (!event) event = window.event;
-  var screen_width = return_width();
-  tree_width = event.clientX+6;
-  if (css_conf.direction) tree_width = screen_width-tree_width+12;
-  if (tree_width > screen_width*0.5) tree_width = screen_width*0.5;
-  save_cookie();
-  if (tree_width < tree_min) tree_showhide(); else resizeit();
-}
-
 function folder_selectall(checked) {
   var objs = getObj("tcategories").getElementsByTagName("input");
   if (objs.length>0) {
@@ -1034,24 +1012,56 @@ function tree_open(id) {
         for (j=0; j <= data.level; j++) out += "<img src='ext/icons/line.gif'>";
         if (item.ffcount + item.mp === 0) img = "line";
         out += "<a onclick='tree_open(\""+item.id+"\");'><img id='"+item.id+"_img' src='ext/icons/"+img+".gif'></a>&nbsp;";
-        out += "<a href='index.php?folder="+item.id+"' "+(item.id==tfolder?"style='font-weight:bold;'":"")+">";
-
+        out += "<a href='index.php?"+urladdon+"&folder="+item.id+"' "+(item.id==tfolder?"style='font-weight:bold;'":"")+">";
         if (item.icon) {
-          out += "<a href='index.php?folder="+item.id+"' "+(item.id==tfolder?"style='font-weight:bold;'":"")+"><img src='ext/modules/"+item.icon+"'> ";
+          out += "<img src='ext/modules/"+item.icon+"'> ";
         } else if (css_conf.tree_icons) {
           if (item.anchor && item.anchor.indexOf("_")==-1) icon = "anchor_"+item.anchor; else icon = item.ftype;
-          out += "<a href='index.php?folder="+item.id+"' "+(item.id==tfolder?"style='font-weight:bold;'":"")+"><img src='ext/modules/"+icon+".png'> ";
+          out += "<img src='ext/modules/"+html_escape(icon)+".png'> ";
         } else {
           out += "<img src='ext/cache/folder1_"+sys_style+".gif'> ";
         }
-        out += html_escape(item.ftitle)+"&nbsp;";
-        if (item.fcount > 0) out += "("+item.fcount+")";
+        out += html_escape(item.ftitle)+"&nbsp;" + (item.fcount > 0 ? "("+item.fcount+")" : "");
         out += "</a></div><div id='"+item.id+"' style='display:none;'></div>";
       }
       if (out!=="") obj2.src = "ext/icons/minus.gif"; else obj2.src = "ext/icons/line.gif";
       show(obj);
       obj.innerHTML = out;
       bind_drop_tree();
+      resizeit();
+    });
+  }
+}
+
+function tree_get_folders_by_type(type, id) {
+  var obj = getObj(id);
+  if (obj.innerHTML.length > 0 && obj.rel==type) {
+    obj.style.display = "none";
+    obj.innerHTML = "";
+  } else {
+    obj.rel = type;
+    ajax("tree_get_folders_by_type", [type], function(data) {
+      var out = "";
+      for (var i in data) {
+        var item = data[i];
+        if (!item.id) continue;
+        item.id = html_escape(item.id);
+        item.fdescription = item.id.replace(/^.+:\d+\//, "") + " " + item.fdescription;
+        out += "<div title='"+html_escape(item.fdescription)+"' style='padding-left:3px; padding-top:5px; white-space:nowrap;'>";
+        out += "<a href='index.php?"+urladdon+"&folder="+item.id+"&view="+tview+"' "+(item.id==tfolder?"style='font-weight:bold;'":"")+">";
+        if (item.icon) {
+          out += "<img src='ext/modules/"+item.icon+"'> ";
+        } else if (css_conf.tree_icons) {
+          if (item.anchor && item.anchor.indexOf("_")==-1) icon = "anchor_"+item.anchor; else icon = item.ftype;
+          out += "<img src='ext/modules/"+html_escape(icon)+".png'> ";
+        } else {
+          out += "<img src='ext/cache/folder1_"+sys_style+".gif'> ";
+        }
+        out += html_escape(item.path)+"&nbsp;" + (item.fcount > 0 ? "("+item.fcount+")" : "") + "</a></div>";
+      }
+      show(obj);
+      obj.innerHTML = out;
+      resizeit();
     });
   }
 }
@@ -1260,23 +1270,6 @@ function show_pane2() {
    show2("content_pane2");
    resizeit();
   }
-}
-
-function stop_drag() {
-  var obj = getObj("pane");
-  if (obj) obj.style.visibility="";
-  document.onmousemove=null;
-  document.onmouseup=null;
-  document.onmousedown=null;
-  document.onselectstart=null;
-}
-
-function start_drag(func) {
-  getObj("tree").style.width="auto"; // IE
-  document.onmousemove=func;
-  document.onmouseup=stop_drag;
-  document.onmousedown=function(){ return false; };
-  document.onselectstart=function(){ return false; };
 }
 
 function resize_pane2(event) {

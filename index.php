@@ -27,15 +27,11 @@ if (!defined("SETUP_DB_HOST")) exit;
 
 if (!empty($_POST)) @ignore_user_abort(1);
 
-if (FORCE_SSL and (!isset($_SERVER["HTTPS"]) or $_SERVER["HTTPS"]!="on")) {
-  header("Location: https://".$_SERVER["HTTP_HOST"].$_SERVER["SCRIPT_NAME"]."?".@$_SERVER["QUERY_STRING"]);
-  exit;
-}
 if (!empty($_SERVER["PATH_INFO"]) and $_SERVER["PATH_INFO"]!=$_SERVER["SCRIPT_NAME"] and !strpos($_SERVER["PATH_INFO"],".exe")) {
   header("Location: http://".$_SERVER["HTTP_HOST"].$_SERVER["SCRIPT_NAME"]);
   exit;
 }
-if (CHECK_DOS and !SETUP_AUTH_NTLM_SSO and !DEBUG) pre_sys_checkdos();
+if (CHECK_DOS and !DEBUG) pre_sys_checkdos();
 
 require("core/functions.php");
 require("lib/smarty/Smarty.class.php");
@@ -47,8 +43,7 @@ if (empty($_SERVER["SERVER_ADDR"])) $_SERVER["SERVER_ADDR"]="127.0.0.1";
 if (!isset($_SERVER["HTTP_USER_AGENT"])) $_SERVER["HTTP_USER_AGENT"]="mozilla/5 rv:1.4";
 if (!isset($_SERVER["SERVER_SOFTWARE"])) $_SERVER["SERVER_SOFTWARE"]="Apache";
 
-if (!defined("NOCONTENT") and !login_browser_detect() and !DEBUG and empty($_REQUEST["export"])) sys_die(t("{t}Browser not supported{/t}").": ".sys::$browser["str"],login::browser_detect_toString());
-
+browser_detect();
 sys::init();
 
 if (!defined("NOCONTENT")) {

@@ -30,7 +30,7 @@ static function form_render_value($name, $value, $smarty) {
 	</script>
 EOT;
 
-  if ($smarty->sys["browser"]["is_mobile"]) {
+  if ($smarty->sys["is_mobile"]) {
 	$output = $init.<<<EOT
     <div style="padding-bottom:2px;">
 	  <input type="button" value="{t}Preview{/t}" onclick="htmlarea_preview('{$name}');">&nbsp;

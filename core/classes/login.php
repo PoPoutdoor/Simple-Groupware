@@ -54,7 +54,6 @@ static function validate_login($username,$password) {
 	  if (SETUP_AUTH_AUTOCREATE) self::create_user($username);
 	  break;
 	case "ntlm":
-	  if ($username=="_invalid") $username = "";
 	  if (!self::validate_login_ntlm($username,$password)) return false;
 	  $username = $_SERVER["REMOTE_USER"];
 	  if (SETUP_AUTH_AUTOCREATE) self::create_user($username);
@@ -129,45 +128,31 @@ static function validate_login_smtp($username,$password) {
 static function validate_login_ntlm($username,$password) {
   if (!function_exists("java_get_base")) require("lib/java/java.php");
   if (!function_exists("java_require")) {
-    sys_log_message_alert("login",sprintf("{t}%s is not compiled / loaded into PHP.{/t}","PHP/Java Bridge"));
+    sys_log_message_alert("login", sprintf("{t}%s is not compiled / loaded into PHP.{/t}","PHP/Java Bridge"));
 	return false;
   }
   java_require("jcifs-1.3.8_tb.jar");
   $conf = new JavaClass("jcifs.Config");
 
   $conf->setProperty("jcifs.smb.client.responseTimeout", "5000");
-  $conf->setProperty("jcifs.resolveOrder","LMHOSTS,DNS");
-  $conf->setProperty("jcifs.smb.client.soTimeout","10000");
+  $conf->setProperty("jcifs.resolveOrder", "LMHOSTS,DNS");
+  $conf->setProperty("jcifs.smb.client.soTimeout", "10000");
   $conf->setProperty("jcifs.smb.lmCompatibility", "0");
   $conf->setProperty("jcifs.smb.client.useExtendedSecurity", false);
 
   $auth = sys_get_header("Authorization");
-  if (empty($auth) and $username=="") {
-    header("WWW-Authenticate: NTLM");
-	$_REQUEST["logout"] = true;
-	return false;
-  }
   $session = new JavaClass("jcifs.smb.SmbSession");
-  if (!empty($auth) and $username=="") {
-    $result = $session->loginNtlm(SETUP_AUTH_HOSTNAME_NTLM,$auth);
-  } else {
-	$result = new Java("jcifs.smb.NtlmPasswordAuthentication","",$username,$password);
-  }
-  if (is_string(java_values($result))) {
-    header("WWW-Authenticate: NTLM ".$result);
-	header("HTTP/1.0 401 Unauthorized");
-	exit;
-  }
+  $result = new Java("jcifs.smb.NtlmPasswordAuthentication", "", $username, $password);
   $username = $result->getUsername();
   if (SETUP_AUTH_NTLM_SHARE) {
-	$w = new Java("jcifs.smb.SmbFile",SETUP_AUTH_NTLM_SHARE,$result);
+	$w = new Java("jcifs.smb.SmbFile", SETUP_AUTH_NTLM_SHARE, $result);
 	$message = $w->canListFiles();
 	if ($message == "Invalid access to memory location.") {
 	  header("Location: index.php");
 	  exit;
 	}
   } else {
-    $message = $session->logon(SETUP_AUTH_HOSTNAME_NTLM,$result);
+    $message = $session->logon(SETUP_AUTH_HOSTNAME_NTLM, $result);
   }
   if ($message!="" or $username=="") {
 	sys_log_message_alert("login",sprintf("{t}Login failed from %s.{/t} (ntlm) ({t}Username{/t}: %s, %s)",_login_get_remoteaddr(),$username,$message));
@@ -251,26 +236,23 @@ static function show_login() {
   if (isset($_COOKIE[SESSION_NAME])) unset($_COOKIE[SESSION_NAME]);
   if (!defined("NOCONTENT") and empty($_REQUEST["iframe"])) {
     define("NOCONTENT",true);
-	if (sys::$browser["str"]!="unknown") {
-	  $tpl = new template();
-	  $tpl->browser = sys::$browser;
-	  if (!empty($_REQUEST["view"])) $tpl->view = $_REQUEST["view"];
-	  if (!empty($_REQUEST["find"])) $tpl->find = "&find=".$_REQUEST["find"];
-	  if (!empty($_REQUEST["folder"])) $tpl->folder = $_REQUEST["folder"];
-      if (!empty($_REQUEST["folder2"]) and !empty($_REQUEST["view2"])) {
-        $tpl->folder = $_REQUEST["folder2"];
-		$tpl->view = $_REQUEST["view2"];
-      }
-      if (isset($_REQUEST["item"]) and is_array($_REQUEST["item"]) and count($_REQUEST["item"])>0) {
-		$tpl->item = "&item[]=".implode("&item[]=",$_REQUEST["item"]);
-	  }
-	  if (!empty($_REQUEST["page"])) $tpl->page = "&page=".$_REQUEST["page"];
-	  $output = ob_get_contents();
-	  ob_end_clean();
-	  if ($output!="") sys::$alert[] = $output;
-      if (sys::$alert) $tpl->alert = sys::$alert;
-	  exit($tpl->render("templates/login.php"));
+	$tpl = new template();
+	if (!empty($_REQUEST["view"])) $tpl->view = $_REQUEST["view"];
+	if (!empty($_REQUEST["find"])) $tpl->find = "&find=".$_REQUEST["find"];
+	if (!empty($_REQUEST["folder"])) $tpl->folder = $_REQUEST["folder"];
+    if (!empty($_REQUEST["folder2"]) and !empty($_REQUEST["view2"])) {
+      $tpl->folder = $_REQUEST["folder2"];
+	  $tpl->view = $_REQUEST["view2"];
+    }
+    if (isset($_REQUEST["item"]) and is_array($_REQUEST["item"]) and count($_REQUEST["item"])>0) {
+	  $tpl->item = "&item[]=".implode("&item[]=",$_REQUEST["item"]);
 	}
+	if (!empty($_REQUEST["page"])) $tpl->page = "&page=".$_REQUEST["page"];
+	$output = ob_get_contents();
+	ob_end_clean();
+	if ($output!="") sys::$alert[] = $output;
+    if (sys::$alert) $tpl->alert = sys::$alert;
+	exit($tpl->render("templates/login.php"));
   }
   if ($_SERVER["REQUEST_METHOD"]=="PROPFIND") {
 	sys_log_message_log("login",sprintf("{t}No username/password.{/t} (Basic Auth) %s %s",_login_get_remoteaddr(),$_SERVER["HTTP_USER_AGENT"]));
@@ -366,7 +348,7 @@ static function process_login($username,$password="") {
   }
   if ($id or isset($_REQUEST["login"])) {
     sys_log_stat("logins",1);
-    sys_log_message_log("login",sprintf("{t}login %s from %s with %s{/t}",$_SESSION["username"],$_SESSION["ip"],sys::$browser["str"]));
+    sys_log_message_log("login",sprintf("{t}login %s from %s with %s{/t}",$_SESSION["username"],$_SESSION["ip"],sys::$browser));
   }
   trigger::login();
 
@@ -422,20 +404,5 @@ static function process_logout() {
 private static function _redirect($url) {
   session_write_close();
   sys_redirect($url);
-}
-
-static function browser_detect_toString() {
-  return "
-	{t}Browser Compatibility{/t}:
-	
-	Firefox: 3.0 {t}or higher{/t}
-	Chrome: 
-	Safari: 3.0 {t}or higher{/t}
-	Opera: 9.0 {t}or higher{/t}
-	Konqueror: 3.2 {t}or higher{/t}
-	Internet Explorer 7.0 {t}or higher{/t}
-	
-	User-Agent: {$_SERVER["HTTP_USER_AGENT"]}
-  ";
 }
 }

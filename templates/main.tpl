@@ -6,6 +6,7 @@
  *}
 {if $print eq 1}{assign var="sys_style" value="core"}{/if}
 {config_load file="core_css.conf" section=$sys_style}
+<!doctype html>
 <html>
 <head>
 {if $iframe}<base target="_blank">{/if}
@@ -20,7 +21,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="generator" content="Simple Groupware  {$sys.version_str}" />
 <meta name="viewport" content="initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0;" />
-<link media="all" href="ext/cache/core_{$sys_style}_{$sys.browser.name}.css?{$smarty.const.CORE_VERSION}" rel="stylesheet" type="text/css" />
+<link media="all" href="ext/cache/core_{$sys_style}.css?{$smarty.const.CORE_VERSION}" rel="stylesheet" type="text/css" />
 {if $t.load_css}<link media="all" href="{$t.load_css}" rel="stylesheet" type="text/css" />{/if}
 {if $t.load_js}<script type="text/javascript" src="{$t.load_js}"></script>{/if}
 {if !$iframe}
@@ -33,7 +34,7 @@
 	<link rel="alternate" type="application/atom+xml" title="{t}Feed{/t}" href="index_php?folder={$t.folder}&view={$t.view}&export=rss&username=&password=">
   {/if}
 {/if}
-{if $sys.browser.comp.javascript && !$print && !$sys.browser.no_scrollbar}
+{if !$print && !$sys.is_mobile}
 <style>body {ldelim}overflow-y:hidden; overflow:hidden;{rdelim}</style>
 {/if}
 {if $print}<style>.noprint {ldelim}display: none;{rdelim}</style>{/if}
@@ -68,9 +69,6 @@
   {if count($t.warning) eq 1}warning = "{$t.warning|@array_shift|truncate:100|regex_replace:"/[\r\n]/":" "}";
   {elseif count($t.notification) eq 1}notification = "{$t.notification|@array_shift|regex_replace:"/[\r\n]/":" "}";{/if}
 </script>
-{if ($sys.browser.name neq "firefox" || $sys.browser.ver lt 35) && ($sys.browser.name neq "safari" || $sys.browser.ver lt 530)}
-  <script type="text/javascript" src="ext/lib/json/json.js"></script>
-{/if}
 <script type="text/javascript" src="ext/cache/functions_{$smarty.const.LANG}.js?{$smarty.const.CORE_VERSION}"></script>
 </head>
 <body {if $print eq 1}onload="window.print();"{/if} onresize="resizeit();">
@@ -86,7 +84,7 @@
 
 <div id="main" style="{if !$iframe}margin-top:2px;{/if}">
 
-<div id="login_reminder" class="hidden" style="text-align:center;">
+<div id="login_reminder" style="text-align:center; display:none;">
   {t}Your session has timed out.{/t}<br>
   <form method="post" target="login_iframe" action="index.php?" onsubmit="hide('login_reminder'); show('login');">
 	<input type="hidden" name="loginform" value="true">
@@ -130,7 +128,7 @@
 	  <table id="content_def_table" border="0" cellpadding="0" cellspacing="0" style="width:100%; height:100%;">
 	  <tr><td valign="top">
 	  {if count($t.notification)>0}
-		<table cellspacing="0" class="data" align="center" border="0" style="{if $sys.browser.is_mobile}width:auto;{else}width:40%;{/if} margin-top:4px;">
+		<table cellspacing="0" class="data" align="center" border="0" style="{if $sys.is_mobile}width:auto;{else}width:40%;{/if} margin-top:4px;">
 		<tr class="id"><td>{t}Notification{/t}</td></tr>
 		{foreach item=item from=$t.notification}
 		  <tr class="summary"><td style="text-align:center;"><div class="default10">{$item}</div></td></tr>
@@ -138,7 +136,7 @@
 		</table>
 	  {/if}
 	  {if count($t.warning)>0}
-		<table cellspacing="0" class="data" align="center" border="0" style="{if $sys.browser.is_mobile}width:auto;{else}width:40%;{/if} margin-top:4px;">
+		<table cellspacing="0" class="data" align="center" border="0" style="{if $sys.is_mobile}width:auto;{else}width:40%;{/if} margin-top:4px;">
 		<tr class="id"><td>{t}Warning{/t}</td></tr>
 		{foreach item=item from=$t.warning}
 		  <tr class="summary"><td style="text-align:center;"><div class="default10">{$item}</div></td></tr>
@@ -185,13 +183,6 @@
 		  <div onmousedown="start_drag(resize_pane);" class="pane_spacer"></div>
 		  <iframe name="pane" id="pane" src="about:blank" onload="show_pane();" style="width:100%; height:100%; border:1px;"></iframe>
 	    </div>
-	  {/if}
-	  {if $sys.fixed_footer}
-	  <div id="fixed_footer" style="padding-top:1px;">
-		{$smarty.capture.footer|no_check}
-		{$smarty.capture.filters|no_check}
-		{$smarty.capture.pages|no_check}
-	  </div>
 	  {/if}
 	</td>
   </tr>

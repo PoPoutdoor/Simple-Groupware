@@ -5,7 +5,7 @@ Simple Groupware & CMS is an open source enterprise groupware.
 It offers email, calendaring, contacts, tasks, document management, project management, synchronization with Outlook and cell phones, full-text search, extensions and many more.
 
 Simple Groupware is a free web based groupware solution written in PHP.
-It combines standards like RSS, iCalendar, vCard, IMAP, POP3, SMTP, CIFS, CSV, WebDAV, LDAP and SyncML under one platform.
+It combines standards like RSS, iCalendar, vCard, IMAP, POP3, SMTP, CIFS, CSV, LDAP and SyncML under one platform.
 Unlike other groupware software, Simple Groupware contains the programming language sgsML to enable the quick customization and creation of powerful web applications.
 Simple Groupware is Free Software, released under the GNU GPLv2 License.
 
