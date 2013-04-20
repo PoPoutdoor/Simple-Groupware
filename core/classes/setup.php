@@ -418,7 +418,6 @@ static function errors_show($phpinfo=false) {
   }
   echo '
 	<center>
-	<img src="http://www.simple-groupware.de/cms/logos.php/'.CORE_VERSION.'/'.PHP_VERSION.'" start="width:1px; height:1px;">
 	<div style="border-bottom: 1px solid #666666; letter-spacing: 2px; font-size: 18px; font-weight: bold;">Simple Groupware '.CORE_VERSION_STRING.' - Setup</div>
 	<br>{t}Error{/t}:<br>
 	<error>'.$msg.'</error><br>
