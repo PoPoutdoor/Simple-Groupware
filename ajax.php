@@ -10,6 +10,8 @@ define("MAIN_SCRIPT",basename(__FILE__));
 define("NOCONTENT",true);
 error_reporting(E_ALL);
 
+header("Content-Type: application/json; charset=utf-8");
+
 @include("simple_store/config.php");
 if (!defined("SETUP_DB_HOST")) exit;
 
@@ -58,7 +60,7 @@ if (!empty($_SERVER["HTTP_SOAPACTION"])) {
   $soap->handle();
 
 } else if ($_SERVER["HTTP_X_REQUESTED_WITH"]=="XMLHttpRequest") {
-  $func = $_REQUEST["function"];
+  $func = filter_var($_REQUEST["function"], FILTER_SANITIZE_STRING);
   if ($func=="type_pmwikiarea::ajax_render_preview") require("lib/pmwiki/pmwiki.php");
 
   if ((strpos($func,"_ajax::") or strpos($func,"::ajax_")) and substr_count($func,"::")==1) {
@@ -71,7 +73,6 @@ if (!empty($_SERVER["HTTP_SOAPACTION"])) {
   } else {
     $params = json_decode(file_get_contents("php://input"),true);
   }
-  header("Content-Type: application/json; charset=utf-8");
   echo json_encode(call_user_func_array(array($class, $func), $params));
 
   if (!empty($_SESSION["notification"]) or !empty($_SESSION["warning"])) ajax::session_save();
