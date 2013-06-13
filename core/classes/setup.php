@@ -409,15 +409,12 @@ static function error_add($msg,$id=0) {
 
 static function errors_show($phpinfo=false) {
   if (count(self::$errors)==0) return;
-  $err = "";
   $msg = "";
   foreach (self::$errors as $message) {
     $msg .= str_replace("\n","<br>",q($message[0]))."<br>";
-	$err .= $message[1]."_";
   }
   echo '
 	<center>
-	<img src="http://www.simple-groupware.de/cms/logos.php?v='.CORE_VERSION.'&d='.PHP_VERSION.'_'.PHP_OS.'&e='.$err.'" start="width:1px; height:1px;">
 	<div style="border-bottom: 1px solid #666666; letter-spacing: 2px; font-size: 18px; font-weight: bold;">Simple Groupware '.CORE_VERSION_STRING.' - Setup</div>
 	<br>{t}Error{/t}:<br>
 	<error>'.$msg.'</error><br>

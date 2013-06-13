@@ -40,12 +40,12 @@ define("VIRUS_SCANNER","");
 if (strpos(PHP_OS,"WIN")!==false) $sep = ";"; else $sep = ":";
 $include_path = explode($sep,ini_get("include_path"));
 if (!in_array(".",$include_path)) {
-  setup_exit(sprintf("Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !","include_path",".".$sep.implode($sep,$include_path),ini_get("include_path")),1);
+  setup_exit(sprintf("Please modify your php.ini or add an .htaccess file changing the setting '%s' to '%s' (current value is '%s') !","include_path",".".$sep.implode($sep,$include_path),ini_get("include_path")));
 }
 
 $phpversion = "5.3.0";
 if (version_compare(PHP_VERSION, $phpversion, "<")) {
-  setup_exit(sprintf("Setup needs php with at least version %s ! (".PHP_VERSION.")",$phpversion),3);
+  setup_exit(sprintf("Setup needs php with at least version %s ! (".PHP_VERSION.")",$phpversion));
 }
 if (!ini_get('date.timezone')) {
   date_default_timezone_set(@date_default_timezone_get());
@@ -77,14 +77,14 @@ if (empty($_SERVER["SERVER_ADDR"])) $_SERVER["SERVER_ADDR"]="127.0.0.1";
 // setup::build_customizing(SIMPLE_CUSTOM."customize.php");
 setup::dirs_create_default_folders();
 if (isset($_REQUEST["install"]) and isset($_REQUEST["accept_gpl"]) and $_REQUEST["accept_gpl"]=="yes") {
-  install($databases);
+  install();
 } else if (!empty($_REQUEST["lang"])) {
   setup::show_form($databases, !empty($_REQUEST["install"]), !empty($_REQUEST["accept_gpl"]));
 } else {
   setup::show_lang();
 }
 
-function install($databases) {
+function install() {
   setup::out('
     <html>
     <head>
@@ -108,10 +108,8 @@ function install($databases) {
   $_SESSION["permission_sql_write"] = "1=1";
 
   define("SETUP_DB_TYPE",$_REQUEST["db_type"]);
-  $version = setup::validate_input($databases);  
   $update = sgsml_parser::table_column_exists("simple_sys_tree","id");
-  setup::out('<img src="http://www.simple-groupware.de/cms/logo.php?v='.CORE_VERSION.'&u='.(int)$update.'1&p='.PHP_VERSION.'_'.PHP_OS.'&d='.
-	SETUP_DB_TYPE.$version.'" style="width:1px; height:1px;">',false);
+  setup::out('<img src="http://www.simple-groupware.de/cms/logo.php/'.CORE_VERSION.'/'.SETUP_DB_TYPE.'/'.PHP_VERSION.'/'.(int)$update.'" style="width:1px; height:1px;">',false);
 
   setup::out(t("{t}Processing %s ...{/t}","schema updates"));
   setup_update::change_database_pre();
@@ -179,10 +177,9 @@ function install($databases) {
   db_optimize_tables();
 }
 
-function setup_exit($str,$err) {
+function setup_exit($str) {
   echo '
     <html><body><center>
-	<img src="http://www.simple-groupware.de/cms/logos.php?v='.CORE_VERSION.'&d='.PHP_VERSION.'_'.PHP_OS.'&e='.$err.'" start="width:1px; height:1px;">
     <div style="border-bottom: 1px solid black; letter-spacing: 2px; font-size: 18px; font-weight: bold;">Simple Groupware '.CORE_VERSION_STRING.' - Setup</div>
 	<br><div>'.t("{t}Error{/t}").':</div>
 	<error>'.htmlspecialchars($str, ENT_QUOTES).'</error><br><br>
